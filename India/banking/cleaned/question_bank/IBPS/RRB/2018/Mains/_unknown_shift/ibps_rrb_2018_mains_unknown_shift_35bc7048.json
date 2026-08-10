@@ -1,0 +1,3202 @@
+{
+  "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2018/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Paper-2018.pdf",
+    "sha256": "35bc7048e0c7b6c887104b41ac1c6c892e52034e59f5cdc578b5ec8fb274150c",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02133547/IBPS-RRB-PO-Mains-Paper-2018.pdf",
+    "source_filename": "IBPS-RRB-PO-Mains-Paper-2018.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2018,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 120,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "stem": "Who among the following likes fig?",
+      "options": {
+        "a": "G",
+        "b": "F",
+        "c": "C",
+        "d": "B",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "stem": "Which among the following pair of persons are the oldest and youngest respectively?",
+      "options": {
+        "a": "E, A",
+        "b": "F, C",
+        "c": "C, F",
+        "d": "B, D",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "stem": "In which of the following year was E born?",
+      "options": {
+        "a": "1968",
+        "b": "1950",
+        "c": "1961",
+        "d": "1985",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "stem": "Which of the following statement is true regarding F?",
+      "options": {
+        "a": "E was born before F",
+        "b": "F is the youngest",
+        "c": "the difference between the present ages of G and F is divisible by 3",
+        "d": "F likes guava",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "stem": "How many persons were born between A and E?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement: The State Government has decided to declare ‘Kala Azar’ as a notifiable disease under the Epidemics Act. Family members or neighbours of the patient are liable to be punished in case they did not inform the State authorities. Courses of action: I. Efforts should be made to effectively implement the Act. II. The cases of punishment should be propagated through mass media so that more people become aware of the stern actions.",
+      "options": {
+        "a": "If only I follow",
+        "b": "If only II follow",
+        "c": "If either I or II follow",
+        "d": "If neither I nor II follow",
+        "e": "If both I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 438,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement- Two companies A and B signed a deal in which both have agreed to not disclose any confidential details of their company to the rivals. Which of the following could be the reason of the legal notice sent by company B to company A for breaching the contract? I. Company A is unlawfully receiving more amount of profit without indulging company B in it. II. Company A is sharing the private data and details of company B for its own profit.",
+      "options": {
+        "a": "Only I is implicit",
+        "b": "Only II is implicit",
+        "c": "Either I or II is implicit",
+        "d": "Neither I nor II is implicit",
+        "e": "Both I and II are implicit"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 448,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q008",
+      "q_num": 8,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Ten people are seating on two parallel rows. P, Q, R, S and T are seating in row 1 and facing towards south. A, B, C, D and E are seating in row 2 and facing north. They like different Colors- pink, blue, black, yellow and orange. Two persons like same color such that one of them is in row 1 and the other is in row 2(i.e. both the persons who like Pink colour sit in different rows) R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink REASONING ABILITY in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black.",
+      "stem": "Who among the following likes blue in row 1?",
+      "options": {
+        "a": "P",
+        "b": "Q",
+        "c": "R",
+        "d": "S",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q009",
+      "q_num": 9,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Ten people are seating on two parallel rows. P, Q, R, S and T are seating in row 1 and facing towards south. A, B, C, D and E are seating in row 2 and facing north. They like different Colors- pink, blue, black, yellow and orange. Two persons like same color such that one of them is in row 1 and the other is in row 2(i.e. both the persons who like Pink colour sit in different rows) R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink REASONING ABILITY in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black.",
+      "stem": "How many persons sit between E and the one who likes black?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q010",
+      "q_num": 10,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Ten people are seating on two parallel rows. P, Q, R, S and T are seating in row 1 and facing towards south. A, B, C, D and E are seating in row 2 and facing north. They like different Colors- pink, blue, black, yellow and orange. Two persons like same color such that one of them is in row 1 and the other is in row 2(i.e. both the persons who like Pink colour sit in different rows) R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink REASONING ABILITY in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black.",
+      "stem": "Which of the following statement is true regarding S?",
+      "options": {
+        "a": "E faces S",
+        "b": "A likes same color as S",
+        "c": "D faces S",
+        "d": "B sits 3rd left to the one who faces S",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q011",
+      "q_num": 11,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Ten people are seating on two parallel rows. P, Q, R, S and T are seating in row 1 and facing towards south. A, B, C, D and E are seating in row 2 and facing north. They like different Colors- pink, blue, black, yellow and orange. Two persons like same color such that one of them is in row 1 and the other is in row 2(i.e. both the persons who like Pink colour sit in different rows) R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink REASONING ABILITY in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black.",
+      "stem": "Which of the following color is liked by R?",
+      "options": {
+        "a": "blue",
+        "b": "black",
+        "c": "orange",
+        "d": "yellow",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q012",
+      "q_num": 12,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Ten people are seating on two parallel rows. P, Q, R, S and T are seating in row 1 and facing towards south. A, B, C, D and E are seating in row 2 and facing north. They like different Colors- pink, blue, black, yellow and orange. Two persons like same color such that one of them is in row 1 and the other is in row 2(i.e. both the persons who like Pink colour sit in different rows) R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink REASONING ABILITY in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black.",
+      "stem": "Four of the following belongs to a group based on their seating arrangement find the one that does not belong to that group?",
+      "options": {
+        "a": "T",
+        "b": "C",
+        "c": "R",
+        "d": "B",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 124,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q013",
+      "q_num": 13,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. A person starts walking from A towards to reach B, which is 15m east to A. He then takes a right turn and walks 20 m to reach point C. From C, he takes left turn and walks15m to point D, then again he takes a left turn and walks 10m to point E. From E, he takes a left turn and walks 20m to reach point F. He then takes a right turn and walks 5m to reach G and finally takes a left turn to reach point H, which is 10 m away from G.",
+      "stem": "If J is 5m north to G, then what is the distance between A and J?",
+      "options": {
+        "a": "5m",
+        "b": "10m",
+        "c": "15m",
+        "d": "20m",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q014",
+      "q_num": 14,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. A person starts walking from A towards to reach B, which is 15m east to A. He then takes a right turn and walks 20 m to reach point C. From C, he takes left turn and walks15m to point D, then again he takes a left turn and walks 10m to point E. From E, he takes a left turn and walks 20m to reach point F. He then takes a right turn and walks 5m to reach G and finally takes a left turn to reach point H, which is 10 m away from G.",
+      "stem": "Four of the following five belongs to a group based on their directions find the one that does not belong to that group?",
+      "options": {
+        "a": "A, G",
+        "b": "F, C",
+        "c": "B, D",
+        "d": "H, F",
+        "e": "D, E"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q015",
+      "q_num": 15,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. A person starts walking from A towards to reach B, which is 15m east to A. He then takes a right turn and walks 20 m to reach point C. From C, he takes left turn and walks15m to point D, then again he takes a left turn and walks 10m to point E. From E, he takes a left turn and walks 20m to reach point F. He then takes a right turn and walks 5m to reach G and finally takes a left turn to reach point H, which is 10 m away from G.",
+      "stem": "How far is point A from point H?",
+      "options": {
+        "a": "5m",
+        "b": "10m",
+        "c": "15m",
+        "d": "20m",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q016",
+      "q_num": 16,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. A person starts walking from A towards to reach B, which is 15m east to A. He then takes a right turn and walks 20 m to reach point C. From C, he takes left turn and walks15m to point D, then again he takes a left turn and walks 10m to point E. From E, he takes a left turn and walks 20m to reach point F. He then takes a right turn and walks 5m to reach G and finally takes a left turn to reach point H, which is 10 m away from G.",
+      "stem": "Which of the following is the nearest point to X, which is the mid-point of BC?",
+      "options": {
+        "a": "E",
+        "b": "F",
+        "c": "C",
+        "d": "B",
+        "e": "H"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q017",
+      "q_num": 17,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If in the number 68942735, 1 is added to second, fourth, sixth and eighth digit and 1 is subtracted from the first, third, fifth and seventh digits, then how many digits are repeated in the new number thus formed?",
+      "options": {
+        "a": "5 and 9",
+        "b": "5 and 8",
+        "c": "6, 5 and 8",
+        "d": "9, 1 and 3",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 213,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q018",
+      "q_num": 18,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Which alphabet is 3rd from the left in the meaningful four letter word formed from the first, second, seventh and eighth letter of the word PRODUCTION? If more than one word is formed then mark answer as X and no meaningful word is formed then mark answer as Z.",
+      "options": {
+        "a": "T",
+        "b": "X",
+        "c": "P",
+        "d": "Z"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 261,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q019",
+      "q_num": 19,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the given questions. Nine persons A, B, C, D, E, F, G, H, I like different flowers tulip, lily, rose, lotus, sunflower, orchid, iris, Tithonian and Cosmos also each of them live in three different cities Patna, Surat and Mumbai. Not less than two and not more than four live in same cities. G lives with only the one who likes tulip. B lives with H and the one who likes Lotus D and F lives with the one who likes Sunflower. The one who likes Tithonian does not lives in Surat. The one who likes Lily and the one who likes Orchid live in the same city but not in Patna. Neither A nor H likes Tithonian. The one who likes Iris lives with A and I. E lives in Surat but does not like Lily. G does not live in Patna. H does not like Iris. A does not like Rose and Lotus. D does not like Orchid. The one who like Rose and the one who like Cosmos live in same city. Neither A nor I likes Sunflower.",
+      "stem": "Who among the following like Tulip?",
+      "options": {
+        "a": "C",
+        "b": "H",
+        "c": "B",
+        "d": "F",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q020",
+      "q_num": 20,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the given questions. Nine persons A, B, C, D, E, F, G, H, I like different flowers tulip, lily, rose, lotus, sunflower, orchid, iris, Tithonian and Cosmos also each of them live in three different cities Patna, Surat and Mumbai. Not less than two and not more than four live in same cities. G lives with only the one who likes tulip. B lives with H and the one who likes Lotus D and F lives with the one who likes Sunflower. The one who likes Tithonian does not lives in Surat. The one who likes Lily and the one who likes Orchid live in the same city but not in Patna. Neither A nor H likes Tithonian. The one who likes Iris lives with A and I. E lives in Surat but does not like Lily. G does not live in Patna. H does not like Iris. A does not like Rose and Lotus. D does not like Orchid. The one who like Rose and the one who like Cosmos live in same city. Neither A nor I likes Sunflower.",
+      "stem": "In Which of the following city D and E live respectively?",
+      "options": {
+        "a": "Mumbai and Surat",
+        "b": "Both in Patna",
+        "c": "Patna and Surat",
+        "d": "Both in Surat",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 57,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q021",
+      "q_num": 21,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the given questions. Nine persons A, B, C, D, E, F, G, H, I like different flowers tulip, lily, rose, lotus, sunflower, orchid, iris, Tithonian and Cosmos also each of them live in three different cities Patna, Surat and Mumbai. Not less than two and not more than four live in same cities. G lives with only the one who likes tulip. B lives with H and the one who likes Lotus D and F lives with the one who likes Sunflower. The one who likes Tithonian does not lives in Surat. The one who likes Lily and the one who likes Orchid live in the same city but not in Patna. Neither A nor H likes Tithonian. The one who likes Iris lives with A and I. E lives in Surat but does not like Lily. G does not live in Patna. H does not like Iris. A does not like Rose and Lotus. D does not like Orchid. The one who like Rose and the one who like Cosmos live in same city. Neither A nor I likes Sunflower.",
+      "stem": "A likes which of the following flower?",
+      "options": {
+        "a": "Lily",
+        "b": "Tithonian",
+        "c": "Cosmos",
+        "d": "Orchid",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q022",
+      "q_num": 22,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the given questions. Nine persons A, B, C, D, E, F, G, H, I like different flowers tulip, lily, rose, lotus, sunflower, orchid, iris, Tithonian and Cosmos also each of them live in three different cities Patna, Surat and Mumbai. Not less than two and not more than four live in same cities. G lives with only the one who likes tulip. B lives with H and the one who likes Lotus D and F lives with the one who likes Sunflower. The one who likes Tithonian does not lives in Surat. The one who likes Lily and the one who likes Orchid live in the same city but not in Patna. Neither A nor H likes Tithonian. The one who likes Iris lives with A and I. E lives in Surat but does not like Lily. G does not live in Patna. H does not like Iris. A does not like Rose and Lotus. D does not like Orchid. The one who like Rose and the one who like Cosmos live in same city. Neither A nor I likes Sunflower.",
+      "stem": "Four of the following are alike in a certain way so form a group which of the following does not belong to that group?",
+      "options": {
+        "a": "B",
+        "b": "H",
+        "c": "A",
+        "d": "F",
+        "e": "I"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 118,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q023",
+      "q_num": 23,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the given questions. Nine persons A, B, C, D, E, F, G, H, I like different flowers tulip, lily, rose, lotus, sunflower, orchid, iris, Tithonian and Cosmos also each of them live in three different cities Patna, Surat and Mumbai. Not less than two and not more than four live in same cities. G lives with only the one who likes tulip. B lives with H and the one who likes Lotus D and F lives with the one who likes Sunflower. The one who likes Tithonian does not lives in Surat. The one who likes Lily and the one who likes Orchid live in the same city but not in Patna. Neither A nor H likes Tithonian. The one who likes Iris lives with A and I. E lives in Surat but does not like Lily. G does not live in Patna. H does not like Iris. A does not like Rose and Lotus. D does not like Orchid. The one who like Rose and the one who like Cosmos live in same city. Neither A nor I likes Sunflower.",
+      "stem": "C lives with which among the following?",
+      "options": {
+        "a": "B and H",
+        "b": "D, F and E",
+        "c": "A, I and E",
+        "d": "Only G",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q024",
+      "q_num": 24,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each question below is given a statement followed by two assumptions numbered I and II. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer-",
+      "stem": "Statement: The ‘M’ Cooperative Housing Society has put up a notice at its gate that sales persons are not allowed inside the society. Assumptions: I. All the sales persons will stay away from the ‘M’ cooperative Housing Society. II. The security guard posted at the gate may be able to stop the sales persons entering the society.",
+      "options": {
+        "a": "If only assumption I is implicit.",
+        "b": "If only assumption II is implicit.",
+        "c": "If either I or II is implicit.",
+        "d": "If neither I nor II is implicit.",
+        "e": "If both I and II are implicit."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 330,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q025",
+      "q_num": 25,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each question below is given a statement followed by two assumptions numbered I and II. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer-",
+      "stem": "Statement: “If it does not rain throughout this month, most farmers would be in trouble this year.” Assumptions: I. Timely rain is essential for farming. II. Most farmers are generally dependent on rains.",
+      "options": {
+        "a": "If only assumption I is implicit.",
+        "b": "If only assumption II is implicit.",
+        "c": "If either I or II is implicit.",
+        "d": "If neither I nor II is implicit.",
+        "e": "If both I and II are implicit."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 204,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q026",
+      "q_num": 26,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information to answer the given questions: A word and number arrangement machine when given an input line of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 78 former 44 quicker colder 65 taller outer 27 8 Step I: cold former 44 quicker 65 taller outer 27 8 79 Step II: 9 cold former 44 quicker 65 outer 27 79 tall Step III: form 9 cold 44 quicker outer 27 79 tall 66 Step IV: 28 form 9 cold 44 quicker 79 tall 66 out Step V: quick 28 form 9 cold 79 tall 66 out 45 Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: warmer 76 94 scraper locker 11 greater 52 39 adopter",
+      "stem": "How many steps would be needed to complete the arrangement?",
+      "options": {
+        "a": "IV",
+        "b": "V",
+        "c": "VII",
+        "d": "VI",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q027",
+      "q_num": 27,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information to answer the given questions: A word and number arrangement machine when given an input line of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 78 former 44 quicker colder 65 taller outer 27 8 Step I: cold former 44 quicker 65 taller outer 27 8 79 Step II: 9 cold former 44 quicker 65 outer 27 79 tall Step III: form 9 cold 44 quicker outer 27 79 tall 66 Step IV: 28 form 9 cold 44 quicker 79 tall 66 out Step V: quick 28 form 9 cold 79 tall 66 out 45 Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: warmer 76 94 scraper locker 11 greater 52 39 adopter",
+      "stem": "What will the addition of the numbers which is third from the right end in step II and 2nd from the right end in step IV?",
+      "options": {
+        "a": "112",
+        "b": "210",
+        "c": "151",
+        "d": "116",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 121,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q028",
+      "q_num": 28,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information to answer the given questions: A word and number arrangement machine when given an input line of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 78 former 44 quicker colder 65 taller outer 27 8 Step I: cold former 44 quicker 65 taller outer 27 8 79 Step II: 9 cold former 44 quicker 65 outer 27 79 tall Step III: form 9 cold 44 quicker outer 27 79 tall 66 Step IV: 28 form 9 cold 44 quicker 79 tall 66 out Step V: quick 28 form 9 cold 79 tall 66 out 45 Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: warmer 76 94 scraper locker 11 greater 52 39 adopter",
+      "stem": "Which of the following would be the difference of the numbers which is 3rd from left end in step IV and 2nd from right end in Step II?",
+      "options": {
+        "a": "90",
+        "b": "83",
+        "c": "25",
+        "d": "10",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 134,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q029",
+      "q_num": 29,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information to answer the given questions: A word and number arrangement machine when given an input line of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 78 former 44 quicker colder 65 taller outer 27 8 Step I: cold former 44 quicker 65 taller outer 27 8 79 Step II: 9 cold former 44 quicker 65 outer 27 79 tall Step III: form 9 cold 44 quicker outer 27 79 tall 66 Step IV: 28 form 9 cold 44 quicker 79 tall 66 out Step V: quick 28 form 9 cold 79 tall 66 out 45 Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: warmer 76 94 scraper locker 11 greater 52 39 adopter",
+      "stem": "Which of the following element will be 6th to the left of 3rd from the right end in step V?",
+      "options": {
+        "a": "95",
+        "b": "adopt",
+        "c": "40",
+        "d": "scrap",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q030",
+      "q_num": 30,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information to answer the given questions: A word and number arrangement machine when given an input line of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 78 former 44 quicker colder 65 taller outer 27 8 Step I: cold former 44 quicker 65 taller outer 27 8 79 Step II: 9 cold former 44 quicker 65 outer 27 79 tall Step III: form 9 cold 44 quicker outer 27 79 tall 66 Step IV: 28 form 9 cold 44 quicker 79 tall 66 out Step V: quick 28 form 9 cold 79 tall 66 out 45 Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: warmer 76 94 scraper locker 11 greater 52 39 adopter",
+      "stem": "In which of the following step ’39 95 warm’ would be find in the same order?",
+      "options": {
+        "a": "Step V",
+        "b": "Step II and III",
+        "c": "Step II",
+        "d": "Step III and IV",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q031",
+      "q_num": 31,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the given questions. Seven members of a family are sitting in a row facing north. G is third from one of the ends. G’s mother is second to the right of G. G’s wife is immediate left of G. M is an immediate neighbour of G’s mother. B is third to the left of M. Only one person sit between D and M. D’s father sit second to the left of D. Only one person sit between L’s daughter and M. B is a male. B’s father is third to the left of L’s daughter. V is D’s son and Q is daughter-in-law of L. Q sits to the left of L.",
+      "stem": "How many persons are sitting between Q and L?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "More than three",
+        "d": "Two",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q032",
+      "q_num": 32,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the given questions. Seven members of a family are sitting in a row facing north. G is third from one of the ends. G’s mother is second to the right of G. G’s wife is immediate left of G. M is an immediate neighbour of G’s mother. B is third to the left of M. Only one person sit between D and M. D’s father sit second to the left of D. Only one person sit between L’s daughter and M. B is a male. B’s father is third to the left of L’s daughter. V is D’s son and Q is daughter-in-law of L. Q sits to the left of L.",
+      "stem": "How many persons sit to the left of L?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "More than three",
+        "d": "Two",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q033",
+      "q_num": 33,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the given questions. Seven members of a family are sitting in a row facing north. G is third from one of the ends. G’s mother is second to the right of G. G’s wife is immediate left of G. M is an immediate neighbour of G’s mother. B is third to the left of M. Only one person sit between D and M. D’s father sit second to the left of D. Only one person sit between L’s daughter and M. B is a male. B’s father is third to the left of L’s daughter. V is D’s son and Q is daughter-in-law of L. Q sits to the left of L.",
+      "stem": "Who among the following is the grandson of M?",
+      "options": {
+        "a": "D and B",
+        "b": "L",
+        "c": "V and B",
+        "d": "Q and D",
+        "e": "D"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q034",
+      "q_num": 34,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the given questions. Seven members of a family are sitting in a row facing north. G is third from one of the ends. G’s mother is second to the right of G. G’s wife is immediate left of G. M is an immediate neighbour of G’s mother. B is third to the left of M. Only one person sit between D and M. D’s father sit second to the left of D. Only one person sit between L’s daughter and M. B is a male. B’s father is third to the left of L’s daughter. V is D’s son and Q is daughter-in-law of L. Q sits to the left of L.",
+      "stem": "How is D related to G?",
+      "options": {
+        "a": "Sister",
+        "b": "Brother",
+        "c": "Mother",
+        "d": "Father",
+        "e": "Sister-in-law"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q035",
+      "q_num": 35,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the given questions. Seven members of a family are sitting in a row facing north. G is third from one of the ends. G’s mother is second to the right of G. G’s wife is immediate left of G. M is an immediate neighbour of G’s mother. B is third to the left of M. Only one person sit between D and M. D’s father sit second to the left of D. Only one person sit between L’s daughter and M. B is a male. B’s father is third to the left of L’s daughter. V is D’s son and Q is daughter-in-law of L. Q sits to the left of L.",
+      "stem": "Who among the following sit forth to the right of B’s father?",
+      "options": {
+        "a": "M",
+        "b": "L",
+        "c": "V",
+        "d": "Q",
+        "e": "D"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q036",
+      "q_num": 36,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and;",
+      "stem": "In a family of six persons who is the father of E? I. C is the son-in-law of B. A is the only son of D. D is the grandmother of E. II. E is the son of X, who is the only sister of A. B is the father of X.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question.",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question.",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question.",
+        "d": "if the data even in both statements I and II together are not sufficient to answer the question.",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 204,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q037",
+      "q_num": 37,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and;",
+      "stem": "Five persons are sitting around a circular table facing the center. Who among the following sit immediate left of C? I. B sits second to the right of D. A second to the right of B. Two persons sit between D and E. II. D sits second to the left of B. E is not an immediate neighbour of D. C is second to the left of E.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question.",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question.",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question.",
+        "d": "if the data even in both statements I and II together are not sufficient to answer the question.",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 317,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q038",
+      "q_num": 38,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and;",
+      "stem": "Six persons P, Q, R, S, T, U were born in six different months January, March, May, July, August and October of a year. Only one person was born in one month. Who among the following born in a month immediately before T? I. P was born after July. Only one person born between S and P. Q was born immediately before P. R was born after P. T was born before S. II. S was born in May. P was born after S. Only two person were born between P and T.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question.",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question.",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question.",
+        "d": "if the data even in both statements I and II together are not sufficient to answer the question.",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 444,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q039",
+      "q_num": 39,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Statement- The CMC products are quite popular and has been commonly used by the people of city X, as it became so popular among the people who are getting health benefits from it. But recently we have seen a sudden decline in the demand of the products.",
+      "stem": "Which of the following can be concluded from the given statement?",
+      "options": {
+        "a": "The CMC products are not so popular in city Y.",
+        "b": "The CMC products with so many health benefits are very famous and in regular use by the people of city X.",
+        "c": "The quality of the products is not that good as it was initially of the CMC products.",
+        "d": "A rival company which has come up with its product with lower price are becoming popular among the people of city X.",
+        "e": "The price of CMC products has been increased significantly in a decade."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q040",
+      "q_num": 40,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Statement- The CMC products are quite popular and has been commonly used by the people of city X, as it became so popular among the people who are getting health benefits from it. But recently we have seen a sudden decline in the demand of the products.",
+      "stem": "Which of the following can be inferred about the decrease in demand of CMC products? (I) The quality of products offered by CMC reduced which decreases the demand of the products. (II) The prices are hiked of CMC products after seeing its popularity which in turn reduces its demand. (III) The people of city X do not need the healthy products now. (IV) The people of city X are now much more influenced with the foreign products, which affects the demand of CMC products.",
+      "options": {
+        "a": "Only I and II",
+        "b": "Only III",
+        "c": "Only II and IV",
+        "d": "All of the above",
+        "e": "Only I"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 472,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q041",
+      "q_num": 41,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In a bag, there are 8 black balls and 12 yellow and green balls. If the probability of choosing a green ball from the bag is 0.35 then, find the probability of choosing two yellow balls from the bag if the ball chosen is not replaced.",
+      "options": {
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 1,
+        "stem_char_len": 234,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q042",
+      "q_num": 42,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A hemisphere is mounted on cylinder and the radius of both is same i.e. 7 cm. Find the height of cylinder if the total volume of hemisphere and cylinder is 3952 cm³.",
+      "options": {
+        "a": "21 cm",
+        "b": "14 cm",
+        "c": "17 2 cm",
+        "d": "28 cm",
+        "e": "None of these QUANTITATIVE APTITUDE"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 165,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q043",
+      "q_num": 43,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given table shows the number of classes taken by four different guest tutors (A, B, C and",
+      "stem": "Find the ratio of number of classes taken by A to the number of classes taken by D in a week?",
+      "options": {
+        "a": "4 : 5",
+        "b": "3 : 5",
+        "c": "2 : 3",
+        "d": "9 : 10",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 93,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q044",
+      "q_num": 44,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given table shows the number of classes taken by four different guest tutors (A, B, C and",
+      "stem": "Find the number of classes taken by C if he is paid an honorarium of Rs. 3.78 lakh for the completion of his course.",
+      "options": {
+        "a": "45",
+        "b": "54",
+        "c": "72",
+        "d": "81",
+        "e": "63"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 116,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q045",
+      "q_num": 45,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given table shows the number of classes taken by four different guest tutors (A, B, C and",
+      "stem": "Find the difference between the honorarium paid to C, if he teaches for 3 weeks and the honorarium paid to D, if he teaches for 2 weeks?",
+      "options": {
+        "a": "Rs. 82,000",
+        "b": "Rs. 74,000",
+        "c": "Rs. 88,000",
+        "d": "Rs. 90,000",
+        "e": "Rs.80,000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 136,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q046",
+      "q_num": 46,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given table shows the number of classes taken by four different guest tutors (A, B, C and",
+      "stem": "If honorarium paid to B for the completion of his course is Rs. 5.28 lakh and B takes 6 weeks for completion of his course then honorarium paid to B and D together in 2 weeks is approximately what percent of the honorarium paid to C in 4 weeks ?",
+      "options": {
+        "a": "105%",
+        "b": "110%",
+        "c": "114%",
+        "d": "120%",
+        "e": "125%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 245,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q047",
+      "q_num": 47,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given table shows the number of classes taken by four different guest tutors (A, B, C and",
+      "stem": "If B takes no classes on Thursday and Friday in a particular week then honorarium paid to A is what percent of that of B in that week ?",
+      "options": {
+        "a": "38 ⅓%",
+        "b": "42 ⅓%",
+        "c": "41 ⅔%",
+        "d": "45%",
+        "e": "46 ⅔%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 135,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q048",
+      "q_num": 48,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "40 men together complete a work in 12 days while 12 women together complete that work in 48 days. All men started working together and on every next day 10 men left the work and after four days, 16 women joined to do the remaining work then find the time taken by 16 women to do the remaining work?",
+      "options": {
+        "a": "25 days",
+        "b": "22 2 days",
+        "c": "30 days",
+        "d": "28 2 days",
+        "e": "32 2 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 298,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q049",
+      "q_num": 49,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A shopkeeper allows a discount of 30% on marked price of an article and customer also managed to get additional 10% discount on discounted price and in this way get a total discount of Rs.925. If shopkeeper incurs a loss of 12 2% on selling the article then find its cost price for the shopkeeper?",
+      "options": {
+        "a": "Rs. 1600",
+        "b": "Rs. 1800",
+        "c": "Rs. 1500",
+        "d": "Rs. 1925",
+        "e": "Rs. 2050"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 297,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q050",
+      "q_num": 50,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B started a business by investing Rs. 10,000 and Rs. 9,000 respectively. But after 8 month, A and B both withdrew their whole amount and C joined the business with Rs. 12,000. If at the end of year, difference between profit share of A and B is Rs. 576. Then, find total profit earned in a year ?",
+      "options": {
+        "a": "Rs. 13,800",
+        "b": "Rs. 14,250",
+        "c": "Rs. 14,400",
+        "d": "Rs. 14,950",
+        "e": "Rs. 15,500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 302,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q051",
+      "q_num": 51,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Data given below shows total expense of a company in three different years. 2015 → Total salary expense of 80 employees is 10 lakhs 2016 → Total expense in this year is same as previous year while salary expense is increased by 26% as compared to previous year and average salary expense is decreased by Rs.500 as compared to previous year. 2017 → Total expense is 60 lakhs which is 20% more than that in 2016. Others expense is 47.5 lakhs. Number of employees is decreased by 5 as compared to previous year. Total expense = Salary expense + Others expense Salary expense = Number of employees × Average salary expense",
+      "stem": "Find the ratio between Others expense in 2015 to Salary expense in 2017?",
+      "options": {
+        "a": "1 : 4",
+        "b": "4 : 1",
+        "c": "None of the given options",
+        "d": "5 : 16",
+        "e": "16 : 5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q052",
+      "q_num": 52,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Data given below shows total expense of a company in three different years. 2015 → Total salary expense of 80 employees is 10 lakhs 2016 → Total expense in this year is same as previous year while salary expense is increased by 26% as compared to previous year and average salary expense is decreased by Rs.500 as compared to previous year. 2017 → Total expense is 60 lakhs which is 20% more than that in 2016. Others expense is 47.5 lakhs. Number of employees is decreased by 5 as compared to previous year. Total expense = Salary expense + Others expense Salary expense = Number of employees × Average salary expense",
+      "stem": "Avearage salary expense in 2015 is what percent less than that in 2017?",
+      "options": {
+        "a": "None of the given options",
+        "b": "10%",
+        "c": "15%",
+        "d": "5%",
+        "e": "25%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 71,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q053",
+      "q_num": 53,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Data given below shows total expense of a company in three different years. 2015 → Total salary expense of 80 employees is 10 lakhs 2016 → Total expense in this year is same as previous year while salary expense is increased by 26% as compared to previous year and average salary expense is decreased by Rs.500 as compared to previous year. 2017 → Total expense is 60 lakhs which is 20% more than that in 2016. Others expense is 47.5 lakhs. Number of employees is decreased by 5 as compared to previous year. Total expense = Salary expense + Others expense Salary expense = Number of employees × Average salary expense",
+      "stem": "If average employees in 2015, 2017 and 2018 is 82. Find number of employees in 2018?",
+      "options": {
+        "a": "86",
+        "b": "None of the given options",
+        "c": "76",
+        "d": "66",
+        "e": "56"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 84,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q054",
+      "q_num": 54,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Data given below shows total expense of a company in three different years. 2015 → Total salary expense of 80 employees is 10 lakhs 2016 → Total expense in this year is same as previous year while salary expense is increased by 26% as compared to previous year and average salary expense is decreased by Rs.500 as compared to previous year. 2017 → Total expense is 60 lakhs which is 20% more than that in 2016. Others expense is 47.5 lakhs. Number of employees is decreased by 5 as compared to previous year. Total expense = Salary expense + Others expense Salary expense = Number of employees × Average salary expense",
+      "stem": "Female employees in 2016 is 45 more than male employees in 2016. Find the ratio between male to female employees in 2016?",
+      "options": {
+        "a": "11 : 9",
+        "b": "5 : 2",
+        "c": "2 : 5",
+        "d": "9 : 11",
+        "e": "None of the given options"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 121,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q055",
+      "q_num": 55,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Data given below shows total expense of a company in three different years. 2015 → Total salary expense of 80 employees is 10 lakhs 2016 → Total expense in this year is same as previous year while salary expense is increased by 26% as compared to previous year and average salary expense is decreased by Rs.500 as compared to previous year. 2017 → Total expense is 60 lakhs which is 20% more than that in 2016. Others expense is 47.5 lakhs. Number of employees is decreased by 5 as compared to previous year. Total expense = Salary expense + Others expense Salary expense = Number of employees × Average salary expense",
+      "stem": "Find the difference between Salary expense in 2017 to Salary expense in 2016?",
+      "options": {
+        "a": "10,000",
+        "b": "90,000",
+        "c": "60,000",
+        "d": "40,000",
+        "e": "None of the given options"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 77,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q056",
+      "q_num": 56,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. x³ = – 512 II. 2y² + 20y + 48 = 0",
+      "options": {
+        "a": "x ≥ y",
+        "b": "no relation can be established between x and y.",
+        "c": "x > y",
+        "d": "x < y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q057",
+      "q_num": 57,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. x² + 47 = 72 II. (y – 2)² = 3 (y – 2)",
+      "options": {
+        "a": "x ≤ y",
+        "b": "x > y",
+        "c": "x ≥ y",
+        "d": "x < y",
+        "e": "no relation can be established between x and y."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q058",
+      "q_num": 58,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. 2x² + 3x + 1 = 0 II. 2 + y + y = 0",
+      "options": {
+        "a": "no relation can be established between x and y",
+        "b": "x ≥ y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x < y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q059",
+      "q_num": 59,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. (x – 5)² = 16 II. y² + 8y = 84",
+      "options": {
+        "a": "x ≥ y",
+        "b": "x < y",
+        "c": "no relation can be established between x and y",
+        "d": "x > y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q060",
+      "q_num": 60,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. 2 − x + x2= 0 II. y2 – y + 8 = 0",
+      "options": {
+        "a": "x ≤ y",
+        "b": "x > y",
+        "c": "x ≥ y",
+        "d": "no relation can be established between x and y",
+        "e": "x < y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q061",
+      "q_num": 61,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Boat A travels 62 2 km in upstream in 2 2 hrs. The speed of another boat B in still water is 80% of the speed of boat A in downstream and the speed of stream for both boat A and B is same i.e. 2.5 km/hr. Find the distance travelled by boat B in upstream in 4 hours.",
+      "options": {
+        "a": "82 km",
+        "b": "86 km",
+        "c": "88 km",
+        "d": "84 km",
+        "e": "94 km"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 265,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q062",
+      "q_num": 62,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ratio of A’s age 4 years later to B’s age 6 years later is",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 58,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q063",
+      "q_num": 63,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Pie charts given below shows number of tourists applied for visa from five different cities. First pie chart shows number of tourists applied for U.S.A + CANADA + ENGLAND while second pie chart shows number of tourists applied for U.S.A. Study the data carefully and answer the following questions. A, 18% B, 20% C, 12% D, 16% E, 34% Tourist (U.S.A + CANADA + ENGLAN",
+      "stem": "Ratio between number of tourists applied for CANADA to ENGLAND is 57 : 29 from city D. Find number of tourists applied for CANADA from city D is approximately what percent of the total tourists applied for visa from city D?",
+      "options": {
+        "a": "28%",
+        "b": "32%",
+        "c": "54%",
+        "d": "38%",
+        "e": "44%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 223,
+        "page_start": null,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q064",
+      "q_num": 64,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Pie charts given below shows number of tourists applied for visa from five different cities. First pie chart shows number of tourists applied for U.S.A + CANADA + ENGLAND while second pie chart shows number of tourists applied for U.S.A. Study the data carefully and answer the following questions. A, 18% B, 20% C, 12% D, 16% E, 34% Tourist (U.S.A + CANADA + ENGLAN",
+      "stem": "Find the central angle of total tourists applied from city E?",
+      "options": {
+        "a": "129.6°",
+        "b": "112.4°",
+        "c": "115.2°",
+        "d": "100.8°",
+        "e": "122.4°"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q065",
+      "q_num": 65,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Pie charts given below shows number of tourists applied for visa from five different cities. First pie chart shows number of tourists applied for U.S.A + CANADA + ENGLAND while second pie chart shows number of tourists applied for U.S.A. Study the data carefully and answer the following questions. A, 18% B, 20% C, 12% D, 16% E, 34% Tourist (U.S.A + CANADA + ENGLAN",
+      "stem": "Tourists applied for Canada from city A is 120 more than tourists applied for England from city A. Find total number of tourists applied for Canada from city A?",
+      "options": {
+        "a": "160",
+        "b": "None of the given options",
+        "c": "180",
+        "d": "280",
+        "e": "260"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 160,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q066",
+      "q_num": 66,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Pie charts given below shows number of tourists applied for visa from five different cities. First pie chart shows number of tourists applied for U.S.A + CANADA + ENGLAND while second pie chart shows number of tourists applied for U.S.A. Study the data carefully and answer the following questions. A, 18% B, 20% C, 12% D, 16% E, 34% Tourist (U.S.A + CANADA + ENGLAN",
+      "stem": "Find the difference between number of tourists applied for Canada and England from city D and Number of tourists applied for Canada and England from city E?",
+      "options": {
+        "a": "880",
+        "b": "990",
+        "c": "890",
+        "d": "None of the given options",
+        "e": "790"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 156,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q067",
+      "q_num": 67,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Pie charts given below shows number of tourists applied for visa from five different cities. First pie chart shows number of tourists applied for U.S.A + CANADA + ENGLAND while second pie chart shows number of tourists applied for U.S.A. Study the data carefully and answer the following questions. A, 18% B, 20% C, 12% D, 16% E, 34% Tourist (U.S.A + CANADA + ENGLAN",
+      "stem": "Out of total tourist applied for U.S.A from city B and city E, 24% and 72% respectively went to U.S.A. Find the ratio between number of tourists went to U.S.A from city B to city E?",
+      "options": {
+        "a": "4 : 11",
+        "b": "None of the given options",
+        "c": "5 : 22",
+        "d": "7 : 11",
+        "e": "6 : 11"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 181,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q068",
+      "q_num": 68,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A person invested in scheme A at X% per annum at SI for 5 years and in scheme B at 10% per annum for 2 years at CI. If the amount invested in both schemes are in the ratio of 2 : 5 (A : B) and the total interest received from both the schemes is 35% of the total amount invested together in both the schemes then find value of X ?",
+      "options": {
+        "a": "14%",
+        "b": "16%",
+        "c": "21%",
+        "d": "28%",
+        "e": "35%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 330,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q069",
+      "q_num": 69,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ruchi’s monthly salary is Rs. 60,000. She spends Rs. 12,000 on education of her child and Rs. X on her house rent. Further she spends 𝟕 and 𝟔 of the remaining amount on Food and shopping needs and the remaining Rs. 29,000 invested in some scheme. Then find the value of X.",
+      "options": {
+        "a": "Rs. 7,000",
+        "b": "Rs. 13,000",
+        "c": "Rs. 16,000",
+        "d": "Rs. 6,000",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 272,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q070",
+      "q_num": 70,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
+      "stem": "If there are only three members (Father, Mother and Daughter) in the family then find the age of daughter? I. If two years later the average age of all members of the family will be 28 years and six years ago average age of Father and Mother was 30 years. II. If two years ago ratio of age of Father to that of Daughter is 9 : 1 and Father’s present age is four years more than Mother’s present age and sum of their ages is 72 years.",
+      "options": {
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the question but statement I alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is sufficient to answer the question.",
+        "e": "Statements I and II taken together are not sufficient to answer the question."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 433,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q071",
+      "q_num": 71,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
+      "stem": "Two persons Veer and Bhavya started a business by investing some amounts. Find investment of Veer. I. Veer and Bhavya together invested Rs 9,000 in the business and Veer left after one year. II. Bhavya invested Rs 2000 more next year and got profit share of Rs 3400 out of total profit Rs 5950.",
+      "options": {
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the question but statement I alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is sufficient to answer the question.",
+        "e": "Statements I and II taken together are not sufficient to answer the question."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 294,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q072",
+      "q_num": 72,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
+      "stem": "A person travels from point A to B and back from point B to A. Find average speed of the person during whole journey if distance between A to B is 100km. I. Person takes 30 min more while coming back to the initial point. II. Speed of person from A to B is 6 3 km /hr more than that of from B to A and ratio of time taken from A to B to that of B to A is 5 : 6.",
+      "options": {
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the question but statement I alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is sufficient to answer the question.",
+        "e": "Statements I and II taken together are not sufficient to answer the question."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 361,
+        "page_start": 8,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q073",
+      "q_num": 73,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
+      "stem": "Find the rate of interest p.c.p.a (take rate of interest same for Simple interest and Compound interest)? I. When Rs. 25,000 invested for 2 years at that rate of interest, then compound interest is Rs.250 more than simple interest. II. After 10 years amount will be double if invested at Simple interest.",
+      "options": {
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the question but statement I alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is sufficient to answer the question.",
+        "e": "Statements I and II taken together are not sufficient to answer the question."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 304,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q074",
+      "q_num": 74,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
+      "stem": "Find time taken by A to cross B, if B has a head start of 30m and they run in same direction at same time? I . Speed of B is twice of relative speed of A and B. II . If B started 2 seconds earlier, then A took 16 seconds to cross B.",
+      "options": {
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the question but statement I alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is sufficient to answer the question.",
+        "e": "Statements I and II taken together are not sufficient to answer the question."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 232,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q075",
+      "q_num": 75,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Bar graph given below shows total students (Boys+Girls) who play four different games and number of boys who plays these games respectively. Study the data carefully and answer the following questions.",
+      "stem": "Find the ratio between total number of students (Boys+Girls) who play Cricket, Volleyball and Tennis to total number girls who play Volleyball and Football?",
+      "options": {
+        "a": "None of the given options",
+        "b": "21 : 8",
+        "c": "23 : 16",
+        "d": "23 : 8",
+        "e": "21 : 16"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 156,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q076",
+      "q_num": 76,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Bar graph given below shows total students (Boys+Girls) who play four different games and number of boys who plays these games respectively. Study the data carefully and answer the following questions.",
+      "stem": "Total number of boys who play Cricket and Football is how much less than total students (Boys+Girls) who play Football and Tennis?",
+      "options": {
+        "a": "112",
+        "b": "116",
+        "c": "118",
+        "d": "None of the given options",
+        "e": "114 Cricket Volleyball Football Tennis (Boys+Girls) Boys"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 130,
+        "page_start": 9,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q077",
+      "q_num": 77,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Bar graph given below shows total students (Boys+Girls) who play four different games and number of boys who plays these games respectively. Study the data carefully and answer the following questions.",
+      "stem": "Total number of boys who play Volleyball and Tennis is what percent of the total girls who play same game?",
+      "options": {
+        "a": "33 3 %",
+        "b": "None of the given options",
+        "c": "66 3 %",
+        "d": "50%",
+        "e": "25%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 106,
+        "page_start": null,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q078",
+      "q_num": 78,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Bar graph given below shows total students (Boys+Girls) who play four different games and number of boys who plays these games respectively. Study the data carefully and answer the following questions.",
+      "stem": "Out of total boys and girls play Football, 50% and 3 % respectively qualified for nationals. Find total students (Boys+Girls) who were disqualified for nationals is what percent of total students (Boys+Girls) who play this game?",
+      "options": {
+        "a": "40%",
+        "b": "60%",
+        "c": "50%",
+        "d": "None of the given options",
+        "e": "80%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 228,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q079",
+      "q_num": 79,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Bar graph given below shows total students (Boys+Girls) who play four different games and number of boys who plays these games respectively. Study the data carefully and answer the following questions.",
+      "stem": "Find the average number of girls who play Volleyball, Football and Tennis?",
+      "options": {
+        "a": "54",
+        "b": "52",
+        "c": "None of the given options",
+        "d": "56",
+        "e": "50"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 74,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q080",
+      "q_num": 80,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A container contains 120 lit of pure milk. If X lit of pure milk is replaced with Y lit of water then ratio of milk to water becomes 20 : 1 and if 2X lit of pure milk were replaced by Y lit of water, then ratio of milk to water becomes 16 : 1. Find the value of ‘X+Y’?",
+      "options": {
+        "a": "20",
+        "b": "25",
+        "c": "24",
+        "d": "30",
+        "e": "16"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 268,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q081",
+      "q_num": 81,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. Ayushman Bharat has been rolled out as a health protection scheme that will provide guaranteed access to treatment that is free at the point of delivery to about 40% of the population selected on the basis of censured socio- economic indicators. It is the essential first step on the road to universal health coverage, although it has been launched by the NDA government quite late in its term, possibly with an eye on the 2019 general election. Since the Centre has announced that 10.74 crore families identified through Socio-Economic Caste Census data will be given an annual Rs.5 lakh cover under the Pradhan Mantri Jan Arogya Yojana (the insurance component of the scheme), the question of eligibility appears settled. But the late start makes it virtually impossible for all those who are technically insured to avail the services that state agencies must make available, within a reasonable time-frame. And, the allocation of just Rs.2,000 crore during the current year to the PMJAY cannot provide the promised cover to the large population sought to be included. Not all States and Union Territories are in a position to raise their own share, and a few have not even joined the scheme. The challenge of funding, therefore, remains. And without adequate budgetary commitments, the implications of pooling the financial risk for such a large segment of the population through insurers or state-run trusts or societies make the outcomes uncertain. Guaranteeing health-care access using private or public facilities presumes tight cost control. In the case of the PMJAY, this is to be achieved using defined treatment packages for which rates are prescribed. Costs are a contested area between the care-providers and the Centre, and many for-profit hospitals see the government’s proposals as unviable. In the absence of adequate preparation, the Ayushman Bharat administration is talking of a rate review. More importantly, a lot of time has been lost in the NDA government’s tenure, when State governments should have been persuaded to regulate the hospital sector under the Clinical Establishments (Registration and Regulation) Act, which dates back to 2010. The law broadly provides for standardization of facilities and reasonable rates for procedures. Apprehensions of fraud have prompted Ayushman Bharat administrators to announce that some key treatments should be availed through public sector institutions. But public facilities have been neglected for long. Going forward, there are some clear imperatives. It is essential to reduce the pressure on secondary and tertiary hospitals for expensive treatments by investing in preventive and primary care facilities. Here, the 150,000 health and wellness centres of the National Health Protection Mission can play a valuable role. The first-order priority should be to draw up a road map for universal health coverage, through continuous upgradation of the public sector infrastructure. As Prime Minister Narendra Modi launched his government's ambitious healthcare scheme Ayushman Bharat on Sunday, five states remained unconvinced. Telangana, Odisha, Delhi, Kerala and Punjab have said they will not implement the programme till their concerns are addressed since they have better health assurance ENGLISH LANGUAGE schemes.\"Ayushman Bharat doesn't only provide financial support, but in the next 4 years it is envisaged that nearly 1.5 lakh next door wellness centres will be opened, which will provide free test facilities and treatment of simple ailments. Ayushman Bharat, dubbed as the world's largest government-funded healthcare scheme, is expected to benefit 50 crore citizens. Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economically backward families to health coverage of Rs. 5 lakh each. The government is pursuing a holistic approach towards the betterment of the health sector. While it focuses on affordable healthcare on one hand, emphasis is also laid on preventive healthcare. The number of Ayushman Bharat beneficiaries is almost equal to the population of Canada, Mexico and the United States put together. NITI Aayog member Dr Vinod Paul said the scheme -- to be funded on a 60:40 ratio by the centre and state -- will come into effect from September 25, the birth anniversary of Rashtriya Swayamsevak Sangh ideologue Pandit Deendayal Upadhyay. Over 8,735 hospitals, both public and private, have been empanelled for the scheme, and as many as 31 states and union territories have signed MoUs with the Centre to implement the programme, a PTI report said.",
+      "stem": "What according to the author is possibly the reason for the launching of Ayushman Bharat by NDA government?",
+      "options": {
+        "a": "Continuous upgradation of private sector infrastructure.",
+        "b": "Treatment to be availed through public sector institutions.",
+        "c": "To reduce the pressure on secondary and tertiary hospitals.",
+        "d": "The general elections of 2019.",
+        "e": "All of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 107,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q082",
+      "q_num": 82,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. Ayushman Bharat has been rolled out as a health protection scheme that will provide guaranteed access to treatment that is free at the point of delivery to about 40% of the population selected on the basis of censured socio- economic indicators. It is the essential first step on the road to universal health coverage, although it has been launched by the NDA government quite late in its term, possibly with an eye on the 2019 general election. Since the Centre has announced that 10.74 crore families identified through Socio-Economic Caste Census data will be given an annual Rs.5 lakh cover under the Pradhan Mantri Jan Arogya Yojana (the insurance component of the scheme), the question of eligibility appears settled. But the late start makes it virtually impossible for all those who are technically insured to avail the services that state agencies must make available, within a reasonable time-frame. And, the allocation of just Rs.2,000 crore during the current year to the PMJAY cannot provide the promised cover to the large population sought to be included. Not all States and Union Territories are in a position to raise their own share, and a few have not even joined the scheme. The challenge of funding, therefore, remains. And without adequate budgetary commitments, the implications of pooling the financial risk for such a large segment of the population through insurers or state-run trusts or societies make the outcomes uncertain. Guaranteeing health-care access using private or public facilities presumes tight cost control. In the case of the PMJAY, this is to be achieved using defined treatment packages for which rates are prescribed. Costs are a contested area between the care-providers and the Centre, and many for-profit hospitals see the government’s proposals as unviable. In the absence of adequate preparation, the Ayushman Bharat administration is talking of a rate review. More importantly, a lot of time has been lost in the NDA government’s tenure, when State governments should have been persuaded to regulate the hospital sector under the Clinical Establishments (Registration and Regulation) Act, which dates back to 2010. The law broadly provides for standardization of facilities and reasonable rates for procedures. Apprehensions of fraud have prompted Ayushman Bharat administrators to announce that some key treatments should be availed through public sector institutions. But public facilities have been neglected for long. Going forward, there are some clear imperatives. It is essential to reduce the pressure on secondary and tertiary hospitals for expensive treatments by investing in preventive and primary care facilities. Here, the 150,000 health and wellness centres of the National Health Protection Mission can play a valuable role. The first-order priority should be to draw up a road map for universal health coverage, through continuous upgradation of the public sector infrastructure. As Prime Minister Narendra Modi launched his government's ambitious healthcare scheme Ayushman Bharat on Sunday, five states remained unconvinced. Telangana, Odisha, Delhi, Kerala and Punjab have said they will not implement the programme till their concerns are addressed since they have better health assurance ENGLISH LANGUAGE schemes.\"Ayushman Bharat doesn't only provide financial support, but in the next 4 years it is envisaged that nearly 1.5 lakh next door wellness centres will be opened, which will provide free test facilities and treatment of simple ailments. Ayushman Bharat, dubbed as the world's largest government-funded healthcare scheme, is expected to benefit 50 crore citizens. Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economically backward families to health coverage of Rs. 5 lakh each. The government is pursuing a holistic approach towards the betterment of the health sector. While it focuses on affordable healthcare on one hand, emphasis is also laid on preventive healthcare. The number of Ayushman Bharat beneficiaries is almost equal to the population of Canada, Mexico and the United States put together. NITI Aayog member Dr Vinod Paul said the scheme -- to be funded on a 60:40 ratio by the centre and state -- will come into effect from September 25, the birth anniversary of Rashtriya Swayamsevak Sangh ideologue Pandit Deendayal Upadhyay. Over 8,735 hospitals, both public and private, have been empanelled for the scheme, and as many as 31 states and union territories have signed MoUs with the Centre to implement the programme, a PTI report said.",
+      "stem": "Why the outcomes of Ayushman Bharat scheme are portrayed as uncertain?",
+      "options": {
+        "a": "As it requires standardization of facilities and reasonable rates for procedures.",
+        "b": "Due to a lack of budgetary support.",
+        "c": "Due to a viability in government’s proposals.",
+        "d": "Since the government is pursuing a holistic approach towards the betterment of health sector.",
+        "e": "All of these."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q083",
+      "q_num": 83,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. Ayushman Bharat has been rolled out as a health protection scheme that will provide guaranteed access to treatment that is free at the point of delivery to about 40% of the population selected on the basis of censured socio- economic indicators. It is the essential first step on the road to universal health coverage, although it has been launched by the NDA government quite late in its term, possibly with an eye on the 2019 general election. Since the Centre has announced that 10.74 crore families identified through Socio-Economic Caste Census data will be given an annual Rs.5 lakh cover under the Pradhan Mantri Jan Arogya Yojana (the insurance component of the scheme), the question of eligibility appears settled. But the late start makes it virtually impossible for all those who are technically insured to avail the services that state agencies must make available, within a reasonable time-frame. And, the allocation of just Rs.2,000 crore during the current year to the PMJAY cannot provide the promised cover to the large population sought to be included. Not all States and Union Territories are in a position to raise their own share, and a few have not even joined the scheme. The challenge of funding, therefore, remains. And without adequate budgetary commitments, the implications of pooling the financial risk for such a large segment of the population through insurers or state-run trusts or societies make the outcomes uncertain. Guaranteeing health-care access using private or public facilities presumes tight cost control. In the case of the PMJAY, this is to be achieved using defined treatment packages for which rates are prescribed. Costs are a contested area between the care-providers and the Centre, and many for-profit hospitals see the government’s proposals as unviable. In the absence of adequate preparation, the Ayushman Bharat administration is talking of a rate review. More importantly, a lot of time has been lost in the NDA government’s tenure, when State governments should have been persuaded to regulate the hospital sector under the Clinical Establishments (Registration and Regulation) Act, which dates back to 2010. The law broadly provides for standardization of facilities and reasonable rates for procedures. Apprehensions of fraud have prompted Ayushman Bharat administrators to announce that some key treatments should be availed through public sector institutions. But public facilities have been neglected for long. Going forward, there are some clear imperatives. It is essential to reduce the pressure on secondary and tertiary hospitals for expensive treatments by investing in preventive and primary care facilities. Here, the 150,000 health and wellness centres of the National Health Protection Mission can play a valuable role. The first-order priority should be to draw up a road map for universal health coverage, through continuous upgradation of the public sector infrastructure. As Prime Minister Narendra Modi launched his government's ambitious healthcare scheme Ayushman Bharat on Sunday, five states remained unconvinced. Telangana, Odisha, Delhi, Kerala and Punjab have said they will not implement the programme till their concerns are addressed since they have better health assurance ENGLISH LANGUAGE schemes.\"Ayushman Bharat doesn't only provide financial support, but in the next 4 years it is envisaged that nearly 1.5 lakh next door wellness centres will be opened, which will provide free test facilities and treatment of simple ailments. Ayushman Bharat, dubbed as the world's largest government-funded healthcare scheme, is expected to benefit 50 crore citizens. Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economically backward families to health coverage of Rs. 5 lakh each. The government is pursuing a holistic approach towards the betterment of the health sector. While it focuses on affordable healthcare on one hand, emphasis is also laid on preventive healthcare. The number of Ayushman Bharat beneficiaries is almost equal to the population of Canada, Mexico and the United States put together. NITI Aayog member Dr Vinod Paul said the scheme -- to be funded on a 60:40 ratio by the centre and state -- will come into effect from September 25, the birth anniversary of Rashtriya Swayamsevak Sangh ideologue Pandit Deendayal Upadhyay. Over 8,735 hospitals, both public and private, have been empanelled for the scheme, and as many as 31 states and union territories have signed MoUs with the Centre to implement the programme, a PTI report said.",
+      "stem": "In the passage, author has cited the law that imparts for normalization of facilities and reasonable rates for procedures. Which law is it?",
+      "options": {
+        "a": "Pradhan Mantri Jan Arogya Yojana",
+        "b": "Consumer Protection Act and Medical Profession",
+        "c": "Clinical Establishments (Registration and Regulation) Act",
+        "d": "Drugs and Cosmetics Act, 1954",
+        "e": "The Pre Natal Diagnostic Techniques Act and Rules"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 139,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q084",
+      "q_num": 84,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. Ayushman Bharat has been rolled out as a health protection scheme that will provide guaranteed access to treatment that is free at the point of delivery to about 40% of the population selected on the basis of censured socio- economic indicators. It is the essential first step on the road to universal health coverage, although it has been launched by the NDA government quite late in its term, possibly with an eye on the 2019 general election. Since the Centre has announced that 10.74 crore families identified through Socio-Economic Caste Census data will be given an annual Rs.5 lakh cover under the Pradhan Mantri Jan Arogya Yojana (the insurance component of the scheme), the question of eligibility appears settled. But the late start makes it virtually impossible for all those who are technically insured to avail the services that state agencies must make available, within a reasonable time-frame. And, the allocation of just Rs.2,000 crore during the current year to the PMJAY cannot provide the promised cover to the large population sought to be included. Not all States and Union Territories are in a position to raise their own share, and a few have not even joined the scheme. The challenge of funding, therefore, remains. And without adequate budgetary commitments, the implications of pooling the financial risk for such a large segment of the population through insurers or state-run trusts or societies make the outcomes uncertain. Guaranteeing health-care access using private or public facilities presumes tight cost control. In the case of the PMJAY, this is to be achieved using defined treatment packages for which rates are prescribed. Costs are a contested area between the care-providers and the Centre, and many for-profit hospitals see the government’s proposals as unviable. In the absence of adequate preparation, the Ayushman Bharat administration is talking of a rate review. More importantly, a lot of time has been lost in the NDA government’s tenure, when State governments should have been persuaded to regulate the hospital sector under the Clinical Establishments (Registration and Regulation) Act, which dates back to 2010. The law broadly provides for standardization of facilities and reasonable rates for procedures. Apprehensions of fraud have prompted Ayushman Bharat administrators to announce that some key treatments should be availed through public sector institutions. But public facilities have been neglected for long. Going forward, there are some clear imperatives. It is essential to reduce the pressure on secondary and tertiary hospitals for expensive treatments by investing in preventive and primary care facilities. Here, the 150,000 health and wellness centres of the National Health Protection Mission can play a valuable role. The first-order priority should be to draw up a road map for universal health coverage, through continuous upgradation of the public sector infrastructure. As Prime Minister Narendra Modi launched his government's ambitious healthcare scheme Ayushman Bharat on Sunday, five states remained unconvinced. Telangana, Odisha, Delhi, Kerala and Punjab have said they will not implement the programme till their concerns are addressed since they have better health assurance ENGLISH LANGUAGE schemes.\"Ayushman Bharat doesn't only provide financial support, but in the next 4 years it is envisaged that nearly 1.5 lakh next door wellness centres will be opened, which will provide free test facilities and treatment of simple ailments. Ayushman Bharat, dubbed as the world's largest government-funded healthcare scheme, is expected to benefit 50 crore citizens. Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economically backward families to health coverage of Rs. 5 lakh each. The government is pursuing a holistic approach towards the betterment of the health sector. While it focuses on affordable healthcare on one hand, emphasis is also laid on preventive healthcare. The number of Ayushman Bharat beneficiaries is almost equal to the population of Canada, Mexico and the United States put together. NITI Aayog member Dr Vinod Paul said the scheme -- to be funded on a 60:40 ratio by the centre and state -- will come into effect from September 25, the birth anniversary of Rashtriya Swayamsevak Sangh ideologue Pandit Deendayal Upadhyay. Over 8,735 hospitals, both public and private, have been empanelled for the scheme, and as many as 31 states and union territories have signed MoUs with the Centre to implement the programme, a PTI report said.",
+      "stem": "What is/are the factor(s) that has influenced some of the states to not implement the Ayushman Bharat programme?",
+      "options": {
+        "a": "That it is a world’s largest government’s funded healthcare scheme but withstands the financial risks.",
+        "b": "Because it has been launched by the NDA government quite late and that too not for the betterment of health sector.",
+        "c": "As the approach of this scheme is very diffused and fragmented.",
+        "d": "Since these states have better health insurance schemes.",
+        "e": "All of these."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 112,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q085",
+      "q_num": 85,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. Ayushman Bharat has been rolled out as a health protection scheme that will provide guaranteed access to treatment that is free at the point of delivery to about 40% of the population selected on the basis of censured socio- economic indicators. It is the essential first step on the road to universal health coverage, although it has been launched by the NDA government quite late in its term, possibly with an eye on the 2019 general election. Since the Centre has announced that 10.74 crore families identified through Socio-Economic Caste Census data will be given an annual Rs.5 lakh cover under the Pradhan Mantri Jan Arogya Yojana (the insurance component of the scheme), the question of eligibility appears settled. But the late start makes it virtually impossible for all those who are technically insured to avail the services that state agencies must make available, within a reasonable time-frame. And, the allocation of just Rs.2,000 crore during the current year to the PMJAY cannot provide the promised cover to the large population sought to be included. Not all States and Union Territories are in a position to raise their own share, and a few have not even joined the scheme. The challenge of funding, therefore, remains. And without adequate budgetary commitments, the implications of pooling the financial risk for such a large segment of the population through insurers or state-run trusts or societies make the outcomes uncertain. Guaranteeing health-care access using private or public facilities presumes tight cost control. In the case of the PMJAY, this is to be achieved using defined treatment packages for which rates are prescribed. Costs are a contested area between the care-providers and the Centre, and many for-profit hospitals see the government’s proposals as unviable. In the absence of adequate preparation, the Ayushman Bharat administration is talking of a rate review. More importantly, a lot of time has been lost in the NDA government’s tenure, when State governments should have been persuaded to regulate the hospital sector under the Clinical Establishments (Registration and Regulation) Act, which dates back to 2010. The law broadly provides for standardization of facilities and reasonable rates for procedures. Apprehensions of fraud have prompted Ayushman Bharat administrators to announce that some key treatments should be availed through public sector institutions. But public facilities have been neglected for long. Going forward, there are some clear imperatives. It is essential to reduce the pressure on secondary and tertiary hospitals for expensive treatments by investing in preventive and primary care facilities. Here, the 150,000 health and wellness centres of the National Health Protection Mission can play a valuable role. The first-order priority should be to draw up a road map for universal health coverage, through continuous upgradation of the public sector infrastructure. As Prime Minister Narendra Modi launched his government's ambitious healthcare scheme Ayushman Bharat on Sunday, five states remained unconvinced. Telangana, Odisha, Delhi, Kerala and Punjab have said they will not implement the programme till their concerns are addressed since they have better health assurance ENGLISH LANGUAGE schemes.\"Ayushman Bharat doesn't only provide financial support, but in the next 4 years it is envisaged that nearly 1.5 lakh next door wellness centres will be opened, which will provide free test facilities and treatment of simple ailments. Ayushman Bharat, dubbed as the world's largest government-funded healthcare scheme, is expected to benefit 50 crore citizens. Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economically backward families to health coverage of Rs. 5 lakh each. The government is pursuing a holistic approach towards the betterment of the health sector. While it focuses on affordable healthcare on one hand, emphasis is also laid on preventive healthcare. The number of Ayushman Bharat beneficiaries is almost equal to the population of Canada, Mexico and the United States put together. NITI Aayog member Dr Vinod Paul said the scheme -- to be funded on a 60:40 ratio by the centre and state -- will come into effect from September 25, the birth anniversary of Rashtriya Swayamsevak Sangh ideologue Pandit Deendayal Upadhyay. Over 8,735 hospitals, both public and private, have been empanelled for the scheme, and as many as 31 states and union territories have signed MoUs with the Centre to implement the programme, a PTI report said.",
+      "stem": "Which of the statement is definitely false according to the passage?",
+      "options": {
+        "a": "The outcomes of Ayushman Bharat Scheme are uncertain and there are implications of pooling the financial risk.",
+        "b": "Thirty-one states and union territories have agreed to implement the programme that will entitle nearly 10 crore economy.",
+        "c": "The pressure on secondary and tertiary hospitals for expensive treatments must be reduced by investing in preventive and primary care facilities.",
+        "d": "The main focus of government under Ayushman Bharat Scheme is only on affordable healthcare.",
+        "e": "None of these."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q086",
+      "q_num": 86,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Censured",
+      "options": {
+        "a": "Approved",
+        "b": "Acclaimed",
+        "c": "Endorsed",
+        "d": "Condemned",
+        "e": "Sanctioned"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 8,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q087",
+      "q_num": 87,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Avail",
+      "options": {
+        "a": "Bruise",
+        "b": "Afflict",
+        "c": "Utilize",
+        "d": "Grieve",
+        "e": "Mutilate"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 5,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q088",
+      "q_num": 88,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Apprehensions",
+      "options": {
+        "a": "Anxiety",
+        "b": "Axiom",
+        "c": "Conviction",
+        "d": "Certitude",
+        "e": "Verity"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 13,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q089",
+      "q_num": 89,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "Choose the word which is the OPPOSITE in meaning as the word printed in bold as used in the passage.",
+      "stem": "Envisaged",
+      "options": {
+        "a": "Factual",
+        "b": "Anticipate",
+        "c": "Envision",
+        "d": "Foresee",
+        "e": "Contemplate"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 9,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q090",
+      "q_num": 90,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "Choose the word which is the OPPOSITE in meaning as the word printed in bold as used in the passage.",
+      "stem": "Empanelled",
+      "options": {
+        "a": "Enlisted",
+        "b": "Enrolled",
+        "c": "Constituted",
+        "d": "Allocated",
+        "e": "Ousted"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 10,
+        "page_start": 11,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q091",
+      "q_num": 91,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following questions, a sentence is given with four words given in bold. The word may be mis-spelt or grammatically or contextually incorrect. You have to choose the incorrect word as your answer. If all the words are correct, mark option (e). i.e. All are Correct as your answer.",
+      "stem": "The government is right to supersede the broad of Infrastructure Leasing & Financial Services (IL&FS), given the large size and exposure of insurance, mutual funds and provident funds to the entity.",
+      "options": {
+        "a": "supersede",
+        "b": "broad",
+        "c": "exposure",
+        "d": "entity",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 198,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q092",
+      "q_num": 92,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following questions, a sentence is given with four words given in bold. The word may be mis-spelt or grammatically or contextually incorrect. You have to choose the incorrect word as your answer. If all the words are correct, mark option (e). i.e. All are Correct as your answer.",
+      "stem": "In 1994, Allison, who was then at the University of California, Berkeley, reported that CTLA-4, a protein present on T-cells, derailed the immune system’s assault on cancer cells by acting as a broke.",
+      "options": {
+        "a": "reported",
+        "b": "derailed",
+        "c": "assault",
+        "d": "broke",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 200,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q093",
+      "q_num": 93,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following questions, a sentence is given with four words given in bold. The word may be mis-spelt or grammatically or contextually incorrect. You have to choose the incorrect word as your answer. If all the words are correct, mark option (e). i.e. All are Correct as your answer.",
+      "stem": "Chile’s experience was miring by faulty data- gathering, rules that hampered the trade in carbon emission permits/coupons, and lackadaisical monitoring and enforcement of emission limits by government authorities.",
+      "options": {
+        "a": "miring",
+        "b": "hampered",
+        "c": "lackadaisical",
+        "d": "enforcement",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 213,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q094",
+      "q_num": 94,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following questions, a sentence is given with four words given in bold. The word may be mis-spelt or grammatically or contextually incorrect. You have to choose the incorrect word as your answer. If all the words are correct, mark option (e). i.e. All are Correct as your answer.",
+      "stem": "We anticipate that the rate hike will be accompanied by a change in the stance of monetary policy from neutral to withdrawal of accomodation.",
+      "options": {
+        "a": "anticipate",
+        "b": "accompanied",
+        "c": "neutral",
+        "d": "accommodation",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 141,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q095",
+      "q_num": 95,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following questions, a sentence is given with four words given in bold. The word may be mis-spelt or grammatically or contextually incorrect. You have to choose the incorrect word as your answer. If all the words are correct, mark option (e). i.e. All are Correct as your answer.",
+      "stem": "Financial inclusion has the potential to become one of the most robust force multipliers that can propel the next growth revolution in India in the 21st century, increasing GDP by close to a percentage point, provided policymakers pull the right levers.",
+      "options": {
+        "a": "inclusion",
+        "b": "robust",
+        "c": "propel",
+        "d": "increasing",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 253,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q096",
+      "q_num": 96,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (96).",
+      "options": {
+        "a": "eroded",
+        "b": "equivocated",
+        "c": "fired",
+        "d": "deviated",
+        "e": "chortled"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q097",
+      "q_num": 97,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (97).",
+      "options": {
+        "a": "flay",
+        "b": "disperse",
+        "c": "zap",
+        "d": "gallop",
+        "e": "amble"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q098",
+      "q_num": 98,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (98).",
+      "options": {
+        "a": "belated",
+        "b": "constructive",
+        "c": "restless",
+        "d": "erroneous",
+        "e": "erudite"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q099",
+      "q_num": 99,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (99).",
+      "options": {
+        "a": "clambered",
+        "b": "deployed",
+        "c": "clenched",
+        "d": "bungled",
+        "e": "belabor"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q100",
+      "q_num": 100,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (100).",
+      "options": {
+        "a": "arrested",
+        "b": "duped",
+        "c": "collated",
+        "d": "doused",
+        "e": "cogitated"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q101",
+      "q_num": 101,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (101).",
+      "options": {
+        "a": "castigate",
+        "b": "debase",
+        "c": "dwindle",
+        "d": "decoy",
+        "e": "break"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q102",
+      "q_num": 102,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words/phrases are suggested, one of which fits the blank appropriately. Find out the appropriate word/phrase in each case. Police _____(96)_____ water cannon and tear-gas shells to _____(97)_____ thousands of farmers, affiliated to the Bhartiya Kisan Union (Tikait group), who tried to break through barricades to enter the national capital on the Delhi-U.P. border at Ghazipur on Tuesday morning, even as _____(98)_____ negotiations between BKU leaders and Central Ministers failed to end the stand-off. Prohibitory orders under Section 144 were issued and 3,000 police personnel _____(99)_____ to ensure that the Kisan Kranti Yatra, which began from Tikait Ghat in Haridwar on September 23, was _____(100)_____ from entering Delhi. Violence erupted as a section of the farmers tried to _____(101)_____ through the barricades using tractor- trolleys. As clashes broke out, the police used tear-gas and water cannon. Seven policemen and several protesters were injured. Seeking to _____(102)_____ the farmers to return, the government announced that a committee of Chief Ministers would investigate their demands. Home Minister Rajnath Singh held discussions with Union Agriculture Minister Radha Mohan Singh and other Ministers, after which Minister of State for Agriculture Gajendra Singh Shekhawat met the protesters to assure them that their demands would be investigated. BKU chief Naresh Tikait, however, said the farmers were “not satisfied” with the government’s assurance.",
+      "stem": "Select the word that fits blank (102).",
+      "options": {
+        "a": "admonish",
+        "b": "berate",
+        "c": "abolish",
+        "d": "sway",
+        "e": "camouflage"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q103",
+      "q_num": 103,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "Often in political campaigns, a point is reached (a)/ at which the candidates (b)/ take out their gloves (c)/ and start slugging with bare fists. (d)/ no error.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 160,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q104",
+      "q_num": 104,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "People are worried (a)/ more because of the frequency (b)/ of occurrence of the crime rather (c)/ than the magnitude of the crime. /(d). No error.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 146,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q105",
+      "q_num": 105,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "The number of students (a)/ competing in the event (b)/ has been fallen (c)/ because of want of incentive. (d)/ No error.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 121,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q106",
+      "q_num": 106,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "When he used to walk (a)/ along the road, (b)/ a wild and ferocious dog (c)/ knocked him down. (d)/ No error.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 109,
+        "page_start": null,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q107",
+      "q_num": 107,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "Even very small reservoirs (a)/ impounding water seasonally (b)/ can cause deformation in (c)/ the neighbouring region.(d)/ No error",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 132,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q108",
+      "q_num": 108,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "Sometimes they may also show you (a)/ a fake flight ticket they booked just to meet you (b)/ but had to cancel because(c)/ of an urgent work or health issue(d)/. No error",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 170,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q109",
+      "q_num": 109,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "The idea of (a)/ introducing genes to correct (b)/ heritable and other disorders (c)/ are revolutionary. (d)/ No error",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 118,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q110",
+      "q_num": 110,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Read each sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (e). (ignore the errors of punctuation, if any.)",
+      "stem": "The students requested their (a)/ Principal to be enough kind to (b)/ grant them five thousand rupees for (c)/ the reconstruction of the tennis court. (d)/ No error",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 164,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q111",
+      "q_num": 111,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence there are five pairs of words denoted by numbers (a), (b),",
+      "stem": "Leisure must be spent carefully and __________ only, otherwise the devil will take the ________ of you.",
+      "options": {
+        "a": "positively, care",
+        "b": "constructively, better",
+        "c": "pro-actively, though",
+        "d": "objectively, energy",
+        "e": "purposefully, measure"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 103,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q112",
+      "q_num": 112,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence there are five pairs of words denoted by numbers (a), (b),",
+      "stem": "Nothing is impossible in the world of politics. States which were _________ foes and had their deadly missiles pointed at each other find themselves ________ in military alliances.",
+      "options": {
+        "a": "implacable, partners",
+        "b": "incessant, capsized",
+        "c": "deadly, approaching",
+        "d": "known, soliciting",
+        "e": "clandestine, surreptitious"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 180,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q113",
+      "q_num": 113,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence there are five pairs of words denoted by numbers (a), (b),",
+      "stem": "Inferring attitudes from expressed opinion has many_______. People may______ their attitude and express socially acceptable opinions.",
+      "options": {
+        "a": "limitations, conceal",
+        "b": "advantages, show",
+        "c": "drawbacks, support",
+        "d": "benefits, avoid",
+        "e": "reasons, acknowledge"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 133,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q114",
+      "q_num": 114,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence there are five pairs of words denoted by numbers (a), (b),",
+      "stem": "We should move towards a system where the banks can_______ capital in the market with _______ safeguard so that they continue to be public sector banks.",
+      "options": {
+        "a": "improve, proper",
+        "b": "strengthen, durable",
+        "c": "raise, adequate",
+        "d": "stimulate, effective",
+        "e": "provide, delicate"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q115",
+      "q_num": 115,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence there are five pairs of words denoted by numbers (a), (b),",
+      "stem": "Governments in India seem to delight in arbitrary censorship under the ________ of _________ the public.",
+      "options": {
+        "a": "garb, upholding",
+        "b": "pretext, protecting",
+        "c": "context, strengthening",
+        "d": "command, authorising",
+        "e": "guise, winning"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 104,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q116",
+      "q_num": 116,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "stem": "(A) This is primarily because of restrictive export policies (minimum export prices, export bans or export duties) and domestic marketing policies (due to the Essential Commodities Act, APMC, etc). (B) The Producer Support Estimate (PSE) for India works out to be minus (-) 14 per cent of the gross farm receipts for the period 2000-01 to 2016-17. (C) But a recent study, conducted jointly by the OECD and ICRIER, estimated that India’s trade and marketing policies have inflicted a huge negative price burden upon the country’s farmers. (D) Most countries support agriculture to ensure food security and/or enhance farmers’ income. India is no exception. (E) The main policy instruments to support farmers in India include subsidised fertilisers, power, agri-credit and crop insurance on the input side, and minimum support prices for major crops on the output front.",
+      "options": {
+        "a": "DEACB",
+        "b": "BADEC",
+        "c": "CDEAB",
+        "d": "ABCDE",
+        "e": "DECBA"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 868,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q117",
+      "q_num": 117,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "stem": "(A) Mountbatten parried him by telling that he would first go to meet the Maharaja, ‘who was an old acquaintance’. The visit took place during June 18- 23. (B) Mountbatten advised Hari Singh not to make the independence declaration. (C) Gandhi met Mountbatten early in June, wanting to visit Kashmir instead of Nehru or ‘prepare the way for Pandit Nehru’. (D) However, Mountbatten’s mission was a failure. (E) He conveyed Patel’s message that ‘the States Department were prepared to give an assurance that, if Kashmir went to Pakistan, this would not be regarded as unfriendly by Government of India’.",
+      "options": {
+        "a": "DEACB",
+        "b": "BADEC",
+        "c": "CABED",
+        "d": "ABCDE",
+        "e": "DECBA"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 601,
+        "page_start": 13,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q118",
+      "q_num": 118,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "stem": "(A) While road dust and pollution from heavy vehicles are primarily responsible for the noxious pall that sets on Delhi and other urban centres, the burning of paddy stubble by farmers to clear their fields for the next crop is considered to be responsible for 20% of the smog. (B) There is a 50% subsidy to farmers, and a 75% waiver to cooperative societies, agencies that rent out equipment, farmers’ interest groups or gram panchayats to buy such machines. (C) To address this, the Centre is partnering with Punjab, Haryana and Uttar Pradesh to provide farmers with a range of mechanised implements to clear their fields of paddy crop residue to prepare for sowing wheat. (D) This year will be a crucial test for a scheme piloted by the Union government to address the winter haze. (E) States have got nearly Rs.650 crore to help farmers buy subsidised equipment such as Happy Seeder, paddy straw choppers and Zero Till Drill. (F) The onset of the winter season has come to be associated with toxic atmospheric pollution in north India.",
+      "options": {
+        "a": "DEFACB",
+        "b": "FDACBE",
+        "c": "CABEDF",
+        "d": "ABCFDE",
+        "e": "DFECBA"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 1039,
+        "page_start": null,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q119",
+      "q_num": 119,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "stem": "(A) The aim of the NHPS is to cover 10 crore families with medical insurance of Rs 5 lakh per household per year. (B) The country’s average out-of-pocket expenditure on healthcare is one of the highest globally, at 68%, and this means that of every Rs 100 spent by the public on healthcare, Rs 68 comes from their pocket. (C) In comparison, the out-of-pocket expenditure is much lower in China, at 34%, and in the US it is 11%. (D) With the announcement of the National Health Protection Scheme (NHPS), India has embarked on the path of universal health coverage. (E) India, currently, has a highly inadequate social security structure, and the situation is especially dire in healthcare.",
+      "options": {
+        "a": "CAEBD",
+        "b": "BAEDC",
+        "c": "ECDAB",
+        "d": "DAEBC",
+        "e": "DABEC"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 688,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q120",
+      "q_num": 120,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "stem": "(A) In fact, what’s worrying is that some of these expensive plants may end up being liquidated because lenders would resist selling them at big haircuts, fearful of being questioned by the investigative agencies. (B) What is more important, however, is that it won’t really solve the issues faced by these plants and will, at most, help postpone the day of reckoning. (C) Which is why union power minister RK Singh is trying to convince RBI it should provide lenders some forbearance for these assets. (D) Whether the central bank will make exceptions for one sector is not clear. (E) With over 40,000 MW of power plants already unviable for want of fuel or power purchase agreements (PPAs), and likely to be sold for a song if they turn into non-performing assets on banks’ books and end up in the NCLT, it is understandable the government is seriously concerned.",
+      "options": {
+        "a": "CAEBD",
+        "b": "EACDB",
+        "c": "AEBCD",
+        "d": "DAEBC",
+        "e": "BCEDA Solutions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 865,
+        "page_start": 14,
+        "page_end": 14
+      }
+    }
+  ]
+}

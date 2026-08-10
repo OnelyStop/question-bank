@@ -1,0 +1,560 @@
+{
+  "paper_id": "ibps_po_2018_mains_unknown_shift_033c07c5",
+  "source": {
+    "pdf_path": "corpus/IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1.pdf",
+    "sha256": "033c07c5ef56c2d16e31b6f38d02deb18e45436b88a8bf67c5ab1ae7fe8b3fc7",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2021/05/22133023/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1.pdf",
+    "source_filename": "IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1.pdf"
+  },
+  "bank": "IBPS",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2018,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 20,
+  "questions": [
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information and answer the questions: When a number arrangement machine is given an input line of numbers, it arranges them following a particular rule. The following is an illustration of an input and its rearrangement. Step IV, is the last step of the above arrangement as the intended arrangement is obtained. As per the rules followed in the given steps find out the appropriate steps for the given input: Input: 25 22 93 56 17 74 39",
+      "stem": "What is the sum of the numbers at both the ends in step III of the given arrangement?",
+      "options": {
+        "a": "36",
+        "b": "63",
+        "c": "60",
+        "d": "123",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information and answer the questions: When a number arrangement machine is given an input line of numbers, it arranges them following a particular rule. The following is an illustration of an input and its rearrangement. Step IV, is the last step of the above arrangement as the intended arrangement is obtained. As per the rules followed in the given steps find out the appropriate steps for the given input: Input: 25 22 93 56 17 74 39",
+      "stem": "Which element is 2nd to the right of the one which is 4th to the left element in step I?",
+      "options": {
+        "a": "112",
+        "b": "44",
+        "c": "148",
+        "d": "75",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 88,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information and answer the questions: When a number arrangement machine is given an input line of numbers, it arranges them following a particular rule. The following is an illustration of an input and its rearrangement. Step IV, is the last step of the above arrangement as the intended arrangement is obtained. As per the rules followed in the given steps find out the appropriate steps for the given input: Input: 25 22 93 56 17 74 39",
+      "stem": "What is the products of the numbers which is 3rd from the right end and 3rd from the left end in final step of the given arrangement?",
+      "options": {
+        "a": "189",
+        "b": "72",
+        "c": "13.5",
+        "d": "180",
+        "e": "No such step"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 133,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Six people Tarun, charu, Visakha, Monika, Anko and Viraj are born in different years with the current base is taken as 2018. None of them is older than 90 years old. They like different fruits apple, Orange, Grapes, Cherry, Mango, Banana. Note- The last two digits or reverse of the last two digits of the year in which a person is born can be the age of some other person. (Like A is born in 1943 and age of B is denoted by the last two digits of the birth year of A. Then B’s age will be either 34 or 43). Tarun was born in the year 1983. The difference of age between Tarun and Charu is 21 years. Visakha age is sum of the digits of the year in which Charu was born. The one who likes mango is 5 years elder to Visakha. Anko age is either the last two digits or reverse of the last two digits of the year in which the person who likes mango was born. Only one person is elder to Anko and Visakha likes apple. The one likes cherry is just younger to Anko. The difference between Viraj’s and the one who likes cherry is 24 years. The one who likes banana was born in an even year. The one who likes orange is younger to the one who likes grapes both in odd number of years. Monika is younger than Viraj.",
+      "stem": "Who among the following likes Banana?",
+      "options": {
+        "a": "Anko",
+        "b": "Tarun",
+        "c": "Charu",
+        "d": "Visakha",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Six people Tarun, charu, Visakha, Monika, Anko and Viraj are born in different years with the current base is taken as 2018. None of them is older than 90 years old. They like different fruits apple, Orange, Grapes, Cherry, Mango, Banana. Note- The last two digits or reverse of the last two digits of the year in which a person is born can be the age of some other person. (Like A is born in 1943 and age of B is denoted by the last two digits of the birth year of A. Then B’s age will be either 34 or 43). Tarun was born in the year 1983. The difference of age between Tarun and Charu is 21 years. Visakha age is sum of the digits of the year in which Charu was born. The one who likes mango is 5 years elder to Visakha. Anko age is either the last two digits or reverse of the last two digits of the year in which the person who likes mango was born. Only one person is elder to Anko and Visakha likes apple. The one likes cherry is just younger to Anko. The difference between Viraj’s and the one who likes cherry is 24 years. The one who likes banana was born in an even year. The one who likes orange is younger to the one who likes grapes both in odd number of years. Monika is younger than Viraj.",
+      "stem": "Who among the following is the eldest?",
+      "options": {
+        "a": "Anko",
+        "b": "Tarun",
+        "c": "Charu",
+        "d": "Vishakha",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Six people Tarun, charu, Visakha, Monika, Anko and Viraj are born in different years with the current base is taken as 2018. None of them is older than 90 years old. They like different fruits apple, Orange, Grapes, Cherry, Mango, Banana. Note- The last two digits or reverse of the last two digits of the year in which a person is born can be the age of some other person. (Like A is born in 1943 and age of B is denoted by the last two digits of the birth year of A. Then B’s age will be either 34 or 43). Tarun was born in the year 1983. The difference of age between Tarun and Charu is 21 years. Visakha age is sum of the digits of the year in which Charu was born. The one who likes mango is 5 years elder to Visakha. Anko age is either the last two digits or reverse of the last two digits of the year in which the person who likes mango was born. Only one person is elder to Anko and Visakha likes apple. The one likes cherry is just younger to Anko. The difference between Viraj’s and the one who likes cherry is 24 years. The one who likes banana was born in an even year. The one who likes orange is younger to the one who likes grapes both in odd number of years. Monika is younger than Viraj.",
+      "stem": "Which of the following combination is true?",
+      "options": {
+        "a": "Anko- 1959-mango",
+        "b": "Viraj- 1983- apple",
+        "c": "Charu-1962-cherry",
+        "d": "Monika-1995- grapes",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Six people Tarun, charu, Visakha, Monika, Anko and Viraj are born in different years with the current base is taken as 2018. None of them is older than 90 years old. They like different fruits apple, Orange, Grapes, Cherry, Mango, Banana. Note- The last two digits or reverse of the last two digits of the year in which a person is born can be the age of some other person. (Like A is born in 1943 and age of B is denoted by the last two digits of the birth year of A. Then B’s age will be either 34 or 43). Tarun was born in the year 1983. The difference of age between Tarun and Charu is 21 years. Visakha age is sum of the digits of the year in which Charu was born. The one who likes mango is 5 years elder to Visakha. Anko age is either the last two digits or reverse of the last two digits of the year in which the person who likes mango was born. Only one person is elder to Anko and Visakha likes apple. The one likes cherry is just younger to Anko. The difference between Viraj’s and the one who likes cherry is 24 years. The one who likes banana was born in an even year. The one who likes orange is younger to the one who likes grapes both in odd number of years. Monika is younger than Viraj.",
+      "stem": "Which of the following statement is correct?",
+      "options": {
+        "a": "Anko is three years older than the one who likes cherry",
+        "b": "Viraj is the eldest",
+        "c": "Anko born in 1959",
+        "d": "Monika is born before Visakha",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the information carefully and answer the questions given below. Six people Tarun, charu, Visakha, Monika, Anko and Viraj are born in different years with the current base is taken as 2018. None of them is older than 90 years old. They like different fruits apple, Orange, Grapes, Cherry, Mango, Banana. Note- The last two digits or reverse of the last two digits of the year in which a person is born can be the age of some other person. (Like A is born in 1943 and age of B is denoted by the last two digits of the birth year of A. Then B’s age will be either 34 or 43). Tarun was born in the year 1983. The difference of age between Tarun and Charu is 21 years. Visakha age is sum of the digits of the year in which Charu was born. The one who likes mango is 5 years elder to Visakha. Anko age is either the last two digits or reverse of the last two digits of the year in which the person who likes mango was born. Only one person is elder to Anko and Visakha likes apple. The one likes cherry is just younger to Anko. The difference between Viraj’s and the one who likes cherry is 24 years. The one who likes banana was born in an even year. The one who likes orange is younger to the one who likes grapes both in odd number of years. Monika is younger than Viraj.",
+      "stem": "In which of the following year Monika was born?",
+      "options": {
+        "a": "1995",
+        "b": "2000",
+        "c": "2012",
+        "d": "2007",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below Six persons sits around a triangular table such that three of them sit at the corners and the rest on the middle of the side. The one who sits at the corner face away from the center and the one who sit at the middle of the side face towards the center. They also like different animals i.e. fish, dog, rabbit, pigeon, duck and cat. The one who likes fish sits at the corner. The one who likes cat sits immediate right to the one who likes duck. C sits 2nd right to B, who likes rabbit. D faces the center and sits 3rd right to the one who likes pigeon. E sits immediate right to D. F sits at one of the corner but does not like pigeon and cat. A is one of the person. E does not like Duck and Fish.",
+      "stem": "Who among the following likes ducks?",
+      "options": {
+        "a": "E",
+        "b": "F",
+        "c": "C",
+        "d": "B",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below Six persons sits around a triangular table such that three of them sit at the corners and the rest on the middle of the side. The one who sits at the corner face away from the center and the one who sit at the middle of the side face towards the center. They also like different animals i.e. fish, dog, rabbit, pigeon, duck and cat. The one who likes fish sits at the corner. The one who likes cat sits immediate right to the one who likes duck. C sits 2nd right to B, who likes rabbit. D faces the center and sits 3rd right to the one who likes pigeon. E sits immediate right to D. F sits at one of the corner but does not like pigeon and cat. A is one of the person. E does not like Duck and Fish.",
+      "stem": "Who among the following sits 2nd to the right of the one who is 3rd left of A?",
+      "options": {
+        "a": "E",
+        "b": "F",
+        "c": "C",
+        "d": "B",
+        "e": "none of these Directions (11): Study the following information carefully and answer the question given below: A certain number of persons sit in a row adjacent to each other. Some of them like different fruits and others like different flowers. Six persons sit between the one who like mango and the one who like apple. The one who likes rose sit third to the left of the one who likes apple. Two persons sit between the one who likes rose and the one who likes marigold, who is not a neighbor of the one who likes mango. Only one person sit to the right of the one who likes marigold. No one sit to the right of the one who likes mango. Note: The one who likes fruits faces South and the one who likes flowers face North."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 78,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many persons sit in the row?",
+      "options": {
+        "a": "Fifteen",
+        "b": "Seventeen",
+        "c": "Thirteen",
+        "d": "Eighteen",
+        "e": "Eleven Direction (12): Study the following information carefully and answer the question given below: Five persons A, G, K, L and S purchase some items one after other. Two persons bought between A and the one who bought Chair. G purchase immediately before K but none of them bought Chair. Three persons bought between the one who purchase chair and the one who purchase table. Only two persons bought between the one who purchase wallet and the one who purchase table. Bag is purchased immediately before perfume. Only two persons bought between L and the one who purchase perfume. K does not buy wallet."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 4,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Who among the following purchase table?",
+      "options": {
+        "a": "L",
+        "b": "K",
+        "c": "G",
+        "d": "S",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below: $ F 3 6 N @ 9 K T Q 5 C % 8 B # 7 D S * H 4 W L STEP I- The numbers which are immediately preceded by symbol and immediately followed by an alphabet are arranged in the end of the series in increasing order. (Arranged immediate after L) STEP II- The odd numbers which are immediately preceded by an alphabet interchange their position with respect to the alphabet just before it. STEP III-The alphabets which are immediately followed by a symbol are arranged in alphabetical order between H and 4 of step II. Note: (STEP II is applied after STEP I and STEP III is applied after STEP II)",
+      "stem": "What is the sum of number which is sixth from right end in step I and eight from left end in step III?",
+      "options": {
+        "a": "8",
+        "b": "7",
+        "c": "9",
+        "d": "11",
+        "e": "13"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 102,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below: $ F 3 6 N @ 9 K T Q 5 C % 8 B # 7 D S * H 4 W L STEP I- The numbers which are immediately preceded by symbol and immediately followed by an alphabet are arranged in the end of the series in increasing order. (Arranged immediate after L) STEP II- The odd numbers which are immediately preceded by an alphabet interchange their position with respect to the alphabet just before it. STEP III-The alphabets which are immediately followed by a symbol are arranged in alphabetical order between H and 4 of step II. Note: (STEP II is applied after STEP I and STEP III is applied after STEP II)",
+      "stem": "How many alphabets are immediately preceded and immediately followed by numbers in step II?",
+      "options": {
+        "a": "one",
+        "b": "two",
+        "c": "three",
+        "d": "four",
+        "e": "five"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below: $ F 3 6 N @ 9 K T Q 5 C % 8 B # 7 D S * H 4 W L STEP I- The numbers which are immediately preceded by symbol and immediately followed by an alphabet are arranged in the end of the series in increasing order. (Arranged immediate after L) STEP II- The odd numbers which are immediately preceded by an alphabet interchange their position with respect to the alphabet just before it. STEP III-The alphabets which are immediately followed by a symbol are arranged in alphabetical order between H and 4 of step II. Note: (STEP II is applied after STEP I and STEP III is applied after STEP II)",
+      "stem": "How many symbols are immediately preceded by alphabets in Step III ?",
+      "options": {
+        "a": "one",
+        "b": "two",
+        "c": "three",
+        "d": "four",
+        "e": "five"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the information carefully and answer the questions given below. There are three floors in a given building such that floor 2 is above floor 1 and floor 3 is above floor 2. In the building there are two flats in each floor such Flat A is in the west of Flat B. In the building each Flat has an area of 576 ft and each flat has some certain number of room and no two flat has same number of rooms. The area of each rooms of one of the flat on the even number floor is 64ft. Total rooms on floor number third is seven. The flat which has rooms of area of 72 ft is on odd number floor. Number of rooms in the flat which is exactly below 9 rooms flat is 288 ft. There is only one floor between the flat who’s each room area is 192 ft and the flat whose rooms area is 72 ft. There is no flat on the west of the flat having 6 rooms.",
+      "stem": "What is the area of a room in Flat A on floor 2?",
+      "options": {
+        "a": "94",
+        "b": "92",
+        "c": "96",
+        "d": "either"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 48,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the information carefully and answer the questions given below. There are three floors in a given building such that floor 2 is above floor 1 and floor 3 is above floor 2. In the building there are two flats in each floor such Flat A is in the west of Flat B. In the building each Flat has an area of 576 ft and each flat has some certain number of room and no two flat has same number of rooms. The area of each rooms of one of the flat on the even number floor is 64ft. Total rooms on floor number third is seven. The flat which has rooms of area of 72 ft is on odd number floor. Number of rooms in the flat which is exactly below 9 rooms flat is 288 ft. There is only one floor between the flat who’s each room area is 192 ft and the flat whose rooms area is 72 ft. There is no flat on the west of the flat having 6 rooms.",
+      "stem": "What is the total number of rooms on floor 2nd?",
+      "options": {
+        "a": "12",
+        "b": "14",
+        "c": "13",
+        "d": "15",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the information carefully and answer the questions given below. There are three floors in a given building such that floor 2 is above floor 1 and floor 3 is above floor 2. In the building there are two flats in each floor such Flat A is in the west of Flat B. In the building each Flat has an area of 576 ft and each flat has some certain number of room and no two flat has same number of rooms. The area of each rooms of one of the flat on the even number floor is 64ft. Total rooms on floor number third is seven. The flat which has rooms of area of 72 ft is on odd number floor. Number of rooms in the flat which is exactly below 9 rooms flat is 288 ft. There is only one floor between the flat who’s each room area is 192 ft and the flat whose rooms area is 72 ft. There is no flat on the west of the flat having 6 rooms.",
+      "stem": "Which of the following statement is true?",
+      "options": {
+        "a": "Total number of rooms on floor 2 is 14",
+        "b": "Area of each room is 94 ft of flat A on floor 1",
+        "c": "Total rooms in Flat A of all three floors is 17.",
+        "d": "All are correct",
+        "e": "None is correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the information carefully and answer the questions given below. There are three floors in a given building such that floor 2 is above floor 1 and floor 3 is above floor 2. In the building there are two flats in each floor such Flat A is in the west of Flat B. In the building each Flat has an area of 576 ft and each flat has some certain number of room and no two flat has same number of rooms. The area of each rooms of one of the flat on the even number floor is 64ft. Total rooms on floor number third is seven. The flat which has rooms of area of 72 ft is on odd number floor. Number of rooms in the flat which is exactly below 9 rooms flat is 288 ft. There is only one floor between the flat who’s each room area is 192 ft and the flat whose rooms area is 72 ft. There is no flat on the west of the flat having 6 rooms.",
+      "stem": "What is the area of room of flat B on floor 3rd?",
+      "options": {
+        "a": "144 ft",
+        "b": "140.5",
+        "c": "138.5",
+        "d": "142",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2018_mains_unknown_shift_033c07c5::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the information carefully and answer the questions given below. There are three floors in a given building such that floor 2 is above floor 1 and floor 3 is above floor 2. In the building there are two flats in each floor such Flat A is in the west of Flat B. In the building each Flat has an area of 576 ft and each flat has some certain number of room and no two flat has same number of rooms. The area of each rooms of one of the flat on the even number floor is 64ft. Total rooms on floor number third is seven. The flat which has rooms of area of 72 ft is on odd number floor. Number of rooms in the flat which is exactly below 9 rooms flat is 288 ft. There is only one floor between the flat who’s each room area is 192 ft and the flat whose rooms area is 72 ft. There is no flat on the west of the flat having 6 rooms.",
+      "stem": "How many rooms are there of the west of the flat whose each room area is 288 ft?",
+      "options": {
+        "a": "6",
+        "b": "4",
+        "c": "3",
+        "d": "8",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 80,
+        "page_start": 6,
+        "page_end": 6
+      }
+    }
+  ]
+}

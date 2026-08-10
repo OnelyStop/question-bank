@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bank-exam.local/question_bank/paper.schema.json",
+  "title": "BankExamPaper",
+  "description": "Structured PYQ paper extracted from a corpus PDF",
+  "type": "object",
+  "required": [
+    "paper_id",
+    "source",
+    "bank",
+    "role",
+    "exam_type",
+    "year",
+    "shift",
+    "memory_based",
+    "language",
+    "parse_status",
+    "parse_notes",
+    "question_count",
+    "questions"
+  ],
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "source": {
+      "type": "object",
+      "required": ["pdf_path", "sha256", "source_url", "source_filename"],
+      "properties": {
+        "pdf_path": { "type": "string" },
+        "sha256": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "source_filename": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "bank": {
+      "type": ["string", "null"],
+      "examples": ["IBPS", "SBI", "RBI", "NABARD", "SIDBI"]
+    },
+    "role": {
+      "type": ["string", "null"],
+      "examples": ["PO", "Clerk", "RRB", "SO", "Assistant", "Grade_B"]
+    },
+    "exam_type": {
+      "type": ["string", "null"],
+      "enum": ["Prelims", "Mains", null]
+    },
+    "year": {
+      "type": ["integer", "null"],
+      "minimum": 2000,
+      "maximum": 2099
+    },
+    "shift": {
+      "type": ["string", "null"],
+      "examples": ["Shift_1", "Shift_2", null]
+    },
+    "memory_based": { "type": "boolean" },
+    "language": {
+      "type": ["string", "null"],
+      "examples": ["english", "hindi"]
+    },
+    "parse_status": {
+      "type": "string",
+      "enum": ["ok", "partial", "failed"]
+    },
+    "parse_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "question_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Question" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "QuestionMetrics": {
+      "type": "object",
+      "required": ["has_passage", "option_count", "stem_char_len", "page_start", "page_end"],
+      "properties": {
+        "has_passage": { "type": "boolean" },
+        "option_count": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "stem_char_len": { "type": "integer", "minimum": 0 },
+        "page_start": { "type": ["integer", "null"], "minimum": 1 },
+        "page_end": { "type": ["integer", "null"], "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "Options": {
+      "type": "object",
+      "propertyNames": { "enum": ["a", "b", "c", "d", "e"] },
+      "additionalProperties": { "type": "string" }
+    },
+    "Question": {
+      "type": "object",
+      "required": [
+        "q_id",
+        "q_num",
+        "section",
+        "topic",
+        "topic_confidence",
+        "topic_source",
+        "direction_id",
+        "direction_text",
+        "stem",
+        "options",
+        "answer",
+        "explanation",
+        "metrics"
+      ],
+      "properties": {
+        "q_id": {
+          "type": "string",
+          "pattern": "^.+::q\\d{3}$"
+        },
+        "q_num": { "type": "integer", "minimum": 1 },
+        "section": {
+          "type": ["string", "null"],
+          "enum": ["Reasoning", "Quantitative", "English", "GA", "Computer", null]
+        },
+        "topic": { "type": ["string", "null"] },
+        "topic_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "topic_source": {
+          "type": ["string", "null"],
+          "examples": ["rules", "llm", "manual", null]
+        },
+        "direction_id": {
+          "type": ["string", "null"],
+          "pattern": "^d\\d{3}$"
+        },
+        "direction_text": { "type": ["string", "null"] },
+        "stem": { "type": "string", "minLength": 1 },
+        "options": { "$ref": "#/$defs/Options" },
+        "answer": {
+          "type": ["string", "null"],
+          "enum": ["a", "b", "c", "d", "e", null]
+        },
+        "explanation": { "type": ["string", "null"] },
+        "metrics": { "$ref": "#/$defs/QuestionMetrics" }
+      },
+      "additionalProperties": false
+    },
+    "IndexRow": {
+      "type": "object",
+      "description": "One line in index.jsonl",
+      "required": [
+        "q_id",
+        "paper_id",
+        "bank",
+        "role",
+        "exam_type",
+        "year",
+        "shift",
+        "memory_based",
+        "language",
+        "q_num",
+        "section",
+        "topic",
+        "direction_id",
+        "has_passage",
+        "option_count",
+        "stem",
+        "options",
+        "answer",
+        "pdf_path"
+      ],
+      "properties": {
+        "q_id": { "type": "string" },
+        "paper_id": { "type": "string" },
+        "bank": { "type": ["string", "null"] },
+        "role": { "type": ["string", "null"] },
+        "exam_type": { "type": ["string", "null"] },
+        "year": { "type": ["integer", "null"] },
+        "shift": { "type": ["string", "null"] },
+        "memory_based": { "type": "boolean" },
+        "language": { "type": ["string", "null"] },
+        "q_num": { "type": "integer" },
+        "section": { "type": ["string", "null"] },
+        "topic": { "type": ["string", "null"] },
+        "direction_id": { "type": ["string", "null"] },
+        "has_passage": { "type": "boolean" },
+        "option_count": { "type": "integer" },
+        "stem": { "type": "string" },
+        "options": { "$ref": "#/$defs/Options" },
+        "answer": { "type": ["string", "null"] },
+        "pdf_path": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

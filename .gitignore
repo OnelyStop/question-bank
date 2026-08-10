@@ -1,0 +1,12 @@
+# Local PDF corpus (large — keep out of git)
+India/banking/collector/corpus/
+India/banking/collector/corpus_pre_2023/
+India/banking/collector/.env
+India/banking/collector/*.session
+India/banking/collector/*.session-journal
+India/banking/collector/state.json
+India/banking/collector/web_state.json
+__pycache__/
+.venv/
+venv/
+_sample_*.txt

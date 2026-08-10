@@ -1,0 +1,966 @@
+{
+  "paper_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d",
+  "source": {
+    "pdf_path": "corpus/IBPS/Clerk/no_year/Prelims/_unknown_shift/IBPS_Clerk_Prelims_Memory_Based_Quant.pdf",
+    "sha256": "9868e39d94d2d3dbd8f61d33c2bf4ff872b8a8e4944f6c614f8bb1691e9c678c",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2021/05/24105428/IBPS_Clerk_Prelims_Memory_Based_Quant.pdf",
+    "source_filename": "IBPS_Clerk_Prelims_Memory_Based_Quant.pdf"
+  },
+  "bank": "IBPS",
+  "role": "Clerk",
+  "exam_type": "Prelims",
+  "year": null,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 35,
+  "questions": [
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What will come in the place of question (?) mark in the following number series.",
+      "stem": "200, 193, 179, 158, ?, 95",
+      "options": {
+        "a": "135",
+        "b": "133",
+        "c": "132",
+        "d": "130",
+        "e": "128"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 25,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What will come in the place of question (?) mark in the following number series.",
+      "stem": "3, 43, 81, 115, 143, ?",
+      "options": {
+        "a": "163",
+        "b": "172",
+        "c": "166",
+        "d": "160",
+        "e": "168"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What will come in the place of question (?) mark in the following number series.",
+      "stem": "1, 6, 25, 76, 153, ?",
+      "options": {
+        "a": "152",
+        "b": "154",
+        "c": "153",
+        "d": "155",
+        "e": "156"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 20,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What will come in the place of question (?) mark in the following number series.",
+      "stem": "50, 54, 45, 61, 36, ?",
+      "options": {
+        "a": "66",
+        "b": "72",
+        "c": "75",
+        "d": "80",
+        "e": "84"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q040",
+      "q_num": 40,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What will come in the place of question (?) mark in the following number series.",
+      "stem": "9, 45, 180, 540, ?, 1080",
+      "options": {
+        "a": "720",
+        "b": "900",
+        "c": "1080",
+        "d": "1200",
+        "e": "960"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 2,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the sum of upstream and downstream speed is 36 km/hr and the speed of the current is 3km/hr. Then find time taken to cover 52.5 km in downward?",
+      "options": {
+        "a": "2 hr",
+        "b": "2.5 hr",
+        "c": "3 hr",
+        "d": "3.5 hr",
+        "e": "4 hr"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 146,
+        "page_start": null,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A sum becomes 1.6 times of itself in five years at simple rate of interest. Find rate of interest per annum?",
+      "options": {
+        "a": "10%",
+        "b": "12.5%",
+        "c": "15%",
+        "d": "12%",
+        "e": "8.5%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 108,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "𝒙𝟐+ (𝟗𝟐+ 𝟑𝟒) ÷ 𝟓= 𝟑𝟗",
+      "options": {
+        "a": "5",
+        "b": "4",
+        "c": "8",
+        "d": "6",
+        "e": "9"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 20,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "𝟔× 𝟏𝟔× 𝟓÷ 𝟑−𝒙𝟐= 𝟗𝟔",
+      "options": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "√𝟏𝟐𝟒+ 𝒙+ 𝟏𝟔𝟗= 𝟏𝟖",
+      "options": {
+        "a": "27",
+        "b": "28",
+        "c": "29",
+        "d": "30",
+        "e": "31"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 16,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "𝟐𝟖𝟐−𝒙𝟑= 𝟕𝟑+ 𝟐𝟐𝟓",
+      "options": {
+        "a": "6",
+        "b": "8",
+        "c": "4",
+        "d": "7",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 15,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "𝟐𝟗𝟖−𝟏𝟑𝟐−𝟐𝟑= 𝒙 × 𝟏𝟏",
+      "options": {
+        "a": "51",
+        "b": "41",
+        "c": "21",
+        "d": "11",
+        "e": "31"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "√𝟕𝟐𝟗 + 𝟑 𝟓÷ 𝒙= √𝟏𝟔× 𝟗",
+      "options": {
+        "a": "1",
+        "b": "1.4",
+        "c": "1.2",
+        "d": "1.6",
+        "e": "2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "x% of 300 + √𝟐𝟓𝟔 = 243 ÷ 3 + 7",
+      "options": {
+        "a": "18",
+        "b": "24",
+        "c": "16",
+        "d": "28",
+        "e": "32"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "x × 3 ÷ 8 = √𝟓𝟏𝟐 × √𝟏𝟐𝟐",
+      "options": {
+        "a": "256",
+        "b": "512",
+        "c": "64",
+        "d": "128",
+        "e": "320"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "136 ÷ 2² × x = 17% of 500 ÷ 10",
+      "options": {
+        "a": "1",
+        "b": "0.5",
+        "c": "0.25",
+        "d": "0.125",
+        "e": "1.25"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
+      "stem": "1836÷ 𝒙÷ 𝟗 =12",
+      "options": {
+        "a": "9",
+        "b": "11",
+        "c": "13",
+        "d": "15",
+        "e": "17"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 14,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ratio of present ages of two persons A and B is 3:2 and after four years ratio of their age (B : A) become 7:10. Then find the present age of B?",
+      "options": {
+        "a": "20 years",
+        "b": "18 years",
+        "c": "24 years",
+        "d": "36 years",
+        "e": "30 years"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 144,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The difference between Circumference of circle A and diameter is 90 cm . If Radius of Circle B is 7 cm less than circle A then find area of Circle B?",
+      "options": {
+        "a": "556 cm2",
+        "b": "616 cm2",
+        "c": "588 cm2",
+        "d": "532 cm2",
+        "e": "630 cm2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 149,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There are 40 children in a class in which boys are 4 more than the girls. Average weight of all the students is 42.5 kg and the average weight of all the girls is 48 kg then find the average weight of all the boys.",
+      "options": {
+        "a": "39.5 kg",
+        "b": "38 kg",
+        "c": "40.5 kg",
+        "d": "36.75 kg",
+        "e": "40.25 kg"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 214,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. 8x² + 6x + 1 = 0 II. 3y² + 7y + 2 = 0",
+      "options": {
+        "a": "If x=y or no relation can be established",
+        "b": "If x>y",
+        "c": "If x<y",
+        "d": "If x>=y",
+        "e": "If x<=y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q057",
+      "q_num": 57,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. x² = 196 II. y² – 26y + 169 = 0",
+      "options": {
+        "a": "If x=y or no relation can be established",
+        "b": "If x>y",
+        "c": "If x<y",
+        "d": "If x>=y",
+        "e": "If x<=y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. 9x² – 12x + 4 = 0 II. 8y² – 9y + 1 = 0",
+      "options": {
+        "a": "If x=y or no relation can be established",
+        "b": "If x>y",
+        "c": "If x<y",
+        "d": "If x>=y",
+        "e": "If x<=y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. x² – 15x + 56 = 0 II. y = √512",
+      "options": {
+        "a": "If x=y or no relation can be established",
+        "b": "If x>y",
+        "c": "If x<y",
+        "d": "If x>=y",
+        "e": "If x<=y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In each question two equations numbered (I) and (II) are given. Student should solve both the equations and mark appropriate answer.",
+      "stem": "I. 3x² + 10x + 8 = 0 II. 2y² + 3y + 1 = 0",
+      "options": {
+        "a": "If x=y or no relation can be established",
+        "b": "If x>y",
+        "c": "If x<y",
+        "d": "If x>=y",
+        "e": "If x<=y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A man invested 15% of his monthly income in LIC and remaining gave to his mother. Mother spend 10 % of it in household expenses and she had left with Rs 30,600 then find the salary of man?",
+      "options": {
+        "a": "Rs 37,500",
+        "b": "Rs 36,000",
+        "c": "Rs 38,000",
+        "d": "Rs 42,000",
+        "e": "Rs 40,000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 188,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If 7 marks are awarded to right answer and 4 marks are penalty for wrong answer. Then Prabhat’s score was 263. If he attempted 58 questions then find number of correctly attempted questions?",
+      "options": {
+        "a": "45",
+        "b": "42",
+        "c": "48",
+        "d": "40",
+        "e": "50"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 190,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In a city, 68% of population is literate in which ratio of male to female is 11:6. And ratio of illiterate male to female is 3: 1 . Find the ratio of literate female to illiterate female in that city.",
+      "options": {
+        "a": "3:2",
+        "b": "2:1",
+        "c": "3:1",
+        "d": "4:1",
+        "e": "5:2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 200,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ratio of length to breadth of a rectangle is 4:3. If the area of that rectangle is 108 cm2 and breadth of this rectangle is equal to the side of a square then find the area of that square.",
+      "options": {
+        "a": "49 cm2",
+        "b": "100 cm2",
+        "c": "64 cm2",
+        "d": "81 cm2",
+        "e": "121 cm2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 188,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A is 1.5 times as efficient as that of B and C takes half time as compared to that of A. If A and B takes 𝟐 𝟓 days to complete half of the work then find the time taken by A and C together to complete the whole work?",
+      "options": {
+        "a": "2 3 days",
+        "b": "3 3 days",
+        "c": "1 3 days",
+        "d": "1 3 days",
+        "e": "2 3 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 216,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Given below table shows the number of cakes of five different types sold by a shopkeeper on four different days. Study the data and answer the questions that follow: Days/Type of Cake A B C D E Saturday Sunday Monday Tuesday",
+      "stem": "What is the ratio of no. of cakes of type B sold by the shopkeeper on Saturday and Monday together to the no. of cakes of type E sold by him on the same days?",
+      "options": {
+        "a": "72:53",
+        "b": "88:67",
+        "c": "98:73",
+        "d": "92:71",
+        "e": "90:67"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 158,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Given below table shows the number of cakes of five different types sold by a shopkeeper on four different days. Study the data and answer the questions that follow: Days/Type of Cake A B C D E Saturday Sunday Monday Tuesday",
+      "stem": "What is average no. of cakes of type C sold by shopkeeper on Saturday, Sunday and Tuesday?",
+      "options": {
+        "a": "38",
+        "b": "40",
+        "c": "42",
+        "d": "44",
+        "e": "46"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 90,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Given below table shows the number of cakes of five different types sold by a shopkeeper on four different days. Study the data and answer the questions that follow: Days/Type of Cake A B C D E Saturday Sunday Monday Tuesday",
+      "stem": "The no. of cakes of type D and E sold together on Tuesday is what percent of the no. of cakes of type A & B sold together on Sunday?",
+      "options": {
+        "a": "72%",
+        "b": "75%",
+        "c": "74%",
+        "d": "78%",
+        "e": "80%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 132,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Given below table shows the number of cakes of five different types sold by a shopkeeper on four different days. Study the data and answer the questions that follow: Days/Type of Cake A B C D E Saturday Sunday Monday Tuesday",
+      "stem": "What is the difference between the total no. of cakes of all the given types sold by shopkeeper on Monday and the total no. of cakes of all the given types sold by shopkeeper on Tuesday?",
+      "options": {
+        "a": "38",
+        "b": "44",
+        "c": "42",
+        "d": "40",
+        "e": "45"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 186,
+        "page_start": null,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_clerk_noyear_prelims_unknown_shift_9868e39d::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Given below table shows the number of cakes of five different types sold by a shopkeeper on four different days. Study the data and answer the questions that follow: Days/Type of Cake A B C D E Saturday Sunday Monday Tuesday",
+      "stem": "If the no. of cakes of type F sold by the shopkeeper in given four days is 25% more than the no. of cakes sold of type D in all the given days, then find the no. of cakes sold of type F in all the given days.",
+      "options": {
+        "a": "164",
+        "b": "160",
+        "c": "180",
+        "d": "200",
+        "e": "240"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 208,
+        "page_start": 8,
+        "page_end": 8
+      }
+    }
+  ]
+}

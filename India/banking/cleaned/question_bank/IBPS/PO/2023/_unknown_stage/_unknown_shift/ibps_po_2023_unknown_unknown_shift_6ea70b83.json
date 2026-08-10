@@ -1,0 +1,966 @@
+{
+  "paper_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83",
+  "source": {
+    "pdf_path": "corpus/IBPS/PO/2023/_unknown_stage/_unknown_shift/ibps-po-previous-year-paper-2023-pdf-(1).pdf",
+    "sha256": "6ea70b839dd9c19d99235d34a9b2fd13072b52aa9938b3488740fe1bb0187ce9",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/ibps-po-previous-year-paper-2023-pdf-(1).pdf",
+    "source_filename": "ibps-po-previous-year-paper-2023-pdf-(1).pdf"
+  },
+  "bank": "IBPS",
+  "role": "PO",
+  "exam_type": null,
+  "year": 2023,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 35,
+  "questions": [
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "Ratio of number of people with BMI less than 60 on Monday and Wednesday together to number of people with BMI greater than 80 on Friday is:",
+      "options": {
+        "a": "7:2",
+        "b": "4:1",
+        "c": "11:3",
+        "d": "13:4",
+        "e": "None of these IBPS PO Prelims Previous Year Questions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 139,
+        "page_start": 2,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "Total number of people who visited the clinic on Tuesday and Thursday together is how much percent more/less than total number of people with BMI greater than or equal to 60 but less than or equal to 80 on Monday and Friday together.",
+      "options": {
+        "a": "260%",
+        "b": "225%",
+        "c": "160%",
+        "d": "240%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 233,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "Average number of people with BMI greater than 80 on Tuesday and Wednesday together is:",
+      "options": {
+        "a": "144",
+        "b": "164",
+        "c": "124",
+        "d": "154",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "Total number of people who visited the clinic on other day i.e. Saturday is 25% of the number of people who visited the clinic on Wednesday and Thursday together. Find the number of people who visited the clinic on Saturday.",
+      "options": {
+        "a": "450",
+        "b": "270",
+        "c": "220",
+        "d": "490",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 224,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "Difference between number of people with BMI greater than 80 on Monday and Friday is?",
+      "options": {
+        "a": "72",
+        "b": "52",
+        "c": "62 IBPS PO Prelims Previous Year Questions",
+        "d": "92",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 3,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "What will come in place of the question mark (?) in the following series? 136, 142, 124, 154, ?.166",
+      "options": {
+        "a": "102",
+        "b": "122",
+        "c": "118",
+        "d": "110",
+        "e": "112"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 99,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "What will come in place of the question mark (?) in the following series? 432, ?, 443, 461, 454, 472",
+      "options": {
+        "a": "450",
+        "b": "448",
+        "c": "452",
+        "d": "454",
+        "e": "446"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 100,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "What will come in place of the question mark (?) in the following series? 98, 104, 97, ?, 94, 110",
+      "options": {
+        "a": "112",
+        "b": "94",
+        "c": "108",
+        "d": "106",
+        "e": "102"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 97,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "What will come in place of the question mark (?) in the following series? 48, 57, 82, 131, 212, ?",
+      "options": {
+        "a": "337 IBPS PO Prelims Previous Year Questions",
+        "b": "313",
+        "c": "323",
+        "d": "333",
+        "e": "343"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 97,
+        "page_start": 4,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Answer the questions based on the information given below. The given line graph shows the data regarding number of people who visited a clinic on five different days such that their BMI lie in three different ranges i.e. BMI < 60, 60 ≤ BMI ≤ 80 and BMI > 80.",
+      "stem": "What will come in place of the question mark (?) in the following series? 4, 22, 136, 202, 292, ?",
+      "options": {
+        "a": "360",
+        "b": "380",
+        "c": "372",
+        "d": "364",
+        "e": "370"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 97,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. A data is collected regarding number of workers working in two shifts (morning and evening) in five different companies. The table given below shows the total number of workers in the respective companies and percentage by which number of workers working in morning shift is more than that in the evening shift. Total number of workers in a company = Number of workers working in morning shift + Number of workers working in evening shift Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56%",
+      "stem": "If total number of workers working in all five companies together is represented in a pie chart then difference between central angle made by number of workers working in company ‘A’ and ‘E’ is:",
+      "options": {
+        "a": "21.3o IBPS PO Prelims Previous Year Questions",
+        "b": "34.2o",
+        "c": "8.1o",
+        "d": "8.7o",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 194,
+        "page_start": 5,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. A data is collected regarding number of workers working in two shifts (morning and evening) in five different companies. The table given below shows the total number of workers in the respective companies and percentage by which number of workers working in morning shift is more than that in the evening shift. Total number of workers in a company = Number of workers working in morning shift + Number of workers working in evening shift Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56%",
+      "stem": "Ratio of number of workers working in morning shift in company ‘A’ to number of workers working in evening shift in company ‘C’.",
+      "options": {
+        "a": "16:21",
+        "b": "7:6",
+        "c": "6:7",
+        "d": "21:16",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 128,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. A data is collected regarding number of workers working in two shifts (morning and evening) in five different companies. The table given below shows the total number of workers in the respective companies and percentage by which number of workers working in morning shift is more than that in the evening shift. Total number of workers in a company = Number of workers working in morning shift + Number of workers working in evening shift Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56%",
+      "stem": "Total number of workers working in morning shift in companies ‘D’ and ‘E’ together is how much percent more than the number of workers working in evening shift in company ‘B’.",
+      "options": {
+        "a": "56.78%",
+        "b": "53.33%",
+        "c": "58.33%",
+        "d": "51.67%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 175,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. A data is collected regarding number of workers working in two shifts (morning and evening) in five different companies. The table given below shows the total number of workers in the respective companies and percentage by which number of workers working in morning shift is more than that in the evening shift. Total number of workers in a company = Number of workers working in morning shift + Number of workers working in evening shift Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56%",
+      "stem": "Number of workers working in evening shift and morning shift in company ‘F’ are 75% more and 37.5% less than number of workers working in evening shift in company ‘A’ and morning shift in company ‘C’, respectively. Find total number of workers working in company ‘F’.",
+      "options": {
+        "a": "1025",
+        "b": "1005",
+        "c": "1018 IBPS PO Prelims Previous Year Questions",
+        "d": "1225",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 267,
+        "page_start": 6,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. A data is collected regarding number of workers working in two shifts (morning and evening) in five different companies. The table given below shows the total number of workers in the respective companies and percentage by which number of workers working in morning shift is more than that in the evening shift. Total number of workers in a company = Number of workers working in morning shift + Number of workers working in evening shift Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56%",
+      "stem": "Number of workers working in evening shift in company ‘E’ is how much percent of total number of workers working in evening shift in companies ‘A’, ‘B’ and ‘D’ together.",
+      "options": {
+        "a": "16.67%",
+        "b": "14.28%",
+        "c": "13.33%",
+        "d": "18.18%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 169,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "Find the difference between number of boys in A1 and number of girls in B1.",
+      "options": {
+        "a": "145",
+        "b": "120",
+        "c": "135",
+        "d": "95",
+        "e": "105"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "Find the average number of boys in given three coaches.",
+      "options": {
+        "a": "100",
+        "b": "120",
+        "c": "135",
+        "d": "80",
+        "e": "105 IBPS PO Prelims Previous Year Questions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 55,
+        "page_start": 7,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "Total number of people in C1 is how much percent more/less than that in B1?",
+      "options": {
+        "a": "40%",
+        "b": "60%",
+        "c": "35%",
+        "d": "60%",
+        "e": "44%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "Find 40% of number of girls in A1 and B1, together.",
+      "options": {
+        "a": "45",
+        "b": "58",
+        "c": "64",
+        "d": "72",
+        "e": "50"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "The ratio of total number of people in A1 and D1 is 7:5, respectively. If 45% of number of people (boys + girls) in D1 are boys then find the number of girls in D1.",
+      "options": {
+        "a": "150",
+        "b": "100",
+        "c": "140",
+        "d": "110",
+        "e": "90"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 164,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "In the question, two equations I and II are given. You have to solve both the equations to establish the correct relation between x and y and choose the correct option. I. x2 = 144 II. y2 – 12y = 0",
+      "options": {
+        "a": "x > y",
+        "b": "x < y",
+        "c": "x = y or the relationship cannot be established IBPS PO Prelims Previous Year Questions",
+        "d": "x ≥ y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 197,
+        "page_start": 8,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "In the question, two equations I and II are given. You have to solve both the equations to establish the correct relation between x and y and choose the correct option. I. x2 – 2x – 8 = 0 II. 2y2 + 13y + 21 = 0",
+      "options": {
+        "a": "x > y",
+        "b": "x < y",
+        "c": "x = y or the relationship cannot be established",
+        "d": "x ≥ y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 210,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "In the question, two equations I and II are given. You have to solve both the equations to establish the correct relation between x and y and choose the correct option. I. x2 + 27x + 180 = 0 II. y2 + 17y + 72 = 0",
+      "options": {
+        "a": "x > y",
+        "b": "x < y",
+        "c": "x = y or the relationship cannot be established",
+        "d": "x ≥ y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 212,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "In the question, two equations I and II are given. You have to solve both the equations to establish the correct relation between x and y and choose the correct option. I. x2 + 11x + 28 = 0 II. y2 + 6y + 8 = 0",
+      "options": {
+        "a": "x > y",
+        "b": "x < y IBPS PO Prelims Previous Year Questions",
+        "c": "x = y or the relationship cannot be established",
+        "d": "x ≥ y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": 9,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "In the question, two equations I and II are given. You have to solve both the equations to establish the correct relation between x and y and choose the correct option. I. x2 – 4x + 4 = 0 II. 25y2 – 55y + 28 = 0",
+      "options": {
+        "a": "x > y",
+        "b": "x < y",
+        "c": "x = y or the relationship cannot be established",
+        "d": "x ≥ y",
+        "e": "x ≤ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 211,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "A mixture contains (x + 40) litres of milk and rest water. If total quantity of mixture is (2x + 40) litres and ratio of quantity of milk to water in the mixture is 3:2, then find the value of ‘x’.",
+      "options": {
+        "a": "80",
+        "b": "48",
+        "c": "100",
+        "d": "60",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 197,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "‘A’ and ‘B’ together can do a work in 40 days while ‘B’ and ‘C’ together can do the same work in 60 days. ‘A’ worked on it for 12 days, ‘B’ worked on it for 40 days and ‘C’ completed the remaining work in 56 days. Find the time taken by ‘C’ alone to complete the whole work.",
+      "options": {
+        "a": "90 days",
+        "b": "120 days",
+        "c": "60 days",
+        "d": "75 days IBPS PO Prelims Previous Year Questions",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 274,
+        "page_start": 10,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "A bag contains ‘x’ blue, ‘x + 4’ red and ‘x + 12’ green balls. Probability of drawing a red ball is 1/13 more than probability of getting a blue ball. If two balls are drawn at random then probability of getting a red and a green ball is:",
+      "options": {
+        "a": "157/221",
+        "b": "64/221",
+        "c": "32/221",
+        "d": "128/221",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 238,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "A bag contains 20-paise coins, 50-paise coins and Re. 1 coins in the ratio of 185:49:9 respectively. If total amount present in the bag is Rs. 282, then find the number of 50- paise coins in the bag.",
+      "options": {
+        "a": "196",
+        "b": "98",
+        "c": "392",
+        "d": "740",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 199,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "‘A’ and ‘B’ started a business by investing Rs. 4000 and Rs. 3000, respectively. After 5 months, ‘A’ withdrew 50% of his investment. If the annual profit share of ‘A’ is Rs. 3400 then find annual profit share of ‘B’.",
+      "options": {
+        "a": "Rs. 8000",
+        "b": "Rs. 4000",
+        "c": "Rs. 3200",
+        "d": "Rs. 3600",
+        "e": "None of these IBPS PO Prelims Previous Year Questions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 216,
+        "page_start": 11,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "To cover a distance of 162 km, a bus takes 45 minutes more than the time taken by a car to cover a distance of 216 km. If speed of car is 12 km/h more than the speed of bus, then find the distance travelled by the bus in 4 hours.",
+      "options": {
+        "a": "96 km",
+        "b": "72 km",
+        "c": "144 km",
+        "d": "192 km",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 229,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "A certain sum of money invested at a certain rate give a compound interest of Rs. 2967 at the end of 2 years and the same money will give a simple interest of Rs. 6900 at the end of 5 years if invested at same rate of interest. Find the sum of money invested.",
+      "options": {
+        "a": "Rs. 8400",
+        "b": "Rs. 9200",
+        "c": "Rs. 9000",
+        "d": "Rs. 9600",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 259,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "There are 250 students in a hostel. If the number of students is increased by 50, the total expense of the mess increased by Rs. 200 while the average expenditure per head decreases by Rs. 1. Find the original expenditure of the mess.",
+      "options": {
+        "a": "Rs. 2500",
+        "b": "Rs. 2800",
+        "c": "Rs. 1600",
+        "d": "Rs. 2000",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 234,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "A seller marked a bulb 40% above its cost price (CP) and then sold it after a discount of 20%. Had he bought the bulb for Rs. 50 less and sold it for Rs. 20 more, then there would have been a profit of 50%. Find original CP of the bulb.",
+      "options": {
+        "a": "Rs. 250",
+        "b": "Rs. 100 IBPS PO Prelims Previous Year Questions",
+        "c": "Rs. 350",
+        "d": "Rs. 200",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 236,
+        "page_start": 12,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Answer the questions based on the information given below. The given data is about number of boys and girls in three coaches (A1, B1 and C1). The ratio of number of boys in A1 and B1 is 8:5. The number of boys in B1 is 80% of total number of people (boys + girls) in B1. Number of girls in C1 is 20% more than that in B1. The number of boys in C1 is 75% less than that in A1. Total number of people in A1 is 4 times of that in C1. Number of girls in A1 is 120.",
+      "stem": "6 years hence from now, the ratio of the ages of ‘A’ and ‘B’ will be 6:7. If the present age of ‘B’ is 20% more than that of ‘A’, then find the present age of ‘B’. A) 30 years B) 36 years C) 32 years D) 28 years E) None of these निर्देश: नीचे दी गई जानकारी के आधार पर प्रश्नों के उत्तर दें। ददया गया line graph पाांच विभिन्न ददन पर एक क्लिननक का दौरा करने िािे व्यक्लियों की सांख्या के बारे में जानकारी दर्ाािा है जहााँ उनका BMI िीन श्रेणी में है अर्ााि BMI < 60, 60 ≤ BMI ≤ 80 और BMI > 80| प्रश्ि 1: Monday और Wednesday को 60 से कम BMI िािे व्यक्लियों की कुि सांख्या और Friday को 80 से अधधक BMI िािे व्यक्लियों की सांख्या का अनुपाि ककिना है: IBPS PO Prelims Previous Year Questions A) 7:2 B) 4:1 C) 11:3 D) 13:4 E) इनमें से कोई नहीां प्रश्ि 2: Tuesday और Thursday को क्लिननक का दौरा करने िािे व्यक्लियों की कुि सांख्या, Monday और Friday को 60 से अधधक या बराबर पर 80 से कम या बराबर BMI िािे व्यक्लियों की कुि सांख्या से ककिने प्रनिर्ि अधधक/कम है? A) 260% B) 225% C) 160% D) 240% E) इनमें से कोई नहीां प्रश्ि 3: Tuesday और Wednesday को 80 से अधधक BMI िािे व्यक्लियों की औसि सांख्या ककिनी है: A) 144 B) 164 C) 124 D) 154 E) इनमें से कोई नहीां प्रश्ि 4: ककसी अन्य ददन यानन Saturday को क्लिननक का दौरा करने िािे व्यक्लियों की कुि सांख्या Wednesday और Thursday को क्लिननक का दौरा करने िािे व्यक्लियों की सांख्या का 25% है| Saturday को क्लिननक का दौरा करने िािे व्यक्लियों की सांख्या ज्ञाि करें| A) 450 B) 270 C) 220 D) 490 IBPS PO Prelims Previous Year Questions E) इनमें से कोई नहीां प्रश्ि 5: Monday और Friday को 80 से अधधक BMI िािे व्यक्लियों की सांख्या के बीच का अांिर ककिना है? A) 72 B) 52 C) 62 D) 92 E) इनमें से कोई नहीां प्रश्ि 6: ननम्नभिखिि श्ररांििा में प्रश्न धचह्न (?) के स्र्ान पर लया आएगा? 136, 142, 124, 154, ?.166 A) 102 B) 122 C) 118 D) 110 E) 112 प्रश्ि 7: ननम्नभिखिि श्ररांििा में प्रश्न धचह्न (?) के स्र्ान पर लया आएगा? 432, ?, 443, 461, 454, 472 A) 450 B) 448 C) 452 D) 454 E) 446 प्रश्ि 8: ननम्नभिखिि श्ररांििा में प्रश्न धचह्न (?) के स्र्ान पर लया आएगा? 98, 104, 97, ?, 94, 110 A) 112 B) 94 IBPS PO Prelims Previous Year Questions C) 108 D) 106 E) 102 प्रश्ि 9: ननम्नभिखिि श्ररांििा में प्रश्न धचह्न (?) के स्र्ान पर लया आएगा? 48, 57, 82, 131, 212, ? A) 337 B) 313 C) 323 D) 333 E) 343 प्रश्ि 10: ननम्नभिखिि श्ररांििा में प्रश्न धचह्न (?) के स्र्ान पर लया आएगा? 4, 22, 136, 202, 292, ? A) 360 B) 380 C) 372 D) 364 E) 370 निर्देश: नीचे दी गई जानकारी के आधार पर प्रश्नों के उत्तर दें। पाांच अिग-अिग companies में दो shifts (morning और evening) में काम करने िािे श्रभमकों की सांख्या के सांबांध में एक डेटा एकत्र ककया जािा है। नीचे दी गई िाभिका में सांबांधधि companies में श्रभमकों की कुि सांख्या और िह प्रनिर्ि दर्ााया गया है क्जससे morning shift में काम करने िािे श्रभमकों की सांख्या evening shift की िुिना में अधधक है। एक company में श्रभमकों की कुि सांख्या = morning shift में काम करने िािे श्रभमकों की सांख्या + evening shift में काम करने िािे श्रभमकों की सांख्या IBPS PO Prelims Previous Year Questions Companies Total number of workers Percentage by which number of workers working in morning shift is more than that in the evening shift A 20% B 30% C 12.5% D (50/3)% E 56% प्रश्ि 11: यदद सिी पाांच companies में काम करने िािे श्रभमकों की कुि सांख्या को एक पाई चाटा में दर्ााया जािा है, िो company ‘A’ और ‘E’ में काम करने िािे श्रभमकों की सांख्या से ननभमाि केंद्रीय कोण के बीच का अांिर ककिना है? A) 21.3o B) 34.2o C) 8.1o D) 8.7o E) इनमें से कोई नहीां प्रश्ि 12: Company ‘A’ में morning shift में काम करने िािे श्रभमकों की सांख्या और company ‘C’ में evening shift में काम करने िािे श्रभमकों की सांख्या का अनुपाि ककिना है? A) 16:21 B) 7:6 C) 6:7 D) 21:16 E) इनमें से कोई नहीां प्रश्ि 13: Companies 'D' और 'E' में morning shift में काम करने िािे कमाचाररयों की कुि सांख्या company ‘B’ में evening shift में काम करने िािे कमाचाररयों की सांख्या से ककिना प्रनिर्ि अधधक है। A) 56.78% B) 53.33% IBPS PO Prelims Previous Year Questions C) 58.33% D) 51.67% E) इनमें से कोई नहीां प्रश्ि 14: Company ‘F’ में evening shift और morning shift में काम करने िािे श्रभमकों की सांख्या company ‘A’ में evening shift और company ‘C’ में morning shift में काम करने िािे श्रभमकों की सांख्या से क्रमर्: 75% अधधक और 37.5% कम है। Company 'F' में काम करने िािे श्रभमकों की कुि सांख्या ज्ञाि कीक्जए। A) 1025 B) 1005 C) 1018 D) 1225 E) इनमें से कोई नहीां प्रश्ि 15: Company 'E' में evening shift में काम करने िािे श्रभमकों की सांख्या, companies 'A', 'B' और 'D' में evening shift में काम करने िािे श्रभमकों की कुि सांख्या का ककिना प्रनिर्ि है। A) 16.67% B) 14.28% C) 13.33% D) 18.18% E) इनमें से कोई नहीां निर्देश: नीचे दी गई जानकारी के आधार पर प्रश्नों के उत्तर दें। दी गई जानकारी िीन कोचों (A1, B1 और C1) में िड़कों और िड़ककयों की सांख्या के बारे में है। A1 और B1 में िड़कों की सांख्या का अनुपाि 8:5 है। B1 में िड़कों की सांख्या B1 में कुि व्यक्लियों (िड़के + िड़ककयों) का 80% है। C1 में िड़ककयों की सांख्या B1 की िुिना में 20% अधधक है। C1 में िड़कों की सांख्या A1 की िुिना में 75% कम है। A1 में व्यक्लियों की कुि सांख्या C1 की िुिना में 4 गुना है। A1 में िड़ककयों की सांख्या 120 है। प्रश्ि 16: A1 में िड़कों की सांख्या और B1 में िड़ककयों की सांख्या के बीच का अांिर ज्ञाि कीक्जए। A) 145 B) 120 IBPS PO Prelims Previous Year Questions C) 135 D) 95 E) 105 प्रश्ि 17: ददए गए िीन कोचों में िड़कों की औसि सांख्या ज्ञाि कीक्जए। A) 100 B) 120 C) 135 D) 80 E) 105 प्रश्ि 18: C1 में व्यक्लियों की कुि सांख्या B1 की िुिना में ककिने प्रनिर्ि अधधक/कम है? A) 40% B) 60% C) 35% D) 60% E) 44% प्रश्ि 19: A1 और B1 में िड़ककयों की सांख्या का 40% ज्ञाि कीक्जए। A) 45 B) 58 C) 64 D) 72 E) 50 प्रश्ि 20: A1 और D1 में व्यक्लियों की कुि सांख्या का अनुपाि क्रमर्ः 7:5 है। यदद D1 में 45% व्यक्लि (िड़के + िड़ककयाां) िड़के हैं, िो D1 में िड़ककयों की सांख्या ज्ञाि कीक्जए। A) 150 B) 100 IBPS PO Prelims Previous Year Questions C) 140 D) 110 E) 90 प्रश्ि 21: प्रश्न में, दो समीकरण I और II ददए गए हैं। आपको x और y के बीच सही सांबांध स्र्ावपि करने और सही विकल्प चुनने के भिए दोनों समीकरणों को हि करना होगा। I. x2 = 144 II. y2 – 12y = 0 A) x > y B) x < y C) x = y या सम्बन्ध स्र्ावपि नहीां ककया जा सकिा D) x ≥ y E) x ≤ y प्रश्ि 22: प्रश्न में, दो समीकरण I और II ददए गए हैं। आपको x और y के बीच सही सांबांध स्र्ावपि करने और सही विकल्प चुनने के भिए दोनों समीकरणों को हि करना होगा। I. x2 – 2x – 8 = 0 II. 2y2 + 13y + 21 = 0 A) x > y B) x < y C) x = y या सम्बन्ध स्र्ावपि नहीां ककया जा सकिा D) x ≥ y E) x ≤ y IBPS PO Prelims Previous Year Questions प्रश्ि 23: प्रश्न में, दो समीकरण I और II ददए गए हैं। आपको x और y के बीच सही सांबांध स्र्ावपि करने और सही विकल्प चुनने के भिए दोनों समीकरणों को हि करना होगा। I. x2 + 27x + 180 = 0 II. y2 + 17y + 72 = 0 A) x > y B) x < y C) x = y या सम्बन्ध स्र्ावपि नहीां ककया जा सकिा D) x ≥ y E) x ≤ y प्रश्ि 24: प्रश्न में, दो समीकरण I और II ददए गए हैं। आपको x और y के बीच सही सांबांध स्र्ावपि करने और सही विकल्प चुनने के भिए दोनों समीकरणों को हि करना होगा। I. x2 + 11x + 28 = 0 II. y2 + 6y + 8 = 0 A) x > y B) x < y C) x = y या सम्बन्ध स्र्ावपि नहीां ककया जा सकिा D) x ≥ y E) x ≤ y प्रश्ि 25: प्रश्न में, दो समीकरण I और II ददए गए हैं। आपको x और y के बीच सही सांबांध स्र्ावपि करने और सही विकल्प चुनने के भिए दोनों समीकरणों को हि करना होगा। I. x2 – 4x + 4 = 0 II. 25y2 – 55y + 28 = 0 A) x > y B) x < y C) x = y या सम्बन्ध स्र्ावपि नहीां ककया जा सकिा IBPS PO Prelims Previous Year Questions D) x ≥ y E) x ≤ y प्रश्ि 26: एक भमश्रण में (x + 40) litres दूध और र्ेष पानी है| यदद भमश्रण की कुि मात्रा (2x + 40) litres है और भमश्रण में दूध और पानी की मात्रा का अनुपाि 3:2 है, िो 'x' का मान ज्ञाि करें| A) 80 B) 48 C) 100 D) 60 E) इनमें से कोई नहीां प्रश्ि 27: 'A' और 'B' भमिकर एक काम को 40 ददनों में पूरा कर सकिे हैं जबकक 'B' और 'C' भमिकर उसी काम को 60 ददनों में पूरा कर सकिे हैं। यदद 'A' उस पर 12 ददनों िक काम करिा है, 'B' उस पर 40 ददनों िक काम करिा है और 'C' र्ेष काम को 56 ददनों में समाप्ि करिा है िो अकेिे 'C' द्िारा पूरे काम को समाप्ि करने में भिया गया समय ज्ञाि कीक्जए। A) 90 days B) 120 days C) 60 days D) 75 days E) इनमें से कोई नहीां प्रश्ि 28: एक बैग में ‘x’ blue, ‘x + 4’ red और ‘x + 12’ green balls हैं। एक red ball ननकािने की प्रानयकिा एक blue ball ननकािने की प्रानयकिा से 1/13 अधधक है। यदद यादृक्छिक रूप से दो balls ननकािी जािी हैं, िो एक red और एक green ball ननकािने की प्रानयकिा ककिनी है: A) 157/221 B) 64/221 C) 32/221 D) 128/221 E) इनमें से कोई नहीां IBPS PO Prelims Previous Year Questions प्रश्ि 29: एक बैग में 20 पैसे के भसलके, 50 पैसे के भसलके और Re. 1 भसलके क्रमर्ः 185:49:9 के अनुपाि में है। यदद बैग में मौजूद कुि राभर् Rs. 282 है, िो र्ैिे में 50 पैसे के भसलकों की सांख्या ज्ञाि कीक्जए। A) 196 B) 98 C) 392 D) 740 E) इनमें से कोई नहीां प्रश्ि 30: A और B ने क्रमर्ः Rs. 4000 और Rs. 3000 का ननिेर् कर एक कारोबार र्ुरू ककया| 5 महीने बाद, 'A' ने अपनी ननिेर् में से 50% की ननकासी की| यदद 'A' का िावषाक िाि Rs. 3400 है िो 'B' का िावषाक िाि ज्ञाि करें|| A) Rs. 8000 B) Rs. 4000 C) Rs. 3200 D) Rs. 3600 E) इनमें से कोई नहीां प्रश्ि 31: 162 km की दूरी िय करने के भिए एक बस द्िारा भिया गया समय, 216 km की दूरी िय करने में कार द्िारा भिए गए समय से 45 minutes अधधक है। यदद कार की गनि बस की गनि से 12 km/h अधधक है, िो बस द्िारा 4 hours में िय की गई दूरी ज्ञाि कीक्जए। A) 96 km B) 72 km C) 144 km D) 192 km E) इनमें से कोई नहीां प्रश्ि 32: एक ननक्श्चि दर पर ननिेर् की गयी कुि राभर् दो िषा के अांि में Rs. 2967 का चक्रिरद्धध ब्याज देिी है और िही राभर् पाांच िषा के अांि में Rs. 6900 साधारण ब्याज प्रदान करिी है यदद ब्याज की समान दर पर ननिेर् ककया जािा है। ननिेर् की गई राभर् ककिनी है? A) Rs. 8400 B) Rs. 9200 IBPS PO Prelims Previous Year Questions C) Rs. 9000 D) Rs. 9600 E) इनमें से कोई नहीां प्रश्ि 33: एक िात्रािास में 250 िात्र हैं। यदद िात्रों की सांख्या में 50 की िरद्धध की जािी है, िो मेस के कुि िचा में Rs. 200 की िरद्धध होिी है जबकक प्रनि व्यक्लि औसि व्यय 1 से कम हो जािा है।मेस का िास्िविक व्यय ज्ञाि कीक्जए? A) Rs. 2500 B) Rs. 2800 C) Rs. 1600 D) Rs. 2000 E) इनमे से कोई नहीां प्रश्ि 34: एक दुकानदार एक bulb को क्रय मूल्य से 40% अधधक अांककि करिा है और किर 20% की िूट देकर उसे बेच देिा है। यदद उसने bulb को Rs. 50 कम में िरीदा होिा और इसे Rs. 20 अधधक में बेच ददया िो उसे 50% का िाि होिा। Bulb का िास्िविक क्रय मूल्य ज्ञाि कीक्जए। A) Rs. 250 B) Rs. 100 C) Rs. 350 D) Rs. 200 E) इनमें से कोई नहीां प्रश्ि 35: अिी से 6 िषा बाद, 'A' और 'B' की आयु का अनुपाि क्रमर्ः 6:7 होगा। यदद 'B' की ििामान आयु 'A' की ििामान आयु से 20% अधधक है िो 'B' की ििामान आयु ज्ञाि कीक्जए।",
+      "options": {
+        "a": "30 years",
+        "b": "36 years",
+        "c": "32 years",
+        "d": "28 years",
+        "e": "इनमें से कोई नहीां IBPS PO Prelims Previous Year Questions ANSWER KEYS and SOLUTIONS:"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 10162,
+        "page_start": 13,
+        "page_end": 25
+      }
+    }
+  ]
+}

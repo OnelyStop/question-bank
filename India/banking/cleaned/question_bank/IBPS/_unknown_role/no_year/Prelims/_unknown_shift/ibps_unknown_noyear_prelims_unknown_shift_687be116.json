@@ -1,0 +1,966 @@
+{
+  "paper_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116",
+  "source": {
+    "pdf_path": "corpus/IBPS/_unknown_role/no_year/Prelims/_unknown_shift/ibps_cler_pre_memory_based_reasoning_eng.pdf",
+    "sha256": "687be116bade1949f02dae42ae2da78a521e0d7ef419a4f3068685060f43fa67",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2021/05/24105353/ibps_cler_pre_memory_based_reasoning_eng.pdf",
+    "source_filename": "ibps_cler_pre_memory_based_reasoning_eng.pdf"
+  },
+  "bank": "IBPS",
+  "role": null,
+  "exam_type": "Prelims",
+  "year": null,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 35,
+  "questions": [
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully and answer the given questions: Seven persons A, B, C, D, E, F and G are watching movies on different days of the week (starting on Monday and ending on Sunday) not necessarily in the same order. B is going to watch movie on Tuesday. F is going to watch movie on adjacent day of B. There are three days gap between the days on which F and A are going to watch movie. G is going to watch movie just after D. There are as many persons are watching movie between A and G, same as between D and C. C is watching movie before D but not just before.",
+      "stem": "Who among the following is going to watch movie on Wednesday?",
+      "options": {
+        "a": "B",
+        "b": "C",
+        "c": "F",
+        "d": "E",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully and answer the given questions: Seven persons A, B, C, D, E, F and G are watching movies on different days of the week (starting on Monday and ending on Sunday) not necessarily in the same order. B is going to watch movie on Tuesday. F is going to watch movie on adjacent day of B. There are three days gap between the days on which F and A are going to watch movie. G is going to watch movie just after D. There are as many persons are watching movie between A and G, same as between D and C. C is watching movie before D but not just before.",
+      "stem": "Who among the following person is going to watch movie just after A?",
+      "options": {
+        "a": "C",
+        "b": "D",
+        "c": "F",
+        "d": "G",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully and answer the given questions: Seven persons A, B, C, D, E, F and G are watching movies on different days of the week (starting on Monday and ending on Sunday) not necessarily in the same order. B is going to watch movie on Tuesday. F is going to watch movie on adjacent day of B. There are three days gap between the days on which F and A are going to watch movie. G is going to watch movie just after D. There are as many persons are watching movie between A and G, same as between D and C. C is watching movie before D but not just before.",
+      "stem": "If F and G interchange their days of watching movie, then on which day G is watching movie?",
+      "options": {
+        "a": "Monday",
+        "b": "Wednesday",
+        "c": "Friday",
+        "d": "Saturday",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully and answer the given questions: Seven persons A, B, C, D, E, F and G are watching movies on different days of the week (starting on Monday and ending on Sunday) not necessarily in the same order. B is going to watch movie on Tuesday. F is going to watch movie on adjacent day of B. There are three days gap between the days on which F and A are going to watch movie. G is going to watch movie just after D. There are as many persons are watching movie between A and G, same as between D and C. C is watching movie before D but not just before.",
+      "stem": "C is watching movie on which day?",
+      "options": {
+        "a": "Friday",
+        "b": "Saturday",
+        "c": "Wednesday",
+        "d": "Thursday",
+        "e": "Tuesday"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully and answer the given questions: Seven persons A, B, C, D, E, F and G are watching movies on different days of the week (starting on Monday and ending on Sunday) not necessarily in the same order. B is going to watch movie on Tuesday. F is going to watch movie on adjacent day of B. There are three days gap between the days on which F and A are going to watch movie. G is going to watch movie just after D. There are as many persons are watching movie between A and G, same as between D and C. C is watching movie before D but not just before.",
+      "stem": "How many persons are watching movie between B and A?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "One",
+        "d": "Four",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 52,
+        "page_start": 2,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are six persons who all are of different height. A is taller than C and D but shorter than E. The one who is third shortest is 102cm in height. B is taller than A. E is not the tallest. The one who is second tallest is 119cm in height. Neither A nor C is the third shortest person among all. C is not the shortest among all. F is taller than D.",
+      "stem": "Who among the following is the second tallest?",
+      "options": {
+        "a": "F",
+        "b": "E",
+        "c": "A",
+        "d": "C",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are six persons who all are of different height. A is taller than C and D but shorter than E. The one who is third shortest is 102cm in height. B is taller than A. E is not the tallest. The one who is second tallest is 119cm in height. Neither A nor C is the third shortest person among all. C is not the shortest among all. F is taller than D.",
+      "stem": "What will be the possible height of A?",
+      "options": {
+        "a": "120cm",
+        "b": "100cm",
+        "c": "112cm",
+        "d": "101cm",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are six persons who all are of different height. A is taller than C and D but shorter than E. The one who is third shortest is 102cm in height. B is taller than A. E is not the tallest. The one who is second tallest is 119cm in height. Neither A nor C is the third shortest person among all. C is not the shortest among all. F is taller than D.",
+      "stem": "Who among the following is third shortest?",
+      "options": {
+        "a": "A",
+        "b": "C",
+        "c": "B",
+        "d": "F",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the given questions. Twelve persons are sitting in two parallel rows at equal distance facing each other. Q, R, S, T, U and V are sitting in Row 1 facing south. B, C, D, E, F and G are sitting in Row 2 facing north (but not necessarily in the same order). G sits third to the right of B and one of them sits at the end of the row. Q sits at the right end of the row. Three persons sit between Q and T. F sits to the immediate left of G. Two persons sit between F and C. C who faces R sits to the immediate right of E. S faces D. U sits to the immediate left of S.",
+      "stem": "Which of the following pair sits at the extreme ends of the Row 2?",
+      "options": {
+        "a": "B & E",
+        "b": "G & E",
+        "c": "B & C",
+        "d": "G & C",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 66,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the given questions. Twelve persons are sitting in two parallel rows at equal distance facing each other. Q, R, S, T, U and V are sitting in Row 1 facing south. B, C, D, E, F and G are sitting in Row 2 facing north (but not necessarily in the same order). G sits third to the right of B and one of them sits at the end of the row. Q sits at the right end of the row. Three persons sit between Q and T. F sits to the immediate left of G. Two persons sit between F and C. C who faces R sits to the immediate right of E. S faces D. U sits to the immediate left of S.",
+      "stem": "Who sits second to the left of the person facing V?",
+      "options": {
+        "a": "B",
+        "b": "D",
+        "c": "F",
+        "d": "C",
+        "e": "G"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the given questions. Twelve persons are sitting in two parallel rows at equal distance facing each other. Q, R, S, T, U and V are sitting in Row 1 facing south. B, C, D, E, F and G are sitting in Row 2 facing north (but not necessarily in the same order). G sits third to the right of B and one of them sits at the end of the row. Q sits at the right end of the row. Three persons sit between Q and T. F sits to the immediate left of G. Two persons sit between F and C. C who faces R sits to the immediate right of E. S faces D. U sits to the immediate left of S.",
+      "stem": "What is the position of U with respect to R?",
+      "options": {
+        "a": "Third to the left",
+        "b": "Second to the left",
+        "c": "Second to the right",
+        "d": "Third to the right",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the given questions. Twelve persons are sitting in two parallel rows at equal distance facing each other. Q, R, S, T, U and V are sitting in Row 1 facing south. B, C, D, E, F and G are sitting in Row 2 facing north (but not necessarily in the same order). G sits third to the right of B and one of them sits at the end of the row. Q sits at the right end of the row. Three persons sit between Q and T. F sits to the immediate left of G. Two persons sit between F and C. C who faces R sits to the immediate right of E. S faces D. U sits to the immediate left of S.",
+      "stem": "Who is facing F?",
+      "options": {
+        "a": "T",
+        "b": "U",
+        "c": "Q",
+        "d": "S",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 16,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the given questions. Twelve persons are sitting in two parallel rows at equal distance facing each other. Q, R, S, T, U and V are sitting in Row 1 facing south. B, C, D, E, F and G are sitting in Row 2 facing north (but not necessarily in the same order). G sits third to the right of B and one of them sits at the end of the row. Q sits at the right end of the row. Three persons sit between Q and T. F sits to the immediate left of G. Two persons sit between F and C. C who faces R sits to the immediate right of E. S faces D. U sits to the immediate left of S.",
+      "stem": "If the positions of all persons sitting in Row 2 are arranged as per the English alphabetical order from left to right, then who among the following faces D?",
+      "options": {
+        "a": "Q",
+        "b": "R",
+        "c": "S",
+        "d": "T",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 157,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of the following questions some statements are given and these statements are followed by two conclusions numbered (I) and (II). You have to take the given statements to be true even if they seem to be at variance from commonly known facts. Read the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer:",
+      "stem": "Statements: All DSLR are Lenses. Some Camera are DSLR. Conclusions: I. All camera is lenses. II. Some lenses are camera.",
+      "options": {
+        "a": "If only (I) conclusion follows.",
+        "b": "If only (II) conclusion follows.",
+        "c": "If either (I) or (II) follows.",
+        "d": "If neither (I) nor (II) follows.",
+        "e": "If both (I) and (II) follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of the following questions some statements are given and these statements are followed by two conclusions numbered (I) and (II). You have to take the given statements to be true even if they seem to be at variance from commonly known facts. Read the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer:",
+      "stem": "Statements: All Label are Packets. All Mobiles are Cables. Some Mobiles are packets. Conclusions: I. Some Label is mobile. II. Some Cables are Label.",
+      "options": {
+        "a": "If only (I) conclusion follows.",
+        "b": "If only (II) conclusion follows.",
+        "c": "If either (I) or (II) follows.",
+        "d": "If neither (I) nor (II) follows.",
+        "e": "If both (I) and (II) follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 149,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of the following questions some statements are given and these statements are followed by two conclusions numbered (I) and (II). You have to take the given statements to be true even if they seem to be at variance from commonly known facts. Read the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer:",
+      "stem": "Statements: Some Book are Pen. Some Pens are Pencil. Conclusions: I. No Book is pencil. II. All Pencils are Book.",
+      "options": {
+        "a": "If only (I) conclusion follows.",
+        "b": "If only (II) conclusion follows.",
+        "c": "If either (I) or (II) follows.",
+        "d": "If neither (I) nor (II) follows.",
+        "e": "If both (I) and (II) follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 113,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information to answer the given questions Eight students A, B, C, D, E, F, G and H are sitting around a square table in such a way four of them sit at four corners while four sit in the middle of each of the four sides. The one who sit at the corners face the centre and others facing outside. A who faces the centre sits third to the left of F. E who faces the centre is not an immediate neighbour of F. Only one person sits between F and G. D sits second to right of B. B faces the centre. C is not an immediate neighbour of A.",
+      "stem": "Which one does not belong to that group out of five ?",
+      "options": {
+        "a": "B",
+        "b": "C",
+        "c": "E",
+        "d": "D",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information to answer the given questions Eight students A, B, C, D, E, F, G and H are sitting around a square table in such a way four of them sit at four corners while four sit in the middle of each of the four sides. The one who sit at the corners face the centre and others facing outside. A who faces the centre sits third to the left of F. E who faces the centre is not an immediate neighbour of F. Only one person sits between F and G. D sits second to right of B. B faces the centre. C is not an immediate neighbour of A.",
+      "stem": "Which will come in the place of ? BCE EHA AGD ?",
+      "options": {
+        "a": "DFB",
+        "b": "DGA",
+        "c": "DCG",
+        "d": "DCF",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information to answer the given questions Eight students A, B, C, D, E, F, G and H are sitting around a square table in such a way four of them sit at four corners while four sit in the middle of each of the four sides. The one who sit at the corners face the centre and others facing outside. A who faces the centre sits third to the left of F. E who faces the centre is not an immediate neighbour of F. Only one person sits between F and G. D sits second to right of B. B faces the centre. C is not an immediate neighbour of A.",
+      "stem": "What is the position of G with respect to C ?",
+      "options": {
+        "a": "Third to the right",
+        "b": "Second to the left",
+        "c": "Second to the right",
+        "d": "Fourth to the right",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information to answer the given questions Eight students A, B, C, D, E, F, G and H are sitting around a square table in such a way four of them sit at four corners while four sit in the middle of each of the four sides. The one who sit at the corners face the centre and others facing outside. A who faces the centre sits third to the left of F. E who faces the centre is not an immediate neighbour of F. Only one person sits between F and G. D sits second to right of B. B faces the centre. C is not an immediate neighbour of A.",
+      "stem": "Who sits third to the left of B ?",
+      "options": {
+        "a": "H",
+        "b": "A",
+        "c": "G",
+        "d": "F",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information to answer the given questions Eight students A, B, C, D, E, F, G and H are sitting around a square table in such a way four of them sit at four corners while four sit in the middle of each of the four sides. The one who sit at the corners face the centre and others facing outside. A who faces the centre sits third to the left of F. E who faces the centre is not an immediate neighbour of F. Only one person sits between F and G. D sits second to right of B. B faces the centre. C is not an immediate neighbour of A.",
+      "stem": "Which is true from the given arrangement?",
+      "options": {
+        "a": "G faces the centre",
+        "b": "B faces outside",
+        "c": "H faces inside",
+        "d": "A face the centre",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many pairs of letter are there in the word ‘DECLARING’ (both backward and forward), each of which has as many letters between them as in the word as there are in the English alphabet?",
+      "options": {
+        "a": "One",
+        "b": "three",
+        "c": "Four",
+        "d": "Five",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 187,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the questions given below: Point C is 15m in the east of point F. Point A is 10m west of point B which is 15m north of point H. Point D is 15 west of point E. Point B is 15 m south of point C. Point E is 5m east of point H. Point G is 15m north of point A.",
+      "stem": "In which direction and at what distance is point G from point C?",
+      "options": {
+        "a": "10m east",
+        "b": "5m, east",
+        "c": "10m, west",
+        "d": "5m, west",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 64,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the questions given below: Point C is 15m in the east of point F. Point A is 10m west of point B which is 15m north of point H. Point D is 15 west of point E. Point B is 15 m south of point C. Point E is 5m east of point H. Point G is 15m north of point A.",
+      "stem": "Point D is in which direction with respect to point A?",
+      "options": {
+        "a": "South",
+        "b": "North",
+        "c": "North East",
+        "d": "West",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the questions given below: Point C is 15m in the east of point F. Point A is 10m west of point B which is 15m north of point H. Point D is 15 west of point E. Point B is 15 m south of point C. Point E is 5m east of point H. Point G is 15m north of point A.",
+      "stem": "Point F is in which direction with respect to point E?",
+      "options": {
+        "a": "North East",
+        "b": "South West",
+        "c": "South East",
+        "d": "North West",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Following questions are based on the five words given below, Study the following words and answer the following questions. TAP NOT MAT PQR STB (The new words formed after performing the mentioned operations may not necessarily be a meaningful English word.)",
+      "stem": "If the given words are arranged in the order as they appear in a dictionary from right to left, which of the following will be second from the left end?",
+      "options": {
+        "a": "MAT",
+        "b": "NOT",
+        "c": "STB",
+        "d": "TAP",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Following questions are based on the five words given below, Study the following words and answer the following questions. TAP NOT MAT PQR STB (The new words formed after performing the mentioned operations may not necessarily be a meaningful English word.)",
+      "stem": "How many letters are there in the English alphabetical series between the third letter of the word which is second from the left end and the second letter of the word which is third from the right end?",
+      "options": {
+        "a": "20",
+        "b": "19",
+        "c": "18",
+        "d": "17",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 201,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Following questions are based on the five words given below, Study the following words and answer the following questions. TAP NOT MAT PQR STB (The new words formed after performing the mentioned operations may not necessarily be a meaningful English word.)",
+      "stem": "If in each of the word given, the second alphabet is replaced by its following alphabet and third alphabet is replaced by its preceding alphabet as per the English alphabetical order, then how many words thus formed will be without any vowels?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 243,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Following questions are based on the five words given below, Study the following words and answer the following questions. TAP NOT MAT PQR STB (The new words formed after performing the mentioned operations may not necessarily be a meaningful English word.)",
+      "stem": "If the positions of the first and the third alphabet in each of the words given are interchanged, then how many meaningful word will be formed?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Four",
+        "d": "Three",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Following questions are based on the five words given below, Study the following words and answer the following questions. TAP NOT MAT PQR STB (The new words formed after performing the mentioned operations may not necessarily be a meaningful English word.)",
+      "stem": "If in each of the given words, every consonant is changed to its previous letter and every vowel is changed to its next letter according to the English alphabetical series, then in how many words, thus formed, at least one vowels will appear?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 242,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are seven persons i.e. A, B, C, D, E, F and G. They all belongs to the different cities i.e. Kolkata, Mumbai, Chennai, Pune, Lucknow, Ahmadabad and Delhi but not necessarily in the same order. D belongs to Pune. Neither A nor F belongs to Kolkata. B belongs to Ahmedabad. C does not belong to Kolkata and Lucknow. G belongs to Mumbai. A does not belongs to Lucknow and Chennai.",
+      "stem": "Who among the following belongs to Kolkata?",
+      "options": {
+        "a": "A",
+        "b": "D",
+        "c": "F",
+        "d": "G",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are seven persons i.e. A, B, C, D, E, F and G. They all belongs to the different cities i.e. Kolkata, Mumbai, Chennai, Pune, Lucknow, Ahmadabad and Delhi but not necessarily in the same order. D belongs to Pune. Neither A nor F belongs to Kolkata. B belongs to Ahmedabad. C does not belong to Kolkata and Lucknow. G belongs to Mumbai. A does not belongs to Lucknow and Chennai.",
+      "stem": "Which of the following statement is true?",
+      "options": {
+        "a": "A belongs to Chennai",
+        "b": "G belongs to Delhi",
+        "c": "E belongs to Kolkata",
+        "d": "F belongs to Pune",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are seven persons i.e. A, B, C, D, E, F and G. They all belongs to the different cities i.e. Kolkata, Mumbai, Chennai, Pune, Lucknow, Ahmadabad and Delhi but not necessarily in the same order. D belongs to Pune. Neither A nor F belongs to Kolkata. B belongs to Ahmedabad. C does not belong to Kolkata and Lucknow. G belongs to Mumbai. A does not belongs to Lucknow and Chennai.",
+      "stem": "F belongs to which of the following City?",
+      "options": {
+        "a": "Chennai",
+        "b": "Mumbai",
+        "c": "Delhi",
+        "d": "Lucknow",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are seven persons i.e. A, B, C, D, E, F and G. They all belongs to the different cities i.e. Kolkata, Mumbai, Chennai, Pune, Lucknow, Ahmadabad and Delhi but not necessarily in the same order. D belongs to Pune. Neither A nor F belongs to Kolkata. B belongs to Ahmedabad. C does not belong to Kolkata and Lucknow. G belongs to Mumbai. A does not belongs to Lucknow and Chennai.",
+      "stem": "Which of the following combination is true?",
+      "options": {
+        "a": "A-Delhi",
+        "b": "D-Pune",
+        "c": "E-Kolkata",
+        "d": "All are correct",
+        "e": "All are incorrect"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are seven persons i.e. A, B, C, D, E, F and G. They all belongs to the different cities i.e. Kolkata, Mumbai, Chennai, Pune, Lucknow, Ahmadabad and Delhi but not necessarily in the same order. D belongs to Pune. Neither A nor F belongs to Kolkata. B belongs to Ahmedabad. C does not belong to Kolkata and Lucknow. G belongs to Mumbai. A does not belongs to Lucknow and Chennai.",
+      "stem": "A belongs to which of the following city?",
+      "options": {
+        "a": "Delhi",
+        "b": "Mumbai",
+        "c": "Kolkata",
+        "d": "Chennai",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 8,
+        "page_end": 8
+      }
+    }
+  ]
+}

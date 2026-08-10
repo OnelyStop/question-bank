@@ -1,0 +1,2192 @@
+{
+  "paper_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2019/Prelims/_unknown_shift/IBPS_RRB_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
+    "sha256": "c0605d170119bdf2fe9d230449071772142c6b305199bade11cf57880c3867df",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02140237/IBPS_RRB_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
+    "source_filename": "IBPS_RRB_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Prelims",
+  "year": 2019,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 81,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "In each of the question, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: P < R ≤ M = L > O ≤ V > Y Conclusions: I. L > P II. O > R",
+      "options": {
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusions I and II follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "In each of the question, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: A ≥ B > D = F < E ≤ C Conclusions: I. B > E II. D < C",
+      "options": {
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusions I and II follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "In each of the question, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: A = E ≥ D ≥ C < F ≤ B Conclusions: I. C < A II. A = C",
+      "options": {
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusions I and II follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "In each of the question, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: F ≥ N = O > P ≤ K > T Conclusions: I. K < F II. N < K",
+      "options": {
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusions I and II follow."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. A, B, C, D, E, F and G lives in a building on seven different floors such as ground floor is numbered 1, the floor just above is numbered 2 and so on till top floor numbered as seven but not necessarily in the same order. There are less than three floors above A. Only one person lives between C and A. G lives immediately below D. D lives on an even number floor. B lives immediately above A. F lives above E. F does not lives on the 5th floor. F does not lives on an even number floor.",
+      "stem": "Four of the following five belongs to a group find the one that does not belongs to that group?",
+      "options": {
+        "a": "CD",
+        "b": "EC",
+        "c": "FB",
+        "d": "AB",
+        "e": "GC"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. A, B, C, D, E, F and G lives in a building on seven different floors such as ground floor is numbered 1, the floor just above is numbered 2 and so on till top floor numbered as seven but not necessarily in the same order. There are less than three floors above A. Only one person lives between C and A. G lives immediately below D. D lives on an even number floor. B lives immediately above A. F lives above E. F does not lives on the 5th floor. F does not lives on an even number floor.",
+      "stem": "Who among the following lives on the top floor?",
+      "options": {
+        "a": "E",
+        "b": "B",
+        "c": "F",
+        "d": "D",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. A, B, C, D, E, F and G lives in a building on seven different floors such as ground floor is numbered 1, the floor just above is numbered 2 and so on till top floor numbered as seven but not necessarily in the same order. There are less than three floors above A. Only one person lives between C and A. G lives immediately below D. D lives on an even number floor. B lives immediately above A. F lives above E. F does not lives on the 5th floor. F does not lives on an even number floor.",
+      "stem": "Number of persons lives above F is same as the number of persons below __ ?",
+      "options": {
+        "a": "B",
+        "b": "D",
+        "c": "C",
+        "d": "G",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. A, B, C, D, E, F and G lives in a building on seven different floors such as ground floor is numbered 1, the floor just above is numbered 2 and so on till top floor numbered as seven but not necessarily in the same order. There are less than three floors above A. Only one person lives between C and A. G lives immediately below D. D lives on an even number floor. B lives immediately above A. F lives above E. F does not lives on the 5th floor. F does not lives on an even number floor.",
+      "stem": "How many floors are there above the floor on which G lives?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "More than Four",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. A, B, C, D, E, F and G lives in a building on seven different floors such as ground floor is numbered 1, the floor just above is numbered 2 and so on till top floor numbered as seven but not necessarily in the same order. There are less than three floors above A. Only one person lives between C and A. G lives immediately below D. D lives on an even number floor. B lives immediately above A. F lives above E. F does not lives on the 5th floor. F does not lives on an even number floor.",
+      "stem": "Who lives immediately below A?",
+      "options": {
+        "a": "D",
+        "b": "E",
+        "c": "F",
+        "d": "C",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following sequence and answer the given questions. A @ 3 % 4 E N M $ 8 & 6 L D S ♠ 9 8 6 Q Y Z 1 7 % R O G ⧫ 2 I B 2 U &",
+      "stem": "Which of the following element is twelfth to the left of the twentieth element from the left end of the given arrangement?",
+      "options": {
+        "a": "6",
+        "b": "&",
+        "c": "M",
+        "d": "$",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following sequence and answer the given questions. A @ 3 % 4 E N M $ 8 & 6 L D S ♠ 9 8 6 Q Y Z 1 7 % R O G ⧫ 2 I B 2 U &",
+      "stem": "If all the symbols are dropped from the series, which element will be fourth to the right of the one which is twelfth from the right end?",
+      "options": {
+        "a": "9",
+        "b": "O",
+        "c": "R",
+        "d": "7",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 137,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following sequence and answer the given questions. A @ 3 % 4 E N M $ 8 & 6 L D S ♠ 9 8 6 Q Y Z 1 7 % R O G ⧫ 2 I B 2 U &",
+      "stem": "How many such numbers are there in the given series which are immediately preceded by a symbol and followed by a letter?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "Four REASONING ABILITY"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q013",
+      "q_num": 13,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following sequence and answer the given questions. A @ 3 % 4 E N M $ 8 & 6 L D S ♠ 9 8 6 Q Y Z 1 7 % R O G ⧫ 2 I B 2 U &",
+      "stem": "Four of the following five are alike in a certain way and forms a group find the one that does not belongs to that group?",
+      "options": {
+        "a": "3E%",
+        "b": "R⧫2",
+        "c": "M&$",
+        "d": "D9S",
+        "e": "Y7Z"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 121,
+        "page_start": null,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q014",
+      "q_num": 14,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following sequence and answer the given questions. A @ 3 % 4 E N M $ 8 & 6 L D S ♠ 9 8 6 Q Y Z 1 7 % R O G ⧫ 2 I B 2 U &",
+      "stem": "What should come in place of question mark (?) in the following series based on the above arrangement? 34% N$M 6DL 8Q6 ?",
+      "options": {
+        "a": "%OR",
+        "b": "7Z%",
+        "c": "O%R",
+        "d": "R%O",
+        "e": "R%7"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q015",
+      "q_num": 15,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. P, Q, R, S, T, U and V are sitting around a circular table having equal distance between them. All of them are facing inside. P sits immediate right of Q. Only one person sits between P and S (either from left or right). U sits third to the right of S. T is an immediate neighbor of U. R sits second to the left of V.",
+      "stem": "If all the persons are arranged according to the alphabetical order in anticlockwise direction starting from P, then how many persons position will remain unchanged (except P)?",
+      "options": {
+        "a": "Three",
+        "b": "One",
+        "c": "Two",
+        "d": "None",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 176,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q016",
+      "q_num": 16,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. P, Q, R, S, T, U and V are sitting around a circular table having equal distance between them. All of them are facing inside. P sits immediate right of Q. Only one person sits between P and S (either from left or right). U sits third to the right of S. T is an immediate neighbor of U. R sits second to the left of V.",
+      "stem": "How many persons sits between Q and U, if counted from the left of Q?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "None",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q017",
+      "q_num": 17,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. P, Q, R, S, T, U and V are sitting around a circular table having equal distance between them. All of them are facing inside. P sits immediate right of Q. Only one person sits between P and S (either from left or right). U sits third to the right of S. T is an immediate neighbor of U. R sits second to the left of V.",
+      "stem": "Who sits second to the right of T?",
+      "options": {
+        "a": "P",
+        "b": "Q",
+        "c": "R",
+        "d": "S",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q018",
+      "q_num": 18,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. P, Q, R, S, T, U and V are sitting around a circular table having equal distance between them. All of them are facing inside. P sits immediate right of Q. Only one person sits between P and S (either from left or right). U sits third to the right of S. T is an immediate neighbor of U. R sits second to the left of V.",
+      "stem": "Four of the following five belongs to a group find the one that does not belongs to that group?",
+      "options": {
+        "a": "VQ",
+        "b": "PV",
+        "c": "RT",
+        "d": "SU",
+        "e": "TQ"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q019",
+      "q_num": 19,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the question given below- Seven people viz. P, Q, R, S, T, U and V are sitting around a circular table having equal distance between them. All of them are facing inside. P sits immediate right of Q. Only one person sits between P and S (either from left or right). U sits third to the right of S. T is an immediate neighbor of U. R sits second to the left of V.",
+      "stem": "Who among the following sits second to the left of the one who sits 4th to the right of V?",
+      "options": {
+        "a": "U",
+        "b": "T",
+        "c": "R",
+        "d": "S",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 90,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q020",
+      "q_num": 20,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Only a few lamps are bottles. No bottle is ship. Conclusions I. Some ships are definitely not lamps. II. All lamps can never be ships.",
+      "options": {
+        "a": "Both I and II follow",
+        "b": "Either I or II follows",
+        "c": "Only II follows.",
+        "d": "Only I follow.",
+        "e": "Neither I nor II follows"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 146,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q021",
+      "q_num": 21,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: All bamboos are sticks No bamboos is a fish. Conclusions: I. Some sticks are fish. II. No sticks are fish.",
+      "options": {
+        "a": "Both I and II follow",
+        "b": "Either I or II follows",
+        "c": "Only II follows.",
+        "d": "Only I follows.",
+        "e": "Neither I nor II follows"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 118,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q022",
+      "q_num": 22,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Only a few wells are mats. All pillows are mats. Conclusions: I. At least some pillows are wells. II. All wells can never be pillow.",
+      "options": {
+        "a": "Both I and II follow",
+        "b": "Either I or II follows",
+        "c": "Only II follows.",
+        "d": "Only I follow.",
+        "e": "Neither I nor II follows"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 144,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q023",
+      "q_num": 23,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below- There are ten persons are sitting in two parallel row such that five persons are sitting in each row. A, B, C, D and E are sitting in row 1 and faces north and M, N, O, P and R are sitting in row 2 and faces south such that persons sitting in row 1 faces the persons sitting row 2. B sits immediate right of A. Neither A nor B sits at the extreme ends. Two person sits between P and N. B faces the one who sits on the immediate left of P. M sits on the immediate right of R. C sits at the end of the row. D sits on the left of E. D does not face R.",
+      "stem": "Four of the following five belongs to a group find the one that does not belongs to that group?",
+      "options": {
+        "a": "O",
+        "b": "C",
+        "c": "D",
+        "d": "P",
+        "e": "N"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q024",
+      "q_num": 24,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below- There are ten persons are sitting in two parallel row such that five persons are sitting in each row. A, B, C, D and E are sitting in row 1 and faces north and M, N, O, P and R are sitting in row 2 and faces south such that persons sitting in row 1 faces the persons sitting row 2. B sits immediate right of A. Neither A nor B sits at the extreme ends. Two person sits between P and N. B faces the one who sits on the immediate left of P. M sits on the immediate right of R. C sits at the end of the row. D sits on the left of E. D does not face R.",
+      "stem": "Who among the following sits second to the left of the one who faces B?",
+      "options": {
+        "a": "R",
+        "b": "N",
+        "c": "O",
+        "d": "M",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 71,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q025",
+      "q_num": 25,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below- There are ten persons are sitting in two parallel row such that five persons are sitting in each row. A, B, C, D and E are sitting in row 1 and faces north and M, N, O, P and R are sitting in row 2 and faces south such that persons sitting in row 1 faces the persons sitting row 2. B sits immediate right of A. Neither A nor B sits at the extreme ends. Two person sits between P and N. B faces the one who sits on the immediate left of P. M sits on the immediate right of R. C sits at the end of the row. D sits on the left of E. D does not face R.",
+      "stem": "How many persons sits on the left of N?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "No one",
+        "d": "Three",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q026",
+      "q_num": 26,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below- There are ten persons are sitting in two parallel row such that five persons are sitting in each row. A, B, C, D and E are sitting in row 1 and faces north and M, N, O, P and R are sitting in row 2 and faces south such that persons sitting in row 1 faces the persons sitting row 2. B sits immediate right of A. Neither A nor B sits at the extreme ends. Two person sits between P and N. B faces the one who sits on the immediate left of P. M sits on the immediate right of R. C sits at the end of the row. D sits on the left of E. D does not face R.",
+      "stem": "How many persons sits between D and C?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "No One",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q027",
+      "q_num": 27,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below- There are ten persons are sitting in two parallel row such that five persons are sitting in each row. A, B, C, D and E are sitting in row 1 and faces north and M, N, O, P and R are sitting in row 2 and faces south such that persons sitting in row 1 faces the persons sitting row 2. B sits immediate right of A. Neither A nor B sits at the extreme ends. Two person sits between P and N. B faces the one who sits on the immediate left of P. M sits on the immediate right of R. C sits at the end of the row. D sits on the left of E. D does not face R.",
+      "stem": "Who among the following faces A?",
+      "options": {
+        "a": "M",
+        "b": "N",
+        "c": "O",
+        "d": "R",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q028",
+      "q_num": 28,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "IF ‘He will Say’ is coded as ’1 3 9’ and ‘Say To Him’ is coded as ‘3 5 2’ and ‘He May Do’ is coded as ‘8 7 9’ then what will be the code of ‘will’?",
+      "options": {
+        "a": "3",
+        "b": "1",
+        "c": "9",
+        "d": "8",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 147,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q029",
+      "q_num": 29,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many pairs of letters are there in the word “MINUTE” each of which have as many letters between them in the word as they have between them in the English alphabetical series?",
+      "options": {
+        "a": "Three",
+        "b": "One",
+        "c": "Two",
+        "d": "More than three",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 178,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q030",
+      "q_num": 30,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the question given below- There are six persons i.e. A, B, C, D, E and F who all are of different weight. No two persons have same weight. Only two persons are lighter than A. B is heavier than A but lighter than C and D. F is heavier than E but lighter than D. D is not the heaviest. The weight of 2nd heaviest person is 115 kg and the weight of lightest is 56 kg.",
+      "stem": "How many persons are heavier than F?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q031",
+      "q_num": 31,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the question given below- There are six persons i.e. A, B, C, D, E and F who all are of different weight. No two persons have same weight. Only two persons are lighter than A. B is heavier than A but lighter than C and D. F is heavier than E but lighter than D. D is not the heaviest. The weight of 2nd heaviest person is 115 kg and the weight of lightest is 56 kg.",
+      "stem": "If the sum of weight of E and A is 131 and the sum of weight of D and B is 213, then what is the sum of weight of A and B?",
+      "options": {
+        "a": "172",
+        "b": "173",
+        "c": "174",
+        "d": "175",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q032",
+      "q_num": 32,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the question given below- There are six persons i.e. A, B, C, D, E and F who all are of different weight. No two persons have same weight. Only two persons are lighter than A. B is heavier than A but lighter than C and D. F is heavier than E but lighter than D. D is not the heaviest. The weight of 2nd heaviest person is 115 kg and the weight of lightest is 56 kg.",
+      "stem": "Which among the following person is the 2nd heaviest?",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q033",
+      "q_num": 33,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the question given below- There are six persons i.e. A, B, C, D, E and F who all are of different weight. No two persons have same weight. Only two persons are lighter than A. B is heavier than A but lighter than C and D. F is heavier than E but lighter than D. D is not the heaviest. The weight of 2nd heaviest person is 115 kg and the weight of lightest is 56 kg.",
+      "stem": "Which of the following statement is true? I. Only two persons are heavier than B. II. Sum of weight of D and E is 171 Kg. III. Weight of E is 58 Kg.",
+      "options": {
+        "a": "Only II",
+        "b": "Both I and II",
+        "c": "Both III and II",
+        "d": "All are True",
+        "e": "Only III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 148,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q034",
+      "q_num": 34,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the question given below- Uncertain number of persons are sitting in a linear row facing north. B sits fifth to the left of E. Two persons sits between B and D. D sits second position from one of the extreme end. Five persons sits between S and E. S is not an immediate neighbor of B. As many as persons sits between E and S as between S and C. As many as persons sits between D and B as between B and F. C sits third position from the extreme end.",
+      "stem": "How many persons are sitting in the row?",
+      "options": {
+        "a": "21",
+        "b": "23",
+        "c": "24",
+        "d": "26",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q035",
+      "q_num": 35,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the question given below- Uncertain number of persons are sitting in a linear row facing north. B sits fifth to the left of E. Two persons sits between B and D. D sits second position from one of the extreme end. Five persons sits between S and E. S is not an immediate neighbor of B. As many as persons sits between E and S as between S and C. As many as persons sits between D and B as between B and F. C sits third position from the extreme end.",
+      "stem": "If G sits 2nd to the right of S, then what is the position of G from right end?",
+      "options": {
+        "a": "7",
+        "b": "9",
+        "c": "8",
+        "d": "6",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q036",
+      "q_num": 36,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the question given below- Uncertain number of persons are sitting in a linear row facing north. B sits fifth to the left of E. Two persons sits between B and D. D sits second position from one of the extreme end. Five persons sits between S and E. S is not an immediate neighbor of B. As many as persons sits between E and S as between S and C. As many as persons sits between D and B as between B and F. C sits third position from the extreme end.",
+      "stem": "What is the position of F with respect to E?",
+      "options": {
+        "a": "Second to the right",
+        "b": "Second to the left",
+        "c": "Third to the left",
+        "d": "Fifth to the Right",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q037",
+      "q_num": 37,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information carefully and answer the question given below- Point C is 12m west of point A. Point B is 18m north of point A. Point E is 9m south of point D. Point F is 14m west of point E. Point D is 28m east of point B. F is 13m south of point G.",
+      "stem": "Four of the following five belongs to a group find the one that does not belongs to that group?",
+      "options": {
+        "a": "CB",
+        "b": "AD",
+        "c": "AE",
+        "d": "BG",
+        "e": "FB"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q038",
+      "q_num": 38,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information carefully and answer the question given below- Point C is 12m west of point A. Point B is 18m north of point A. Point E is 9m south of point D. Point F is 14m west of point E. Point D is 28m east of point B. F is 13m south of point G.",
+      "stem": "In which direction point A with respect to point G?",
+      "options": {
+        "a": "North-west",
+        "b": "South-east",
+        "c": "South-west",
+        "d": "North",
+        "e": "North-east"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q039",
+      "q_num": 39,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information carefully and answer the question given below- Point C is 12m west of point A. Point B is 18m north of point A. Point E is 9m south of point D. Point F is 14m west of point E. Point D is 28m east of point B. F is 13m south of point G.",
+      "stem": "If Point S is 4m south of point G then what is the distance between point B and point S?",
+      "options": {
+        "a": "28m",
+        "b": "9m",
+        "c": "8m",
+        "d": "14m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 88,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q040",
+      "q_num": 40,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the odd one out?",
+      "options": {
+        "a": "PSRQ",
+        "b": "MONL",
+        "c": "ADCB",
+        "d": "VYXW",
+        "e": "ILKJ"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q041",
+      "q_num": 41,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "1, 2, 5, 16, 65, 328, 1957",
+      "options": {
+        "a": "5",
+        "b": "328",
+        "c": "16 (d)1957",
+        "e": "65"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 26,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q042",
+      "q_num": 42,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "4, 11, 25, 46, 74, 129, 151",
+      "options": {
+        "a": "129",
+        "b": "11",
+        "c": "151",
+        "d": "4",
+        "e": "46"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 27,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q043",
+      "q_num": 43,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "84, 96, 83, 95, 80, 94, 81",
+      "options": {
+        "a": "95",
+        "b": "81",
+        "c": "83",
+        "d": "80",
+        "e": "84"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 26,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q044",
+      "q_num": 44,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "3, 5, 8, 17, 33, 58, 94",
+      "options": {
+        "a": "8",
+        "b": "94",
+        "c": "58",
+        "d": "3",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q045",
+      "q_num": 45,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A boat covers 36 km in upstream in 2 hours and 66 km in downstream in 3 hours. Find the speed of boat in still water?",
+      "options": {
+        "a": "21km/h",
+        "b": "19 km/h",
+        "c": "20.5 km/h",
+        "d": "20 km/h",
+        "e": "19.5 km/h"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q046",
+      "q_num": 46,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Two inlet taps A and B can fill a tank in 36 minutes and 60 minutes respectively. Find the time taken by both the taps together to fill 6 th of the tank?",
+      "options": {
+        "a": "3 minutes",
+        "b": "3 4 minutes (c)3 2 minutes",
+        "d": "3 3 minutes",
+        "e": "2 3 minutes"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 153,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q047",
+      "q_num": 47,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If circumference of first circle is 132 cm and circumference of second circle is 110 cm then find the difference between area of both the circle?",
+      "options": {
+        "a": "423.5 cm2",
+        "b": "412.5 cm2",
+        "c": "420 cm2",
+        "d": "422.4 cm2",
+        "e": "419.8 cm2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 145,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q048",
+      "q_num": 48,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In 64 liter of pure milk, 20 liter of water is mixed and then th of the mixture is taken out. When x liter of water is added again then ratio of water to that of the milk becomes 1:2. Find value of x?",
+      "options": {
+        "a": "10 liter",
+        "b": "8 liter",
+        "c": "12 liter",
+        "d": "6 liter",
+        "e": "9 liter"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 200,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q049",
+      "q_num": 49,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Total cost of x pens and (x-2) pencils is Rs 424. If one pencil and one pen costs Rs 4 and Rs 20 respectively then find x?",
+      "options": {
+        "a": "16",
+        "b": "18",
+        "c": "15",
+        "d": "20",
+        "e": "21"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q050",
+      "q_num": 50,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A is 6 years younger than B and ratio of present age of B to C is 12:5. If ratio of present age of A to C is 2:1 then find present age of B?",
+      "options": {
+        "a": "20 years",
+        "b": "30 years",
+        "c": "24 years",
+        "d": "18 years",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 140,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q051",
+      "q_num": 51,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions.",
+      "stem": "What is the average number of X type buses from school B and school C together?",
+      "options": {
+        "a": "40",
+        "b": "70",
+        "c": "30",
+        "d": "59",
+        "e": "54"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q052",
+      "q_num": 52,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions.",
+      "stem": "X type buses from school A are how much more than that of X type buses from school B?",
+      "options": {
+        "a": "555/19%",
+        "b": "25%",
+        "c": "55/9%",
+        "d": "455/6%",
+        "e": "331/3% A B C Number of buses Schools Bus Type X Bus Type Y Quantitative Aptitude"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q053",
+      "q_num": 53,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions.",
+      "stem": "What is the average number of all the buses from school B?",
+      "options": {
+        "a": "43",
+        "b": "39",
+        "c": "31",
+        "d": "54",
+        "e": "59"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q054",
+      "q_num": 54,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions.",
+      "stem": "What is the difference of average number of all buses from school A and average number of all buses from school C?",
+      "options": {
+        "a": "16",
+        "b": "4",
+        "c": "8",
+        "d": "24",
+        "e": "12"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 114,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q055",
+      "q_num": 55,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions.",
+      "stem": "Which school has maximum number of buses?",
+      "options": {
+        "a": "School B",
+        "b": "School C",
+        "c": "School A & School C",
+        "d": "School A & School B",
+        "e": "School A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q056",
+      "q_num": 56,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Given below are two equations in each question, which you have to solve and give answer",
+      "stem": "I.2𝑥2 −5𝑥+ 2 = 0 II.2𝑦2 −9𝑦+ 7 = 0",
+      "options": {
+        "a": "if𝑥> 𝑦",
+        "b": "if𝑥≥𝑦",
+        "c": "if𝑦> 𝑥",
+        "d": "if𝑦≥𝑥",
+        "e": "if𝑥= 𝑦 or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q057",
+      "q_num": 57,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Given below are two equations in each question, which you have to solve and give answer",
+      "stem": "I.3𝑥2 + 7𝑥+ 4 = 0 II. 𝑦2 + 9𝑦+ 20 = 0",
+      "options": {
+        "a": "if𝑥> 𝑦",
+        "b": "if𝑥≥𝑦",
+        "c": "if𝑦> 𝑥",
+        "d": "if𝑦≥𝑥",
+        "e": "if𝑥= 𝑦 or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q058",
+      "q_num": 58,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Given below are two equations in each question, which you have to solve and give answer",
+      "stem": "I.𝑥2 −7𝑥+ 10 = 0 I.𝑦2 −14𝑦+ 45 = 0",
+      "options": {
+        "a": "if𝑥> 𝑦",
+        "b": "if𝑥≥𝑦",
+        "c": "if𝑦> 𝑥",
+        "d": "if𝑦≥𝑥",
+        "e": "if𝑥= 𝑦 or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q059",
+      "q_num": 59,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Given below are two equations in each question, which you have to solve and give answer",
+      "stem": "I. x² – 3x = 4 II. y² + 6y + 8 = 0",
+      "options": {
+        "a": "if𝑥> 𝑦",
+        "b": "if𝑥≥𝑦",
+        "c": "if𝑦> 𝑥",
+        "d": "if𝑦≥𝑥",
+        "e": "if𝑥= 𝑦 or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q060",
+      "q_num": 60,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Given below are two equations in each question, which you have to solve and give answer",
+      "stem": "I. x² – 3x = 10 II. y² + 7y + 10 = 0",
+      "options": {
+        "a": "if𝑥> 𝑦",
+        "b": "if𝑥≥𝑦",
+        "c": "if𝑦> 𝑥",
+        "d": "if𝑦≥𝑥",
+        "e": "if𝑥= 𝑦 or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q061",
+      "q_num": 61,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Following are the details of three shopkeepers and numbers of items sold by them on three different days Shopkeepers Monday Tuesday Wednesday A B C",
+      "stem": "Find the ratio of items sold by A and B on Monday to items sold by B and C on Wednesday?",
+      "options": {
+        "a": "5 : 3",
+        "b": "3 : 5",
+        "c": "3 : 4",
+        "d": "4 : 7",
+        "e": "5 : 8"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 88,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q062",
+      "q_num": 62,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Following are the details of three shopkeepers and numbers of items sold by them on three different days Shopkeepers Monday Tuesday Wednesday A B C",
+      "stem": "Find the average number of items sold by all 3 shopkeepers on Wednesday?",
+      "options": {
+        "a": "280",
+        "b": "290",
+        "c": "270",
+        "d": "250",
+        "e": "260"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q063",
+      "q_num": 63,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Following are the details of three shopkeepers and numbers of items sold by them on three different days Shopkeepers Monday Tuesday Wednesday A B C",
+      "stem": "Items sold by A and B together on Tuesday is what percentage of items sold by B and C on Wednesday?",
+      "options": {
+        "a": "70%",
+        "b": "75%",
+        "c": "60%",
+        "d": "65%",
+        "e": "80%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 99,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q064",
+      "q_num": 64,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Following are the details of three shopkeepers and numbers of items sold by them on three different days Shopkeepers Monday Tuesday Wednesday A B C",
+      "stem": "Find the difference of number of items sold by B on Monday and Tuesday together and items sold by A on Tuesday and Wednesday?",
+      "options": {
+        "a": "80",
+        "b": "60",
+        "c": "50",
+        "d": "70",
+        "e": "100"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 125,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q065",
+      "q_num": 65,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Following are the details of three shopkeepers and numbers of items sold by them on three different days Shopkeepers Monday Tuesday Wednesday A B C",
+      "stem": "Find the ratio of items sold by B on all 3 days together to the items sold by C on all 3 days?",
+      "options": {
+        "a": "35 : 38",
+        "b": "38 : 35",
+        "c": "30 : 34",
+        "d": "30 : 38",
+        "e": "35 : 41"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q066",
+      "q_num": 66,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Marked price of an article is Rs 250 more than cost price of that article and it is sold at a discount of 15% on marked price. Find the cost price of the article if the profit percent earned is 27.5%?",
+      "options": {
+        "a": "Rs 600",
+        "b": "Rs 550",
+        "c": "Rs 500",
+        "d": "Rs 750",
+        "e": "Rs 900"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 200,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q067",
+      "q_num": 67,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In year 2016, ratio of boys to girls in a school is 36:19. And in year 2017, number of boys is increased by 1440 and number of girls is increased by 15%. If in 2017, there were total increase in the number of students is 1725 then find the increased number of boys in the school.",
+      "options": {
+        "a": "7240",
+        "b": "5440",
+        "c": "6040",
+        "d": "4440",
+        "e": "5040"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 279,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q068",
+      "q_num": 68,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If ratio of salary of A to that of B is 1:3 and each spends 15% of his salary on house rent. Find the house rent paid by A if remaining amount with A and B together is Rs 42500.",
+      "options": {
+        "a": "Rs 1800",
+        "b": "Rs 1845",
+        "c": "Rs 1785",
+        "d": "Rs 1760",
+        "e": "Rs 1875"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 177,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q069",
+      "q_num": 69,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A started a business by investing Rs. 50,000. After 6 months B joined him by investing Rs. 75,000. After another 6 months C joined with Rs. 1,25,000. What is the ratio of profit shared after 2 years among A, B and C?",
+      "options": {
+        "a": "4 : 5 : 6",
+        "b": "8 : 9 : 10",
+        "c": "8 : 9 : 12",
+        "d": "4 : 5 : 8",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 216,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q070",
+      "q_num": 70,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "At what rate will a sum of Rs. 1000 amounts to Rs. 1102.50 in 2 years at compound interest?",
+      "options": {
+        "a": "6.5%",
+        "b": "6%",
+        "c": "5%",
+        "d": "5.5%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q071",
+      "q_num": 71,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "?² = 40% of 11 of 352",
+      "options": {
+        "a": "12",
+        "b": "16",
+        "c": "6",
+        "d": "4",
+        "e": "8"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q072",
+      "q_num": 72,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "?2 = (√1444 + √676) ÷ 4",
+      "options": {
+        "a": "6",
+        "b": "16",
+        "c": "8",
+        "d": "2",
+        "e": "4"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q073",
+      "q_num": 73,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "( ?−0.5 0.2 ) =",
+      "options": {
+        "a": "30",
+        "b": "12.5",
+        "c": "25 (d)17.5",
+        "e": "22.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 15,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q074",
+      "q_num": 74,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "60% 𝑜𝑓 ?−√324 = 222",
+      "options": {
+        "a": "600",
+        "b": "250",
+        "c": "200",
+        "d": "400",
+        "e": "350"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 19,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q075",
+      "q_num": 75,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "23×32 (90÷?) = √64",
+      "options": {
+        "a": "15",
+        "b": "12",
+        "c": "10",
+        "d": "11",
+        "e": "16"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q076",
+      "q_num": 76,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√4 ×? =",
+      "options": {
+        "a": "64",
+        "b": "60",
+        "c": "68",
+        "d": "56",
+        "e": "72"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 7,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q077",
+      "q_num": 77,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√5929 + √8464 = (? )2",
+      "options": {
+        "a": "17",
+        "b": "21",
+        "c": "15",
+        "d": "13",
+        "e": "11"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q078",
+      "q_num": 78,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "7 2 −2 2 = ?",
+      "options": {
+        "a": "8",
+        "b": "5",
+        "c": "15 (d)12",
+        "e": "10"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 12,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q080",
+      "q_num": 80,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "80% of (1.5 × 4+? ) = 24",
+      "options": {
+        "a": "30",
+        "b": "36",
+        "c": "24",
+        "d": "28",
+        "e": "42 Solutions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q100",
+      "q_num": 100,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "or, (1 + 𝑟 100) = ( 100) or, (1 + 𝑟 100) = (1 + 100) Thus, on comparing, 𝑟= 5%",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 78,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17::q079",
+      "q_num": 79,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(b); 2 × 8 =?× 10 ⇒? = 3.6",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 26,
+        "page_start": 10,
+        "page_end": 10
+      }
+    }
+  ]
+}

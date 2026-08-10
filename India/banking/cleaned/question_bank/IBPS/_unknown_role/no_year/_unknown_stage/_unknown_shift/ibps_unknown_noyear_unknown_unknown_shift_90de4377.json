@@ -1,0 +1,2181 @@
+{
+  "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377",
+  "source": {
+    "pdf_path": "corpus/IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-5.pdf",
+    "sha256": "90de4377b04f89dffdd0f7924b66f5fc315e7a7097ce659fe08017f66708fc7c",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/12/08143829/IBPS-5.pdf",
+    "source_filename": "IBPS-5.pdf"
+  },
+  "bank": "IBPS",
+  "role": null,
+  "exam_type": null,
+  "year": null,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 80,
+  "questions": [
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H.",
+      "stem": "What is the position of C with respect to F?",
+      "options": {
+        "a": "Fourth to the left",
+        "b": "Second to the left",
+        "c": "Third to the left",
+        "d": "Immediate right",
+        "e": "Third to the right"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H.",
+      "stem": "How many persons sit between E and H (when counted from the right of H)?",
+      "options": {
+        "a": "Three",
+        "b": "None",
+        "c": "Two",
+        "d": "Four",
+        "e": "One"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H.",
+      "stem": "Who among the following sits immediate left of G?",
+      "options": {
+        "a": "A",
+        "b": "F",
+        "c": "B",
+        "d": "H",
+        "e": "C"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H.",
+      "stem": "Four of the following five are similar in a certain manner and form a group, who among the following is not related to the group?",
+      "options": {
+        "a": "E",
+        "b": "B",
+        "c": "G",
+        "d": "D",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 129,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H.",
+      "stem": "If all the persons are asked to sit in alphabetical order, starting from A, in clockwise direction, then how many persons will remain same on their position (excluding A)?",
+      "options": {
+        "a": "Two",
+        "b": "None",
+        "c": "Three",
+        "d": "One",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 171,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’",
+      "stem": "What is the code for ‘sell’?",
+      "options": {
+        "a": "tx",
+        "b": "kl",
+        "c": "ab",
+        "d": "zu",
+        "e": "ne"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 28,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’",
+      "stem": "What will be the code for ‘fruits supply’?",
+      "options": {
+        "a": "mw ab",
+        "b": "ds tx",
+        "c": "mw rt",
+        "d": "jy rt",
+        "e": "ne tx"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’",
+      "stem": "Which of the following word is coded as ‘kl’?",
+      "options": {
+        "a": "Sell",
+        "b": "Today",
+        "c": "Farmers",
+        "d": "Apple",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’",
+      "stem": "If ‘sweet corn’ is coded as ‘jy hm’, then what will be the code for ‘Taste’?",
+      "options": {
+        "a": "st",
+        "b": "mw",
+        "c": "ds",
+        "d": "ab",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’",
+      "stem": "What may be the code for ‘mango juice today’?",
+      "options": {
+        "a": "ds jy ne",
+        "b": "ds op ne",
+        "c": "rt op ne",
+        "d": "ds op pq",
+        "e": "mw tx ab"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 2,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement.",
+      "stem": "Statements: K > R ≥ T = W < J ≤ B = F Conclusions: I. R < J II. T ≥ F",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement.",
+      "stem": "Statements: Z ≥ K < P = V ≤ R ≤ T < Y Conclusions: I. K < Y II. Z > R",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement.",
+      "stem": "Statements: H = X ≤ L ≤ D < U = S < N Conclusions: I. L < N II. D ≥ H",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many pairs of letters are in the word ‘MISTAKE’, each of which have as many letters between them as they have between them according to English alphabetical order? (both forward and backward direction)",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 205,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F.",
+      "stem": "Which box is placed third from the topmost position?",
+      "options": {
+        "a": "Box F",
+        "b": "Box C",
+        "c": "Box D",
+        "d": "Box E",
+        "e": "Box A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 52,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F.",
+      "stem": "How many boxes are placed below box D?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "Five"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F.",
+      "stem": "If all the boxes are rearranged in alphabetical order from bottom to top, then how many boxes will remain same at their position?",
+      "options": {
+        "a": "One",
+        "b": "Four",
+        "c": "Three",
+        "d": "Two",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 129,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F.",
+      "stem": "If box C is related to box G, in the similar way box F is related to box E, then which box is related to box B?",
+      "options": {
+        "a": "Box C",
+        "b": "Box D",
+        "c": "Box A",
+        "d": "Box F",
+        "e": "Box E"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 111,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F.",
+      "stem": "Which box is placed immediately below box E?",
+      "options": {
+        "a": "Box A",
+        "b": "Box G",
+        "c": "Box B",
+        "d": "Box D",
+        "e": "Box F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the odd one out.",
+      "options": {
+        "a": "PSV",
+        "b": "EHK",
+        "c": "ILN",
+        "d": "MPS",
+        "e": "RUX"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Point K is 11m north of point B, which is 12m east of point O. Point C is 13m south of point B. Point H is 24m south of point D. Point C is 11m west of point H and 5m east of point S. Point D is 2m east of Point A.",
+      "stem": "Four of the following five are alike in a certain way and thus form a group. Find the one pair of points which does NOT belong to the group?",
+      "options": {
+        "a": "K-O",
+        "b": "B-S",
+        "c": "D-C",
+        "d": "K-H",
+        "e": "D-O"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 140,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Point K is 11m north of point B, which is 12m east of point O. Point C is 13m south of point B. Point H is 24m south of point D. Point C is 11m west of point H and 5m east of point S. Point D is 2m east of Point A.",
+      "stem": "In which direction is point K with respect to point A?",
+      "options": {
+        "a": "North-west",
+        "b": "South-east",
+        "c": "West",
+        "d": "North-east",
+        "e": "East"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows.",
+      "stem": "Statements: Some play are games Only a few games are indoor Conclusions: I. Some games are not indoor II. All play is indoor",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 124,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows.",
+      "stem": "Statements: All apple are fruits Some fruits are not banana Conclusions: I. Some banana is definitely not apples II. No fruits are banana",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 137,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows.",
+      "stem": "Statements: No pattern is visual Only a few cluster is visual Conclusions: I. Some pattern is cluster II. No pattern is cluster",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 127,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows.",
+      "stem": "Statements: Only a few river is blue Some blue is ocean No ocean is pond Conclusions: I. Some blue is not pond II. No river being pond is a possibility",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 151,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm.",
+      "stem": "Which of the following pencil is 2nd shortest?",
+      "options": {
+        "a": "C",
+        "b": "F",
+        "c": "E",
+        "d": "D",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm.",
+      "stem": "How many pencils are longer than A?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm.",
+      "stem": "If total length of pencil D and B is 16 cm, then what will be the possible height of pencil F?",
+      "options": {
+        "a": "11 cm",
+        "b": "10 cm",
+        "c": "9 cm",
+        "d": "8 cm",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If it is possible to make a four-letter meaningful word with the 2nd, 4th, 7th and 8th letter (from left) of the word ‘ALTERNATES’, which would be the second letter of the word from left? If more than one such meaningful word can be formed then give ‘Z’ as your answer. If no such meaningful word can be formed, give ‘Y’ as your answer.",
+      "options": {
+        "a": "E",
+        "b": "T",
+        "c": "L",
+        "d": "Z",
+        "e": "Y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 336,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT",
+      "stem": "If all the words are arranged in dictionary order from left, then which word will become 3rd from the right end?",
+      "options": {
+        "a": "KEY",
+        "b": "LOG",
+        "c": "CAT",
+        "d": "WIN",
+        "e": "JAM"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 112,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT",
+      "stem": "If 3rd letter is changed to its next letter as per alphabetical series, then how many words will have more than one vowel?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "Two"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT",
+      "stem": "If letter ‘D’ is added at the end of each word, then how many meaningful words will be formed?",
+      "options": {
+        "a": "Two",
+        "b": "None",
+        "c": "One",
+        "d": "Four",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT",
+      "stem": "How many letters are between ‘first letter of second word from left end’ and ‘third letter of third word from right end’, as per English alphabet?",
+      "options": {
+        "a": "Seven",
+        "b": "One",
+        "c": "Two",
+        "d": "Ten",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 146,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT",
+      "stem": "If all letters are arranged in dictionary order from left within each word, then how many words will start with vowel?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "Two"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 118,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E.",
+      "stem": "G was born on which of the following day?",
+      "options": {
+        "a": "Friday",
+        "b": "Wednesday",
+        "c": "Monday",
+        "d": "Tuesday",
+        "e": "Thursday"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E.",
+      "stem": "Who among the following was born on Saturday?",
+      "options": {
+        "a": "F",
+        "b": "D",
+        "c": "E",
+        "d": "B",
+        "e": "C"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E.",
+      "stem": "Which of the following combination is correct?",
+      "options": {
+        "a": "B – Saturday",
+        "b": "D - Thursday",
+        "c": "C - Friday",
+        "d": "F – Monday",
+        "e": "G - Tuesday"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E.",
+      "stem": "How many persons were born before E?",
+      "options": {
+        "a": "Four",
+        "b": "None",
+        "c": "Three",
+        "d": "One",
+        "e": "Two"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q040",
+      "q_num": 40,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E.",
+      "stem": "Which of the following statement is correct? I. One person was born between F and G II. E was born on Thursday III. D was born before F",
+      "options": {
+        "a": "Only II",
+        "b": "Only I and II",
+        "c": "Only I and III",
+        "d": "Only I",
+        "e": "Only III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 135,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A mixture contains milk and water in the ratio 2 : 1. The total quantity of the mixture is 30 liters. If x liters of water are added to the mixture, the ratio of milk to water becomes 2 : 3. Find the value of x.",
+      "options": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "15",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 211,
+        "page_start": null,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "P and Q started a business by investing Rs. 8,000 and Rs. 6,000 respectively. After x months, Q withdrew his investment. At the end of the year, Q’s share of profit was Rs. 2,000 out of a total profit of Rs. 6,000. Find the value of x.",
+      "options": {
+        "a": "8",
+        "b": "9",
+        "c": "6",
+        "d": "4",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 235,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The present ages of A and B are in the ratio 4 : 3 respectively. Three years ago, the ratio of their ages was 7 : 5. Find the age of A after 4 years from now (in years).",
+      "options": {
+        "a": "20",
+        "b": "25",
+        "c": "32",
+        "d": "24",
+        "e": "28"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 169,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The principal amount is Rs. 8,000, and the rate of interest is 10% per annum. If the simple interest earned is Rs. 2,000, find the time period (in years).",
+      "options": {
+        "a": "4.5",
+        "b": "4",
+        "c": "2",
+        "d": "2.5",
+        "e": "3"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 154,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The downstream speed of a boat is 18 km/h, and the speed of the stream is 3 km/h. Find the time taken (in hours) by the boat to cover a distance of 30 km upstream.",
+      "options": {
+        "a": "3.5",
+        "b": "2",
+        "c": "2.5",
+        "d": "4.5",
+        "e": "4"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 163,
+        "page_start": 9,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A train of length 180 meters crosses a pole in 9 seconds. Find the time taken (in seconds) by the train to cross a bridge of length 270 meters.",
+      "options": {
+        "a": "18.5",
+        "b": "20",
+        "c": "22.5",
+        "d": "14.5",
+        "e": "15.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": null,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A man spends 25% of his monthly salary on rent. Out of the remaining amount, he spends 15% on clothes, and after that, he spends 20% on travelling. He saves the rest. If his savings amount to Rs. 6,120, find his monthly salary (in Rs).",
+      "options": {
+        "a": "17500",
+        "b": "10000",
+        "c": "11500",
+        "d": "14000",
+        "e": "12000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 235,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A man invested Rs. P at a rate of 20% per annum compounded annually for 2 years. If the amount at the end of 2 years is Rs. 10,800, find the amount he invested (in Rs).",
+      "options": {
+        "a": "7500",
+        "b": "8000",
+        "c": "8500",
+        "d": "9000",
+        "e": "45000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 168,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A shopkeeper marks up the price of an article by 40% above its cost price and allows a 10% discount on the marked price. If he earns a profit of Rs. 104 on the article, find the cost price of the article (in Rs).",
+      "options": {
+        "a": "100",
+        "b": "200",
+        "c": "400",
+        "d": "600",
+        "e": "500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 212,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B together can complete a piece of work in 12 days, and A alone can complete it in 20 days. Find the time taken (in days) by B alone to complete 60% of the work.",
+      "options": {
+        "a": "15",
+        "b": "14",
+        "c": "18",
+        "d": "16",
+        "e": "20"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 167,
+        "page_start": 10,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the wrong number.",
+      "stem": "34, 15, 15, 22.5, 45, 112.5, 337.5",
+      "options": {
+        "a": "34",
+        "b": "15",
+        "c": "22.5",
+        "d": "45",
+        "e": "112.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the wrong number.",
+      "stem": "56, 60, 71, 91, 131, 211, 371",
+      "options": {
+        "a": "56",
+        "b": "60",
+        "c": "71",
+        "d": "91",
+        "e": "211"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the wrong number.",
+      "stem": "105, 108, 111, 114, 117, 120, 122",
+      "options": {
+        "a": "105",
+        "b": "114",
+        "c": "122",
+        "d": "111",
+        "e": "117"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the wrong number.",
+      "stem": "201, 199, 206, 190, 215, 179, 228",
+      "options": {
+        "a": "228",
+        "b": "215",
+        "c": "199",
+        "d": "201",
+        "e": "190"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the wrong number.",
+      "stem": "6, 12, 28, 59, 120, 241",
+      "options": {
+        "a": "120",
+        "b": "241",
+        "c": "12",
+        "d": "6",
+        "e": "28"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 11,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months.",
+      "stem": "Find the average number of cars sold in these five months.",
+      "options": {
+        "a": "110",
+        "b": "150",
+        "c": "130",
+        "d": "120",
+        "e": "140"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q057",
+      "q_num": 57,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months.",
+      "stem": "The number of cars sold in February is what percent of the total cars sold in April?",
+      "options": {
+        "a": "75%",
+        "b": "60%",
+        "c": "25%",
+        "d": "55%",
+        "e": "87.5%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 84,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months.",
+      "stem": "Find the difference between the total cars sold in January and that of March.",
+      "options": {
+        "a": "60",
+        "b": "90",
+        "c": "70",
+        "d": "50",
+        "e": "100"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 77,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months.",
+      "stem": "What is the ratio of total cars sold in January and March together to the cars sold in February and May together?",
+      "options": {
+        "a": "3:1",
+        "b": "2:3",
+        "c": "3:2",
+        "d": "1:3",
+        "e": "4:3 January February March April May Total cars sold"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 113,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months.",
+      "stem": "Find the sum of the total cars sold in May and February together.",
+      "options": {
+        "a": "300",
+        "b": "330",
+        "c": "200",
+        "d": "380",
+        "e": "370"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": null,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A B C D E",
+      "stem": "Find the total number of blue balls in all the bags together.",
+      "options": {
+        "a": "1870",
+        "b": "1630",
+        "c": "1240",
+        "d": "1390",
+        "e": "1550"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A B C D E",
+      "stem": "What is the average number of green balls in all five bags?",
+      "options": {
+        "a": "334",
+        "b": "338",
+        "c": "342",
+        "d": "346",
+        "e": "362"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A B C D E",
+      "stem": "The number of blue balls in Bag A is what percent of the total blue balls in Bag B (approx.)?",
+      "options": {
+        "a": "20%",
+        "b": "35%",
+        "c": "45%",
+        "d": "40%",
+        "e": "25%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 93,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A B C D E",
+      "stem": "Find the difference between the total number of green balls in Bag D and Bag A together and the total number of blue balls in Bag C and E together.",
+      "options": {
+        "a": "60",
+        "b": "20",
+        "c": "30",
+        "d": "50",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 147,
+        "page_start": 13,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A B C D E",
+      "stem": "If the total number of pink balls in bag C is 20% less than the total number of green balls in bag D, then find the total number of pink balls in bag C.",
+      "options": {
+        "a": "480",
+        "b": "520",
+        "c": "500",
+        "d": "570",
+        "e": "410"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": null,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "4769 – (3267 + 2425 – 961) = ?",
+      "options": {
+        "a": "35",
+        "b": "48",
+        "c": "43",
+        "d": "38",
+        "e": "47"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "1217 + 841 – 724 + 819 = ? + 1843",
+      "options": {
+        "a": "210",
+        "b": "310",
+        "c": "360",
+        "d": "270",
+        "e": "410"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "0.06 × 0.84 = ? × 1.2 × 0.015",
+      "options": {
+        "a": "8.2",
+        "b": "6.4",
+        "c": "2.6",
+        "d": "3.8",
+        "e": "2.8"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "8.41 + 6.25 + 0.79 = ? – 0.55",
+      "options": {
+        "a": "17",
+        "b": "14.9",
+        "c": "13.9",
+        "d": "16",
+        "e": "14.7"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "616 + 472 – 811 + 317 = ? + 576",
+      "options": {
+        "a": "28",
+        "b": "16",
+        "c": "24",
+        "d": "18",
+        "e": "14"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 31,
+        "page_start": 14,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "12.5 × 80 + 37.5 × 16 – 6.25 × 112 = ?",
+      "options": {
+        "a": "1000",
+        "b": "900",
+        "c": "2300",
+        "d": "600",
+        "e": "1300"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": null,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√3025 - √2116 = ?²",
+      "options": {
+        "a": "81",
+        "b": "9",
+        "c": "3",
+        "d": "27",
+        "e": "729"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√?+ √324 + √361 = th of 290",
+      "options": {
+        "a": "400",
+        "b": "441",
+        "c": "361",
+        "d": "484",
+        "e": "289"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 27,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "1674 ÷ 27 × 9 + 18 = ?²",
+      "options": {
+        "a": "26",
+        "b": "23",
+        "c": "24",
+        "d": "35",
+        "e": "18"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "(1.2)2 + (1.5)2 + (2.1)2 −(1.9)2 = ?",
+      "options": {
+        "a": "4.99",
+        "b": "5.69",
+        "c": "3.69",
+        "d": "6.79",
+        "e": "4.49"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√484 ÷ 8 +? =",
+      "options": {
+        "a": "22",
+        "b": "2",
+        "c": "1",
+        "d": "11",
+        "e": "4"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 13,
+        "page_start": 15,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "(12+44) × 28 =? ²",
+      "options": {
+        "a": "13",
+        "b": "16",
+        "c": "17",
+        "d": "14",
+        "e": "19"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 17,
+        "page_start": null,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q078",
+      "q_num": 78,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "35 ÷ 5 × 8 ÷ 35 = ?",
+      "options": {
+        "a": "60",
+        "b": "80",
+        "c": "75",
+        "d": "90",
+        "e": "70"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 19,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "100 × 700 ×? = 240",
+      "options": {
+        "a": "5800",
+        "b": "6300",
+        "c": "6100",
+        "d": "5600",
+        "e": "5300"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "23 ÷ 48 × 576 = ? ×",
+      "options": {
+        "a": "148",
+        "b": "194",
+        "c": "176",
+        "d": "154",
+        "e": "184 Solutions Solutions (1-5): S1. Ans."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 19,
+        "page_start": 16,
+        "page_end": 27
+      }
+    }
+  ]
+}

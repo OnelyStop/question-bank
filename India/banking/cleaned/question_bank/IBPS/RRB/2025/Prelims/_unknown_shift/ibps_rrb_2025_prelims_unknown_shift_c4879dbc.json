@@ -1,0 +1,2143 @@
+{
+  "paper_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S1.pdf",
+    "sha256": "c4879dbcb843bb44e0ab1463d8275ff6fcb7c9648e0b1a6e140c808e7cddd3c8",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/12/06134708/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S1.pdf",
+    "source_filename": "IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S1.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 80,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. B has only one son. A is child of B. C is sister-in-law of A. E is son of C. F is grandfather of E. H is unmarried. H is daughter of D. F and B are of same gender. F is the spouse of D. G is the male member of the family.",
+      "stem": "How is C related to B?",
+      "options": {
+        "a": "Daughter",
+        "b": "Daughter-in-law",
+        "c": "Aunt",
+        "d": "Mother-in-law",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. B has only one son. A is child of B. C is sister-in-law of A. E is son of C. F is grandfather of E. H is unmarried. H is daughter of D. F and B are of same gender. F is the spouse of D. G is the male member of the family.",
+      "stem": "How is G related to D?",
+      "options": {
+        "a": "Son",
+        "b": "Daughter",
+        "c": "Nephew",
+        "d": "Uncle",
+        "e": "Son-in-law"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. B has only one son. A is child of B. C is sister-in-law of A. E is son of C. F is grandfather of E. H is unmarried. H is daughter of D. F and B are of same gender. F is the spouse of D. G is the male member of the family.",
+      "stem": "How is E related to brother-in-law of H?",
+      "options": {
+        "a": "Son",
+        "b": "Son-in-law",
+        "c": "Nephew",
+        "d": "Uncle",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the odd-one out.",
+      "options": {
+        "a": "KMO",
+        "b": "GIK",
+        "c": "BDF",
+        "d": "UXZ",
+        "e": "EGI"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below. In a certain coded language: “Mat on brown table” is coded as “uy ir ps ks” “Metal on glasses” is coded as “ps ko re” “Under metal mat box” is coded as “ym ef re ks” “Glasses kept brown” is coded as “ko gt uy”",
+      "stem": "What is the code for the words ‘Kept on table’?",
+      "options": {
+        "a": "re gt ko",
+        "b": "gt ps ir",
+        "c": "ko gt ps",
+        "d": "ir ps uy",
+        "e": "ko ym gt"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": null,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below. In a certain coded language: “Mat on brown table” is coded as “uy ir ps ks” “Metal on glasses” is coded as “ps ko re” “Under metal mat box” is coded as “ym ef re ks” “Glasses kept brown” is coded as “ko gt uy”",
+      "stem": "Which among the following word pair is coded as ‘uy ef’?",
+      "options": {
+        "a": "On box",
+        "b": "Box brown",
+        "c": "Mat under",
+        "d": "Under brown",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below. In a certain coded language: “Mat on brown table” is coded as “uy ir ps ks” “Metal on glasses” is coded as “ps ko re” “Under metal mat box” is coded as “ym ef re ks” “Glasses kept brown” is coded as “ko gt uy”",
+      "stem": "What is the code for the word pair ‘Mat Glasses’?",
+      "options": {
+        "a": "uy ko",
+        "b": "ps ks",
+        "c": "ks ko",
+        "d": "ks gt",
+        "e": "ir ko"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below. In a certain coded language: “Mat on brown table” is coded as “uy ir ps ks” “Metal on glasses” is coded as “ps ko re” “Under metal mat box” is coded as “ym ef re ks” “Glasses kept brown” is coded as “ko gt uy”",
+      "stem": "Which word corresponds to the code ‘re’?",
+      "options": {
+        "a": "Kept",
+        "b": "Metal",
+        "c": "Glasses",
+        "d": "Under",
+        "e": "On"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below. In a certain coded language: “Mat on brown table” is coded as “uy ir ps ks” “Metal on glasses” is coded as “ps ko re” “Under metal mat box” is coded as “ym ef re ks” “Glasses kept brown” is coded as “ko gt uy”",
+      "stem": "Which among the following word is coded as ‘uy’",
+      "options": {
+        "a": "Mat",
+        "b": "Table",
+        "c": "On",
+        "d": "Kept",
+        "e": "Brown"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Six persons A, B, C, D, E and F were born on two different dates 7th and 24th of the months March, April and May of the same year. All the information is not necessarily in the same order. B was born immediately after A. C was born on 7th April. One person was born between A and E. Two persons were born between C and F.",
+      "stem": "Who among the following was born on 7th May?",
+      "options": {
+        "a": "F",
+        "b": "B",
+        "c": "E",
+        "d": "D",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Six persons A, B, C, D, E and F were born on two different dates 7th and 24th of the months March, April and May of the same year. All the information is not necessarily in the same order. B was born immediately after A. C was born on 7th April. One person was born between A and E. Two persons were born between C and F.",
+      "stem": "On which date and month was D born?",
+      "options": {
+        "a": "7th May",
+        "b": "24th March",
+        "c": "7th March",
+        "d": "24th May",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Six persons A, B, C, D, E and F were born on two different dates 7th and 24th of the months March, April and May of the same year. All the information is not necessarily in the same order. B was born immediately after A. C was born on 7th April. One person was born between A and E. Two persons were born between C and F.",
+      "stem": "How many persons were born after E?",
+      "options": {
+        "a": "Five",
+        "b": "One",
+        "c": "Three",
+        "d": "Two",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Six persons A, B, C, D, E and F were born on two different dates 7th and 24th of the months March, April and May of the same year. All the information is not necessarily in the same order. B was born immediately after A. C was born on 7th April. One person was born between A and E. Two persons were born between C and F.",
+      "stem": "If D is related to C and in the same way C is related to B, then who among the following is related to F?",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "E"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 105,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Six persons A, B, C, D, E and F were born on two different dates 7th and 24th of the months March, April and May of the same year. All the information is not necessarily in the same order. B was born immediately after A. C was born on 7th April. One person was born between A and E. Two persons were born between C and F.",
+      "stem": "Four of the following five are alike in a certain way so form a group, which of the following does not belong to that group?",
+      "options": {
+        "a": "D",
+        "b": "C",
+        "c": "E",
+        "d": "B",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 124,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If in the given word “PREVAIL”, if vowels are changed to immediately succeeding letter and consonants are changed to immediately preceding letter, then find how many vowels are there in the new arrangement?",
+      "options": {
+        "a": "One",
+        "b": "None",
+        "c": "Two",
+        "d": "Three",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 206,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight persons A, B, C, D, E, F, G and H sit around a square table. Four persons sit at the corners and face inside and four sit at the middle of each side and face outside. All the information is not necessarily in the same order. C sits second to the right of H. Three persons sit between A and C. D sits immediate right of A but doesn’t sit at the corners. F is not A’s immediate neighbour. G sits second to the left of D. Two persons sit between G and B.",
+      "stem": "Four of the following five pairs are alike in a certain way. Find the one that doesn’t belong to the group:",
+      "options": {
+        "a": "A-C",
+        "b": "B-H",
+        "c": "F-D",
+        "d": "E-C",
+        "e": "G-E"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 107,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight persons A, B, C, D, E, F, G and H sit around a square table. Four persons sit at the corners and face inside and four sit at the middle of each side and face outside. All the information is not necessarily in the same order. C sits second to the right of H. Three persons sit between A and C. D sits immediate right of A but doesn’t sit at the corners. F is not A’s immediate neighbour. G sits second to the left of D. Two persons sit between G and B.",
+      "stem": "Who sits fifth to the right of E?",
+      "options": {
+        "a": "G",
+        "b": "F",
+        "c": "H",
+        "d": "C",
+        "e": "D"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight persons A, B, C, D, E, F, G and H sit around a square table. Four persons sit at the corners and face inside and four sit at the middle of each side and face outside. All the information is not necessarily in the same order. C sits second to the right of H. Three persons sit between A and C. D sits immediate right of A but doesn’t sit at the corners. F is not A’s immediate neighbour. G sits second to the left of D. Two persons sit between G and B.",
+      "stem": "How many persons sit between C and D when counted from left of C?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "Six"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight persons A, B, C, D, E, F, G and H sit around a square table. Four persons sit at the corners and face inside and four sit at the middle of each side and face outside. All the information is not necessarily in the same order. C sits second to the right of H. Three persons sit between A and C. D sits immediate right of A but doesn’t sit at the corners. F is not A’s immediate neighbour. G sits second to the left of D. Two persons sit between G and B.",
+      "stem": "Who sits third to the left of B?",
+      "options": {
+        "a": "H",
+        "b": "C",
+        "c": "F",
+        "d": "G",
+        "e": "D"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight persons A, B, C, D, E, F, G and H sit around a square table. Four persons sit at the corners and face inside and four sit at the middle of each side and face outside. All the information is not necessarily in the same order. C sits second to the right of H. Three persons sit between A and C. D sits immediate right of A but doesn’t sit at the corners. F is not A’s immediate neighbour. G sits second to the left of D. Two persons sit between G and B.",
+      "stem": "Which among the following statements is/are NOT correct? I. G and C are immediate neighbours. II. E faces inside. III. Three persons sit between B and H.",
+      "options": {
+        "a": "Only I",
+        "b": "Only II",
+        "c": "Both I and II",
+        "d": "Both I and III",
+        "e": "All I, II and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 153,
+        "page_start": 5,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the word ‘TROUBLE’, how many pairs of the letters have the same number of letters between them (both forward and backward direction) as in the English alphabet?",
+      "options": {
+        "a": "Four",
+        "b": "Two",
+        "c": "One",
+        "d": "Three",
+        "e": "More than four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 163,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In this question, relationship between different elements is shown in the statements. The statements are followed by two conclusions. Give answer:",
+      "stem": "Statements: R > T ≤ W < K = P > H ≥ J Conclusions: I. W < H II. J ≤ K",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If neither conclusion I nor II is true",
+        "e": "If both conclusions I and II are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In this question, relationship between different elements is shown in the statements. The statements are followed by two conclusions. Give answer:",
+      "stem": "Statements: Q ≥ M < R = T > K ≥ S > V Conclusions: I. R > K II. V ≥ M",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If neither conclusion I nor II is true",
+        "e": "If both conclusions I and II are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In this question, relationship between different elements is shown in the statements. The statements are followed by two conclusions. Give answer:",
+      "stem": "Statements: L > X ≥ D ≥ P = Y < H ≤ C Conclusions: I. X ≥ Y II. C > P",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If neither conclusion I nor II is true",
+        "e": "If both conclusions I and II are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 6,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "The following question contains some statements followed by two conclusions numbered I and II. Assume that all the statements are true, even if they seem to differ from commonly known facts. Analyze both conclusions and decide which one logically follows from the given statements.",
+      "stem": "Statements: Only a few cars are blue Some blue are fast Conclusions: I. Some cars being fast is a possibility II. Some fast is not blue",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 135,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "The following question contains some statements followed by two conclusions numbered I and II. Assume that all the statements are true, even if they seem to differ from commonly known facts. Analyze both conclusions and decide which one logically follows from the given statements.",
+      "stem": "Statements: Some roses are red All red are fresh Only a few fresh is dry Conclusions: I. No red is dry II. No roses being dry is a possibility",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 142,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "The following question contains some statements followed by two conclusions numbered I and II. Assume that all the statements are true, even if they seem to differ from commonly known facts. Analyze both conclusions and decide which one logically follows from the given statements.",
+      "stem": "Statements: All rivers are valleys Some valleys are hills No hills are mountains Conclusions: I. No rivers being hills is a possibility II. Some valleys are not mountains",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 170,
+        "page_start": 7,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related question: Six persons A, B, C, D, E and F have different heights (in cm). F is taller than C but shorter than D. The height of 2nd tallest person is 181cm. E is shorter than D but taller than A. B is taller than D. E is taller than C but shorter than F. The third shortest person is 174cm.",
+      "stem": "How many persons are shorter than B?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "Five"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related question: Six persons A, B, C, D, E and F have different heights (in cm). F is taller than C but shorter than D. The height of 2nd tallest person is 181cm. E is shorter than D but taller than A. B is taller than D. E is taller than C but shorter than F. The third shortest person is 174cm.",
+      "stem": "What will be the possible height of F?",
+      "options": {
+        "a": "168cm",
+        "b": "183cm",
+        "c": "178cm",
+        "d": "159cm",
+        "e": "173cm"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Read the given information carefully and answer the related question: Six persons A, B, C, D, E and F have different heights (in cm). F is taller than C but shorter than D. The height of 2nd tallest person is 181cm. E is shorter than D but taller than A. B is taller than D. E is taller than C but shorter than F. The third shortest person is 174cm.",
+      "stem": "Who among the following is second shortest?",
+      "options": {
+        "a": "F",
+        "b": "E",
+        "c": "B",
+        "d": "Either C or A",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The following question is based on the 3-letter word series given below. Read carefully and answer accordingly: SUN EAT DOG ANT JAM",
+      "stem": "If all the words are arranged alphabetically from left then, which word will become third from the right end?",
+      "options": {
+        "a": "EAT",
+        "b": "JAM",
+        "c": "SUN",
+        "d": "DOG",
+        "e": "ANT"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 109,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The following question is based on the 3-letter word series given below. Read carefully and answer accordingly: SUN EAT DOG ANT JAM",
+      "stem": "If second letter in each word is changed to its immediate next letter (as per English alphabet), then how many words will become meaningful?",
+      "options": {
+        "a": "Three",
+        "b": "Two",
+        "c": "One",
+        "d": "None",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 140,
+        "page_start": null,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The following question is based on the 3-letter word series given below. Read carefully and answer accordingly: SUN EAT DOG ANT JAM",
+      "stem": "How many letters are between ‘first letter of second from left end’ and ‘third letter of third word from right end’, as per English alphabet?",
+      "options": {
+        "a": "Three",
+        "b": "One",
+        "c": "Four",
+        "d": "Six",
+        "e": "Seven"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 141,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The following question is based on the 3-letter word series given below. Read carefully and answer accordingly: SUN EAT DOG ANT JAM",
+      "stem": "If the letters within each word are arranged in dictionary order from left, then how many words will have third letters as vowel?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 129,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The following question is based on the 3-letter word series given below. Read carefully and answer accordingly: SUN EAT DOG ANT JAM",
+      "stem": "Which letter is third from the left in the word which is fourth from left end?",
+      "options": {
+        "a": "M",
+        "b": "N",
+        "c": "G",
+        "d": "T",
+        "e": "E"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 78,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Seven persons A, B, C, D, E, F and G are designated on different designations in a company but not in same order as given. The designations are CEO, COO, AM, GM, AGM, Manager and Executive. The designations are given in decreasing order of their seniority such that CEO is the seniormost designation and Executive is the junior most designation. A is four designations junior to G. D is designated immediately junior to A. Two persons are designated between B and C. F is two designations senior to C.",
+      "stem": "Who among the following is designated as AM?",
+      "options": {
+        "a": "C",
+        "b": "B",
+        "c": "E",
+        "d": "A",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 9,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Seven persons A, B, C, D, E, F and G are designated on different designations in a company but not in same order as given. The designations are CEO, COO, AM, GM, AGM, Manager and Executive. The designations are given in decreasing order of their seniority such that CEO is the seniormost designation and Executive is the junior most designation. A is four designations junior to G. D is designated immediately junior to A. Two persons are designated between B and C. F is two designations senior to C.",
+      "stem": "How many persons are designated junior to C?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Seven persons A, B, C, D, E, F and G are designated on different designations in a company but not in same order as given. The designations are CEO, COO, AM, GM, AGM, Manager and Executive. The designations are given in decreasing order of their seniority such that CEO is the seniormost designation and Executive is the junior most designation. A is four designations junior to G. D is designated immediately junior to A. Two persons are designated between B and C. F is two designations senior to C.",
+      "stem": "If G is related to F, in the similar way C is related to A, then D is related to whom?",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "E",
+        "d": "C",
+        "e": "G"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 86,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Seven persons A, B, C, D, E, F and G are designated on different designations in a company but not in same order as given. The designations are CEO, COO, AM, GM, AGM, Manager and Executive. The designations are given in decreasing order of their seniority such that CEO is the seniormost designation and Executive is the junior most designation. A is four designations junior to G. D is designated immediately junior to A. Two persons are designated between B and C. F is two designations senior to C.",
+      "stem": "What is the designation of B?",
+      "options": {
+        "a": "COO",
+        "b": "AGM",
+        "c": "GM",
+        "d": "CEO",
+        "e": "Executive"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q040",
+      "q_num": 40,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the given information carefully and answer the related questions: Seven persons A, B, C, D, E, F and G are designated on different designations in a company but not in same order as given. The designations are CEO, COO, AM, GM, AGM, Manager and Executive. The designations are given in decreasing order of their seniority such that CEO is the seniormost designation and Executive is the junior most designation. A is four designations junior to G. D is designated immediately junior to A. Two persons are designated between B and C. F is two designations senior to C.",
+      "stem": "Who among the following is two designations senior to D?",
+      "options": {
+        "a": "E",
+        "b": "F",
+        "c": "B",
+        "d": "C",
+        "e": "G"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The table given below shows the total number of scooter and car sold by five companies. Read the data and answer the following question. Companies Scooters sold Cars sold A B C D E",
+      "stem": "Find the ratio of scooters sold by A and B together to cars sold by D.",
+      "options": {
+        "a": "7:9",
+        "b": "13:12",
+        "c": "12:13",
+        "d": "61:62",
+        "e": "31:12"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": null,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The table given below shows the total number of scooter and car sold by five companies. Read the data and answer the following question. Companies Scooters sold Cars sold A B C D E",
+      "stem": "If the ratio of sold to unsold scooters in D is 1:2, then find the total (sold + unsold) scooters in D",
+      "options": {
+        "a": "420",
+        "b": "480",
+        "c": "400",
+        "d": "450",
+        "e": "410"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 102,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The table given below shows the total number of scooter and car sold by five companies. Read the data and answer the following question. Companies Scooters sold Cars sold A B C D E",
+      "stem": "Out of the total Cars sold by B, 25% of the cars are defective. Find the non-defective cars sold by B is what percentage of total scooter sold by C.",
+      "options": {
+        "a": "37%",
+        "b": "33%",
+        "c": "31%",
+        "d": "26%",
+        "e": "36%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 148,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The table given below shows the total number of scooter and car sold by five companies. Read the data and answer the following question. Companies Scooters sold Cars sold A B C D E",
+      "stem": "Average number of scooters sold by all the companies.",
+      "options": {
+        "a": "266",
+        "b": "113",
+        "c": "166",
+        "d": "176",
+        "e": "196"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The table given below shows the total number of scooter and car sold by five companies. Read the data and answer the following question. Companies Scooters sold Cars sold A B C D E",
+      "stem": "If company F sold 20% more scooters than A and 30% less cars than E, then find the sum of total number of scooters and cars sold by F",
+      "options": {
+        "a": "266",
+        "b": "333",
+        "c": "366",
+        "d": "376",
+        "e": "338"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 133,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The bar graph given below shows the data about male in five companies (A, B, C, D and E). Read the data and answer the following question.",
+      "stem": "If number of females in B is 33 1/3 % more than males in B and number of females in C is 20 more than the males in D, then find the total female in B and C.",
+      "options": {
+        "a": "266",
+        "b": "213",
+        "c": "216",
+        "d": "276",
+        "e": "292"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 156,
+        "page_start": null,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The bar graph given below shows the data about male in five companies (A, B, C, D and E). Read the data and answer the following question.",
+      "stem": "Find the average number of males in E, B, and C.",
+      "options": {
+        "a": "104",
+        "b": "103",
+        "c": "106",
+        "d": "107",
+        "e": "110"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The bar graph given below shows the data about male in five companies (A, B, C, D and E). Read the data and answer the following question.",
+      "stem": "If the ratio of females in A and B is 2:1 and the ratio of females in B to males in C is 1:2, then find the females in A",
+      "options": {
+        "a": "66",
+        "b": "84",
+        "c": "86",
+        "d": "76",
+        "e": "96"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The bar graph given below shows the data about male in five companies (A, B, C, D and E). Read the data and answer the following question.",
+      "stem": "Find the difference between males in A and males in E.",
+      "options": {
+        "a": "36",
+        "b": "13",
+        "c": "20",
+        "d": "16",
+        "e": "19"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": null,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The bar graph given below shows the data about male in five companies (A, B, C, D and E). Read the data and answer the following question.",
+      "stem": "Males in C is what percentage of males in D.",
+      "options": {
+        "a": "69%",
+        "b": "33%",
+        "c": "66%",
+        "d": "76%",
+        "e": "75%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A shopkeeper marked an article 25% above its cost price and allowed 20% profit on the article. If the discount allowed on the article is Rs 20, then find the cost price of the article (in Rs).",
+      "options": {
+        "a": "250",
+        "b": "400",
+        "c": "500",
+        "d": "480",
+        "e": "350"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 192,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B started a business with investment of Rs 2000 and Rs 4000 respectively. After 6 months B invested 50% more of his initial investment and at the end of the year the total profit of Rs 14000. Find the profit share of B (in Rs).",
+      "options": {
+        "a": "12000",
+        "b": "10000",
+        "c": "8000",
+        "d": "7000",
+        "e": "5000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 233,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A 44-liter mixture contains milk and water. The quantity of milk is 6 liters more than that of water. How much water must be added so that the ratio of milk to water becomes equal?",
+      "options": {
+        "a": "6",
+        "b": "5",
+        "c": "7",
+        "d": "8",
+        "e": "10"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 180,
+        "page_start": 13,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "520 meters long train can cross a pole in 13 seconds. Find the time taken by the train to cross 130-meter-long platform (in seconds).",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 133,
+        "page_start": null,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the circumference of the circle is 88 cm, then find the area of the circle (in cm²).",
+      "options": {
+        "a": "900",
+        "b": "824",
+        "c": "616",
+        "d": "1024",
+        "e": "540"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The present ages of A and B are in the ratio of 7 : 9, respectively. Six years ago, the ratio of their ages was 11 : 15, respectively. Find the age of B three years from now (in years).",
+      "options": {
+        "a": "36",
+        "b": "33",
+        "c": "42",
+        "d": "39",
+        "e": "45"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 185,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q057",
+      "q_num": 57,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A man spends 20% of his income on rent and 10% of the remaining amount on groceries. He saves the rest. If his total expenditure (on rent and groceries) is Rs 4200, find the amount he saves (in Rs).",
+      "options": {
+        "a": "9850",
+        "b": "19200",
+        "c": "15400",
+        "d": "12400",
+        "e": "10800"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 198,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The total cost of 6 pens and 9 pencils is Rs 150. What will be three-fourth of the total cost of 12 pens and 18 pencils?",
+      "options": {
+        "a": "Rs 225",
+        "b": "Rs 280",
+        "c": "Rs 262.5",
+        "d": "Rs 202.5",
+        "e": "Rs 240"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 120,
+        "page_start": 14,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The average of three consecutive even numbers is 106. Find the average of the second largest and the largest numbers.",
+      "options": {
+        "a": "112",
+        "b": "110",
+        "c": "107",
+        "d": "103",
+        "e": "105"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": null,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The population of a town increases by 10% in the first year and decreases by 5% in the next. What is the overall percentage change after two years.",
+      "options": {
+        "a": "4% increase",
+        "b": "4.5% increase",
+        "c": "5% increase",
+        "d": "5.5% increase",
+        "e": "No change"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 147,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Find the wrong number in the given series.",
+      "stem": "220, 225, 215,231, 206, 242 (a)225 (b)220 (c)231 (d)206 (e)242",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 62,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Find the wrong number in the given series.",
+      "stem": "121, 123, 126, 131, 138, 150 (a)121 (b)150 (c)123 (d)126 (e)138",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 63,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Find the wrong number in the given series.",
+      "stem": "13, 104, 197, 292, 380, 488 (a)13 (b)104 (c)380 (d)112 (e)488",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 61,
+        "page_start": 15,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Find the wrong number in the given series.",
+      "stem": "322, 330, 338, 336, 354, 362 (a)322 (b)330 (c)362 (d)336 (e)354",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 63,
+        "page_start": null,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Find the wrong number in the given series.",
+      "stem": "3, 4, 7, 10, 18, 34 (a)3 (b)4 (c)7 (d)10 (e)18",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 46,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "44% of 750 + ?3 = 546",
+      "options": {
+        "a": "5",
+        "b": "8",
+        "c": "4",
+        "d": "6",
+        "e": "3"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "(48×?)+(52×6)=80% of 840",
+      "options": {
+        "a": "3.5",
+        "b": "12.5",
+        "c": "2.5",
+        "d": "4.5",
+        "e": "7.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (68).",
+      "options": {
+        "a": "4.6",
+        "b": "4.5",
+        "c": "4.3 (d)4.4 (e)4.2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 3,
+        "stem_char_len": 37,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "? × 1.3 × 6.5 = 1.17 × 195",
+      "options": {
+        "a": "23",
+        "b": "27",
+        "c": "25",
+        "d": "26",
+        "e": "22"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 26,
+        "page_start": 16,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "?2+114-24×5=163",
+      "options": {
+        "a": "15",
+        "b": "13",
+        "c": "14",
+        "d": "12",
+        "e": "11"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 15,
+        "page_start": null,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (71).",
+      "options": {
+        "a": "12",
+        "b": "5",
+        "c": "7",
+        "d": "10",
+        "e": "14"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (72).",
+      "options": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": "6",
+        "e": "8"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (73).",
+      "options": {
+        "a": "521",
+        "b": "496",
+        "c": "554",
+        "d": "568",
+        "e": "544"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "15% of 300+9.09% of 803+3=(?)2",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "9",
+        "d": "8",
+        "e": "12"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "680÷ 17 × 15= ?",
+      "options": {
+        "a": "592",
+        "b": "608",
+        "c": "604",
+        "d": "598",
+        "e": "600"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 15,
+        "page_start": 17,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "544÷8.5=2?",
+      "options": {
+        "a": "7",
+        "b": "3",
+        "c": "1",
+        "d": "6",
+        "e": "9"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 10,
+        "page_start": null,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (77).",
+      "options": {
+        "a": "2",
+        "b": "6",
+        "c": "4",
+        "d": "3",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q078",
+      "q_num": 78,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "Select the word that fits blank (78).",
+      "options": {
+        "a": "9",
+        "b": "1",
+        "c": "8",
+        "d": "4",
+        "e": "6"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "635 - 28 + 320 ÷ 8 = ?",
+      "options": {
+        "a": "607",
+        "b": "627",
+        "c": "647",
+        "d": "617",
+        "e": "637"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What will come in the place of question (?) mark in following questions.",
+      "stem": "35% of 250 + 25% of 35 = ? (a) 96.25 (b) 81.65 (c) 82.85 (d) 80.65 (e) 79.65 Solutions S1. Ans. (b) Sol. S2. Ans. (e) Sol. S3. Ans. (a) Sol. S4. Ans. (d) Sol. Logic here is: S5. Ans. (b) Sol. Words Codes Mat ks Brown uy On ps Table ir Metal re Glasses ko Under/ Box ym /ef Kept gt S6. Ans. (e) Sol. Words Codes Mat ks Brown uy On ps Table ir Metal re Glasses ko Under/ Box ym /ef Kept gt S7. Ans. (c) Sol. Words Codes Mat ks Brown uy On ps Table ir Metal re Glasses ko Under/ Box ym /ef Kept gt S8. Ans. (b) Sol. Words Codes Mat ks Brown uy On ps Table ir Metal re Glasses ko Under/ Box ym /ef Kept gt S9. Ans. (e) Sol. Words Codes Mat ks Brown uy On ps Table ir Metal re Glasses ko Under/ Box ym /ef Kept gt S10. Ans. (b) Sol. S11. Ans. (c) Sol. S12. Ans. (e) Sol. S13. Ans. (a) Sol. S14. Ans. (b) Sol. Except C, all were born in the month having 31 days. S15. Ans. (c) Sol. PREVAIL = OQFUBJK S16. Ans. (d) Sol. Except E-C, all the pair of persons sit opposite to each other. S17. Ans. (c) Sol. S18. Ans. (a) Sol. S19. Ans. (d) Sol. S20. Ans. (b) Sol. S21. Ans. (c) Sol. One pair S22. Ans. (d) Sol. I. W < H (False) II. J ≤ K (False) S23. Ans. (a) Sol. I. R > K (True) II. V ≥ M (False) S24. Ans. (e) Sol. I. X ≥ Y (True) II. C > P (True) S25. Ans. (a) Sol. S26. Ans. (b) Sol. S27. Ans. (e) Sol. S28. Ans. (e) Sol. B > D (181cm) > F > E (174cm) > C/A > A/C S29. Ans. (c) Sol. B > D (181cm) > F > E (174cm) > C/A > A/C S30. Ans. (d) Sol. B > D (181cm) > F > E (174cm) > C/A > A/C S31. Ans. (a) S32. Ans. (d) S33. Ans. (b) S34. Ans. (b) S35. Ans. (d) S36. Ans. (c) Sol. Designations Persons CEO G COO F AM E GM C AGM A Manager D Executive B S37. Ans. (d) Sol. Designations Persons CEO G COO F AM E GM C AGM A Manager D Executive B S38. Ans. (b) Sol. Designations Persons CEO G COO F AM E GM C AGM A Manager D Executive B S39. Ans. (e) Sol. Designations Persons CEO G COO F AM E GM C AGM A Manager D Executive B S40. Ans. (d) Sol. Designations Persons CEO G COO F AM E GM C AGM A Manager D Executive B S41. Ans. (e) Sol. Required answer = 200 +420:240 = 620:240 = 31:12 S42. Ans. (b) Sol. Unsold scooter in D = 2×160=320 Required answer = 320 + 160 = 480 S43. Ans. (e) Sol. Non defective cars sold by B = 75% of 120 = 90 Required answer = 90/250×100=36% S44. Ans. (a) Sol. Required answer = (200+420+250+160+300)/5=266 S45. Ans. (e) Sol. Scooters sold by F = 120% of 200 = 240 Cars sold by F = 70% of 140 = 98 Required answer = 240+98 = 338 S46. Ans. (e) Sol. Females in B = 4/3 of 120 = 160 Females in C = 20 + 112 = 132 Required answer=160+132 = 292 S47. Ans. (a) Sol. Required answer = (108+120+84)/3=104 S48. Ans. (b) Sol. Females in B = 1/2×84=42 Females in A = 2×42= 84 S49. Ans. (c) Sol. Required answer= 108 – 88 = 20 S50. Ans. (e) Sol. Required answer = 84/112×100=75% S51. Ans. (b) Sol. Information Given in the Question: Markup on cost price = 25% Profit allowed = 20% Discount allowed = Rs 20 Need to find: Cost Price (CP) Concept/Formula Used in the Question: Marked Price (MP) = CP × (1 + Markup%) Selling Price (SP) = CP × (1 + Profit%) Discount = MP - SP Detailed Explanation: Let the Cost Price be Rs x Marked Price (MP) = x × (1 + 25%) = 1.25x Selling Price (SP) = x × (1 + 20%) = 1.20x Discount = MP - SP = 1.25x - 1.20x = 0.05x Given: Discount = Rs 20 So, 0.05x = 20 x = 20 / 0.05 = 400 Cost Price = Rs 400 S52. Ans. (b) Sol. Information Given in the Question: A’s investment = ₹2000 (for 12 months) B’s initial investment = Rs 4000 After 6 months, B increases investment by 50% of Rs 4000 = Rs 2000 more ⇒ Total = Rs 6000 for next 6 months Total profit = Rs 14,000 Concept/Formula Used in the Question: Profit is divided in the ratio of (investment × time) Compute effective investment for both A and B: A = 2000 × 12 = Rs 24,000 B = 4000 × 6 + 6000 × 6 = 24,000 + 36,000 = Rs 60,000 Ratio of A : B = 24,000 : 60,000 = 2 : 5 Detailed Explanation: A’s capital × time = 2000 × 12 = Rs 24,000 B’s capital: First 6 months: 4000 × 6 = Rs 24,000 Next 6 months: 6000 × 6 = Rs 36,000 Total = 24,000 + 36,000 = Rs 60,000 Profit ratio A : B = 24,000 : 60,000 = 2 : 5 Total ratio parts = 2 + 5 = 7 parts B’s profit = (5 / 7) × 14,000 = Rs 10,000 S53. Ans. (a) Sol. Information Given in the Question: Total mixture = 44 liters Milk = Water + 6 liters Need to add water so that Milk = Water Detailed Explanation: Let water = w Then milk = w + 6 Total = w + (w + 6) = 2w + 6 = 44 2w = 38 w = 19 Milk = 25 liters Let x liters of water be added Then, new water = 19 + x Milk = 25 liters ATQ, 25 = 19 + x x = 6 S54. Ans. (c) Sol. Information Given in the Question: Length of train = 520 meters Time to cross a pole = 13 seconds Platform length = 130 meters Concept/Formula Used in the Question: Speed = Distance / Time Time to cross platform = (Length of train + Length of platform) / Speed Detailed Explanation: Speed of the train = 520 / 13 = 40 m/s Total distance to cross platform = Train + Platform = 520 + 130 = 650 meters Required time = 650 / 40 = 65/4 seconds S55. Ans. (c) Sol. Information Given in the Question: Circumference of the circle = 88 cm Concept/Formula Used in the Question: Circumference of circle = 2πr Area of circle = πr² Detailed Explanation: S56. Ans. (d) Sol. Information Given in the Question: Present age ratio of A : B = 7 : 9 Six years ago, age ratio was A : B = 11 : 15 Detailed Explanation: Let the present ages of A and B be 7x and 9x respectively. Six years ago: A’s age = 7x - 6 B’s age = 9x - 6 Using the ratio: Now, present age of B = 9x = 9 × 4 = 36 years So, age of B 3 years from now = 36 + 3 = 39 years S57. Ans. (e) Sol. Information Given in the Question: Rent = 20% of income Groceries = 10% of remaining income after rent Total expenditure = Rs 4,200 Detailed Explanation: Let income = Rs x Rent = 0.20x Remaining = 0.80x Groceries = 0.10 × 0.80x = 0.08x Total Expenditure = 0.20x + 0.08x = 0.28x Given: Now, Savings = 0.72x = 0.72×15000=Rs 10,800 S58. Ans. (a) Sol. Information Given in the Question: Cost of 6 pens and 9 pencils = Rs 150 Need to find: ¾ of the cost of 12 pens and 18 pencils Detailed Explanation: Given that cost of 6 pens + 9 pencils = Rs 150 Observe that 12 pens and 18 pencils = exactly double of 6 pens and 9 pencils Cost of 12 pens + 18 pencils = 2 × Rs 150 = Rs 300 Required = 3/4th of Rs 300 = (3/4) × 300 = Rs 225 Short Exam Hall Approach: Notice that 12 pens + 18 pencils = 2 × (6 pens + 9 pencils) So, total cost = 2 × 150 = 300 Required = 300 × 3/4 = Rs 225 S59. Ans. (c) Sol. Information Given in the Question: Average of 3 consecutive even numbers = 106 Concept/Formula Used in the Question: Average of n numbers = (Sum of numbers) / n Detailed Explanation: Let the three consecutive even numbers be: (x − 2), x, and (x + 2) Their average = (x − 2 + x + x + 2)/3 = (3x)/3 = x Given average = 106 x = 106 So, the numbers are: 104, 106, 108 Second largest = 106, Largest = 108 Average of these two = (106 + 108)/2 = 214/2 = 107 S60. Ans. (b) Sol. Information Given in the Question: Population increases by 10% in the first year. Then decreases by 5% in the second year. Concept/Formula Used in the Question: If a value is increased by x% and then decreased by y%, the net percentage change is given by: Alternatively, for step-by-step: New population after Year 1 = Initial × (1 + 10/100) New population after Year 2 = Year 1 Population × (1 - 5/100) Detailed Explanation: Assume initial population = 100 (for simplicity) After 1st year: = 100 + 10% of 100 = 100 × 1.10 = 110 After 2nd year: = 110 - 5% of 110 = 110 × 0.95 = 104.5 Net increase = 104.5 - 100 = 4.5 Percentage change = (4.5 / 100) × 100 = 4.5% increase S61. Ans.",
+      "options": {
+        "a": "Sol. Wrong number - 225 The pattern of the series- 220+2² =224 224-3² =215 215+4² =231 231-5² =206 206+6² =242 S62. Ans.",
+        "b": "Sol. Wrong number - 150 The pattern of the series- 121+2=123 123+3=126 126+5=131 131+7=138 138+11=149 S63. Ans.",
+        "c": "Sol. Wrong number- 7 The pattern of the series- 3×2-2=4 4×2-2=6 6×2-2=10 10×2-2=18 18×2-2=34 S66. Ans.",
+        "d": "Sol. S67. Ans.",
+        "e": "Sol. S68. Ans."
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 7606,
+        "page_start": 18,
+        "page_end": 35
+      }
+    }
+  ]
+}
