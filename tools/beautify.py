@@ -82,7 +82,24 @@ GLYPH_SUB.update({
     # sign, a macron for the minus of "ms⁻¹", and one arrangement puzzle
     # whose symbol came through as a Portuguese letter.
     "˚": "°", "¯¹": "^-1", "ã": "★",
+    "⟹": "=>",
+    "⁰": "^0", "⁴": "^4", "⁵": "^5", "⁶": "^6",
+    "⁷": "^7", "⁸": "^8", "⁹": "^9", "ⁿ": "^n",
 })
+
+# A second broken mapping, in the books that print stacked fractions: the digits
+# 0-9 arrive as ten consecutive Odia codepoints, U+0B34 onwards. "3500 x 100/100"
+# comes through as "3500 x <U+0B35><U+0B34><U+0B34>". Restoring the digits is what
+# makes the surrounding damage visible to the fraction check below.
+GLYPH_SUB.update({chr(0x0B34 + n): str(n) for n in range(10)})
+
+# Whatever else that mapping produced - Ethiopic bracket pieces, stray Telugu and
+# Tamil - has no digit to recover. Its presence means the text is still garbled.
+GARBLED = re.compile(r"[ঀ-෿ሀ-፿]")
+
+# The corpus carries Hindi translations of some papers. They are not damaged, but
+# this is an English bank and half a question in Devanagari is not shippable.
+DEVANAGARI = re.compile(r"[\u0900-\u097f]")
 
 # Site plugs and footers the page carried, welded onto whatever text ended the
 # line. "www.bankersadda.com | www.sscadda.com | ... | Adda247 App" is one run.
@@ -92,7 +109,7 @@ GLYPH_SUB.update({
 # "estore.A publishing house.com".
 FOOTER = re.compile(
     r"(?:\s*[|·-]?\s*(?:Visit\s*[:.]?\s*)?"
-    r"(?:\S*@)?(?:www\.|https?://|\S*\.)\S*\.(?:com|in|org|net)\S*)+"
+    r"(?:https?://\S+|(?:\S+@)?(?:[\w-]+\.)+(?:com|in|org|net|me|co)\b\S*))+"
     r"(?:\s*\|?\s*Adda\s?247[^|]*)?"
     r"|\s*\|\s*Adda\s?247\s*App\b.*"
     r"|\s*Visit\s*:\s*$"
@@ -106,8 +123,33 @@ FOOTER = re.compile(
 PROMO = re.compile(
     r"\s*(?:For any detail[s]?,?\s*mail us at\b"
     r"|Exclusively on New Pattern\b[^|]{0,60}?\beBook\b"
-    r"|Cracker Book for Bank\b[^|]{0,60}"
+    r"|Cracker Book for Bank\b.*"
+    r"|For any quer(?:y|ies)[^.]{0,60}?email us\b[^.]*"
+    r"|(?:or\s*)?whatsapp\s*@?\s*\d[\d\s-]{7,}"
+    r"|Follow\s+\w+\s+Sir\b[^.]{0,80}"
+    r"|Telegram\s+Channel\b[^.]{0,60}"
+    r"|Free Study Material\s*(?:&|and)\s*Quizzes\b"
     r"|Buy Now\b|Get \d+% off\b)",
+    re.I,
+)
+
+# Sidebar and cross-sell copy, which lands mid-sentence rather than at the end:
+# "...choosing the best possible Facebook Page Follow 102 Vishal Sir ow each
+# question." Each phrase is therefore matched exactly and cut out in place, never
+# to end-of-string. The bounds matter — one book's questions are genuinely about
+# Facebook and Instagram user counts, and those must survive untouched.
+HOUSE_ADS = re.compile(
+    r"\s*(?:High\s+Quality\s+Mock\s+Test\s+Series(?:\s+for)?"
+    r"(?:\s+(?:RRB|IBPS|SBI|RBI|LIC|SSC|NABARD)\b(?:\s+\w+){0,3})?"
+    r"|Grand\s+Bundle\s+PDF\s+Course\s+Combo(?:\s*\([^)]*\))?(?:\s*\d{4})?"
+    r"|Subscribe\s+Our\s+Yearly\s+\w+\s+Package"
+    r"|TOP\s+\d+\s+Important\b[^:]{0,60}?Exams?\b"
+    r"|Follow\s+us\s*:?\s*(?:(?:Telegram|Facebook|Twitter|Instagram|Youtube|G\+)\s*,?\s*)*"
+    r"|Follow\s+\d*\s*\w+\s+Sir\b"
+    r"|Facebook\s+Page\b|Youtube\s+Instagram\b"
+    r"|(?:(?:Telegram|Facebook|Twitter|Instagram|Youtube|G\+)\s*,\s*)+"
+    r"(?:Telegram|Facebook|Twitter|Instagram|Youtube|G\+)"
+    r"|Click\s+Here(?:\s+(?:For|to))?\b)",
     re.I,
 )
 
@@ -126,13 +168,14 @@ BRANDS = [
     (re.compile(r"\bBankersadda\b", re.I), "A publishing house"),
     (re.compile(r"\bIBPS\s?Guide\b", re.I), "A publishing house"),
     (re.compile(r"\bCareer\s?Power\b", re.I), "A publishing house"),
+    (re.compile(r"\bSSC\s?ADDA\b", re.I), "a study channel"),
     (re.compile(r"\bAdda\s?247\b", re.I), "the publishing house"),
 ]
 # Anything still carrying one of these after cleaning is not shippable.
 BRAND_RESIDUE = re.compile(
     r"adda\s?247|bankersadda|sscadda|careerpower|ibpsguide|oliveboard|testbook"
     r"|gradeup|smartkeeda|practicemock|www\.|https?://"
-    r"|\b\S+\.(?:com|in|org|net)\b",
+    r"|\b[a-z0-9-]+\.(?:com|in|org|net)\b",
     re.I,
 )
 
@@ -237,6 +280,29 @@ def source_titles(questions):
     return re.compile(rf"\s*\b(?:{alts})\b.*$", re.I)
 
 
+def strip_hindi(t):
+    """Drop the Hindi half of a bilingual question, keep the English.
+
+    Some papers print both languages: the stem is asked in English and then
+    repeated in Devanagari, and each option reads "Rs.21,083 crore / Rs.21,083
+    करोड़". The English half is complete on its own, so these are worth keeping
+    rather than discarding for a language the bank does not publish in.
+
+    Cutting at the first Devanagari character alone would leave the separator
+    and the translated number behind ("December 31, 2025 /31"), so a separator
+    just before it is taken as the real boundary.
+    """
+    m = DEVANAGARI.search(t)
+    if not m:
+        return t
+    cut = m.start()
+    window = t[max(0, cut - 40):cut]
+    sep = max(window.rfind("/"), window.rfind("|"))
+    if sep != -1:
+        cut = max(0, cut - 40) + sep
+    return t[:cut].strip(" /|-–—")
+
+
 def squeeze(t):
     return re.sub(r"\s+", " ", t or "").strip()
 
@@ -248,11 +314,14 @@ def basic(t):
     footer run, but "Adda247 publications sold three books" is the narrative and
     the footer pattern would not touch it anyway.
     """
-    t = _deitalicise(t or "")
+    t = strip_hindi(_deitalicise(t or ""))
     for a, b in GLYPH_SUB.items():
         t = t.replace(a, b)
     t = FOOTER.sub(" ", t)
     t = PROMO.sub(" ", t)
+    prev = None
+    while prev != t:
+        prev, t = t, HOUSE_ADS.sub(" ", t)
     if TITLES:
         t = TITLES.sub("", t)
     for pat, repl in BRANDS:
@@ -331,6 +400,8 @@ REASONS = {
     "stem_truncated": "stem ends mid-sentence",
     "equation_degraded": "an equation lost its exponent and no longer matches the key",
     "fraction_flattened": "a stacked fraction collapsed into loose digits",
+    "text_garbled": "characters survive from a broken font mapping",
+    "language_hindi": "asked in Hindi; no English half to keep",
     "stem_too_short": "stem is too short to be a question",
     "brand_residue": "a coaching brand or URL survived cleaning",
 }
@@ -341,16 +412,22 @@ def assess(q, ctx, charts):
     bad = []
     stem, opts = q["stem"], q["options"]
 
+    texts = [o["text"] for o in opts]
+    everything = [stem, ctx] + texts
+
     if len(stem) < 25:
         bad.append("stem_too_short")
     elif TRUNCATED.search(stem):
         bad.append("stem_truncated")
     if DEGRADED_EQ.search(stem):
         bad.append("equation_degraded")
-    if FLATTENED_FRACTION.search(stem) or FLATTENED_FRACTION.search(ctx):
+    if any(FLATTENED_FRACTION.search(t) for t in everything):
         bad.append("fraction_flattened")
+    if any(GARBLED.search(t) for t in everything):
+        bad.append("text_garbled")
+    if q.get("_had_hindi") and (len(stem) < 25 or any(not t for t in texts)):
+        bad.append("language_hindi")
 
-    texts = [o["text"] for o in opts]
     if any(not t for t in texts):
         bad.append("option_empty")
     elif len(set(texts)) < len(texts):
@@ -367,7 +444,7 @@ def assess(q, ctx, charts):
     if NEEDS_VISUAL.search(stem + " " + ctx) and not charts:
         bad.append("chart_missing")
 
-    if any(BRAND_RESIDUE.search(t) for t in [stem, ctx] + texts):
+    if any(BRAND_RESIDUE.search(t) for t in everything):
         bad.append("brand_residue")
 
     return bad
@@ -421,7 +498,15 @@ class Book(FPDF):
         if self.get_y() + mm > self.h - self.b_margin:
             self.add_page()
 
+    @staticmethod
+    def drawable(text):
+        """Anything still garbled would print as a blank box, which reads as a
+        rendering bug rather than as the damage it is. Flagged questions are
+        shown so a human can judge them, so mark the gap instead of hiding it."""
+        return GARBLED.sub("\u25a1", text)
+
     def para(self, text, size=10.5, style="", indent=0, colour=INK, leading=4.8):
+        text = self.drawable(text)
         self.set_font("body", style, size)
         self.set_text_color(*colour)
         self.set_x(self.l_margin + indent)
@@ -479,7 +564,8 @@ class Book(FPDF):
         self.cell(nw, 5, num)
         self.set_font("body", "", 10.5)
         self.multi_cell(self.w - self.l_margin - self.r_margin - nw, 5,
-                        q["stem"], new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+                        self.drawable(q["stem"]), new_x=XPos.LMARGIN,
+                        new_y=YPos.NEXT)
         self.ln(1)
 
         for path in charts:
@@ -563,6 +649,9 @@ def build(slice_no):
             "context": ctx,
             "charts": charts,
             "_ctx_was_dump": bool(ctx_raw) and not ctx,
+            "_had_hindi": bool(DEVANAGARI.search(
+                (q.get("stem") or "") + ctx_raw
+                + "".join(o.get("text") or "" for o in q["options"]))),
         }
         out["flags"] = assess(out, ctx, charts)
         (flagged if out["flags"] else clean).append(out)
@@ -609,16 +698,22 @@ def build(slice_no):
         for q in flagged:
             w.writerow([q["question_id"], "|".join(q["flags"]), q["stem"][:160]])
 
-    # An unclassified image is treated as not-a-chart, which silently sends every
-    # question in its set to flagged/ as chart_missing. That is indistinguishable
-    # in the output from a set whose chart really was an advert, so say so.
+    # An unclassified image is treated as not-a-chart, which sends every question
+    # in its set to flagged/ as chart_missing — indistinguishable in the output
+    # from a set whose chart really was an advert. Only images hanging off a
+    # question that asks about a visual can cause that; the rest are dropped
+    # either way, so warning about them is noise. Across sets 2-10 that is the
+    # difference between 917 images to review and 131.
     unseen = {Path(a["path"]).name
-              for q in raw for a in (q.get("assets") or [])
+              for q in raw
+              if NEEDS_VISUAL.search((q.get("stem") or "") + " "
+                                     + (q.get("shared_context") or ""))
+              for a in (q.get("assets") or [])
               if Path(a["path"]).name not in classes}
     if unseen:
-        print(f"  WARNING: {len(unseen)} images in this slice are unclassified "
-              f"and were dropped. Classify them in {ASSET_CLASSES} before "
-              f"trusting the chart_missing count.")
+        print(f"  WARNING: {len(unseen)} images on questions that ask about a "
+              f"visual are unclassified and were dropped. Classify them in "
+              f"{ASSET_CLASSES.name} before trusting the chart_missing count.")
 
     tally = Counter(f for q in flagged for f in q["flags"])
     print(f"set {slice_no}:  {n_clean} clean  /  {len(flagged)} flagged  "

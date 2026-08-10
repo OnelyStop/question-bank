@@ -7598,64 +7598,6 @@
   "charts": []
  },
  {
-  "question_id": "q002667-9f298a26",
-  "stem": "Vessel A, B and C contains mixture of milk and water. Ratio of the quantity of A, B and C is 25 : 20 : 18 respectively. In vessel A milk to water ratio is 2 : 3 and in vessel B water to milk ratio is 2 : 3. If vessel C contain milk to water ratio is 4 : 5 and all the mixture of 3 vessel poured to another vessel D then in vessel D quantity of water exceeds by 6 litres than the quantity of milk in that vessel. Find out the quantity of mixture contained in vessel A, B and C.",
-  "options": [
-   {
-    "key": "a",
-    "text": "50 Ltr., 40 Ltr., 36 Ltr"
-   },
-   {
-    "key": "c",
-    "text": "75 Ltr., 60 Ltr., 54 Ltr"
-   },
-   {
-    "key": "e",
-    "text": "None of these"
-   },
-   {
-    "key": "b",
-    "text": "44 4"
-   },
-   {
-    "key": "d",
-    "text": "40 9 %"
-   }
-  ],
-  "correct_option": "a",
-  "context": "",
-  "charts": []
- },
- {
-  "question_id": "q002668-f455ac41",
-  "stem": "There are three fruit sellers Ramesh, Suresh and Vikash, all of them have a mixture of two types of apple. Ramesh has (x+18) kg of apple, Suresh has 12 kg of apple more than that of Ramesh while Vikash has 3 kg of apple more than that of Suresh. The two types of Apple are mixed in the ratio of 5 : 3, 2 : 3 and 4 : 3 for them respectively. If Ramesh sold 16 kg of mixed apple and added 12 kg of second type of apple then the new ratio becomes 5 : 6 for him. Vikash added y kg of second type of apple to his mixture and thus the new ratio of both types for him is 1 : 1. Then find the value of y.",
-  "options": [
-   {
-    "key": "a",
-    "text": "8 kg"
-   },
-   {
-    "key": "b",
-    "text": "9 kg"
-   },
-   {
-    "key": "d",
-    "text": "6 kg"
-   },
-   {
-    "key": "e",
-    "text": "7 kg"
-   },
-   {
-    "key": "c",
-    "text": "48 9 % 4 9 % Publications@"
-   }
-  ],
-  "correct_option": "b",
-  "context": "",
-  "charts": []
- },
- {
   "question_id": "q002669-8346d5eb",
   "stem": "There are two vessels, vessel A and vessel B. Vessel A contains milk and water in the ratio 5 : 4 and vessel B contains Y litre of wine. 18 litre of mixture from vessel A is taken out and poured in vessel B. Now, 10 litre of mixture from vessel B is taken out and poured in vessel A. If quantity of wine in vessel A is found to be 4 litre then, find the initial quantity of wine in vessel B.",
   "options": [
@@ -8584,6 +8526,35 @@
   "charts": []
  },
  {
+  "question_id": "q002712-9cfdfab7",
+  "stem": "The marked price of a bike in two stores A and B is store A bike is available at 30% discount and in store B same bike is available at two successive discounts of d% and 8%. A man bought bike from store A at Rs. 49000. If man would have paid Rs. 7672 more, he could have bought the same bike from store B. Find the discount ‘d’ allowed by store B on bike ?",
+  "options": [
+   {
+    "key": "a",
+    "text": "8%"
+   },
+   {
+    "key": "b",
+    "text": "10%"
+   },
+   {
+    "key": "c",
+    "text": "12%"
+   },
+   {
+    "key": "d",
+    "text": "16%"
+   },
+   {
+    "key": "e",
+    "text": "15%"
+   }
+  ],
+  "correct_option": "c",
+  "context": "",
+  "charts": []
+ },
+ {
   "question_id": "q002715-ad3897c7",
   "stem": "Ratio between marked price of article A to article B is 4 : 5. Shopkeeper allowed d% discount on article ‘A’ and (d + 18)% discount on article ‘B’, so selling price of both articles become equal. If shopkeeper made a profit of 20% on article A and 25% on article B and profit made on article B is Rs. 384 more than that of article A, then find the cost price of article ‘A’ and article ‘B’ respectively?",
   "options": [
@@ -8874,35 +8845,6 @@
   "charts": []
  },
  {
-  "question_id": "q002726-b3f7d38b",
-  "stem": "In a store marked price of a shirt is 33 jeans. There are two discounts schemes A & B. In Scheme A, if someone buy one jean and one shirt together, then store gives overall discount of 35%, while in scheme B if someone buy one shirt and one jeans separately, store give 20% discount on shirt and 25% on jeans. If difference between selling price of one jeans and one shirt in scheme A and B is Rs. 384 then find cost price of one jeans & one shirt, given that store made of 33 sold one jeans and one shirt in scheme B ?",
-  "options": [
-   {
-    "key": "a",
-    "text": "720 Rs, 1150 Rs"
-   },
-   {
-    "key": "c",
-    "text": "786 Rs. 1168 Rs"
-   },
-   {
-    "key": "e",
-    "text": "790 Rs. 1108 Rs"
-   },
-   {
-    "key": "b",
-    "text": "21 17"
-   },
-   {
-    "key": "d",
-    "text": "23 23 %"
-   }
-  ],
-  "correct_option": "b",
-  "context": "",
-  "charts": []
- },
- {
   "question_id": "q002727-a48c23c1",
   "stem": "Veer invested Rs 22500 for 2 year at the Rate of x% in scheme A at compound interest annually and gets a total amount of Rs 32400 If he added Rs 2600 in amount and invested total amount in scheme B at S.I. for 3 year at same rate . Then find the total simple interest veer gets from scheme B?",
   "options": [
@@ -9160,35 +9102,6 @@
    }
   ],
   "correct_option": "e",
-  "context": "",
-  "charts": []
- },
- {
-  "question_id": "q002739-eb982c98",
-  "stem": "Aman invest Rs. (x – 2000) in scheme ‘P’ which offers 20% CI pa while Rs. (x + 2000) in scheme ‘Q’ which offers 8% SI pa. After 2 year difference between interest earn from scheme P and Q is 1600, then amount invested by Aman in scheme ‘Q’ is what percent more/less than amount invested by him in scheme ‘P’ ? 1",
-  "options": [
-   {
-    "key": "a",
-    "text": "75%"
-   },
-   {
-    "key": "b",
-    "text": "133 3 %"
-   },
-   {
-    "key": "c",
-    "text": "150%"
-   },
-   {
-    "key": "d",
-    "text": "50%"
-   },
-   {
-    "key": "e",
-    "text": "33 3 %"
-   }
-  ],
-  "correct_option": "d",
   "context": "",
   "charts": []
  },
@@ -9799,6 +9712,64 @@
   ],
   "correct_option": "b",
   "context": "",
+  "charts": []
+ },
+ {
+  "question_id": "q002798-c3758924",
+  "stem": "If distance between point A and point B is 180km then find time taken by Bhavya to reach point ‘C’ which is 432km ahead of point ‘B’?",
+  "options": [
+   {
+    "key": "a",
+    "text": "36 hours"
+   },
+   {
+    "key": "b",
+    "text": "44 hours"
+   },
+   {
+    "key": "c",
+    "text": "24 hours"
+   },
+   {
+    "key": "d",
+    "text": "32 hours"
+   },
+   {
+    "key": "e",
+    "text": "40 hours"
+   }
+  ],
+  "correct_option": "b",
+  "context": "Satish and Bhavya starts from point P and Q respectively at same time to reach at point B. Satish overtakes Bhavya after 10 hours at point A. If Bhavya starts 4 hours earlier than Satish then they will meet at point B after 16 hours when Satish starts. Ratio between distance between Q and A to Q and B is 1 : 2. Point P, Q, A and B lies on a straight road. 9 A publishing house",
+  "charts": []
+ },
+ {
+  "question_id": "q002799-d60142e1",
+  "stem": "If Satish and Bhavya started to move towards each other from P and Q at 8:00 a.m, then at what time they will meet?",
+  "options": [
+   {
+    "key": "a",
+    "text": "9 : 00 a.m"
+   },
+   {
+    "key": "b",
+    "text": "9 : 30 a.m"
+   },
+   {
+    "key": "c",
+    "text": "10 : 00 a.m"
+   },
+   {
+    "key": "d",
+    "text": "10 : 30 a.m"
+   },
+   {
+    "key": "e",
+    "text": "11 : 00 a.m"
+   }
+  ],
+  "correct_option": "d",
+  "context": "Satish and Bhavya starts from point P and Q respectively at same time to reach at point B. Satish overtakes Bhavya after 10 hours at point A. If Bhavya starts 4 hours earlier than Satish then they will meet at point B after 16 hours when Satish starts. Ratio between distance between Q and A to Q and B is 1 : 2. Point P, Q, A and B lies on a straight road. 9 A publishing house",
   "charts": []
  },
  {
@@ -10554,35 +10525,6 @@
    }
   ],
   "correct_option": "d",
-  "context": "; There are three toys which are in cylindrical, conical and spherical shape. Height of all the toys is same. Ratio between the height of cylinder to radius of cylinder is 4 : 3.",
-  "charts": []
- },
- {
-  "question_id": "q002838-6f26cc44",
-  "stem": "Volume of cone is what percent of the volume of sphere if radius of cone is equal to that of cylinder",
-  "options": [
-   {
-    "key": "a",
-    "text": "112.5%"
-   },
-   {
-    "key": "b",
-    "text": "100%"
-   },
-   {
-    "key": "c",
-    "text": "125%"
-   },
-   {
-    "key": "d",
-    "text": "75%"
-   },
-   {
-    "key": "e",
-    "text": "88 9%"
-   }
-  ],
-  "correct_option": "a",
   "context": "; There are three toys which are in cylindrical, conical and spherical shape. Height of all the toys is same. Ratio between the height of cylinder to radius of cylinder is 4 : 3.",
   "charts": []
  },

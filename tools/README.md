@@ -40,6 +40,20 @@ its set lands in `flagged/` as `chart_missing`. The script prints a warning when
 slice references unclassified images — heed it, or the output will look like a
 data problem when it is really an unfinished classification pass.
 
-**Only set 1 is classified.** Sets 2-10 need their images reviewed before they
-can be built, and set 2 also carries footer patterns the cleaner has not seen yet
-(62 questions trip `brand_residue` on a trial run).
+**All ten sets are built.** Classification covers every image that could change
+an outcome: 173 of the 917 the extractor attached. The other 744 hang off
+questions that never mention a chart, so they are dropped either way and
+reviewing them would change nothing. The warning only fires for the ones that
+matter.
+
+## verify.py
+
+```bash
+python3 tools/verify.py
+```
+
+Re-reads the published sets and scans them for what cleaning was supposed to
+remove — brands, URLs, source-book titles, characters from the broken font
+mappings — and reconciles clean + flagged against the input. A cleaner made of
+regexes fails silently when a regex stops matching; this is what makes that loud.
+Exits non-zero on any leak.
