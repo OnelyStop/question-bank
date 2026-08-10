@@ -21,7 +21,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BANK = ROOT / "India" / "banking"
+SETS = ROOT / "India" / "banking" / "practice-sets"
 
 LEAKS = {
     "coaching brand": re.compile(
@@ -48,14 +48,14 @@ LEAKS = {
 
 
 def main():
-    ready = json.loads((BANK / "raw" / "ready.json").read_text())
+    ready = json.loads((SETS / "extracted.json").read_text())
     problems = Counter()
     examples = {}
     total_clean = total_flagged = 0
 
     for n in range(1, 11):
-        cj = BANK / "cleaned" / f"{n}.json"
-        fc = BANK / "flagged" / f"{n}.csv"
+        cj = SETS / "usable" / f"{n}.json"
+        fc = SETS / "flagged" / f"{n}.csv"
         if not cj.exists():
             print(f"set {n}: NOT BUILT")
             continue
@@ -83,7 +83,7 @@ def main():
             if q["correct_option"] not in "abcde":
                 problems["bad answer key"] += 1
             for c in q["charts"]:
-                if not (BANK / c).exists():
+                if not (SETS / c).exists():
                     problems["missing chart file"] += 1
 
     print(f"\ntotal: {total_clean} clean, {total_flagged} flagged, "

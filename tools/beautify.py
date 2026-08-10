@@ -40,11 +40,11 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 
 ROOT = Path(__file__).resolve().parents[1]
-BANK = ROOT / "India" / "banking"
-SRC = BANK / "raw" / "ready.json"
+SETS = ROOT / "India" / "banking" / "practice-sets"
+SRC = SETS / "extracted.json"
 ASSET_CLASSES = ROOT / "tools" / "assets_classified.json"
-OUT_CLEAN = BANK / "cleaned"
-OUT_FLAG = BANK / "flagged"
+OUT_CLEAN = SETS / "usable"
+OUT_FLAG = SETS / "flagged"
 PER_FILE = 500
 
 FONT_REG = "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
@@ -528,7 +528,7 @@ class Book(FPDF):
     def measure_chart(self, path, max_w=95, max_h=75):
         try:
             from PIL import Image
-            iw, ih = Image.open(BANK / path).size
+            iw, ih = Image.open(SETS / path).size
         except Exception:
             return 0
         return ih * min(max_w / iw, max_h / ih, 0.32) + 4
@@ -544,16 +544,16 @@ class Book(FPDF):
         self.ln(3)
 
     def chart(self, path, max_w=95, max_h=75):
-        """`path` is recorded relative to the bank so the JSON stays portable;
+        """`path` is recorded relative to practice-sets/ so the JSON stays portable;
         only the draw call needs it resolved."""
         try:
             from PIL import Image
-            iw, ih = Image.open(BANK / path).size
+            iw, ih = Image.open(SETS / path).size
         except Exception:
             return
         scale = min(max_w / iw, max_h / ih, 0.32)
         self.keep_together(ih * scale + 4)
-        self.image(BANK / path, x=self.l_margin + 4, w=iw * scale, h=ih * scale)
+        self.image(SETS / path, x=self.l_margin + 4, w=iw * scale, h=ih * scale)
         self.ln(2.5)
 
     def question(self, n, q, flags=None, charts=()):
@@ -636,10 +636,10 @@ def build(slice_no):
         ctx = clean_context(ctx_raw)
         # ready.json records asset paths as they sat in the extraction workspace;
         # only the images classified as charts were carried into the repo.
-        charts = [f"assets/{Path(a['path']).name}"
+        charts = [f"charts/{Path(a['path']).name}"
                   for a in (q.get("assets") or [])
                   if classes.get(Path(a["path"]).name) == "chart"
-                  and (BANK / "assets" / Path(a["path"]).name).exists()]
+                  and (SETS / "charts" / Path(a["path"]).name).exists()]
         out = {
             "question_id": q["question_id"],
             "stem": clean_stem(q),

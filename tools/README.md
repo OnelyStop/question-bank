@@ -2,15 +2,15 @@
 
 ## beautify.py
 
-Turns a slice of `India/banking/raw/ready.json` into a publishable set.
+Turns a slice of `India/banking/practice-sets/extracted.json` into a publishable set.
 
 ```bash
 python3 tools/beautify.py 1        # builds set 1
 python3 tools/beautify.py 1 2 3    # several at once
 ```
 
-Writes four files per set — `cleaned/N.pdf`, `cleaned/N.json`, `flagged/N.pdf`,
-`flagged/N.csv`. Runs from any working directory; paths resolve against the repo.
+Writes four files per set into `practice-sets/` — `usable/N.pdf`, `usable/N.json`,
+`flagged/N.pdf`, `flagged/N.csv`. Runs from any working directory; paths resolve against the repo.
 
 Needs `fpdf2` and `pillow`, and reads `Arial Unicode.ttf` / `Arial Bold.ttf` from
 `/System/Library/Fonts/Supplemental/` — change `FONT_REG` / `FONT_BOLD` at the top
