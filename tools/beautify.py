@@ -40,7 +40,7 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 
 ROOT = Path(__file__).resolve().parents[1]
-SETS = ROOT / "India" / "banking" / "practice-sets"
+SETS = ROOT / "India" / "banking" / "sets"
 SRC = SETS / "extracted.json"
 ASSET_CLASSES = ROOT / "tools" / "assets_classified.json"
 OUT_CLEAN = SETS / "usable"
@@ -544,7 +544,7 @@ class Book(FPDF):
         self.ln(3)
 
     def chart(self, path, max_w=95, max_h=75):
-        """`path` is recorded relative to practice-sets/ so the JSON stays portable;
+        """`path` is recorded relative to sets/ so the JSON stays portable;
         only the draw call needs it resolved."""
         try:
             from PIL import Image

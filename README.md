@@ -6,28 +6,37 @@ Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
 India/banking/
-  papers/          previous-year papers, parsed from the official PDFs
-  practice-sets/   questions from coaching books, cleaned and typeset
-tools/             the scripts that build and check practice-sets/
+  papers/    previous-year papers, kept whole and organised by exam
+  sets/      questions pooled from many sources, cleaned and typeset
+tools/       the scripts that build and check sets/
 ```
+
+Both hold real exam questions. They differ in what they keep.
 
 ## papers/
 
-The primary collection: 246 previous-year papers laid out by
-`{bank}/{role}/{year}/{stage}/{shift}/`, plus `index.jsonl` for filtering without
-opening every file. `papers/SCHEMA.md` describes the format — questions carry
-`direction_id` / `direction_text` so a puzzle or DI set stays linked to its shared
-passage, and `metrics` records what the parser could and could not see.
+246 previous-year papers laid out by `{bank}/{role}/{year}/{stage}/{shift}/`,
+plus `index.jsonl` for filtering without opening every file. A question here
+stays attached to its paper: which bank, which year, which shift.
 
-## practice-sets/
+`papers/SCHEMA.md` has the format. Questions carry `direction_id` /
+`direction_text` so a puzzle or DI set stays linked to its shared passage, and
+`metrics` records what the parser could and could not see.
 
-4,851 questions extracted from coaching books, split into ten sets of 500.
-**3,596 are usable and 1,255 are held back**, each with a reason.
+## sets/
 
-The distinction is the point. A question whose seating arrangement was never
+4,851 questions pooled from 58 PDFs — about half previous-year and memory-based
+papers, half coaching books — deduped across all of them and split into ten sets
+of 500. Provenance is dropped; what you get instead is a judgement on each
+question. **3,596 are usable, 1,255 are held back with a reason.**
+
+That distinction is the point. A question whose seating arrangement was never
 extracted cannot be answered by anyone, and a question whose stacked fraction
 collapsed into loose digits no longer means what it meant. Those are quarantined
-rather than shipped looking sound. See `practice-sets/README.md`.
+rather than shipped looking sound.
+
+Six PDFs feed both collections, so some questions appear in each, parsed two
+different ways. `sets/README.md` lists them.
 
 ## What a question looks like
 

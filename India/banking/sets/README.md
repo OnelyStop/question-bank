@@ -1,6 +1,7 @@
-# practice-sets
+# sets
 
-4,851 questions extracted from coaching books, in ten sets of 500.
+4,851 questions pooled from 58 source PDFs, deduped, and split into ten sets of
+500. **3,596 are usable and 1,255 are held back**, each with a reason.
 
 ```
 extracted.json   what came out of the source PDFs, damage and all
@@ -14,6 +15,36 @@ charts/          the 50 images a question genuinely needs
 relative to this folder (`charts/…`).
 
 Built by `tools/beautify.py`, checked by `tools/verify.py`.
+
+## Where these came from
+
+Roughly half are real exam questions, half are from coaching books:
+
+| | source PDFs | questions |
+|---|---|---|
+| Previous-year and memory-based papers | 30 | 2,246 |
+| Coaching books and practice compilations | 28 | 2,605 |
+
+The exam papers include IBPS Clerk Mains 2022-2024, SBI Clerk Mains 2021-2025,
+the SBI 8th March shifts, and an RBI Assistant computer capsule. The books
+include a large data-interpretation compilation, and the Ace and QUANTS series.
+
+**This is not a separate universe from `../papers/`.** Six PDFs feed both, so
+those questions exist twice in the repo, parsed two different ways:
+
+```
+IBPS-Clerk-Mains-2023-Memory-Based-1-1.pdf
+IBPS-Clerk-Mains-Memory-Based-Paper-2024.pdf
+IBPS-Clerk-Pre-Memory-Based-Paper-Mock-01-26.-Aug.2023.pdf
+SBI-Clerk-Mains-Memory-Based-2023-2024.pdf
+SBI_Clerk_Mains_2024_25_Memory_Based_Paper_10_04_2025_1st_shift.pdf
+SBI_Clerk_Pre_2024_25_Memory_Based_Paper_22_Feb_2025_1st_shift_English.pdf
+```
+
+The difference is what each keeps. `../papers/` keeps a question with its paper —
+which bank, which year, which shift. Here the questions are pooled and deduped
+across every source, so provenance is dropped and what you get instead is a
+usable/held-back judgement on each one.
 
 ## Usable
 
@@ -58,14 +89,7 @@ once; `fraction_flattened` needs the fraction read by eye.
 
 ## Bilingual questions
 
-Some books print each question in English and then again in Hindi, with options
+Some sources print each question in English and then again in Hindi, with options
 like `Rs.21,083 crore / Rs.21,083 करोड़`. The English half is complete on its own,
 so it is kept and the Hindi dropped. Only questions asked *solely* in Hindi are
 held back.
-
-## Not reconciled with papers/
-
-`../papers/` is the better source — real papers rather than coaching reprints —
-and its schema already carries the shared-directions grouping these sets needed.
-What it has no equivalent for is the quality gate here: nothing in that schema
-decides whether a question is answerable at all.
