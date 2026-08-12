@@ -8,7 +8,8 @@ Right now that means **banking** — IBPS, SBI and RRB.
 India/banking/
   papers/    previous-year papers, kept whole and organised by exam
   sets/      questions pooled from many sources, cleaned and typeset
-tools/       the scripts that build and check sets/
+  corpus/    source PDFs for the papers pipeline (local; not in git)
+tools/       scripts — pdf_pipeline/ builds papers/; beautify/verify handle sets/
 ```
 
 Both hold real exam questions. They differ in what they keep.

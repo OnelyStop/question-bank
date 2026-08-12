@@ -1,5 +1,15 @@
 # tools
 
+## pdf_pipeline/
+
+Builds (or rebuilds) `India/banking/papers/` from PDFs.
+
+```bash
+python tools/pdf_pipeline/pdf_question_pipeline.py --pdf path/to/paper.pdf --force --skip-answers
+```
+
+See `pdf_pipeline/README.md`. Needs `pymupdf`.
+
 ## beautify.py
 
 Turns a slice of `India/banking/sets/extracted.json` into a publishable set.

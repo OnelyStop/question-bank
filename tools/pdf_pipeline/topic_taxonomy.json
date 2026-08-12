@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "exam_focus": "SBI_PO_Prelims",
+  "sections": {
+    "Reasoning": [
+      "Puzzle",
+      "Seating_Arrangement",
+      "Floor_Puzzle",
+      "Blood_Relation",
+      "Syllogism",
+      "Inequality",
+      "Coding_Decoding",
+      "Input_Output",
+      "Direction_Sense",
+      "Order_Ranking",
+      "Alphanumeric",
+      "Miscellaneous_Reasoning"
+    ],
+    "Quantitative": [
+      "Data_Interpretation",
+      "Simplification",
+      "Approximation",
+      "Number_Series",
+      "Quadratic_Equation",
+      "Arithmetic",
+      "Data_Sufficiency_Quant",
+      "Miscellaneous_Quant"
+    ],
+    "English": [
+      "Reading_Comprehension",
+      "Cloze_Test",
+      "Error_Spotting",
+      "Sentence_Improvement",
+      "Para_Jumble",
+      "Fill_in_the_Blanks",
+      "Vocabulary",
+      "Miscellaneous_English"
+    ],
+    "GA": [
+      "Current_Affairs",
+      "Banking_Awareness",
+      "Static_GK",
+      "Miscellaneous_GA"
+    ],
+    "Computer": [
+      "Computer_Basics",
+      "Miscellaneous_Computer"
+    ]
+  }
+}
