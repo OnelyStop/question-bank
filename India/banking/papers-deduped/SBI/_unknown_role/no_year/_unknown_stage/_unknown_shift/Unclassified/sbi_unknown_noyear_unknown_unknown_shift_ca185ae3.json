@@ -1,0 +1,2525 @@
+{
+  "paper_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/_unknown_role/no_year/_unknown_stage/_unknown_shift/SBI-1.pdf",
+    "sha256": "ca185ae30b9a87515e1500000d171a69665112b767c0a416a2e5b3ddb083f5f5",
+    "source_url": "https://www.bankersadda.com/wp-content/uploads/multisite/2025/08/05015135/SBI-1.pdf",
+    "source_filename": "SBI-1.pdf"
+  },
+  "bank": "SBI",
+  "role": null,
+  "exam_type": null,
+  "year": null,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 93,
+  "questions": [
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Select the most appropriate option that can substitute the highlighted segment in the given sentence. If there is no need to substitute it, select ‘No replacement required’. If he would have studied harder, he might have passed the exam.",
+      "options": {
+        "a": "If he studied harder",
+        "b": "If he would study harder",
+        "c": "If he had studied harder",
+        "d": "If he has studied harder",
+        "e": "No replacement required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 237,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Select the most appropriate option that can substitute the highlighted segment in the given sentence. If there is no need to substitute it, select ‘No replacement required’. She suggested that he goes to the doctor immediately.",
+      "options": {
+        "a": "that he go to the doctor",
+        "b": "that he gone to the doctor",
+        "c": "that he had go to the doctor",
+        "d": "that he went to doctor",
+        "e": "No replacement required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 227,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "According to the passage, what is a key finding from the 2017 study involving individuals with hearing impairments?",
+      "options": {
+        "a": "Most participants were unfamiliar with any form of sign language",
+        "b": "Regional and grammatically complex signs posed challenges in comprehension",
+        "c": "Participants showed greater preference for music therapy over sign language",
+        "d": "Urban participants understood signs better than rural participants",
+        "e": "Sign language was entirely misunderstood without written translation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 115,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Identify the correct statements based on the passage: (I) Music therapy benefits only those with hearing impairments. (II) Structured music-based activities aid memory and emotional well-being. (III) Communication barriers are among the most significant challenges for people with disabilities.",
+      "options": {
+        "a": "Only II",
+        "b": "I and II",
+        "c": "II and III",
+        "d": "I and III",
+        "e": "All I, II, and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 294,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "What do neurological studies reveal about interactive music-based therapy?",
+      "options": {
+        "a": "It helps build social bonds among caregivers and families only",
+        "b": "It decreases attention span and discourages repetitive learning patterns",
+        "c": "It strengthens brain connections and aids rehabilitation for long-term disabilities",
+        "d": "It causes overstimulation in individuals with sensory sensitivity",
+        "e": "It encourages passive reflection and slower recovery processes"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 74,
+        "page_start": null,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Which of the following is NOT a challenge mentioned in the passage regarding sign language adoption?",
+      "options": {
+        "a": "Overuse of sign language in non-disabled populations",
+        "b": "Inconsistent understanding of regional sign variations",
+        "c": "Lack of trained interpreters in communities",
+        "d": "Limited public awareness of sign communication",
+        "e": "Difficulty understanding complex grammar in signs"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 100,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Choose the most appropriate synonym for the word “bold” as used in the sentence:",
+      "options": {
+        "a": "Cautious",
+        "b": "Timid",
+        "c": "Selective",
+        "d": "Highlight",
+        "e": "Fearless"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 80,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Choose the most appropriate synonym for the word “direct” as used in the passage.",
+      "options": {
+        "a": "Right",
+        "b": "Indirect",
+        "c": "Confused",
+        "d": "Straightforward",
+        "e": "Subtle"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 81,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Choose the most appropriate antonym for the word “joined” as used in the passage.",
+      "options": {
+        "a": "United",
+        "b": "Participated",
+        "c": "Engaged",
+        "d": "Separated",
+        "e": "Combined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 81,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Fill in the blank with the most appropriate option.",
+      "options": {
+        "a": "analyzed the impact of music therapy on speech development in deaf children",
+        "b": "investigated the challenges in understanding sign language",
+        "c": "surveyed how often participants used facial expressions instead of hand signs",
+        "d": "assessed the role of interpreters in urban healthcare communication",
+        "e": "examined vocabulary retention in bilingual hearing- impaired classrooms"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Identify the statements that are true based on the passage: (I) Music therapy is limited to auditory stimulation and is not suitable for individuals with hearing impairments. (II) The 2017 study found that sign comprehension declined when regional differences and complex grammar were involved. (III) Sign language training is being conducted for both disabled and non-disabled individuals to promote inclusion.",
+      "options": {
+        "a": "Only II",
+        "b": "Only III",
+        "c": "I and III",
+        "d": "II and III",
+        "e": "All I, II, and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 411,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following passage and answer the given questions. Over the past two decades, research has emphasized the importance of accessible communication and inclusive programs for people with disabilities. The World Health Organization (WHO) estimates that over 1.3 billion people globally live with some form of disability, with communication barriers ranking among the most significant challenges. For individuals who are deaf or hard of hearing, sign language remains a primary communication tool. Studies from the National Institute on Deafness and Other Communication Disorders show that early exposure to sign language enhances cognitive skills, literacy, and social integration. However, barriers such as a shortage of trained interpreters and limited public awareness persist. In 2017, a targeted study involving 20 individuals with hearing impairments _________________________. Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used, pointing to the need for standardized learning and broader public training. To address these gaps, several disability-focused associations have implemented bold initiatives, including large-scale sign language training for both disabled and non-disabled individuals. This direct approach fosters mutual understanding and reduces social isolation. Recent research also highlights the growing role of music- based interventions in disability support. While commonly associated with auditory experiences, music therapy leverages rhythm, vibration, and movement to stimulate multiple senses. The Journal of Music Therapy reports that tactile vibrations from instruments—particularly percussion—can be felt and enjoyed by those with hearing impairments. For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being. Music therapy extends beyond passive listening. Interactive methods—such as drumming circles, rhythm exercises, and movement-to-music sessions—encourage active engagement. Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities. Many associations have joined international collaborations to share expertise on combining communication tools with creative therapies. Global reports confirm that integrating sign language accessibility with music-based programs leads to measurable improvements in social participation, self-confidence, and mental health. In conclusion, evidence strongly supports combining accessible communication with sensory-inclusive activities like music therapy. By merging research-backed strategies with community engagement, organizations can create inclusive environments that empower individuals with disabilities to participate fully and thrive.",
+      "stem": "Identify the statement(s) that is/are false based on the passage: (I) The passage states that music therapy is mostly a passive listening activity aimed at calming emotional distress. (II) According to the WHO, over one billion people globally are affected by communication disorders. (III) One challenge in sign language adoption is the difficulty in understanding regional and grammatical variations.",
+      "options": {
+        "a": "Only I",
+        "b": "I and II",
+        "c": "Only II",
+        "d": "II and III",
+        "e": "All I, II, and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 402,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (A)?",
+      "options": {
+        "a": "mediocre",
+        "b": "colossal",
+        "c": "trivial",
+        "d": "obscure",
+        "e": "predictable"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (B)?",
+      "options": {
+        "a": "recluse",
+        "b": "veteran",
+        "c": "prodigy",
+        "d": "novice",
+        "e": "understudy"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (C)?",
+      "options": {
+        "a": "discipline",
+        "b": "diligence",
+        "c": "humility",
+        "d": "ego",
+        "e": "gratitude"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (D)?",
+      "options": {
+        "a": "detachment",
+        "b": "resonance",
+        "c": "monotony",
+        "d": "volume",
+        "e": "distortion"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (E)?",
+      "options": {
+        "a": "look down",
+        "b": "tear up",
+        "c": "brush off",
+        "d": "patch up",
+        "e": "give away"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "In the following passage, there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Rayan was once a name that echoed in every music hall and award stage. His debut concert was a (A)________ success— tickets sold out within minutes, and fans cheered until the early hours of the morning. Music critics described his voice as both raw and celestial, a rare combination that made him an instant (B)________ in the industry. In the beginning, Rayan remained grounded. He credited his team, his parents, and his inspiration—old-school jazz legends. But as the fame grew, so did his (C)________. The humility that once defined him began to erode. He started arriving late for rehearsals, dismissing his bandmates’ inputs, and even canceled small-town concerts that had once meant everything to him. Slowly, the charm began to wear off. His performances lost their magic, his voice felt strained, and his new songs lacked the emotional (D)________ that once captivated audiences. Social media, once filled with praises and fan art, now bristled with harsh reviews and sarcasm. Despite several PR efforts to (E)________ his image, the audience had moved on. New faces had emerged—fresh voices that resonated with the evolving mood of the times. Rayan’s latest concert barely filled half the arena; the empty seats echoed louder than the applause. Sitting backstage, staring at old photos, Rayan realized how far he had drifted from the soul of his music. A journey that began with passion had been (F)________ by pride.",
+      "stem": "Which of the following words will fit in the given blank (F)?",
+      "options": {
+        "a": "nurtured",
+        "b": "dismantled",
+        "c": "elevated",
+        "d": "inspired",
+        "e": "adored"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "The sentence is divided into four segments: (A), (B), (C), and (D). Identify the segment that contains a grammatical error. If the sentence is both grammatically and contextually correct, select “No error” as the correct answer.",
+      "stem": "He had scarcely (A)/ stepped out of the (B)/ house than it began (C)/ to rain heavily. (D)",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 90,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "The sentence is divided into four segments: (A), (B), (C), and (D). Identify the segment that contains a grammatical error. If the sentence is both grammatically and contextually correct, select “No error” as the correct answer.",
+      "stem": "By the time we will finish (A)/ our breakfast and (B)/ leave the house, the (C)/ movie will have already started. (D)",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "The sentence is divided into four segments: (A), (B), (C), and (D). Identify the segment that contains a grammatical error. If the sentence is both grammatically and contextually correct, select “No error” as the correct answer.",
+      "stem": "Years of misuse and lack (A)/ of repairs had slowly took (B)/ a toll on the ancient bridge, (C)/ leading to visible cracks and instability. (D)",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "The sentence is divided into four segments: (A), (B), (C), and (D). Identify the segment that contains a grammatical error. If the sentence is both grammatically and contextually correct, select “No error” as the correct answer.",
+      "stem": "Nobody saw (A)/ him since the balcony (B)/ collapsed during (C)/ the heavy storm. (D)",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the question below, few words are given in bold which may not be placed in the correctly. Choose the correct interchange needed between these words to make the sentence grammatically and contextually correct. Developing emotional intelligence helps in (A) building stronger conflicts (B) and managing relationships (C) effectively in professional (D) and personal life.",
+      "options": {
+        "a": "A-B",
+        "b": "C-B and A-D",
+        "c": "C-D",
+        "d": "B-C",
+        "e": "No interchange required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 372,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the question below, few words are given in bold which may not be placed in the correctly. Choose the correct interchange needed between these words to make the sentence grammatically and contextually correct. Effective communication (A) and a clear achieving (B) promote teamwork toward understanding (C) shared goals and ensure progress (D).",
+      "options": {
+        "a": "A-B",
+        "b": "C-B and A-D",
+        "c": "C-D",
+        "d": "B-C",
+        "e": "No interchange required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 345,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the question below, few words are given in bold which may not be placed in the correctly. Choose the correct interchange needed between these words to make the sentence grammatically and contextually correct. Consistent effort (A) and disciplined practice are vital (B) for mastering complex skills (C) and achieving long-term professional success (D).",
+      "options": {
+        "a": "A-B",
+        "b": "C-B and A-D",
+        "c": "C-D",
+        "d": "B-C",
+        "e": "No interchange required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 355,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the question below, few words are given in bold which may not be placed in the correctly. Choose the correct interchange needed between these words to make the sentence grammatically and contextually correct. Staying adaptable (A) and open to learning prepares (B) growth and fosters (C) individuals for unexpected opportunities and challenges (D).",
+      "options": {
+        "a": "B-C",
+        "b": "C-B and A-D",
+        "c": "A-C and B-D",
+        "d": "A-B",
+        "e": "No interchange required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 351,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the question below, few words are given in bold which may not be placed in the correctly. Choose the correct interchange needed between these words to make the sentence grammatically and contextually correct. Careful planning and (A) timely execution in (B) strategies can (C) significantly improve efficiency and productivity of (D) challenging situations.",
+      "options": {
+        "a": "A-B",
+        "b": "C-B and A-D",
+        "c": "A-C and B-D",
+        "d": "B-D",
+        "e": "No interchange required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 360,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A word has been given in the question and used in the sentences below. Identify the statements where the word has been used in a contextually and grammatically correct manner. INCESSANT",
+      "options": {
+        "a": "The incessant rain caused severe flooding in several low-lying areas",
+        "b": "His incessant dedication to study ensured he topped the examination",
+        "c": "The speech was incessant for only five minutes before it ended abruptly"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 3,
+        "stem_char_len": 185,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A word has been given in the question and used in the sentences below. Identify the statements where the word has been used in a contextually and grammatically correct manner. BREAK",
+      "options": {
+        "a": "They decided to take a short break after working continuously for three hours",
+        "b": "The thief managed to break into the shop without triggering the alarm",
+        "c": "The vase will break beauty once placed on the decorated table"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 3,
+        "stem_char_len": 181,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A word has been given in the question and used in the sentences below. Identify the statements where the word has been used in a contextually and grammatically correct manner. BORNE OUT",
+      "options": {
+        "a": "His claims were borne out by the evidence presented during the investigation",
+        "b": "The heavy weight was too much to be borne out by the fragile wooden shelf",
+        "c": "Her success was borne out of years of hard work and consistent effort"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 3,
+        "stem_char_len": 185,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A word has been given in the question and used in the sentences below. Identify the statements where the word has been used in a contextually and grammatically correct manner. ESSENCE",
+      "options": {
+        "a": "The essence of her argument was that fairness should be prioritized over profit",
+        "b": "The perfume was made from natural flower essence, giving it a soft and lasting fragrance",
+        "c": "He essence the report to highlight only the main findings for the board meeting"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 3,
+        "stem_char_len": 183,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The given sentences have been jumbled up. Arrange these sentences in a meaningful order. P. His simple way of life and integrity had earned him a lot of respect. Q. People from distant villages came to him for advice and help. R. Hari was known throughout the district as an honest man. S. They trusted him more than they trusted the officials.",
+      "options": {
+        "a": "RPQS",
+        "b": "RPSQ",
+        "c": "PRSQ",
+        "d": "QRSP",
+        "e": "SRPQ"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 344,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The given sentences have been jumbled up. Arrange these sentences in a meaningful order. P. The noise scared away the tiger. Q. The villagers rushed with sticks and tools. R. A tiger had wandered into the fields at dawn. S. The farmer saw it and raised an alarm.",
+      "options": {
+        "a": "SPQR",
+        "b": "RQSP",
+        "c": "RSPQ",
+        "d": "PQRS",
+        "e": "PRSQ"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 262,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The given sentences have been jumbled up. Arrange these sentences in a meaningful order. P. With hard work, she finally cracked the exam. Q. Priya had always dreamt of becoming a civil servant. R. She faced many challenges along the way. S. But she never gave up on her goal.",
+      "options": {
+        "a": "QPRS",
+        "b": "QRSP",
+        "c": "PRSQ",
+        "d": "QSRP",
+        "e": "RSPQ"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 275,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q040",
+      "q_num": 40,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The given sentences have been jumbled up. Arrange these sentences in a meaningful order. P. But few paid attention to her warnings. Q. Years later, her predictions proved to be true. R. Meera often spoke about the climate crisis. S. She urged people to act before it was too late.",
+      "options": {
+        "a": "RSPQ",
+        "b": "PQRS",
+        "c": "RPSQ",
+        "d": "QSRP",
+        "e": "RSQP"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 280,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B started a business in the ratio of 7 : 9 respectively and after six months, C joined the business with two times of the capital of A. After one year, the total profit of the business is Rs. 92000. Find the sum of profit of B and C (in Rs.)?",
+      "options": {
+        "a": "60000",
+        "b": "64000",
+        "c": "48000",
+        "d": "56000",
+        "e": "46000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 248,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The area of a rectangle is 216 meters square and the ratio of length to breadth of the rectangle is 3 : 2. If diameter of a circle is 1 6th of the breadth of the rectangle, then find the difference between area of the rectangle and circle (in meters square)?",
+      "options": {
+        "a": "54",
+        "b": "72",
+        "c": "62",
+        "d": "48",
+        "e": "60"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 258,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity I’ and another as ‘Quantity II’. You have to determine relationship between two quantities and choose the appropriate option. Compare only numerical values",
+      "stem": "Given a > b and a > 4, while b < 5.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity I’ and another as ‘Quantity II’. You have to determine relationship between two quantities and choose the appropriate option. Compare only numerical values",
+      "stem": "If x2 – 5x + 6 = 0 and 2y2 – 9y + 9 =0, then Quantity I- Product of largest root of both equations Quantity II- cbrt729",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 116,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "There is one term is wrong in each series given below. Find out the wrong term of each series. Q45.14, 16, 12,18, 10, 22, 8",
+      "stem": "204800, 6400, 400, 50, 12.5, 6.5, 6.25",
+      "options": {
+        "a": "204800",
+        "b": "6400",
+        "c": "400",
+        "d": "50",
+        "e": "6.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "There is one term is wrong in each series given below. Find out the wrong term of each series. Q45.14, 16, 12,18, 10, 22, 8",
+      "stem": "19, 23, 32, 48, 73, 109, 154",
+      "options": {
+        "a": "19",
+        "b": "32",
+        "c": "154",
+        "d": "109",
+        "e": "48"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 28,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Vessel A contains mixture of milk and water in the ratio of 3 : 1 respectively. 20 liters of mixture taken out from vessel A and added in vessel B which contains x liters of milk and 30 liters of water. If the ratio of milk to water in the resultant mixture in vessel B is 11 : 7, then find the value of x?",
+      "options": {
+        "a": "55",
+        "b": "35",
+        "c": "41",
+        "d": "62",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 306,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Sneha marks up an article 40% above the cost price and allows a discount of10% on marked price. If Sneha made a profit of Rs. 364, then find the difference between both profits when he sold the same article at 25% profit?",
+      "options": {
+        "a": "16",
+        "b": "14",
+        "c": "18",
+        "d": "20",
+        "e": "24"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 221,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The length of train A is 300 meters and it cross a 500 meters long platform in 30 seconds. If length of train B is two times of the length of train A and speed of train B is 198 km/hr, then find the time taken by train B to cross the platform (in seconds)?",
+      "options": {
+        "a": "30",
+        "b": "25",
+        "c": "15",
+        "d": "20",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 256,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A alone can do a work in 12 days and B alone can do the same work in 30 days. A and B work together for six days, and then C replaced both. If C complete the 50% of the remaining work, then find the percentage of the work done by C?",
+      "options": {
+        "a": "25%",
+        "b": "20%",
+        "c": "10%",
+        "d": "15%",
+        "e": "5%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 232,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There are 140 cakes in a bucket, and 80 more cakes are added to the bucket. If the cakes are distributed between males and females in the ratio of 7:4, what is the difference between the total number of cakes received by males and females?",
+      "options": {
+        "a": "30",
+        "b": "80",
+        "c": "40",
+        "d": "60",
+        "e": "90"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 239,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "Find the difference between average number of goods sold by B & C and number of unsold goods of D.",
+      "options": {
+        "a": "14",
+        "b": "12",
+        "c": "10",
+        "d": "22",
+        "e": "8"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 98,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "In company E, the total number of goods manufactured is 33 1/3% more than that of D. X/2% of the goods are not sold by E . Find the number of goods sold by E is what percentage of unsold goods of C.",
+      "options": {
+        "a": "480%",
+        "b": "600%",
+        "c": "360%",
+        "d": "320%",
+        "e": "400%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 198,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "Find the ratio of unsold goods of B and C together to sold goods of D.",
+      "options": {
+        "a": "3:8",
+        "b": "9:4",
+        "c": "3:7",
+        "d": "3:2",
+        "e": "4:3"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "Out of the total goods sold by A, 53 are defective and rest are non defective, and the ratio of non – defective goods sold by A to non-defective goods unsold by A is 2:1. Find the defective goods sold by A.",
+      "options": {
+        "a": "8",
+        "b": "4",
+        "c": "6",
+        "d": "2",
+        "e": "0"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 206,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q057",
+      "q_num": 57,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "Total goods manufactured by A is what percentage of the good manufactured by C and D together.",
+      "options": {
+        "a": "48%",
+        "b": "40%",
+        "c": "75%",
+        "d": "80%",
+        "e": "70%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "The pie chart shows the total number of (sold and unsol",
+      "stem": "The Goods sold by B are at the rate of 5 Rs each. If he gets the profit of 25%, then find the cost price of all the goods (in Rs).",
+      "options": {
+        "a": "148",
+        "b": "96",
+        "c": "106",
+        "d": "132",
+        "e": "80"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 130,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "Find the average number of girls in A, C & D.",
+      "options": {
+        "a": "18",
+        "b": "14",
+        "c": "16",
+        "d": "12",
+        "e": "10"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "Total girls in A and B together is what percentage of more than that of girls in C.",
+      "options": {
+        "a": "55.55%",
+        "b": "24.55%",
+        "c": "56.55%",
+        "d": "52.55%",
+        "e": "40.55%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "If boys in D increase by 25% and girls decreased by 50%, then find the new number of total students in D.",
+      "options": {
+        "a": "48",
+        "b": "47",
+        "c": "46",
+        "d": "45",
+        "e": "44"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 105,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "Find the ratio of 50% of total students in B and C to total boys in A and D.",
+      "options": {
+        "a": "48:31",
+        "b": "31:24",
+        "c": "31:36",
+        "d": "32:41",
+        "e": "27:44"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "In school E, the ratio of boys and girls be 7: 9 and boys in E is 50% more than girls in A and B together. Find the girls in E.",
+      "options": {
+        "a": "48",
+        "b": "54",
+        "c": "36",
+        "d": "32",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 127,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "The bar shows the total number of students in four schools and it also shows the difference between boys and girls in these schools.",
+      "stem": "25% of the total students in C are absent and out of that 10 girls are absent. Find the absent boys in C is how many more/less than total girls in D.",
+      "options": {
+        "a": "48",
+        "b": "22",
+        "c": "36",
+        "d": "32",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 149,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the information and answer the following questions. The information is about the total males and females visits museum in three different days (Monday, Tuesday and Sunday). Total people visit all the three days is 135. Males visit on Sunday is 40% of females visit on Monday. Females visit on Sunday is 5 less than that on Monday. Males and females visit on Tuesday is 20 and 40 respectively. The ratio of people visit on Sunday and Tuesday is 1: 2.",
+      "stem": "Find the total females visit to the museum in all day?",
+      "options": {
+        "a": "85",
+        "b": "84",
+        "c": "76",
+        "d": "62",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the information and answer the following questions. The information is about the total males and females visits museum in three different days (Monday, Tuesday and Sunday). Total people visit all the three days is 135. Males visit on Sunday is 40% of females visit on Monday. Females visit on Sunday is 5 less than that on Monday. Males and females visit on Tuesday is 20 and 40 respectively. The ratio of people visit on Sunday and Tuesday is 1: 2.",
+      "stem": "Find the sum of number of female visits to museum on Monday and male visit on Tuesday.",
+      "options": {
+        "a": "48",
+        "b": "24",
+        "c": "45",
+        "d": "32",
+        "e": "40"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 86,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the information and answer the following questions. The information is about the total males and females visits museum in three different days (Monday, Tuesday and Sunday). Total people visit all the three days is 135. Males visit on Sunday is 40% of females visit on Monday. Females visit on Sunday is 5 less than that on Monday. Males and females visit on Tuesday is 20 and 40 respectively. The ratio of people visit on Sunday and Tuesday is 1: 2.",
+      "stem": "The cost of entry of female is Rs 5 each and the cost of entry of a male is Rs x each. If the total amount collected by the museum on Tuesday is Rs 220, then find x.",
+      "options": {
+        "a": "5",
+        "b": "4",
+        "c": "3",
+        "d": "2",
+        "e": "1"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 165,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Read the information and answer the following questions. The information is about the total males and females visits museum in three different days (Monday, Tuesday and Sunday). Total people visit all the three days is 135. Males visit on Sunday is 40% of females visit on Monday. Females visit on Sunday is 5 less than that on Monday. Males and females visit on Tuesday is 20 and 40 respectively. The ratio of people visit on Sunday and Tuesday is 1: 2.",
+      "stem": "Find the ratio of total people visited to museum on Sunday to Monday.",
+      "options": {
+        "a": "1:8",
+        "b": "2:1",
+        "c": "3:2",
+        "d": "2:3",
+        "e": "4:1"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The average weight of 12 students in a class is ‘y’ kg. Two new students joined them with total weight of 72 kg and the average weight of the class is decreased by y/16 kg. If the weight of heavier student out of two students who joined is y – 24 kg, then find the difference between weight of two students who joined.",
+      "options": {
+        "a": "10 kg",
+        "b": "4 kg",
+        "c": "12 kg",
+        "d": "8 kg",
+        "e": "6 kg"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 318,
+        "page_start": null,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The monthly income of A is Rs. 50000 and he spends x% of his monthly income on rent, 20% of the remaining monthly income he spends on his children education and half of the remaining monthly income he spends on travelling. If A saves Rs. 18000, then find amount spends by A on travelling is what percent more than that of on rent.",
+      "options": {
+        "a": "130%",
+        "b": "260%",
+        "c": "160%",
+        "d": "240%",
+        "e": "360%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 330,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Study the following information carefully and answer the given questions. Eight persons - A, B, C, D, P, Q, R, and S are sitting around a circle table, but not necessarily in the same order. Four of them is facing inside the center and four of them is facing outside the center. Both the immediate neighbors of A face away from the center. Q faces towards the center and sits to the immediate left of B. A and B face towards the center and sit opposite to each other. Three people sit between Q and R. C and B are the immediate neighbors of D who faces away from the center. C faces away from the center. S is not an immediate neighbor of A.",
+      "stem": "Who among the following person sits immediate right of R?",
+      "options": {
+        "a": "P",
+        "b": "S",
+        "c": "D",
+        "d": "C",
+        "e": "B"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 57,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Study the following information carefully and answer the given questions. Eight persons - A, B, C, D, P, Q, R, and S are sitting around a circle table, but not necessarily in the same order. Four of them is facing inside the center and four of them is facing outside the center. Both the immediate neighbors of A face away from the center. Q faces towards the center and sits to the immediate left of B. A and B face towards the center and sit opposite to each other. Three people sit between Q and R. C and B are the immediate neighbors of D who faces away from the center. C faces away from the center. S is not an immediate neighbor of A.",
+      "stem": "Who of the following person is sitting between B and S when counted from the left of B?",
+      "options": {
+        "a": "P",
+        "b": "Q",
+        "c": "D",
+        "d": "C",
+        "e": "R"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Study the following information carefully and answer the given questions. Eight persons - A, B, C, D, P, Q, R, and S are sitting around a circle table, but not necessarily in the same order. Four of them is facing inside the center and four of them is facing outside the center. Both the immediate neighbors of A face away from the center. Q faces towards the center and sits to the immediate left of B. A and B face towards the center and sit opposite to each other. Three people sit between Q and R. C and B are the immediate neighbors of D who faces away from the center. C faces away from the center. S is not an immediate neighbor of A.",
+      "stem": "What is the position of B with respect to D?",
+      "options": {
+        "a": "Second to the left",
+        "b": "Immediate left",
+        "c": "Third to the left",
+        "d": "Second to the right",
+        "e": "Immediate right"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Study the following information carefully and answer the given questions. Eight persons - A, B, C, D, P, Q, R, and S are sitting around a circle table, but not necessarily in the same order. Four of them is facing inside the center and four of them is facing outside the center. Both the immediate neighbors of A face away from the center. Q faces towards the center and sits to the immediate left of B. A and B face towards the center and sit opposite to each other. Three people sit between Q and R. C and B are the immediate neighbors of D who faces away from the center. C faces away from the center. S is not an immediate neighbor of A.",
+      "stem": "Which of the following statements is correct about P?",
+      "options": {
+        "a": "P sits second to the left of R",
+        "b": "P sits second to the right of R",
+        "c": "Three persons sit between P and C",
+        "d": "Two persons sit between P and A",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Study the following information carefully and answer the given questions. Eight persons - A, B, C, D, P, Q, R, and S are sitting around a circle table, but not necessarily in the same order. Four of them is facing inside the center and four of them is facing outside the center. Both the immediate neighbors of A face away from the center. Q faces towards the center and sits to the immediate left of B. A and B face towards the center and sit opposite to each other. Three people sit between Q and R. C and B are the immediate neighbors of D who faces away from the center. C faces away from the center. S is not an immediate neighbor of A.",
+      "stem": "Who among the following is sitting adjacent to A?",
+      "options": {
+        "a": "P",
+        "b": "R",
+        "c": "D",
+        "d": "C",
+        "e": "Both P and R"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many pairs of letters are there in the word ‘PRESENCE’, each of which have as many letters between them as they have in English alphabetical series (both forward and backward direction)?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "None",
+        "d": "Two",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 190,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following information carefully and answer the questions given below: Ten persons- M, N, O, P, Q, R, S, T, U and V live on different floors of a ten-storey building where ground floor is numbered as 1, above it is 2 and so on till the topmost floor is numbered as 10. Four persons live between N and O who lives immediate below P. N lives on an even numbered floor but not on top floor. Q lives three floors below P. The number of persons live above R is same as the number of persons live below S but they do not live adjacent to each other. T lives adjacent to S. U lives on an odd numbered floor but above V and below M.",
+      "stem": "The number of persons live above V is same as the number of persons live below _____?",
+      "options": {
+        "a": "P",
+        "b": "Q",
+        "c": "N",
+        "d": "S",
+        "e": "M"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following information carefully and answer the questions given below: Ten persons- M, N, O, P, Q, R, S, T, U and V live on different floors of a ten-storey building where ground floor is numbered as 1, above it is 2 and so on till the topmost floor is numbered as 10. Four persons live between N and O who lives immediate below P. N lives on an even numbered floor but not on top floor. Q lives three floors below P. The number of persons live above R is same as the number of persons live below S but they do not live adjacent to each other. T lives adjacent to S. U lives on an odd numbered floor but above V and below M.",
+      "stem": "How many persons live between T and O?",
+      "options": {
+        "a": "Two",
+        "b": "Six",
+        "c": "Four",
+        "d": "One",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following information carefully and answer the questions given below: Ten persons- M, N, O, P, Q, R, S, T, U and V live on different floors of a ten-storey building where ground floor is numbered as 1, above it is 2 and so on till the topmost floor is numbered as 10. Four persons live between N and O who lives immediate below P. N lives on an even numbered floor but not on top floor. Q lives three floors below P. The number of persons live above R is same as the number of persons live below S but they do not live adjacent to each other. T lives adjacent to S. U lives on an odd numbered floor but above V and below M.",
+      "stem": "Who among the following lives just above the floor on which N lives?",
+      "options": {
+        "a": "U",
+        "b": "M",
+        "c": "T",
+        "d": "S",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q081",
+      "q_num": 81,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Read the following information carefully and answer the questions given below: Ten persons- M, N, O, P, Q, R, S, T, U and V live on different floors of a ten-storey building where ground floor is numbered as 1, above it is 2 and so on till the topmost floor is numbered as 10. Four persons live between N and O who lives immediate below P. N lives on an even numbered floor but not on top floor. Q lives three floors below P. The number of persons live above R is same as the number of persons live below S but they do not live adjacent to each other. T lives adjacent to S. U lives on an odd numbered floor but above V and below M.",
+      "stem": "Which among the following is incorrect?",
+      "options": {
+        "a": "P- 10th Floor",
+        "b": "Q – 7th Floor",
+        "c": "N – 4th Floor",
+        "d": "S – 2nd Floor",
+        "e": "M – 6th Floor"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q082",
+      "q_num": 82,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the number '45787259’, if the digits before 8 are added by 2 and the digits after 8 are subtracted by 1, then how many digits appear after the prime digit, in the new number formed?",
+      "options": {
+        "a": "Two",
+        "b": "Six",
+        "c": "Four",
+        "d": "One",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 184,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q083",
+      "q_num": 83,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following information carefully and answer the questions given below: Six persons A, B, C, D, E and F are of different height but not necessarily in the same order. A is 2nd tallest person among them. There are two persons between A and B. C is just taller than D but shorter than E. The height of the 2nd tallest person is 177cm.",
+      "stem": "Who among the following is the fourth tallest person?",
+      "options": {
+        "a": "E",
+        "b": "C",
+        "c": "D",
+        "d": "B",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q084",
+      "q_num": 84,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following information carefully and answer the questions given below: Six persons A, B, C, D, E and F are of different height but not necessarily in the same order. A is 2nd tallest person among them. There are two persons between A and B. C is just taller than D but shorter than E. The height of the 2nd tallest person is 177cm.",
+      "stem": "If the sum of height of A and D is 300cm, and the height of B is 114cm then what is the sum of the height of B and D?",
+      "options": {
+        "a": "192cm",
+        "b": "263cm",
+        "c": "260cm",
+        "d": "237m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q085",
+      "q_num": 85,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the following information carefully and answer the questions given below: Six persons A, B, C, D, E and F are of different height but not necessarily in the same order. A is 2nd tallest person among them. There are two persons between A and B. C is just taller than D but shorter than E. The height of the 2nd tallest person is 177cm.",
+      "stem": "Who among the following is the lightest person?",
+      "options": {
+        "a": "E",
+        "b": "C",
+        "c": "D",
+        "d": "B",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q086",
+      "q_num": 86,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the given information carefully and answer the given questions: Eight persons P, Q, R, S, T, U, V and W - work on different designation in an organization. The designations are Clerk, PO, SMO, Manager, DG, GM, AGM, DGM (designations are given in increasing order of seniority from clerk to PO respectively). They also like different colors – Red, Blue, Green, Yellow, Orange, White, Pink, Silver. The information of persons and colors is not used in the same order as given. At most two persons are junior to T. Two persons are in between T and the one who likes blue color. Q is three posts senior to the one who likes blue color. Four persons are in between Q and the one who likes orange color. R is junior to DG but does not like blue and red color. P is just junior to R but senior to the one who likes green color. Number of persons junior to P is same as the number of persons senior to the one who likes white color. V is not DGM but V is senior to the one who likes white color. The one who likes silver color is three post junior to U. S is just junior to the one who likes yellow color.",
+      "stem": "What is the designation of S?",
+      "options": {
+        "a": "SMO",
+        "b": "GM",
+        "c": "DG",
+        "d": "Manager",
+        "e": "Clerk"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 10,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q087",
+      "q_num": 87,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the given information carefully and answer the given questions: Eight persons P, Q, R, S, T, U, V and W - work on different designation in an organization. The designations are Clerk, PO, SMO, Manager, DG, GM, AGM, DGM (designations are given in increasing order of seniority from clerk to PO respectively). They also like different colors – Red, Blue, Green, Yellow, Orange, White, Pink, Silver. The information of persons and colors is not used in the same order as given. At most two persons are junior to T. Two persons are in between T and the one who likes blue color. Q is three posts senior to the one who likes blue color. Four persons are in between Q and the one who likes orange color. R is junior to DG but does not like blue and red color. P is just junior to R but senior to the one who likes green color. Number of persons junior to P is same as the number of persons senior to the one who likes white color. V is not DGM but V is senior to the one who likes white color. The one who likes silver color is three post junior to U. S is just junior to the one who likes yellow color.",
+      "stem": "Which of the following color is liked by Manager?",
+      "options": {
+        "a": "Blue",
+        "b": "Pink",
+        "c": "Orange",
+        "d": "Silver",
+        "e": "Yellow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": null,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q088",
+      "q_num": 88,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the given information carefully and answer the given questions: Eight persons P, Q, R, S, T, U, V and W - work on different designation in an organization. The designations are Clerk, PO, SMO, Manager, DG, GM, AGM, DGM (designations are given in increasing order of seniority from clerk to PO respectively). They also like different colors – Red, Blue, Green, Yellow, Orange, White, Pink, Silver. The information of persons and colors is not used in the same order as given. At most two persons are junior to T. Two persons are in between T and the one who likes blue color. Q is three posts senior to the one who likes blue color. Four persons are in between Q and the one who likes orange color. R is junior to DG but does not like blue and red color. P is just junior to R but senior to the one who likes green color. Number of persons junior to P is same as the number of persons senior to the one who likes white color. V is not DGM but V is senior to the one who likes white color. The one who likes silver color is three post junior to U. S is just junior to the one who likes yellow color.",
+      "stem": "U is ____ and likes _____ color.",
+      "options": {
+        "a": "DGM, Red",
+        "b": "GM, White",
+        "c": "DG, Blue",
+        "d": "AGM, Yellow",
+        "e": "Manger, Pink"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q089",
+      "q_num": 89,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the given information carefully and answer the given questions: Eight persons P, Q, R, S, T, U, V and W - work on different designation in an organization. The designations are Clerk, PO, SMO, Manager, DG, GM, AGM, DGM (designations are given in increasing order of seniority from clerk to PO respectively). They also like different colors – Red, Blue, Green, Yellow, Orange, White, Pink, Silver. The information of persons and colors is not used in the same order as given. At most two persons are junior to T. Two persons are in between T and the one who likes blue color. Q is three posts senior to the one who likes blue color. Four persons are in between Q and the one who likes orange color. R is junior to DG but does not like blue and red color. P is just junior to R but senior to the one who likes green color. Number of persons junior to P is same as the number of persons senior to the one who likes white color. V is not DGM but V is senior to the one who likes white color. The one who likes silver color is three post junior to U. S is just junior to the one who likes yellow color.",
+      "stem": "Who among the following likes silver color?",
+      "options": {
+        "a": "The one who is immediate senior to W",
+        "b": "P",
+        "c": "The one who is clerk",
+        "d": "The one who is two posts junior to S",
+        "e": "S"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q090",
+      "q_num": 90,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the given information carefully and answer the given questions: Eight persons P, Q, R, S, T, U, V and W - work on different designation in an organization. The designations are Clerk, PO, SMO, Manager, DG, GM, AGM, DGM (designations are given in increasing order of seniority from clerk to PO respectively). They also like different colors – Red, Blue, Green, Yellow, Orange, White, Pink, Silver. The information of persons and colors is not used in the same order as given. At most two persons are junior to T. Two persons are in between T and the one who likes blue color. Q is three posts senior to the one who likes blue color. Four persons are in between Q and the one who likes orange color. R is junior to DG but does not like blue and red color. P is just junior to R but senior to the one who likes green color. Number of persons junior to P is same as the number of persons senior to the one who likes white color. V is not DGM but V is senior to the one who likes white color. The one who likes silver color is three post junior to U. S is just junior to the one who likes yellow color.",
+      "stem": "Which of the following statement is correct?\nI. R is not junior to W\nII. S is junior to GM III. W does not like green color",
+      "options": {
+        "a": "Only II",
+        "b": "Only I",
+        "c": "Only I and II",
+        "d": "Only II and III",
+        "e": "None is correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 123,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q091",
+      "q_num": 91,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Read the given information carefully and answer the given questions: Nine persons purchase different products one after the other. Either four or five persons purchase after K. Three persons purchase between K and L. M purchases just after L. Number of persons purchase before M is same as after N. O purchases between N and K. Q purchases just after P but before O. R purchases before S but after O.",
+      "stem": "How many persons purchase between R and L?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "More than four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q092",
+      "q_num": 92,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Read the given information carefully and answer the given questions: Nine persons purchase different products one after the other. Either four or five persons purchase after K. Three persons purchase between K and L. M purchases just after L. Number of persons purchase before M is same as after N. O purchases between N and K. Q purchases just after P but before O. R purchases before S but after O.",
+      "stem": "Who purchases the product four persons after M?",
+      "options": {
+        "a": "S",
+        "b": "O",
+        "c": "R",
+        "d": "P",
+        "e": "K"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q093",
+      "q_num": 93,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Read the given information carefully and answer the given questions: Nine persons purchase different products one after the other. Either four or five persons purchase after K. Three persons purchase between K and L. M purchases just after L. Number of persons purchase before M is same as after N. O purchases between N and K. Q purchases just after P but before O. R purchases before S but after O.",
+      "stem": "Four of the following five are similar in a certain manner and related to a group, who among the following is dissimilar to others?",
+      "options": {
+        "a": "N-S",
+        "b": "O-R",
+        "c": "Q-K",
+        "d": "M-P",
+        "e": "L-Q"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 131,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q094",
+      "q_num": 94,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Read the given information carefully and answer the given questions: Nine persons purchase different products one after the other. Either four or five persons purchase after K. Three persons purchase between K and L. M purchases just after L. Number of persons purchase before M is same as after N. O purchases between N and K. Q purchases just after P but before O. R purchases before S but after O.",
+      "stem": "Who among the following is second last person to purchase the product?",
+      "options": {
+        "a": "O",
+        "b": "L",
+        "c": "N",
+        "d": "S",
+        "e": "R"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q095",
+      "q_num": 95,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Read the given information carefully and answer the given questions: Nine persons purchase different products one after the other. Either four or five persons purchase after K. Three persons purchase between K and L. M purchases just after L. Number of persons purchase before M is same as after N. O purchases between N and K. Q purchases just after P but before O. R purchases before S but after O.",
+      "stem": "Who among the following purchase the product exactly between S and K?",
+      "options": {
+        "a": "R",
+        "b": "Q",
+        "c": "P",
+        "d": "N",
+        "e": "M"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q096",
+      "q_num": 96,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "C have which of the following element?",
+      "options": {
+        "a": "Aluminum",
+        "b": "Mercury",
+        "c": "Nickel",
+        "d": "Copper",
+        "e": "Silver"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 38,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q097",
+      "q_num": 97,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "Who among the following have silver?",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "D",
+        "d": "E",
+        "e": "C"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 11,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q098",
+      "q_num": 98,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "What is the position of G with respect to A?",
+      "options": {
+        "a": "Second to the right",
+        "b": "Third to the left",
+        "c": "Immediate right",
+        "d": "Immediate left",
+        "e": "Third to the right"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": null,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q099",
+      "q_num": 99,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "How many persons sit to the left of the one who have copper?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 60,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3::q100",
+      "q_num": 100,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "Choose the correct combination. (a) A - Nickel (b) E - Silver (c) D - Copper (d) C - Mercury (e) G - Gold Solutions S1. Ans.(c) Sol. This is a case of a third conditional sentence, which describes a hypothetical past situation. Correct form: If + past perfect, would/might have + past participle • “If he had studied harder, he might have passed the exam” • The original sentence incorrectly uses “would have” in the if-clause, which is grammatically wrong. Correct answer: (c) S2. Ans.(a) Sol. This sentence requires the subjunctive mood, often used after verbs like suggest, recommend, demand, etc. Correct subjunctive structure: Subject + suggest that + subject + base verb → She suggested that he go, not goes Correct answer: (a) S3. Ans.(b) Sol. The passage states: “...comprehension dropped when regional variations or complex grammatical structures were used...” Only (b) reflects this accurately. Other options are either false or not mentioned. The passage states that in the 2017 study, \"Findings revealed that while basic signs were widely understood comprehension dropped when regional variations or complex grammatical structures were used.\" This directly matches option (b). Option (a) is wrong because the passage says basic signs were widely understood, meaning most participants were familiar with them. Option (c) is incorrect — the study’s focus was on sign language comprehension, not preference for music therapy. Option (d) is not mentioned anywhere in the passage. Option (e) is wrong because comprehension was not entirely absent; basic signs were understood. S4. Ans.(c) Sol. Statement I is incorrect. The passage states that music therapy helps individuals with mobility or cognitive challenges as well: • \"For individuals with mobility or cognitive challenges, structured music activities improve coordination, memory, and emotional well-being.\" • Therefore, music therapy is not limited to people with hearing impairments. • Statement II is correct. As seen in the sentence above, music-based activities do support memory and emotional well-being. • Statement III is correct. The passage says: • \"Communication barriers ranking among the most significant challenges,\" confirming that this is a major concern for people with disabilities. Thus, only statements II and III are correct. S5. Ans.(c) Sol. The passage states: “Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation...” The relevant sentence in the passage is: \"Neurological studies indicate these activities promote neuroplasticity, strengthening brain connections and aiding rehabilitation for those adapting to long-term disabilities.\" • Option (c) accurately reflects this idea using paraphrased but contextually correct language. • Option (a) is incorrect because the passage does not limit the benefit to caregivers and families. • Option (b) is directly contradicted by the evidence in the passage. • Option (d) introduces an idea (overstimulation) not mentioned. • Option (e) misrepresents the therapy as passive, whereas the passage emphasizes active engagement. Correct answer: (c) S6. Ans.(a) Sol. Analysis: (a) Overuse of sign language in non-disabled populations – This is not mentioned at all in the passage. The text promotes sign language training among both disabled and non-disabled people as a positive and inclusive measure. So this is not a challenge and is therefore the correct answer. (b) Inconsistent understanding of regional sign variations – The passage discusses how comprehension drops when regional variations are introduced. This is mentioned. (c) Lack of trained interpreters in communities – The passage states that a shortage of trained interpreters remains a barrier. This is mentioned. (d) Limited public awareness of sign communication – The passage highlights limited public awareness as a problem. This is mentioned. (e) Difficulty understanding complex grammar in signs – Also mentioned in the 2017 study findings, where comprehension declined due to complex grammatical structures. Correct answer: (a) S7. Ans.(e) Sol. In the passage, “bold” refers to brave, confident, or courageous actions taken by organizations. Let’s examine each option: • (a) Cautious – Opposite of bold; means careful or hesitant. • Hindi meaning:",
+      "options": {
+        "a": "United – Means to come together; synonym, not antonym. • Hindi meaning:",
+        "b": "Participated – Also similar to “joined”; means to take part. • Hindi meaning:",
+        "c": "Engaged – Involved in something; also a synonym. • Hindi meaning:",
+        "d": "Separated – Correct answer. It means to stay apart or not be part of a group or activity. • Hindi meaning:",
+        "e": "Combined – Again, a synonym; means to come together. • Hindi meaning:"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 5595,
+        "page_start": 12,
+        "page_end": 14
+      }
+    }
+  ]
+}

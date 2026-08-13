@@ -1,0 +1,1069 @@
+{
+  "paper_id": "ibps_rrb_2019_mains_unknown_shift_32db027d",
+  "subject": "Reasoning",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2019/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Paper-2019.pdf",
+    "sha256": "32db027d0b9f6aef1110093c79cb488fa39471fb0be7eb5c36d926efdd556997",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02133549/IBPS-RRB-PO-Mains-Paper-2019.pdf",
+    "source_filename": "IBPS-RRB-PO-Mains-Paper-2019.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2019,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 39,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q008",
+      "q_num": 8,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: In each of the questions below are given some statements followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: Only a few Pizza are Burger. Only a few Burger are Maggie. All Maggie are Momo’s. No Pasta is Maggie. Conclusions:\nI. Some Maggie are not Burger.\nII. Some Pizza are not Pasta. III. Only a few Pizza are Maggie.",
+      "options": {
+        "a": "If only conclusion I and II follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion II or III and I follows",
+        "d": "None follows",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 221,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q009",
+      "q_num": 9,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: In each of the questions below are given some statements followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: Only a few Bank are Account. Few Current are Saving. All Account are Saving. Some FD are not Account. Conclusions:\nI. Some Account can be FD.\nII. Some Saving are not FD. III. All Bank being Account is a possibility.",
+      "options": {
+        "a": "If only conclusion I and II follows",
+        "b": "If only conclusion II and III follows",
+        "c": "If only conclusion I follows",
+        "d": "All I, II and III follow",
+        "e": "None Follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 227,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q010",
+      "q_num": 10,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: In each of the questions below are given some statements followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: Only Vertical is Circle. Some Vertical are not Square. All Square are Triangle. Conclusions:\nI. Some Circle can be Triangle.\nII. All Square being Vertical is a possibility. III. Only a few Vertical is Triangle.",
+      "options": {
+        "a": "If only conclusion I and II follows",
+        "b": "Only II",
+        "c": "If only conclusion I follows",
+        "d": "All I, II and III follow",
+        "e": "None Follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 222,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q011",
+      "q_num": 11,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons are sitting in a straight line equidistant from each other. Some of them are facing north and some of them are facing south. Not more than two persons having same direction are sitting adjacent to each other. Three persons are sitting to the left of U. Only one person sits between Z and W and both of them faces in the same direction. Z does not sit at the extreme end of the line. Y who is not an immediate neighbor of S sits second to the right of X who sits at one of the extreme ends of the line. V sits fifth to the left of T who faces in the south direction. S sits immediate right of U and both faces in opposite directions to each other. Persons sitting at the extreme ends are facing in the same direction. Y faces north direction.",
+      "stem": "How many persons are facing in the south direction?",
+      "options": {
+        "a": "Four",
+        "b": "Five",
+        "c": "Three",
+        "d": "Two",
+        "e": "Six"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q012",
+      "q_num": 12,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons are sitting in a straight line equidistant from each other. Some of them are facing north and some of them are facing south. Not more than two persons having same direction are sitting adjacent to each other. Three persons are sitting to the left of U. Only one person sits between Z and W and both of them faces in the same direction. Z does not sit at the extreme end of the line. Y who is not an immediate neighbor of S sits second to the right of X who sits at one of the extreme ends of the line. V sits fifth to the left of T who faces in the south direction. S sits immediate right of U and both faces in opposite directions to each other. Persons sitting at the extreme ends are facing in the same direction. Y faces north direction.",
+      "stem": "Who sits second to the left of S?",
+      "options": {
+        "a": "T",
+        "b": "V",
+        "c": "X",
+        "d": "Z",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q014",
+      "q_num": 14,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons are sitting in a straight line equidistant from each other. Some of them are facing north and some of them are facing south. Not more than two persons having same direction are sitting adjacent to each other. Three persons are sitting to the left of U. Only one person sits between Z and W and both of them faces in the same direction. Z does not sit at the extreme end of the line. Y who is not an immediate neighbor of S sits second to the right of X who sits at one of the extreme ends of the line. V sits fifth to the left of T who faces in the south direction. S sits immediate right of U and both faces in opposite directions to each other. Persons sitting at the extreme ends are facing in the same direction. Y faces north direction.",
+      "stem": "How many persons sit between Z and Y?",
+      "options": {
+        "a": "One",
+        "b": "None",
+        "c": "Three",
+        "d": "Two",
+        "e": "More than three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q015",
+      "q_num": 15,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons are sitting in a straight line equidistant from each other. Some of them are facing north and some of them are facing south. Not more than two persons having same direction are sitting adjacent to each other. Three persons are sitting to the left of U. Only one person sits between Z and W and both of them faces in the same direction. Z does not sit at the extreme end of the line. Y who is not an immediate neighbor of S sits second to the right of X who sits at one of the extreme ends of the line. V sits fifth to the left of T who faces in the south direction. S sits immediate right of U and both faces in opposite directions to each other. Persons sitting at the extreme ends are facing in the same direction. Y faces north direction.",
+      "stem": "Which of the following is true?",
+      "options": {
+        "a": "No one sits to the left of W",
+        "b": "and",
+        "c": "are true",
+        "d": "Both",
+        "e": "All are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 31,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q016",
+      "q_num": 16,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer.",
+      "stem": "Five members i.e. P, Q, R, S and T are in a family, then who is the husband of R? Statement I: R is sister in law of S who is the child of P. Statement II: R is the daughter in law of Q who is the mother of S.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question",
+        "d": "if the data given in both statements I and II together are not sufficient to answer the question",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q017",
+      "q_num": 17,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer.",
+      "stem": "What is the code for “cow”? Statement I: “big cow rat” is coded as “mn vg dc” and “rat dew grass” is coded as “vg bh sx” Statement II: “big same use” is coded as “mn we qs” and “rat cow use” is coded as “we vg dc”",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question",
+        "d": "if the data given in both statements I and II together are not sufficient to answer the question",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 213,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q018",
+      "q_num": 18,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer.",
+      "stem": "Six persons are of different heights. Who is 2nd shortest person? Statement I: Anshul is taller than Ankita and shorter than Anamika. Only one person is taller than Akash. Statement II: Ankita is shorter than Akash and taller than Aditya. Ankit is not shortest person.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question",
+        "d": "if the data given in both statements I and II together are not sufficient to answer the question",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 268,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q019",
+      "q_num": 19,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer.",
+      "stem": "Five persons i.e. F, P, R, S and T are living in different floors of five floored building. Who is living in topmost floor? Statement I: There are two floor gaps between P and F who is immediate above R. S is in bottommost floor. Statement II: Only one person is above R who is just above S. There are three floors gap between P and F who is not in topmost floor.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question",
+        "d": "if the data given in both statements I and II together are not sufficient to answer the question",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 363,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q020",
+      "q_num": 20,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer.",
+      "stem": "Five persons i.e. A, B, C, D and G are sitting in a row facing North. Who sits in the middle of the row? Statement I: D sits 3rd to the right of G who is at an extreme end. Two persons sit between A and B who is an immediate neighbor of D. Statement II: B sits immediate right of D who sits 3rd to the left of A. C sits immediate right of B.",
+      "options": {
+        "a": "if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question",
+        "b": "if the data in statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the question",
+        "c": "if the data either in statement I alone or in statement II alone are sufficient to answer the question",
+        "d": "if the data given in both statements I and II together are not sufficient to answer the question",
+        "e": "if the data in both statements I and II together are necessary to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 341,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q021",
+      "q_num": 21,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: A≤B>D=C, C>E≤F Conclusion:\nI. A>C\nII. E<B",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q022",
+      "q_num": 22,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: P>Q>R=S, S≥T≤U≥V Conclusions:\nI. Q>T\nII. S≤V",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q023",
+      "q_num": 23,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer.",
+      "stem": "Statements: B>C>D<E=F, H≤E>G=N Conclusions:\nI. F<N\nII. N>D",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q024",
+      "q_num": 24,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the information carefully and answer the questions given below. A certain number of persons are sitting in a row facing north. M sits fourth to the left of O. Only two persons sit between M and Q. R sits second to the left of Q. S sits fourth to the right of O. Not more than five persons sit between P and Q. P sits to the right of S. Only three persons sit to the left of R.",
+      "stem": "Which of the following statement is true?",
+      "options": {
+        "a": "M sits at an extreme end",
+        "b": "Only one person sits between M and R",
+        "c": "All are true",
+        "d": "Ten persons sits between M and S",
+        "e": "None is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q025",
+      "q_num": 25,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the information carefully and answer the questions given below. A certain number of persons are sitting in a row facing north. M sits fourth to the left of O. Only two persons sit between M and Q. R sits second to the left of Q. S sits fourth to the right of O. Not more than five persons sit between P and Q. P sits to the right of S. Only three persons sit to the left of R.",
+      "stem": "How many persons are sitting between O and Q?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "None",
+        "d": "Three",
+        "e": "More than three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q026",
+      "q_num": 26,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the information carefully and answer the questions given below. A certain number of persons are sitting in a row facing north. M sits fourth to the left of O. Only two persons sit between M and Q. R sits second to the left of Q. S sits fourth to the right of O. Not more than five persons sit between P and Q. P sits to the right of S. Only three persons sit to the left of R.",
+      "stem": "If P sits at an extreme end of the row, then how many persons are sitting in the row?",
+      "options": {
+        "a": "Ten",
+        "b": "Twelve",
+        "c": "Thirteen",
+        "d": "Eleven",
+        "e": "More than thirteen"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q027",
+      "q_num": 27,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the information carefully and answer the questions given below. A certain number of persons are sitting in a row facing north. M sits fourth to the left of O. Only two persons sit between M and Q. R sits second to the left of Q. S sits fourth to the right of O. Not more than five persons sit between P and Q. P sits to the right of S. Only three persons sit to the left of R.",
+      "stem": "What is the position of S in the row?",
+      "options": {
+        "a": "Immediate right of P",
+        "b": "Sixth to the right of Q",
+        "c": "Eighth to the left of M",
+        "d": "None of these",
+        "e": "Seventh to the right of R"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q028",
+      "q_num": 28,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the information carefully and answer the questions given below. A certain number of persons are sitting in a row facing north. M sits fourth to the left of O. Only two persons sit between M and Q. R sits second to the left of Q. S sits fourth to the right of O. Not more than five persons sit between P and Q. P sits to the right of S. Only three persons sit to the left of R.",
+      "stem": "If L sits exactly between S and O, then how many persons sits to the left of L?",
+      "options": {
+        "a": "Ten",
+        "b": "Nine",
+        "c": "Eight",
+        "d": "Cannot be determined",
+        "e": "More than ten"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q029",
+      "q_num": 29,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "India and the UAE have discussed measures to deepen cooperation in a range of areas including defence, security, terrorism and trade as the two countries held the second round of their strategic dialogue in Abu Dhabi. Which among the following is not-in-line with given statement? (I) The Indian delegation at the talks held yesterday was led by Minister of State for External Affairs M J Akbar while the UAE side was headed by its Minister of State for Foreign Affairs Anwar Gargash. (II) India ships wheat to Afghanistan via Chabahar. India on Sunday began shipment of wheat to Afghanistan through the Iranian port of Chabahar. (III) The UAE has raised its investment profile in India, and cooperation has increased on security issues, the statement said.",
+      "options": {
+        "a": "Only I",
+        "b": "Both II and III",
+        "c": "Both I and III",
+        "d": "Only II",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 757,
+        "page_start": 4,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q030",
+      "q_num": 30,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Modi government to reframe social welfare schemes for OBCs. In the run-up to the high stakes elections in Gujarat and Himachal Pradesh, the Narendra Modi- led government has moved to reframe social welfare schemes for other backward classes (OBCs). Which among the following can be hypothesized from the given statement? (I) The targeted schemes promise quality residential accommodation and scholarships to OBC students. (II) This reframe of social welfare schemes for OBCs by the Modi government is a political move to target high stakes elections in Gujarat and Himachal Pradesh. (III) The ministry has laid down guidelines for construction of hostels, which would be energy efficient, economical yet good quality.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Both (III) and (I)",
+        "c": "Only (II)",
+        "d": "Both (II) and (III)",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 717,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q031",
+      "q_num": 31,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below. A@B (6)- A is 10m in north of B A$B (10)- A is 14m in south of B A%B (12)- A is 10m in east of B A&B (15)- A is 13m in west of B P%Q(16), R&S(12), T&U(20), U$S(15), P@T(10), W$R(17)",
+      "stem": "What is the shortest distance between point P and point U?",
+      "options": {
+        "a": "2√130m",
+        "b": "520m",
+        "c": "130m",
+        "d": "260m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q032",
+      "q_num": 32,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below. A@B (6)- A is 10m in north of B A$B (10)- A is 14m in south of B A%B (12)- A is 10m in east of B A&B (15)- A is 13m in west of B P%Q(16), R&S(12), T&U(20), U$S(15), P@T(10), W$R(17)",
+      "stem": "If M is the mid point of the line segment TU, then determine the distance between the point T and point M?",
+      "options": {
+        "a": "9m",
+        "b": "10m",
+        "c": "8m",
+        "d": "None of these",
+        "e": "7m"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 106,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q033",
+      "q_num": 33,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below. A@B (6)- A is 10m in north of B A$B (10)- A is 14m in south of B A%B (12)- A is 10m in east of B A&B (15)- A is 13m in west of B P%Q(16), R&S(12), T&U(20), U$S(15), P@T(10), W$R(17)",
+      "stem": "What is the shortest distance between the point U and point W?",
+      "options": {
+        "a": "85m",
+        "b": "120m",
+        "c": "None of these",
+        "d": "√104m",
+        "e": "√130m"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 62,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q034",
+      "q_num": 34,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes AC, BD, EG, FH, IK, JL, MO and NP have different brands toffee i.e. Poppins, Melody, Kismi bar, Gems, Hajmola, Boomer, Center fresh and Coffee bite places one above another. All are not necessarily in same order. Box FH is placed above the box which has Center fresh. There are three boxes are between the boxes have Melody and Hajmola. There are only three boxes are above the box MO. There is only one box is between MO and FH. Box AC is immediate below the box which has Melody. Box BD places just above box which has Melody and just below the box has Gems. Box FH neither has Gems nor has Hajmola. Box EG places just above the box which has Poppins and just below the box which has Coffee bite. There is one box between box IK which has Boomer and box JL. Box MO doesn’t have Center fresh.",
+      "stem": "Which among the following box places just above the box which has Kismi bar?",
+      "options": {
+        "a": "AC",
+        "b": "BD",
+        "c": "EG",
+        "d": "FH",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q035",
+      "q_num": 35,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes AC, BD, EG, FH, IK, JL, MO and NP have different brands toffee i.e. Poppins, Melody, Kismi bar, Gems, Hajmola, Boomer, Center fresh and Coffee bite places one above another. All are not necessarily in same order. Box FH is placed above the box which has Center fresh. There are three boxes are between the boxes have Melody and Hajmola. There are only three boxes are above the box MO. There is only one box is between MO and FH. Box AC is immediate below the box which has Melody. Box BD places just above box which has Melody and just below the box has Gems. Box FH neither has Gems nor has Hajmola. Box EG places just above the box which has Poppins and just below the box which has Coffee bite. There is one box between box IK which has Boomer and box JL. Box MO doesn’t have Center fresh.",
+      "stem": "Which among the following toffee is in box NP?",
+      "options": {
+        "a": "Poppins",
+        "b": "Melody",
+        "c": "Kismi bar",
+        "d": "Gems",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q036",
+      "q_num": 36,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes AC, BD, EG, FH, IK, JL, MO and NP have different brands toffee i.e. Poppins, Melody, Kismi bar, Gems, Hajmola, Boomer, Center fresh and Coffee bite places one above another. All are not necessarily in same order. Box FH is placed above the box which has Center fresh. There are three boxes are between the boxes have Melody and Hajmola. There are only three boxes are above the box MO. There is only one box is between MO and FH. Box AC is immediate below the box which has Melody. Box BD places just above box which has Melody and just below the box has Gems. Box FH neither has Gems nor has Hajmola. Box EG places just above the box which has Poppins and just below the box which has Coffee bite. There is one box between box IK which has Boomer and box JL. Box MO doesn’t have Center fresh.",
+      "stem": "How many boxes are placed between box AC and the box which have Hajmola?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "More than three",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q037",
+      "q_num": 37,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes AC, BD, EG, FH, IK, JL, MO and NP have different brands toffee i.e. Poppins, Melody, Kismi bar, Gems, Hajmola, Boomer, Center fresh and Coffee bite places one above another. All are not necessarily in same order. Box FH is placed above the box which has Center fresh. There are three boxes are between the boxes have Melody and Hajmola. There are only three boxes are above the box MO. There is only one box is between MO and FH. Box AC is immediate below the box which has Melody. Box BD places just above box which has Melody and just below the box has Gems. Box FH neither has Gems nor has Hajmola. Box EG places just above the box which has Poppins and just below the box which has Coffee bite. There is one box between box IK which has Boomer and box JL. Box MO doesn’t have Center fresh.",
+      "stem": "Which among the following is not false?",
+      "options": {
+        "a": "AC-Hajmola",
+        "b": "BD-Gems",
+        "c": "EG-Melody",
+        "d": "FH- Coffee bite",
+        "e": "None is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q038",
+      "q_num": 38,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes AC, BD, EG, FH, IK, JL, MO and NP have different brands toffee i.e. Poppins, Melody, Kismi bar, Gems, Hajmola, Boomer, Center fresh and Coffee bite places one above another. All are not necessarily in same order. Box FH is placed above the box which has Center fresh. There are three boxes are between the boxes have Melody and Hajmola. There are only three boxes are above the box MO. There is only one box is between MO and FH. Box AC is immediate below the box which has Melody. Box BD places just above box which has Melody and just below the box has Gems. Box FH neither has Gems nor has Hajmola. Box EG places just above the box which has Poppins and just below the box which has Coffee bite. There is one box between box IK which has Boomer and box JL. Box MO doesn’t have Center fresh.",
+      "stem": "Four of the following five are alike in certain way based from a group, find the one which does not belong to that group?",
+      "options": {
+        "a": "IK- Kismi bar",
+        "b": "EG- Coffee bite",
+        "c": "NP- Center fresh",
+        "d": "BD- Gems",
+        "e": "MO- Melody"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 121,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q039",
+      "q_num": 39,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language ‘exams good for growth’ is coded as ‘jam, dam, mam, ram’ ‘bank exams are difficult’ is coded as ‘pam, jam, vam, bam’ ‘bank growth not easy’ is coded as ‘pam, ram, lam, tam’ ‘easy for difficult preferred’ is coded as ’tam, mam, bam, sam’",
+      "stem": "What is the code for the word ‘exams’ in the given code language?",
+      "options": {
+        "a": "jam",
+        "b": "tam",
+        "c": "lam",
+        "d": "ram",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q040",
+      "q_num": 40,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language ‘exams good for growth’ is coded as ‘jam, dam, mam, ram’ ‘bank exams are difficult’ is coded as ‘pam, jam, vam, bam’ ‘bank growth not easy’ is coded as ‘pam, ram, lam, tam’ ‘easy for difficult preferred’ is coded as ’tam, mam, bam, sam’",
+      "stem": "‘ram’ is the code for which of the following words?",
+      "options": {
+        "a": "bank",
+        "b": "exams",
+        "c": "easy",
+        "d": "difficult",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q041",
+      "q_num": 41,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Following Line Graph given provides the details of total number of rides taken by 3 different drivers in 5 different months and the Table DI given below provides the details of percentage of total female rides taken by all the drivers in 5 different months and answer the questions accordingly. Month/ Driver % of female ride taken by Driver A % of female ride taken by Driver B % of female ride taken by Driver C JAN 40% 25% 30% FEB 30% 40% 44% MAR 55% 50% 40% APR 40% 45% 30% MAY 60% 48% 60%",
+      "stem": "Total number of male rides taken by Driver B in January and march together is approximately what percentage more than the total female rides taken by driver A in April and may together?",
+      "options": {
+        "a": "40%",
+        "b": "36%",
+        "c": "45%",
+        "d": "30%",
+        "e": "50%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 185,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q042",
+      "q_num": 42,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Following Line Graph given provides the details of total number of rides taken by 3 different drivers in 5 different months and the Table DI given below provides the details of percentage of total female rides taken by all the drivers in 5 different months and answer the questions accordingly. Month/ Driver % of female ride taken by Driver A % of female ride taken by Driver B % of female ride taken by Driver C JAN 40% 25% 30% FEB 30% 40% 44% MAR 55% 50% 40% APR 40% 45% 30% MAY 60% 48% 60%",
+      "stem": "Find the total number of male rides taken by all the three drivers in March together?",
+      "options": {
+        "a": "652",
+        "b": "724",
+        "c": "696",
+        "d": "669",
+        "e": "628"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q043",
+      "q_num": 43,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Following Line Graph given provides the details of total number of rides taken by 3 different drivers in 5 different months and the Table DI given below provides the details of percentage of total female rides taken by all the drivers in 5 different months and answer the questions accordingly. Month/ Driver % of female ride taken by Driver A % of female ride taken by Driver B % of female ride taken by Driver C JAN 40% 25% 30% FEB 30% 40% 44% MAR 55% 50% 40% APR 40% 45% 30% MAY 60% 48% 60%",
+      "stem": "Find the difference between total no. of female ride taken by all the 3 drivers in January to the total no. of male rides taken by all the 3 drivers in march?",
+      "options": {
+        "a": "327",
+        "b": "294",
+        "c": "268",
+        "d": "214",
+        "e": "237"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 158,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q044",
+      "q_num": 44,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Following Line Graph given provides the details of total number of rides taken by 3 different drivers in 5 different months and the Table DI given below provides the details of percentage of total female rides taken by all the drivers in 5 different months and answer the questions accordingly. Month/ Driver % of female ride taken by Driver A % of female ride taken by Driver B % of female ride taken by Driver C JAN 40% 25% 30% FEB 30% 40% 44% MAR 55% 50% 40% APR 40% 45% 30% MAY 60% 48% 60%",
+      "stem": "Find the respective ratio of total no. of female rides taken by driver A in April and May together to the total no. of male ride taken by Driver B in January and march together?",
+      "options": {
+        "a": "14:19",
+        "b": "17:23",
+        "c": "18:23",
+        "d": "19:14",
+        "e": "23:17"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 177,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q045",
+      "q_num": 45,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Following Line Graph given provides the details of total number of rides taken by 3 different drivers in 5 different months and the Table DI given below provides the details of percentage of total female rides taken by all the drivers in 5 different months and answer the questions accordingly. Month/ Driver % of female ride taken by Driver A % of female ride taken by Driver B % of female ride taken by Driver C JAN 40% 25% 30% FEB 30% 40% 44% MAR 55% 50% 40% APR 40% 45% 30% MAY 60% 48% 60%",
+      "stem": "Find the total number of female rides taken by Driver B in all the five months together?",
+      "options": {
+        "a": "848",
+        "b": "956",
+        "c": "984",
+        "d": "918",
+        "e": "884"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 88,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q046",
+      "q_num": 46,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A basket contains 8 Blue, 5 Red and 6 Green balls. 3 Balls are drawn from the basket, then find the probability of getting all 3 balls drawn are of different colors?",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 165,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2019_mains_unknown_shift_32db027d::q047",
+      "q_num": 47,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Suresh was married 14 yrs ago and his present age is 2 times of the age at the time of his marriage. If his son’s age is rd of his present age, then find the age of his son.",
+      "options": {
+        "a": "16 yrs",
+        "b": "18 yrs",
+        "c": "14 yrs",
+        "d": "12 yrs",
+        "e": "20 yrs JAN FEB MAR APR MAY A B C QUANTITATIVE APTITUDE"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 173,
+        "page_start": 6,
+        "page_end": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "paper_id": "sbi_po_2017_mains_unknown_shift_213a5720",
+  "subject": "Quantitative",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2017/Mains/_unknown_shift/sbi-po-mains-2017.pdf",
+    "sha256": "213a57202ba4b47e1083e7dfac1c443b60fa3dd1ec53b6c44036da6157dd3401",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/sbi-po-mains-2017.pdf",
+    "source_filename": "sbi-po-mains-2017.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [
+    "empty_stem_q70"
+  ],
+  "question_count": 32,
+  "questions": [
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q050",
+      "q_num": 50,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the time taken by boat to travel upstream on Thursday is equal to the time taken by it to travel downstream on Monday and the speed of boat in still water on Monday is 16 kmph then find the speed of boat in still water on Thursday?",
+      "options": {
+        "a": "16.2 kmph",
+        "b": "17.2 kmph",
+        "c": "15.4 kmph",
+        "d": "12.5 kmph",
+        "e": "18.2kmph"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 234,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q051",
+      "q_num": 51,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the time taken by boat to travel upstream on Monday is 45 hrs. more than the time taken by it to travel downstream on the same day, then find the speed of boat in still water on Monday ?",
+      "options": {
+        "a": "22 kmph",
+        "b": "18 kmph",
+        "c": "20 kmph",
+        "d": "19 kmph",
+        "e": "24 kmph than that of bag A. If two balls are picked at random from bag B then the probability of getting both green color ball is"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 189,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q052",
+      "q_num": 52,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Study the data given below and answer the following questions. The pie charts shows the distance covered by a boat moving upstream and downstream in seven different days of a week. And the table shows the speed of stream in km/hr. in different days of a week. QUANTITATIVE APTITUDE + Total distance covered upstream = 1800 km Total distance covered downstream = 1500 km",
+      "stem": "If the speed of boat in still water on Tuesday was 15 km/hr and the speed of boat in still water on Wednesday was 662% more than that of Tuesday and time taken to travel upstream on Wednesday is 9 times the time taken by it to travel downstream on Tuesday, then find the speed of stream (in kmph) on Wednesday?",
+      "options": {
+        "a": "1.5",
+        "b": "2.5",
+        "c": "2",
+        "d": "1",
+        "e": "0.5km/hr"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 310,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q053",
+      "q_num": 53,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Study the data given below and answer the following questions. The pie charts shows the distance covered by a boat moving upstream and downstream in seven different days of a week. And the table shows the speed of stream in km/hr. in different days of a week. QUANTITATIVE APTITUDE + Total distance covered upstream = 1800 km Total distance covered downstream = 1500 km",
+      "stem": "The speed of boat in still water on Saturday was 21 km/hr. and that on Sunday was 284% less than that on Saturday, if the time taken by boat to travel upstream on Saturday is 1 3 times the time taken to travel downstream on Sunday, then find the time taken by the boat to cover a distance of 57.6 km upstream when the speed of stream is same as that of Saturday.",
+      "options": {
+        "a": "3 hrs",
+        "b": "2 hrs",
+        "c": "4 hrs",
+        "d": "2.5 hrs",
+        "e": "3.5 hrs"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 362,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q054",
+      "q_num": 54,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Study the data given below and answer the following questions. The pie charts shows the distance covered by a boat moving upstream and downstream in seven different days of a week. And the table shows the speed of stream in km/hr. in different days of a week. QUANTITATIVE APTITUDE + Total distance covered upstream = 1800 km Total distance covered downstream = 1500 km",
+      "stem": "If the time taken by boat to travel upstream on Sunday is 2 hours more than the time taken by it to travel downstream on Thursday and the speed of boat in still water on Thursday is 17 kmph, then find the upstream speed of boat on Sunday ?",
+      "options": {
+        "a": "27 kmph",
+        "b": "22 kmph",
+        "c": "20 kmph",
+        "d": "25 kmph",
+        "e": "23 kmph"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 239,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q055",
+      "q_num": 55,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the profit percentage of seller A after selling item II is s% and that of seller C for the same item is (2s - 4)% and the ratio of cost price of item II by seller A and seller C is 17 : 21 then find the value of s ?",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5",
+        "e": "2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 218,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q056",
+      "q_num": 56,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "For seller D, difference between the selling price of item II and that of item III is 420 Rs. if the sum of the mark price of item II and item III by the same seller is 6000 then the Mark price (in Rs.) of item II is what percent more/less than that of item III by the same seller ? (Selling price of item II is greater than that of item III)",
+      "options": {
+        "a": "50%",
+        "b": "40%",
+        "c": "30%",
+        "d": "35%",
+        "e": "45%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 342,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q057",
+      "q_num": 57,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Average SP of item II of seller A and B is Rs 3888 and that of seller B and C is Rs 4320. Find the SP (in Rs.) of item III of seller C. (a) 4536 (b) 3656 (c) 5430 (d) 4150 (e) None of these",
+      "options": {
+        "a": "750",
+        "b": "2000",
+        "c": "1750",
+        "d": "1250",
+        "e": "1500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 189,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q058",
+      "q_num": 58,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(c); Let MP of item-II by seller A = 100x ∴ MP of item-II by seller C = 100x 100 ×68x 100+s 100 ×84x 100+2s−4 68 × 96+2s = 17",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 125,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q059",
+      "q_num": 59,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(b); Let mark price of item II = 100x Let mark price of item III = 100y ∴ 100x + 100y = 6000 x + y = 60 ... (i) And, 72x − 84y = 420 6x − 7y = 35 ... (ii) From (i) and (ii) y = 25 x = 35",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 186,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q060",
+      "q_num": 60,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(a); Let M.P. of item II = 100a ∴ S.P. of item II by seller A = 68a S.P. of item II by seller B = (100 − x )a Then (168 – x)a = (3888) × 2 (184 − x)a = 4320 × 2 ∴ 168−x = 9 184−x (10 × 168) − 10x = 9 × 184 − 9x x = 24 => a = 54 Now S.P. of item II by seller C = 4536 Rs.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 269,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q061",
+      "q_num": 61,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the selling price of item I and item III of seller E are in the ratio of 5 : 6. And the seller earned a profit of 25% which is Rs. 750 on item I and 20% on item III",
+      "options": {
+        "a": "21×47 65×75",
+        "b": "22×43 65×75",
+        "c": "11×17 65×75 then find the total profit (in Rs.) by selling item I and item III together by the same seller ?",
+        "d": "Can’t be determined",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 167,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q062",
+      "q_num": 62,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Cost price of item III is 60 Rs. for all of the sellers and all of them marked the same product at higher than the cost price, then to get a total profit of 80 Rs. by all of the five sellers after selling item III, what is the minimum discount should be provided by seller E on marked price of item III",
+      "options": {
+        "a": "21%",
+        "b": "19%",
+        "c": "17%",
+        "d": "25%",
+        "e": "27%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 302,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q063",
+      "q_num": 63,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "A, B and C invested 900 Rs., 1600 Rs. and 700 Rs. respectively in a business venture. After end of the first quarter they invested additional amount in the ratio of 2 : 5 : 3. Then after end of the second quarter A, B and C invested additional amount in the ratio of 4 : 3 : 4. Again after end of the 3rd quarter they invested additional amount in the ratio of 7 : 6 : 7. They invested the whole amount for one year and the profit earned in the business is proportional to the investment and the period of investment",
+      "stem": "If they had invested additional amount at the end of each quarter as same ratio as they had invested after end of the first quarter then find the profit of B at the end of one year if the total profit at the end of the year is 125000",
+      "options": {
+        "a": "75000 Rs",
+        "b": "62500 Rs",
+        "c": "125000 Rs",
+        "d": "37500 Rs",
+        "e": "65000 Rs"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 233,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q064",
+      "q_num": 64,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "A, B and C invested 900 Rs., 1600 Rs. and 700 Rs. respectively in a business venture. After end of the first quarter they invested additional amount in the ratio of 2 : 5 : 3. Then after end of the second quarter A, B and C invested additional amount in the ratio of 4 : 3 : 4. Again after end of the 3rd quarter they invested additional amount in the ratio of 7 : 6 : 7. They invested the whole amount for one year and the profit earned in the business is proportional to the investment and the period of investment",
+      "stem": "If the sum of the total amount invested by A and B in the year is 9000 Rs. and that of B and C is 10500 Rs. then find the total amount invested by all of them for only 2nd quarter ?",
+      "options": {
+        "a": "16500 Rs",
+        "b": "17000 Rs",
+        "c": "17500 Rs",
+        "d": "18500 Rs",
+        "e": "18000 Rs"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 181,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q065",
+      "q_num": 65,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "Train A and train B are travelling towards each other from stations P and Q. Train A left station P at 9 : 45 am with a speed of 54 kmph. After half an hour train B left station Q with a speed of 66 kmph. Stations P & Q are situated at a distance of x kms and both trains met each other at 2 : 35 pm the same day.",
+      "stem": "Calculate the difference in the original time taken as given above in condition to meet train A and B and the time taken by train B to catch train A if the train A had started in same direction as that of B. Train B had started 2 hrs after train A while going in same direction.",
+      "options": {
+        "a": "45 hrs. 40 min",
+        "b": "24 hrs. 20 min",
+        "c": "55 hrs. 30 min",
+        "d": "49 hrs. 45 min",
+        "e": "48 hrs. 45 min"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 278,
+        "page_start": 10,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q066",
+      "q_num": 66,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "Train A and train B are travelling towards each other from stations P and Q. Train A left station P at 9 : 45 am with a speed of 54 kmph. After half an hour train B left station Q with a speed of 66 kmph. Stations P & Q are situated at a distance of x kms and both trains met each other at 2 : 35 pm the same day.",
+      "stem": "What is the ratio of relative speed of both the trains while travelling towards the same direction and while travelling towards opposite direction ?",
+      "options": {
+        "a": "10 : 1",
+        "b": "9 : 2",
+        "c": "1 : 10",
+        "d": "10 : 3",
+        "e": "1:12"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 148,
+        "page_start": null,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q067",
+      "q_num": 67,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: Area of quadrilateral BFDE, given ABCD is a rectangle having AB = 10 cm & BC = 12 cm. (a) 1 (d) 1 (b) 1 (e) 3 (c) 2 Quantity II: 15 cm2",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 147,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q068",
+      "q_num": 68,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A, B and C entered into a partnership. A invested Rs.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 53,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q069",
+      "q_num": 69,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "Each of A, B, C and D need a unique time to do a certain work. A can do the work in x days and B can do the work in 2x days. A started the work and do it for 22 2 days then he is replaced by B, who completed remaining work in same time as C and D together can complete the whole work. The ratio of the efficiency of C and D is 4 : 5. If C and D work for alternative days starting from C then they can do the total work in 44 1 days.",
+      "stem": "Find the value of x",
+      "options": {
+        "a": "2 days",
+        "b": "1 1 days",
+        "c": "1 1 days",
+        "d": "1 1 days",
+        "e": "1 day"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 19,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q070",
+      "q_num": 70,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If E and F together work for 24 days then they are replaced by A and B respectively then they can do the remaining work in 20 days. If the efficiency of E and F is 5 : 4, If E and F together complete the whole work then find the difference between the work done by E alone and the total work done by F alone ?",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 309,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q071",
+      "q_num": 71,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "A, B, C, D and E are five persons employed to complete a job X. Line graph shows the data regarding the time taken by these five persons to complete the job X individually. Table shows the actual time for which every one of them worked on the job X. 3000 at the start. B invested 33 1 % more than that invested by A and C invested the average of the investment made by A and B. After 4 months, A withdrew 40% of his amount, B doubled his amount and C increased his amount by 20%. After another 5 months, B got away from partnership and A doubled his amount while C maintained his amount. Profit at the end of year was Rs. 677000 and profit was shared in the ratio of their investment and time. Quantity I: Profit earned by C. Quantity II: Average of profit earned by A, B and C together.",
+      "stem": "A and C worked on job Y working alternatively for 10 days. B and D then worked together for ‘x’ days. If 1 of the job was still remained, then find the value of ‘x’?",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation Note 1: All the persons worked on the job X for ‘whole number’ days. Note 2: Two jobs Y and Z are similar to job X and require same effort as required by job X"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 165,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q072",
+      "q_num": 72,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "E worked on job ‘Z’ for 5 days and the remaining job was completed by A, B and D who worked on alternate days starting with A followed by B and D in that order. Find the no. of days B worked for ?",
+      "options": {
+        "a": "2",
+        "b": "4",
+        "c": "9",
+        "d": "3",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 196,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q073",
+      "q_num": 73,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If A, C and E worked on job Z for 2 days each and the remaining job was done by B and D. If the ratio of no. days for which B and D worked is in ratio 20 : 21, then",
+      "options": {
+        "a": "662",
+        "b": "331",
+        "c": "162 find the number of days for which B worked ?",
+        "d": "142",
+        "e": "371"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 164,
+        "page_start": 11,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q074",
+      "q_num": 74,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the ratio of number of days for which B and D worked on job X in the ratio of 4 : 3, then find the difference between number of days for which B and D worked ?",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "1",
+        "d": "4",
+        "e": "5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": null,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q075",
+      "q_num": 75,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If C worked on job Y with 5 times his given efficiency and was assisted by B every 3rd day, then find the time taken by C to complete the job Y?",
+      "options": {
+        "a": "13 days",
+        "b": "12 1 days",
+        "c": "13 1 days",
+        "d": "9 days",
+        "e": "12 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 144,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q076",
+      "q_num": 76,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "ABCD is a trapezoid. PQRS and MLKJ are two rhombus. Diagonal of PQRS are 6 cm and 8 cm. One of the angle of MLKJ is 120 degree and the diagonal bisecting that angle measures 15 cm. Side of PQRS = AB, side of MLKJ = CD. Find XY (median of trapezoid)",
+      "options": {
+        "a": "5 cm",
+        "b": "10 cm",
+        "c": "15 cm",
+        "d": "20 cm",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 248,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q077",
+      "q_num": 77,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A vessel contains 2.5 liters of water and 10 liters of milk 20% of the contents of the vessel are removed. To the remaining contents, x liters of water is added to reverse the ratio of water and milk. Then y liter of milk is added again to reverse the ratio of water and milk. Find y.",
+      "options": {
+        "a": "100",
+        "b": "110",
+        "c": "120",
+        "d": "130",
+        "e": "150"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 284,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q078",
+      "q_num": 78,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Each of the following questions consist of 3 statements A,B and C. You have to determine that which of the following statement/statements are necessary to answer the questions:",
+      "stem": "A, B and C entered into a partnership. If the profit earned in the business is proportional to the investment and the period of investment then What is the profit of B if all of them invested the amount for one year and total profit is Rs. x. A. A invested Rs. 1500 more than that of C. B. A invested 2 times more than that of B. C invested 3 times more than that of A. C. B invested 200 percent more than that of A and 100% less than that of C.",
+      "options": {
+        "a": "Any two of them",
+        "b": "Either B or C alone",
+        "c": "Any of them",
+        "d": "All statements are required",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 445,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q079",
+      "q_num": 79,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Each of the following questions consist of 3 statements A,B and C. You have to determine that which of the following statement/statements are necessary to answer the questions:",
+      "stem": "6 men and 9 women and 5 children can do a work in 14 days. In how many days can 12 men and 3 women and 5 children do the same work? A. 20 men and 30 women can do the same work in 5 days. B. Work done by 2 men is equal to 3 women. C. 6 children can do two-thirds of the same work in 28 days.",
+      "options": {
+        "a": "Any one of them",
+        "b": "Only C",
+        "c": "C and either A or B",
+        "d": "Any two of them",
+        "e": "Only either A or B"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 290,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q080",
+      "q_num": 80,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Each of the following questions consist of 3 statements A,B and C. You have to determine that which of the following statement/statements are necessary to answer the questions:",
+      "stem": "Rajnish buys 30 books and 65 pens. If price of each book is more than price of each pen then what money does he have to pay for this? A. At a profit of 20% he sells all the objects for Rs 3828. B. The CP of one book and one pen is Rs 90. C. The difference between sum and difference of buying price of one pen and one book is Rs 28.",
+      "options": {
+        "a": "Only A alone or B alone is sufficient",
+        "b": "B and C together are sufficient",
+        "c": "A alone or B and C together are sufficient",
+        "d": "All together are necessary",
+        "e": "All even together are not sufficient"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 332,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q081",
+      "q_num": 81,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: At a global financial services firm we worked with, a longtime customer accidentally submitted the same application file to two offices. Though the employees who reviewed the file were supposed to follow the same guidelines—and thus arrive at similar outcomes—the separate offices returned very different quotes. Taken aback, the customer gave the business to a competitor. From the point of view of the firm, employees in the same role should have been interchangeable, but in this case they were not. Unfortunately, this is a common problem. Paragraph 2: Professionals in many organizations are assigned arbitrarily to cases: appraisers in credit-rating agencies, physicians in emergency rooms, underwriters of loans and insurance, and others. Organizations expect consistency from these professionals: Identical cases should be treated similarly, if not identically. The problem is that humans are unreliable decision makers; their judgments are strongly influenced by irrelevant factors, such as their current mood, the time since their last meal, and the weather. We call the chance variability of judgments noise. It is an invisible tax on the bottom line of many companies. Paragraph 3: Some jobs are noise-free. Clerks at a bank or a post office perform complex tasks, but they must follow strict rules that limit subjective judgment and guarantee, by design, that identical cases will be treated identically. In contrast, medical professionals, loan officers, project managers, judges, and executives all make judgment calls, which are guided by informal experience and general principles rather than by rigid rules. And if they don’t reach precisely the same answer that every other person in their role would, that’s acceptable; this is what we mean when we say that a decision is “a matter of judgment.” A firm whose employees exercise judgment does not expect decisions to be entirely free of noise. But often noise is far above the level that executives would consider tolerable— and they are completely unaware of it. Paragraph 4: The prevalence of noise has been demonstrated in several studies. Academic researchers have repeatedly confirmed that professionals often contradict their own prior judgments when given the same data on different occasions. For instance, when software developers were asked on two separate days to estimate the completion time for a given task, the hours they projected differed by 71%, on average. When pathologists made two assessments of the severity of biopsy results, the correlation between their ratings was only .61 (out of a perfect 1.0), indicating that they made inconsistent diagnoses quite frequently. Judgments made by different people are even more likely to diverge. Research has confirmed that in many tasks, experts’ decisions are highly variable: valuing stocks, appraising real estate, sentencing criminals, evaluating job performance, auditing financial statements, and more. The unavoidable conclusion is that professionals often make decisions that deviate significantly from those of their peers, from their own prior decisions, and from rules that they themselves claim to follow. Paragraph 5: Noise is often insidious: It causes even successful companies to lose substantial amounts of money without realizing it. How substantial? To get an estimate, we asked executives in one of the organizations we studied the following: “Suppose the optimal assessment of a case is $100,000. What would be the cost to the organization if the professional in charge of the case assessed a value of $115,000? What would be the cost of assessing it at $85,000?” The cost estimates were high. Aggregated over the assessments made every year, the cost of noise was measured in billions—an unacceptable number even for a large global firm. The value of reducing noise even by a few percentage points would be in the tens of millions. Remarkably, the organization had completely ignored the question of consistency until then.",
+      "stem": "What is the opposite of the phrase “Unfortunately, this is a common problem” as mentioned in the Paragraph 1?",
+      "options": {
+        "a": "Employees often constitute variable decision- making capability even if they are assigned the same task to perform",
+        "b": "Even though employees are expected to come out with fair, positive and noise-free results, organizations find it almost an opposite and contradictory outcome to it",
+        "c": "A major problem is that the outcomes of decisions taken by different employees in the organization often aren’t known until far in the future, if at all",
+        "d": "Employees have to follow the strict norms and rules of the organization which often allow them to take rationale and conventional decisions in the best interest of the organization which hardly go unnoticed",
+        "e": "None of the above. ENGLISH LANGUAGE"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 109,
+        "page_start": 13,
+        "page_end": null
+      }
+    }
+  ]
+}

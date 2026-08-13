@@ -1,0 +1,184 @@
+{
+  "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2020/Mains/_unknown_shift/IBPS-RRB-PO-Mains-2020-Memory-Based-Paper.pdf",
+    "sha256": "4b76b05777d681eabfe123208bce7969d70be05b56b9c6877ef916726a44db76",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02133544/IBPS-RRB-PO-Mains-2020-Memory-Based-Paper.pdf",
+    "source_filename": "IBPS-RRB-PO-Mains-2020-Memory-Based-Paper.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2020,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 6,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons are sitting in two parallel rows containing six persons each in a way that there is an equal distance between two adjacent persons. A, B, C, D, E, F sits in row 1 and faces north, P, Q, R, S, T, U sits in row 2 and faces south but not necessarily in the same order. Therefore, in this arrangement each member seated in a row faces another member of the other row. A sits fourth to the left of B and one of them sits at corner. Only one person sits between Q and R. C sits third to the right of D. R faces C. More than two persons sit to the right of Q. Only one person sit between P and T and T does not sit near to Q. Two persons sit between U and S who does not face A.",
+      "stem": "Who faces A?",
+      "options": {
+        "a": "R",
+        "b": "T",
+        "c": "S",
+        "d": "The person sitting immediate right of U",
+        "e": "Both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 12,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons are sitting in two parallel rows containing six persons each in a way that there is an equal distance between two adjacent persons. A, B, C, D, E, F sits in row 1 and faces north, P, Q, R, S, T, U sits in row 2 and faces south but not necessarily in the same order. Therefore, in this arrangement each member seated in a row faces another member of the other row. A sits fourth to the left of B and one of them sits at corner. Only one person sits between Q and R. C sits third to the right of D. R faces C. More than two persons sit to the right of Q. Only one person sit between P and T and T does not sit near to Q. Two persons sit between U and S who does not face A.",
+      "stem": "Who sits exactly between R and U?",
+      "options": {
+        "a": "T",
+        "b": "P",
+        "c": "S",
+        "d": "The one who faces B",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationship between different elements is shown in the statements. These statements are followed by three/four conclusions. Read the statements and then decide which of the following conclusions follow from the given statements.",
+      "stem": "Statements: P<S≥I, S>F, M=F<B, Q = K= Y < L < B Conclusions:\nI. Q < B\nII. B ≥Q III. P > F IV.M = B",
+      "options": {
+        "a": "Only II and III follow",
+        "b": "Only III and IV follow",
+        "c": "Only I, II and III follow",
+        "d": "Only I and IV follow",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 98,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationship between different elements is shown in the statements. These statements are followed by three/four conclusions. Read the statements and then decide which of the following conclusions follow from the given statements.",
+      "stem": "Statement: N≥M>E=F>L<U, K ≥ L < Q < R = A Conclusions:\nI. N < A\nII. K < E III. M > L IV. M = L",
+      "options": {
+        "a": "Only I follow",
+        "b": "Only II and IV follow",
+        "c": "Only III and IV follow",
+        "d": "Only III follows",
+        "e": "Only I and III follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationship between different elements is shown in the statements. These statements are followed by three/four conclusions. Read the statements and then decide which of the following conclusions follow from the given statements.",
+      "stem": "Statement: O > M =T>B>S=F, F>W<Q=U>Z Conclusions:\nI. F < O\nII. O ≤B III.S < U IV.O > W",
+      "options": {
+        "a": "Only I follow",
+        "b": "Only I and IV follow",
+        "c": "Only III and IV follow",
+        "d": "Only II follows",
+        "e": "Only I and III follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 86,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationship between different elements is shown in the statements. These statements are followed by three/four conclusions. Read the statements and then decide which of the following conclusions follow from the given statements.",
+      "stem": "Statement: Q=T ≤B>S=E, E>W>L>U=Z Conclusions:\nI. Q = B\nII. Q < B III. B < Z IV.B > U",
+      "options": {
+        "a": "Only I follow",
+        "b": "Only I and IV follow",
+        "c": "Only III and IV follow",
+        "d": "Only Either I or II and IV follows",
+        "e": "Only I and III follow REASONING ABILITY"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 84,
+        "page_start": 1,
+        "page_end": 3
+      }
+    }
+  ]
+}

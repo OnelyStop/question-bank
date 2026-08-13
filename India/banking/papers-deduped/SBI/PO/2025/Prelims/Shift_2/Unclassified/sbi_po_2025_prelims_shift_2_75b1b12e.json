@@ -1,0 +1,49 @@
+{
+  "paper_id": "sbi_po_2025_prelims_shift_2_75b1b12e",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2025/Prelims/Shift_2/SBI-PO-Pre-2025-Memory-Based-Paper-Based-on-4th-August-2nd-Shift.pdf",
+    "sha256": "75b1b12e3a1ac1fc1725829c6033732e943fc7d1c91b3641f0239449c7470cdb",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/06/19140109/SBI-PO-Pre-2025-Memory-Based-Paper-Based-on-4th-August-2nd-Shift.pdf",
+    "source_filename": "SBI-PO-Pre-2025-Memory-Based-Paper-Based-on-4th-August-2nd-Shift.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "shift": "Shift_2",
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 1,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_prelims_shift_2_75b1b12e::q100",
+      "q_num": 100,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the given information carefully to answer the related question: Seven persons A, B, C, D, E, F and G sit in a row facing north. They have different elements named copper, nickel, gold, mercury, aluminum, silver and iron. The information is not used in the same order as given. The one who have gold sits third to the left of D, none of them sits at any of the extreme ends. E sits immediate right of the one who have gold. B and E sit adjacent to each other. The one who have iron sits second to the left of B. Two persons sit between G and F. The one who has mercury sits fourth to the right of G. The one who have copper sits immediate right of the one who has silver. The one who have nickel sits to the left of F and to the right of A.",
+      "stem": "Choose the correct combination.",
+      "options": {
+        "a": "A - Nickel",
+        "b": "E - Silver",
+        "c": "D - Copper",
+        "d": "C - Mercury",
+        "e": "G - Gold"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 31,
+        "page_start": 14,
+        "page_end": 14
+      }
+    }
+  ]
+}

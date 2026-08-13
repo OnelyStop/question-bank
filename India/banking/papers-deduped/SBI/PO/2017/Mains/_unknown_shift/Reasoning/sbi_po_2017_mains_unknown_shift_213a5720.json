@@ -1,0 +1,1292 @@
+{
+  "paper_id": "sbi_po_2017_mains_unknown_shift_213a5720",
+  "subject": "Reasoning",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2017/Mains/_unknown_shift/sbi-po-mains-2017.pdf",
+    "sha256": "213a57202ba4b47e1083e7dfac1c443b60fa3dd1ec53b6c44036da6157dd3401",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/sbi-po-mains-2017.pdf",
+    "source_filename": "sbi-po-mains-2017.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [
+    "empty_stem_q70"
+  ],
+  "question_count": 47,
+  "questions": [
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q001",
+      "q_num": 1,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following diagram and convert it into other diagrams by implementing the instructions which is given in each step to get next step. Interchange the Alphabets to get step 1 as arrows mention in the above figure. For Step-2: (i) If the alphabets contain one consonant and one vowel and the number with them is greater than 3, then subtract 3 from the given number. (ii) If the alphabets are two consonant and the number with them is greater than 5, then change the letters with the previous letter in alphabetical series. For Step-3 : step 3 is coded in some special pattern. As per the rules followed in the above step, find out the appropriate steps for the given input. And answer the following questions.",
+      "stem": "Which element comes in step-2 in the second column of third row?",
+      "options": {
+        "a": "LM7",
+        "b": "KL7",
+        "c": "ZU3",
+        "d": "AB8",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 64,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q002",
+      "q_num": 2,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following diagram and convert it into other diagrams by implementing the instructions which is given in each step to get next step. Interchange the Alphabets to get step 1 as arrows mention in the above figure. For Step-2: (i) If the alphabets contain one consonant and one vowel and the number with them is greater than 3, then subtract 3 from the given number. (ii) If the alphabets are two consonant and the number with them is greater than 5, then change the letters with the previous letter in alphabetical series. For Step-3 : step 3 is coded in some special pattern. As per the rules followed in the above step, find out the appropriate steps for the given input. And answer the following questions.",
+      "stem": "Which element replaces AB8 in step-3?",
+      "options": {
+        "a": "PQ7",
+        "b": "ZU3",
+        "c": "FT5",
+        "d": "MO2",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q003",
+      "q_num": 3,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the following passage carefully and answer the questions that follow: The Budget session began on a stormy note as opposition members demanding a debate on the recent hate crimes against Indians living in the USA. Congress blamed the Modi government for remaining silent on the attacks against Indians in US. In his reply, Union Home Minister said that the government has taken a serious note and PM will reply in next week of Parliament session. In recent weeks, at least two Indians have been killed in incidents of hate crime in the US. “Each attack involved a slogan. Go back to your country”. America condemned it but is not taking any steps to address the issue.",
+      "stem": "What may be the repercussions after recent attacks on Indians in US? (I) There may be impact on Indian-US trade policy. (II) Indian Government will coerce US Government. (III) American Govt. will give life imprisonment to accused to make a set mark that America is against racism.",
+      "options": {
+        "a": "Only I",
+        "b": "Only I and III",
+        "c": "Only III",
+        "d": "Only I and II",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 280,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q004",
+      "q_num": 4,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the following passage carefully and answer the questions that follow: The Budget session began on a stormy note as opposition members demanding a debate on the recent hate crimes against Indians living in the USA. Congress blamed the Modi government for remaining silent on the attacks against Indians in US. In his reply, Union Home Minister said that the government has taken a serious note and PM will reply in next week of Parliament session. In recent weeks, at least two Indians have been killed in incidents of hate crime in the US. “Each attack involved a slogan. Go back to your country”. America condemned it but is not taking any steps to address the issue.",
+      "stem": "Which of the following substantiates the laxity of Indian-American Govt.? (I) Modi govt. has taken a serious note and ready to reply in next week of parliament session. (II) Condemning the attack but not taking any steps by American Govt. (III) Still there is no action as racism slogan “Go back to your country” is spreading.",
+      "options": {
+        "a": "Only III",
+        "b": "Only I and II",
+        "c": "All of three",
+        "d": "Only II",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 326,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q005",
+      "q_num": 5,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Eight members A, B, C, D, E, F, G and H sitting in a row facing north But not necessary in the same order. No two successive members are sitting together according to alphabetical order. SBI PO Mains 2017 For Example: A does not sit with B. similarly B does not sit with C and so on. They also have a hobby like Playing game, Watching TV, Singing, Dancing, Online surfing, Chatting, Acting and Cooking, but not necessary in the same order. Either A or H sits at the extreme end of the row. A is sitting third to the left of the person whose hobby is online surfing. B sits second to the right of the person who likes acting. C sits second to the right of F. G who likes watching TV is sitting second from the right end of the row. The person whose hobby is dancing is immediate neighbor of F who likes Playing Games. The person whose hobby is acting is not sitting adjacent to the person whose hobby is online surfing. C’s hobby is neither acting nor online surfing. D and E do not sit any extreme end of the row. One of the immediate neighbors of H likes Cooking and the one whose hobby is singing sits at left end of the row. Neither H nor D likes Acting.",
+      "stem": "Which of the following member is sitting sixth to the right of the second from the right end of the row?",
+      "options": {
+        "a": "E",
+        "b": "The one whose hobby is acting",
+        "c": "A",
+        "d": "The one whose hobby is cooking",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 104,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q006",
+      "q_num": 6,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Eight members A, B, C, D, E, F, G and H sitting in a row facing north But not necessary in the same order. No two successive members are sitting together according to alphabetical order. SBI PO Mains 2017 For Example: A does not sit with B. similarly B does not sit with C and so on. They also have a hobby like Playing game, Watching TV, Singing, Dancing, Online surfing, Chatting, Acting and Cooking, but not necessary in the same order. Either A or H sits at the extreme end of the row. A is sitting third to the left of the person whose hobby is online surfing. B sits second to the right of the person who likes acting. C sits second to the right of F. G who likes watching TV is sitting second from the right end of the row. The person whose hobby is dancing is immediate neighbor of F who likes Playing Games. The person whose hobby is acting is not sitting adjacent to the person whose hobby is online surfing. C’s hobby is neither acting nor online surfing. D and E do not sit any extreme end of the row. One of the immediate neighbors of H likes Cooking and the one whose hobby is singing sits at left end of the row. Neither H nor D likes Acting.",
+      "stem": "A is related to B and F is related to E in the same way, the member whose hobby is dancing related to which of the following?",
+      "options": {
+        "a": "The one whose hobby is acting",
+        "b": "G",
+        "c": "The one whose hobby is cooking",
+        "d": "C",
+        "e": "B"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 125,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q007",
+      "q_num": 7,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Eight members A, B, C, D, E, F, G and H sitting in a row facing north But not necessary in the same order. No two successive members are sitting together according to alphabetical order. SBI PO Mains 2017 For Example: A does not sit with B. similarly B does not sit with C and so on. They also have a hobby like Playing game, Watching TV, Singing, Dancing, Online surfing, Chatting, Acting and Cooking, but not necessary in the same order. Either A or H sits at the extreme end of the row. A is sitting third to the left of the person whose hobby is online surfing. B sits second to the right of the person who likes acting. C sits second to the right of F. G who likes watching TV is sitting second from the right end of the row. The person whose hobby is dancing is immediate neighbor of F who likes Playing Games. The person whose hobby is acting is not sitting adjacent to the person whose hobby is online surfing. C’s hobby is neither acting nor online surfing. D and E do not sit any extreme end of the row. One of the immediate neighbors of H likes Cooking and the one whose hobby is singing sits at left end of the row. Neither H nor D likes Acting.",
+      "stem": "Which of the following combination is not true?",
+      "options": {
+        "a": "A-Singing",
+        "b": "E-Acting",
+        "c": "G-Watching TV",
+        "d": "B-Playing games",
+        "e": "D-Dancing"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q008",
+      "q_num": 8,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the information carefully answers the questions given below. @ means either hour hand or minute hand is at 8 # means either hour hand or minute hand is at 5 $ means either hour hand or minute hand is at 4 % means either hour hand or minute hand is at 12 & means either hour hand or minute hand is at 2 £ means either hour hand or minute hand is at 3 Note: if two symbols are given than by default first symbol is consider as hour hand and second one is consider as minute hand. And all time are consider at PM.",
+      "stem": "If A takes 25 min to reach railway station and his train is scheduled at #& then at what time should he leave to reach the station 5 minute earlier?",
+      "options": {
+        "a": "$%",
+        "b": "$&",
+        "c": "&S",
+        "d": "$@",
+        "e": "£$"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 148,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q009",
+      "q_num": 9,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the information carefully answers the questions given below. @ means either hour hand or minute hand is at 8 # means either hour hand or minute hand is at 5 $ means either hour hand or minute hand is at 4 % means either hour hand or minute hand is at 12 & means either hour hand or minute hand is at 2 £ means either hour hand or minute hand is at 3 Note: if two symbols are given than by default first symbol is consider as hour hand and second one is consider as minute hand. And all time are consider at PM.",
+      "stem": "If a train departed from a station at &£ and it takes 2 hours to reach the destination then when it will reach to the destination?",
+      "options": {
+        "a": "$£",
+        "b": "$%",
+        "c": "#$",
+        "d": "$#",
+        "e": "£$"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 130,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q010",
+      "q_num": 10,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the information carefully answers the questions given below. @ means either hour hand or minute hand is at 8 # means either hour hand or minute hand is at 5 $ means either hour hand or minute hand is at 4 % means either hour hand or minute hand is at 12 & means either hour hand or minute hand is at 2 £ means either hour hand or minute hand is at 3 Note: if two symbols are given than by default first symbol is consider as hour hand and second one is consider as minute hand. And all time are consider at PM.",
+      "stem": "A person has to catch a train that is scheduled to depart at ‘@%’. It takes the person 4 hours and 15 minutes to reach the railway station from his home. At what time should he leave from his home for the railway station to arrive at the station at least 25 minutes before the departure of the train?",
+      "options": {
+        "a": "%@",
+        "b": "£$",
+        "c": "%+",
+        "d": "+@",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 300,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q011",
+      "q_num": 11,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following information carefully and answer the questions given below: There are six cars – A, B, C, D, E, F – parked in a row facing north direction, but not necessarily in the same order. The distances between two adjacent cars are successive multiples of three (i.e., if the distance between the 1st and the 2nd car is 3 m, 1st and the 3rd cars is 6 m and between 1st and 4th cars is 9 m and so on.) Information regarding all the cars: • The distance between ‘A’ and ‘B’ is 33 m and car ‘A’ is to the immediate left of car ‘B’. • The distance between the cars ‘E’ and ‘F’ is 99 m. the distance between ‘E’ and ‘D’ is a multiple of ‘2’. • The car ‘B’ is 75 m away from car ‘C’. Car ‘D’ is at one of the position to the left of car ‘C’; but not to the immediate left of ‘C’. • Car ‘F’ starts moving towards north and after going 18 m, it turns right, then it moves 63 m and then it goes another 7 m to its right turn and stops at point ‘Z’ • Car ‘C’ moves 33 m towards south direction, and then takes a right turn and goes 75 m straight. Then it turns again to its right direction and moves another 17 m and halts at point ‘X’. • An another car ‘M’ is parked at 13 m to the west of point ‘Z’, Now ‘M’ starts moving towards further west and covers 77 m and reached point ‘Y’. •",
+      "stem": "How many cars are parked there in between cars ‘D’ and ‘F’?",
+      "options": {
+        "a": "Two",
+        "b": "None",
+        "c": "More than three",
+        "d": "One",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q012",
+      "q_num": 12,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following information carefully and answer the questions given below: There are six cars – A, B, C, D, E, F – parked in a row facing north direction, but not necessarily in the same order. The distances between two adjacent cars are successive multiples of three (i.e., if the distance between the 1st and the 2nd car is 3 m, 1st and the 3rd cars is 6 m and between 1st and 4th cars is 9 m and so on.) Information regarding all the cars: • The distance between ‘A’ and ‘B’ is 33 m and car ‘A’ is to the immediate left of car ‘B’. • The distance between the cars ‘E’ and ‘F’ is 99 m. the distance between ‘E’ and ‘D’ is a multiple of ‘2’. • The car ‘B’ is 75 m away from car ‘C’. Car ‘D’ is at one of the position to the left of car ‘C’; but not to the immediate left of ‘C’. • Car ‘F’ starts moving towards north and after going 18 m, it turns right, then it moves 63 m and then it goes another 7 m to its right turn and stops at point ‘Z’ • Car ‘C’ moves 33 m towards south direction, and then takes a right turn and goes 75 m straight. Then it turns again to its right direction and moves another 17 m and halts at point ‘X’. • An another car ‘M’ is parked at 13 m to the west of point ‘Z’, Now ‘M’ starts moving towards further west and covers 77 m and reached point ‘Y’. •",
+      "stem": "What is the distance between point ‘Z’ and point ‘X’?",
+      "options": {
+        "a": "25 m",
+        "b": "18 m",
+        "c": "They don’t align in the same straight line",
+        "d": "32 m",
+        "e": "27 m"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q013",
+      "q_num": 13,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following information carefully and answer the questions given below: There are six cars – A, B, C, D, E, F – parked in a row facing north direction, but not necessarily in the same order. The distances between two adjacent cars are successive multiples of three (i.e., if the distance between the 1st and the 2nd car is 3 m, 1st and the 3rd cars is 6 m and between 1st and 4th cars is 9 m and so on.) Information regarding all the cars: • The distance between ‘A’ and ‘B’ is 33 m and car ‘A’ is to the immediate left of car ‘B’. • The distance between the cars ‘E’ and ‘F’ is 99 m. the distance between ‘E’ and ‘D’ is a multiple of ‘2’. • The car ‘B’ is 75 m away from car ‘C’. Car ‘D’ is at one of the position to the left of car ‘C’; but not to the immediate left of ‘C’. • Car ‘F’ starts moving towards north and after going 18 m, it turns right, then it moves 63 m and then it goes another 7 m to its right turn and stops at point ‘Z’ • Car ‘C’ moves 33 m towards south direction, and then takes a right turn and goes 75 m straight. Then it turns again to its right direction and moves another 17 m and halts at point ‘X’. • An another car ‘M’ is parked at 13 m to the west of point ‘Z’, Now ‘M’ starts moving towards further west and covers 77 m and reached point ‘Y’. •",
+      "stem": "What is the distance and direction of current position of Car ‘M’ with respect to the Car ‘F’?",
+      "options": {
+        "a": "5√34 m towards north-west",
+        "b": "50 m towards south-east",
+        "c": "10√17 m towards north-east",
+        "d": "5√34 m towards south-east",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q014",
+      "q_num": 14,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following information carefully and answer the questions given below: There are six cars – A, B, C, D, E, F – parked in a row facing north direction, but not necessarily in the same order. The distances between two adjacent cars are successive multiples of three (i.e., if the distance between the 1st and the 2nd car is 3 m, 1st and the 3rd cars is 6 m and between 1st and 4th cars is 9 m and so on.) Information regarding all the cars: • The distance between ‘A’ and ‘B’ is 33 m and car ‘A’ is to the immediate left of car ‘B’. • The distance between the cars ‘E’ and ‘F’ is 99 m. the distance between ‘E’ and ‘D’ is a multiple of ‘2’. • The car ‘B’ is 75 m away from car ‘C’. Car ‘D’ is at one of the position to the left of car ‘C’; but not to the immediate left of ‘C’. • Car ‘F’ starts moving towards north and after going 18 m, it turns right, then it moves 63 m and then it goes another 7 m to its right turn and stops at point ‘Z’ • Car ‘C’ moves 33 m towards south direction, and then takes a right turn and goes 75 m straight. Then it turns again to its right direction and moves another 17 m and halts at point ‘X’. • An another car ‘M’ is parked at 13 m to the west of point ‘Z’, Now ‘M’ starts moving towards further west and covers 77 m and reached point ‘Y’. •",
+      "stem": "Which car will be met first, if ‘M’ moves through the shortest distance from point ‘Y’?",
+      "options": {
+        "a": "E",
+        "b": "F",
+        "c": "C",
+        "d": "D",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q015",
+      "q_num": 15,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following information carefully and answer the questions given below: There are six cars – A, B, C, D, E, F – parked in a row facing north direction, but not necessarily in the same order. The distances between two adjacent cars are successive multiples of three (i.e., if the distance between the 1st and the 2nd car is 3 m, 1st and the 3rd cars is 6 m and between 1st and 4th cars is 9 m and so on.) Information regarding all the cars: • The distance between ‘A’ and ‘B’ is 33 m and car ‘A’ is to the immediate left of car ‘B’. • The distance between the cars ‘E’ and ‘F’ is 99 m. the distance between ‘E’ and ‘D’ is a multiple of ‘2’. • The car ‘B’ is 75 m away from car ‘C’. Car ‘D’ is at one of the position to the left of car ‘C’; but not to the immediate left of ‘C’. • Car ‘F’ starts moving towards north and after going 18 m, it turns right, then it moves 63 m and then it goes another 7 m to its right turn and stops at point ‘Z’ • Car ‘C’ moves 33 m towards south direction, and then takes a right turn and goes 75 m straight. Then it turns again to its right direction and moves another 17 m and halts at point ‘X’. • An another car ‘M’ is parked at 13 m to the west of point ‘Z’, Now ‘M’ starts moving towards further west and covers 77 m and reached point ‘Y’. •",
+      "stem": "What is the position of car ‘A’ with respect to car ‘E’?",
+      "options": {
+        "a": "75 m towards right",
+        "b": "To the immediate right",
+        "c": "36 m towards left",
+        "d": "69 m towards left",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q016",
+      "q_num": 16,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The mushrooming of business schools in the country is a cause for shortage of faculty with Ph.D qualification. In addition, the higher pay and generous fringe benefits given by industry has encouraged qualified people to not seek academic positions. Which of the following statements, if true, would tend to STRENGTHEN the argument?",
+      "options": {
+        "a": "The average salary for industry positions in Gujarat is more than the average salary for faculty positions in some business schools in Ahmedabad by around 30%",
+        "b": "The average salary for industry positions in Gujarat is less than the average salary for faculty positions in a top business school in Ahmedabad by around 30%",
+        "c": "The average salary for recent Ph.D graduates in the industry is 20% higher than that in industry",
+        "d": "The rate of growth of salaries for the industry positions is equal to the rate of growth of salaries for academic positions for the past three years",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 332,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q017",
+      "q_num": 17,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The Government has appealed to all citizens to use potable water judiciously as there is an acute shortage in supply. Excessive use may lead to huge scarcity in future months. Which of the assumptions is implicit in the above statement? An assumption is something supposed or taken for granted)",
+      "options": {
+        "a": "People may ignore the appeal and continue using water as per their consideration",
+        "b": "Government may be able to tap those who do not respond to the appeal",
+        "c": "Government may be able to put in place alternate sources of water in the event of a crisis situation",
+        "d": "Large number of people may positively respond to the Government’s appeal and help tide over the crisis",
+        "e": "Only poor are going to suffer from this shortage of water supply"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 294,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q018",
+      "q_num": 18,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the given information carefully and answer the given questions. An input-output is given in different steps. Some mathematical operations are done in each step. No mathematical operation is repeated in next step. As per the rules followed in the steps given above, find out in each of the following questions the appropriate step for the given input.",
+      "stem": "Find the addition of the two numbers obtained in step III?",
+      "options": {
+        "a": "1.5",
+        "b": "3",
+        "c": "7",
+        "d": "3.5",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q019",
+      "q_num": 19,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the given information carefully and answer the given questions. An input-output is given in different steps. Some mathematical operations are done in each step. No mathematical operation is repeated in next step. As per the rules followed in the steps given above, find out in each of the following questions the appropriate step for the given input.",
+      "stem": "Find the difference between sum of numbers which obtained in 1st step and sum of numbers obtained in all other steps?",
+      "options": {
+        "a": "232",
+        "b": "185",
+        "c": "188",
+        "d": "183.5",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q020",
+      "q_num": 20,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the given information carefully and answer the given questions. An input-output is given in different steps. Some mathematical operations are done in each step. No mathematical operation is repeated in next step. As per the rules followed in the steps given above, find out in each of the following questions the appropriate step for the given input.",
+      "stem": "Find the multiplication of the numbers obtained in step II?",
+      "options": {
+        "a": "426",
+        "b": "462",
+        "c": "188",
+        "d": "98",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q021",
+      "q_num": 21,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement: Science is a sort of news agency comparable in principle to other news agencies. But this news agency gives us information which is reliable to an extraordinary high degree due to elaborate techniques of verification and its capacity to survive centuries. So, science should be read with as much interest as we read news. Assumptions:\nI. Science encourages investigative spirit.\nII. People read news out of interest.",
+      "options": {
+        "a": "If only assumption I is implicit",
+        "b": "If only assumption II is implicit",
+        "c": "If either I or II is implicit",
+        "d": "If neither I nor II is implicit",
+        "e": "Both I and II are implicit"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 427,
+        "page_start": 4,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q022",
+      "q_num": 22,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "In each of the following questions, a question is followed by three statements numbered I, II and III. Read all the statements to find the answer to given question and then answer accordingly that which statement/s can give the answer alone/together.",
+      "stem": "What is the direction of point U with respect to point X? Statement I: Point R is 7 m to the North of point Q. Point P is 8 m to the West of point Q. Point R is 6 m to the West of point U. Statement II: Point B is 9 m to the North of point A. Point P is 5 m to the North of point Z. Point Z is 4 m to the West of point A. Statement III: Point C is 7 m to the East of point A. Point X is 2 m to the East of point F. Point F is 3 m to the North of point C.",
+      "options": {
+        "a": "Both I and III",
+        "b": "Both II and III",
+        "c": "All I, II and III",
+        "d": "II and either I or III",
+        "e": "Even I, II and III together are also not sufficient"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 454,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q023",
+      "q_num": 23,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "In each of the following questions, a question is followed by three statements numbered I, II and III. Read all the statements to find the answer to given question and then answer accordingly that which statement/s can give the answer alone/together.",
+      "stem": "What does the code ‘bp’ stand for in the given code language? Statement I: In the language, ‘black white red’ is coded as ‘df dc or’ and ‘green blue grey’ is coded as ‘st hn wo’ Statement II: In the language, ‘blue pink brown’ is coded as ‘er bp hn’ and ‘pink blue white’ is coded as ‘hn or bp’ Statement III: In the language, ‘green violet orange’ is coded as ‘pa wo kl’ and ‘yellow pink brown’ is coded as ‘bp bi er’",
+      "options": {
+        "a": "Both II and III",
+        "b": "I and either II or III",
+        "c": "II and either I or III",
+        "d": "Both I and III",
+        "e": "All I, II and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 418,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q024",
+      "q_num": 24,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A very large number of technically qualified young Indians are coming out of colleges every year though there are not enough opportunities for them to get gainful employment. Which of the following contradicts the views expressed in the above statements?",
+      "options": {
+        "a": "Technically qualified persons are superior to those having standard degrees like BA/BSc/BCom etc",
+        "b": "The Government has not done effective perspective planning for engaging technically qualified personnel while authorizing the setting up of technical colleges",
+        "c": "Opportunities are available but All huge gap exists between the level of competence of technically qualified graduates and requirements of the industry",
+        "d": "Majority of the technically qualified persons are migrating from India to developed countries for better opportunities",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 254,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q025",
+      "q_num": 25,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the information carefully and answer the questions given below. There are two square fields of different size such that the larger one is surrounding smaller field. Four gates are there for each field in the middle of the sides. Eight people A, B, C, D, E, F, G and H are standing at different gates but not necessary in the same sequence. The persons who are on the sides of larger park facing center and The persons who are at side of smaller park facing outside such that inner sides persons and outer sides persons are facing each other. There is one person standing between B and D. C faces B. A is to the immediate right of C. G is not the immediate neighbor of D. G faces neither D nor F. One person is standing between H and F. E is facing the center",
+      "stem": "Which of the following persons are facing to each other?",
+      "options": {
+        "a": "BD",
+        "b": "EB",
+        "c": "FH",
+        "d": "DE",
+        "e": "AH"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q027",
+      "q_num": 27,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the information carefully and answer the questions given below. P is the husband of Q. R is the grandchild of P.P has only one child(son) who is married to T’s child. T has only two children one son and one daughter. X is grandson of T. S is brother in law of son of T. U and V are children of T. W is married to the son of T. X is son of U’s brother.",
+      "stem": "If T is married to Y than how is T related to R?",
+      "options": {
+        "a": "Grandfather",
+        "b": "Grandmother",
+        "c": "Maternal Grandfather",
+        "d": "Maternal Grandmother",
+        "e": "Either"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q028",
+      "q_num": 28,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the information carefully and answer the questions given below. P is the husband of Q. R is the grandchild of P.P has only one child(son) who is married to T’s child. T has only two children one son and one daughter. X is grandson of T. S is brother in law of son of T. U and V are children of T. W is married to the son of T. X is son of U’s brother.",
+      "stem": "How is X related to V?",
+      "options": {
+        "a": "Son",
+        "b": "Daughter",
+        "c": "Son in law",
+        "d": "Daughter in law",
+        "e": "Husband"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q029",
+      "q_num": 29,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In each question below are given a statement followed by two courses of action numbered I and II. You have to assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the suggested courses of action logically follow(s) for pursuing. Give answer",
+      "stem": "Statement: Every year, at the beginning or at the end of the monsoons, we have some cases of conjunctivitis, but this year, it seems to be a major epidemic, witnessed after nearly four years. Courses of action:\nI. Precautionary measures should be taken after every four years to check this epidemic.\nII. People should be advised to wash their eyes with clean water.",
+      "options": {
+        "a": "If only I follows",
+        "b": "If only II follows",
+        "c": "If either I or II follows",
+        "d": "If neither I nor II follows and",
+        "e": "If both I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 365,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q030",
+      "q_num": 30,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In each question below are given a statement followed by two courses of action numbered I and II. You have to assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the suggested courses of action logically follow(s) for pursuing. Give answer",
+      "stem": "Statement: Researchers are feeling agitated as libraries are not equipped to provide the right information to the right users at the right time in the required format. Even the users are not aware about the various services available for them. Courses of action:\nI. All the information available to the libraries should be computerized to provide faster services to the users.\nII. Library staff should be trained in computer operations.",
+      "options": {
+        "a": "If only I follows",
+        "b": "If only II follows",
+        "c": "If either I or II follows",
+        "d": "If neither I nor II follows and",
+        "e": "If both I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 436,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q031",
+      "q_num": 31,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Who among the following lecturer gives lecture on 21st June?",
+      "options": {
+        "a": "T",
+        "b": "P",
+        "c": "Y",
+        "d": "V",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 60,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q032",
+      "q_num": 32,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Which among the following is the number of students who attend class on 7th December? () 67",
+      "options": {
+        "b": "80",
+        "c": "68",
+        "d": "77",
+        "e": "55"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 91,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q033",
+      "q_num": 33,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many lecturers give lectures between P and Q?",
+      "options": {
+        "a": "Three",
+        "b": "Two",
+        "c": "Four",
+        "d": "One",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q034",
+      "q_num": 34,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Who among the following gives lecture which is attended by 80 students?",
+      "options": {
+        "a": "S",
+        "b": "T",
+        "c": "R",
+        "d": "U",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 71,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q036",
+      "q_num": 36,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "First 12 even numbers are written from top to bottom. The letters of word ‘SACRED’ are written in alphabetical order from top to bottom against each multiple of 4 (One letter against one number). There are 2 letters between N and S. There are as many letters between E and N as between P and D. P is not against number 14. There are 5 letters between U and T. U is above T. I is written against number 6. (No letter is repeated against any number)",
+      "stem": "Which is the second letter of word formed by letters against numbers 6, 12, 14, and 20?",
+      "options": {
+        "a": "T",
+        "b": "D",
+        "c": "N",
+        "d": "I",
+        "e": "R"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q037",
+      "q_num": 37,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "First 12 even numbers are written from top to bottom. The letters of word ‘SACRED’ are written in alphabetical order from top to bottom against each multiple of 4 (One letter against one number). There are 2 letters between N and S. There are as many letters between E and N as between P and D. P is not against number 14. There are 5 letters between U and T. U is above T. I is written against number 6. (No letter is repeated against any number)",
+      "stem": "If there are 3 alphabets in English alphabetical series between alphabets written against numbers 10 and 22. Then how many alphabets in English alphabetical series are there between the alphabets written against numbers 18 and 22?",
+      "options": {
+        "a": "Three",
+        "b": "Five",
+        "c": "One",
+        "d": "Four",
+        "e": "Cannot be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 230,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q038",
+      "q_num": 38,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The rate of violent crime in this state is increased up to 30% from last year. The fault lies entirely in our system of justice. Recently our judge’s sentences have been so lenient that criminals can now do almost anything without fear of a long prison term. The argument above would be weakened if it were true that",
+      "options": {
+        "a": "85% of the other States in the nation have lower crime rates than does this state",
+        "b": "White-collar crime in this state has also increased by over 25% in the last year",
+        "c": "35% of the police in this state have been laid off in the last year due to budget cuts",
+        "d": "Polls show that 65% of the population in this state opposes capital punishment",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 316,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q039",
+      "q_num": 39,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following information carefully and answers the questions given below. There are 10 shelves numbered 1, 2…..10. They are arranged in two rows one above the other. The shelves 1, 2…….5 are in row 1 and rest in row 2 which is above row 1. The shelves are arranged in increasing order of number given to them. Like the shelf number 1 is placed on extreme left of row 1, then shelf number 2 and so on. Similarly the shelf number 6 is placed on extreme left of row 2, and so on. Each shelf contains a certain number of glass slabs and photo frames. There is at least one glass slab in each shelf. The length of each glass slab is 15 cm and that of each photo frame is 6 cm. The shelf 3 has length 33 cm. There is one shelf between shelf 3 and yellow shelf. The yellow shelf contains 1 glass slab and 6 photo frames more than that in shelf 3. The silver shelf is just above the yellow shelf. The silver shelf contains same number of glass slabs as yellow shelf and 1 photo frame. There are 2 shelves between silver and green slabs. The length of green shelf is 3 cm greater than the silver shelf. The blue shelf is immediate next in number to green shelf. The blue shelf contains 1 glass slab more than that in silver shelf and 1 photo frame less than that in green shelf. There is one shelf between blue and orange shelves. The white shelf is just below the orange shelf. There is one shelf between white and red shelf. Black shelf is in row 2. The pink shelf is just below the black shelf. The black shelf has same number of photo frames and glass slabs. The orange shelf has 1 glass slab more than black shelf. The length of orange shelf is 24 cm more than the length of pink shelf. The length of violet shelf is half the length of yellow shelf. The red shelf has greater than or equal to four glass slabs. The length of pink shelf is 6 cm less than the shelf immediate next in number. The length of row 1 is 267 cm and that of row 2 is 249 cm. Blue shelf is not next to Black shelf.",
+      "stem": "How many more photo frames can the row 2 adjust?",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "None",
+        "e": "4"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q040",
+      "q_num": 40,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following information carefully and answers the questions given below. There are 10 shelves numbered 1, 2…..10. They are arranged in two rows one above the other. The shelves 1, 2…….5 are in row 1 and rest in row 2 which is above row 1. The shelves are arranged in increasing order of number given to them. Like the shelf number 1 is placed on extreme left of row 1, then shelf number 2 and so on. Similarly the shelf number 6 is placed on extreme left of row 2, and so on. Each shelf contains a certain number of glass slabs and photo frames. There is at least one glass slab in each shelf. The length of each glass slab is 15 cm and that of each photo frame is 6 cm. The shelf 3 has length 33 cm. There is one shelf between shelf 3 and yellow shelf. The yellow shelf contains 1 glass slab and 6 photo frames more than that in shelf 3. The silver shelf is just above the yellow shelf. The silver shelf contains same number of glass slabs as yellow shelf and 1 photo frame. There are 2 shelves between silver and green slabs. The length of green shelf is 3 cm greater than the silver shelf. The blue shelf is immediate next in number to green shelf. The blue shelf contains 1 glass slab more than that in silver shelf and 1 photo frame less than that in green shelf. There is one shelf between blue and orange shelves. The white shelf is just below the orange shelf. There is one shelf between white and red shelf. Black shelf is in row 2. The pink shelf is just below the black shelf. The black shelf has same number of photo frames and glass slabs. The orange shelf has 1 glass slab more than black shelf. The length of orange shelf is 24 cm more than the length of pink shelf. The length of violet shelf is half the length of yellow shelf. The red shelf has greater than or equal to four glass slabs. The length of pink shelf is 6 cm less than the shelf immediate next in number. The length of row 1 is 267 cm and that of row 2 is 249 cm. Blue shelf is not next to Black shelf.",
+      "stem": "The color of shelf 2 is?",
+      "options": {
+        "a": "Cannot be determined",
+        "b": "Violet",
+        "c": "Red",
+        "d": "White",
+        "e": "Pink"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q041",
+      "q_num": 41,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following information carefully and answers the questions given below. There are 10 shelves numbered 1, 2…..10. They are arranged in two rows one above the other. The shelves 1, 2…….5 are in row 1 and rest in row 2 which is above row 1. The shelves are arranged in increasing order of number given to them. Like the shelf number 1 is placed on extreme left of row 1, then shelf number 2 and so on. Similarly the shelf number 6 is placed on extreme left of row 2, and so on. Each shelf contains a certain number of glass slabs and photo frames. There is at least one glass slab in each shelf. The length of each glass slab is 15 cm and that of each photo frame is 6 cm. The shelf 3 has length 33 cm. There is one shelf between shelf 3 and yellow shelf. The yellow shelf contains 1 glass slab and 6 photo frames more than that in shelf 3. The silver shelf is just above the yellow shelf. The silver shelf contains same number of glass slabs as yellow shelf and 1 photo frame. There are 2 shelves between silver and green slabs. The length of green shelf is 3 cm greater than the silver shelf. The blue shelf is immediate next in number to green shelf. The blue shelf contains 1 glass slab more than that in silver shelf and 1 photo frame less than that in green shelf. There is one shelf between blue and orange shelves. The white shelf is just below the orange shelf. There is one shelf between white and red shelf. Black shelf is in row 2. The pink shelf is just below the black shelf. The black shelf has same number of photo frames and glass slabs. The orange shelf has 1 glass slab more than black shelf. The length of orange shelf is 24 cm more than the length of pink shelf. The length of violet shelf is half the length of yellow shelf. The red shelf has greater than or equal to four glass slabs. The length of pink shelf is 6 cm less than the shelf immediate next in number. The length of row 1 is 267 cm and that of row 2 is 249 cm. Blue shelf is not next to Black shelf.",
+      "stem": "How many total glass slabs do the silver, black and red shelves contain?",
+      "options": {
+        "a": "7",
+        "b": "9",
+        "c": "10",
+        "d": "Other than those given in options",
+        "e": "12"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q042",
+      "q_num": 42,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following information carefully and answers the questions given below. There are 10 shelves numbered 1, 2…..10. They are arranged in two rows one above the other. The shelves 1, 2…….5 are in row 1 and rest in row 2 which is above row 1. The shelves are arranged in increasing order of number given to them. Like the shelf number 1 is placed on extreme left of row 1, then shelf number 2 and so on. Similarly the shelf number 6 is placed on extreme left of row 2, and so on. Each shelf contains a certain number of glass slabs and photo frames. There is at least one glass slab in each shelf. The length of each glass slab is 15 cm and that of each photo frame is 6 cm. The shelf 3 has length 33 cm. There is one shelf between shelf 3 and yellow shelf. The yellow shelf contains 1 glass slab and 6 photo frames more than that in shelf 3. The silver shelf is just above the yellow shelf. The silver shelf contains same number of glass slabs as yellow shelf and 1 photo frame. There are 2 shelves between silver and green slabs. The length of green shelf is 3 cm greater than the silver shelf. The blue shelf is immediate next in number to green shelf. The blue shelf contains 1 glass slab more than that in silver shelf and 1 photo frame less than that in green shelf. There is one shelf between blue and orange shelves. The white shelf is just below the orange shelf. There is one shelf between white and red shelf. Black shelf is in row 2. The pink shelf is just below the black shelf. The black shelf has same number of photo frames and glass slabs. The orange shelf has 1 glass slab more than black shelf. The length of orange shelf is 24 cm more than the length of pink shelf. The length of violet shelf is half the length of yellow shelf. The red shelf has greater than or equal to four glass slabs. The length of pink shelf is 6 cm less than the shelf immediate next in number. The length of row 1 is 267 cm and that of row 2 is 249 cm. Blue shelf is not next to Black shelf.",
+      "stem": "What is the total length of the pink, orange and blue shelves?",
+      "options": {
+        "a": "146 cm",
+        "b": "134 cm",
+        "c": "141 cm",
+        "d": "133 cm",
+        "e": "126 cm"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 62,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q043",
+      "q_num": 43,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following information carefully and answers the questions given below. There are 10 shelves numbered 1, 2…..10. They are arranged in two rows one above the other. The shelves 1, 2…….5 are in row 1 and rest in row 2 which is above row 1. The shelves are arranged in increasing order of number given to them. Like the shelf number 1 is placed on extreme left of row 1, then shelf number 2 and so on. Similarly the shelf number 6 is placed on extreme left of row 2, and so on. Each shelf contains a certain number of glass slabs and photo frames. There is at least one glass slab in each shelf. The length of each glass slab is 15 cm and that of each photo frame is 6 cm. The shelf 3 has length 33 cm. There is one shelf between shelf 3 and yellow shelf. The yellow shelf contains 1 glass slab and 6 photo frames more than that in shelf 3. The silver shelf is just above the yellow shelf. The silver shelf contains same number of glass slabs as yellow shelf and 1 photo frame. There are 2 shelves between silver and green slabs. The length of green shelf is 3 cm greater than the silver shelf. The blue shelf is immediate next in number to green shelf. The blue shelf contains 1 glass slab more than that in silver shelf and 1 photo frame less than that in green shelf. There is one shelf between blue and orange shelves. The white shelf is just below the orange shelf. There is one shelf between white and red shelf. Black shelf is in row 2. The pink shelf is just below the black shelf. The black shelf has same number of photo frames and glass slabs. The orange shelf has 1 glass slab more than black shelf. The length of orange shelf is 24 cm more than the length of pink shelf. The length of violet shelf is half the length of yellow shelf. The red shelf has greater than or equal to four glass slabs. The length of pink shelf is 6 cm less than the shelf immediate next in number. The length of row 1 is 267 cm and that of row 2 is 249 cm. Blue shelf is not next to Black shelf.",
+      "stem": "If all the photo frames of silver and white shelves are removed and added in black shelf then what will be the total length of black shelf now?",
+      "options": {
+        "a": "67 cm",
+        "b": "66 cm",
+        "c": "61 cm",
+        "d": "69 cm",
+        "e": "62 cm"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q044",
+      "q_num": 44,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "During the SARS days, about 23,500 doctors who had treated SARS sufferers died and about 23,670 doctors who had not engaged in treatment for SARS sufferers died. On the basis of those figures, it can be concluded that it was not much more figures, it can be concluded that it was not much more dangerous to participate in SARS treatment during the SARS day than it was not to participate in SARS treatment. Which of the following would reveal most clearly the absurdity of the conclusion drawn above?",
+      "options": {
+        "a": "Counting deaths among doctors who had participated in SARS treatment in addition to deaths among doctors who had not participated is SARS treatment",
+        "b": "Expressing the difference between the numbers of deaths among doctors who had treated SARS sufferers and doctors who had not treated SARS suffers as a percentage of the total number of deaths ( (",
+        "c": "Separating deaths caused by accidents during the treatment to SARS suffers from deaths caused by infect of SARS suffers",
+        "d": "Comparing death rates per thousand members of each group rather than comparing total numbers of deaths",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 500,
+        "page_start": 7,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q045",
+      "q_num": 45,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Study the following information carefully and answer the questions given below. Following are the conditions for selecting Marketing Manager in an organization. The Candidate must- (i) Be a Graduate in any discipline with at least 55% marks. (ii) Have secured at least 40% marks in the selection interview. (iii) Have post qualification work experience of at least five years in the Marketing division of an organization. (iv) Have secured at least 45% marks in the selection examination. (v) Have a post Graduate degree/diploma in Marketing-Management with at least 60% marks. Study the following information carefully and find which of the following condition shows candidate is not selected?",
+      "options": {
+        "a": "Candidate is daughter of a renowned freedom fighter from another state",
+        "b": "Candidate has a post Graduate degree in Finance with 60% marks",
+        "c": "Candidate has completed his graduation with 80% marks",
+        "d": "Candidate does not own a house in Noida",
+        "e": "Candidate has secured 56% marks in Cap Gemini’s interview"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 694,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q046",
+      "q_num": 46,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: Number of ways of arranging 5 men and 5 women such that no two men or women are adjacent to each other. Quantity II: Number of ways of arranging 5 men and 5 women such that all men sit together.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 206,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q047",
+      "q_num": 47,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: Value of ‘a’ if ‘s’ is an acute angle and PR ∥ QT. Quantity II: Probability of picking up a card, the number printed on which is a multiple of 8 but not that of 16.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation Directions (49): Given question consist of 3 statements A, B and C. You have to determine that which of the following statement/statements are necessary to answer the questions:"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 176,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q048",
+      "q_num": 48,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There are 63 cards in a box numbered from 1 to 63. Every card is numbered with only 1 number. Quantity I: Probability of picking up a card whose digits, if interchanged, result in a number which is 36 more than the number picked up. C. value of n is greater than m.",
+      "options": {
+        "a": "Only A is sufficient",
+        "b": "Only B is sufficient",
+        "c": "Only C is sufficient",
+        "d": "Any two of them is sufficient",
+        "e": "Data is not sufficient and it requires more information to answer the given question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 265,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q049",
+      "q_num": 49,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If m and n are integers then is n completely divisible by 10? A. The value of m + n ) is an integer value. B. The value of m n ) is an integer value. Quantity II: 25°",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 166,
+        "page_start": 8,
+        "page_end": 8
+      }
+    }
+  ]
+}

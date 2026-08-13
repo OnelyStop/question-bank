@@ -1,0 +1,314 @@
+{
+  "paper_id": "sbi_po_2025_mains_unknown_shift_af4534b2",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2025/Mains/_unknown_shift/SBI-PO-Mains-Quant-Memory-Based-Paper-13-09-2025.pdf",
+    "sha256": "af4534b2753543f04f2751b185727e1a80f3fbdbb008bf70d5929bf8f091b49e",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/06/19140217/SBI-PO-Mains-Quant-Memory-Based-Paper-13-09-2025.pdf",
+    "source_filename": "SBI-PO-Mains-Quant-Memory-Based-Paper-13-09-2025.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2025,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 11,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the pattern of the series and answer the question given below. Series P: a, a + 2, 2a -2, 3a, a, 3a +2, 1.5a -1 Note: a is the smallest prime number. Find the fourth term of the series.",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "5",
+        "d": "3",
+        "e": "7"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 190,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the pattern of the series and answer the question given below. Series: 16X, 48000, 16000, 4000, Y, 133 1/3 Find the value of X/3 – 1.5Y.",
+      "options": {
+        "a": "10200",
+        "b": "9500",
+        "c": "12000",
+        "d": "8000",
+        "e": "7500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 141,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Find the pattern of the series and answer the question given below. Series: n, (n+1), (n + 2)², ((n + 1)³- 2³), ((3x)²+11), m Note: The root of the equation x² - 6x + 9 = 0 is equal to n. Find the value of m.",
+      "options": {
+        "a": "150.5",
+        "b": "142.5",
+        "c": "92",
+        "d": "125.5",
+        "e": "130.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 208,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Read the following charts carefully and answer the questions given below. The donut chart shows the degree distribution of the total number of tires (bus + truck) manufactured by a company in three different months. The line chart shows the percentage of bus tires sold (out of bus tires manufacture",
+      "stem": "The total number of bus tires and truck tires manufactured in May is in the ratio of (x-4) : √121 respectively. If the total number of unsold bus tires in May is 21, then find which of the statement/s is/are correct.\nI. Total number of tires (bus + truck) manufactured in June > 225\nII. Total number of truck tires manufactured in May < 68. III. Total number of unsold truck tires in May is multiple of",
+      "options": {
+        "d": "by the company in these months"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 1,
+        "stem_char_len": 402,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The total number of truck tires manufactured in April is 4x+3 and the total number of bus tires manufactured in April is 33.33% less than that of truck tires. Quantity I: Total number of tires (bus + truck) manufactured in June. Quantity II: Total number of bus tires and truck tires together sold and in April.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 311,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Which of the statement/s is/are sufficient to find the number of unsold truck tires in May. Statement I: Total number of tires (bus + truck) manufactured in July is 20x which is 20% less than the total number of tires (bus + truck) manufactured in June. Statement II: Total number of tires (bus + truck) sold in May is 192.",
+      "options": {
+        "a": "Only I",
+        "b": "Both together",
+        "c": "Neither I nor II",
+        "d": "Either I or II",
+        "e": "Only II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 323,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The total number of bus tires sold in April is 90, and the total number of unsold truck tires in April is 2.5x. Find the difference between the total number of tires (bus + truck) manufactured in June and the number of unsold bus tires in May.",
+      "options": {
+        "a": "84",
+        "b": "204",
+        "c": "Can’t be determined",
+        "d": "180",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 243,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The difference between the total number of tires (bus + truck) manufactured in June and April is (x+2)², and the total number of bus tires sold in May is 120 more than that of the truck. Find the total number of unsold tires (bus + truck) in May.",
+      "options": {
+        "a": "(x/2)²",
+        "b": "(x - 12)³",
+        "c": "3888/x",
+        "d": "Both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 246,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the following information carefully and answer the questions given below. The information is about the total number of students (boys and girls) registered in an exam in three years. 2021: 90% of the total number of students appeared in the exam out of the total number of students registered in the exam. 2022: 75% of the total number of students registered for the exam out of the total number of students appeared in the exam in 2021. 2023: 20% of the total number of students did not appeared in the exam out of the total number of students registered in the exam in 2022.",
+      "stem": "The total number of students not qualified in the exam in 2021 is 162, which is 170% more than the total number of students did not appeared in the exam in 2021. If the total number of students appeared in the exam in 2023 is 190, then find the total number of students registered in the exam in 2023.",
+      "options": {
+        "a": "271",
+        "b": "280",
+        "c": "322",
+        "d": "303",
+        "e": "299"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 301,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the following information carefully and answer the questions given below. The information is about the total number of students (boys and girls) registered in an exam in three years. 2021: 90% of the total number of students appeared in the exam out of the total number of students registered in the exam. 2022: 75% of the total number of students registered for the exam out of the total number of students appeared in the exam in 2021. 2023: 20% of the total number of students did not appeared in the exam out of the total number of students registered in the exam in 2022.",
+      "stem": "The difference between the total number of students did not appeared in 2023 and in 2021 is 14. If the total number of students appeared in 2022 is 140, then find the average number of students registered in 2021 and number of students did not appeared 2022.",
+      "options": {
+        "a": "290",
+        "b": "320",
+        "c": "270",
+        "d": "315",
+        "e": "265"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 258,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_af4534b2::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Question 11.",
+      "options": {
+        "a": "Only II",
+        "b": "Both I & II",
+        "c": "Both I & III",
+        "d": "Both II & III",
+        "e": "Only I April (5x)0 May (4.5x+2 7)0 June (10x- 18)0 DEGREE DISTRIBUTION OF THE TOTAL NUMBER OF TIRES MANUFACTURED April May June Percentage of bus tires sold Percentage of truck tires sold"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 12,
+        "page_start": 1,
+        "page_end": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1318 @@
+{
+  "paper_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c",
+  "subject": "Reasoning",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2019/Mains/_unknown_shift/SBI-Clerk-Mains-2019.pdf",
+    "sha256": "3778ee5c436442b00c4b5708dbb186bb0225cf05703492410decc805aedadd10",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2024/11/19183015/SBI-Clerk-Mains-2019.pdf",
+    "source_filename": "SBI-Clerk-Mains-2019.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2019,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 48,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q011",
+      "q_num": 11,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In the word ‘HOUSEWARMING’ all consonants are written as their preceding letter and all vowels are written as their following letters. Now all letters are arranged in alphabetical order from left to right and all the repeated letters are eliminated. Then, how many such pairs of letters are there, each of which have as many letters between them in the word (in both forward and backward direction) as they have between them in the English alphabetical series?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Four",
+        "d": "Three",
+        "e": "More than four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 460,
+        "page_start": null,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q012",
+      "q_num": 12,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If we form the word by 1st, 3rd and 5th letter of ‘FORMATION’ and 3rd and 4th letter of ‘WOMEN’ then, what will be the 3rd letter from right?",
+      "options": {
+        "a": "R",
+        "b": "A",
+        "c": "M",
+        "d": "E",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 141,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q013",
+      "q_num": 13,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. A%B (28)- A is 42m in north of B A$B (13)- A is 27m in south of B A#B (24)- A is 28 in east of B A&B (25)- A is 29m in west of B M#L (10), N%M (11), O&N (13), P$O (31), Q#P (38), R%Q (6)",
+      "stem": "N is in which direction with respect to Q?",
+      "options": {
+        "a": "North",
+        "b": "West",
+        "c": "North-west",
+        "d": "East",
+        "e": "South-east"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q014",
+      "q_num": 14,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. A%B (28)- A is 42m in north of B A$B (13)- A is 27m in south of B A#B (24)- A is 28 in east of B A&B (25)- A is 29m in west of B M#L (10), N%M (11), O&N (13), P$O (31), Q#P (38), R%Q (6)",
+      "stem": "If Z is the midpoint of the line formed between M and R, then what is the distance between L and Z?",
+      "options": {
+        "a": "35.5m",
+        "b": "34m",
+        "c": "36.5m",
+        "d": "37.5m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 99,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q015",
+      "q_num": 15,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. A%B (28)- A is 42m in north of B A$B (13)- A is 27m in south of B A#B (24)- A is 28 in east of B A&B (25)- A is 29m in west of B M#L (10), N%M (11), O&N (13), P$O (31), Q#P (38), R%Q (6)",
+      "stem": "What is the distance between L and R?",
+      "options": {
+        "a": "50m",
+        "b": "51m",
+        "c": "46m",
+        "d": "48m",
+        "e": "49m"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q016",
+      "q_num": 16,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In the following questions, the symbols %, &, #, * and @ are used with the following meaning as illustrated below- ‘P#Q’ means ‘P is not greater than Q’ ‘P*Q’ means ‘P is neither equal to nor smaller than Q’ ‘P%Q’ means ‘P is not smaller than Q’ ‘P@Q’ means ‘P is neither smaller than nor greater than Q’ ‘P&Q’ means ‘P is neither greater than nor equal to Q’ Now in each of the following questions assuming the given statement to be true, find which of the conclusions given below them is/are definitely true and give your answer accordingly.",
+      "stem": "Statements: N * Q % R % O & P @ M Conclusions:\nI. N % O\nII. O & M",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q017",
+      "q_num": 17,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In the following questions, the symbols %, &, #, * and @ are used with the following meaning as illustrated below- ‘P#Q’ means ‘P is not greater than Q’ ‘P*Q’ means ‘P is neither equal to nor smaller than Q’ ‘P%Q’ means ‘P is not smaller than Q’ ‘P@Q’ means ‘P is neither smaller than nor greater than Q’ ‘P&Q’ means ‘P is neither greater than nor equal to Q’ Now in each of the following questions assuming the given statement to be true, find which of the conclusions given below them is/are definitely true and give your answer accordingly.",
+      "stem": "Statements: A # B * C * D & E Conclusions:\nI. A * D\nII. D & B",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q018",
+      "q_num": 18,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In the following questions, the symbols %, &, #, * and @ are used with the following meaning as illustrated below- ‘P#Q’ means ‘P is not greater than Q’ ‘P*Q’ means ‘P is neither equal to nor smaller than Q’ ‘P%Q’ means ‘P is not smaller than Q’ ‘P@Q’ means ‘P is neither smaller than nor greater than Q’ ‘P&Q’ means ‘P is neither greater than nor equal to Q’ Now in each of the following questions assuming the given statement to be true, find which of the conclusions given below them is/are definitely true and give your answer accordingly.",
+      "stem": "Statements: K % J * H % G; H * S % T Conclusions:\nI. H & K\nII. T * J",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q019",
+      "q_num": 19,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In the following questions, the symbols %, &, #, * and @ are used with the following meaning as illustrated below- ‘P#Q’ means ‘P is not greater than Q’ ‘P*Q’ means ‘P is neither equal to nor smaller than Q’ ‘P%Q’ means ‘P is not smaller than Q’ ‘P@Q’ means ‘P is neither smaller than nor greater than Q’ ‘P&Q’ means ‘P is neither greater than nor equal to Q’ Now in each of the following questions assuming the given statement to be true, find which of the conclusions given below them is/are definitely true and give your answer accordingly.",
+      "stem": "Statements: B # D @ F # G * H % C Conclusions:\nI. B & G\nII. G @ B",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q020",
+      "q_num": 20,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In the following questions, the symbols %, &, #, * and @ are used with the following meaning as illustrated below- ‘P#Q’ means ‘P is not greater than Q’ ‘P*Q’ means ‘P is neither equal to nor smaller than Q’ ‘P%Q’ means ‘P is not smaller than Q’ ‘P@Q’ means ‘P is neither smaller than nor greater than Q’ ‘P&Q’ means ‘P is neither greater than nor equal to Q’ Now in each of the following questions assuming the given statement to be true, find which of the conclusions given below them is/are definitely true and give your answer accordingly.",
+      "stem": "Statements: V % W & K # L; W * P @ M Conclusions:\nI. M & L\nII. V * W",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 68,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q021",
+      "q_num": 21,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are sitting in a row. Some of them are facing North and Some are facing South. They are of different ages. Person whose age is even numbered doesn’t sit immediate right of the person whose age is even numbered. Two persons sit between P and T and one of them sits at extreme end. Three persons are sitting between the persons whose age is 14 and 42. Person whose age is 15 sits 2nd to the left of T. There are as many persons sit between T and person whose age is 15 as between the persons whose ages are 15 and 28. Q sits immediate right of the person whose age is 15. One person sits between S and U and neither of them sit at extreme end. Q is older than R. T whose age is even numbered is older than U who faces North. Person whose age is 20 sits 3rd to the left of the person whose age is 19.",
+      "stem": "How many persons are sitting between R and the person whose age is 20?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "Two",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q022",
+      "q_num": 22,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are sitting in a row. Some of them are facing North and Some are facing South. They are of different ages. Person whose age is even numbered doesn’t sit immediate right of the person whose age is even numbered. Two persons sit between P and T and one of them sits at extreme end. Three persons are sitting between the persons whose age is 14 and 42. Person whose age is 15 sits 2nd to the left of T. There are as many persons sit between T and person whose age is 15 as between the persons whose ages are 15 and 28. Q sits immediate right of the person whose age is 15. One person sits between S and U and neither of them sit at extreme end. Q is older than R. T whose age is even numbered is older than U who faces North. Person whose age is 20 sits 3rd to the left of the person whose age is 19.",
+      "stem": "Who among the following sits immediate right of U?",
+      "options": {
+        "a": "S",
+        "b": "Person whose age is",
+        "c": "T",
+        "d": "Person whose age is",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 50,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q023",
+      "q_num": 23,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are sitting in a row. Some of them are facing North and Some are facing South. They are of different ages. Person whose age is even numbered doesn’t sit immediate right of the person whose age is even numbered. Two persons sit between P and T and one of them sits at extreme end. Three persons are sitting between the persons whose age is 14 and 42. Person whose age is 15 sits 2nd to the left of T. There are as many persons sit between T and person whose age is 15 as between the persons whose ages are 15 and 28. Q sits immediate right of the person whose age is 15. One person sits between S and U and neither of them sit at extreme end. Q is older than R. T whose age is even numbered is older than U who faces North. Person whose age is 20 sits 3rd to the left of the person whose age is 19.",
+      "stem": "What is the position of Q with respect to the 2nd youngest person?",
+      "options": {
+        "a": "2nd to the right",
+        "b": "Immediate left",
+        "c": "Immediate right",
+        "d": "2nd to the left",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 66,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q024",
+      "q_num": 24,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are sitting in a row. Some of them are facing North and Some are facing South. They are of different ages. Person whose age is even numbered doesn’t sit immediate right of the person whose age is even numbered. Two persons sit between P and T and one of them sits at extreme end. Three persons are sitting between the persons whose age is 14 and 42. Person whose age is 15 sits 2nd to the left of T. There are as many persons sit between T and person whose age is 15 as between the persons whose ages are 15 and 28. Q sits immediate right of the person whose age is 15. One person sits between S and U and neither of them sit at extreme end. Q is older than R. T whose age is even numbered is older than U who faces North. Person whose age is 20 sits 3rd to the left of the person whose age is 19.",
+      "stem": "What is the age of the person who sits immediate left of S?",
+      "options": {
+        "a": "14",
+        "b": "15",
+        "c": "28",
+        "d": "19",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q025",
+      "q_num": 25,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are sitting in a row. Some of them are facing North and Some are facing South. They are of different ages. Person whose age is even numbered doesn’t sit immediate right of the person whose age is even numbered. Two persons sit between P and T and one of them sits at extreme end. Three persons are sitting between the persons whose age is 14 and 42. Person whose age is 15 sits 2nd to the left of T. There are as many persons sit between T and person whose age is 15 as between the persons whose ages are 15 and 28. Q sits immediate right of the person whose age is 15. One person sits between S and U and neither of them sit at extreme end. Q is older than R. T whose age is even numbered is older than U who faces North. Person whose age is 20 sits 3rd to the left of the person whose age is 19.",
+      "stem": "How many persons are facing North?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "One",
+        "d": "None",
+        "e": "More than three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 2,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q026",
+      "q_num": 26,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-6 (for ex- B is coded as 1, C- 2……….H-6) and again those numbers get repeated (for ex- J-1, K-2…….so on). And for the codes of Vowels is starts from the numeric code of Z i.e. if the code of Z is 2 then the code of vowel A is 2 and code of E is 3 and so on till U which is coded as 6. Note: The code of vowels lies in the range of 1 to 7. Besides the above information, following operations are to be applied for coding the words given in the questions below. If the two immediate digits are same (in the cod",
+      "stem": "If the code for the word ‘SE_ _ED’ is coded as ‘3T3 3’ then what letters will come in the fill in the blanks to make it a meaningful word?",
+      "options": {
+        "a": "RV",
+        "b": "AL",
+        "c": "EM",
+        "d": "AD",
+        "e": "Either"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 140,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q027",
+      "q_num": 27,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-6 (for ex- B is coded as 1, C- 2……….H-6) and again those numbers get repeated (for ex- J-1, K-2…….so on). And for the codes of Vowels is starts from the numeric code of Z i.e. if the code of Z is 2 then the code of vowel A is 2 and code of E is 3 and so on till U which is coded as 6. Note: The code of vowels lies in the range of 1 to 7. Besides the above information, following operations are to be applied for coding the words given in the questions below. If the two immediate digits are same (in the cod",
+      "stem": "Which of the following word will be coded as ‘34623’?\nI. SMOKED\nII. STAKED III. STOKED",
+      "options": {
+        "a": "Only I",
+        "b": "Only II",
+        "c": "Either II or III",
+        "d": "Either I or III",
+        "e": "All of the three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q028",
+      "q_num": 28,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-6 (for ex- B is coded as 1, C- 2……….H-6) and again those numbers get repeated (for ex- J-1, K-2…….so on). And for the codes of Vowels is starts from the numeric code of Z i.e. if the code of Z is 2 then the code of vowel A is 2 and code of E is 3 and so on till U which is coded as 6. Note: The code of vowels lies in the range of 1 to 7. Besides the above information, following operations are to be applied for coding the words given in the questions below. If the two immediate digits are same (in the cod",
+      "stem": "Which of the following combination of the words and codes is/are true?",
+      "options": {
+        "a": "SLOWLY - 36 2",
+        "b": "BELIEVE- 1344",
+        "c": "BURNT- 1724",
+        "d": "ADVERB- 3 41",
+        "e": "All are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q029",
+      "q_num": 29,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-6 (for ex- B is coded as 1, C- 2……….H-6) and again those numbers get repeated (for ex- J-1, K-2…….so on). And for the codes of Vowels is starts from the numeric code of Z i.e. if the code of Z is 2 then the code of vowel A is 2 and code of E is 3 and so on till U which is coded as 6. Note: The code of vowels lies in the range of 1 to 7. Besides the above information, following operations are to be applied for coding the words given in the questions below. If the two immediate digits are same (in the cod",
+      "stem": "If the code for the words ‘BEAST MODE _____’ is coded as ‘13 4 6 2 4634’ in the given coded pattern, then what will be the missing word?",
+      "options": {
+        "a": "CLUB",
+        "b": "WORK",
+        "c": "STUN",
+        "d": "WORN",
+        "e": "Either"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 137,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q030",
+      "q_num": 30,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-6 (for ex- B is coded as 1, C- 2……….H-6) and again those numbers get repeated (for ex- J-1, K-2…….so on). And for the codes of Vowels is starts from the numeric code of Z i.e. if the code of Z is 2 then the code of vowel A is 2 and code of E is 3 and so on till U which is coded as 6. Note: The code of vowels lies in the range of 1 to 7. Besides the above information, following operations are to be applied for coding the words given in the questions below. If the two immediate digits are same (in the cod",
+      "stem": "What is the code for ‘NECKLACE’?",
+      "options": {
+        "a": "42 1353",
+        "b": "42 23",
+        "c": "421 353",
+        "d": "42 1335",
+        "e": "None of these Direction (31): Study the following information carefully and answer the questions given below: Eight persons are sitting in a row and all are facing North. Only two persons sit to the right of A. Two persons sit between A and B. Three persons sit between C and G. E and G are immediate neighbors of B. D sits immediate left of E. F sits 2nd to the right of H"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 32,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q031",
+      "q_num": 31,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many persons are sitting right of G?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q032",
+      "q_num": 32,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Rooftop solar power growth has demonstrated an overall positive trend, But this will need to be scaled up massively to achieve the national target. Assumption: (I) With ongoing improvements to solar cell efficiency and battery technology, rooftops will only get more attractive in the future. (II) Major solar projects that connect to the grid often face the challenge of land acquisition and transmission connectivity. (III) A survey helps determine usable rooftops, separating them from green spaces, and analyses the quality of the solar resource.",
+      "options": {
+        "a": "Only II follows",
+        "b": "Both II and III follows",
+        "c": "Both I and III follows",
+        "d": "Only I follows",
+        "e": "Both I and II follows"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 550,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q033",
+      "q_num": 33,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "To provide proper education, we need to improve our education system. To improve education system, we need good teachers. To provide good teachers, we again need good education. In India there are some good institutes too but most of the students opt for a job rather than trying the career in teaching field which requires post-graduation as minimum eligibility criteria because they do not get a good salary there. Course of Action- (I) The Salary of the teachers should be hiked to encourage them for opting teaching. (II) The minimum eligibility criterion to be a teacher should be graduate rather than post-graduation and PhD to become a teacher as students can get a job even after graduation.",
+      "options": {
+        "a": "Only II follows",
+        "b": "Only I follows",
+        "c": "Either I or II follows",
+        "d": "Neither I nor II follows",
+        "e": "Both I and II follows"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 699,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q034",
+      "q_num": 34,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are working in a company. Their designations are Chief Executive Officer (CEO), Chief Managing Director (CMD), Managing Director (MD), General Manager (GM), Chief Finance Officer (CFO), Finance Officer (FO). Sequence of the posts are as above i.e. the post of Chief Executive Officer (CEO) is higher than Chief Managing Director (CMD), the post of Chief Managing Director (CM",
+      "stem": "Who among the following has lowest salary?",
+      "options": {
+        "a": "Person who is CMD",
+        "b": "Person who have 6 years’ experience",
+        "c": "Person who is GM",
+        "d": "Person who have lowest experience",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q035",
+      "q_num": 35,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are working in a company. Their designations are Chief Executive Officer (CEO), Chief Managing Director (CMD), Managing Director (MD), General Manager (GM), Chief Finance Officer (CFO), Finance Officer (FO). Sequence of the posts are as above i.e. the post of Chief Executive Officer (CEO) is higher than Chief Managing Director (CMD), the post of Chief Managing Director (CM",
+      "stem": "Person who is GM have how many years’ experience?",
+      "options": {
+        "a": "3 years",
+        "b": "4 years",
+        "c": "5 years",
+        "d": "8 years",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q036",
+      "q_num": 36,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are working in a company. Their designations are Chief Executive Officer (CEO), Chief Managing Director (CMD), Managing Director (MD), General Manager (GM), Chief Finance Officer (CFO), Finance Officer (FO). Sequence of the posts are as above i.e. the post of Chief Executive Officer (CEO) is higher than Chief Managing Director (CMD), the post of Chief Managing Director (CM",
+      "stem": "How many persons are senior than the person whose annual salary is 14 lakhs?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "More than three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q037",
+      "q_num": 37,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are working in a company. Their designations are Chief Executive Officer (CEO), Chief Managing Director (CMD), Managing Director (MD), General Manager (GM), Chief Finance Officer (CFO), Finance Officer (FO). Sequence of the posts are as above i.e. the post of Chief Executive Officer (CEO) is higher than Chief Managing Director (CMD), the post of Chief Managing Director (CM",
+      "stem": "Which of the following is the annual salary of the person who is CFO?",
+      "options": {
+        "a": "4 lakhs",
+        "b": "5 lakhs",
+        "c": "7 lakhs",
+        "d": "9 lakhs",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q038",
+      "q_num": 38,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Six persons are working in a company. Their designations are Chief Executive Officer (CEO), Chief Managing Director (CMD), Managing Director (MD), General Manager (GM), Chief Finance Officer (CFO), Finance Officer (FO). Sequence of the posts are as above i.e. the post of Chief Executive Officer (CEO) is higher than Chief Managing Director (CMD), the post of Chief Managing Director (CM",
+      "stem": "Which of the following pair of combination is/are true?",
+      "options": {
+        "a": "CMD - 4 lakhs",
+        "b": "GM – 7 years",
+        "c": "MD – 6 lakhs",
+        "d": "CFO – 5 lakhs",
+        "e": "None is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 55,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q039",
+      "q_num": 39,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "There are some criteria which will be considered during appraisal of employee-Statement by manager of a company. • Punctuality and sincerity are one of the key points which will surely reviewed. ⚫ Hard work and dedication towards work will be applauded. ⚫ Just to quantify an amount in the salary package of employee with no reason will not be entertained.",
+      "stem": "Which of the following can be inferred from the above statement?\nI. Punching machine of office will be evaluated by HR.\nII. There will be minimum 10% increment for deserving employee based on their performance. III. Some of employees of company have done a tremendous job with complete determination and enthusiasm.",
+      "options": {
+        "a": "Only I",
+        "b": "Both II and III",
+        "c": "Both I and III",
+        "d": "Only III",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 315,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q040",
+      "q_num": 40,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "There are some criteria which will be considered during appraisal of employee-Statement by manager of a company. • Punctuality and sincerity are one of the key points which will surely reviewed. ⚫ Hard work and dedication towards work will be applauded. ⚫ Just to quantify an amount in the salary package of employee with no reason will not be entertained.",
+      "stem": "Which of the following undermines the statement given by Manager?\nI. Increment of 15% has been done for all the employees whose 1 year is completed.\nII. Performance chart has been prepared by leaders of different department based on their proficiency. III. Relaxation time for late coming of 240 minutes in a year i.e. of 10 minutes twice in a month is given to all employees.",
+      "options": {
+        "a": "Only II",
+        "b": "Both II and III",
+        "c": "Both I and III",
+        "d": "Only I",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 376,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q041",
+      "q_num": 41,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information and answer the questions given below: There are nine boxes which are kept one above the other such that the box which is placed at the bottom most position is numbered 1 and so on till the box which is placed at the top position is numbered 9. All the boxes contain different number of pens in it. Note: The number of pens in a box is equal to the multiple of the place number of the box which is kept immediately above it i.e. The number of pens in the box which is kept at the bottom is equal to the multiple of is 2, 4, 6… and so on and the number of pens in the box which is placed at the top (9th position) is 10, 20, 30 and so on. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position.",
+      "stem": "Which among the following box contains 42 pens?",
+      "options": {
+        "a": "Box D",
+        "b": "Box H",
+        "c": "Box B",
+        "d": "Box E",
+        "e": "Box I"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q042",
+      "q_num": 42,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information and answer the questions given below: There are nine boxes which are kept one above the other such that the box which is placed at the bottom most position is numbered 1 and so on till the box which is placed at the top position is numbered 9. All the boxes contain different number of pens in it. Note: The number of pens in a box is equal to the multiple of the place number of the box which is kept immediately above it i.e. The number of pens in the box which is kept at the bottom is equal to the multiple of is 2, 4, 6… and so on and the number of pens in the box which is placed at the top (9th position) is 10, 20, 30 and so on. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position.",
+      "stem": "How many boxes are kept above box F?",
+      "options": {
+        "a": "Three",
+        "b": "Two",
+        "c": "Four",
+        "d": "Five",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q043",
+      "q_num": 43,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information and answer the questions given below: There are nine boxes which are kept one above the other such that the box which is placed at the bottom most position is numbered 1 and so on till the box which is placed at the top position is numbered 9. All the boxes contain different number of pens in it. Note: The number of pens in a box is equal to the multiple of the place number of the box which is kept immediately above it i.e. The number of pens in the box which is kept at the bottom is equal to the multiple of is 2, 4, 6… and so on and the number of pens in the box which is placed at the top (9th position) is 10, 20, 30 and so on. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position.",
+      "stem": "Number of boxes between I and the box having 63 pens is same between the box B and the box?",
+      "options": {
+        "a": "Box G",
+        "b": "42 pens",
+        "c": "81 pens",
+        "d": "Box C",
+        "e": "Both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q044",
+      "q_num": 44,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information and answer the questions given below: There are nine boxes which are kept one above the other such that the box which is placed at the bottom most position is numbered 1 and so on till the box which is placed at the top position is numbered 9. All the boxes contain different number of pens in it. Note: The number of pens in a box is equal to the multiple of the place number of the box which is kept immediately above it i.e. The number of pens in the box which is kept at the bottom is equal to the multiple of is 2, 4, 6… and so on and the number of pens in the box which is placed at the top (9th position) is 10, 20, 30 and so on. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position.",
+      "stem": "Box F contains how many pens?",
+      "options": {
+        "a": "25",
+        "b": "42",
+        "c": "63",
+        "d": "81",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q045",
+      "q_num": 45,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "Study the following information and answer the questions given below: There are nine boxes which are kept one above the other such that the box which is placed at the bottom most position is numbered 1 and so on till the box which is placed at the top position is numbered 9. All the boxes contain different number of pens in it. Note: The number of pens in a box is equal to the multiple of the place number of the box which is kept immediately above it i.e. The number of pens in the box which is kept at the bottom is equal to the multiple of is 2, 4, 6… and so on and the number of pens in the box which is placed at the top (9th position) is 10, 20, 30 and so on. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position.",
+      "stem": "Total number of pens in the boxes A, G and I is?",
+      "options": {
+        "a": "153",
+        "b": "149",
+        "c": "155",
+        "d": "151",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q046",
+      "q_num": 46,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Begusarai, a district in Bihar which has seen the phase of kidnapping, extortion, murder to “The Industrial city of Bihar”. Nowadays there are 4 major industries in Begusarai. Growth rate of Begusarai is top amongst all districts of Bihar and 5th among all districts of India in year 2017. Which of the following can be inferred from the above statement?\nI. Opportunities of the employment has been increased in Begusarai.\nII. There is no case of murder, kidnapping and extortion in 2017. III. People of Begusarai are hardworking and keen to go forward. IV. Top industrialists of India are desirous to have their industry in Begusarai.",
+      "options": {
+        "a": "Only II",
+        "b": "Only I and III",
+        "c": "Only I",
+        "d": "Only III and IV",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 635,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q048",
+      "q_num": 48,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "(48-50): Study the following information carefully and answer the questions which follow– ‘T @ U’ means ‘T is parent of U (either mother or father)’ ‘T # U’ means ‘T is sister of U’ ‘T $ U’ means ‘U is grandchild of T’ ‘T % U’ means ‘T is brother of U’ ‘T & U’ means ‘T is the son-in-law of U’ ‘T * U’ means ‘T is the wife of U’ ‘T © U’ means ‘U is the mother of T’ There are some members in a family having three generation. The relation between the different members of the family are defined as follows. U@G#J C&I F%H*C B@H G*F%H©I J©A$D B$E",
+      "stem": "If D is the only child of F, then how is D related to U?",
+      "options": {
+        "a": "Son",
+        "b": "Grandson",
+        "c": "Daughter",
+        "d": "Grand daughter",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 56,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q049",
+      "q_num": 49,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "(48-50): Study the following information carefully and answer the questions which follow– ‘T @ U’ means ‘T is parent of U (either mother or father)’ ‘T # U’ means ‘T is sister of U’ ‘T $ U’ means ‘U is grandchild of T’ ‘T % U’ means ‘T is brother of U’ ‘T & U’ means ‘T is the son-in-law of U’ ‘T * U’ means ‘T is the wife of U’ ‘T © U’ means ‘U is the mother of T’ There are some members in a family having three generation. The relation between the different members of the family are defined as follows. U@G#J C&I F%H*C B@H G*F%H©I J©A$D B$E",
+      "stem": "If A has only one son, then how is J related to F?",
+      "options": {
+        "a": "Son",
+        "b": "Brother-in-law",
+        "c": "Brother",
+        "d": "Father",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 50,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q050",
+      "q_num": 50,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "(48-50): Study the following information carefully and answer the questions which follow– ‘T @ U’ means ‘T is parent of U (either mother or father)’ ‘T # U’ means ‘T is sister of U’ ‘T $ U’ means ‘U is grandchild of T’ ‘T % U’ means ‘T is brother of U’ ‘T & U’ means ‘T is the son-in-law of U’ ‘T * U’ means ‘T is the wife of U’ ‘T © U’ means ‘U is the mother of T’ There are some members in a family having three generation. The relation between the different members of the family are defined as follows. U@G#J C&I F%H*C B@H G*F%H©I J©A$D B$E",
+      "stem": "If D has no sibling and B has no granddaughter, then how is E related to C?",
+      "options": {
+        "a": "Daughter",
+        "b": "Wife",
+        "c": "Nephew",
+        "d": "Son",
+        "e": "Cannot be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q051",
+      "q_num": 51,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If difference of notes on which 50% return is given and on which 80% return is given of PNB is 1000, then find number of notes on which 100% return is given by PNB are what percent of total notes received by BOB?",
+      "options": {
+        "a": "12.5%",
+        "b": "37.5%",
+        "c": "50%",
+        "d": "25%",
+        "e": "62.5%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 212,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q052",
+      "q_num": 52,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If total number of notes on which BOI gave 100% return and 50% return are 13500, then find total amount received by BOI is how much more or less than total amount received by Axis bank?",
+      "options": {
+        "a": "Rs.1,20,000",
+        "b": "Rs.1,00,000",
+        "c": "Rs.1,50,000",
+        "d": "Rs.1,60,000",
+        "e": "Rs.1,80,000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 185,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q053",
+      "q_num": 53,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If ratio of notes on which (50% return : 80% return) is given by BOB is same as ratio of notes on which (50% return : 80% return) is given by Axis bank and number of notes on which BOB gave 100% return are 20% less than total notes received by PNB, then find ratio of notes on which BOB gave 80% return to that of on which it gave 100% return.",
+      "options": {
+        "a": "2 : 3",
+        "b": "1 : 3",
+        "c": "4 : 5",
+        "d": "5 : 7",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 343,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q054",
+      "q_num": 54,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If total number of notes received by BOI is 40% less than total number of notes received by SBI, then find average number of Rs.20 notes received by these 5 banks.",
+      "options": {
+        "a": "24,700",
+        "b": "25,000",
+        "c": "25,400",
+        "d": "24,200",
+        "e": "Cannot be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 163,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q055",
+      "q_num": 55,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If percentage of notes on which 100% return is given by PNB is 50%, then find the amount earned by PNB in this whole transaction.",
+      "options": {
+        "a": "Rs.47,750",
+        "b": "Rs.44,500",
+        "c": "Rs.41,500",
+        "d": "Rs.45,750",
+        "e": "Rs.48,750"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 129,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q056",
+      "q_num": 56,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Study the table given below and answer the following questions. Some data is missing in the table. Table shows data regarding Rs.20 notes received by 5 different banks during demonetization. Banks Total no. of notes received by bank % of notes on which 100% return is given Ratio of notes on which (50% return : 80% return) is given Total value of Rs.20 notes received by bank (in Rs.) PNB 15,000 ------- 5 : 7 ------- SBI ------- 80% ------- 9,00,000 Axis Bank 10,000 ------- 1 : 4 ------- BOI ------- 75% 3 : 5 ------- BOB 24,000 ------- ------- 4,80,000 Note: 1. ‘Return’ is the amount (face value of not",
+      "stem": "If difference of number of notes on which PNB gave 50% return and 80% return is 1500 and number of notes on which Axis bank gave 80% return are 1750 less than number of notes on which PNB gave 50% return, then find total number of notes on which PNB and Axis Bank gave 100% return together.",
+      "options": {
+        "a": "12000",
+        "b": "13000",
+        "c": "12500",
+        "d": "14000",
+        "e": "13500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 290,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q057",
+      "q_num": 57,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A spend 30% of his monthly salary on house rent, 40% of the remaining salary on clothing and he distributes his remaining monthly salary among his two daughters and a son in the ratio 5 : 5 : 4. If difference of A’s monthly expenditure on Clothing and monthly amount given by A to his son is Rs.24000, then find A’s annual expenditure on house rent.",
+      "options": {
+        "a": "Rs.500000",
+        "b": "Rs.540000",
+        "c": "Rs.550000",
+        "d": "Rs.560000",
+        "e": "Rs.600000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 349,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q058",
+      "q_num": 58,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A can complete a piece of work in 33 days and C is three times more efficient than A. Ratio of efficiency of B to that of C is 3 : 2. If all three starts working together, then find in how many days the work will be completed?",
+      "options": {
+        "a": "2 2 days",
+        "b": "5 days",
+        "c": "3 days",
+        "d": "4 days",
+        "e": "4 2 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 226,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q059",
+      "q_num": 59,
+      "section": "Reasoning",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A, B & C entered into a partnership business. Amount invested by B is 3 times of amount invested by A and ratio of amount invested by C to that of B is 1 : 2. After 11 months, all 3 withdrew Rs.Y. If ratio of C’s profit share to total profit at the end of the year is 35 : 129, then find profit sharing ratio of A to that of B at the end of the year.",
+      "options": {
+        "a": "19 :75",
+        "b": "41 :53",
+        "c": "67 : 27",
+        "d": "23 : 71",
+        "e": "31 :63 QUANTITATIVE APTITUDE"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 350,
+        "page_start": 6,
+        "page_end": null
+      }
+    }
+  ]
+}

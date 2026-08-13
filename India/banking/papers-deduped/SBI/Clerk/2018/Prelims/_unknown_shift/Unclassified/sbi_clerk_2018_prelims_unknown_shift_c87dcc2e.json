@@ -1,0 +1,967 @@
+{
+  "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2018/Prelims/_unknown_shift/Quant_SBI_Clerk_Pre_2018_Memory_Based_Questions.pdf",
+    "sha256": "c87dcc2e57ae65c9566d1f88650ace81c9027eac35a83f0f50aa7f4fe62b7f44",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2021/04/27121824/Quant_SBI_Clerk_Pre_2018_Memory_Based_Questions.pdf",
+    "source_filename": "Quant_SBI_Clerk_Pre_2018_Memory_Based_Questions.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Prelims",
+  "year": 2018,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 35,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "18, 8, 6, 9, 32, ?",
+      "options": {
+        "a": "248",
+        "b": "254",
+        "c": "251",
+        "d": "257",
+        "e": "260"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "36, 18, 6, 3, 1, ?",
+      "options": {
+        "a": "0.5",
+        "b": "0.25",
+        "c": "0.75",
+        "d": "0.3",
+        "e": "1"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 18,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "18, 29, 42, 53, ?, 77",
+      "options": {
+        "a": "63",
+        "b": "64",
+        "c": "65",
+        "d": "66",
+        "e": "67"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "1, 244, 163, 190, 181, ?",
+      "options": {
+        "a": "178",
+        "b": "184",
+        "c": "187",
+        "d": "190",
+        "e": "193"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "250, ?, 190, 167, 148, 131",
+      "options": {
+        "a": "215",
+        "b": "217",
+        "c": "223",
+        "d": "221",
+        "e": "219"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 26,
+        "page_start": 2,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions",
+      "stem": "Total number of students who opted for Geography and Maths together is how much less than total number of students who opted for Sanskrit and Physics together?",
+      "options": {
+        "a": "24",
+        "b": "27",
+        "c": "30",
+        "d": "33",
+        "e": "36"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 159,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions",
+      "stem": "Find the total number of students who gave exams in August 2017 if total number of students is increased by 20% in August 2017 as compared to July 2017.",
+      "options": {
+        "a": "450",
+        "b": "420",
+        "c": "390",
+        "d": "330",
+        "e": "360"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions",
+      "stem": "Find the central angle of total number of students who opted for Physics?",
+      "options": {
+        "a": "57.6°",
+        "b": "54°",
+        "c": "50.4°",
+        "d": "43.2°",
+        "e": "64.8° Geography, 18% Maths, 12% Physics, 16% Sanskrit, 24% English, 17% Hindi, 13% Total students = 300"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 73,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions",
+      "stem": "Find the average number of students who opted for Hindi, Geography and Sanskrit together?",
+      "options": {
+        "a": "54",
+        "b": "55",
+        "c": "56",
+        "d": "57",
+        "e": "58"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 89,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions",
+      "stem": "Find the ratio between total number of students who opted for English, Physics and Geography together to total number of students who opted for Hindi, English and Sanskrit together?",
+      "options": {
+        "a": "8 : 9",
+        "b": "17 : 19",
+        "c": "15 : 16",
+        "d": "17 : 18",
+        "e": "5 : 6"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 181,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "? = √16× 15+ 24× 12+ 97",
+      "options": {
+        "a": "25",
+        "b": "24",
+        "c": "28",
+        "d": "27",
+        "e": "35"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "28% of 420 + 36% of 540 = ?",
+      "options": {
+        "a": "312",
+        "b": "288",
+        "c": "296",
+        "d": "318",
+        "e": "324"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 27,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q078",
+      "q_num": 78,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "75% of 450 + 25% of 850 = ?",
+      "options": {
+        "a": "540",
+        "b": "580",
+        "c": "550",
+        "d": "560",
+        "e": "555"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 27,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√7396+ √? = 104",
+      "options": {
+        "a": "256",
+        "b": "400",
+        "c": "361",
+        "d": "289",
+        "e": "324"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 15,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Present average age of A, B and C is 22 years. Three years ago, Average age of B and C is 18 years, then find A’s age 9 years hence?",
+      "options": {
+        "a": "24 years",
+        "b": "27 years",
+        "c": "30 years",
+        "d": "33 years",
+        "e": "36 years"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 132,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q081",
+      "q_num": 81,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ratio between speed of boat in still water to speed of stream is 8 : 1. If 67.5km is travelled downstream in 2.5 hours then find the difference between speed of boat in still water to speed of stream(in kmph)?",
+      "options": {
+        "a": "15",
+        "b": "3",
+        "c": "24",
+        "d": "21",
+        "e": "17.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q082",
+      "q_num": 82,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The perimeter of a rectangle whose length is 6 m more than its breadth is 84 m. What will be the area of the rectangle? (in m²)",
+      "options": {
+        "a": "446",
+        "b": "340",
+        "c": "432",
+        "d": "468",
+        "e": "348"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 127,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q083",
+      "q_num": 83,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Interest earned on an amount after 2years at 20%p.a compounded yearly is Rs.1716. Find the interest earned on same amount after 3 years at 15%p.a at Simple interest.",
+      "options": {
+        "a": "Rs. 1620",
+        "b": "Rs.1755",
+        "c": "Rs.1665",
+        "d": "Rs.1710",
+        "e": "Rs.1750"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 165,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q084",
+      "q_num": 84,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In place of 18% profit an article is sold at 42% profit and seller gets Rs. 110.40 more. Find the selling price of article if it were sold at 25% profit?",
+      "options": {
+        "a": "Rs. 440",
+        "b": "Rs.460",
+        "c": "Rs.575",
+        "d": "Rs.550",
+        "e": "Rs.525"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 153,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q085",
+      "q_num": 85,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B working alone can do a work in 20 days and 15 days respectively. They started the work together but B left after sometime and A finished remaining work in 6 days. Find after how many days from start B left the work ?",
+      "options": {
+        "a": "5 days",
+        "b": "4 days",
+        "c": "6 days",
+        "d": "3 days",
+        "e": "7 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 224,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q086",
+      "q_num": 86,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of these questions, two equations are given. You have to solve both the equations and give answer",
+      "stem": "(i) x² = 196 (ii) y² + 2y − 48 = 0",
+      "options": {
+        "a": "if x>y",
+        "b": "if x≥y",
+        "c": "if x<y",
+        "d": "if x ≤y",
+        "e": "if x = y or no relation can be established between x and y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q087",
+      "q_num": 87,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of these questions, two equations are given. You have to solve both the equations and give answer",
+      "stem": "(i) x² – 11x + 24 =0 (ii) y² – 14y + 45 = 0",
+      "options": {
+        "a": "if x>y",
+        "b": "if x≥y",
+        "c": "if x<y",
+        "d": "if x ≤y",
+        "e": "if x = y or no relation can be established between x and y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q088",
+      "q_num": 88,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of these questions, two equations are given. You have to solve both the equations and give answer",
+      "stem": "(i) 2x² – 4x + 2 =0 (ii) 2y² – y − 1 = 0",
+      "options": {
+        "a": "if x>y",
+        "b": "if x≥y",
+        "c": "if x<y",
+        "d": "if x ≤y",
+        "e": "if x = y or no relation can be established between x and y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 40,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q089",
+      "q_num": 89,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of these questions, two equations are given. You have to solve both the equations and give answer",
+      "stem": "(i) x² – 15x + 56 = 0 (ii) y= √64",
+      "options": {
+        "a": "if x>y",
+        "b": "if x≥y",
+        "c": "if x<y",
+        "d": "if x ≤y",
+        "e": "if x = y or no relation can be established between x and y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q090",
+      "q_num": 90,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each of these questions, two equations are given. You have to solve both the equations and give answer",
+      "stem": "(i) x² – x – 6 = 0 (ii) y² – 6y + 8 = 0",
+      "options": {
+        "a": "if x>y",
+        "b": "if x≥y",
+        "c": "if x<y",
+        "d": "if x ≤y",
+        "e": "if x = y or no relation can be established between x and y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q091",
+      "q_num": 91,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√441−√144= √?",
+      "options": {
+        "a": "81",
+        "b": "9",
+        "c": "100",
+        "d": "10",
+        "e": "121"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 13,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q092",
+      "q_num": 92,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "18 3−7 4=? +1",
+      "options": {
+        "a": "9",
+        "b": "10",
+        "c": "9",
+        "d": "9",
+        "e": "10"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 13,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q093",
+      "q_num": 93,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "√484× √169= ? +50% of 312",
+      "options": {
+        "a": "160",
+        "b": "150",
+        "c": "140",
+        "d": "130",
+        "e": "120"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 25,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q094",
+      "q_num": 94,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "What should come in place of question mark (?) in the following questions?",
+      "stem": "152+ 362= ? × √2197",
+      "options": {
+        "a": "127",
+        "b": "117",
+        "c": "137",
+        "d": "147",
+        "e": "153"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 19,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q095",
+      "q_num": 95,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The profit earned on selling two articles is Rs. 80 less than profit earned on selling three articles. If 20% profit is earned on selling one article, then find the cost price of the article?",
+      "options": {
+        "a": "Rs.200",
+        "b": "Rs.600",
+        "c": "Rs.1200",
+        "d": "Rs.800",
+        "e": "Rs.400"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 191,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q096",
+      "q_num": 96,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: ‘x’: Train ‘A’ running at a speed of 25m/sec crosses Train ‘B’ coming from opposite direction running at a speed of 15m/sec in 12 seconds. Length of train ‘A’ is twice of train ‘B’. Length of train ‘A’ is ‘x’ Quantity II: 160 meters.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 245,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q097",
+      "q_num": 97,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Average of three numbers b, c and d is 1 more than average of a, b and c. Average of a and d is 19.5 Quantity I: Number ‘a’ Quantity II: 21",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 139,
+        "page_start": null,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q098",
+      "q_num": 98,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: ‘x’: A pipe alone can fill a cistern in 60 minutes. But due to leakage pipe filled only 80% of the cistern in 1 hour. ‘x’ is the capacity of cistern in liters if due to leakage 60liter can be leaked out in 1 hour. Quantity II: 250 liters",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 249,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q099",
+      "q_num": 99,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: ‘x’: Ratio between speed of boat in still water to speed of stream is 2 : 1. Total time taken by a man to cover 72km in upstream and come back is 32 hours. ‘x’ is the downstream speed in kmph Quantity II: 9 kmph",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 223,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q100",
+      "q_num": 100,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: ‘x’: Area of a square is 324cm2whose perimeter is equal to perimeter of a rectangle. Length of rectangle is 4cm more than breadth of rectangle. ‘x’ is the area of rectangle Quantity II: 320 cm2.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 206,
+        "page_start": 8,
+        "page_end": 8
+      }
+    }
+  ]
+}

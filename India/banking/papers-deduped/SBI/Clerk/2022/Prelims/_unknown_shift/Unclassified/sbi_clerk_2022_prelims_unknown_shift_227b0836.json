@@ -1,0 +1,364 @@
+{
+  "paper_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2022/Prelims/_unknown_shift/SBI-Clerk-Prelims-2022-12th-Nov-Shift-wise-PYP-Mock-04.pdf",
+    "sha256": "227b0836f3e51572a5d9817492d79a775fd7350266c7ac4cb68c78204086603e",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2025/02/15161928/SBI-Clerk-Prelims-2022-12th-Nov-Shift-wise-PYP-Mock-04.pdf",
+    "source_filename": "SBI-Clerk-Prelims-2022-12th-Nov-Shift-wise-PYP-Mock-04.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Prelims",
+  "year": 2022,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 13,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If P + Q = 7 and P² + Q² = 25, then find the value of 50% of (P ×Q) ?",
+      "options": {
+        "a": "6",
+        "b": "3",
+        "c": "4",
+        "d": "8",
+        "e": "2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 9,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "X started a business with the capital of Rs. 3000 and after four months Y joined the business with capital of Rs. (3000 + P) . If at the end of years the ratio of profit share of X to Y is 9 : 10, then find value of P (in Rs.) ?",
+      "options": {
+        "a": "1200",
+        "b": "3000",
+        "c": "1500",
+        "d": "2000",
+        "e": "1000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 228,
+        "page_start": null,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q081",
+      "q_num": 81,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question is divided into four parts, in which every part contains an error except only one part which is grammatically correct. Choose the correct part as your answer. If all the given parts of the sentence are correct, choose “No error” as your answer.",
+      "stem": "India has been criticized in the United States (A) /as well as by several other countries, for fail (B) /to take a strongly stand against Russia and for not(C) / directly condemning its aggression to Ukraine (D) /No Error (E) .",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No Error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 227,
+        "page_start": null,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q082",
+      "q_num": 82,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question is divided into four parts, in which every part contains an error except only one part which is grammatically correct. Choose the correct part as your answer. If all the given parts of the sentence are correct, choose “No error” as your answer.",
+      "stem": "A preprint claimed that the fitness(A) / of the SARS-CoV-2 virus is increasing (B) / because of the natural phenomenon(C) / of purifying selection of the spike protein (D) /No error (E) .",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No Error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 187,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q083",
+      "q_num": 83,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question is divided into four parts, in which every part contains an error except only one part which is grammatically correct. Choose the correct part as your answer. If all the given parts of the sentence are correct, choose “No error” as your answer.",
+      "stem": "To study the behavior to the star, (A) /you could plotted a graph of the color of a star, (B) / which is a indication of its surface temperature, against its magnitude, (C) /which is related to the total energy given off by it (D) / No Error (E) .",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No Error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 247,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q084",
+      "q_num": 84,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question is divided into four parts, in which every part contains an error except only one part which is grammatically correct. Choose the correct part as your answer. If all the given parts of the sentence are correct, choose “No error” as your answer.",
+      "stem": "On the 1985 science fiction film (A) /Back to the Future, a flamboyant inventor (B) /modify his car into a plutonium-powered(C) / time machine and traveled back and forth in time (D) /No Error (E)",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No Error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 196,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q085",
+      "q_num": 85,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question is divided into four parts, in which every part contains an error except only one part which is grammatically correct. Choose the correct part as your answer. If all the given parts of the sentence are correct, choose “No error” as your answer.",
+      "stem": "In the burn of wood, carbon (A) /and hydrogen is oxidized in a heat-generating (B) /reaction, the end products of(C) / which is carbon dioxide and water (D) /No error (E) .",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "No Error"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 172,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q086",
+      "q_num": 86,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "In each of the questions given below, four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should interchange with each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is, then select option",
+      "stem": "Laptop’s name",
+      "options": {
+        "a": "comes from lap, as it was deemed placed",
+        "b": "to be practical",
+        "c": "on a person's lap when being used"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 13,
+        "page_start": null,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q087",
+      "q_num": 87,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "In each of the questions given below, four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should interchange with each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is, then select option",
+      "stem": "Fatigue has a report",
+      "options": {
+        "a": "as a vague and difficult problem",
+        "b": "for doctors to investigate",
+        "c": "and many people with fatigue do not reputation",
+        "d": "it to their doctor"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 20,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q088",
+      "q_num": 88,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "In each of the questions given below, four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should interchange with each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is, then select option",
+      "stem": "The way nutrition",
+      "options": {
+        "a": "obtain consumers",
+        "b": "information has changed substantially",
+        "c": "in the past two decades"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 17,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q089",
+      "q_num": 89,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "In each of the questions given below, four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should interchange with each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is, then select option",
+      "stem": "Improving",
+      "options": {
+        "a": "the performance of contexts",
+        "b": "systems, and reducing their environmental impact are crucial",
+        "c": "in the current and future world grazing"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 9,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q090",
+      "q_num": 90,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "In each of the questions given below, four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should interchange with each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is, then select option",
+      "stem": "Mortality",
+      "options": {
+        "a": "leads to defective",
+        "b": "childbirths and high pollution",
+        "c": "rates in many parts of the world"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 9,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2022_prelims_unknown_shift_227b0836::q093",
+      "q_num": 93,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Each question given below has one blank, which is indicating that something has been omitted. Find out which word(s) can be used to fill up the blank in the sentence to make it grammatically as well as contextually correct.",
+      "stem": "Societies and economies in the world became intertwined closely in the ____________of shared global prosperity. (i) repercussion (ii) pursuit (iii) vivid",
+      "options": {
+        "a": "Both (i) & (iii)",
+        "b": "Both (ii) & (iii)",
+        "c": "Only (i)",
+        "d": "Only (ii)",
+        "e": "All of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 153,
+        "page_start": 19,
+        "page_end": 19
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "paper_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2019/Mains/_unknown_shift/SBI-Clerk-Mains-2019.pdf",
+    "sha256": "3778ee5c436442b00c4b5708dbb186bb0225cf05703492410decc805aedadd10",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2024/11/19183015/SBI-Clerk-Mains-2019.pdf",
+    "source_filename": "SBI-Clerk-Mains-2019.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2019,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 10,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions given below: There are three rows i.e. row 1, row 2 and row 3 Such that row 2 is in the north of row 3 and row 1 is in the north of row 2. There are 4 persons sitting in row 1 and 8 persons are sitting in the row 2 and 4 persons are sitting in the row",
+      "stem": "How many persons sit between A and G?",
+      "options": {
+        "a": "One",
+        "b": "None",
+        "c": "Three",
+        "d": "Two",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions given below: There are three rows i.e. row 1, row 2 and row 3 Such that row 2 is in the north of row 3 and row 1 is in the north of row 2. There are 4 persons sitting in row 1 and 8 persons are sitting in the row 2 and 4 persons are sitting in the row",
+      "stem": "Who among the following sits second to the right of C?",
+      "options": {
+        "a": "F",
+        "b": "D",
+        "c": "G",
+        "d": "L",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions given below: There are three rows i.e. row 1, row 2 and row 3 Such that row 2 is in the north of row 3 and row 1 is in the north of row 2. There are 4 persons sitting in row 1 and 8 persons are sitting in the row 2 and 4 persons are sitting in the row",
+      "stem": "Persons sitting in the row 3 faces north. Persons sitting in the row 1 faces south. First 4 persons sitting from west to east in row 2 faces north and last four person sitting from west to east in row 2 faces south. Note: All the persons sitting in the row 1 and row 3 are facing the persons sitting in the row 2. E faces the one who sits second to the right of P. No one sits on the left of E. Only one person sits between P and R. Only two person sits between R and the one who faces F. D sits immediate right of F. D does not sits at the end of the row. Q sits second to the right of the one who faces D. A face the one who sits on the immediate left of Q. G faces S but does not sits at the end of the row. P is not the immediate neighbour of G. Only one person sits between K and S. K faces the one who sits third to the right of N. J and M are immediate neighbours. J does not face D. Only two person sits between M and L. More than two persons sits between B and C, who does not face L. C does not face south.",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 1016,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions given below: There are three rows i.e. row 1, row 2 and row 3 Such that row 2 is in the north of row 3 and row 1 is in the north of row 2. There are 4 persons sitting in row 1 and 8 persons are sitting in the row 2 and 4 persons are sitting in the row",
+      "stem": "Which among the following pairs sits at the ends of the rows?",
+      "options": {
+        "a": "BS",
+        "b": "EQ",
+        "c": "KG",
+        "d": "RM",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions given below: There are three rows i.e. row 1, row 2 and row 3 Such that row 2 is in the north of row 3 and row 1 is in the north of row 2. There are 4 persons sitting in row 1 and 8 persons are sitting in the row 2 and 4 persons are sitting in the row",
+      "stem": "How many persons sit on the right of L?",
+      "options": {
+        "a": "Three",
+        "b": "One",
+        "c": "No one",
+        "d": "Four",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the given questions. A word and number arrangement machine when given an input of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 42 74 TBEF WRAK 95 NLDG 31 65 KEOR QCOF Step I: 90 42 74 TBEF NLDG 31 65 KEOR QCOF AKRW Step II: 79 90 42 NLDG 31 65 KEOR QCOF AKRW BEFT Step III: 60 79 90 42 NLDG 31 KEOR AKRW BEFT CFOQ Step IV: 47 60 79 90 31 KEOR AKRW BEFT CFOQ DGLN Step V: 26 47 60 79 90 AKRW BEFT CFOQ DGLN EKOR Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW",
+      "stem": "How many steps would be needed to complete the arrangement?",
+      "options": {
+        "a": "V",
+        "b": "VII",
+        "c": "VI",
+        "d": "IV",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the given questions. A word and number arrangement machine when given an input of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 42 74 TBEF WRAK 95 NLDG 31 65 KEOR QCOF Step I: 90 42 74 TBEF NLDG 31 65 KEOR QCOF AKRW Step II: 79 90 42 NLDG 31 65 KEOR QCOF AKRW BEFT Step III: 60 79 90 42 NLDG 31 KEOR AKRW BEFT CFOQ Step IV: 47 60 79 90 31 KEOR AKRW BEFT CFOQ DGLN Step V: 26 47 60 79 90 AKRW BEFT CFOQ DGLN EKOR Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW",
+      "stem": "Which step number would be the following output? 45 52 64 91 IMRE 25 ATVW BHIR CMNP DKMS",
+      "options": {
+        "a": "II",
+        "b": "III",
+        "c": "V",
+        "d": "IV",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 88,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the given questions. A word and number arrangement machine when given an input of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 42 74 TBEF WRAK 95 NLDG 31 65 KEOR QCOF Step I: 90 42 74 TBEF NLDG 31 65 KEOR QCOF AKRW Step II: 79 90 42 NLDG 31 65 KEOR QCOF AKRW BEFT Step III: 60 79 90 42 NLDG 31 KEOR AKRW BEFT CFOQ Step IV: 47 60 79 90 31 KEOR AKRW BEFT CFOQ DGLN Step V: 26 47 60 79 90 AKRW BEFT CFOQ DGLN EKOR Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW",
+      "stem": "Which of the following would be Step III?",
+      "options": {
+        "a": "52 64 91 IMRE 40 25 KDSM ATVW CMNP BHIR",
+        "b": "52 64 91 IMRE 40 25 KDSM ATVW BHIR CMNP",
+        "c": "64 52 91 IMRE 40 25 KDSM ATVW BHIR CMNP",
+        "d": "52 91 64 IMRE 40 25 KDSM ATVW BHIR CMNP",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the given questions. A word and number arrangement machine when given an input of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 42 74 TBEF WRAK 95 NLDG 31 65 KEOR QCOF Step I: 90 42 74 TBEF NLDG 31 65 KEOR QCOF AKRW Step II: 79 90 42 NLDG 31 65 KEOR QCOF AKRW BEFT Step III: 60 79 90 42 NLDG 31 KEOR AKRW BEFT CFOQ Step IV: 47 60 79 90 31 KEOR AKRW BEFT CFOQ DGLN Step V: 26 47 60 79 90 AKRW BEFT CFOQ DGLN EKOR Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW",
+      "stem": "Which of the following element would be the 4th to the left of the one which is 8th from the left in the step IV?",
+      "options": {
+        "a": "91",
+        "b": "IMRE",
+        "c": "64",
+        "d": "CMNP",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 113,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the given questions. A word and number arrangement machine when given an input of words and numbers rearranges them following a particular rule. The following is an illustration of input and rearrangement. Input: 42 74 TBEF WRAK 95 NLDG 31 65 KEOR QCOF Step I: 90 42 74 TBEF NLDG 31 65 KEOR QCOF AKRW Step II: 79 90 42 NLDG 31 65 KEOR QCOF AKRW BEFT Step III: 60 79 90 42 NLDG 31 KEOR AKRW BEFT CFOQ Step IV: 47 60 79 90 31 KEOR AKRW BEFT CFOQ DGLN Step V: 26 47 60 79 90 AKRW BEFT CFOQ DGLN EKOR Step V is the last step of the rearrangement. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW",
+      "stem": "In Step V, which of the following element would be on eighth position from the right end?",
+      "options": {
+        "a": "ATVW",
+        "b": "BHIR",
+        "c": "64",
+        "d": "52",
+        "e": "None of these REASONING ABILITY"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 89,
+        "page_start": 1,
+        "page_end": null
+      }
+    }
+  ]
+}

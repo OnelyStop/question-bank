@@ -1,0 +1,827 @@
+{
+  "paper_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f",
+  "subject": "English",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2017/Prelims/_unknown_shift/sbi-po-prelims-2017.pdf",
+    "sha256": "f0aab19f49f62cd8f2d0285346c803dc9fe1a8ea9cc2828759dd5d7c9ef57f66",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/sbi-po-prelims-2017.pdf",
+    "source_filename": "sbi-po-prelims-2017.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Prelims",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 30,
+  "questions": [
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q071",
+      "q_num": 71,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "Which is the most suitable title for the passage?",
+      "options": {
+        "a": "Learning from Nature",
+        "b": "Preclusion from Hacking",
+        "c": "Divided we Stand",
+        "d": "Genetic Diversity and Software",
+        "e": "The appropriate Multi compiler"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q072",
+      "q_num": 72,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "What is the author’s tone in the passage?",
+      "options": {
+        "a": "Sarcastic",
+        "b": "Impersonal",
+        "c": "Enthusiastic",
+        "d": "Hostile",
+        "e": "Grieving"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q073",
+      "q_num": 73,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "According to the passage, how the Dr.Franz’s multicompiler makes hacker’s task impossible? (i) By converting the applications written in languages into the machine code. (ii) By creating billions of different interpretations of the original program. (iii) By extending the code’s speed of execution.",
+      "options": {
+        "a": "Only (i) is true",
+        "b": "Only (ii) is true",
+        "c": "Both (i) and (ii) are true",
+        "d": "Both (ii) and (iii) are true",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 299,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q074",
+      "q_num": 74,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "According to the passage, what makes the software easily attacked by hackers?",
+      "options": {
+        "a": "Similar coding instructions in all programs. (b)Optimization of the speed of resulting machine code",
+        "c": "The widespread use of particular pieces of hardware",
+        "d": "The replica of the software containing same bits",
+        "e": "All of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 77,
+        "page_start": 21,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q075",
+      "q_num": 75,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "Which of the following is false in context of the passage?",
+      "options": {
+        "a": "Dr. Franz’s multicompiler approach is productive as it enhances the speed of the code’s execution",
+        "b": "The firm declared that the antivirus approach to protect the software from hackers is not effective",
+        "c": "Antivirus software stops only 45% of attacks",
+        "d": "Sexual reproduction ensures the genetic difference in identical twins of species",
+        "e": "All are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q076",
+      "q_num": 76,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions. ABOUT 1.3 billion people use one or other version of Microsoft’s Windows operating systems, and well over a billion have downloaded Mozilla’s Firefox web browser. Minor variations aside, every copy of these products—like all other mass- market software—has exactly the same bits in it. This makes such software a honeypot for hackers, who can write attack code that will cause precisely the same damage to, say, every copy of Windows 7 it infects. Worse, the bad guys can hone their attacks by practising on their own machines, confident that what they see will be what their victims get. This computing monoculture—which also extends to the widespread use of particular pieces of hardware, such as microprocessors from Intel and ARM—has long been the bane of technologists. In the face of a near constant onslaught from hackers, antivirus software is frequently several steps behind the foe. Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared that this approach was “dead” and a new one was needed. Michael Franz, a computer scientist at the University of California, Irvine, agrees. And he believes the answer is to learn from nature. Lots of species are composed of individuals which are, the occasional set of identical twins apart, all slightly different genetically from each other. Sexual reproduction ensures this. Indeed, it is probably the reason sex evolved in the first place, for it means that no bacterium or virus can wipe out an entire population, since some are almost certain to be genetically immune to any given pathogen. Applying the idea of genetic diversity to software is not a new idea. High-security systems, such as the fly-by-wire programs used in aeroplanes, are designed from the outset with code that differs between installations. But this approach is too costly for large-scale use. Some mass market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker. Dr Franz is therefore taking a novel approach by tweaking the programs, called compilers, that convert applications written in languages such as C++ and Java into the machine code employed by a computer’s processor. Most compilers are designed to optimise things such as the speed of the resulting machine code. That leads to a single answer. Dr Franz’s “multicompiler” trades a bit SBI PO Prelims 2017 of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program. When a user requests a specific application from a cloud-based “app store”, the appropriate multicompiler in the store generates a unique version for him, thus making a hacker’s task nigh impossible.",
+      "stem": "Which efforts of software companies are found unsuccessful to secure the software from being hacked? (i) Antivirus Symantec is one of the unsuccessful efforts which stop only 45% of the attacks. (ii) Randomly choosing the starting addresses of big Block of memory is one such effort. (iii) Optimising the things such as speed of resulting machine code.",
+      "options": {
+        "a": "Only (i) is true",
+        "b": "Only (ii) is true",
+        "c": "Both (i) and (ii) are true",
+        "d": "Both (ii) and (iii) are true",
+        "e": "All are true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 352,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q077",
+      "q_num": 77,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Choose the word/group of words which is most opposite in meaning to the word/group of words printed in bold as used in passage.",
+      "stem": "Hone",
+      "options": {
+        "a": "wreck",
+        "b": "whet",
+        "c": "secure",
+        "d": "practice",
+        "e": "perfect"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 4,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q078",
+      "q_num": 78,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Choose the word/group of words which is most opposite in meaning to the word/group of words printed in bold as used in passage.",
+      "stem": "Onslaught",
+      "options": {
+        "a": "defense",
+        "b": "approximate",
+        "c": "offense",
+        "d": "assault",
+        "e": "violation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 22,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q079",
+      "q_num": 79,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Choose the word/group of words which is most similar in meaning to the word/group of words printed in bold as used in passage.",
+      "stem": "Bane",
+      "options": {
+        "a": "death",
+        "b": "scourge",
+        "c": "boon",
+        "d": "corruption",
+        "e": "content"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 4,
+        "page_start": 23,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q080",
+      "q_num": 80,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Choose the word/group of words which is most similar in meaning to the word/group of words printed in bold as used in passage.",
+      "stem": "Nigh",
+      "options": {
+        "a": "distant",
+        "b": "clear",
+        "c": "deserving",
+        "d": "nearly",
+        "e": "progressing"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 4,
+        "page_start": 23,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q081",
+      "q_num": 81,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "In Castle town, Rose met the doctor who wanted to know if Freddie was managing to keep off her ankle.",
+      "options": {
+        "a": "to keep away",
+        "b": "to keep of",
+        "c": "to keep out",
+        "d": "to keep up with",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 101,
+        "page_start": 23,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q082",
+      "q_num": 82,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "Don't give it into despair just because you didn't get into the college that was at the top of your wishlist.",
+      "options": {
+        "a": "Give yourself up in",
+        "b": "Give off in",
+        "c": "give up in",
+        "d": "give in to",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 109,
+        "page_start": 24,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q083",
+      "q_num": 83,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "It was dominated by Franklin Roosevelt, the cunning, determined, good-natured president called forth by the crisis of the Depression.",
+      "options": {
+        "a": "call forth on",
+        "b": "called upon by",
+        "c": "called out upon",
+        "d": "called out by",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 133,
+        "page_start": 24,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q084",
+      "q_num": 84,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "Shah Rukh Khan has expressed his disappointment for being detained by US authorities at Los Angeles International Airport.",
+      "options": {
+        "a": "at being detained",
+        "b": "for detaining",
+        "c": "because of detaining (d)owing to be detained",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 122,
+        "page_start": 24,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q085",
+      "q_num": 85,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "The teacher asked the pupils to get going at some work quietly as she had to leave the classroom.",
+      "options": {
+        "a": "get even with",
+        "b": "get hold of",
+        "c": "get on with",
+        "d": "get wind of",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 97,
+        "page_start": 24,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q086",
+      "q_num": 86,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "After our month-long trip, it was time to get along with the neighbors and the news around town.",
+      "options": {
+        "a": "keep track on",
+        "b": "get going with",
+        "c": "catch hold of",
+        "d": "catch up with",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 96,
+        "page_start": 24,
+        "page_end": 25
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q087",
+      "q_num": 87,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "Good instructors will look upon early signs of failure in their students",
+      "options": {
+        "a": "look in",
+        "b": "look out for",
+        "c": "look for",
+        "d": "look up with",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 25,
+        "page_end": 25
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q088",
+      "q_num": 88,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "If you talk towards someone in authority such as a parent or teacher, you answer them in a rude way",
+      "options": {
+        "a": "talk down with",
+        "b": "talk over with",
+        "c": "talk back to",
+        "d": "talk around of",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 99,
+        "page_start": 25,
+        "page_end": 25
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q089",
+      "q_num": 89,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "Before we take this farther, let's consider something the Internet has taught us about ourselves. (a)take that farther",
+      "options": {
+        "b": "took it further",
+        "c": "took it farther",
+        "d": "take that further",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 118,
+        "page_start": 25,
+        "page_end": 25
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q090",
+      "q_num": 90,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Which of the phrases (a), (b),",
+      "stem": "It was great to think back of not just that experience, but on why that film still resonates with people.",
+      "options": {
+        "a": "Think back on",
+        "b": "think about",
+        "c": "think it through",
+        "d": "think back about",
+        "e": "No correction required"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 105,
+        "page_start": 25,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q091",
+      "q_num": 91,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (91).",
+      "options": {
+        "a": "wobbled",
+        "b": "wavered",
+        "c": "oscillated",
+        "d": "rotated",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 26,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q092",
+      "q_num": 92,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (92).",
+      "options": {
+        "a": "supply",
+        "b": "equip",
+        "c": "endow",
+        "d": "appoint",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q093",
+      "q_num": 93,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (93).",
+      "options": {
+        "a": "influences",
+        "b": "impact",
+        "c": "prevalence",
+        "d": "instrument",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q094",
+      "q_num": 94,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (94).",
+      "options": {
+        "a": "eminent",
+        "b": "elusive",
+        "c": "requisite",
+        "d": "obligatory",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q095",
+      "q_num": 95,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (95).",
+      "options": {
+        "a": "elicited",
+        "b": "apprehended",
+        "c": "prohibit",
+        "d": "Forbidden",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q096",
+      "q_num": 96,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (96).",
+      "options": {
+        "a": "providing",
+        "b": "presenting",
+        "c": "offering",
+        "d": "contributing (e)No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 37,
+        "page_start": 27,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q097",
+      "q_num": 97,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (97).",
+      "options": {
+        "a": "confidentially run",
+        "b": "distinctly run",
+        "c": "Personally run",
+        "d": "Publically run",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 28,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q098",
+      "q_num": 98,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (98).",
+      "options": {
+        "a": "adopt",
+        "b": "select",
+        "c": "Refrain",
+        "d": "Outcast",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 28,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q099",
+      "q_num": 99,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (99).",
+      "options": {
+        "a": "conducted",
+        "b": "extended",
+        "c": "convoyed",
+        "d": "opened",
+        "e": "No correction"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 28,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_prelims_unknown_shift_f0aab19f::q100",
+      "q_num": 100,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d017",
+      "direction_text": "In the following passage there are blanks, each of which has been numbered and one word has been suggested alongside the blank. These numbers are printed below the passage and against each, five options are given. In four options, one word is suggested in each option. Find out the appropriate word which fits the blank appropriately. If the word written alongside the blank fits the passage, choose option ‘e’ (No correction require",
+      "stem": "Select the word that fits blank (100).",
+      "options": {
+        "a": "accorded",
+        "b": "affiliated",
+        "c": "provisioned (d)conversant",
+        "e": "No correction SOLUTIONS"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 38,
+        "page_start": 28,
+        "page_end": 28
+      }
+    }
+  ]
+}

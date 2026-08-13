@@ -1,0 +1,968 @@
+{
+  "paper_id": "sbi_po_2018_mains_unknown_shift_8b024b5b",
+  "subject": "Quantitative",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2018/Mains/_unknown_shift/sbi-po-mains-2018.pdf",
+    "sha256": "8b024b5b4626d162bf0992d2c3d922bcd89d5a7f401ba5fd609950efd09dc01a",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/sbi-po-mains-2018.pdf",
+    "source_filename": "sbi-po-mains-2018.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2018,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [
+    "empty_stem_q113"
+  ],
+  "question_count": 35,
+  "questions": [
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q046",
+      "q_num": 46,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given bar graph shows the percentage of query resolved by three people Abhi, Bindu and Chintu on Monday and Friday with respect to total calls received by them.",
+      "stem": "No. of query resolved by Abhi and Chintu on Friday is 360. What could be maximum number of calls that were not resolved by Abhi on Friday?",
+      "options": {
+        "a": "89",
+        "b": "40",
+        "c": "12",
+        "d": "100",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 138,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q047",
+      "q_num": 47,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given bar graph shows the percentage of query resolved by three people Abhi, Bindu and Chintu on Monday and Friday with respect to total calls received by them.",
+      "stem": "Number of queries resolved by Bindu on Monday is 180 and call received by him is 25% more than query resolved by Abhi on that day. Find the number of calls received by Abhi on Monday.",
+      "options": {
+        "a": "260",
+        "b": "440",
+        "c": "360",
+        "d": "400",
+        "e": "320"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 183,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q048",
+      "q_num": 48,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given bar graph shows the percentage of query resolved by three people Abhi, Bindu and Chintu on Monday and Friday with respect to total calls received by them.",
+      "stem": "If 20% calls increased from Monday to Friday for Bindu and Chintu and average number of query resolved by them on Friday is 30 more than that of Monday. Find call received by Chintu on Friday is how much more than that of received on Monday by him.",
+      "options": {
+        "a": "125",
+        "b": "220",
+        "c": "120",
+        "d": "200",
+        "e": "250"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 248,
+        "page_start": 11,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q049",
+      "q_num": 49,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given bar graph shows the percentage of query resolved by three people Abhi, Bindu and Chintu on Monday and Friday with respect to total calls received by them.",
+      "stem": "What is the ratio of calls received by Abhi, Bindu and Chintu on Friday. If the number of query resolved by them is in the ratio of 3:4:2.",
+      "options": {
+        "a": "12:33:19",
+        "b": "14:32:11",
+        "c": "15:32:10",
+        "d": "10:35:12",
+        "e": "8:7:9"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 138,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q050",
+      "q_num": 50,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "The given bar graph shows the percentage of query resolved by three people Abhi, Bindu and Chintu on Monday and Friday with respect to total calls received by them.",
+      "stem": "Query resolved by Chintu on Monday is 60% of the query resolved by him on Friday. Query resolved by Abhi on Friday is equal to the sum of the query resolved by Chintu on both days. Call received by Abhi on Friday is what % more than that of Chintu on Monday.",
+      "options": {
+        "a": "100%",
+        "b": "200%",
+        "c": "250%",
+        "d": "300%",
+        "e": "120%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 258,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q051",
+      "q_num": 51,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Total number of balls in a bag, which contains Pink and Green ball only, is 16. What is the number of Pink ball? (A) Probability of drawing a pink ball P(P) < 0.1875 (B) Probability of drawing two green ball P(G) < 1 P(P) (C) Difference between no. of pink balls and Green balls is 12.",
+      "options": {
+        "a": "Only statement ‘A’ alone is sufficient to answer the question",
+        "b": "Both statement A and statement C are required to answer the question",
+        "c": "Only statement ‘C’ alone is sufficient to answer the question",
+        "d": "Either statement A or statement C is sufficient to answer",
+        "e": "All three together are sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 285,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q052",
+      "q_num": 52,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "What is the speed of stream? (A) Sum of time taken by a boat in upstream and downstream is 27 hours to cover distance 270 km in each. (B) Speed of boat in downstream is 45 km/h.",
+      "options": {
+        "a": "Either A and B or B and C are sufficient to answer the question",
+        "b": "Either A and B or A and C are sufficient to answer the question",
+        "c": "Either A and C or B and C are sufficient to answer the question",
+        "d": "Any two statements are sufficient to answer the question",
+        "e": "Either only A or B and C together are sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 250,
+        "page_start": 12,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q053",
+      "q_num": 53,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Is b < a? (a) b = a–5 (b) a < 0 (c) |b| > |a|",
+      "options": {
+        "a": "Either A and B or B and C are sufficient to answer the question",
+        "b": "Either A and B or A and C are sufficient to answer the question",
+        "c": "Either A and C or B and C are sufficient to answer the question",
+        "d": "Any two statements are sufficient to answer the question",
+        "e": "Only A and B are sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q054",
+      "q_num": 54,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: Unit digit of the number [(1333)27]55. Quantity II: Unit digit of the number [(127)43]52.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 101,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q055",
+      "q_num": 55,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Quantity I: Area of circle, given in figure, is half of the area of rectangle. Value of percent by which length of rectangle is more than breadth. Quantity 2: A pair of opposite sides of a square when increase by 10cm, then area of figure increased by 400 cm2. Value of percent by which area increased.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or No relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 302,
+        "page_start": 13,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q056",
+      "q_num": 56,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If P, Q and R are natural number, then value of PQ = R+Q=? (a) P+R=8+Q (b) Q2 = R2 P+1 (c) Q = P+2",
+      "options": {
+        "a": "Either A and B or B and C are sufficient to answer the question",
+        "b": "Either A and B or A and C are sufficient to answer the question",
+        "c": "Either A and C or B and C are sufficient to answer the question",
+        "d": "Any two statements are sufficient to answer the question",
+        "e": "Either only A or B and C together are sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 98,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q057",
+      "q_num": 57,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "What is the profit percent earned on selling 2 books and 1 pen? A. Cost price of 3 books is equal to selling price of 4 pens. Profit earned on selling 2 pens is equal to the profit earned on selling one book. Profit earned on selling 4 pens is 50% of their cost price. B. Profit earned on selling 2 books and 6 pens is 50% which is equal to 500% of the cost price of one pen. C. Profit earned on selling one book is 100% of the cost price of the one pen.",
+      "options": {
+        "a": "Either A or B and C are sufficient to answer the question",
+        "b": "Either A and B or A and C are sufficient to answer the question",
+        "c": "Either A and C or B and C are sufficient to answer the question",
+        "d": "A, B and C together are sufficient to answer the question",
+        "e": "Only statement A is sufficient to answer"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 454,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q058",
+      "q_num": 58,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Certain number of people work in retail, online and door to door stores. There are only three type stores and each people works in one or more store. 72% of people were in retail store and people working in only door to door store was 36 th of people working in retail store. Number of people working in both door to door store and online store but not in retail store are 55. People working in only online store are 65 more than the people working in only door to door store. SBI PO Mains 2018 Number of people working in only retail store is 160 3 % more than number of people working in online store.",
+      "stem": "What is the number of people who works in retail store, but not only in retail store?",
+      "options": {
+        "a": "225",
+        "b": "245",
+        "c": "115",
+        "d": "105",
+        "e": "75"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q059",
+      "q_num": 59,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Certain number of people work in retail, online and door to door stores. There are only three type stores and each people works in one or more store. 72% of people were in retail store and people working in only door to door store was 36 th of people working in retail store. Number of people working in both door to door store and online store but not in retail store are 55. People working in only online store are 65 more than the people working in only door to door store. SBI PO Mains 2018 Number of people working in only retail store is 160 3 % more than number of people working in online store.",
+      "stem": "What is the total number of people working in all stores?",
+      "options": {
+        "a": "360",
+        "b": "300",
+        "c": "250",
+        "d": "400",
+        "e": "500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 57,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q060",
+      "q_num": 60,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Certain number of people work in retail, online and door to door stores. There are only three type stores and each people works in one or more store. 72% of people were in retail store and people working in only door to door store was 36 th of people working in retail store. Number of people working in both door to door store and online store but not in retail store are 55. People working in only online store are 65 more than the people working in only door to door store. SBI PO Mains 2018 Number of people working in only retail store is 160 3 % more than number of people working in online store.",
+      "stem": "What is the number of people working in online store only?",
+      "options": {
+        "a": "65",
+        "b": "55",
+        "c": "75",
+        "d": "80",
+        "e": "15"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 58,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q061",
+      "q_num": 61,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Certain number of people work in retail, online and door to door stores. There are only three type stores and each people works in one or more store. 72% of people were in retail store and people working in only door to door store was 36 th of people working in retail store. Number of people working in both door to door store and online store but not in retail store are 55. People working in only online store are 65 more than the people working in only door to door store. SBI PO Mains 2018 Number of people working in only retail store is 160 3 % more than number of people working in online store.",
+      "stem": "If number of people working in retail and online but not in door to door are 105 then what % of people are there, who work both in retail and door to door stores?",
+      "options": {
+        "a": "28%",
+        "b": "14%",
+        "c": "35%",
+        "d": "49%",
+        "e": "56%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q062",
+      "q_num": 62,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Certain number of people work in retail, online and door to door stores. There are only three type stores and each people works in one or more store. 72% of people were in retail store and people working in only door to door store was 36 th of people working in retail store. Number of people working in both door to door store and online store but not in retail store are 55. People working in only online store are 65 more than the people working in only door to door store. SBI PO Mains 2018 Number of people working in only retail store is 160 3 % more than number of people working in online store.",
+      "stem": "Number of people working in retail or online store is what percent of people working in only online or only in retail?",
+      "options": {
+        "a": "20515 17 %",
+        "b": "24617 19 %",
+        "c": "22909 13 %",
+        "d": "25717 19 %",
+        "e": "21713 17 %"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 118,
+        "page_start": 15,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q063",
+      "q_num": 63,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Given bar shows the % range of commission earned on all sold articles and commission earned by five stores in Rupees. Stores Range of commission (%) Commission earned Ruppes A 0 - 16 B 16 – 32 – C – D – – E 0 – 20 Note:- Commission percent is on selling price. Note:- Some values are missing, you have to calculate them according to question. Note:- Range of commission are in integral values.",
+      "stem": "Store ‘A’ sells 480 articles of only 3 types of articles it have, their number are in ratio 1 : 2 : 3 and their selling prices are 800, 600 and 400 respectively and commission charged on them have difference of 1 percent in sequence (least number of articles sold have least commission percent) respectively, then find the highest commission% of articles.",
+      "options": {
+        "a": "11.375%",
+        "b": "12.375%",
+        "c": "13.375%",
+        "d": "15.375%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 355,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q064",
+      "q_num": 64,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Given bar shows the % range of commission earned on all sold articles and commission earned by five stores in Rupees. Stores Range of commission (%) Commission earned Ruppes A 0 - 16 B 16 – 32 – C – D – – E 0 – 20 Note:- Commission percent is on selling price. Note:- Some values are missing, you have to calculate them according to question. Note:- Range of commission are in integral values.",
+      "stem": "Store C sells 3 products in equal numbers (105) and equal commission percent. If there selling price (in Rs.) are 200, 300 and 400. Then what is the commission percent.",
+      "options": {
+        "a": "27 %",
+        "b": "27 %",
+        "c": "27 %",
+        "d": "27 %",
+        "e": "27 %"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 168,
+        "page_start": 16,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q065",
+      "q_num": 65,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Given bar shows the % range of commission earned on all sold articles and commission earned by five stores in Rupees. Stores Range of commission (%) Commission earned Ruppes A 0 - 16 B 16 – 32 – C – D – – E 0 – 20 Note:- Commission percent is on selling price. Note:- Some values are missing, you have to calculate them according to question. Note:- Range of commission are in integral values.",
+      "stem": "Store D sold 3 articles each in number 100 and each have S.P. of Rs. 800 and commission % for each is in A.P. with common difference of 5. If total commission earned by store D is 14 7 % more than that of store C. Find the minimum range of commission %?",
+      "options": {
+        "a": "(11 – 22)",
+        "b": "(16 – 23)",
+        "c": "(05 – 08)",
+        "d": "(14 – 24)",
+        "e": "(07 – 10)"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 253,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q066",
+      "q_num": 66,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Given bar shows the % range of commission earned on all sold articles and commission earned by five stores in Rupees. Stores Range of commission (%) Commission earned Ruppes A 0 - 16 B 16 – 32 – C – D – – E 0 – 20 Note:- Commission percent is on selling price. Note:- Some values are missing, you have to calculate them according to question. Note:- Range of commission are in integral values.",
+      "stem": "If store C have only one type article and number of article and its S.P is equal which is (≥ 100 & < 110) then find the % range of commission?",
+      "options": {
+        "a": "(275 – 300)",
+        "b": "(340 – 377)",
+        "c": "(174 – 268)",
+        "d": "(294 – 350)",
+        "e": "(280 – 366)"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 142,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q067",
+      "q_num": 67,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Population of two villages X and Z are 16,000 and 12,800 respectively. Ratio of population of village X to that of Y is 4 : 5. Three manufacturers, A, B and C supply cycles in these three villages. These manufactures manufactured cycles in the ratio of 22: 19 : 20 (A : B :",
+      "stem": "What is the revenue generated from village Y, if each person of village X and Z purchased a cycle?",
+      "options": {
+        "a": "8.424 crore",
+        "b": "4.768 crore",
+        "c": "6.348 crore",
+        "d": "9.00 crore",
+        "e": "10.246 crore"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 116,
+        "page_start": 17,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q068",
+      "q_num": 68,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Population of two villages X and Z are 16,000 and 12,800 respectively. Ratio of population of village X to that of Y is 4 : 5. Three manufacturers, A, B and C supply cycles in these three villages. These manufactures manufactured cycles in the ratio of 22: 19 : 20 (A : B :",
+      "stem": "What is the profit earned by manufacture C from village X, if total revenue earned by all three manufacturers in village X is 9.6 crore and number of cycles supply by all of them are equal and cost price of each cycle is 6000?",
+      "options": {
+        "a": "90 lakh",
+        "b": "50 lakh",
+        "c": "75 lakh",
+        "d": "80 lakh",
+        "e": "43 lakh"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 226,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q069",
+      "q_num": 69,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Population of two villages X and Z are 16,000 and 12,800 respectively. Ratio of population of village X to that of Y is 4 : 5. Three manufacturers, A, B and C supply cycles in these three villages. These manufactures manufactured cycles in the ratio of 22: 19 : 20 (A : B :",
+      "stem": "On a particular day, there was a demand of 50% for manufacturer A and 10 % for manufacturer C from an another village M which they delivered on the same day. Find that total revenue earned by these two manufacturer together is approximately what percent of their manufacturing cost? Given that manufacturing cost of a cycle is Rs. 6000.",
+      "options": {
+        "a": "95%",
+        "b": "90%",
+        "c": "107%",
+        "d": "120%",
+        "e": "113%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 336,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q070",
+      "q_num": 70,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "- Study the given bar-graph carefully and answer the following question. Bar graph given below shows the expenditure of Rahul in four different years. SBI PO Mains 2018",
+      "stem": "If bill paid by Rahul in year 2015 is 25% more than the average bill paid by him in year 2013 and 2014 and amount paid by him in FD in 2015 is twice the amount paid by him in FD in year 2011. Then find difference in amount of bill and FD paid by Rahul in year 2015 ?",
+      "options": {
+        "a": "Rs. 775",
+        "b": "Rs. 725",
+        "c": "None of these",
+        "d": "Rs. 875",
+        "e": "Rs. 920"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 266,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q071",
+      "q_num": 71,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "- Study the given bar-graph carefully and answer the following question. Bar graph given below shows the expenditure of Rahul in four different years. SBI PO Mains 2018",
+      "stem": "Total amount paid by Rahul on Food in year 2011 and 2012 together is what percent more or less than total amount paid by him on shopping in same year together ?",
+      "options": {
+        "a": "14 2 7 %",
+        "b": "None of these",
+        "c": "11 1 9 %",
+        "d": "9 1 11 %",
+        "e": "12 ½ %"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 160,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q072",
+      "q_num": 72,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "- Study the given bar-graph carefully and answer the following question. Bar graph given below shows the expenditure of Rahul in four different years. SBI PO Mains 2018",
+      "stem": "If amount paid by Rahul in year 2010 on Rent is one fifth of rent paid by him in all years. Then find ratio of rent paid by him in 2010 to amount paid by him on shopping in 2012 ?",
+      "options": {
+        "a": "2 : 3",
+        "b": "4 : 5",
+        "c": "3 : 5",
+        "d": "2 : 5",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 179,
+        "page_start": 19,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q073",
+      "q_num": 73,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "- Study the given bar-graph carefully and answer the following question. Bar graph given below shows the expenditure of Rahul in four different years. SBI PO Mains 2018",
+      "stem": "If ratio of amount paid on bills in year 2015 to that of in year 2013 is 3 : 2 and ratio of amount paid by him on food, bills and rent in year 2015 is 1 : 2 : 4. Then find difference in amount paid by him on rent and food in year 2015 ?",
+      "options": {
+        "a": "None of these",
+        "b": "Rs 1200",
+        "c": "Rs 900",
+        "d": "Rs 1800",
+        "e": "Rs 2700"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 236,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q074",
+      "q_num": 74,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "- Study the given bar-graph carefully and answer the following question. Bar graph given below shows the expenditure of Rahul in four different years. SBI PO Mains 2018",
+      "stem": "Average of amount paid by Rahul in FD, rent and food in year 2012 is what percent of average of amount paid by him on Shopping, Rent and Bill in year 2013 ?",
+      "options": {
+        "a": "123 ⅔%",
+        "b": "106 ⅔%",
+        "c": "None of these",
+        "d": "112 ⅓%",
+        "e": "108%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 156,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q075",
+      "q_num": 75,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "8 men and 4 women together can complete a piece of work in 6 days. Work done by a man in one day is double the work done by a woman in one day. 8 men and 4 women started working and after 2 days, 4 men left and 4 new women joined the work. Quantity I: More days required to complete the work Quantity II: 5 days",
+      "options": {
+        "a": "Quantity I = Quantity II or No relation",
+        "b": "Quantity I ≥ Quantity II",
+        "c": "Quantity I < Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I > Quantity II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 311,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q076",
+      "q_num": 76,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "X started from a point A towards point B. After 2 hours. Y started from B towards A. By the time X travelled one-fifth of the total distance, Y had also travelled the same. Y’s speed is thrice of that of X’s speed.",
+      "options": {
+        "a": "Quantity I = Quantity II or No relation",
+        "b": "Quantity I ≤ Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I < Quantity II",
+        "e": "Quantity I > Quantity II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 353,
+        "page_start": 20,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q077",
+      "q_num": 77,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A vessel contains 2.5 litres of water and 10 litres of milk. 20% of the contents of the vessel are removed. To the remaining contents, x litres of water is added to reverse the ratio of water and milk. Then y litres of milk is added again to reverse the ratio of water and milk. Quantity I: Value of ‘y’ Quantity II: Value of ‘x’",
+      "options": {
+        "a": "Quantity I = Quantity II or No relation",
+        "b": "Quantity I ≤ Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I < Quantity II",
+        "e": "Quantity I > Quantity II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 329,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q078",
+      "q_num": 78,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Study the given passage carefully and answer the questions. Rahul, Sandy and Sati invested in ratio 2 : 3 : 4. After 4 months Sandy added Rs. 1500 more in his investment and Rahul withdrew Rs. 800 from his investment. After six months more Sati added to his investment an amount equal to half of the investment done by Rahul in first four months and Sandy invested 50% more than the investment done by Sati in first 10 months whereas Rahul added to his investment an amount that is equal to investment done by Sandy in first four months. Ratio of profit of Sati to total profit at the end of year is given as 125 : 376.",
+      "stem": "Profit of Sandy is approximately what percent of total profit?",
+      "options": {
+        "a": "64%",
+        "b": "48%",
+        "c": "72%",
+        "d": "68%",
+        "e": "42%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 62,
+        "page_start": 21,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q079",
+      "q_num": 79,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Study the given passage carefully and answer the questions. Rahul, Sandy and Sati invested in ratio 2 : 3 : 4. After 4 months Sandy added Rs. 1500 more in his investment and Rahul withdrew Rs. 800 from his investment. After six months more Sati added to his investment an amount equal to half of the investment done by Rahul in first four months and Sandy invested 50% more than the investment done by Sati in first 10 months whereas Rahul added to his investment an amount that is equal to investment done by Sandy in first four months. Ratio of profit of Sati to total profit at the end of year is given as 125 : 376.",
+      "stem": "What is the difference between profit share of Rahul and Sandy if total profit is Rs.37,600?",
+      "options": {
+        "a": "12,000",
+        "b": "16,400",
+        "c": "18,500",
+        "d": "22,900",
+        "e": "20,000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 92,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2018_mains_unknown_shift_8b024b5b::q080",
+      "q_num": 80,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Study the given passage carefully and answer the questions. Rahul, Sandy and Sati invested in ratio 2 : 3 : 4. After 4 months Sandy added Rs. 1500 more in his investment and Rahul withdrew Rs. 800 from his investment. After six months more Sati added to his investment an amount equal to half of the investment done by Rahul in first four months and Sandy invested 50% more than the investment done by Sati in first 10 months whereas Rahul added to his investment an amount that is equal to investment done by Sandy in first four months. Ratio of profit of Sati to total profit at the end of year is given as 125 : 376.",
+      "stem": "Veer have 250% more than initial investment of Sati for a year. Find total interest earned by him if he invested his amount in a scheme which offers 20% p.a. compound interest for 2 years?",
+      "options": {
+        "a": "Rs. 140",
+        "b": "Rs. 1500",
+        "c": "Rs. 1640 ENGLISH LANGUAGE",
+        "d": "Rs. 1600"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 188,
+        "page_start": 22,
+        "page_end": 22
+      }
+    }
+  ]
+}

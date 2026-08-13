@@ -1,0 +1,2983 @@
+{
+  "paper_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2022/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Previous-Year-Paper-2022.pdf",
+    "sha256": "48596fb8f4315d25becc4a1074ccdcf888200a1d10dc0bace19d88cc6a276b3b",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02133550/IBPS-RRB-PO-Mains-Previous-Year-Paper-2022.pdf",
+    "source_filename": "IBPS-RRB-PO-Mains-Previous-Year-Paper-2022.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2022,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 110,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions below: Two friends Roy and Jay starts walking from point A. Jay starts walking towards west and walks 2m then he turns his right and walks 3m. Now he walks 2m after tuning left. Finally, he takes two consecutive right turns and walks 3m and 7m respectively and reached his final position. Roy walks 4m towards south then turns right and walks 3m. Now he takes two consecutive left turns and covers 2m and 1m distance respectively. Then he turns to his right and walks 3m, now he walks 4m towards east then turns to his left. After walking 4m, he turns to his right and covers 3m distance. Finally, he takes two consecutive left turns of 5m and 2m respectively and reached his final position.",
+      "stem": "What is the direction and distance of Roy’s final position from Jay’s final position?",
+      "options": {
+        "a": "South, 5m",
+        "b": "South-west, 6m",
+        "c": "South, 6m",
+        "d": "North-east, 5m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions below: Two friends Roy and Jay starts walking from point A. Jay starts walking towards west and walks 2m then he turns his right and walks 3m. Now he walks 2m after tuning left. Finally, he takes two consecutive right turns and walks 3m and 7m respectively and reached his final position. Roy walks 4m towards south then turns right and walks 3m. Now he takes two consecutive left turns and covers 2m and 1m distance respectively. Then he turns to his right and walks 3m, now he walks 4m towards east then turns to his left. After walking 4m, he turns to his right and covers 3m distance. Finally, he takes two consecutive left turns of 5m and 2m respectively and reached his final position.",
+      "stem": "If point P is 1m east of Jay’s final position then what is the direction of Roy’s final position with respect to point P?",
+      "options": {
+        "a": "North-east",
+        "b": "South-west",
+        "c": "South",
+        "d": "North",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 121,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information and answer the questions below: Two friends Roy and Jay starts walking from point A. Jay starts walking towards west and walks 2m then he turns his right and walks 3m. Now he walks 2m after tuning left. Finally, he takes two consecutive right turns and walks 3m and 7m respectively and reached his final position. Roy walks 4m towards south then turns right and walks 3m. Now he takes two consecutive left turns and covers 2m and 1m distance respectively. Then he turns to his right and walks 3m, now he walks 4m towards east then turns to his left. After walking 4m, he turns to his right and covers 3m distance. Finally, he takes two consecutive left turns of 5m and 2m respectively and reached his final position.",
+      "stem": "What is the shortest distance point A and Jay’s final position?",
+      "options": {
+        "a": "45m",
+        "b": "17m",
+        "c": "3√5m",
+        "d": "5√3m",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 63,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Study the following information in which a statement is followed by five conclusions, read carefully and answer the question below- Statement: Other than being an essential source of water for Indian agriculture, the monsoon plays a critical role in flushing out pollutants over Asia. However, recently increased pollution — particularly from coal burning — could potentially weaken this ability of the monsoon. Which of the following can be deduced from the given statement?",
+      "options": {
+        "a": "The unusually high concentration of particulate matter in the last few days in India clearly shows that air pollution is emerging as a big problem",
+        "b": "As the climate gets warmer and frequency of rains reduces, such spurts in coarse particles making breathing difficult will become a new normal and the government is not waking up to the alarm",
+        "c": "Both the periodicity and duration of dry spells in the country were rising as total rainfall events in a year had fallen even though the average rainfall in a year has not changed much, a direct consequence of climate change",
+        "d": "The annual average rainfall has remained the same because the frequency of heavy downpours increased in the past two decades",
+        "e": "The air quality in the region deteriorated because of dust storms in western India, particularly Rajasthan"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 475,
+        "page_start": 1,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following instructions carefully and answer the questions given below: Eight persons K, P, T, U, S, Q, R and M live in a four-floor building but not necessarily in the same order. Ground floor is numbered as 1, above it is 2 till the topmost floor is numbered as 4. Each of the floor has two flats as flat-1 and flat-2. Falt-1 is in the west of flat-2. Flat-1 of floor 2 is immediate above the flat-1 of floor 1 and immediate below the flat-1 of floor 3. In the same way, flat-2 of floor 2 is just above the flat-2 of floor 1 and just below the flat-2 of floor 3. They also like different flowers. P lives on an even numbered floor just below the one who like marigold in the same flat. There is one floor gap between S and the one who likes marigold and both live in different flats. Two floors gap between S and M who likes hibiscus. Two floors gap between the one who likes hibiscus and the one who likes lily in the same flat. S does not like lily. K lives to the west of the one who likes tulip. S does not like tulip. R lives three floors above the one who likes lotus. T lives just above Q who lives to the east of the one who likes jasmine. U neither likes daisy nor lives on the floor which is just below the floor of the one who likes lavender.",
+      "stem": "Who among the following likes daisy?",
+      "options": {
+        "a": "R",
+        "b": "M",
+        "c": "K",
+        "d": "Q",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following instructions carefully and answer the questions given below: Eight persons K, P, T, U, S, Q, R and M live in a four-floor building but not necessarily in the same order. Ground floor is numbered as 1, above it is 2 till the topmost floor is numbered as 4. Each of the floor has two flats as flat-1 and flat-2. Falt-1 is in the west of flat-2. Flat-1 of floor 2 is immediate above the flat-1 of floor 1 and immediate below the flat-1 of floor 3. In the same way, flat-2 of floor 2 is just above the flat-2 of floor 1 and just below the flat-2 of floor 3. They also like different flowers. P lives on an even numbered floor just below the one who like marigold in the same flat. There is one floor gap between S and the one who likes marigold and both live in different flats. Two floors gap between S and M who likes hibiscus. Two floors gap between the one who likes hibiscus and the one who likes lily in the same flat. S does not like lily. K lives to the west of the one who likes tulip. S does not like tulip. R lives three floors above the one who likes lotus. T lives just above Q who lives to the east of the one who likes jasmine. U neither likes daisy nor lives on the floor which is just below the floor of the one who likes lavender.",
+      "stem": "R likes which among the following flower?",
+      "options": {
+        "a": "Lavender",
+        "b": "Marigold",
+        "c": "Lily",
+        "d": "Tulip",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following instructions carefully and answer the questions given below: Eight persons K, P, T, U, S, Q, R and M live in a four-floor building but not necessarily in the same order. Ground floor is numbered as 1, above it is 2 till the topmost floor is numbered as 4. Each of the floor has two flats as flat-1 and flat-2. Falt-1 is in the west of flat-2. Flat-1 of floor 2 is immediate above the flat-1 of floor 1 and immediate below the flat-1 of floor 3. In the same way, flat-2 of floor 2 is just above the flat-2 of floor 1 and just below the flat-2 of floor 3. They also like different flowers. P lives on an even numbered floor just below the one who like marigold in the same flat. There is one floor gap between S and the one who likes marigold and both live in different flats. Two floors gap between S and M who likes hibiscus. Two floors gap between the one who likes hibiscus and the one who likes lily in the same flat. S does not like lily. K lives to the west of the one who likes tulip. S does not like tulip. R lives three floors above the one who likes lotus. T lives just above Q who lives to the east of the one who likes jasmine. U neither likes daisy nor lives on the floor which is just below the floor of the one who likes lavender.",
+      "stem": "Who among the following lives on floor-3?",
+      "options": {
+        "a": "R",
+        "b": "P",
+        "c": "K",
+        "d": "The one who like daisy",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following instructions carefully and answer the questions given below: Eight persons K, P, T, U, S, Q, R and M live in a four-floor building but not necessarily in the same order. Ground floor is numbered as 1, above it is 2 till the topmost floor is numbered as 4. Each of the floor has two flats as flat-1 and flat-2. Falt-1 is in the west of flat-2. Flat-1 of floor 2 is immediate above the flat-1 of floor 1 and immediate below the flat-1 of floor 3. In the same way, flat-2 of floor 2 is just above the flat-2 of floor 1 and just below the flat-2 of floor 3. They also like different flowers. P lives on an even numbered floor just below the one who like marigold in the same flat. There is one floor gap between S and the one who likes marigold and both live in different flats. Two floors gap between S and M who likes hibiscus. Two floors gap between the one who likes hibiscus and the one who likes lily in the same flat. S does not like lily. K lives to the west of the one who likes tulip. S does not like tulip. R lives three floors above the one who likes lotus. T lives just above Q who lives to the east of the one who likes jasmine. U neither likes daisy nor lives on the floor which is just below the floor of the one who likes lavender.",
+      "stem": "Who among the following lives in flat-1 of floor 2?",
+      "options": {
+        "a": "The one who likes daisy",
+        "b": "The one who likes jasmine",
+        "c": "K",
+        "d": "The one who likes lily",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Nine members are living in the family of three generations. S is the mother-in-law of Q. T is the sister-in- law of Q. R is the only son of S. V has only two children. E is the niece of R. P is the father of K who is the brother of E. L is the grand parent of E. V is grandfather of E. L is not married with S.",
+      "stem": "How is Q related to K?",
+      "options": {
+        "a": "Uncle",
+        "b": "Aunt",
+        "c": "Sister",
+        "d": "Mother-in-law",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Nine members are living in the family of three generations. S is the mother-in-law of Q. T is the sister-in- law of Q. R is the only son of S. V has only two children. E is the niece of R. P is the father of K who is the brother of E. L is the grand parent of E. V is grandfather of E. L is not married with S.",
+      "stem": "If M is the husband of L then, how L is related to R?",
+      "options": {
+        "a": "Son in law",
+        "b": "Mother",
+        "c": "Mother-in-law",
+        "d": "Son",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 4,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the information carefully and answer the questions given below. Nine members are living in the family of three generations. S is the mother-in-law of Q. T is the sister-in- law of Q. R is the only son of S. V has only two children. E is the niece of R. P is the father of K who is the brother of E. L is the grand parent of E. V is grandfather of E. L is not married with S.",
+      "stem": "Who among the following is son of V?",
+      "options": {
+        "a": "R",
+        "b": "T",
+        "c": "K",
+        "d": "E",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If the 2nd letters from left end of all the words of the set are taken as it is to form a new meaningful word, then find which of the following set of words will form a meaningful word?\nI. Green, New, Tell\nII. Passage, Pattern, Here III. Sprint, Long, Not",
+      "options": {
+        "a": "Only I",
+        "b": "Both II and IV",
+        "c": "Only III",
+        "d": "Only IV",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 255,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information and answer the questions given below: A certain number of persons sit in a linear row and all face north. Some of them like different colors. Four persons sit between P and Q who likes yellow color. Two persons sit between P and E who is third from one of the extreme ends of the row. Number of persons sit between P and Q is same as the number of persons sit between Q and Z. M sits second to the right of Z and likes brown color. The one who likes red sits adjacent to Z and M and fourth to the left of L who is second from one of the extreme ends of the row. The one who sits third to the right of E likes white color.",
+      "stem": "How many total numbers of persons sit in the row?",
+      "options": {
+        "a": "22",
+        "b": "21",
+        "c": "24",
+        "d": "23",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information and answer the questions given below: A certain number of persons sit in a linear row and all face north. Some of them like different colors. Four persons sit between P and Q who likes yellow color. Two persons sit between P and E who is third from one of the extreme ends of the row. Number of persons sit between P and Q is same as the number of persons sit between Q and Z. M sits second to the right of Z and likes brown color. The one who likes red sits adjacent to Z and M and fourth to the left of L who is second from one of the extreme ends of the row. The one who sits third to the right of E likes white color.",
+      "stem": "How many persons sit to the right of the one who likes brown color?",
+      "options": {
+        "a": "Three",
+        "b": "Two",
+        "c": "Four",
+        "d": "Five",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 67,
+        "page_start": 5,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information and answer the questions given below: A certain number of persons sit in a linear row and all face north. Some of them like different colors. Four persons sit between P and Q who likes yellow color. Two persons sit between P and E who is third from one of the extreme ends of the row. Number of persons sit between P and Q is same as the number of persons sit between Q and Z. M sits second to the right of Z and likes brown color. The one who likes red sits adjacent to Z and M and fourth to the left of L who is second from one of the extreme ends of the row. The one who sits third to the right of E likes white color.",
+      "stem": "The number of persons sit to the right the one who likes Red is same as the number of persons sit to the left of ___.",
+      "options": {
+        "a": "E",
+        "b": "Z",
+        "c": "M",
+        "d": "P",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information and answer the questions given below: A certain number of persons sit in a linear row and all face north. Some of them like different colors. Four persons sit between P and Q who likes yellow color. Two persons sit between P and E who is third from one of the extreme ends of the row. Number of persons sit between P and Q is same as the number of persons sit between Q and Z. M sits second to the right of Z and likes brown color. The one who likes red sits adjacent to Z and M and fourth to the left of L who is second from one of the extreme ends of the row. The one who sits third to the right of E likes white color.",
+      "stem": "What is the position of E with respect to Q?",
+      "options": {
+        "a": "Sixth to the left",
+        "b": "Eight to the left",
+        "c": "Seventh to the left",
+        "d": "Ninth to the right",
+        "e": "Immediate left"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Study the following information and answer the questions given below: A certain number of persons sit in a linear row and all face north. Some of them like different colors. Four persons sit between P and Q who likes yellow color. Two persons sit between P and E who is third from one of the extreme ends of the row. Number of persons sit between P and Q is same as the number of persons sit between Q and Z. M sits second to the right of Z and likes brown color. The one who likes red sits adjacent to Z and M and fourth to the left of L who is second from one of the extreme ends of the row. The one who sits third to the right of E likes white color.",
+      "stem": "Who among the following sits exactly between L and the one who likes yellow color?",
+      "options": {
+        "a": "M",
+        "b": "The one who likes red color",
+        "c": "An immediate neighbour of the one who likes brown color",
+        "d": "The one who sits second to the left of M",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 82,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement: World Bank doubles funding to $200 billion to tackle climate change, sending an important signal to the wider global community to do the same. Which of the following can be assumed from the given statement? Assumption:\nI. Climate change is one of the greatest environmental threat humanity has ever faced and it is harming people and ecosystems around the globe.\nII. The issue of climate change requires more attention than poverty, corruption and financial crisis, which in turn require more funds.",
+      "options": {
+        "a": "Only II",
+        "b": "Either I or II",
+        "c": "Only I",
+        "d": "Neither I nor II",
+        "e": "Both I and II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 510,
+        "page_start": 6,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by some Conclusions. You have to take the given statements to be true even, if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: Only a few office are house. No house is school. All school are cabin. Conclusions:\nI. Some school are not house\nII. All office are cabin is a possibility",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 166,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by some Conclusions. You have to take the given statements to be true even, if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: All vehicle are bus. All bus are bike. Only a few scooter are bike. Conclusions:\nI. All sooter can be bike\nII. Some bus are not vehicle",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 147,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "In each of the questions below are given some statements followed by some Conclusions. You have to take the given statements to be true even, if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
+      "stem": "Statements: Only game are play. Some game are sport. No sport is team. Conclusions:\nI. All team are not game\nII. Some sport are not play",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 136,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below: Eight persons were born in eight different months viz. January, February, march, April, May, June, August and October but not necessarily in the same order. They also born in eight different cities i.e., Bangalore, Bhopal, Jaipur, Mumbai, Chennai, Pune, Raipur and Udaipur but not necessarily in the same order. Q was born in the month which has even number of days but after March. Three persons were born between Q and the one who was born in Mumbai. Only one person was born between the one who was born in Mumbai and the one who was in Raipur. Three persons were born between the A and the one who was born in Raipur. B was born in the month having even number of days but does not belong from Mumbai. D was born just after B and just before L. Three persons were born between D and the one who belong form Bhopal. Five persons were born between Z and the one who belongs from Chennai. S was born just before the one who was born in Pune. V was not born in Jaipur. The one who was born in Udaipur is born before the one who was born in Jaipur.",
+      "stem": "Who among the following was born in Bangalore?",
+      "options": {
+        "a": "Z",
+        "b": "V",
+        "c": "D",
+        "d": "L",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below: Eight persons were born in eight different months viz. January, February, march, April, May, June, August and October but not necessarily in the same order. They also born in eight different cities i.e., Bangalore, Bhopal, Jaipur, Mumbai, Chennai, Pune, Raipur and Udaipur but not necessarily in the same order. Q was born in the month which has even number of days but after March. Three persons were born between Q and the one who was born in Mumbai. Only one person was born between the one who was born in Mumbai and the one who was in Raipur. Three persons were born between the A and the one who was born in Raipur. B was born in the month having even number of days but does not belong from Mumbai. D was born just after B and just before L. Three persons were born between D and the one who belong form Bhopal. Five persons were born between Z and the one who belongs from Chennai. S was born just before the one who was born in Pune. V was not born in Jaipur. The one who was born in Udaipur is born before the one who was born in Jaipur.",
+      "stem": "How many persons were born between Z and the one who was born in August?",
+      "options": {
+        "a": "Three",
+        "b": "Four",
+        "c": "Six",
+        "d": "Five",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below: Eight persons were born in eight different months viz. January, February, march, April, May, June, August and October but not necessarily in the same order. They also born in eight different cities i.e., Bangalore, Bhopal, Jaipur, Mumbai, Chennai, Pune, Raipur and Udaipur but not necessarily in the same order. Q was born in the month which has even number of days but after March. Three persons were born between Q and the one who was born in Mumbai. Only one person was born between the one who was born in Mumbai and the one who was in Raipur. Three persons were born between the A and the one who was born in Raipur. B was born in the month having even number of days but does not belong from Mumbai. D was born just after B and just before L. Three persons were born between D and the one who belong form Bhopal. Five persons were born between Z and the one who belongs from Chennai. S was born just before the one who was born in Pune. V was not born in Jaipur. The one who was born in Udaipur is born before the one who was born in Jaipur.",
+      "stem": "The one born in February was born in which of the following city?",
+      "options": {
+        "a": "Jaipur",
+        "b": "Raipur",
+        "c": "Pune",
+        "d": "Bhopal",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 65,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the question given below: Eight persons were born in eight different months viz. January, February, march, April, May, June, August and October but not necessarily in the same order. They also born in eight different cities i.e., Bangalore, Bhopal, Jaipur, Mumbai, Chennai, Pune, Raipur and Udaipur but not necessarily in the same order. Q was born in the month which has even number of days but after March. Three persons were born between Q and the one who was born in Mumbai. Only one person was born between the one who was born in Mumbai and the one who was in Raipur. Three persons were born between the A and the one who was born in Raipur. B was born in the month having even number of days but does not belong from Mumbai. D was born just after B and just before L. Three persons were born between D and the one who belong form Bhopal. Five persons were born between Z and the one who belongs from Chennai. S was born just before the one who was born in Pune. V was not born in Jaipur. The one who was born in Udaipur is born before the one who was born in Jaipur.",
+      "stem": "Four among the following five pairs are alike in a certain way so they belong to a group, which among the following does not belong to the group?",
+      "options": {
+        "a": "March-S",
+        "b": "L-Mumbai",
+        "c": "April-Pune",
+        "d": "Z-Bhopal",
+        "e": "June-B"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 145,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts. Statements: Only Doraemon is Panda. Some Shinchan is Doraemon. Only a few Shinchan is Pikachu. No Pikachu is Popeye. Conclusions:\nI. No Shinchan is Panda\nII. All Doraemon being Pikachu is a possibility III. Some Shinchan being Popeye is a possibility",
+      "options": {
+        "a": "Only I follows",
+        "b": "Only III follows",
+        "c": "Both I and III follow",
+        "d": "All I, II and III follow",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 513,
+        "page_start": null,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If 1 is subtracted from all the odd digits and 2 is added to all the even digits then, which is the 2nd highest number among the given options?",
+      "options": {
+        "a": "23649535",
+        "b": "49274956",
+        "c": "21937536",
+        "d": "75312645",
+        "e": "34274654"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 9,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons P, Q, R, S, T, U, V and W have different designations - General Manager (GM), Managing director (MD), Deputy General Manager (DGM), Assistant General Manager (AGM), Manager (MG), Assistant Manager (AM), Section Officer (SO), and Clerk (CL) in a company. The order of seniority is the same as given above - GM is the senior-most designation and Clerk is the junior-most designation. Each of them like different animals – Lion, Ostrich, Zebra, Snack, Tiger, Eagle, Elephant and Giraffe. (All the data was not necessarily in the same order). Less than two persons junior to R. Two designations gap between R and the one who likes Zebra. The number of persons junior to the one who likes Zebra is same as the number of persons senior to the one who likes Eagle. Two designations gap between V and the one who likes Zebra. Q is just senior to the one who likes Snack and senior to AGM. Three designations gap between Q and the one who likes Tiger. The one who likes elephant is just junior to W and just senior to T. S is just junior to the one who likes Ostrich. P is senior to U and junior to the one who likes Lion.",
+      "stem": "How many persons junior to P?",
+      "options": {
+        "a": "One",
+        "b": "More than three",
+        "c": "Two",
+        "d": "None",
+        "e": "Three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 29,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons P, Q, R, S, T, U, V and W have different designations - General Manager (GM), Managing director (MD), Deputy General Manager (DGM), Assistant General Manager (AGM), Manager (MG), Assistant Manager (AM), Section Officer (SO), and Clerk (CL) in a company. The order of seniority is the same as given above - GM is the senior-most designation and Clerk is the junior-most designation. Each of them like different animals – Lion, Ostrich, Zebra, Snack, Tiger, Eagle, Elephant and Giraffe. (All the data was not necessarily in the same order). Less than two persons junior to R. Two designations gap between R and the one who likes Zebra. The number of persons junior to the one who likes Zebra is same as the number of persons senior to the one who likes Eagle. Two designations gap between V and the one who likes Zebra. Q is just senior to the one who likes Snack and senior to AGM. Three designations gap between Q and the one who likes Tiger. The one who likes elephant is just junior to W and just senior to T. S is just junior to the one who likes Ostrich. P is senior to U and junior to the one who likes Lion.",
+      "stem": "Who among the following likes Elephant?",
+      "options": {
+        "a": "U",
+        "b": "S",
+        "c": "R",
+        "d": "Q",
+        "e": "V"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 39,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons P, Q, R, S, T, U, V and W have different designations - General Manager (GM), Managing director (MD), Deputy General Manager (DGM), Assistant General Manager (AGM), Manager (MG), Assistant Manager (AM), Section Officer (SO), and Clerk (CL) in a company. The order of seniority is the same as given above - GM is the senior-most designation and Clerk is the junior-most designation. Each of them like different animals – Lion, Ostrich, Zebra, Snack, Tiger, Eagle, Elephant and Giraffe. (All the data was not necessarily in the same order). Less than two persons junior to R. Two designations gap between R and the one who likes Zebra. The number of persons junior to the one who likes Zebra is same as the number of persons senior to the one who likes Eagle. Two designations gap between V and the one who likes Zebra. Q is just senior to the one who likes Snack and senior to AGM. Three designations gap between Q and the one who likes Tiger. The one who likes elephant is just junior to W and just senior to T. S is just junior to the one who likes Ostrich. P is senior to U and junior to the one who likes Lion.",
+      "stem": "Who among the following is just senior to P?",
+      "options": {
+        "a": "The one who is MD",
+        "b": "The one who likes Snack",
+        "c": "Q",
+        "d": "The one who likes Eagle",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons P, Q, R, S, T, U, V and W have different designations - General Manager (GM), Managing director (MD), Deputy General Manager (DGM), Assistant General Manager (AGM), Manager (MG), Assistant Manager (AM), Section Officer (SO), and Clerk (CL) in a company. The order of seniority is the same as given above - GM is the senior-most designation and Clerk is the junior-most designation. Each of them like different animals – Lion, Ostrich, Zebra, Snack, Tiger, Eagle, Elephant and Giraffe. (All the data was not necessarily in the same order). Less than two persons junior to R. Two designations gap between R and the one who likes Zebra. The number of persons junior to the one who likes Zebra is same as the number of persons senior to the one who likes Eagle. Two designations gap between V and the one who likes Zebra. Q is just senior to the one who likes Snack and senior to AGM. Three designations gap between Q and the one who likes Tiger. The one who likes elephant is just junior to W and just senior to T. S is just junior to the one who likes Ostrich. P is senior to U and junior to the one who likes Lion.",
+      "stem": "Four of the following five are alike in a certain way and so form a group. Find the one who does not belong to that group?",
+      "options": {
+        "a": "S-Tiger",
+        "b": "V-Zebra",
+        "c": "Snack-eagle",
+        "d": "T-Eagle",
+        "e": "U-Ostrich"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 10,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons P, Q, R, S, T, U, V and W have different designations - General Manager (GM), Managing director (MD), Deputy General Manager (DGM), Assistant General Manager (AGM), Manager (MG), Assistant Manager (AM), Section Officer (SO), and Clerk (CL) in a company. The order of seniority is the same as given above - GM is the senior-most designation and Clerk is the junior-most designation. Each of them like different animals – Lion, Ostrich, Zebra, Snack, Tiger, Eagle, Elephant and Giraffe. (All the data was not necessarily in the same order). Less than two persons junior to R. Two designations gap between R and the one who likes Zebra. The number of persons junior to the one who likes Zebra is same as the number of persons senior to the one who likes Eagle. Two designations gap between V and the one who likes Zebra. Q is just senior to the one who likes Snack and senior to AGM. Three designations gap between Q and the one who likes Tiger. The one who likes elephant is just junior to W and just senior to T. S is just junior to the one who likes Ostrich. P is senior to U and junior to the one who likes Lion.",
+      "stem": "Who among the following is SO?",
+      "options": {
+        "a": "P",
+        "b": "U",
+        "c": "R",
+        "d": "W",
+        "e": "T"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 30,
+        "page_start": null,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I, and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read all the statements and answer the following questions.",
+      "stem": "Eight persons sit in a row facing to the north. How many persons sit left of A? Statements:\nI. A sits immediate left of B. Three persons sit between A and D.\nII. E sits 2nd to the left of D. More than two persons sit between B and D.",
+      "options": {
+        "a": "If the data in statement I alone are sufficient",
+        "b": "If the data in statement II alone are sufficient",
+        "c": "If the data either in statement I alone or statement II alone are sufficient to answer",
+        "d": "If the data given in both I and II together are not sufficient",
+        "e": "If the data in both the statements I and II together are necessary to answer"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 233,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I, and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read all the statements and answer the following questions.",
+      "stem": "Six persons sit around a circular table facing to the centre. Who among the following sits immediate right of D? Statements:\nI. Two persons sit between A and B. E faces F, who is an immediate neighbour of A. C sits immediate right of B.\nII. E is not and immediate neighbour of B. B sits 3rd to the left of A. C sits immediate left of D, who is not an immediate neighbour of A.",
+      "options": {
+        "a": "If the data in statement I alone are sufficient",
+        "b": "If the data in statement II alone are sufficient",
+        "c": "If the data either in statement I alone or statement II alone are sufficient to answer",
+        "d": "If the data given in both I and II together are not sufficient",
+        "e": "If the data in both the statements I and II together are necessary to answer"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 376,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Each of the questions below consists of a question and two statements numbered I, and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read all the statements and answer the following questions.",
+      "stem": "In a certain code language. What is the code for “phase one”? Statements:\nI. “student phase exam” is coded as “ml ny ts” and “number one rank” is coded as “qs tr py”\nII. “student rank matter” is coded as “ny gp mp” and “rank one student” is coded as “qs py ny”",
+      "options": {
+        "a": "If the data in statement I alone are sufficient",
+        "b": "If the data in statement II alone are sufficient",
+        "c": "If the data either in statement I alone or statement II alone are sufficient to answer",
+        "d": "If the data given in both I and II together are not sufficient",
+        "e": "If the data in both the statements I and II together are necessary to answer"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 260,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "Three containers A, B and C have equal quantity of milk and water mixture, in ratio 2: 3, 3: 4 and 4: 5 respectively mixed in container Y. Quantity 1: concentration of water in container Y. Quantity 2: concentration of water in container X (milk and water mixture), which has 75% milk.",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 285,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "Quantity 1: (p2 −p) (q2 −q) Quantity 2: (pq−p2) (q2 −q) Given, p< 0 < q< 1",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 74,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "x2−b² + ab= ax; given x, a and b are positive integers. Quantity 1: value of a Quantity 2: value of b",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 101,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "Train A of length 100 meter travelling at 50 kmph running in same direction overtakes train B of length 120 meter in 60 seconds. Quantity 1: speed of train B (in kmph) Quantity 2: 40",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 182,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "Quantity 1: x; x3 −2x2 −x+ 2 = 0 Quantity 2: a+ 3 = 0, hence, value of ’a’.",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In the given questions, two quantities are given, one as ‘Quantity 1’ and another as ‘Quantity 2’. You have to determine relationship between two quantities and choose the appropriate option:",
+      "stem": "Given, 1 ≤p≤2; 2 ≤q≤3 Quantity 1: q2 + 2pq Quantity 2: 2{pq(p2 + 2pq) + 1}",
+      "options": {
+        "a": "Quantity 1 > Quantity",
+        "b": "Quantity 1 ≥ Quantity",
+        "c": "Quantity 2 > Quantity",
+        "d": "Quantity 2 ≥ Quantity",
+        "e": "Quantity 1 = Quantity 2 or Relation cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 74,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Banu invested 25% more than Anu in a joint venture. After 6 months from start, both increased their investment in such a way that investment amount became equal for both. If profit share of Banu and Anu at the end of 1 year is in respective ratio of 18: 17, then find by how much percent was investment increased after 6 months by Banu.",
+      "options": {
+        "a": "60%",
+        "b": "40%",
+        "c": "125%",
+        "d": "160%",
+        "e": "225%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 336,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A person covers 100 km journey into two parts. First part he travelled in AC car and remaining journey he covered on non-AC car. Rent of AC car is Rs.7 per km and for non-AC car, it is Rs.3 per km. If he paid total rent of Rs.340, then find the distance travelled by non-AC car?",
+      "options": {
+        "a": "10 km",
+        "b": "90 km",
+        "c": "40 km",
+        "d": "60 km",
+        "e": "80 km"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 278,
+        "page_start": null,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A rectangle ABCD is given, whose sides AB and CD are equal. It is given that BC = X and CD = 2X+5. If area of rectangle is 168 sq. cm., then find the length of AB.",
+      "options": {
+        "a": "17 cm",
+        "b": "21 cm",
+        "c": "15 cm",
+        "d": "23 cm",
+        "e": "CND"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 163,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A person spent 16% of his income on books from the remaining he spent on travelling and tuition in the ratio of 4: 3. If difference of money spent on travelling and tuition is Rs.602, then find his approximate income.",
+      "options": {
+        "a": "Rs.5000",
+        "b": "Rs.4000",
+        "c": "Rs.6000",
+        "d": "Rs.6500",
+        "e": "Rs.5500"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 217,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the missing term in given series:",
+      "stem": "60.75, ?, 27, 18, 12, 8",
+      "options": {
+        "a": "45.45",
+        "b": "48.25",
+        "c": "40.5",
+        "d": "42",
+        "e": "50.2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the missing term in given series:",
+      "stem": "8, 5, 7, 13.5, 31, ?",
+      "options": {
+        "a": "82.5",
+        "b": "67.25",
+        "c": "72.25",
+        "d": "85.75",
+        "e": "91.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 20,
+        "page_start": 13,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the missing term in given series:",
+      "stem": "209, ?, 217, 187, 255, 125",
+      "options": {
+        "a": "203",
+        "b": "207",
+        "c": "196",
+        "d": "202",
+        "e": "199"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 26,
+        "page_start": null,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the missing term in given series:",
+      "stem": "3, 6, 12, 36, 180, ?",
+      "options": {
+        "a": "1188",
+        "b": "1264",
+        "c": "1354",
+        "d": "1292",
+        "e": "1332"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 20,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "Find out the missing term in given series:",
+      "stem": "9, 28, 55, 66, 101, ?",
+      "options": {
+        "a": "103",
+        "b": "108",
+        "c": "104",
+        "d": "111",
+        "e": "124"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The following table shows the quantity of wheat distributed by the whole seller to five different shopkeepers; A, B, C, D and E. Total quantity of the wheat was 6000 kg. Shopkeeper Cumulative quantity (%) Percentage of quantity sold out of available quantity with shopkeeper A 20% 75% B 42% 70% C 57% 25% D 82% 15% E 100% 50%",
+      "stem": "Wheat (in kg) sold by B is how much percentage more/less than that by D.",
+      "options": {
+        "a": "540%",
+        "b": "450%",
+        "c": "380%",
+        "d": "311%",
+        "e": "420%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 14,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q057",
+      "q_num": 57,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The following table shows the quantity of wheat distributed by the whole seller to five different shopkeepers; A, B, C, D and E. Total quantity of the wheat was 6000 kg. Shopkeeper Cumulative quantity (%) Percentage of quantity sold out of available quantity with shopkeeper A 20% 75% B 42% 70% C 57% 25% D 82% 15% E 100% 50%",
+      "stem": "If shopkeeper F buys unsold wheat of shopkeeper C. Further, he sold 1/3rd part at cost price and remaining at the 20% profit. What is the total profit for shopkeeper F given C sold his unsold wheat at Rs.10 per kg to F.",
+      "options": {
+        "a": "Rs.900",
+        "b": "Rs.840",
+        "c": "Rs.750",
+        "d": "Rs.960",
+        "e": "Rs.1050"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 219,
+        "page_start": null,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The following table shows the quantity of wheat distributed by the whole seller to five different shopkeepers; A, B, C, D and E. Total quantity of the wheat was 6000 kg. Shopkeeper Cumulative quantity (%) Percentage of quantity sold out of available quantity with shopkeeper A 20% 75% B 42% 70% C 57% 25% D 82% 15% E 100% 50%",
+      "stem": "What is the average quantity of wheat possessing together by all the shopkeeper that was not sold?",
+      "options": {
+        "a": "673.2 kg",
+        "b": "702.6 kg",
+        "c": "637.2 kg",
+        "d": "718.4 kg",
+        "e": "654.8 kg"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 98,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The following table shows the quantity of wheat distributed by the whole seller to five different shopkeepers; A, B, C, D and E. Total quantity of the wheat was 6000 kg. Shopkeeper Cumulative quantity (%) Percentage of quantity sold out of available quantity with shopkeeper A 20% 75% B 42% 70% C 57% 25% D 82% 15% E 100% 50%",
+      "stem": "If total wheat sold by B is 37.5% more than by shop X and 25% of total available quantity of wheat remain unsold for shop X, then find the ratio of total unsold wheat by shop B to total quantity of wheat available for shop X?",
+      "options": {
+        "a": "7 : 15",
+        "b": "7 : 18",
+        "c": "7 : 16",
+        "d": "7 : 32",
+        "e": "7 : 28"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 225,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "The following table shows the quantity of wheat distributed by the whole seller to five different shopkeepers; A, B, C, D and E. Total quantity of the wheat was 6000 kg. Shopkeeper Cumulative quantity (%) Percentage of quantity sold out of available quantity with shopkeeper A 20% 75% B 42% 70% C 57% 25% D 82% 15% E 100% 50%",
+      "stem": "Total wheat sold by E is what percent more than total unsold wheat by A?",
+      "options": {
+        "a": "100%",
+        "b": "44.44%",
+        "c": "75%",
+        "d": "80%",
+        "e": "60%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 72,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the given data carefully and answer the following questions. A recruitment drive is organized by three companies i.e. A, B and C. The number of vacancies released by A, B and C are 2, 4 and 1 respectively. The number of candidates, who got interview call for each post in company A are 24, that for company B are 2x and for company C, this number is x. The total number of candidates applied in company C is one fourth of the total number of candidates applied in company B and three fifth of the total number of candidates applied in company A. Difference between number of candidates got interview call in company B and company C is 105.",
+      "stem": "What is the ratio between the number of candidates who got interview calls in company B and that in company C?",
+      "options": {
+        "a": "4: 1",
+        "b": "7: 1",
+        "c": "9: 2",
+        "d": "8: 1",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 110,
+        "page_start": null,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the given data carefully and answer the following questions. A recruitment drive is organized by three companies i.e. A, B and C. The number of vacancies released by A, B and C are 2, 4 and 1 respectively. The number of candidates, who got interview call for each post in company A are 24, that for company B are 2x and for company C, this number is x. The total number of candidates applied in company C is one fourth of the total number of candidates applied in company B and three fifth of the total number of candidates applied in company A. Difference between number of candidates got interview call in company B and company C is 105.",
+      "stem": "What is the average number of the candidates from these companies who got interview calls?",
+      "options": {
+        "a": "57",
+        "b": "53",
+        "c": "59",
+        "d": "63",
+        "e": "61"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 90,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the given data carefully and answer the following questions. A recruitment drive is organized by three companies i.e. A, B and C. The number of vacancies released by A, B and C are 2, 4 and 1 respectively. The number of candidates, who got interview call for each post in company A are 24, that for company B are 2x and for company C, this number is x. The total number of candidates applied in company C is one fourth of the total number of candidates applied in company B and three fifth of the total number of candidates applied in company A. Difference between number of candidates got interview call in company B and company C is 105.",
+      "stem": "Total number of candidates who applied for company B is what percent more or less than that for company C?",
+      "options": {
+        "a": "300%",
+        "b": "140%",
+        "c": "40%",
+        "d": "200%",
+        "e": "350%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 106,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the given data carefully and answer the following questions. A recruitment drive is organized by three companies i.e. A, B and C. The number of vacancies released by A, B and C are 2, 4 and 1 respectively. The number of candidates, who got interview call for each post in company A are 24, that for company B are 2x and for company C, this number is x. The total number of candidates applied in company C is one fourth of the total number of candidates applied in company B and three fifth of the total number of candidates applied in company A. Difference between number of candidates got interview call in company B and company C is 105.",
+      "stem": "Out of the total number of candidates who got interview call from company A, 75% are females and after recruitment process, company A allotted its posts to male and female equally. Find the number of female candidates who did not get job in that company.",
+      "options": {
+        "a": "11",
+        "b": "34",
+        "c": "13",
+        "d": "35",
+        "e": "37"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 254,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "Read the given data carefully and answer the following questions. A recruitment drive is organized by three companies i.e. A, B and C. The number of vacancies released by A, B and C are 2, 4 and 1 respectively. The number of candidates, who got interview call for each post in company A are 24, that for company B are 2x and for company C, this number is x. The total number of candidates applied in company C is one fourth of the total number of candidates applied in company B and three fifth of the total number of candidates applied in company A. Difference between number of candidates got interview call in company B and company C is 105.",
+      "stem": "Number of candidates who got interview call from company B is what percentage of candidate who got interview call from company A and company C together.",
+      "options": {
+        "a": "90%",
+        "b": "180%",
+        "c": "170%",
+        "d": "190%",
+        "e": "200%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": 16,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "The line graph shows the total number of students enrolled in five different years for yearly examination and students are consider as passed/ qualified if they pass in at least one subject. Note: Total students enrolled = Students passed + students not passed.",
+      "stem": "In 2016, out of the total students, who did not pass the exam, 20% re apply for the exam in 2017. (In 2017 total students enrolled = reapplied from 2016 + new applicants). The ratio between students passed in 2013 and 2017 is 3: 2. Out of the total passed students in 2017, 96% are new applicants, then find the number of re-applied students from 2016 who did not pass in 2017.",
+      "options": {
+        "a": "2",
+        "b": "48",
+        "c": "54",
+        "d": "58",
+        "e": "52"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 377,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q067",
+      "q_num": 67,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "The line graph shows the total number of students enrolled in five different years for yearly examination and students are consider as passed/ qualified if they pass in at least one subject. Note: Total students enrolled = Students passed + students not passed.",
+      "stem": "In 2012, there were three subjects i.e. A, B and C in syllabus. 20% students passed in subject A only, 30% students passed in subject B only and 20% students passed in subject C only. If number of students passed in all three subjects was 9, then find the number of students who passed in exactly two subjects.",
+      "options": {
+        "a": "18",
+        "b": "27",
+        "c": "9",
+        "d": "15",
+        "e": "36"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 310,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "The line graph shows the total number of students enrolled in five different years for yearly examination and students are consider as passed/ qualified if they pass in at least one subject. Note: Total students enrolled = Students passed + students not passed.",
+      "stem": "What was the average number of students, who did not pass in 2012 and 2016?",
+      "options": {
+        "a": "185",
+        "b": "145",
+        "c": "125",
+        "d": "240",
+        "e": "205 Total Students Students passed"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 17,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "The line graph shows the total number of students enrolled in five different years for yearly examination and students are consider as passed/ qualified if they pass in at least one subject. Note: Total students enrolled = Students passed + students not passed.",
+      "stem": "What was the ratio between number of students, who did not pass in 2012 to number of passed students in 2015?",
+      "options": {
+        "a": "1: 2",
+        "b": "2: 3",
+        "c": "1: 1",
+        "d": "4: 3",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 109,
+        "page_start": null,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q070",
+      "q_num": 70,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "The line graph shows the total number of students enrolled in five different years for yearly examination and students are consider as passed/ qualified if they pass in at least one subject. Note: Total students enrolled = Students passed + students not passed.",
+      "stem": "Total number of passed students in 2013 and 2014 together is what percentage more/less than number of failed students in 2012 and 2015 together?",
+      "options": {
+        "a": "24%",
+        "b": "20%",
+        "c": "22%",
+        "d": "26%",
+        "e": "32%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 144,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "X men can complete a piece of work in 41 days and (X+40) men can complete the same piece of work in 20 days less than that of days taken by X men. Find the value of X.",
+      "options": {
+        "a": "42",
+        "b": "48",
+        "c": "54",
+        "d": "36",
+        "e": "39"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 167,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A’s age, 8 years hence, will be twice the B’s present age. C’s age 6 years ago was equal to the present age of B. Ratio of A’s age 4 years hence and C’s age 6 years hence is 9: 8. Find B’s age 8 years ago.",
+      "options": {
+        "a": "24 years",
+        "b": "12 years",
+        "c": "28 years",
+        "d": "18 years",
+        "e": "34 years"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 205,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Speeds of train A and train B are in the ratio of 3: 4. These trains covered the same distance but difference between respective time taken by them is 21 min. What is the time taken by train A?",
+      "options": {
+        "a": "63 min",
+        "b": "105 min",
+        "c": "84 min",
+        "d": "72 min",
+        "e": "96 min"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 193,
+        "page_start": 18,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The area of four walls of a room is 128 sq. m. If length and breadth of the room are equal and height of the room is 4 m, then find the area of floor. (in sq. m.)",
+      "options": {
+        "a": "81",
+        "b": "49",
+        "c": "64",
+        "d": "96",
+        "e": "100"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": null,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A sold a pen to B at a profit of 20%, who further sold it to C at 10% profit. C sold it to D at 33.33% profit. Hence, difference between selling price of pen for A and cost price of pen for D is Rs.280. Find the cost price of pen for C.",
+      "options": {
+        "a": "Rs.660",
+        "b": "Rs.840",
+        "c": "Rs.740",
+        "d": "Rs.580",
+        "e": "Rs.780"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 236,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "In each of these questions, two equations (I) and (II) are given, You have to solve both the equations and give answer.",
+      "stem": "Select the word that fits blank (76).",
+      "options": {
+        "a": "x = y or no relation",
+        "b": "x < y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x ≥ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "In each of these questions, two equations (I) and (II) are given, You have to solve both the equations and give answer.",
+      "stem": "Select the word that fits blank (77).",
+      "options": {
+        "a": "x = y or no relation",
+        "b": "x < y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x ≥ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q078",
+      "q_num": 78,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "In each of these questions, two equations (I) and (II) are given, You have to solve both the equations and give answer.",
+      "stem": "Select the word that fits blank (78).",
+      "options": {
+        "a": "x = y or no relation",
+        "b": "x < y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x ≥ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 19,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "In each of these questions, two equations (I) and (II) are given, You have to solve both the equations and give answer.",
+      "stem": "Select the word that fits blank (79).",
+      "options": {
+        "a": "x = y or no relation",
+        "b": "x < y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x ≥ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "In each of these questions, two equations (I) and (II) are given, You have to solve both the equations and give answer.",
+      "stem": "I. x+ 4x= II.1 + y² = 3y",
+      "options": {
+        "a": "x = y or no relation",
+        "b": "x < y",
+        "c": "x ≤ y",
+        "d": "x > y",
+        "e": "x ≥ y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 24,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q081",
+      "q_num": 81,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following factors is/are causing a decrease in hydro energy and an increase in agricultural demand for lift irrigation?",
+      "options": {
+        "a": "Delays in adding new capacity expansions in place",
+        "b": "Existing capacity is being used at a lesser rate",
+        "c": "Rapid growth in the developing economies",
+        "d": "Only"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 132,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q082",
+      "q_num": 82,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following statements is/are correct about the annual electricity consumption per capita?",
+      "options": {
+        "a": "It slows down the industrialization process",
+        "b": "It is a crucial indicator of a country's electric power expansion",
+        "c": "It aids in the rapid growth of electricity consumption",
+        "d": "Both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 101,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q083",
+      "q_num": 83,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following statements is/are correct about the emerging economies in Asia and Central and South America?",
+      "options": {
+        "a": "Electric power usage has increased significantly in these regions",
+        "b": "In comparison to these regions, most developed regions have seen lower electric power use",
+        "c": "On an aggregate level, the electric power consumption has grown at a much slower rate",
+        "d": "Only"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 116,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q084",
+      "q_num": 84,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following statements is/are correct about the electricity consumption of the United Kingdom considering the information provided in the given passage?",
+      "options": {
+        "a": "It saw an increase in energy usage, owing to quicker economic expansion between World War II and the mid-1970s",
+        "b": "When the economy slowed in the 1970s and 1980s, the country's per capita power consumption increased",
+        "c": "The United Kingdom's annual electricity usage per capita aided in the development of electric power",
+        "d": "Only"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 163,
+        "page_start": 21,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q085",
+      "q_num": 85,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Choose the most appropriate word from the following options to fill in the blank (A), as highlighted in the given passage.",
+      "options": {
+        "a": "component",
+        "b": "factor",
+        "c": "measure",
+        "d": "impediment",
+        "e": "trigger"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": null,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q086",
+      "q_num": 86,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following is/are the most appropriate in meaning to the word ‘IMPLEMENTING’, as highlighted in the given passage?",
+      "options": {
+        "a": "Executing",
+        "b": "Applying",
+        "c": "Enacting",
+        "d": "All of these",
+        "e": "Only"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 126,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q087",
+      "q_num": 87,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following is/are the most similar in meaning to the word ‘RECESSION’, as highlighted in the given passage?",
+      "options": {
+        "a": "Downturn",
+        "b": "Slump",
+        "c": "Escalation",
+        "d": "Both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 119,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q088",
+      "q_num": 88,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Read the following passage and answer the following questions. Some words are highlighted to help you answer some of the questions. Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation. Global electricity consumption has continued to go up rapidly at a rate faster than energy consumption. Between 1980 and 2013, the world’s annual electricity consumption rose from 7300 TWh to 22,100 TWh. Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions. North America and Europe experienced growth of electric power consumption by 87 and 148%, respectively, far lower compared to growth in the emerging and developing economies. Electricity consumption in Sweden can be divided into three principal categories, the percentage shares of which, out of the total electricity consumption, have changed since the beginning of the 1950s. This trend has since continued but the development has also been affected by the business recession which has characterized the industry in the last few years. For industry, there is a strong connection between production volume and electricity consumption. As a basis for a prognosis of electricity consumption of the industry, the estimation by industry of the development of production volume and the specific electricity consumption is necessary. A characteristic feature, in the judgment of the industries, is that the uncertainty rapidly increases with the time perspective. In order to pay attention to this uncertainty in the best way, an average prognosis with a dispersion belonging to it is used in planning. As far as industry is concerned there is a special problem in the business variations. In forecasting, it is desirable to separate the variations in season and business from the long-term trend. Prognoses made in boom years can otherwise easily become too optimistic, whilst prognoses made during a recession period may be colored by this and become too low. Annual electricity consumption per capita serves as an important ____________(A)_____________ of a country’s electric power development. Generally speaking, electricity consumption grows faster when the industrialization process develops quickly and goes down rapidly when industrialization is completed or near completion. The United Kingdom saw rising electricity consumption per capita between World War II and the mid- 1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well. The other large main group, other consumption, has had a more even growth over many years. This group comprises, inter alia, household, trade and public consumption. The basis for an electricity consumption prognosis in this sector primarily consists of prognoses of population development, dwelling construction and specific consumption in which the saturation degree for different types of electric apparatus is included. The load variations over the 24 hours are of great importance for the peak power demand. Along with the increase of the total electricity consumption, there is a simultaneous proportional growth in the load variations. This makes short-term regulation gradually more expensive. In the long run, the power producers will face the choice of building special regulating power, for instance, pumped storage power, or measures directed at the consumers in order to reduce the variations in load.",
+      "stem": "Which of the following is/are the most dissimilar in meaning to the word ‘SATURATION’, as highlighted in the given passage?",
+      "options": {
+        "a": "Abolition",
+        "b": "Demolish",
+        "c": "Proliferate",
+        "d": "Only"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 123,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q089",
+      "q_num": 89,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (89).",
+      "options": {
+        "a": "On Wednesday, the turmoil in the Punjab unit snowballed into a major crisis for Congress",
+        "b": "A preliminary inquiry by the CBI into the firecracker industry revealed rampant violation of its ban on the use of toxic ingredients",
+        "c": "The biggest Ramlila events that the Capital have been hosting for decades are likely to be cancelled this year",
+        "d": "The chaos in the Congress’s Punjab unit refused to show any sign of settling",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 22,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q090",
+      "q_num": 90,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (90).",
+      "options": {
+        "a": "Nipah virus antibodies were detected in bat samples collected near the panchayat where a Nipah infection was confirmed last month",
+        "b": "The equipment used by Olympic and Paralympic athletes had received bids of around Rs.10 crores",
+        "c": "The documents were collected by the officers as part of the routine investigation",
+        "d": "There was neither enough time to collect contributions for the event not a way to tide over the prohibition on the use of firecrackers",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q091",
+      "q_num": 91,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (91).",
+      "options": {
+        "a": "A restaurant that allegedly denied entry to a saree-clad woman was issued a closure notice for operate without a proper trade license",
+        "b": "Many restaurants and bars in the national capital are reportedly not following COVID-19 safety guidelines",
+        "c": "Police teams periodically visit markets to ensure people are wearing masks and following social distancing norms",
+        "d": "Although law enforcement agencies are taking action in certain markets, most violations are going unreported",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 23,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q092",
+      "q_num": 92,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (92).",
+      "options": {
+        "a": "Several random blood samples have been collected so far as part of the sixth serological survey",
+        "b": "The city reported no new COVID-19 deaths, according to the health bulletin released by the Delhi government",
+        "c": "The court orally observed that the ‘right to be forgotten’ depends on how far its has to be stretched",
+        "d": "The ‘Faceless Services’ initiative envisions providing contact-less, queue-less, hassle-free services",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 23,
+        "page_end": 23
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q093",
+      "q_num": 93,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (93).",
+      "options": {
+        "a": "The Delhi government organized a workshop to connect food business operators with NGOs distributing food to the needy",
+        "b": "Under the Target Olympic Podium Scheme, more than Rs.17 crores were sanctioned to the athletes for preparation",
+        "c": "Hospital libraries with their wide range of biomedical literature usually caters to healthcare professionals",
+        "d": "Mr. Gandhi surprised autorickshaw drivers of Wandoor when he accepted their on-the-spot invitation for tea and snacks with them",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 23,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q094",
+      "q_num": 94,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (94).",
+      "options": {
+        "a": "It was decided that all remaining classes would be allowed to resume after the festive season ends",
+        "b": "Delhi Police officers arrested four men for their alleged involvement in a case of burglary",
+        "c": "They received funding from private companies under the Corporate Social Responsibility (CSR) scheme",
+        "d": "The four petitioners in the case, who alleged that they were duped by an individual, also arrived to give their statements",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q095",
+      "q_num": 95,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d016",
+      "direction_text": "Read each of the following sentences to find out whether there is any grammatical mistake/error in it. The error, if any, will be in only one sentence. Choose the sentence with grammatical error as the correct answer. If all the given sentences are grammatically correct then choose “All are correct”.",
+      "stem": "Select the word that fits blank (95).",
+      "options": {
+        "a": "The low-cost technical procedures and minimal service charges are the biggest lures for aspirants",
+        "b": "It may not be an exaggeration to say that when it comes to seeking answers under the RTI Act, the officers are consistent in putting up a screen",
+        "c": "After identifying a suitable space for the library, the district panchayat will providing the infrastructure and the books required",
+        "d": "They made promises of easy migration and appointment without clearing mandatory language proficiency tests",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 24,
+        "page_end": 24
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q101",
+      "q_num": 101,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "In each of the questions given below five words are given in bold. These five words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other.",
+      "stem": "Vehicular parts",
+      "options": {
+        "a": "was disrupted",
+        "b": "on national and",
+        "c": "State highways",
+        "d": "in most movement",
+        "e": "of Punjab and Haryana"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 15,
+        "page_start": 25,
+        "page_end": 25
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q102",
+      "q_num": 102,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "In each of the questions given below five words are given in bold. These five words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other.",
+      "stem": "PM-KUSUM is an initiative",
+      "options": {
+        "a": "of the government which incentives",
+        "b": "farmers with provides",
+        "c": "to install solar",
+        "d": "power pumps and plants in their fields (E)"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 25,
+        "page_start": 25,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q103",
+      "q_num": 103,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "In each of the questions given below five words are given in bold. These five words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other.",
+      "stem": "The Assam police have allegedly",
+      "options": {
+        "a": "two persons for arrested",
+        "b": "inciting violence during",
+        "c": "the eviction drive",
+        "d": "near Sipajhar in Darrang district",
+        "e": "on September 23"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 31,
+        "page_start": null,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q104",
+      "q_num": 104,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "In each of the questions given below five words are given in bold. These five words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other.",
+      "stem": "Shops and commercial establishments",
+      "options": {
+        "a": "were closed",
+        "b": "in many parts",
+        "c": "of the two states which make",
+        "d": "up the largest mass",
+        "e": "of the protesting unions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q105",
+      "q_num": 105,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d018",
+      "direction_text": "In each of the questions given below five words are given in bold. These five words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other.",
+      "stem": "Prime Minister Narendra Modi launched",
+      "options": {
+        "a": "the Ayushman Bharat Digital Mission citizen",
+        "b": "which every under",
+        "c": "would get a digital health ID and their health",
+        "d": "records would be digitally protected (E)"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 37,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q106",
+      "q_num": 106,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence, there are five pairs of words denoted by numbers (a), (b), (c),",
+      "stem": "India on Thursday ____________ out at China for attempting to _____________ it for the eastern Ladakh standoff.",
+      "options": {
+        "a": "marked, free",
+        "b": "hit, blame",
+        "c": "claimed, rest",
+        "d": "urged, convince",
+        "e": "blamed, praise"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 111,
+        "page_start": 26,
+        "page_end": 26
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q107",
+      "q_num": 107,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence, there are five pairs of words denoted by numbers (a), (b), (c),",
+      "stem": "The Union government last week _______________ the Supreme Court that the caste data ________________ in the Socio-Economic Caste Census (SECC) of 2011 was “unusable”.",
+      "options": {
+        "a": "packed, diluted",
+        "b": "informed, mitigated",
+        "c": "told, enumerated",
+        "d": "asked, soaked",
+        "e": "criticized, collected"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 167,
+        "page_start": 26,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q108",
+      "q_num": 108,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence, there are five pairs of words denoted by numbers (a), (b), (c),",
+      "stem": "China's ____________________ and the coercive nature in the resource-rich Indo-Pacific region is a frequent topic of ______________ among the Quad nations.",
+      "options": {
+        "a": "augmented, concord",
+        "b": "politeness, debate",
+        "c": "outraged, happiness",
+        "d": "sorrows, auspicious",
+        "e": "aggressiveness, discussion"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 155,
+        "page_start": null,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q109",
+      "q_num": 109,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence, there are five pairs of words denoted by numbers (a), (b), (c),",
+      "stem": "The Supreme Court on Monday ______________ the Tamil Nadu State Election Commission (TNSEC) four months to ____________________ the elections to urban local bodies in the State.",
+      "options": {
+        "a": "gave, complete",
+        "b": "requested, manage",
+        "c": "completed, urge",
+        "d": "informed, conclude",
+        "e": "directed, surge"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 177,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q110",
+      "q_num": 110,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d019",
+      "direction_text": "In each of the following sentences there are two blank spaces. Below each sentence, there are five pairs of words denoted by numbers (a), (b), (c),",
+      "stem": "The differential _________________ discriminating indigenous and attracting foreign entities _______________ to stop.",
+      "options": {
+        "a": "calculus, urged",
+        "b": "policies, needs",
+        "c": "models, helps",
+        "d": "pictures, removes",
+        "e": "monsoon, hopes"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 27,
+        "page_end": 27
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q111",
+      "q_num": 111,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "A word has been given in each question and has been used in the sentences given below. Identify the statements where the word has been used in a contextually and grammatically correct manner. If the word has been used incorrectly in all the statements, mark (e), “None of these”, as your answer.",
+      "stem": "Chaos (i) I lost my bag in the ensuing chaos. (ii) There is a need to chaos the system from policy regulations. (iii) Snow and ice have caused chaos on the roads.",
+      "options": {
+        "a": "only (i)",
+        "b": "only (ii)",
+        "c": "both (ii) & (iii)",
+        "d": "both (i) & (iii)",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": 27,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q112",
+      "q_num": 112,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "A word has been given in each question and has been used in the sentences given below. Identify the statements where the word has been used in a contextually and grammatically correct manner. If the word has been used incorrectly in all the statements, mark (e), “None of these”, as your answer.",
+      "stem": "Fragile (i) My grandmother has extremely fragile health so she sees her doctor once a week. (ii) Because the treaty between the two nations is very fragile, it may be damaged early. (iii) We need to take some fragile measures to boost economic prosperity.",
+      "options": {
+        "a": "only (i)",
+        "b": "only (ii)",
+        "c": "both (ii) & (iii)",
+        "d": "both (i) & (ii)",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 255,
+        "page_start": null,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q113",
+      "q_num": 113,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "A word has been given in each question and has been used in the sentences given below. Identify the statements where the word has been used in a contextually and grammatically correct manner. If the word has been used incorrectly in all the statements, mark (e), “None of these”, as your answer.",
+      "stem": "Elude (i) The criminal was able to elude the police in the crowded mall. (ii) I like to go to the market and elude with the shopkeepers there. (iii) During the riots, there was widespread elude in the city",
+      "options": {
+        "a": "only (i)",
+        "b": "only (ii)",
+        "c": "both (ii) & (iii)",
+        "d": "both (i) & (ii)",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 205,
+        "page_start": 28,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q114",
+      "q_num": 114,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "A word has been given in each question and has been used in the sentences given below. Identify the statements where the word has been used in a contextually and grammatically correct manner. If the word has been used incorrectly in all the statements, mark (e), “None of these”, as your answer.",
+      "stem": "Turmoil (i) The turmoil in the stock market is causing investors to rethink their buying and selling decisions. (ii) Janet and her family moved to the country in hopes of avoiding the turmoil of city life. (iii) The secret of turmoil lies in the simplification of life.",
+      "options": {
+        "a": "only (i)",
+        "b": "only (ii)",
+        "c": "both (ii) & (iii)",
+        "d": "both (i) & (ii)",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 269,
+        "page_start": 28,
+        "page_end": 28
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q115",
+      "q_num": 115,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d020",
+      "direction_text": "A word has been given in each question and has been used in the sentences given below. Identify the statements where the word has been used in a contextually and grammatically correct manner. If the word has been used incorrectly in all the statements, mark (e), “None of these”, as your answer.",
+      "stem": "Fierce (i) The diplomats will fierce a range of issues, including counter-terrorism. (ii) Two men were shot during fierce fighting last weekend. (iii) The famous boxer killed a fierce wolf with his bare hands.",
+      "options": {
+        "a": "only (i)",
+        "b": "only (ii)",
+        "c": "both (ii) & (iii)",
+        "d": "both (i) & (ii)",
+        "e": "none of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": 28,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q116",
+      "q_num": 116,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Two columns are given with few sentences/phrases in each which are grammatically correct and meaningful. Connect them by the word given below the statements in the best possible way without changing the intended meaning. Choose the best possible combination as your answer accordingly from the options to form a correct, coherent sentence.",
+      "stem": "Column I",
+      "options": {
+        "a": "India has nine of the 10 most polluted cities in the world",
+        "b": "Omicron is causing significant economic disruptions",
+        "c": "The Minister of Law and Justice claimed that our country can be made great Column II",
+        "d": "India's air quality monitor density is still below that of many countries",
+        "e": "at making these obligations central and at melding with duties (F) we create a balance between fundamental duties and fundamental rights (i) only if (ii) since (iii) and"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 8,
+        "page_start": 29,
+        "page_end": 29
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q117",
+      "q_num": 117,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Two columns are given with few sentences/phrases in each which are grammatically correct and meaningful. Connect them by the word given below the statements in the best possible way without changing the intended meaning. Choose the best possible combination as your answer accordingly from the options to form a correct, coherent sentence.",
+      "stem": "Column I",
+      "options": {
+        "a": "Pakistan has attempted to gesticulate its intent to strengthen diplomatic",
+        "b": "The world's biggest asset manager BlackRock is positive on stocks",
+        "c": "The philosopher has argued that we would do well to discuss the duties that rights Column II",
+        "d": "we do so, our charters of human rights may not by themselves be enough",
+        "e": "equity indexes being at or close to their all-time highs and rates ready to rise as central banks (F) Bangladesh without necessarily making the concerted efforts needed for reconciliation. (i) despite (ii) since (iii) but"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 8,
+        "page_start": 29,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q118",
+      "q_num": 118,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Two columns are given with few sentences/phrases in each which are grammatically correct and meaningful. Connect them by the word given below the statements in the best possible way without changing the intended meaning. Choose the best possible combination as your answer accordingly from the options to form a correct, coherent sentence.",
+      "stem": "Column I",
+      "options": {
+        "a": "The government lacks power to declare packaged drinking water as an essential article",
+        "b": "Data shows that the demand in the economy is still sluggish",
+        "c": "The Serum Institute of India (SII) has said that it will be ready with vaccines for children in the next six months Column II",
+        "d": "the variant contains several mutations that allow the virus to escape antibodies",
+        "e": "its order fixing the price of bottled water at Rs 13 per litre was legally unsustainable. (F) so far, no approval has been forthcoming from the Drugs Controller General of India (i) despite (ii) therefore (iii) but"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 8,
+        "page_start": null,
+        "page_end": 30
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q119",
+      "q_num": 119,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Two columns are given with few sentences/phrases in each which are grammatically correct and meaningful. Connect them by the word given below the statements in the best possible way without changing the intended meaning. Choose the best possible combination as your answer accordingly from the options to form a correct, coherent sentence.",
+      "stem": "Column I",
+      "options": {
+        "a": "The technical committee also has not authorised boosters and the argument",
+        "b": "For skipping Parliament, the President scolded the MP’s and told",
+        "c": "India’s per capita energy consumption is about one-third Column II",
+        "d": "in connection with reported levels of corruption in the ministry",
+        "e": "global average and one-twelfth of that of the U.S.A. (F) doses must be prioritised for adults who have not yet been inoculated. (i) otherwise (ii) of the (iii) in spite of"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 8,
+        "page_start": 30,
+        "page_end": 30
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2022_mains_unknown_shift_48596fb8::q120",
+      "q_num": 120,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d021",
+      "direction_text": "Two columns are given with few sentences/phrases in each which are grammatically correct and meaningful. Connect them by the word given below the statements in the best possible way without changing the intended meaning. Choose the best possible combination as your answer accordingly from the options to form a correct, coherent sentence.",
+      "stem": "Column I (A) The authors explored how different valuations of methane affect the ranking of mitigation policies in agriculture and, (B) That he cited the example of India’s health-care supply chain vulnerabilities (C) The showdown between the farmers and the government may have ended Column II (D) able to become a more reliable supply chain partner for them (E) the sector’s contribution to global warming (F) decreasing carbon emissions have the same overall effect (i) nevertheless (ii) consequently (iii) but (a) (A)-(ii) -(F) (b) (A)-(ii) -(E) (c) (A)-(iii) -(D) and (C)-(i) -(F) (d) (C)-(i) -(D) (e) None of these Solution Solutions (1-3): S1. Ans.(c) S2. Ans.(b) S3. Ans.(c) S4. Ans.(a) Sol. Only statement (a) can be deduced from the given statement as by burning the coal the concentration of its particles is increased which lead to excessive amount of air pollution. But for others (b) and (e) can be assumed but cannot be deduced. While for (c) and (d) the amount of average rainfall and its consistency in not directly given in the statement. Solutions (5-9): Floor Flat-1 Flat-2 M (hibiscus) R (lavender) K (marigold) T (tulip) P (jasmine) Q (daisy) U (lily) S (lotus) S5. Ans.(d) S6. Ans.(a) S7. Ans.(c) S8. Ans.(e) S9. Ans.(b) Solutions (10-12): S10. Ans.(b) S11. Ans.(c) S12. Ans.(a) S13. Ans.(e) Solutions (14-18): S14. Ans.(a) S15. Ans.(c) S16. Ans.(d) S17. Ans.(b) S18. Ans.(d) S19. Ans.(d) Sol. I is an assumption. II is a suggestion but not a conclusion. Hence, neither I nor II follows. S20. Ans.(c) Sol. Assumption I can be assumed from the given statement as the reason behind increase in funding can be the alarming challenge of climate change which require more focus and fund to deal with it. Assumption II can’t be assumed from the given statement as we can’t compare the problem of climate change with other global issues. Solutions (21-23): S21. Ans.(e) Sol. S22. Ans.(d) Sol. S23. Ans.(b) Sol. Solutions (24-28): Month Persons City January Z Udaipur February A Jaipur March S Bhopal April Q Pune May V Bangalore June B Raipur August D Chennai October L Mumbai S24. Ans.(b) S25. Ans.(c) S26. Ans.(d) S27. Ans.(a) S28. Ans.(d) S29. Ans.(c) Sol. S30. Ans.(a) Sol. Only statement (a) can be deduced from the given statement as by burning the coal the concentration of its particles is increased which lead to excessive amount of air pollution. But for others (b) and (e) can be assumed but cannot be deduced. While for (c) and (d) the amount of average rainfall and its consistency in not directly given in the statement. S31. Ans.(d) Sol. 75312645 Solutions (32-36): Designation Persons Animal GM V Lion MD Q Ostrich DGM S Snack AGM P Zebra MG U Eagle AM W Tiger SO R Elephant CL T Giraffe S32. Ans.(b) S33. Ans.(c) S34. Ans.(b) S35. Ans.(c) S36. Ans.(c) Solutions (37-39): S37. Ans.(e) Sol. S38. Ans.(c) Sol. S39. Ans.(d) S40. Ans.(e) Sol. More lifts in city X than city Y could be due to the differences in the average heights of the buildings or the difference in the total number of houses of the two cities. So, neither I nor II can be concluded from given statement. S41. Ans.(a) Sol. Let quantity of mixture in each container i.e. A, B and C be 315 liter. Quantity of milk in container A = 5 × 315 = 126 liter Quantity of water in container A = 315 −126 = 189 liter Quantity of milk in container B = 7 × 315 = 135 liter Quantity of water in container B = 315 −135 = 180 liter Quantity of milk in container C = 9 × 315 = 140 liter Quantity of water in container C = 315 −140 = 175 liter Quantity I: Concentration of water in container Y = 189+180+175 315×3 × 100 ≈57% Quantity 2: Concentration of water in container X = 25% So, quantity I > quantity II S42. Ans.(c) Sol. Quantity 1: (p2 −p) = +ive (as p is negative) (q2 −q) = −ive (as 0 < q < 1, so q2 < q) Quantity 1: (+ive)(-ive) = -ive Quantity 2: (pq −p²) = −ive So, quantity 2: (-ive ) (-ive) =+ive So, quantity 2 > quantity 1 S43. Ans.(e) Sol. x2−b² = ax −ab (x + b)(x −b) = 2a(x −b) x + b = 2a So, value of quantity 1 and quantity 2 cannot be determined. S44. Ans.(c) Sol. Quantity 1: 50 −speed of train B = 60 × 50 −speed of train B = Speed of train B = 50 − = 5 = 36.8 kmph So, quantity 2 > quantity 1 S45. Ans.(a) Sol. Quantity 1: x3 −2x2 −x + 2 = 0 x2(x −2) −1(x −2) = 0 (x2 −1)(x −2) = 0 (x + 1)(x −1)(x −2) = 0 x = −1, 1, 2 Quantity 2: a + 3 = 0 a = −3 So, quantity 1 > quantity 2 S46. Ans.(c) Sol. Min. and max. value of p is 1 and 2 respectively. And min. and max. value of q is 2 and 3 respectively. Quantity 1: Min value = 22 + 2 × 1 × 2 = 8 Max value = 32 + 2 × 2 × 3 = 21 So, quantity 1: lies between 8 and 21. Quantity 2: Min value = 2{1 × 2(12 + 2 × 1 × 2) + 1} = 22 Max value = 2{2 × 3(22 + 2 × 2 × 3) + 1} = 194 So, quantity 2: lies between 22 and 194. So, quantity 2 > quantity 1 S47. Ans.(d) Sol. Let amount invested by Anu and Banu be 4a and 5a respectively. And further amount invested by Anu and Banu be y and x respectively. So, ratio of profit share of Banu and Anu = = 5a × 6 + (5a + x) × 6 :4a × 6 + (4a + y) × 6 = (10a + x)(8a + y) ATQ 10a+x 8a+y = 17 …(i) Also given that 5a + x = 4a + y y −x = a ….(ii) From (i) and (ii) x = 8a, y = 9a So, required percentage = 8a 5a × 100 = 160% S48. Ans.(b) Sol. Let distance travelled by person in non-AC car be D km. ATQ (100 −D) × 7 + D × 3 = 340 700 −7D + 3D = 340 4D = 360 D = 90 S49. Ans.(b) Sol. Area of rectangle = X(2X + 5) = 168 2X² + 5X −168 = 0 2X2 −16X + 21X −168 = 0 2X(X −8) + 21(X −8) (2X + 21)(X −8) = 0 X = 8 So, AB = CD = 2 × 8 + 5 = 21 cm S50. Ans.(a) Sol. Let total income of person be Rs.100a. Amount spent on books = 16a Amount spent on travelling = (100a −16a) × 7 = 48a Amount spent on tuition = 84a −48a = 36a ATQ 48a −36a = 602 a ≈50 So, approximate income = 100a ≈Rs. 5000 S51. Ans.(c) Sol. Pattern of the given series: 60.75 × 3 = 40.5 40.5 × 3 = 27 27 × 3 = 18 18 × 3 = 12 12 × 3 = 8 S52. Ans.(a) Sol. The pattern of the series is: 8 × 0.5 + 1 = 5 5 × 1 + 2 = 7 7 × 1.5 + 3 = 13.5 13.5 × 2 + 4 = 31 31 × 2.5 + 5 = 82.5 S53. Ans.(b) Sol. The pattern of the series is: 209 −(13 + 1) = 207 207 + (23 + 2) = 217 217 −(33 + 3) = 187 187 + (43 + 4) = 255 255 −(53 + 5) = 125 S54. Ans.(e) Sol. The pattern of the series is: S55. Ans.(c) Sol. The pattern of the series is: Sol (56-60): Shopkeeper Quantity of wheat (in kg) Sold Quantity (in kg) Unsold quantity (in kg) A 100 × 6000 = 1200 100 × 1200 = 900 B 42 −20 × 6000 = 1320 100 × 1320 = 924 C 57 −42 × 6000 = 900 100 × 900 = 225 D 82 −57 × 6000 = 1500 100 × 1500 = 225 E 100 −82 × 6000 = 1080 100 × 1080 = 540 Total S56. Ans.(d) Sol. Required percentage = 924−225 × 100 ≈311% S57. Ans.(a) Sol. Total cost of wheat for shopkeeper F = 10 × 675 = Rs. 6750 Total selling price of wheat for shopkeeper F = 10 × 225 + 12 × 450 = Rs. 7650 So, required profit = 7650 −6750 = Rs. 900 S58. Ans.(c) Sol. Required average = = 637.2 kg S59. Ans.(c) Sol. Total wheat sold by X = 924× 11 = 672 Total quantity of wheat available for shop X = 672 × 75 = 896 Required ratio = 392 : 896= 7 : 16 S60. Ans.(d) Sol. Required percentage = 540−300 × 100 = 300 × 100 = 80% Sol (61-65): Total candidates got interview call in company A = 24 × 2 = 48 Total candidates got interview call in company B = 2x × 4 = 8x Total candidates got interview call in company C = x = x And, 8x −x = 7x = 105 x = 15 Let candidates applied in company C = 3a Candidates applied in company B = 12a Candidates applied in company A = 5a S61. Ans.(d) Sol. Required ratio = = 8: 1 S62. Ans.(e) Sol. Required average = 48+120+15 = 3 = 61 S63. Ans.(a) Sol. Required percentage = 12a−3a 3a × 100 = 300% S64. Ans.(d) Sol. Total male candidates got interview call in company A = 4 = 12 Total female candidates got interview call in company A = 48 −12 = 36 As two candidates are selected for job and male and female candidates in are equal. So, number of male candidate and female candidates selected are 1 each. So, number of female candidates who did not got the job = 36 −1 = 35 S65. Ans.(d) Sol. Required % = 48+15 × 100 ≈190% S66. Ans.(d) Sol. Re applied students from 2016 = (450 −150) × 100 = 60 Students passed in 2017 = 75 × 3 = 50 New applicants in 2017, out of passed students = 50 × 100 = 48 Number of re applied students who passed in exam in 2017 = 50 −48 = 2 So, no. of re applied students who didn’t pass in exam in 2017 = 60 −2 = 58 S67. Ans.(a) Sol. Number of students passed in subject A = 100 × 90 = 18 Number of students passed in subject B = 100 × 90 = 27 Number of students passed in subject C = 100 × 90 = 18 So, number of students who passed in exactly two subjects = 90 −18 −27 −18 −9 = 18 S68. Ans.(e) Sol. Required average = [(200−90)+(450−150)] = 205 S69. Ans.(c) Sol. Required ratio = 200−90 = 1: 1 S70. Ans.(c) Sol. Total number of passed students in 2013 and 2014 together = 75 + 120 = 195 Total number of failed students in 2012 and 2015 together = (200 −90) + (150 −110) = 110 + 140 = 250 Required percentage = 250−195 × 100 = 22% S71. Ans.(a) Sol. ATQ X × 41 = (X + 40)(41 −20) 41X = 21X + 840 X = 20 = 42 S72. Ans.(b) Sol. A + 8 = 2B …. (i) C −6 = B … (ii) From (i) and (ii) A −2C = −20 …. (iii) A+4 C+6 = 8A + 32 = 9C + 54 8A −9C = 22 … (iv) From (iii) and (iv) C = 26 And A = 32, B = 20 So, required age = 20 −8 = 12 years S73. Ans.(c) Sol. Let speed of train A and train B be 3x and 4x respectively. Let time taken by train B be ‘T’ min. ATQ 3x(T + 21) = 4x × T 3T + 63 = 4T T = 63 min So, time taken by train A = 63 + 21 = 84 min S74. Ans.(c) Sol. Let length, breadth and height of room be l, b and h respectively. ATQ 2(lh + bh) = 128 2lh = 64 (l = h) l × 4 = 32 l = 8 So, area of floor = lb = 64 sq. m. S75. Ans.(a) Sol. Let cost price of pen for A is Rs.5x Selling price of pen for A = Cost price of pen for B = 5x × 100 = 6x Selling price of pen for B = Cost price of pen for C = 6x × 100 = 6.6x Selling price of pen for C = Cost price of pen for D = 6.6x × 3 = 8.8x ATQ 8.8x −6x = 280 x = 100 So, cost price of pen for C = 6.6x = Rs. 660 S76. Ans.(e) Sol.\nI. (5x – 7)² = 4 – x (3x – 1) 25x² + 49 – 70x = 4 – 3x² + x => 28x² – 71x + 45 = 0 28x² – 36x – 35x + 45 = 0 4x (7x – 9) –5 (7x – 9) = 0 (7x – 9) (4x – 5) = 0 => x = 7 ,\nII. (4y – 3)² = y (4y – 1) – 1 16y² + 9 – 24y = 4y² – y – 1 => 12y² –23y +10 = 0 12y² – 15y – 8y + 10 = 0 3y (4y – 5) –2 (4y – 5) = 0 (4y – 5) (3y – 2) = 0 => y = 4 , So, x ≥ y. S77. Ans.(b) Sol.\nI. 10x² – 29x + 21 = 0 10x² – 15x – 14x + 21 = 0 5x (2x – 3) –7 (2x – 3) = 0 (2x – 3) (5x – 7) = 0 => x = 2 ,\nII. 2y² – 19y + 45 = 0 2y² – 10y – 9y + 45 = 0 2y (y – 5) –9 (y – 5) = 0 (y – 5) (2y – 9) = 0 => y = 5, So, y > x. S78. Ans.(c) Sol.\nI. x² + 13x + 42 = 0 x² + 7x + 6x + 42 = 0 x (x + 7) +6 (x + 7) = 0 (x + 7) (x + 6) = 0 => x = – 7, –6\nII. y² + 8y + 12 = 0 y² + 6y + 2y + 12 = 0 y (y + 6) +2 (y + 6) = 0 (y + 6) (y + 2) = 0 => y = –6, –2 So, y ≥ x. S79. Ans.(a) Sol.\nI. 1 = x (2 – 36x) 1 = x − 36x2 1 = 72x –11 36x² 36x² = 72x – 11 36x² – 72x + 11 = 0 36x² – 66x – 6x + 11 = 0 6x (6x – 11) –1 (6x – 11) = 0 (6x – 11) (6x – 1) = 0 => x = 6 ,\nII. ( 14y 3 + y) = 13 14y² + 27 3y = 13 14y² + 27 = 39y 14y² – 39y + 27 = 0 14y² – 21y – 18y + 27 = 0 7y (2y – 3) –9 (2y – 3) = 0 (2y – 3) (7y – 9) = 0 => y = 2 , So, no relation can be established between x and y. S80. Ans.(b) Sol.\nI. Multiply by 4x on both side 4x² + 75 = 35x 4x2 −35x + 75 = 0 4x2 −20x −15x + 75 = 0 4x(x −5) −15(x −5) = 0 (x −5) (4x −15) = 0 x = 4 , 5\nII. Multiply by 3y2 on both sides 3y² + 96 = 34y 3y2 −34y + 96 = 0 3y2 −18y −16y + 96 = 0 3y(y −6) −16(y −6) = 0 (y −6) (3y −16) = 0 y = 3 , 6 So, x < y S81. Ans.(d) Sol. Among the given statements, only (a) and (b) are correct. Hence, option (d) is the right answer choice. Refer to the starting lines of the first paragraph, “Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation.” S82. Ans.(b) Sol. Among the given statements, only statement (b) is correct. Hence, option (b) is the right answer choice. Refer to the tenth line of the second paragraph, “Annual electricity consumption per capita serves as an important measure of a country’s electric power development.” S83. Ans.(e) Sol. Among the given statements, only (a) and (b) are correct. While statement (c) is incorrect. Hence, option (e) is the right answer choice. Refer to the seventh line of the first paragraph, “Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions.” S84. Ans.(a) Sol. Among the given statements, only statement (a) is correct about the electricity consumption of the United Kingdom. Hence, option (a) is the right answer choice. Refer to the starting lines of the third paragraph, “The United Kingdom saw rising electricity consumption per capita between World War II and the mid-1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well.” S85. Ans.(c) Sol. Among the given words, ‘measure’ is the most appropriate word to fill in the blank (A). The concerned sentence also states that annual energy consumption per capita is a useful measure of a country's progress in terms of electric power development. Hence, option (c) is the right answer choice. (a) component- part or element of a larger whole, especially a part of a machine or vehicle. (b) factor- a circumstance, fact, or influence that contributes to a result. (c) measure- a standard unit used to express the size, amount, or degree of something. (d) impediment- a hindrance or obstruction in doing something. (e) trigger- cause (a device) to function. S86. Ans.(d) Sol. All the given words are appropriate in meaning to the word ‘IMPLEMENTING’. Hence, option (d) is the right answer choice. Implementing means putting a decision, plan, agreement, etc. into effect.",
+      "options": {
+        "a": "Executing- put (a plan, order, or course of action) into effect",
+        "b": "Applying- the act of putting something into operation",
+        "c": "Enacting- put into practice (an idea or suggestion). S87. Ans",
+        "d": "Sol. Among the given options, both"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 4,
+        "stem_char_len": 14095,
+        "page_start": 30,
+        "page_end": 50
+      }
+    }
+  ]
+}

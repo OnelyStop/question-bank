@@ -1,0 +1,941 @@
+{
+  "paper_id": "sbi_po_2017_mains_unknown_shift_213a5720",
+  "subject": "English",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2017/Mains/_unknown_shift/sbi-po-mains-2017.pdf",
+    "sha256": "213a57202ba4b47e1083e7dfac1c443b60fa3dd1ec53b6c44036da6157dd3401",
+    "source_url": "https://www.practicemock.com/pricing/marketing/files/pdf/sbi-po-mains-2017.pdf",
+    "source_filename": "sbi-po-mains-2017.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [
+    "empty_stem_q70"
+  ],
+  "question_count": 34,
+  "questions": [
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q082",
+      "q_num": 82,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: At a global financial services firm we worked with, a longtime customer accidentally submitted the same application file to two offices. Though the employees who reviewed the file were supposed to follow the same guidelines—and thus arrive at similar outcomes—the separate offices returned very different quotes. Taken aback, the customer gave the business to a competitor. From the point of view of the firm, employees in the same role should have been interchangeable, but in this case they were not. Unfortunately, this is a common problem. Paragraph 2: Professionals in many organizations are assigned arbitrarily to cases: appraisers in credit-rating agencies, physicians in emergency rooms, underwriters of loans and insurance, and others. Organizations expect consistency from these professionals: Identical cases should be treated similarly, if not identically. The problem is that humans are unreliable decision makers; their judgments are strongly influenced by irrelevant factors, such as their current mood, the time since their last meal, and the weather. We call the chance variability of judgments noise. It is an invisible tax on the bottom line of many companies. Paragraph 3: Some jobs are noise-free. Clerks at a bank or a post office perform complex tasks, but they must follow strict rules that limit subjective judgment and guarantee, by design, that identical cases will be treated identically. In contrast, medical professionals, loan officers, project managers, judges, and executives all make judgment calls, which are guided by informal experience and general principles rather than by rigid rules. And if they don’t reach precisely the same answer that every other person in their role would, that’s acceptable; this is what we mean when we say that a decision is “a matter of judgment.” A firm whose employees exercise judgment does not expect decisions to be entirely free of noise. But often noise is far above the level that executives would consider tolerable— and they are completely unaware of it. Paragraph 4: The prevalence of noise has been demonstrated in several studies. Academic researchers have repeatedly confirmed that professionals often contradict their own prior judgments when given the same data on different occasions. For instance, when software developers were asked on two separate days to estimate the completion time for a given task, the hours they projected differed by 71%, on average. When pathologists made two assessments of the severity of biopsy results, the correlation between their ratings was only .61 (out of a perfect 1.0), indicating that they made inconsistent diagnoses quite frequently. Judgments made by different people are even more likely to diverge. Research has confirmed that in many tasks, experts’ decisions are highly variable: valuing stocks, appraising real estate, sentencing criminals, evaluating job performance, auditing financial statements, and more. The unavoidable conclusion is that professionals often make decisions that deviate significantly from those of their peers, from their own prior decisions, and from rules that they themselves claim to follow. Paragraph 5: Noise is often insidious: It causes even successful companies to lose substantial amounts of money without realizing it. How substantial? To get an estimate, we asked executives in one of the organizations we studied the following: “Suppose the optimal assessment of a case is $100,000. What would be the cost to the organization if the professional in charge of the case assessed a value of $115,000? What would be the cost of assessing it at $85,000?” The cost estimates were high. Aggregated over the assessments made every year, the cost of noise was measured in billions—an unacceptable number even for a large global firm. The value of reducing noise even by a few percentage points would be in the tens of millions. Remarkably, the organization had completely ignored the question of consistency until then.",
+      "stem": "What does the author mean by the term “noise” as used in Paragraph 2? (I) In an organization where work efficiency decides the potential of its employees, employees find it difficult to cope with their decisions and most of the time they land up in variable outcome to their motive which is termed as Noise. (II) Noise is a problem which is effectively invisible in the business world; it can be observed that audiences get quite surprised when the reliability of professional judgment is mentioned as an issue. (III) Noise is a problem associated with the decision- making process of the employees involved in the corporate world which is invisible as people do not go through life imagining plausible alternatives to every judgment they make.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (III) is correct",
+        "c": "Both (II) and (III) are correct",
+        "d": "Both (I) and (III) are correct",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 744,
+        "page_start": null,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q083",
+      "q_num": 83,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: At a global financial services firm we worked with, a longtime customer accidentally submitted the same application file to two offices. Though the employees who reviewed the file were supposed to follow the same guidelines—and thus arrive at similar outcomes—the separate offices returned very different quotes. Taken aback, the customer gave the business to a competitor. From the point of view of the firm, employees in the same role should have been interchangeable, but in this case they were not. Unfortunately, this is a common problem. Paragraph 2: Professionals in many organizations are assigned arbitrarily to cases: appraisers in credit-rating agencies, physicians in emergency rooms, underwriters of loans and insurance, and others. Organizations expect consistency from these professionals: Identical cases should be treated similarly, if not identically. The problem is that humans are unreliable decision makers; their judgments are strongly influenced by irrelevant factors, such as their current mood, the time since their last meal, and the weather. We call the chance variability of judgments noise. It is an invisible tax on the bottom line of many companies. Paragraph 3: Some jobs are noise-free. Clerks at a bank or a post office perform complex tasks, but they must follow strict rules that limit subjective judgment and guarantee, by design, that identical cases will be treated identically. In contrast, medical professionals, loan officers, project managers, judges, and executives all make judgment calls, which are guided by informal experience and general principles rather than by rigid rules. And if they don’t reach precisely the same answer that every other person in their role would, that’s acceptable; this is what we mean when we say that a decision is “a matter of judgment.” A firm whose employees exercise judgment does not expect decisions to be entirely free of noise. But often noise is far above the level that executives would consider tolerable— and they are completely unaware of it. Paragraph 4: The prevalence of noise has been demonstrated in several studies. Academic researchers have repeatedly confirmed that professionals often contradict their own prior judgments when given the same data on different occasions. For instance, when software developers were asked on two separate days to estimate the completion time for a given task, the hours they projected differed by 71%, on average. When pathologists made two assessments of the severity of biopsy results, the correlation between their ratings was only .61 (out of a perfect 1.0), indicating that they made inconsistent diagnoses quite frequently. Judgments made by different people are even more likely to diverge. Research has confirmed that in many tasks, experts’ decisions are highly variable: valuing stocks, appraising real estate, sentencing criminals, evaluating job performance, auditing financial statements, and more. The unavoidable conclusion is that professionals often make decisions that deviate significantly from those of their peers, from their own prior decisions, and from rules that they themselves claim to follow. Paragraph 5: Noise is often insidious: It causes even successful companies to lose substantial amounts of money without realizing it. How substantial? To get an estimate, we asked executives in one of the organizations we studied the following: “Suppose the optimal assessment of a case is $100,000. What would be the cost to the organization if the professional in charge of the case assessed a value of $115,000? What would be the cost of assessing it at $85,000?” The cost estimates were high. Aggregated over the assessments made every year, the cost of noise was measured in billions—an unacceptable number even for a large global firm. The value of reducing noise even by a few percentage points would be in the tens of millions. Remarkably, the organization had completely ignored the question of consistency until then.",
+      "stem": "Why according to the author decision is considered as “a matter of judgment” as mentioned in Paragraph 3? (I) In most of the cases, decisions are guided by informal experience and general principles rather than by rigid rules. (II) In certain cases, medical professionals, judges and executives have to take decisions which are beyond the strict rules that control the instinctive judgment which might not be noise- free, yet acceptable to the system. (III) Long experience on a job always increases people’s confidence in their judgments, but in the absence of rapid feedback, confidence is no guarantee of either accuracy or consensus.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (III) is correct",
+        "c": "Both (I) and (III) are correct",
+        "d": "Both (I) and (II) are correct",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 637,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q084",
+      "q_num": 84,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: At a global financial services firm we worked with, a longtime customer accidentally submitted the same application file to two offices. Though the employees who reviewed the file were supposed to follow the same guidelines—and thus arrive at similar outcomes—the separate offices returned very different quotes. Taken aback, the customer gave the business to a competitor. From the point of view of the firm, employees in the same role should have been interchangeable, but in this case they were not. Unfortunately, this is a common problem. Paragraph 2: Professionals in many organizations are assigned arbitrarily to cases: appraisers in credit-rating agencies, physicians in emergency rooms, underwriters of loans and insurance, and others. Organizations expect consistency from these professionals: Identical cases should be treated similarly, if not identically. The problem is that humans are unreliable decision makers; their judgments are strongly influenced by irrelevant factors, such as their current mood, the time since their last meal, and the weather. We call the chance variability of judgments noise. It is an invisible tax on the bottom line of many companies. Paragraph 3: Some jobs are noise-free. Clerks at a bank or a post office perform complex tasks, but they must follow strict rules that limit subjective judgment and guarantee, by design, that identical cases will be treated identically. In contrast, medical professionals, loan officers, project managers, judges, and executives all make judgment calls, which are guided by informal experience and general principles rather than by rigid rules. And if they don’t reach precisely the same answer that every other person in their role would, that’s acceptable; this is what we mean when we say that a decision is “a matter of judgment.” A firm whose employees exercise judgment does not expect decisions to be entirely free of noise. But often noise is far above the level that executives would consider tolerable— and they are completely unaware of it. Paragraph 4: The prevalence of noise has been demonstrated in several studies. Academic researchers have repeatedly confirmed that professionals often contradict their own prior judgments when given the same data on different occasions. For instance, when software developers were asked on two separate days to estimate the completion time for a given task, the hours they projected differed by 71%, on average. When pathologists made two assessments of the severity of biopsy results, the correlation between their ratings was only .61 (out of a perfect 1.0), indicating that they made inconsistent diagnoses quite frequently. Judgments made by different people are even more likely to diverge. Research has confirmed that in many tasks, experts’ decisions are highly variable: valuing stocks, appraising real estate, sentencing criminals, evaluating job performance, auditing financial statements, and more. The unavoidable conclusion is that professionals often make decisions that deviate significantly from those of their peers, from their own prior decisions, and from rules that they themselves claim to follow. Paragraph 5: Noise is often insidious: It causes even successful companies to lose substantial amounts of money without realizing it. How substantial? To get an estimate, we asked executives in one of the organizations we studied the following: “Suppose the optimal assessment of a case is $100,000. What would be the cost to the organization if the professional in charge of the case assessed a value of $115,000? What would be the cost of assessing it at $85,000?” The cost estimates were high. Aggregated over the assessments made every year, the cost of noise was measured in billions—an unacceptable number even for a large global firm. The value of reducing noise even by a few percentage points would be in the tens of millions. Remarkably, the organization had completely ignored the question of consistency until then.",
+      "stem": "Which of the following statements can follow paragraph 4 to form a connection with paragraph 5?",
+      "options": {
+        "a": "The surprising result of much research is that in many contexts reasoned rules are about as accurate as statistical models built with outcome data",
+        "b": "Uncomfortable as people may be with the idea, studies have shown that while humans can provide useful input to formulas, algorithms do better in the role of final decision maker",
+        "c": "Executives who are concerned with accuracy should also confront the prevalence of inconsistency in professional judgments",
+        "d": "Controlling noise is hard, but we expect that an organization that conducts an audit and evaluates the cost of noise in dollars will conclude that reducing random variability is worth the effort",
+        "e": "The major puzzle for us was the fact that neither organization had ever considered reliability to be an issue"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q085",
+      "q_num": 85,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d022",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: At a global financial services firm we worked with, a longtime customer accidentally submitted the same application file to two offices. Though the employees who reviewed the file were supposed to follow the same guidelines—and thus arrive at similar outcomes—the separate offices returned very different quotes. Taken aback, the customer gave the business to a competitor. From the point of view of the firm, employees in the same role should have been interchangeable, but in this case they were not. Unfortunately, this is a common problem. Paragraph 2: Professionals in many organizations are assigned arbitrarily to cases: appraisers in credit-rating agencies, physicians in emergency rooms, underwriters of loans and insurance, and others. Organizations expect consistency from these professionals: Identical cases should be treated similarly, if not identically. The problem is that humans are unreliable decision makers; their judgments are strongly influenced by irrelevant factors, such as their current mood, the time since their last meal, and the weather. We call the chance variability of judgments noise. It is an invisible tax on the bottom line of many companies. Paragraph 3: Some jobs are noise-free. Clerks at a bank or a post office perform complex tasks, but they must follow strict rules that limit subjective judgment and guarantee, by design, that identical cases will be treated identically. In contrast, medical professionals, loan officers, project managers, judges, and executives all make judgment calls, which are guided by informal experience and general principles rather than by rigid rules. And if they don’t reach precisely the same answer that every other person in their role would, that’s acceptable; this is what we mean when we say that a decision is “a matter of judgment.” A firm whose employees exercise judgment does not expect decisions to be entirely free of noise. But often noise is far above the level that executives would consider tolerable— and they are completely unaware of it. Paragraph 4: The prevalence of noise has been demonstrated in several studies. Academic researchers have repeatedly confirmed that professionals often contradict their own prior judgments when given the same data on different occasions. For instance, when software developers were asked on two separate days to estimate the completion time for a given task, the hours they projected differed by 71%, on average. When pathologists made two assessments of the severity of biopsy results, the correlation between their ratings was only .61 (out of a perfect 1.0), indicating that they made inconsistent diagnoses quite frequently. Judgments made by different people are even more likely to diverge. Research has confirmed that in many tasks, experts’ decisions are highly variable: valuing stocks, appraising real estate, sentencing criminals, evaluating job performance, auditing financial statements, and more. The unavoidable conclusion is that professionals often make decisions that deviate significantly from those of their peers, from their own prior decisions, and from rules that they themselves claim to follow. Paragraph 5: Noise is often insidious: It causes even successful companies to lose substantial amounts of money without realizing it. How substantial? To get an estimate, we asked executives in one of the organizations we studied the following: “Suppose the optimal assessment of a case is $100,000. What would be the cost to the organization if the professional in charge of the case assessed a value of $115,000? What would be the cost of assessing it at $85,000?” The cost estimates were high. Aggregated over the assessments made every year, the cost of noise was measured in billions—an unacceptable number even for a large global firm. The value of reducing noise even by a few percentage points would be in the tens of millions. Remarkably, the organization had completely ignored the question of consistency until then.",
+      "stem": "What is/are the author’s viewpoint(s) in accordance with Paragraph 5? (I) The author is skeptical about the credibility of the research works on the measurement of cost of noise. (II) The author is critical about the consequences of the problem of noise as it leads organizations to lose substantial amounts of money that often go unrealized. (III) The author feels that the problem of noise is severe enough to require action.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Only (II)",
+        "c": "Both (I) and (III)",
+        "d": "Both (II) and (III)",
+        "e": "All (I), (II) and (III)"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 427,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q086",
+      "q_num": 86,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: Deutsche is more leveraged than its peers; it is unusual in lacking a crown jewel around which it can base a business model; and it has a stack of derivatives whose prices are hard to observe in the market. More positively, it is light on the non-performing loans that clog the balance-sheets of banks in places like Italy. But in other ways its problems have a very familiar ring. Deutsche is struggling to make a decent return. It has taken too long to face up to its problems. And the market it operates in is overbanked. Years after American banks were forced to clean themselves up, too many European lenders are still flailing as a result. Paragraph 2: Europeans prefer to blame others for the turmoil. Deutsche has lashed out at “forces in the market” for its most recent bout of trouble. But its shares had already fallen by 42% this year before news broke last month of a proposed Department of Justice (DoJ) fine of $14 billion for mortgage-related misdeeds. German politicians insinuate that the mooted fine represents revenge for Europe’s recent tax case against Apple, an American champion. Yet the DoJ has slapped large fines on American banks, too. Deutsche’s vulnerability to shocks is the problem, not the shocks themselves. Paragraph 3: Fingers also point at global regulators. The boss of Credit Suisse, Tidjane Thiam, says his sector is “not really investible”. It is true that the rules have got much stricter in the past few years, particularly for institutions, like Deutsche, that have big investment-banking arms. It is also true that ultra-loose monetary policy, and in particular the negative interest rates that now prevail in much of Europe, eat away at banks’ profitability. But some banks cope better than others in this painful environment. The IMF has compared returns on equity before and after the financial crisis. Those at large European banks fell by 11.4 percentage points, whereas those at American lenders dipped by only three points. Rather than blaming speculators, Americans and regulators, Europe’s bankers and policymakers need to put their own house in order. Paragraph 4: Within institutions, that means cutting costs and raising capital. According to S&P Global Market Intelligence, the average cost-to-income ratio at an American bank in 2015 was 59%; Italy’s figure stood at 67% and Germany’s at 72%. Scandinavian banks already operate with much lower costs than their peers elsewhere in Europe. The axe is now swinging: Commerzbank, another struggling German lender, and ING, a Dutch bank, have announced thousands of job cuts in the past few days. Paragraph 5: But more can be done. Pay is one obvious lever. Deutsche’s bankers trousered roughly the same amount in annual compensation between 2011 and 2015, even as the bank’s share price dived. And before shareholders complain too loudly about that, recall that in 2007-15 the dividend payments by 90 euro-zone banks amounted to €223 billion ($250 billion). Their retained earnings would have been 64% higher at the end of that period if they had not paid out dividends.",
+      "stem": "Which of the following sentences justifies the statement, “Deutsche is more leveraged than its peers” as mentioned in Paragraph 1? (I) Deutsche is scuffling to generate adequate profits to stay afloat in the market. (II) Though the market in which Deutsche operates is overbanked, it has a mound of derivatives whose prices are hard to observe in the market. (III) Though Deutsche has taken a longer time to face up to its problems, it is still airy on the non- performing loans that obstruct the balance- sheets of banks in places like Italy.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (II) is correct",
+        "c": "Both (I) and (II) are correct",
+        "d": "Both (II) and (III) are correct",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 543,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q087",
+      "q_num": 87,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: Deutsche is more leveraged than its peers; it is unusual in lacking a crown jewel around which it can base a business model; and it has a stack of derivatives whose prices are hard to observe in the market. More positively, it is light on the non-performing loans that clog the balance-sheets of banks in places like Italy. But in other ways its problems have a very familiar ring. Deutsche is struggling to make a decent return. It has taken too long to face up to its problems. And the market it operates in is overbanked. Years after American banks were forced to clean themselves up, too many European lenders are still flailing as a result. Paragraph 2: Europeans prefer to blame others for the turmoil. Deutsche has lashed out at “forces in the market” for its most recent bout of trouble. But its shares had already fallen by 42% this year before news broke last month of a proposed Department of Justice (DoJ) fine of $14 billion for mortgage-related misdeeds. German politicians insinuate that the mooted fine represents revenge for Europe’s recent tax case against Apple, an American champion. Yet the DoJ has slapped large fines on American banks, too. Deutsche’s vulnerability to shocks is the problem, not the shocks themselves. Paragraph 3: Fingers also point at global regulators. The boss of Credit Suisse, Tidjane Thiam, says his sector is “not really investible”. It is true that the rules have got much stricter in the past few years, particularly for institutions, like Deutsche, that have big investment-banking arms. It is also true that ultra-loose monetary policy, and in particular the negative interest rates that now prevail in much of Europe, eat away at banks’ profitability. But some banks cope better than others in this painful environment. The IMF has compared returns on equity before and after the financial crisis. Those at large European banks fell by 11.4 percentage points, whereas those at American lenders dipped by only three points. Rather than blaming speculators, Americans and regulators, Europe’s bankers and policymakers need to put their own house in order. Paragraph 4: Within institutions, that means cutting costs and raising capital. According to S&P Global Market Intelligence, the average cost-to-income ratio at an American bank in 2015 was 59%; Italy’s figure stood at 67% and Germany’s at 72%. Scandinavian banks already operate with much lower costs than their peers elsewhere in Europe. The axe is now swinging: Commerzbank, another struggling German lender, and ING, a Dutch bank, have announced thousands of job cuts in the past few days. Paragraph 5: But more can be done. Pay is one obvious lever. Deutsche’s bankers trousered roughly the same amount in annual compensation between 2011 and 2015, even as the bank’s share price dived. And before shareholders complain too loudly about that, recall that in 2007-15 the dividend payments by 90 euro-zone banks amounted to €223 billion ($250 billion). Their retained earnings would have been 64% higher at the end of that period if they had not paid out dividends.",
+      "stem": "What does the author mean by the statement, “Deutsche’s vulnerability to shocks is the problem, not the shocks themselves” as mentioned in Paragraph 2?",
+      "options": {
+        "a": "Deutsche is more prone to consistent failures which may have indirect effects on the market in coming years",
+        "b": "Deutsche is losing its share values inadvertently due to certain forces in the market which is surprising to German politicians",
+        "c": "Despite performing better in certain specific fields than other banks, Deutsche is finding itself in the midst of turbulence which is itself a revelation",
+        "d": "The arguable fine of $14 billion for mortgage- related misdeeds by Department of Justice has completely shocked the entire European bureaucrats",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 151,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q088",
+      "q_num": 88,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: Deutsche is more leveraged than its peers; it is unusual in lacking a crown jewel around which it can base a business model; and it has a stack of derivatives whose prices are hard to observe in the market. More positively, it is light on the non-performing loans that clog the balance-sheets of banks in places like Italy. But in other ways its problems have a very familiar ring. Deutsche is struggling to make a decent return. It has taken too long to face up to its problems. And the market it operates in is overbanked. Years after American banks were forced to clean themselves up, too many European lenders are still flailing as a result. Paragraph 2: Europeans prefer to blame others for the turmoil. Deutsche has lashed out at “forces in the market” for its most recent bout of trouble. But its shares had already fallen by 42% this year before news broke last month of a proposed Department of Justice (DoJ) fine of $14 billion for mortgage-related misdeeds. German politicians insinuate that the mooted fine represents revenge for Europe’s recent tax case against Apple, an American champion. Yet the DoJ has slapped large fines on American banks, too. Deutsche’s vulnerability to shocks is the problem, not the shocks themselves. Paragraph 3: Fingers also point at global regulators. The boss of Credit Suisse, Tidjane Thiam, says his sector is “not really investible”. It is true that the rules have got much stricter in the past few years, particularly for institutions, like Deutsche, that have big investment-banking arms. It is also true that ultra-loose monetary policy, and in particular the negative interest rates that now prevail in much of Europe, eat away at banks’ profitability. But some banks cope better than others in this painful environment. The IMF has compared returns on equity before and after the financial crisis. Those at large European banks fell by 11.4 percentage points, whereas those at American lenders dipped by only three points. Rather than blaming speculators, Americans and regulators, Europe’s bankers and policymakers need to put their own house in order. Paragraph 4: Within institutions, that means cutting costs and raising capital. According to S&P Global Market Intelligence, the average cost-to-income ratio at an American bank in 2015 was 59%; Italy’s figure stood at 67% and Germany’s at 72%. Scandinavian banks already operate with much lower costs than their peers elsewhere in Europe. The axe is now swinging: Commerzbank, another struggling German lender, and ING, a Dutch bank, have announced thousands of job cuts in the past few days. Paragraph 5: But more can be done. Pay is one obvious lever. Deutsche’s bankers trousered roughly the same amount in annual compensation between 2011 and 2015, even as the bank’s share price dived. And before shareholders complain too loudly about that, recall that in 2007-15 the dividend payments by 90 euro-zone banks amounted to €223 billion ($250 billion). Their retained earnings would have been 64% higher at the end of that period if they had not paid out dividends.",
+      "stem": "Which of the following statements cannot be inferred from Paragraph 3?",
+      "options": {
+        "a": "Despite having bigger investment-banking arms, the consistent downfall of European banks is a matter of serious concern",
+        "b": "The prevailing negative interest rates in many parts of Europe indicate that there is ultra-loose monetary policy in Europe",
+        "c": "The IMF figures on return on equity show that American banks are performing far better than European banks in the existing critical market",
+        "d": "European policymakers need to come out with strict and robust policies to safeguard its downgrading existence in the world market than pointing fingers on speculators and regulators",
+        "e": "Without pruning, returns on equity of European banks are projected to fall towards zero as a result of ultra-low rates and regulation as compared to American counterpart"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q089",
+      "q_num": 89,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: Deutsche is more leveraged than its peers; it is unusual in lacking a crown jewel around which it can base a business model; and it has a stack of derivatives whose prices are hard to observe in the market. More positively, it is light on the non-performing loans that clog the balance-sheets of banks in places like Italy. But in other ways its problems have a very familiar ring. Deutsche is struggling to make a decent return. It has taken too long to face up to its problems. And the market it operates in is overbanked. Years after American banks were forced to clean themselves up, too many European lenders are still flailing as a result. Paragraph 2: Europeans prefer to blame others for the turmoil. Deutsche has lashed out at “forces in the market” for its most recent bout of trouble. But its shares had already fallen by 42% this year before news broke last month of a proposed Department of Justice (DoJ) fine of $14 billion for mortgage-related misdeeds. German politicians insinuate that the mooted fine represents revenge for Europe’s recent tax case against Apple, an American champion. Yet the DoJ has slapped large fines on American banks, too. Deutsche’s vulnerability to shocks is the problem, not the shocks themselves. Paragraph 3: Fingers also point at global regulators. The boss of Credit Suisse, Tidjane Thiam, says his sector is “not really investible”. It is true that the rules have got much stricter in the past few years, particularly for institutions, like Deutsche, that have big investment-banking arms. It is also true that ultra-loose monetary policy, and in particular the negative interest rates that now prevail in much of Europe, eat away at banks’ profitability. But some banks cope better than others in this painful environment. The IMF has compared returns on equity before and after the financial crisis. Those at large European banks fell by 11.4 percentage points, whereas those at American lenders dipped by only three points. Rather than blaming speculators, Americans and regulators, Europe’s bankers and policymakers need to put their own house in order. Paragraph 4: Within institutions, that means cutting costs and raising capital. According to S&P Global Market Intelligence, the average cost-to-income ratio at an American bank in 2015 was 59%; Italy’s figure stood at 67% and Germany’s at 72%. Scandinavian banks already operate with much lower costs than their peers elsewhere in Europe. The axe is now swinging: Commerzbank, another struggling German lender, and ING, a Dutch bank, have announced thousands of job cuts in the past few days. Paragraph 5: But more can be done. Pay is one obvious lever. Deutsche’s bankers trousered roughly the same amount in annual compensation between 2011 and 2015, even as the bank’s share price dived. And before shareholders complain too loudly about that, recall that in 2007-15 the dividend payments by 90 euro-zone banks amounted to €223 billion ($250 billion). Their retained earnings would have been 64% higher at the end of that period if they had not paid out dividends.",
+      "stem": "Which of the following sentences can be connected with Paragraph 4 to make a connection with Paragraph 5?",
+      "options": {
+        "a": "Some European markets have been clearing away excess capacity",
+        "b": "Like Deutsche, Credit Suisse is freer to make plans after a recent settlement with American authorities over mis-selling mortgage-backed securities before the financial crisis",
+        "c": "It expects to wind up a unit in which it has dumped unwanted assets by the end of 2018, a year ahead of schedule",
+        "d": "European banks could have done a lot more sooner",
+        "e": "The recapitalisation of Europe’s banks has been as gradual as that of America’s was swift, and in dribs and drabs of tens of billions a year rather than in one big splurge"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 105,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q090",
+      "q_num": 90,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d023",
+      "direction_text": "Read the following passage divided into number of paragraphs carefully and answer the questions that follow it. Paragraph 1: Deutsche is more leveraged than its peers; it is unusual in lacking a crown jewel around which it can base a business model; and it has a stack of derivatives whose prices are hard to observe in the market. More positively, it is light on the non-performing loans that clog the balance-sheets of banks in places like Italy. But in other ways its problems have a very familiar ring. Deutsche is struggling to make a decent return. It has taken too long to face up to its problems. And the market it operates in is overbanked. Years after American banks were forced to clean themselves up, too many European lenders are still flailing as a result. Paragraph 2: Europeans prefer to blame others for the turmoil. Deutsche has lashed out at “forces in the market” for its most recent bout of trouble. But its shares had already fallen by 42% this year before news broke last month of a proposed Department of Justice (DoJ) fine of $14 billion for mortgage-related misdeeds. German politicians insinuate that the mooted fine represents revenge for Europe’s recent tax case against Apple, an American champion. Yet the DoJ has slapped large fines on American banks, too. Deutsche’s vulnerability to shocks is the problem, not the shocks themselves. Paragraph 3: Fingers also point at global regulators. The boss of Credit Suisse, Tidjane Thiam, says his sector is “not really investible”. It is true that the rules have got much stricter in the past few years, particularly for institutions, like Deutsche, that have big investment-banking arms. It is also true that ultra-loose monetary policy, and in particular the negative interest rates that now prevail in much of Europe, eat away at banks’ profitability. But some banks cope better than others in this painful environment. The IMF has compared returns on equity before and after the financial crisis. Those at large European banks fell by 11.4 percentage points, whereas those at American lenders dipped by only three points. Rather than blaming speculators, Americans and regulators, Europe’s bankers and policymakers need to put their own house in order. Paragraph 4: Within institutions, that means cutting costs and raising capital. According to S&P Global Market Intelligence, the average cost-to-income ratio at an American bank in 2015 was 59%; Italy’s figure stood at 67% and Germany’s at 72%. Scandinavian banks already operate with much lower costs than their peers elsewhere in Europe. The axe is now swinging: Commerzbank, another struggling German lender, and ING, a Dutch bank, have announced thousands of job cuts in the past few days. Paragraph 5: But more can be done. Pay is one obvious lever. Deutsche’s bankers trousered roughly the same amount in annual compensation between 2011 and 2015, even as the bank’s share price dived. And before shareholders complain too loudly about that, recall that in 2007-15 the dividend payments by 90 euro-zone banks amounted to €223 billion ($250 billion). Their retained earnings would have been 64% higher at the end of that period if they had not paid out dividends.",
+      "stem": "What could be the possible solutions for the rehabilitation of European banks in the existing system? (I) Proper fiscal stimulus by European governments would cut the chances that central banks have to keep interest rates so low. (II) Using public money to recapitalise the weakest banks in countries like Italy, and requiring them to slim down in return, is the fastest way to return them to health. (III) Significant job cuts of their employees to compensate the losses occurred in last few years could bring everything back to normalcy.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Only (II)",
+        "c": "Both (I) and (III)",
+        "d": "Both (I) and (II)",
+        "e": "All (I), (II) and (III) Direction (91): There are sets of four statements in question given below which when connected using the correct sentence structure forms a complete single sentence without altering the meaning of the sentences given in the question. There are four options given below the question, choose the sentence that forms the correct formation of single sentence which is both grammatically correct and contextually meaningful. If none follows, choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 539,
+        "page_start": 15,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q091",
+      "q_num": 91,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There is a statedly contemporary twist of a 360 degree review by peers, seniors and colleagues; it is an equally hush-hush affair; it does not really pass muster as an objective assessment tool for professional capabilities; it is in spite of our unique work environment.",
+      "options": {
+        "a": "The statedly contemporary twist of a 360 degree review by peers, seniors and colleagues, is an equally hush-hush affair and does not really pass muster as an objective assessment tool for professional capabilities, given our unique wrk environment",
+        "b": "Despite our unique work environment, there is a statedly contemporary twisting of a 360 degree review by peers, seniors and colleagues which is an equally hush-hush affair but it has not really passed muster as an objective assessment tool for professional capabilities",
+        "c": "Twisting review to 360 degree by peers, seniors and colleagues and making it an equally hush- hush affair, it does not really pass muster as an objective assessment tool for professional capabilities in our unique work environment",
+        "d": "Although we have unique work environment, there is a statedly contemporary twist of a 360 degree review by peers, seniors and colleagues and an equally hush-hush affairs which do not pass muster as an objective assessment tool for professional capabilities",
+        "e": "None of the above is correct. Direction (92): The following question consists of a sentence which is divided into three parts which contain grammatical errors in one or more than one part of the sentence. If there is an error in any part of the sentence, find the correct alternatives to replace those parts from the three options given below each question to make the sentence grammatically correct. If there is an error in any part of the sentence and none of the alternatives is correct to replace that part, then choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 271,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q092",
+      "q_num": 92,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The announcement by the Saudi-led coalition to sever (I)/ diplomatic ties with Qatar marks the culmination of a year-long (II)/ dispute over few Gulf Arab states and Qatar. (III) (I) The announcement by the Saudi-led coalition severing (II) diplomatic tie with Qatar marked a year-long culmination (III) dispute between some Gulf Arab states and Qatar",
+      "options": {
+        "a": "Only (I)",
+        "b": "Only (III)",
+        "c": "Both (I) and (III)",
+        "d": "None of the (I), (II) and (III)",
+        "e": "No correction required Direction (93): In the following question a part of the sentence is given in bold, it is then followed by three sentences which try to explain the meaning of the phrase given in bold. Choose the best set of alternatives from the five options given below each question which explains the meaning of the phrase correctly without altering the meaning of the sentence given as question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 351,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q093",
+      "q_num": 93,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The problem of secularism in independent India lies in the fact that the Constitution was essentially a Western construct with the sidelining of the Gandhian Influence in the Constituent Assembly. (I) Secularism in India is highly motivated by the Western pattern of Constitution with hardly any presence of Gandhian Influence. (II) The Constitution was basically influenced by the culture followed in Western societies and it hardly considered the Gandhian Influence in the Constituent Assembly which depicts the problem of secularism in independent India. (III) The developmental projects of western countries had such an impact on Indian Constitution that it ignored the Gandhian Influence and today we are facing the problem of secularism in the country.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (II) is correct",
+        "c": "Both (I) and (II) are correct",
+        "d": "Both (II) and (III) are correct",
+        "e": "All are correct Direction (94): In question given below there are two statements, each statement consists of two blanks. You have to choose the option which provides the correct set of words that fits both the blanks in both the statements appropriately and in the same order making them meaningful and grammatically correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 758,
+        "page_start": 16,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q094",
+      "q_num": 94,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(1) Despite the fact that cancerous ovarian stem cells are to chemoresistance, they are the targets for therapy. (2) How quickly the branch of Homo heidelbergensis turned into something that could be called Homo sapiens was therefore .",
+      "options": {
+        "a": "Feigned, indeterminate",
+        "b": "Pertinent, inane",
+        "c": "Relevant, obscure",
+        "d": "affiliated, fatuous",
+        "e": "analogous, insignificant Direction (95): In each of the given questions an inference is given in bold which is then followed by three paragraphs. You have to find the paragraph(s) from where it is inferred. Choose the option with the best possible outcome as your choice"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 235,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q095",
+      "q_num": 95,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The major concern is security. (I) The major dilemma for many security professionals is whether the Brexit will make the UK more or less safe when it comes to cybersecurity. One poll found that most security professionals believed there would not be any major cybersecurity implications; however, another poll offered different conclusions, with most respondents believing that a Brexit would weaken cybersecurity because of additional bureaucratic hurdles to information sharing with the EU. (II) Most debate over Brexit has been about economics, trade and migration. But when David Cameron called the EU referendum in February he cited a new factor, asserting that membership made Britain safer. This week the prime minister went further, hinting that Brexit might increase the risk related to security—and adding that, every time Britain turned its back on Europe, it had come to regret it. (III) Prime Minister Shinzo Abe touted the implementation of the legislation as an event of “historic importance that makes peace and security of our country even more secure” and “upgrades our deterrence and enables the nation to proactively contribute more than ever to peace and stability of regional and international communities.”",
+      "options": {
+        "a": "Only (I)",
+        "b": "Both (II) and (III)",
+        "c": "Only (III)",
+        "d": "Both (I) and (III)",
+        "e": "All are correct Direction (96): There are sets of four statements in question given below which when connected using the correct sentence structure forms a complete single sentence without altering the meaning of the sentences given in the question. There are four options given below the question, choose the sentence that forms the correct formation of single sentence which is both grammatically correct and contextually meaningful. If none follows, choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1229,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q096",
+      "q_num": 96,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The major thrust of Marx’s political philosophy was aimed at human liberation; it is important to consider the significant shift to comprehend it; the shift occurred in the late 17th century; In that period traditional analysis of the political order based on scarcity was replaced by a philosophy of abundance.",
+      "options": {
+        "a": "Comprehending the major thrust of Marx’s political philosophy that was aimed at human liberation, it is important to consider the significant shift of late 17th century when the scarcity based on traditional analysis was replaced by a philosophy of abundance",
+        "b": "Marx’s major thrust was on political philosophy aiming human liberation while it is important to consider the significant shift that occurred in the late 17th century, it was then that traditional analysis of the political order based on scarcity was replaced by a philosophy of abundance",
+        "c": "It is important to consider the significant shift in the late 17th century when traditional analysis of the political order based on scarcity replaced philosophy of abundance to comprehend the major thrust of Marx’s political philosophy of human liberation",
+        "d": "To comprehend the major thrust of Marx’s political philosophy that aimed at human liberation, it is important to consider the significant shift that occurred in the late 17th century when traditional analysis of the political order based on scarcity was replaced by a philosophy of abundance",
+        "e": "None of the above is correct. Direction (97): The following question consists of a sentence which is divided into three parts which contain grammatical errors in one or more than one part of the sentence. If there is an error in any part of the sentence, find the correct alternatives to replace those parts from the three options given below each question to make the sentence grammatically correct. If there is an error in any part of the sentence and none of the alternatives is correct to replace that part, then choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 311,
+        "page_start": 17,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q097",
+      "q_num": 97,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Italian officials have been arguing that (I)/volatility caused by Britain's vote to leave the European Union (II)/ means it could have given greater flexibility to prop up struggling banks. (III) (I) Italians officials had argued that (II) volatility that caused Britain's vote to leave the European Union (III) meant it should be given greater flexibility to prop up struggling banks",
+      "options": {
+        "a": "Only (II)",
+        "b": "Both (I) and (III)",
+        "c": "All (I), (II) and (III)",
+        "d": "None of the (I), (II) and (III)",
+        "e": "No correction required Direction (98): In the following question a part of the sentence is given in bold, it is then followed by three sentences which try to explain the meaning of the phrase given in bold. Choose the best set of alternatives from the five options given below each question which explains the meaning of the phrase correctly without altering the meaning of the sentence given as question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 384,
+        "page_start": null,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q098",
+      "q_num": 98,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There are girls in that school; droves and scads of them. Most of them beautiful, some of them not-so- good-looking (because ‘ugly’ is such an ugly word), but that is neither here nor there. (I) Most of the girls in the school are not-so-good- looking (because ‘ugly’ is such an ugly word), but that doesn’t make them different. (II) There are a large number of girls in that school with most of them being beautiful and quite a few being not-so-good-looking (because ‘ugly’ is such an ugly word), but that is inconsequential. (III) While most of the girls in that school are beautiful, some of them are not-so-good-looking (because ‘ugly’ is such an ugly word), but that makes a big difference.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (II) is correct",
+        "c": "Both (I) and (II) are correct",
+        "d": "Both (II) and (III) are correct",
+        "e": "All are correct Direction (99): In question given below there are two statements, each statement consists of two blanks. You have to choose the option which provides the correct set of words that fits both the blanks in both the statements appropriately and in the same order making them meaningful and grammatically correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 695,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q099",
+      "q_num": 99,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(1) The molecular targeting of CSCs may improve the of current chemotherapeutic needed for the management of this disease. (2) and safety of once-daily in the treatment of HIV infection is currently under inspection.",
+      "options": {
+        "a": "Germaneness, medication",
+        "b": "Efficacy, regimens",
+        "c": "Emasculation, nutriments",
+        "d": "Potency, sustenance",
+        "e": "Sufficiency, subsistence Direction (100): In each of the given questions an inference is given in bold which is then followed by three statements. You have to find the statement(s) from where it is inferred. Choose the option with the best possible outcome as your choice"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 216,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q100",
+      "q_num": 100,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Country's economic standard can be best adjudged by per capita income. (I) Exports and imports, a swelling favourable balance of trade, investments and bank- balances, are not an index or a balance sheet of national prosperity. Till the beginning of the Second World War, English exports were noticeably greater than what they are today. And yet England has greater national prosperity today than it ever had. Because the income of average Englishmen, working as field and factory labourers, clerks, policemen, petty shopkeepers and shop assistants, domestic workers and other low-paid workers, has gone up. (II) It is possible that while per capita real income is increasing per capita consumption of goods and services might be falling. This happens when the Govt. might itself be using up the increased income for massive military buildup necessitating heavy production of arms and ammunitions. (III) A rise in national income may occur as a result of increased spending on items such as defence. National income often rises in time of war, or the threat of war, because money is spent on weapons. This will push up GNP, but the people may be acutely short of goods to buy.",
+      "options": {
+        "a": "Both (II) and (III)",
+        "b": "Both (I) and (II)",
+        "c": "Only (I)",
+        "d": "Only (II)",
+        "e": "All are correct Direction (101): There are sets of four statements in question given below which when connected using the correct sentence structure forms a complete single sentence without altering the meaning of the sentences given in the question. There are four options given below the question, choose the sentence that forms the correct formation of single sentence which is both grammatically correct and contextually meaningful. If none follows, choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1176,
+        "page_start": 18,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q101",
+      "q_num": 101,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There is a giant footprint of the ransomware attack; it leveraged a leaked NSA-created Windows hacking technique; it infected more than 200,000 systems across 150 countries; malware analysts say poor choices on the part of WannaCry's creators have limited both its scope and profit.",
+      "options": {
+        "a": "The giant footprint of the ransomware attack has leveraged a leaked NSA-created Windows hacking technique and infected more than 200,000 systems across 150 countries while malware analysts say poor choices on the part of WannaCry's creators had limited both its scope and profit",
+        "b": "Despite the giant footprint of the ransomware attack, which leveraged a leaked NSA-created Windows hacking technique to infect more than 200,000 systems across 150 countries, malware analysts say poor choices on the part of WannaCry's creators have limited both its scope and profit",
+        "c": "Malware analysts said that poor choices on the part of WannaCry's creators have limited both its scope and profit, whereas the giant footprint of the ransomware attack leveraged a leaked NSA-created Windows hacking technique infecting more than 200,000 systems across 150 countries",
+        "d": "The ransomware attack is a giant footprint as it has leveraged a leaked NSA-created Windows hacking technique and infected more than 200,000 systems across 150 countries which have limited both the scope and profit due to poor choices on the part of WannaCry's creators as malware analysts said",
+        "e": "None of the above is correct. Direction (102): The following question consists of a sentence which is divided into three parts which contain grammatical errors in one or more than one part of the sentence. If there is an error in any part of the sentence, find the correct alternatives to replace those parts from the three options given below each question to make the sentence grammatically correct. If there is an error in any part of the sentence and none of the alternatives is correct to replace that part, then choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 282,
+        "page_start": null,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q102",
+      "q_num": 102,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Many environmentalists think that too much interference with (I)/ nature for development projects is gradually destroying the balance and natural (II)/ calamities are happening to forewarn us about a possible doomsday in future. (III) (I) Many of the environmentalists believe that too much interference in (II) nature for developing new projects has destroyed the balance and natural (III) calamities which may happen to forewarn us about doomsday possibly in future",
+      "options": {
+        "a": "Only (II)",
+        "b": "Both (I) and (II)",
+        "c": "Both (II) and (III)",
+        "d": "None of the (I), (II) and (III)",
+        "e": "No correction required Direction (103): In question given below there are two statements, each statement consists of two blanks. You have to choose the option which provides the correct set of words that fits both the blanks in both the statements appropriately and in the same order making them meaningful and grammatically correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 467,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q103",
+      "q_num": 103,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(1) The six-day war was the last unalloyed military victory for Israel, and the start of a from existential wars against Arab states, which it always won, to campaigns against non-state militias which it could never wipe out. (2) He sees these dualities as having been maintained through the by a deliberate and general amnesia.",
+      "options": {
+        "a": "Transition, enervating",
+        "b": "Progression, invigorating",
+        "c": "Concatenation, exhilarating",
+        "d": "Juncture, frivolous",
+        "e": "Movement, enfeeble Direction (104): In this question a small paragraph is given followed by three possible inferences which may or may not be correct. The question is then followed by five options. You have to choose the option which gives the best possible outcome"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 328,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q104",
+      "q_num": 104,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Techniques to increase productivity in the performance of discrete tasks, by requiring less human labour in each step of the production process, are widely utilized. Consultants on productivity enhancement point out, however, that although these techniques achieve their specific goal, they are not without drawbacks. They often instill enough resentment in the work force eventually to lead to a slowdown in the production process as a whole. (I) The fact that productivity enhancement techniques are so widely employed has led to a decline in the ability of American business to compete abroad. (II) Productivity enhancement techniques do not attain their intended purpose and should not be employed in the workplace. (III) Ironically, an increase in the productivity of discrete tasks may result in a decrease in the productivity of the whole production process.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (II) is correct",
+        "c": "Only (III) is correct",
+        "d": "Both (I) and (III) are correct",
+        "e": "None of the given inferences is correct. Direction (105): In question given below there are two statements, each statement consists of two blanks. You have to choose the option which provides the correct set of words that fits both the blanks in both the statements appropriately and in the same order making them meaningful and grammatically correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 865,
+        "page_start": 19,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q105",
+      "q_num": 105,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(1) The obvious ____________ between China’s level of participation and other Asian states’ requires some ___________ _. (2) For years there has been talk Aldo’s lazy performances had more to do with a brutal weight cut than any skill ____________ _. That's always been a pretty probable ___________ , given the number of horrendous weight cuts MMA sees.",
+      "options": {
+        "a": "Deviation, delineation (b)Discrepancy, explanation",
+        "c": "Incongruity, cogitation",
+        "d": "contrast, contemplation",
+        "e": "Contrariety, rumination Direction (106): There are sets of four statements in question given below which when connected using the correct sentence structure forms a complete single sentence without altering the meaning of the sentences given in the question. There are four options given below the question, choose the sentence that forms the correct formation of single sentence which is both grammatically correct and contextually meaningful. If none follows, choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 354,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q106",
+      "q_num": 106,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Pro-Russian hackers bombarded the sites of opposition leaders; it included Garry Kasparov in the midst of his 2007 campaign for president; it started in the late 2000s; it kept Kasparov's site offline or sluggish at key moments during the campaign season.",
+      "options": {
+        "a": "Bombarding the sites of opposition leaders including Garry Kasparov the midst of his 2007 campaign for president in the late 2000s, Kasparov's site was kept offline or sluggish at key moments during the campaigning season",
+        "b": "In the late 2000s, pro-Russian hackers started bombarding the sites of opposition leaders that included Garry Kasparov in the midst of his 2007 campaign for president and keeping Kasparov's site offline or sluggish at key moments during the campaign season",
+        "c": "Starting in the late 2000s, pro-Russian hackers bombarded the sites of opposition leaders like Garry Kasparov in the midst of his 2007 campaign for president, keeping Kasparov's site offline or sluggish at key moments during the campaign season",
+        "d": "The sites of opposition leaders like Garry Kasparov was kept offline or sluggish at key moments during the campaigning season by pro- Russian hackers who bombarded the sites in the midst of his 2007 campaign for President",
+        "e": "None of the above is correct. Direction (107): The following question consists of a sentence which is divided into three parts which contain grammatical errors in one or more than one part of the sentence. If there is an error in any part of the sentence, find the correct alternatives to replace those parts from the three options given below each question to make the sentence grammatically correct. If there is an error in any part of the sentence and none of the alternatives is correct to replace that part, then choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 255,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q107",
+      "q_num": 107,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Career diplomats in the State Department are wringing (I)/ the hands of diplomats in despair after seeing their president (II)/ uncorking US policies which had taken decades at maturing. (III) (I) Diplomacy in Career in the State Department has wringed (II) their hands in despair at seeing their president (III) uncorking US policies that have taken decades to mature",
+      "options": {
+        "a": "Both (II) and (III)",
+        "b": "Both (I) and (III)",
+        "c": "All (I), (II) and (III)",
+        "d": "None of the (I), (II) and (III)",
+        "e": "No correction required Direction (108): In each of the given questions an inference is given in bold which is then followed by three statements. You have to find the statement(s) from where it is inferred. Choose the option with the best possible outcome as your choice"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 368,
+        "page_start": 20,
+        "page_end": 20
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q108",
+      "q_num": 108,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "GDP fluctuates because of the business cycle. (I) The downturn of a busi-ness cycle is called a recession, which is defined as a period in which real GDP declines for at least 2 con-secutive quarter-years. The recession begins at a peak and ends at a trough. After the downward phase reaches bottom and economic conditions begin to im-prove, the economy gradually enters the expansionary phase. (II) As interest rates rise, companies and consumers cut back their spending, and the economy slows down. Slowing demand leads companies to lay off employees, which further affects consumer confidence and demand. To break this vicious circle, the central bank eases monetary policy to stimulate economic growth and employment until the economy is booming once again. Rinse and repeat. (III) High levels of investment as a share of GDP might be superb for creating extra capacity to produce but at the expense of consumer goods and services for the current generation. This imbalance is one of the reasons why GDP data may give a distorted picture of living standards in a country.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Both (II) and (III)",
+        "c": "Both (I) and (II)",
+        "d": "Only (II)",
+        "e": "All are correct Direction (109): In question given below there are two statements, each statement consists of two blanks. You have to choose the option which provides the correct set of words that fits both the blanks in both the statements appropriately and in the same order making them meaningful and grammatically correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1075,
+        "page_start": 20,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q109",
+      "q_num": 109,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "(1) Polish environment minister to over COP24 conference, the choice was made _ _____________ by the climate-change committee of the United Nations. (2) The Labour Party is led by two Marxists: Mr Corbyn and John McDonnell, his shadow chancellor, who believe in the materialist interpretation of history. Yet they now ____________ over a coalition of voters defined _ ____________ by their shared values.",
+      "options": {
+        "a": "Debate, diligently",
+        "b": "Concoct, congruently",
+        "c": "Supervise, perspicaciously",
+        "d": "Conduct, unanimously",
+        "e": "Preside, overwhelmingly Direction (110): In each of the given questions an inference is given in bold which is then followed by three statements. You have to find the statement(s) from where it is inferred. Choose the option with the best possible outcome as your choice"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 404,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q110",
+      "q_num": 110,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The calorie count of foods that are high in carbohydrates is significant. (I) Moderate use of nonnutritive sweeteners like aspartame for low calorie count could have a positive effect on insulin and blood sugar by aiding weight control. It is also important to keep in mind that many foods containing aspartame still provide calories and carbohydrate from other ingredients, even though they may be labeled \"sugar-free.\" (II) Ironically, people who use aspartame as a sweetener to reduce their calorie intake could wind up defeating their purpose, since studies show that high levels of aspartame may trigger a craving for carbohydrates by depleting the brain of a chemical that registers carbohydrate satiety. (III) Forty-five to 65 percent of your total calories should come from carbs, recommends the Institute of Medicine. If you consume carbs on a regular basis, glycogen stores stay full and become a normal part of your total body weight. The rise in the popularity of Aspartame is due to its comparatively low calorie count.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Only (II)",
+        "c": "Both (I) and (II)",
+        "d": "Both (II) and (III)",
+        "e": "All are correct. Direction (111): There are sets of four statements in question given below which when connected using the correct sentence structure forms a complete single sentence without altering the meaning of the sentences given in the question. There are four options given below the question, choose the sentence that forms the correct formation of single sentence which is both grammatically correct and contextually meaningful. If none follows, choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1032,
+        "page_start": 21,
+        "page_end": 21
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q111",
+      "q_num": 111,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Hong Kong has prospered economically; it is visible from US $177 billion GDP in 1997 to $319 billion; it has risen by 80 per cent; it has been building on her strengths of superior infrastructure, free port and low-tax status, and her superior financial and logistic hubs.",
+      "options": {
+        "a": "Economically, Hong Kong has prospered visibly, from US $177 billion GDP in 1997 to $319 billion, rising by 80 per cent, building on her strengths of superior infrastructure, free port and low-tax status, and her superior financial and logistic hubs",
+        "b": "Hong Kong has been prospering economically which is visible from US $177 billion GDP in 1997 to $319 billion that has risen by 80 per cent which has been building on her strengths of superior infrastructure, free port and low-tax status, and her superior financial and logistic hubs",
+        "c": "Building on her strengths of superior infrastructure, free port and low-tax status, and her superior financial and logistic hubs, Hong Kong has prospered economically visible from US $177 billion GDP in 1997 to $319 billion that has risen by 80 per cent",
+        "d": "Hong Kong has made visibly a prosperous economic condition rising by 80 per cent from US $177 billion GDP in 1997 to $319 billion which shows that it has been building on her strengths of superior infrastructure, free port and low-tax status, and her superior financial and logistic hubs",
+        "e": "None of the above is correct. Direction (112): The following question consists of a sentence which is divided into three parts which contain grammatical errors in one or more than one part of the sentence. If there is an error in any part of the sentence, find the correct alternatives to replace those parts from the three options given below each question to make the sentence grammatically correct. If there is an error in any part of the sentence and none of the alternatives is correct to replace that part, then choose"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 272,
+        "page_start": 21,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q112",
+      "q_num": 112,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Around 1960s it was widely assumed about politics which had been (I)/ divided from religions and after societies started becoming more industrialized, religious (II)/ belief and practice were restricted to private thought and action. (III) (I) Politics was assumed widely till about 1960s that it is (II) divided out of religion and as societies were becoming more industrialized, religious (III) beliefs and practices should have restricted to private thoughts and actions.",
+      "options": {
+        "a": "Only (I)",
+        "b": "Both (II) and (III)",
+        "c": "Both (I) and (II)",
+        "d": "None of the (I), (II) and (III)",
+        "e": "No correction required Direction (113): In the following question a part of the sentence is given in bold, it is then followed by three sentences which try to explain the meaning of the phrase given in bold. Choose the best set of alternatives from the five options given below each question which explains the meaning of the phrase correctly without altering the meaning of the sentence given as question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 474,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q113",
+      "q_num": 113,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Having studied the laws of social development and of capitalism, Marx sought to prove that the destruction of capitalism was inevitable, for it had given rise to its own grave diggers. (I) After studying the laws of social development and of capitalism, Marx was assured that there would be complete destruction of capitalism as the ones who constructed it would themselves be responsible for its downfall. (II) The laws of social development and of capitalism were so deplorable that Marx felt that it would destroy Capitalism and sooner it would give rise to a new destructive method. (III) Marx’s studies suggested that the laws of social development and capitalism were so woeful that desolation of capitalism was certain and nobody else than these laws themselves would be accountable for its destruction.",
+      "options": {
+        "a": "Only (I) is correct",
+        "b": "Only (III) is correct",
+        "c": "Only (III) is correct",
+        "d": "Both (I) and (II) are correct",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 810,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q114",
+      "q_num": 114,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If Sentence (C), “Presidential contests in India are usually tame and predictable, and 2017 does not promise to be any different” is the first sentence, what is the order of other sentences after rearrangement? (A) Prime Minister Indira Gandhi called for a “conscience vote” just before the election, and a sizeable number of Congress parliamentarians and legislators voted against the “official” candidate, Reddy, in favour of Giri. (B) The Bharatiya Janata Party, with its regular allies and new-found friends, should be able to see any non-controversial candidate through. (C) Presidential contests in India are usually tame and predictable, and 2017 does not promise to be any different. (D) To date, the election of V.V. Giri over Neelam Sanjiva Reddy in 1969 remains the only notable exception to the long list of humdrum presidential elections. (E) Before and after that, however, the favourites have carried the day, with opposition-sponsored candidates putting up no more than a symbolic fight to prove no more than a political point. (F) At present, the numbers are stacked against the opposition for the July 17 election.",
+      "options": {
+        "a": "AEFBD",
+        "b": "FBADE",
+        "c": "DAEFB",
+        "d": "AFDBE",
+        "e": "DBFEA"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1132,
+        "page_start": 22,
+        "page_end": 22
+      }
+    },
+    {
+      "q_id": "sbi_po_2017_mains_unknown_shift_213a5720::q115",
+      "q_num": 115,
+      "section": "English",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If sentence (C), “The IS immediately claimed responsibility for the attack that killed 12 people” is the last sentence of the paragraph, then which of the following sentences does not fit into the paragraph formed after rearranging other sentences? (A) The terrorists clearly wanted to send a message to the Iranian state, and they retained the element of surprise. (B) The attack, the first major terror incident in Iran in many years, suggests that even the formidable security cover put in place by the elite Revolutionary Guards can be breached by terrorists. (C) The IS immediately claimed responsibility for the attack that killed 12 people. (D) But the attacks and the Iranian reaction must also be seen in the context of heightened Saudi Arabia-Iran rivalry. (E) Wednesday’s attacks in Tehran targeted the two most significant symbols of the 1979 Revolution — the Parliament and the tomb of Ayatollah Khomeini, the founder of the Islamic Republic. (F) Though it is involved in the fight against the Islamic State in Iraq and Syria, Iran has so far largely remained insulated from the regional crises.",
+      "options": {
+        "a": "A",
+        "b": "E",
+        "c": "F",
+        "d": "D",
+        "e": "C REASONING ABILITY Solutions"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 1108,
+        "page_start": 22,
+        "page_end": 23
+      }
+    }
+  ]
+}

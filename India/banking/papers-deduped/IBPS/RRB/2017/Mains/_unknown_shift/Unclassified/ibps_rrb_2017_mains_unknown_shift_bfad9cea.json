@@ -1,0 +1,238 @@
+{
+  "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2017/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf",
+    "sha256": "bfad9cea067657c0b113aa34326c3cde5d9efaa749ea48731d7e0f11214c24ca",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02143725/IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf",
+    "source_filename": "IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 8,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "stem": "How many mobile phones are there between mobile phone D and mobile phone G?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "stem": "What is the storage space of mobile phone F?",
+      "options": {
+        "a": "32gb",
+        "b": "256mb",
+        "c": "1gb",
+        "d": "2gb",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "stem": "Find the pair of storage space and mobile phone which is not correctly matched.",
+      "options": {
+        "a": "B-2gb",
+        "b": "F-1gb",
+        "c": "A-16gb",
+        "d": "G-256mb",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "stem": "Which of the following conditions is correct regarding 8gb storage space with respect to E?",
+      "options": {
+        "a": "There is one mobile phone between E and 8gb storage space mobile phones",
+        "b": "E is immediately above 8gb storage space mobile phone",
+        "c": "8gb storage space is related to the mobile phone immediately above E",
+        "d": "All the above are true",
+        "e": "None of the above is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 91,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "stem": "Which of the following storage spaces belongs to ‘A’?",
+      "options": {
+        "a": "256mb",
+        "b": "2gb",
+        "c": "8gb",
+        "d": "500mb",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
+      "stem": "Statements: Some Gujrat are karnal. Some karnal are haryana. Some haryana are delhi. Conclusions:\nI. Atleast some delhi are Gujrat.\nII. There is a possibility that all delhi are karnal. III. No delhi is karnal.",
+      "options": {
+        "a": "None follows",
+        "b": "I and II follow",
+        "c": "Only II follows",
+        "d": "Only either II or III follows",
+        "e": "Only I and either II or III follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 210,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
+      "stem": "Statements: All doc are pdf. Some pdf are ppt. All ppt are xls. Conclusions:\nI. At least some xls are pdf.\nII. Some pdf are doc. III. All xls are doc is a possibility.",
+      "options": {
+        "a": "I and II follow",
+        "b": "I and III follow",
+        "c": "II and III follow",
+        "d": "All follow",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 167,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
+      "stem": "Statements: All windows are microsoft. All ios are microsoft All microsoft are android. Conclusions:\nI. All windows are android is a possibility.\nII. All ios is android. III. At least some android are microsoft.",
+      "options": {
+        "a": "I and II follow",
+        "b": "I and III follow",
+        "c": "II and III follow",
+        "d": "All follow",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 211,
+        "page_start": 1,
+        "page_end": 1
+      }
+    }
+  ]
+}

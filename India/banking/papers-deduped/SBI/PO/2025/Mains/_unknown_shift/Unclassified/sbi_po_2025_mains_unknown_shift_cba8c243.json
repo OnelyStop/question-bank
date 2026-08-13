@@ -1,0 +1,853 @@
+{
+  "paper_id": "sbi_po_2025_mains_unknown_shift_cba8c243",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2025/Mains/_unknown_shift/SBI-PO-Mains-Data-Analysis-Interpretation-Section-Memory-Based-Paper-05.05.2025.pdf",
+    "sha256": "cba8c24366ed975a6bdaf4a23b8e5e99a2f260a1f8a5103eb8b290aff28e8d66",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2026/06/20170009/SBI-PO-Mains-Data-Analysis-Interpretation-Section-Memory-Based-Paper-05.05.2025.pdf",
+    "source_filename": "SBI-PO-Mains-Data-Analysis-Interpretation-Section-Memory-Based-Paper-05.05.2025.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2025,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 31,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "The first term of the series which consist of six terms is m°. The second term of the series is the smallest even prime number. The third term of the series is the cube of the second term. The fourth term of the series is square of third term. The fifth term of the series is 16 times the fourth term of the series. (m is a natural number)",
+      "stem": "Find the sixth term of the series.",
+      "options": {
+        "a": "1024",
+        "b": "31768",
+        "c": "32766",
+        "d": "32768",
+        "e": "2244"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 34,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "The first term of the series which consist of six terms is m°. The second term of the series is the smallest even prime number. The third term of the series is the cube of the second term. The fourth term of the series is square of third term. The fifth term of the series is 16 times the fourth term of the series. (m is a natural number)",
+      "stem": "Find the ratio of second term and fifth term of the series.",
+      "options": {
+        "a": "10:21",
+        "b": "1:8",
+        "c": "5:324",
+        "d": "1:512",
+        "e": "21:44"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "The first term of the series which consist of six terms is m°. The second term of the series is the smallest even prime number. The third term of the series is the cube of the second term. The fourth term of the series is square of third term. The fifth term of the series is 16 times the fourth term of the series. (m is a natural number)",
+      "stem": "The sixth term is what percentage of 32 time the fifth term of the series.",
+      "options": {
+        "a": "5",
+        "b": "4",
+        "c": "3",
+        "d": "2",
+        "e": "1"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 74,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "The first term of the series which consist of six terms is m°. The second term of the series is the smallest even prime number. The third term of the series is the cube of the second term. The fourth term of the series is square of third term. The fifth term of the series is 16 times the fourth term of the series. (m is a natural number)",
+      "stem": "If another series starts with 1.5, then find the fourth term of the new series.",
+      "options": {
+        "a": "90",
+        "b": "93",
+        "c": "102",
+        "d": "99",
+        "e": "96"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 79,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A cuboid has a total surface area (TSA) of 94 sq. cm and a volume of 60 cubic cm. If its length is l cm, breadth is b cm, and height is h cm, l, b, and h, assuming all are positive and consecutive integers. Given, l<b<h. Quantity I: Find lateral Surface Area (LSA) of Cuboid. Quantity II: Total Surface Area of a cube with side is ‘b’.",
+      "options": {
+        "a": "Quantity I > Quantity II",
+        "b": "Quantity I < Quantity II",
+        "c": "Quantity I ≥ Quantity II",
+        "d": "Quantity I ≤ Quantity II",
+        "e": "Quantity I = Quantity II or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 335,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The time taken by A to complete a work is 20 days. B takes 2x% more days than A to complete the same work, and C takes x% more days than B to complete the work. The time taken by C alone to complete the work is equal to the sum of the time taken by A and B alone to complete the work. Find the time taken by all to complete 11 times the work.",
+      "options": {
+        "a": "120",
+        "b": "130",
+        "c": "100",
+        "d": "180",
+        "e": "200"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 342,
+        "page_start": null,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Boat A travels a certain distance in downstream and upstream in 27 hours. Find the time taken by boat B to cover the same distance in downstream and in upstream. The downstream speed of boat A and B is 15 km/hr and 10 km/hr.The upstream speed of boat A and B is 12 km/hr and 9 km/hr.",
+      "options": {
+        "a": "22",
+        "b": "38",
+        "c": "10",
+        "d": "18",
+        "e": "23"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 283,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the information carefully and answer the questions given below. There are three Sets A, B, and C, which contain a total of 13 unique integers. Total of ‘n’ prime numbers is distributed among them. Set A has four numbers. The product of the smallest and largest number in Set A is 26. Set B has five numbers, but only two of them are prime numbers (others are composite). Set C has four numbers. The product of the smallest and largest number in Set C is 23, which is the highest number in all three sets.",
+      "stem": "If two prime number of set B < 11 and set C contains only one prime number, then find which of the following are the correct set of all the prime numbers?",
+      "options": {
+        "a": "2, 13, 13, 19, 23",
+        "b": "2, 13, 17, 19, 23",
+        "c": "2, 5, 7, 13, 19, 17, 23",
+        "d": "2, 7, 11, 13, 17, 19, 23",
+        "e": "2, 13, 13, 17, 19, 23"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 154,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the information carefully and answer the questions given below. There are three Sets A, B, and C, which contain a total of 13 unique integers. Total of ‘n’ prime numbers is distributed among them. Set A has four numbers. The product of the smallest and largest number in Set A is 26. Set B has five numbers, but only two of them are prime numbers (others are composite). Set C has four numbers. The product of the smallest and largest number in Set C is 23, which is the highest number in all three sets.",
+      "stem": "If n<8, and total prime number in set A>set B, then find the which set have least prime number?",
+      "options": {
+        "a": "B",
+        "b": "C",
+        "c": "Can be B and C",
+        "d": "Can’t be determined",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the information carefully and answer the questions given below. There are three Sets A, B, and C, which contain a total of 13 unique integers. Total of ‘n’ prime numbers is distributed among them. Set A has four numbers. The product of the smallest and largest number in Set A is 26. Set B has five numbers, but only two of them are prime numbers (others are composite). Set C has four numbers. The product of the smallest and largest number in Set C is 23, which is the highest number in all three sets.",
+      "stem": "If the sum of all elements in set C is 43 and there is total seven prime numbers in all three sets, and the non-prime numbers in set C are consecutive even numbers, then find the sum of prime numbers in set A, 2nd number of set A>3?",
+      "options": {
+        "a": "21",
+        "b": "15",
+        "c": "27",
+        "d": "30",
+        "e": "33"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 232,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Read the information carefully and answer the questions given below. There are three Sets A, B, and C, which contain a total of 13 unique integers. Total of ‘n’ prime numbers is distributed among them. Set A has four numbers. The product of the smallest and largest number in Set A is 26. Set B has five numbers, but only two of them are prime numbers (others are composite). Set C has four numbers. The product of the smallest and largest number in Set C is 23, which is the highest number in all three sets.",
+      "stem": "If set C has highest prime numbers, then find minimum possible value of ‘n’?",
+      "options": {
+        "a": "8",
+        "b": "6",
+        "c": "7",
+        "d": "Can’t determined",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 76,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the data answer the following question. There are 200 students in a school some student likes three different fruits apple, kiwi and mango and some students do not like any fruit. The bar graph given below shows the percentage distribution of students who like apple, mango, kiwi and only kiwi. No students like all three fruits. Number of students who do not like any fruit are twice the number of students who like only Apple and mango together. Number of students who do not like any fruit = Number of students who like only Apple and Kiwi together + 20.",
+      "stem": "How many students likes only two fruits together.",
+      "options": {
+        "a": "50",
+        "b": "40",
+        "c": "30",
+        "d": "20",
+        "e": "10"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 49,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the data answer the following question. There are 200 students in a school some student likes three different fruits apple, kiwi and mango and some students do not like any fruit. The bar graph given below shows the percentage distribution of students who like apple, mango, kiwi and only kiwi. No students like all three fruits. Number of students who do not like any fruit are twice the number of students who like only Apple and mango together. Number of students who do not like any fruit = Number of students who like only Apple and Kiwi together + 20.",
+      "stem": "Total students like only kiwi are what percentage of difference between students like only apple and only mango.",
+      "options": {
+        "a": "500",
+        "b": "400",
+        "c": "300",
+        "d": "200",
+        "e": "100"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 112,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the data answer the following question. There are 200 students in a school some student likes three different fruits apple, kiwi and mango and some students do not like any fruit. The bar graph given below shows the percentage distribution of students who like apple, mango, kiwi and only kiwi. No students like all three fruits. Number of students who do not like any fruit are twice the number of students who like only Apple and mango together. Number of students who do not like any fruit = Number of students who like only Apple and Kiwi together + 20.",
+      "stem": "The students who like only apple and kiwi together is what percentage more /less of who like only mango and kiwi together.",
+      "options": {
+        "a": "500",
+        "b": "400",
+        "c": "300",
+        "d": "200",
+        "e": "100"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 122,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the data answer the following question. There are 200 students in a school some student likes three different fruits apple, kiwi and mango and some students do not like any fruit. The bar graph given below shows the percentage distribution of students who like apple, mango, kiwi and only kiwi. No students like all three fruits. Number of students who do not like any fruit are twice the number of students who like only Apple and mango together. Number of students who do not like any fruit = Number of students who like only Apple and Kiwi together + 20.",
+      "stem": "20% of students who do not like any fruits like only red colour. The student who likes only red colour is how many less than who like apple.",
+      "options": {
+        "a": "66",
+        "b": "99",
+        "c": "77",
+        "d": "100",
+        "e": "96"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 140,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the data answer the following question. There are 200 students in a school some student likes three different fruits apple, kiwi and mango and some students do not like any fruit. The bar graph given below shows the percentage distribution of students who like apple, mango, kiwi and only kiwi. No students like all three fruits. Number of students who do not like any fruit are twice the number of students who like only Apple and mango together. Number of students who do not like any fruit = Number of students who like only Apple and Kiwi together + 20.",
+      "stem": "Find the ratio of students like only kiwi and only mango to students who like mango and kiwi.",
+      "options": {
+        "a": "9:1",
+        "b": "9:4",
+        "c": "9:2",
+        "d": "9:10",
+        "e": "9:5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 93,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the following information carefully and answer the questions given below. Piya and Siya are selling cakes on three days. i.e., Saturday, Sunday, and Monday. The ratio of cakes sold by Piya on Monday and Sunday is 1:2, respectively. The cakes sold by Siya on Monday is 20, and the cakes sold by Siya on Saturday is the same as the average cakes sold by Piya on all three days. The difference between the cakes sold by Piya and Siya on Monday is the same as the difference between the cakes sold by Piya and Siya on Saturday. Piya sold less cakes than Siya on each day.",
+      "stem": "The cakes sold by Siya on all three days together is 94. Find the cakes sold by Siya on Sunday.",
+      "options": {
+        "a": "20",
+        "b": "12",
+        "c": "15",
+        "d": "None of these",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 95,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "Read the following information carefully and answer the questions given below. Piya and Siya are selling cakes on three days. i.e., Saturday, Sunday, and Monday. The ratio of cakes sold by Piya on Monday and Sunday is 1:2, respectively. The cakes sold by Siya on Monday is 20, and the cakes sold by Siya on Saturday is the same as the average cakes sold by Piya on all three days. The difference between the cakes sold by Piya and Siya on Monday is the same as the difference between the cakes sold by Piya and Siya on Saturday. Piya sold less cakes than Siya on each day.",
+      "stem": "Which of the statement/s is/are can be correct.\nI. If the cakes sold by Piya on Monday is 18, then total cakes sold by Siya on all three days together is 81.\nII. The cakes sold by Piya on Saturday is 90. III. If the cakes sold by Piya on Saturday is 21, then the lowest possible cakes sold by Siya on Sunday is",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 310,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q019",
+      "q_num": 19,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows basic pay, sales target, sale achieved and number of units sold by four different persons in 2018. Also, table shows some information about sales and incentives. Note: I. Each unit costs are Rs 20. II. Percentage of sales target realised III. Sales target = 2.5 times the basic pay.",
+      "stem": "The number of units sold by X is the same as the average number of units sold by A and B. If the basic pay of X is the same as the average basic pay of C and D, then find the amount of incentive received by X.",
+      "options": {
+        "a": "Rs 7500",
+        "b": "Can’t be determined",
+        "c": "Rs 10500",
+        "d": "None of these",
+        "e": "Rs 6000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows basic pay, sales target, sale achieved and number of units sold by four different persons in 2018. Also, table shows some information about sales and incentives. Note: I. Each unit costs are Rs 20. II. Percentage of sales target realised III. Sales target = 2.5 times the basic pay.",
+      "stem": "Which of the statement/s is/are correct?\nI. The total amount of incentive earned by A and B together is R 15000.\nII. The number of units sold by C is the lowest among all. III. The total amount of incentive earned by C is less than that of D.",
+      "options": {
+        "a": "All I, II & III",
+        "b": "Both I & III",
+        "c": "Both I & II",
+        "d": "Both II & III",
+        "e": "Only II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 242,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows basic pay, sales target, sale achieved and number of units sold by four different persons in 2018. Also, table shows some information about sales and incentives. Note: I. Each unit costs are Rs 20. II. Percentage of sales target realised III. Sales target = 2.5 times the basic pay.",
+      "stem": "Find the incentive amount earned by B (in Rs).",
+      "options": {
+        "a": "10500",
+        "b": "6000",
+        "c": "None of these",
+        "d": "7500",
+        "e": "Can’t be determined"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 46,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q022",
+      "q_num": 22,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows basic pay, sales target, sale achieved and number of units sold by four different persons in 2018. Also, table shows some information about sales and incentives. Note: I. Each unit costs are Rs 20. II. Percentage of sales target realised III. Sales target = 2.5 times the basic pay.",
+      "stem": "Sales achieved by A are what percentage of the sales achieved by B?",
+      "options": {
+        "a": "78.5%",
+        "b": "91.25%",
+        "c": "83.33%",
+        "d": "93.33%",
+        "e": "90%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 67,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows basic pay, sales target, sale achieved and number of units sold by four different persons in 2018. Also, table shows some information about sales and incentives. Note: I. Each unit costs are Rs 20. II. Percentage of sales target realised III. Sales target = 2.5 times the basic pay.",
+      "stem": "The basic pay of Y is 1.2 times the B, and Y had a sales target rate of 60%. Find the number of units sold by Y.",
+      "options": {
+        "a": "268",
+        "b": "252",
+        "c": "234",
+        "d": "241",
+        "e": "226"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 112,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A, B, C, D, and E are five persons, and the total weight of all the persons is 200 kg. The total weight of A and B is 56 kg, and the weights of A and B are in the ratio of 3:5, respectively. The weight of C is more than A but less than B. Weight of B is less than D, and weight of E is more than D. (Note: the weights of all persons are integers) Which of the statement/s is/are can be correct.\nI. Maximum possible weight of C is 34 kg.\nII. Maximum possible weight of E is 74 kg. III. Maximum possible weight of D is 56 kg.",
+      "options": {
+        "a": "All I, II & III",
+        "b": "Both I & III",
+        "c": "Only I",
+        "d": "Both II & III",
+        "e": "Only II"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 523,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Read the following information carefully and answer the questions given below. A set of natural numbers has to be formed that consists of six numbers, and the last number is 30. The first number of the set is the highest root of the given equation, and the second number of the set is (n+4) - 2n, where ‘n’ is the difference between the roots of the given equation. The third number of the set is (n+1)²– (n+1). The fourth number of the set is (n+2)² – (n+2). The fifth number of the set is (n+1)3 – (n+5). (Note: x2 – 14x + 48 = 0)",
+      "stem": "Which of the statement/s is/are correct.\nI. The product of second and fifth number is perfect square.\nII. The average of last four number is 17. III. If the seventh number of the set is sixth number + n3, then the resultant number is a factor of 114.",
+      "options": {
+        "a": "All I, II & III",
+        "b": "Both I & III",
+        "c": "Only I",
+        "d": "Only III",
+        "e": "Both II & III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 250,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Read the following information carefully and answer the questions given below. A set of natural numbers has to be formed that consists of six numbers, and the last number is 30. The first number of the set is the highest root of the given equation, and the second number of the set is (n+4) - 2n, where ‘n’ is the difference between the roots of the given equation. The third number of the set is (n+1)²– (n+1). The fourth number of the set is (n+2)² – (n+2). The fifth number of the set is (n+1)3 – (n+5). (Note: x2 – 14x + 48 = 0)",
+      "stem": "Find the HFC of third and fourth number of the set.",
+      "options": {
+        "a": "12",
+        "b": "6",
+        "c": "2",
+        "d": "3",
+        "e": "4"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The speed of trains A (Sa) and B (Sb), in km/hr with Sa > Sb, are the roots of the equation x² - 130x + 4200 = 0. Let Ta and Tb be their usual times in hours to cover a certain distance D km. If their speeds are swapped for the same distance D. (i.e. A travels at Sb and B travels at Sa), train A then takes (Ta + 2) hours and train B takes (Tb -2) hours. Find the sum of the original times (in hours), Ta and Tb.",
+      "options": {
+        "a": "22",
+        "b": "21",
+        "c": "25",
+        "d": "24",
+        "e": "26"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 413,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "The volume of a cuboid is 120 cubic meters, and the lateral surface area of the cuboid is 140 square meters. The length, breadth, and height of the cuboid are ‘l’, ‘b’, and ‘h’, respectively, and they are integers. (l > b) Quantity I: 2l -b – h/2 Quantity II: 3b × l/h Quantity III: 2b – l ÷ h",
+      "options": {
+        "a": "Quantity I < Quantity II < Quantity III",
+        "b": "Quantity I < Quantity II > Quantity III",
+        "c": "Quantity I ≥ Quantity II = Quantity III",
+        "d": "Quantity I ≤ Quantity II > Quantity III",
+        "e": "Quantity I = Quantity < Quantity III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 293,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "I. x² -Px + 32 = 0 (Roots of the equation is 4 and 4A.) 2(cube of root of Y) = Square of root of Y. Quantity I: Find the value of 2a. Z2 – KZ + 990 = 0 (a and b are root of the equation and the value of K = 5P+3.) Quantity II: Find the value of Y+A. Quantity III: Find the value of (Y+2) – Highest root of the equation I.",
+      "options": {
+        "a": "Quantity I < Quantity II < Quantity III",
+        "b": "Quantity I < Quantity II > Quantity III",
+        "c": "Quantity I ≥ Quantity II = Quantity III",
+        "d": "Quantity I ≤ Quantity II > Quantity III",
+        "e": "Quantity I = Quantity < Quantity III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 321,
+        "page_start": null,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement I: The length of cuboid B is 3/4 of the length of cuboid A. The height of cuboid A is 1.2 times that of cuboid B. The difference between the breadth of cuboids A and B is Z. The breadth of cuboids A and B is in the ratio of 8:3, respectively. Statement II: The area of a cube is 225z square meters, and the side of the cube is the same as the breadth of the cuboid A. Using both statements determined the value of Z.",
+      "options": {
+        "a": "30",
+        "b": "6",
+        "c": "9",
+        "d": "12",
+        "e": "24"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 426,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Question 35.",
+      "options": {
+        "a": "Only I",
+        "b": "Only II",
+        "c": "Only III",
+        "d": "Both I & II",
+        "e": "Both II & III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 12,
+        "page_start": 6,
+        "page_end": 6
+      }
+    }
+  ]
+}

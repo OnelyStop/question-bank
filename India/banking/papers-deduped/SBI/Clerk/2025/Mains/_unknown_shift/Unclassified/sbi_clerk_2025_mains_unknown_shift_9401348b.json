@@ -1,0 +1,292 @@
+{
+  "paper_id": "sbi_clerk_2025_mains_unknown_shift_9401348b",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2025/Mains/_unknown_shift/SBI-CLERK-Mains-2025-Memory-based-on-21-11-2025-–-Reasoning.pdf",
+    "sha256": "9401348bb0537ce18f0811aaf591f4dc2369da2eea73e6a26014117adaa04fcb",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2025/11/25100001/SBI-CLERK-Mains-2025-Memory-based-on-21-11-2025-–-Reasoning.pdf",
+    "source_filename": "SBI-CLERK-Mains-2025-Memory-based-on-21-11-2025-–-Reasoning.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2025,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 10,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "A word-number arrangement machine, when given an input line consisting of words and numbers, rearranges them following a particular rule at each step. The pattern is the same as in the previous type of questions. Study the input and answer the questions. Input: right 48 growth 97 crown 34 angle 63 flash 38 Step I: 12 right 48 growth 97 crown 63 flash 38 aegln Step II: 24 12 right 48 growth 97 63 flash aegln cnorw Step III: 32 24 12 right growth 97 63 aegln cnorw afhls Step IV: 18 32 24 12 right 97 aegln cnorw afhls ghortw Step V: 63 18 32 24 12 aegln cnorw afhls ghortw ghirt Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: point 89 acute 73 leave 92 index 28 metal 57",
+      "stem": "In step III “89” is related to “21” and in the same way in step II “acetu” is related to “73” then which element is related to “72” in step IV?",
+      "options": {
+        "a": "aelmt",
+        "b": "aeelv",
+        "c": "point",
+        "d": "92",
+        "e": "35"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "A word-number arrangement machine, when given an input line consisting of words and numbers, rearranges them following a particular rule at each step. The pattern is the same as in the previous type of questions. Study the input and answer the questions. Input: right 48 growth 97 crown 34 angle 63 flash 38 Step I: 12 right 48 growth 97 crown 63 flash 38 aegln Step II: 24 12 right 48 growth 97 63 flash aegln cnorw Step III: 32 24 12 right growth 97 63 aegln cnorw afhls Step IV: 18 32 24 12 right 97 aegln cnorw afhls ghortw Step V: 63 18 32 24 12 aegln cnorw afhls ghortw ghirt Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: point 89 acute 73 leave 92 index 28 metal 57",
+      "stem": "How many elements remain unchanged at their position from step II to step III?",
+      "options": {
+        "a": "One",
+        "b": "None",
+        "c": "Two",
+        "d": "Three",
+        "e": "Four"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 78,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "A word-number arrangement machine, when given an input line consisting of words and numbers, rearranges them following a particular rule at each step. The pattern is the same as in the previous type of questions. Study the input and answer the questions. Input: right 48 growth 97 crown 34 angle 63 flash 38 Step I: 12 right 48 growth 97 crown 63 flash 38 aegln Step II: 24 12 right 48 growth 97 63 flash aegln cnorw Step III: 32 24 12 right growth 97 63 aegln cnorw afhls Step IV: 18 32 24 12 right 97 aegln cnorw afhls ghortw Step V: 63 18 32 24 12 aegln cnorw afhls ghortw ghirt Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: point 89 acute 73 leave 92 index 28 metal 57",
+      "stem": "How many letters are there between fourth letter of fifth word from left end and fifth letter of fourth word from left end (according to English alphabet) in Step II?",
+      "options": {
+        "a": "10",
+        "b": "9",
+        "c": "15",
+        "d": "6",
+        "e": "7"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 166,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "A word-number arrangement machine, when given an input line consisting of words and numbers, rearranges them following a particular rule at each step. The pattern is the same as in the previous type of questions. Study the input and answer the questions. Input: right 48 growth 97 crown 34 angle 63 flash 38 Step I: 12 right 48 growth 97 crown 63 flash 38 aegln Step II: 24 12 right 48 growth 97 63 flash aegln cnorw Step III: 32 24 12 right growth 97 63 aegln cnorw afhls Step IV: 18 32 24 12 right 97 aegln cnorw afhls ghortw Step V: 63 18 32 24 12 aegln cnorw afhls ghortw ghirt Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: point 89 acute 73 leave 92 index 28 metal 57",
+      "stem": "Which element is fifth to the right of third element from the left end in Step III?",
+      "options": {
+        "a": "deinx",
+        "b": "acetu",
+        "c": "21",
+        "d": "aeelv",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "A word-number arrangement machine, when given an input line consisting of words and numbers, rearranges them following a particular rule at each step. The pattern is the same as in the previous type of questions. Study the input and answer the questions. Input: right 48 growth 97 crown 34 angle 63 flash 38 Step I: 12 right 48 growth 97 crown 63 flash 38 aegln Step II: 24 12 right 48 growth 97 63 flash aegln cnorw Step III: 32 24 12 right growth 97 63 aegln cnorw afhls Step IV: 18 32 24 12 right 97 aegln cnorw afhls ghortw Step V: 63 18 32 24 12 aegln cnorw afhls ghortw ghirt Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: point 89 acute 73 leave 92 index 28 metal 57",
+      "stem": "What is the difference between first number from left end and fifth number from left end in Step V?",
+      "options": {
+        "a": "5",
+        "b": "7",
+        "c": "6",
+        "d": "3",
+        "e": "2"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 99,
+        "page_start": null,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Five boxes A, B, C, D and E — are kept one above another, but not necessarily in the same order. Two boxes are kept between A and box B. Box D is kept immediately above box A. As many boxes are kept above box A as below box E. Box E is not placed below Box A and Box B. What is the position of box C from the bottom?",
+      "options": {
+        "a": "Fifth",
+        "b": "Fourth",
+        "c": "First",
+        "d": "Third",
+        "e": "Second"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 316,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Five persons – P, Q, R, S and T lives on five different floors of the building. The bottom-most floor is numbered as 1, the floor immediately above it is numbered as 2 and so on. P lives on an odd number floor. Q lives immediately above P. The number of floors above Q is same as the number of floors below R. S lives below Q. R lives on which floor?",
+      "options": {
+        "a": "First",
+        "b": "Third",
+        "c": "Fifth",
+        "d": "Fourth",
+        "e": "Second"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 350,
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below: A@B means All A is B A$B means No A is B A#B means Only a few B is A In the following questions, the symbols @, # and $ are used with the following meanings as illustrated below. In each of the questions given below statements are followed by some conclusions. Assume the given statements to be true even if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.",
+      "stem": "Statements: Grass $ Lawn. Flowers @ Green. Green # Grass Conclusions:\nI. Some flowers being lawn is a possibility.\nII. All grass being green is a possibility",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 157,
+        "page_start": 2,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below: A@B means All A is B A$B means No A is B A#B means Only a few B is A In the following questions, the symbols @, # and $ are used with the following meanings as illustrated below. In each of the questions given below statements are followed by some conclusions. Assume the given statements to be true even if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.",
+      "stem": "Statements: Pen # Pencil. Eraser @ pen. Box $ Eraser. Conclusions:\nI. All Pencil is Eraser\nII. Some Pen is not Box",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 114,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2025_mains_unknown_shift_9401348b::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the question given below: A@B means All A is B A$B means No A is B A#B means Only a few B is A In the following questions, the symbols @, # and $ are used with the following meanings as illustrated below. In each of the questions given below statements are followed by some conclusions. Assume the given statements to be true even if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.",
+      "stem": "Statements: Card @ Paper. Paper # White White @ Envelope Conclusions:\nI. No card is white\nII. Some card is white",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow Solutions Solutions (1-5): Logic here is: For numbers: Numbers are picked in ascending order then the digits of the numbers are multiplied and their product is arranged at extreme left end at each step For words: Words are picked in English alphabetical order, then the letters of the words are arranged in English alphabet order within the word and then the words are arranged at extreme right end at each step Input: point 89 acute 73 leave 92 index 28 metal 57 Step I: 16 point 89 73 leave 92 index metal 57 acetu Step II: 35 16 point 89 73 leave 92 metal acetu deinx Step III: 21 35 16 point 89 92 metal acetu deinx aeelv Step IV: 72 21 35 16 point 92 acetu deinx aeelv aelmt Step V: 18 72 21 35 16 acetu deinx aeelv aelmt inopt S1. Ans"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 112,
+        "page_start": 3,
+        "page_end": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+  "subject": "Quantitative",
+  "source": {
+    "pdf_path": "corpus/IBPS/RRB/2017/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf",
+    "sha256": "bfad9cea067657c0b113aa34326c3cde5d9efaa749ea48731d7e0f11214c24ca",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02143725/IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf",
+    "source_filename": "IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf"
+  },
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Mains",
+  "year": 2017,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 33,
+  "questions": [
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q048",
+      "q_num": 48,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A spherical cannon ball, 28 cm in diameter, is melted and cast into a right circular conical mould the base of which is 35 cm in diameter. Find the height of the cone correct up to two places of decimals.",
+      "options": {
+        "a": "8.96 cm",
+        "b": "35.84 cm",
+        "c": "5.97 cm",
+        "d": "17.92 cm",
+        "e": "30.92 cm"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 204,
+        "page_start": null,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q049",
+      "q_num": 49,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A train takes 3 seconds to cross a pole and 22 seconds to cross a 855 m long bridge. What is the time taken by the train (in seconds) to cross a 215 m long train coming at a speed of 90 km/hr from the opposite direction?",
+      "options": {
+        "a": "5",
+        "b": "8",
+        "c": "12",
+        "d": "7",
+        "e": "15"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 220,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q050",
+      "q_num": 50,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A 10 hectare field is reaped by 2 men, 3 women and 4 children together in 10 days. If working capabilities of a man, a woman and a child are in the ratio 5 : 4 : 2, then a 16 hectare field will be reaped by 6 men, 4 women and 7 children in.",
+      "options": {
+        "a": "5 days",
+        "b": "6 days",
+        "c": "7 days",
+        "d": "8 days",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 240,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q051",
+      "q_num": 51,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer—",
+      "stem": "I. 35x2−53x+20 = 0\nII. 56y2−97y+42=0",
+      "options": {
+        "a": "If x< y",
+        "b": "If x≤y",
+        "c": "If x> y",
+        "d": "If x≥y",
+        "e": "x= y or relationship between x and y cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 36,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q052",
+      "q_num": 52,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer—",
+      "stem": "I.18x² + 18x+ 4 = 0 II.12y² + 29y+ 14 = 0",
+      "options": {
+        "a": "If x< y",
+        "b": "If x≤y",
+        "c": "If x> y",
+        "d": "If x≥y",
+        "e": "x= y or relationship between x and y cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q053",
+      "q_num": 53,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer—",
+      "stem": "I.8x2 −78x+ 169 = 0 II.20y2 −117y+ 169 = 0",
+      "options": {
+        "a": "If x< y",
+        "b": "If x≤y",
+        "c": "If x> y",
+        "d": "If x≥y",
+        "e": "x= y or relationship between x and y cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 42,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q054",
+      "q_num": 54,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer—",
+      "stem": "I. 6x² + 13x + 5 = 0\nII. 3y² + 11y + 10 = 0",
+      "options": {
+        "a": "If x< y",
+        "b": "If x≤y",
+        "c": "If x> y",
+        "d": "If x≥y",
+        "e": "x= y or relationship between x and y cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q055",
+      "q_num": 55,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer—",
+      "stem": "I. 6x + 7y = 52\nII. 14x + 4y = 35",
+      "options": {
+        "a": "If x< y",
+        "b": "If x≤y",
+        "c": "If x> y",
+        "d": "If x≥y",
+        "e": "x= y or relationship between x and y cannot be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q056",
+      "q_num": 56,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
+      "stem": "If female teachers of school Vasant valley are 17% of total strength of school, then what is the ratio of teachers to students in that school ?",
+      "options": {
+        "a": "32 : 55",
+        "b": "5 : 11",
+        "c": "32 : 53",
+        "d": "23 : 53",
+        "e": "5 : 13"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q057",
+      "q_num": 57,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
+      "stem": "The female students of Pathways school are 15 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 0,
+        "stem_char_len": 158,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q058",
+      "q_num": 58,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
+      "stem": "If strength of all school is same, then find the number of non-teaching staff of school DAV.",
+      "options": {
+        "a": "420",
+        "b": "525",
+        "c": "580",
+        "d": "630",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 92,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q059",
+      "q_num": 59,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
+      "stem": "If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock?",
+      "options": {
+        "a": "80%",
+        "b": "85%",
+        "c": "72%",
+        "d": "92%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 150,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q060",
+      "q_num": 60,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
+      "stem": "Find the difference in total strength of school Woodstock and that of Rishi valley.",
+      "options": {
+        "a": "980",
+        "b": "840",
+        "c": "780",
+        "d": "can’t be determined",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q061",
+      "q_num": 61,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary?",
+      "options": {
+        "a": "Rs 5000",
+        "b": "Rs 15000",
+        "c": "Rs 3000",
+        "d": "Rs 10,00",
+        "e": "Rs 8000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 218,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q062",
+      "q_num": 62,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share?",
+      "options": {
+        "a": "800",
+        "b": "920",
+        "c": "864",
+        "d": "850",
+        "e": "795"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 298,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q063",
+      "q_num": 63,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted?",
+      "options": {
+        "a": "8 days",
+        "b": "10 days",
+        "c": "7 days",
+        "d": "9 days",
+        "e": "6 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 252,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q064",
+      "q_num": 64,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 307,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q065",
+      "q_num": 65,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Subbu have a fan whose 5% of the selling price is equal to 6% of its cost price and 7% of the selling price exceeds 8% of its cost price by Rs 1. Find the profit.",
+      "options": {
+        "a": "Rs 25",
+        "b": "Rs 37.5",
+        "c": "Rs 50",
+        "d": "Rs 75",
+        "e": "Rs 62.5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q066",
+      "q_num": 66,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A sum of Rs 1000 after 3 years at compound interest becomes a certain amount that is equal to the amount that is the result of a 3 years depreciation from Rs 1728. Find the difference between the rates of CI and depreciation. (Given that CI is 10% p.a.)",
+      "options": {
+        "a": "2 3 %",
+        "b": "1 3 %",
+        "c": "3%",
+        "d": "2%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 253,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q067",
+      "q_num": 67,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In a co-educational school there are 15 more girls than boys. If the number of girls is increased by 10% and the number of boys is also increased by 16%, there would be 9 more girls than boys. What is the number of students in the school?",
+      "options": {
+        "a": "140",
+        "b": "125",
+        "c": "265",
+        "d": "255",
+        "e": "250"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 238,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q068",
+      "q_num": 68,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "In Ramnagar colony, the ratio of school going children to non-school going children is 5 : 4. If in the next year, the number of non-school going children is increased by 20% making it 35,400, and the number of school going children remains same. Find the new ratio of school going children to non-school going children?",
+      "options": {
+        "a": "4 : 5",
+        "b": "3 : 2",
+        "c": "25 : 24",
+        "d": "Data inadequate",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 320,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q069",
+      "q_num": 69,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "There was one mess for 30 boarders in a certain hostel. If the number of boarders were increased by 10, the expenses of the mess would increase by Rs 40 per month, while the average expenditure per head diminish by Rs 2. Find the original monthly expenses.",
+      "options": {
+        "a": "Rs 390",
+        "b": "Rs 360",
+        "c": "Rs 410",
+        "d": "Rs 480",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 256,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q070",
+      "q_num": 70,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "An empty container is filled with pure alcohol the alcohol is slowly to run out and when the container is one-fourth empty, it is replaced with water. Next, when the container is half empty it is again filled with water. Finally, when it is three fourth empty, it is again filled with water. What percentage of container is alcohol now?",
+      "options": {
+        "a": "8 2 %",
+        "b": "11 4 %",
+        "c": "9 8 %",
+        "d": "14 8 %",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 336,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q071",
+      "q_num": 71,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question below is followed by two Statements [I] and [II]. You have to determine whether the data given in the statements are sufficient for answering the question. You should use the data and your knowledge of Mathematics to choose between the possible answers. Give answer",
+      "stem": "In how many days 8 women can complete the work? [I]. 10 men & 12 Women can finish the work in 1 days. [II]. 5 Men and 6 women can finish the work in 2 7 days.",
+      "options": {
+        "a": "if the Statement [I] alone is sufficient to answer the question but the Statement [II] alone is not sufficient",
+        "b": "if the Statement [II] alone is sufficient to answer the question but the Statement [I] alone is not sufficient",
+        "c": "if both Statement [I] and [II] together are needed to answer the question",
+        "d": "if either the Statement [I] alone or Statement [II] alone is sufficient to answer the question",
+        "e": "if you cannot get the answer from the Statements [I] and [II] together but need even more data"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 158,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q072",
+      "q_num": 72,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question below is followed by two Statements [I] and [II]. You have to determine whether the data given in the statements are sufficient for answering the question. You should use the data and your knowledge of Mathematics to choose between the possible answers. Give answer",
+      "stem": "What is the radius of the circle? [I]. Length of a rectangle is 10% more than the breadth. Area of rectangle is 440 cm². Length of rectangle equals to circumference of circle. [II]. Circumference of circle is equal to side of square having area 484 cm²",
+      "options": {
+        "a": "if the Statement [I] alone is sufficient to answer the question but the Statement [II] alone is not sufficient",
+        "b": "if the Statement [II] alone is sufficient to answer the question but the Statement [I] alone is not sufficient",
+        "c": "if both Statement [I] and [II] together are needed to answer the question",
+        "d": "if either the Statement [I] alone or Statement [II] alone is sufficient to answer the question",
+        "e": "if you cannot get the answer from the Statements [I] and [II] together but need even more data"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 252,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q073",
+      "q_num": 73,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question below is followed by two Statements [I] and [II]. You have to determine whether the data given in the statements are sufficient for answering the question. You should use the data and your knowledge of Mathematics to choose between the possible answers. Give answer",
+      "stem": "Ram sold an item. Find the M.P of the item? [I]. Ram gave two successive discounts is 20% & 5% on marked price. But after that take 25% more on discounted price as tax. Ram can earn 40 more If he sell the item at MP. [II]. Ram gave two successive discount of MP i.e., 15% & 20% whereas Ram kept M.P. 50% more than the C.P. of that item.",
+      "options": {
+        "a": "if the Statement [I] alone is sufficient to answer the question but the Statement [II] alone is not sufficient",
+        "b": "if the Statement [II] alone is sufficient to answer the question but the Statement [I] alone is not sufficient",
+        "c": "if both Statement [I] and [II] together are needed to answer the question",
+        "d": "if either the Statement [I] alone or Statement [II] alone is sufficient to answer the question",
+        "e": "if you cannot get the answer from the Statements [I] and [II] together but need even more data"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 336,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q074",
+      "q_num": 74,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question below is followed by two Statements [I] and [II]. You have to determine whether the data given in the statements are sufficient for answering the question. You should use the data and your knowledge of Mathematics to choose between the possible answers. Give answer",
+      "stem": "Find the amount invested by Jagriti? [I]. If jagriti invested half of the amount in Yes Bank at 5% for 3years and half the amount in Kotak Bank at 6% for 5 year, she got Rs 4500 as Simple Interest. [II]. Jagriti will get 2420 more if she will invest in a bank at 10% p.a. for 3 year at compound interest rather than 10% p.a. for 2 year in same bank at compound interest",
+      "options": {
+        "a": "if the Statement [I] alone is sufficient to answer the question but the Statement [II] alone is not sufficient",
+        "b": "if the Statement [II] alone is sufficient to answer the question but the Statement [I] alone is not sufficient",
+        "c": "if both Statement [I] and [II] together are needed to answer the question",
+        "d": "if either the Statement [I] alone or Statement [II] alone is sufficient to answer the question",
+        "e": "if you cannot get the answer from the Statements [I] and [II] together but need even more data"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 369,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q075",
+      "q_num": 75,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Each question below is followed by two Statements [I] and [II]. You have to determine whether the data given in the statements are sufficient for answering the question. You should use the data and your knowledge of Mathematics to choose between the possible answers. Give answer",
+      "stem": "What is the weight of Raju? [I]. There are four person Raju, Ramesh, Rajan, Rajguru. Average of weight of these four is 51.25. Average weight of Rajan and Rajguru is 47.5. Average weight of Ramesh & Rajguru is 57.5. [II]. In a class of 50 students having 30 kg as average weight If one students of weight 30 kg is replaced by Rajan then the average increases by 0.4.",
+      "options": {
+        "a": "if the Statement [I] alone is sufficient to answer the question but the Statement [II] alone is not sufficient",
+        "b": "if the Statement [II] alone is sufficient to answer the question but the Statement [I] alone is not sufficient",
+        "c": "if both Statement [I] and [II] together are needed to answer the question",
+        "d": "if either the Statement [I] alone or Statement [II] alone is sufficient to answer the question",
+        "e": "if you cannot get the answer from the Statements [I] and [II] together but need even more data"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 366,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q076",
+      "q_num": 76,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "stem": "In June, Avanish spent 25% less amount on others as compared to what he spent on others in May. Find the percentage contribution of money spent on others in June in monthly salary of June.",
+      "options": {
+        "a": "20.5%",
+        "b": "22.5%",
+        "c": "17.1%",
+        "d": "23.2%",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 188,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q077",
+      "q_num": 77,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "stem": "Avanish invested 10% of the money spent on others in January in a business which gives him 10% interest per annum on amount invested. Find the interest earned by him in one year?",
+      "options": {
+        "a": "Rs. 125.5",
+        "b": "Rs. 152",
+        "c": "Rs. 150",
+        "d": "Rs. 135",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 178,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q078",
+      "q_num": 78,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "stem": "What is the difference in amount saved and amount spent on education by Avanish in April?",
+      "options": {
+        "a": "Rs. 12100",
+        "b": "Rs. 8600",
+        "c": "Rs. 7200",
+        "d": "Rs. 8500",
+        "e": "Rs. 7850"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 89,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q079",
+      "q_num": 79,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "stem": "Find the total expenditure made in February except education?",
+      "options": {
+        "a": "Rs. 24,000",
+        "b": "Rs. 24,400",
+        "c": "Rs. 22,400",
+        "d": "Rs. 20,400",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q080",
+      "q_num": 80,
+      "section": "Quantitative",
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "stem": "Find the ratio of money spent on Education in February to monthly salary in February?",
+      "options": {
+        "a": "3 : 22",
+        "b": "4 : 27",
+        "c": "5 : 29",
+        "d": "8 : 35",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 85,
+        "page_start": 8,
+        "page_end": 8
+      }
+    }
+  ]
+}

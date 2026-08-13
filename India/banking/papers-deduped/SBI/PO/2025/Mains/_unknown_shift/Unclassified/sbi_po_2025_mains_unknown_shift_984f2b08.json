@@ -1,0 +1,427 @@
+{
+  "paper_id": "sbi_po_2025_mains_unknown_shift_984f2b08",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/PO/2025/Mains/_unknown_shift/SBI-PO-Mains-Reasoning-Memory-Based-Paper-13-09-2025.pdf",
+    "sha256": "984f2b08a9e25dd4bc63304943a8f49484fef13ba357faafbc4759f3fec3807b",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/06/19140219/SBI-PO-Mains-Reasoning-Memory-Based-Paper-13-09-2025.pdf",
+    "source_filename": "SBI-PO-Mains-Reasoning-Memory-Based-Paper-13-09-2025.pdf"
+  },
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Mains",
+  "year": 2025,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 15,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Statement: In a well-known school, the canteen earlier sold cream biscuits that were very popular among students. However, parents began complaining that children were skipping their proper lunch and buying only cream biscuits. The school doctor also noticed an increase in toothaches and stomach-related complaints among students, which he linked to excessive biscuit consumption, so the school has stopped the sale of cream biscuits. What could be the possible reason behind stopping the sale of cream biscuits in the school canteen?",
+      "options": {
+        "a": "Cream biscuits were very costly and beyond students’ pocket money",
+        "b": "Students were skipping their healthy meals and facing health problems due to excessive consumption",
+        "c": "Teachers wanted to introduce new food items in the canteen menu",
+        "d": "Parents demanded only homemade food to be served in the canteen",
+        "e": "The school principal disliked cream biscuits personally"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 535,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Each question below is followed by two statements numbered I and II. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both statements carefully and give answer:",
+      "stem": "Six persons P, Q, R, S, T, U sit in a row and face north. Who sits immediately to the right of U? Statement I: P sits third to the left of T. R sits to the right of P. U sits to the left of T. Two persons sit between S and R Statement II: One person sits between Q and P. S sits to the left of Q. U sits second to the left of Q. T is not an immediate neighbour of P and Q.",
+      "options": {
+        "a": "Data given in both statements I and II together are sufficient to answer",
+        "b": "Data given in statement I alone is sufficient to answer",
+        "c": "Data given in statement II alone is sufficient to answer",
+        "d": "Data given in both statements I and II together are not sufficient to answer",
+        "e": "Data given in either statement I or statement II alone is sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 372,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Each question below is followed by two statements numbered I and II. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both statements carefully and give answer:",
+      "stem": "Six persons A, B, C, D, E, and F submit their projects on six different days of the week starting from Monday to Saturday. Who submits the project on the first day of the week? Statement I: B submits project immediately before E but after A. Two persons submits project between B and D who submits project immediately before A. F submits project after C but before E. Statement II: E submits project before D. More than three persons submit the project after B. D submits the project two persons after B. C submits the project before F. As many persons submit the project before F as after B.",
+      "options": {
+        "a": "Data given in both statements I and II together are sufficient to answer",
+        "b": "Data given in statement I alone is sufficient to answer",
+        "c": "Data given in statement II alone is sufficient to answer",
+        "d": "Data given in both statements I and II together are not sufficient to answer",
+        "e": "Data given in either statement I or statement II alone is sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 592,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Each question below is followed by two statements numbered I and II. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both statements carefully and give answer:",
+      "stem": "Six boxes A, B, C, D, E, and F are kept one above the other in a stack, not necessarily in the same order. Which box is kept at the second position from the top? Statement I: Box C is kept above box E. Box A is kept three boxes below box E. Box D is kept adjacent to box E but below box F Statement II: Box F is kept above box D. Box A is kept below box B. Box E is placed above box A. More than two boxes are placed between Box B and box F.",
+      "options": {
+        "a": "Data given in both statements I and II together are sufficient to answer",
+        "b": "Data given in statement I alone is sufficient to answer",
+        "c": "Data given in statement II alone is sufficient to answer",
+        "d": "Data given in both statements I and II together are not sufficient to answer",
+        "e": "Data given in either statement I or statement II alone is sufficient to answer the question"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 441,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Seven letters are arranged to form a meaningful word. I is placed at the extreme left end. Three letters are placed between I and U. Letter E is placed two places away from letter U. D and E are placed adjacent to each other. N is placed to the left of U. Only one letter is placed between N and L. C was also one of the seven letters. Now, if only one meaningful word is formed then, which letter is third letter from the left end of the newly formed word. If no meaningful word is formed, mark X as your answer, and if more than one such word is formed, mark Y as your answer?",
+      "options": {
+        "a": "E",
+        "b": "D",
+        "c": "X",
+        "d": "C",
+        "e": "Y"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 578,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "A word and number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of an input and rearrangement. Input: BD524 CF683 MK237 LQ145 YU432 EN739 Step I: DB252 FC643 KM491 QL253 UY161 NE814 Step II: BD20 CF72 MK36 LQ30 YU6 EN32 Step III: AC60 BE216 LJ108 KP90 XV18 FM96 Step IV: CA62 EB218 JL110 PK92 VX20 MF98 Step V: XZ8 VY2 QO2 KP2 EC2 NU8 And Step V is the last step of the rearrangement of the for the given input. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: RT541 AS472 HW483 VX198 ZT652 JU341",
+      "stem": "What of the following element is present in Step II?",
+      "options": {
+        "a": "RT20",
+        "b": "VY56",
+        "c": "HW24",
+        "d": "AS74",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 52,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "A word and number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of an input and rearrangement. Input: BD524 CF683 MK237 LQ145 YU432 EN739 Step I: DB252 FC643 KM491 QL253 UY161 NE814 Step II: BD20 CF72 MK36 LQ30 YU6 EN32 Step III: AC60 BE216 LJ108 KP90 XV18 FM96 Step IV: CA62 EB218 JL110 PK92 VX20 MF98 Step V: XZ8 VY2 QO2 KP2 EC2 NU8 And Step V is the last step of the rearrangement of the for the given input. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: RT541 AS472 HW483 VX198 ZT652 JU341",
+      "stem": "Which among the following combination of letters are there in Step IV?",
+      "options": {
+        "a": "VZ",
+        "b": "NU",
+        "c": "MF",
+        "d": "SY",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "A word and number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of an input and rearrangement. Input: BD524 CF683 MK237 LQ145 YU432 EN739 Step I: DB252 FC643 KM491 QL253 UY161 NE814 Step II: BD20 CF72 MK36 LQ30 YU6 EN32 Step III: AC60 BE216 LJ108 KP90 XV18 FM96 Step IV: CA62 EB218 JL110 PK92 VX20 MF98 Step V: XZ8 VY2 QO2 KP2 EC2 NU8 And Step V is the last step of the rearrangement of the for the given input. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: RT541 AS472 HW483 VX198 ZT652 JU341",
+      "stem": "What will be the sum of all the numbers in Step V?",
+      "options": {
+        "a": "16",
+        "b": "18",
+        "c": "22",
+        "d": "24",
+        "e": "20"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 50,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "A word and number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of an input and rearrangement. Input: BD524 CF683 MK237 LQ145 YU432 EN739 Step I: DB252 FC643 KM491 QL253 UY161 NE814 Step II: BD20 CF72 MK36 LQ30 YU6 EN32 Step III: AC60 BE216 LJ108 KP90 XV18 FM96 Step IV: CA62 EB218 JL110 PK92 VX20 MF98 Step V: XZ8 VY2 QO2 KP2 EC2 NU8 And Step V is the last step of the rearrangement of the for the given input. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: RT541 AS472 HW483 VX198 ZT652 JU341",
+      "stem": "In which step, the given combination of numbers and letters are present in the same manner “GV72 UW168 YS162” as given?",
+      "options": {
+        "a": "Step II",
+        "b": "Step IV",
+        "c": "Step I",
+        "d": "Step V",
+        "e": "Step III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 119,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "A word and number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of an input and rearrangement. Input: BD524 CF683 MK237 LQ145 YU432 EN739 Step I: DB252 FC643 KM491 QL253 UY161 NE814 Step II: BD20 CF72 MK36 LQ30 YU6 EN32 Step III: AC60 BE216 LJ108 KP90 XV18 FM96 Step IV: CA62 EB218 JL110 PK92 VX20 MF98 Step V: XZ8 VY2 QO2 KP2 EC2 NU8 And Step V is the last step of the rearrangement of the for the given input. As per the rules followed in the above steps, find out in each of the following questions the appropriate steps for the given input. Input: RT541 AS472 HW483 VX198 ZT652 JU341",
+      "stem": "How many numbers are divisible by 4 in Step IV?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "Five"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the given information carefully and answer the related questions: Eight persons of a three-generation family were born on same date and same month of different years – 1944, 1954, 1961, 1979, 1993, 1998, 2007, 2014. They are of different ages and likes different color. Their age is calculated with respect to the base year 2025. Note: In a married couple, husband is older to his wife. Age digit of K's child is reverse to the age digit of K's father. Age of P’s daughter is equal to the sum of ages of R and the one who likes pink. Age of the one who likes grey is the cube of a number. Four persons were born between N and the one who likes grey. Age difference between N and the one who likes yellow is same as the age difference between P’s only granddaughter and the one who likes yellow. Q is sister-in- law of K and has two children. L’s mother is immediate older to L who does not like pink. Three persons were born between L and the one who likes green. P is three persons older to the one who likes orange. Age difference between K and the one who likes red is 17 years. O does not like pink and blue. One of the parents of M is not alive. Age of the one who likes white is an odd number.",
+      "stem": "Which of the following statement is true?",
+      "options": {
+        "a": "Q likes grey",
+        "b": "L’s grandmother likes blue",
+        "c": "Total age of O and K is multiple of",
+        "d": "M is younger to at least four persons",
+        "e": "M’s uncle is older to P"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the given information carefully and answer the related questions: Eight persons of a three-generation family were born on same date and same month of different years – 1944, 1954, 1961, 1979, 1993, 1998, 2007, 2014. They are of different ages and likes different color. Their age is calculated with respect to the base year 2025. Note: In a married couple, husband is older to his wife. Age digit of K's child is reverse to the age digit of K's father. Age of P’s daughter is equal to the sum of ages of R and the one who likes pink. Age of the one who likes grey is the cube of a number. Four persons were born between N and the one who likes grey. Age difference between N and the one who likes yellow is same as the age difference between P’s only granddaughter and the one who likes yellow. Q is sister-in- law of K and has two children. L’s mother is immediate older to L who does not like pink. Three persons were born between L and the one who likes green. P is three persons older to the one who likes orange. Age difference between K and the one who likes red is 17 years. O does not like pink and blue. One of the parents of M is not alive. Age of the one who likes white is an odd number.",
+      "stem": "Choose the incorrect combination.",
+      "options": {
+        "a": "1979 – L’s father - yellow",
+        "b": "1944 – Q’s father-in-law - red",
+        "c": "1998 – O’s brother - grey",
+        "d": "1961 – M’s mother - blue",
+        "e": "2007 – R’s niece - pink"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 33,
+        "page_start": 3,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q013",
+      "q_num": 13,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the given information carefully and answer the related questions: Eight persons of a three-generation family were born on same date and same month of different years – 1944, 1954, 1961, 1979, 1993, 1998, 2007, 2014. They are of different ages and likes different color. Their age is calculated with respect to the base year 2025. Note: In a married couple, husband is older to his wife. Age digit of K's child is reverse to the age digit of K's father. Age of P’s daughter is equal to the sum of ages of R and the one who likes pink. Age of the one who likes grey is the cube of a number. Four persons were born between N and the one who likes grey. Age difference between N and the one who likes yellow is same as the age difference between P’s only granddaughter and the one who likes yellow. Q is sister-in- law of K and has two children. L’s mother is immediate older to L who does not like pink. Three persons were born between L and the one who likes green. P is three persons older to the one who likes orange. Age difference between K and the one who likes red is 17 years. O does not like pink and blue. One of the parents of M is not alive. Age of the one who likes white is an odd number.",
+      "stem": "The number of persons older to K’s mother is one less than the number of persons younger to the one who likes ____.",
+      "options": {
+        "a": "Blue",
+        "b": "Grey",
+        "c": "White",
+        "d": "Pink",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 115,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the given information carefully and answer the related questions: Eight persons of a three-generation family were born on same date and same month of different years – 1944, 1954, 1961, 1979, 1993, 1998, 2007, 2014. They are of different ages and likes different color. Their age is calculated with respect to the base year 2025. Note: In a married couple, husband is older to his wife. Age digit of K's child is reverse to the age digit of K's father. Age of P’s daughter is equal to the sum of ages of R and the one who likes pink. Age of the one who likes grey is the cube of a number. Four persons were born between N and the one who likes grey. Age difference between N and the one who likes yellow is same as the age difference between P’s only granddaughter and the one who likes yellow. Q is sister-in- law of K and has two children. L’s mother is immediate older to L who does not like pink. Three persons were born between L and the one who likes green. P is three persons older to the one who likes orange. Age difference between K and the one who likes red is 17 years. O does not like pink and blue. One of the parents of M is not alive. Age of the one who likes white is an odd number.",
+      "stem": "The one who is two persons older to L’s cousin was born in which year?",
+      "options": {
+        "a": "1998",
+        "b": "1976",
+        "c": "1993",
+        "d": "1961",
+        "e": "1954"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 70,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "sbi_po_2025_mains_unknown_shift_984f2b08::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Read the given information carefully and answer the related questions: Eight persons of a three-generation family were born on same date and same month of different years – 1944, 1954, 1961, 1979, 1993, 1998, 2007, 2014. They are of different ages and likes different color. Their age is calculated with respect to the base year 2025. Note: In a married couple, husband is older to his wife. Age digit of K's child is reverse to the age digit of K's father. Age of P’s daughter is equal to the sum of ages of R and the one who likes pink. Age of the one who likes grey is the cube of a number. Four persons were born between N and the one who likes grey. Age difference between N and the one who likes yellow is same as the age difference between P’s only granddaughter and the one who likes yellow. Q is sister-in- law of K and has two children. L’s mother is immediate older to L who does not like pink. Three persons were born between L and the one who likes green. P is three persons older to the one who likes orange. Age difference between K and the one who likes red is 17 years. O does not like pink and blue. One of the parents of M is not alive. Age of the one who likes white is an odd number.",
+      "stem": "What is the total age of females who are in second generation?",
+      "options": {
+        "a": "96 years",
+        "b": "91 years",
+        "c": "78 years",
+        "d": "59 years",
+        "e": "None of the above"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 62,
+        "page_start": 5,
+        "page_end": 5
+      }
+    }
+  ]
+}

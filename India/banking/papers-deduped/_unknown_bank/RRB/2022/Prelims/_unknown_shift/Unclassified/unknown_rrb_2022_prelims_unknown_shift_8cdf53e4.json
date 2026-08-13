@@ -1,0 +1,1982 @@
+{
+  "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/_unsorted/2022/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-english-2.pdf",
+    "sha256": "8cdf53e497617052b3040d74f82dc986cd0b7a9473339892ed398480b2da7ed7",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/09/02130553/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-english-2.pdf",
+    "source_filename": "RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-english-2.pdf"
+  },
+  "bank": null,
+  "role": "RRB",
+  "exam_type": "Prelims",
+  "year": 2022,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 73,
+  "questions": [
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "If 2 is subtracted from each odd digits and 1 is added to each even digits in the given number ‘83526794’, then which among the following digits will appear twice in the new number thus formed?",
+      "options": {
+        "a": "Only",
+        "b": "Only 3 and",
+        "c": "3, 5 and",
+        "d": "1, 5 and",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 193,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully to answer the given questions. Eight people P, Q, R, S, T, U, V, and W are sitting around a square table (but not necessarily in the same order) in such a way that four of them sit at four corners while four sit in the middle of each of the four sides. The ones who sit at the four corners face the centre while those who sit in the middle of the sides face outside from the centre. V sits second to the right of R. R sits in the middle of one of the sides of the table. Only two people sit between V and Q. S is one of the immediate neighbours of Q. T sits second to the left of S. P sits second to the left of U. V is not an immediate neighbour of U.",
+      "stem": "How many people sit between R and T when counted from the right of R?",
+      "options": {
+        "a": "None",
+        "b": "Four",
+        "c": "One",
+        "d": "Three",
+        "e": "Two"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully to answer the given questions. Eight people P, Q, R, S, T, U, V, and W are sitting around a square table (but not necessarily in the same order) in such a way that four of them sit at four corners while four sit in the middle of each of the four sides. The ones who sit at the four corners face the centre while those who sit in the middle of the sides face outside from the centre. V sits second to the right of R. R sits in the middle of one of the sides of the table. Only two people sit between V and Q. S is one of the immediate neighbours of Q. T sits second to the left of S. P sits second to the left of U. V is not an immediate neighbour of U.",
+      "stem": "Which of the following statement is true regarding P?",
+      "options": {
+        "a": "Both T and R are immediate neighbours of P",
+        "b": "Only three people sit between P and S",
+        "c": "P sits at middle of one of the sides",
+        "d": "W sits second to the left of P",
+        "e": "None of the given options is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully to answer the given questions. Eight people P, Q, R, S, T, U, V, and W are sitting around a square table (but not necessarily in the same order) in such a way that four of them sit at four corners while four sit in the middle of each of the four sides. The ones who sit at the four corners face the centre while those who sit in the middle of the sides face outside from the centre. V sits second to the right of R. R sits in the middle of one of the sides of the table. Only two people sit between V and Q. S is one of the immediate neighbours of Q. T sits second to the left of S. P sits second to the left of U. V is not an immediate neighbour of U.",
+      "stem": "What is the position of V with respect to Q?",
+      "options": {
+        "a": "Second to the left",
+        "b": "Third to the left",
+        "c": "Second to the right",
+        "d": "Fifth to the right",
+        "e": "Fifth to the left"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 44,
+        "page_start": 1,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "How many pairs of letters are there in the word ‘ACTIVATION’, each of which have as many letters between them (both forward and backward directions) as they have between them in the English alphabet?",
+      "options": {
+        "a": "Five",
+        "b": "More than six",
+        "c": "Six",
+        "d": "Four",
+        "e": "Two"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 199,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information and answer the given questions. Eight members of a family are living in a house in which two are married couples. N is the father of D. E is married to N. G and D are siblings. C is married to G. N has no son. K is the father of E. Q is the only son of C. A is the brother-in-law of N.",
+      "stem": "Who among the following is the son-in-law of N?",
+      "options": {
+        "a": "G",
+        "b": "K",
+        "c": "C",
+        "d": "Q",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information and answer the given questions. Eight members of a family are living in a house in which two are married couples. N is the father of D. E is married to N. G and D are siblings. C is married to G. N has no son. K is the father of E. Q is the only son of C. A is the brother-in-law of N.",
+      "stem": "How K is related to D?",
+      "options": {
+        "a": "Father",
+        "b": "Uncle",
+        "c": "Grand Mother",
+        "d": "Grand Father",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 22,
+        "page_start": 3,
+        "page_end": 3
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight boxes i.e., M, N, O, P, Q, R, S and T are placed one above the other but not necessarily in the same order. Three boxes are placed between box M and box T. Box M is placed either at the topmost or bottom- most position. Box O is placed just above box N. Box S is placed just below box T. There are two boxes placed between box R and box S. Not more than two boxes placed between box M and box R. More than three boxes placed between box O and box P.",
+      "stem": "Which of the following box is placed third from the bottom?",
+      "options": {
+        "a": "Box S",
+        "b": "Box Q",
+        "c": "Box O",
+        "d": "Box R",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 59,
+        "page_start": null,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight boxes i.e., M, N, O, P, Q, R, S and T are placed one above the other but not necessarily in the same order. Three boxes are placed between box M and box T. Box M is placed either at the topmost or bottom- most position. Box O is placed just above box N. Box S is placed just below box T. There are two boxes placed between box R and box S. Not more than two boxes placed between box M and box R. More than three boxes placed between box O and box P.",
+      "stem": "How many boxes are placed between Box O and Box Q?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Four",
+        "d": "Two",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 50,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q011",
+      "q_num": 11,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight boxes i.e., M, N, O, P, Q, R, S and T are placed one above the other but not necessarily in the same order. Three boxes are placed between box M and box T. Box M is placed either at the topmost or bottom- most position. Box O is placed just above box N. Box S is placed just below box T. There are two boxes placed between box R and box S. Not more than two boxes placed between box M and box R. More than three boxes placed between box O and box P.",
+      "stem": "The number of boxes placed between box P and box S is same as the number of boxes placed between ___ and box R?",
+      "options": {
+        "a": "Box M",
+        "b": "Box Q",
+        "c": "Box N",
+        "d": "Box T",
+        "e": "Box O"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 111,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q012",
+      "q_num": 12,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below. Eight boxes i.e., M, N, O, P, Q, R, S and T are placed one above the other but not necessarily in the same order. Three boxes are placed between box M and box T. Box M is placed either at the topmost or bottom- most position. Box O is placed just above box N. Box S is placed just below box T. There are two boxes placed between box R and box S. Not more than two boxes placed between box M and box R. More than three boxes placed between box O and box P.",
+      "stem": "The number of boxes placed above of the box O is same as the number of boxes placed below to the box ______.",
+      "options": {
+        "a": "R",
+        "b": "Q",
+        "c": "P",
+        "d": "T",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 108,
+        "page_start": 4,
+        "page_end": 4
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q014",
+      "q_num": 14,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each question below some statements are given followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Only a few Red are Blue. Only a few Blue is Pink. All Pink is Yellow. Conclusions:\nI. All Yellow being Blue is a possibility.\nII. Some Pink are Red.",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 160,
+        "page_start": null,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q015",
+      "q_num": 15,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each question below some statements are given followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Only chips are coffee. Some chips are cookies. Only a few cookies are sugar. Conclusions:\nI. Some coffee is cookies\nII. All cookies being sugar is a possibility",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 172,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q016",
+      "q_num": 16,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each question below some statements are given followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Some Green are Olive. All Olive is Black. No Olive is White. Conclusions:\nI. Some Black is White.\nII. Some Green are Black.",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 135,
+        "page_start": 5,
+        "page_end": 5
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q017",
+      "q_num": 17,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each question below some statements are given followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Some Apple are Papaya No Apple is Mango All Mango is Litchi Conclusion:\nI. Some Papaya are not Mango\nII. Some Litchi being Apple is a possibility",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 157,
+        "page_start": 5,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q018",
+      "q_num": 18,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d004",
+      "direction_text": "In each question below some statements are given followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
+      "stem": "Statements: Only Box are Bottle Some Box are Cup No Cup is Plate Conclusion:\nI. Some Plate being Bottle is a possibility.\nII. All Cup being Box is a possibility.",
+      "options": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither conclusion I nor II follows",
+        "e": "If both conclusions I and II follow"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 161,
+        "page_start": 6,
+        "page_end": 6
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q020",
+      "q_num": 20,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below. A certain number of persons sit in row facing north. Q sits fifth to the right of V. Three persons sit between V and A. S sits fifth to the left of A. Only one person sits between V and D. X sits third to the right of D. Only three persons sit between X and C. Q is third from the right end. Only six persons sit between P and T. P is an immediate neighbour of X. S is not the immediate neighbour of D.",
+      "stem": "If B sits exactly between T and S, then what will be the position of B with respect to A?",
+      "options": {
+        "a": "Third to the left",
+        "b": "Third to the right",
+        "c": "Second to the left",
+        "d": "Fourth to the right",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 89,
+        "page_start": 6,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q021",
+      "q_num": 21,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below. A certain number of persons sit in row facing north. Q sits fifth to the right of V. Three persons sit between V and A. S sits fifth to the left of A. Only one person sits between V and D. X sits third to the right of D. Only three persons sit between X and C. Q is third from the right end. Only six persons sit between P and T. P is an immediate neighbour of X. S is not the immediate neighbour of D.",
+      "stem": "If G sits second to the right of P, then how many persons will sit between G and V?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Five",
+        "d": "Three",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": null,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q023",
+      "q_num": 23,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d005",
+      "direction_text": "Study the following information carefully and answer the questions given below. A certain number of persons sit in row facing north. Q sits fifth to the right of V. Three persons sit between V and A. S sits fifth to the left of A. Only one person sits between V and D. X sits third to the right of D. Only three persons sit between X and C. Q is third from the right end. Only six persons sit between P and T. P is an immediate neighbour of X. S is not the immediate neighbour of D.",
+      "stem": "Who among the following is fifth to the right of A?",
+      "options": {
+        "a": "T",
+        "b": "P",
+        "c": "None of these",
+        "d": "X",
+        "e": "Q"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 51,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q024",
+      "q_num": 24,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Read the given information carefully and answer the related questions. A person purchased seven mobile phones of different costs. Mobile phones are- J, K, L, A, S, D and G but not purchased in the same order as given. Phone S is neither most expensive nor cheapest among all. The cost of three phones is there between phone S and phone J. Phone G is just cheaper than phone J. The number of phones cheaper to phone G is equal to the phones expensive to phone A. The cost of two phones is there between phone A and phone L which is just cheaper to phone D. The cost of 2nd most expensive phone is 98k and 3rd cheapest phone is 60K.",
+      "stem": "How many phones are expensive than phone K?",
+      "options": {
+        "a": "Four",
+        "b": "Three",
+        "c": "None",
+        "d": "Six",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 43,
+        "page_start": 7,
+        "page_end": 7
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q025",
+      "q_num": 25,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Read the given information carefully and answer the related questions. A person purchased seven mobile phones of different costs. Mobile phones are- J, K, L, A, S, D and G but not purchased in the same order as given. Phone S is neither most expensive nor cheapest among all. The cost of three phones is there between phone S and phone J. Phone G is just cheaper than phone J. The number of phones cheaper to phone G is equal to the phones expensive to phone A. The cost of two phones is there between phone A and phone L which is just cheaper to phone D. The cost of 2nd most expensive phone is 98k and 3rd cheapest phone is 60K.",
+      "stem": "What may be the possible cost of phone D?",
+      "options": {
+        "a": "99k",
+        "b": "53k",
+        "c": "100k",
+        "d": "83k",
+        "e": "59k"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 41,
+        "page_start": 7,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q026",
+      "q_num": 26,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d006",
+      "direction_text": "Read the given information carefully and answer the related questions. A person purchased seven mobile phones of different costs. Mobile phones are- J, K, L, A, S, D and G but not purchased in the same order as given. Phone S is neither most expensive nor cheapest among all. The cost of three phones is there between phone S and phone J. Phone G is just cheaper than phone J. The number of phones cheaper to phone G is equal to the phones expensive to phone A. The cost of two phones is there between phone A and phone L which is just cheaper to phone D. The cost of 2nd most expensive phone is 98k and 3rd cheapest phone is 60K.",
+      "stem": "The cost of which among the following phone is just expensive than phone J?",
+      "options": {
+        "a": "None",
+        "b": "L",
+        "c": "K",
+        "d": "A",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 75,
+        "page_start": null,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q027",
+      "q_num": 27,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following alphanumeric -symbol series carefully and answer the questions given below. K + 8 E L 3 = F 6 1 M 2 * B % O C @ Z 7 1 £ 9 $ A W 5 U # T X",
+      "stem": "If all the consonants in the above arrangement are dropped, then which of the following will be the fifth from the right end?",
+      "options": {
+        "a": "$",
+        "b": "O",
+        "c": "%",
+        "d": "A",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 125,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q028",
+      "q_num": 28,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following alphanumeric -symbol series carefully and answer the questions given below. K + 8 E L 3 = F 6 1 M 2 * B % O C @ Z 7 1 £ 9 $ A W 5 U # T X",
+      "stem": "How many such consonants are there in the above arrangement each of which is immediately preceded by a symbol but not immediately followed by a number?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "More than three"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 151,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q029",
+      "q_num": 29,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following alphanumeric -symbol series carefully and answer the questions given below. K + 8 E L 3 = F 6 1 M 2 * B % O C @ Z 7 1 £ 9 $ A W 5 U # T X",
+      "stem": "Which of the following is the tenth to the left of the eighteenth element from the left end of the above arrangement?",
+      "options": {
+        "a": "6",
+        "b": "M",
+        "c": "2",
+        "d": "None of these",
+        "e": "F"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 117,
+        "page_start": 8,
+        "page_end": 8
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q030",
+      "q_num": 30,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following alphanumeric -symbol series carefully and answer the questions given below. K + 8 E L 3 = F 6 1 M 2 * B % O C @ Z 7 1 £ 9 $ A W 5 U # T X",
+      "stem": "How many such vowels are there in the above arrangement each of which is immediately followed by a symbol and immediately preceded by a number?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 8,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q031",
+      "q_num": 31,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d007",
+      "direction_text": "Study the following alphanumeric -symbol series carefully and answer the questions given below. K + 8 E L 3 = F 6 1 M 2 * B % O C @ Z 7 1 £ 9 $ A W 5 U # T X",
+      "stem": "Which of the following is exactly in the middle of A and M in the above arrangement?",
+      "options": {
+        "a": "C",
+        "b": "@",
+        "c": "Z",
+        "d": "7",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 84,
+        "page_start": null,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q032",
+      "q_num": 32,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below. Seven persons were born in seven different years i.e., 2000, 2002, 2004, 2005, 2008, 2011 and 2015. Their age is calculated with respect to 2021. More than three persons were younger to C. Only one person was born between C and P. P was born before I. The age difference between P and C is same as the age difference between Y and O. O is the youngest person. M was born just before K.",
+      "stem": "Who among the following person was born immediately after C?",
+      "options": {
+        "a": "M",
+        "b": "The one who is 13 years old",
+        "c": "Y",
+        "d": "The one who is 19 years old",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 60,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q033",
+      "q_num": 33,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below. Seven persons were born in seven different years i.e., 2000, 2002, 2004, 2005, 2008, 2011 and 2015. Their age is calculated with respect to 2021. More than three persons were younger to C. Only one person was born between C and P. P was born before I. The age difference between P and C is same as the age difference between Y and O. O is the youngest person. M was born just before K.",
+      "stem": "Who among the following person was born in 2011?",
+      "options": {
+        "a": "K",
+        "b": "Y",
+        "c": "I",
+        "d": "M",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 48,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q034",
+      "q_num": 34,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below. Seven persons were born in seven different years i.e., 2000, 2002, 2004, 2005, 2008, 2011 and 2015. Their age is calculated with respect to 2021. More than three persons were younger to C. Only one person was born between C and P. P was born before I. The age difference between P and C is same as the age difference between Y and O. O is the youngest person. M was born just before K.",
+      "stem": "Number of persons born after Y is the same as the number of persons born before______.",
+      "options": {
+        "a": "P",
+        "b": "M",
+        "c": "I",
+        "d": "K",
+        "e": "O"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 86,
+        "page_start": 9,
+        "page_end": 9
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q035",
+      "q_num": 35,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below. Seven persons were born in seven different years i.e., 2000, 2002, 2004, 2005, 2008, 2011 and 2015. Their age is calculated with respect to 2021. More than three persons were younger to C. Only one person was born between C and P. P was born before I. The age difference between P and C is same as the age difference between Y and O. O is the youngest person. M was born just before K.",
+      "stem": "Which of the following statement(s) is/are true?\nI. Three persons were born between M and Y\nII. P was born in 2000 III. K is 19 years old.",
+      "options": {
+        "a": "Only II",
+        "b": "Only III",
+        "c": "Both II and III",
+        "d": "Both I and III",
+        "e": "All I, II and III"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 138,
+        "page_start": 9,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q036",
+      "q_num": 36,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d008",
+      "direction_text": "Study the following information carefully and answer the questions given below. Seven persons were born in seven different years i.e., 2000, 2002, 2004, 2005, 2008, 2011 and 2015. Their age is calculated with respect to 2021. More than three persons were younger to C. Only one person was born between C and P. P was born before I. The age difference between P and C is same as the age difference between Y and O. O is the youngest person. M was born just before K.",
+      "stem": "Which of the following pair of persons was born immediately before and immediately after I respectively?",
+      "options": {
+        "a": "M, Y",
+        "b": "P, C",
+        "c": "K, O",
+        "d": "C, M",
+        "e": "Y, M"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 104,
+        "page_start": null,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q037",
+      "q_num": 37,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In these questions, relationship between different elements is show in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "stem": "Select the word that fits blank (37).",
+      "options": {
+        "a": "Both conclusions I and II are true",
+        "b": "Either conclusion I or II is true",
+        "c": "Only conclusion I is true",
+        "d": "Neither conclusions I nor II is true",
+        "e": "Only conclusion II is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q038",
+      "q_num": 38,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In these questions, relationship between different elements is show in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "stem": "Select the word that fits blank (38).",
+      "options": {
+        "a": "Both conclusions I and II are true",
+        "b": "Only conclusion II is true",
+        "c": "Neither conclusion I nor II is true",
+        "d": "Either conclusions I or II is true",
+        "e": "Only conclusions I is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 10,
+        "page_end": 10
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q039",
+      "q_num": 39,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In these questions, relationship between different elements is show in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "stem": "Select the word that fits blank (39).",
+      "options": {
+        "a": "Both conclusions I and II are true",
+        "b": "Either conclusion I or II is true",
+        "c": "Neither conclusion I nor II is true",
+        "d": "Only conclusion I is true",
+        "e": "Only conclusion II is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 10,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q040",
+      "q_num": 40,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d009",
+      "direction_text": "In these questions, relationship between different elements is show in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "stem": "Select the word that fits blank (40).",
+      "options": {
+        "a": "Only conclusion II is true",
+        "b": "Either conclusion I or II is true",
+        "c": "Both conclusions I and II are true",
+        "d": "Neither conclusion I nor II is true",
+        "e": "Only conclusion I is true"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q041",
+      "q_num": 41,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In the given below questions, two equations (I) and (II) are given. You have to solve both the equations and mark the answer accordingly.",
+      "stem": "Select the word that fits blank (41).",
+      "options": {
+        "a": "x>y",
+        "b": "x<y",
+        "c": "x≤y",
+        "d": "x≥y",
+        "e": "x=y or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q042",
+      "q_num": 42,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In the given below questions, two equations (I) and (II) are given. You have to solve both the equations and mark the answer accordingly.",
+      "stem": "Select the word that fits blank (42).",
+      "options": {
+        "a": "x>y",
+        "b": "x<y",
+        "c": "x≤y",
+        "d": "x≥y",
+        "e": "x=y or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 11,
+        "page_end": 11
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q043",
+      "q_num": 43,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In the given below questions, two equations (I) and (II) are given. You have to solve both the equations and mark the answer accordingly.",
+      "stem": "Select the word that fits blank (43).",
+      "options": {
+        "a": "x>y",
+        "b": "x<y",
+        "c": "x≤y",
+        "d": "x≥y",
+        "e": "x=y or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 11,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q044",
+      "q_num": 44,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In the given below questions, two equations (I) and (II) are given. You have to solve both the equations and mark the answer accordingly.",
+      "stem": "Select the word that fits blank (44).",
+      "options": {
+        "a": "x>y",
+        "b": "x<y",
+        "c": "x≤y",
+        "d": "x≥y",
+        "e": "x=y or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q045",
+      "q_num": 45,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d010",
+      "direction_text": "In the given below questions, two equations (I) and (II) are given. You have to solve both the equations and mark the answer accordingly.",
+      "stem": "Select the word that fits blank (45).",
+      "options": {
+        "a": "x>y",
+        "b": "x<y",
+        "c": "x≤y",
+        "d": "x≥y",
+        "e": "x=y or no relation"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 12,
+        "page_end": 12
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q046",
+      "q_num": 46,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Table given below shows percentage of total number of officers in five different banks (A, B, C, D and",
+      "stem": "Scale II officers in bank ‘C’ is what percent more than scale II officers in bank ‘A’.",
+      "options": {
+        "e": "in a city and it also shows total number of scales I officers in respective banks in that city. Study the data carefully and answer the following questions. Total officers in all five banks = 9000 NOTE: Total officers = Scale I officers + Scale II officers"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 1,
+        "stem_char_len": 86,
+        "page_start": 12,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q047",
+      "q_num": 47,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Table given below shows percentage of total number of officers in five different banks (A, B, C, D and",
+      "stem": "Find the ratio between scale I officers in bank ‘B’ and ‘E’ together to scale II officer in bank ‘B’.",
+      "options": {
+        "a": "1 : 2",
+        "b": "15 : 14",
+        "c": "45 : 34",
+        "d": "45 : 56",
+        "e": "3 : 5"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 101,
+        "page_start": null,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q048",
+      "q_num": 48,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Table given below shows percentage of total number of officers in five different banks (A, B, C, D and",
+      "stem": "Out of total scale II officers in bank ‘D’, 45% are males. Find total number of females scale II officers in bank ‘D’.",
+      "options": {
+        "a": "288",
+        "b": "352",
+        "c": "320",
+        "d": "384",
+        "e": "440"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 118,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q049",
+      "q_num": 49,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Table given below shows percentage of total number of officers in five different banks (A, B, C, D and",
+      "stem": "Total number of scale II officers in all bank together is how much more than total number of scales I officers in all banks together.",
+      "options": {
+        "a": "5500",
+        "b": "3500",
+        "c": "3000",
+        "d": "2500",
+        "e": "2000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 133,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q050",
+      "q_num": 50,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d011",
+      "direction_text": "Table given below shows percentage of total number of officers in five different banks (A, B, C, D and",
+      "stem": "Scale I officer in bank ‘B’ is what percent less than scale II officer in bank ‘D’?",
+      "options": {
+        "a": "6.25%",
+        "b": "12.5%",
+        "c": "25%",
+        "d": "27.5%",
+        "e": "10%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q051",
+      "q_num": 51,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A two-digit number when increase by 75% then its digits get interchanged. If difference between both digits is 3 then find the original number?",
+      "options": {
+        "a": "63",
+        "b": "58",
+        "c": "47",
+        "d": "36",
+        "e": "43"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 143,
+        "page_start": 13,
+        "page_end": 13
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q052",
+      "q_num": 52,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A new mixture of 140 liter is prepared by mixing solution of wine and rum in ratio 2:5 having pure alcohol 42.5% and 25% respectively. To dilute the mixture by 2% what amount of water is used?",
+      "options": {
+        "a": "10 liters",
+        "b": "12 liters",
+        "c": "9 liters",
+        "d": "16 liters",
+        "e": "15 liters"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 192,
+        "page_start": 13,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q053",
+      "q_num": 53,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A and B together decided to dig a well in 7.5 days while working 4 hours in a day. But due to tiredness their efficiency decreases by 50% every hour in a day and they started every day with full energy. Now find in how many days well will be dig?",
+      "options": {
+        "a": "15 days (b)16 days",
+        "c": "20 days",
+        "d": "21 days",
+        "e": "18 days"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 4,
+        "stem_char_len": 246,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q054",
+      "q_num": 54,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Question 54.",
+      "options": {
+        "a": "28",
+        "b": "25",
+        "c": "32",
+        "d": "34",
+        "e": "23"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 12,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q055",
+      "q_num": 55,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Perimeter of a right-angled triangle is 3 times of its base. If area of triangle is , then find the hypotenuse of the triangle?",
+      "options": {
+        "a": "13 cm",
+        "b": "2√2 cm",
+        "c": "4 cm",
+        "d": "5 cm",
+        "e": "8 cm"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 127,
+        "page_start": 14,
+        "page_end": 14
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q056",
+      "q_num": 56,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Ratio between time taken to cover same distance in upstream to downstream is 2 : 1. If speed of stream is 4 km/hr, then find time taken to cover 48km in upstream?",
+      "options": {
+        "a": "8 hours",
+        "b": "4 hours",
+        "c": "6 hours",
+        "d": "3 hours",
+        "e": "1.5 hours"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 162,
+        "page_start": 14,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q058",
+      "q_num": 58,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Six years ago, the ratio of age of Ram to Shyam was 1:2. Present age of ram is 5 years more than the present age of Prem. If the ratio of present age of Prem to Shyam is 5:14, then find the age of Ram after 10 years (In years). (a)24 (b)23 (c)21 (d)22 (e)20",
+      "options": {},
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 0,
+        "stem_char_len": 257,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q059",
+      "q_num": 59,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A trader mixes 36 kg of rice A at Rs 30 per kg and ‘x’ kg of rice B at Rs 40 per kg. He sold the mixture at Rs 35 per kg and earn Rs 10% profit. Find ‘x’?",
+      "options": {
+        "a": "3 kg",
+        "b": "5 kg",
+        "c": "4 kg",
+        "d": "6 kg",
+        "e": "8 kg"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 154,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q060",
+      "q_num": 60,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A man deposited Rs x on simple interest in the beginning of 1st year and he added Rs x at the beginning of 2nd year and 3rd year in a bank. After three years he got total amount of Rs 11160. If the rate of interest is 12% per annum, then find the value of x.",
+      "options": {
+        "a": "Rs 1700",
+        "b": "Rs 3000",
+        "c": "Rs 3200",
+        "d": "Rs 2500",
+        "e": "Rs. 2700"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 258,
+        "page_start": 15,
+        "page_end": 15
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q061",
+      "q_num": 61,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "A train crosses a pole and platform in 26 sec & 36 sec respectively. If the speed of the train is 90 kmph, find the length of the platform.",
+      "options": {
+        "a": "350 m",
+        "b": "300 m",
+        "c": "450 m",
+        "d": "250 m",
+        "e": "200 m"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 139,
+        "page_start": 15,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q062",
+      "q_num": 62,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": null,
+      "direction_text": null,
+      "stem": "Himanshu invested Rs 42000 in a business. After 4 months, Kapil joins him with an investment of Rs P. If at the end of the year the profit is Rs 62000 and profit share of Himanshu is Rs 42000. Find value of P.",
+      "options": {
+        "a": "Rs 25000",
+        "b": "Rs 30000",
+        "c": "Rs 28000",
+        "d": "Rs 38000",
+        "e": "Rs 42000"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": false,
+        "option_count": 5,
+        "stem_char_len": 209,
+        "page_start": null,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q063",
+      "q_num": 63,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In the following questions, calculate quantity I and quantity II, compare them and answer according to the following options.",
+      "stem": "Quantity I: Profit earned on selling an article at Rs. 900 at 20% profit. Quantity II: Cost price of the article which is sold at Rs. 168 on 20% profit.",
+      "options": {
+        "a": "If Quantity I > Quantity II",
+        "b": "If Quantity I < Quantity II",
+        "c": "If Quantity I ≥ Quantity II",
+        "d": "if Quantity I ≤ Quantity II",
+        "e": "if Quantity I = Quantity II or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 152,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q064",
+      "q_num": 64,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In the following questions, calculate quantity I and quantity II, compare them and answer according to the following options.",
+      "stem": "In a village there are 60% males and rest are females. 30% of total male are illiterate and 25% of total female are illiterate. Number of illiterate males is 1152. Quantity I: Literate females in the village. Quantity II: 1940",
+      "options": {
+        "a": "If Quantity I > Quantity II",
+        "b": "If Quantity I < Quantity II",
+        "c": "If Quantity I ≥ Quantity II",
+        "d": "if Quantity I ≤ Quantity II",
+        "e": "if Quantity I = Quantity II or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 226,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q065",
+      "q_num": 65,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d012",
+      "direction_text": "In the following questions, calculate quantity I and quantity II, compare them and answer according to the following options.",
+      "stem": "A man invested Rs. X at 12% p.a. on simple interest for two years. Quantity I: If at the end of second year he gets Rs.2400 as interest, then find Rs. X. Quantity II: Rs.12000",
+      "options": {
+        "a": "If Quantity I > Quantity II",
+        "b": "If Quantity I < Quantity II",
+        "c": "If Quantity I ≥ Quantity II",
+        "d": "if Quantity I ≤ Quantity II",
+        "e": "if Quantity I = Quantity II or no relation can be established"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 175,
+        "page_start": 16,
+        "page_end": 16
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q066",
+      "q_num": 66,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What approximate value should come in the place of question (?) mark.",
+      "stem": "Select the word that fits blank (66).",
+      "options": {
+        "a": "2020",
+        "b": "1924",
+        "c": "1832",
+        "d": "2220",
+        "e": "1936"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": null,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q068",
+      "q_num": 68,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What approximate value should come in the place of question (?) mark.",
+      "stem": "Select the word that fits blank (68).",
+      "options": {
+        "a": "58",
+        "b": "64",
+        "c": "72",
+        "d": "80",
+        "e": "74"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q069",
+      "q_num": 69,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d013",
+      "direction_text": "What approximate value should come in the place of question (?) mark.",
+      "stem": "Select the word that fits blank (69).",
+      "options": {
+        "a": "603",
+        "b": "593",
+        "c": "613",
+        "d": "623",
+        "e": "583"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 37,
+        "page_start": 17,
+        "page_end": 17
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q071",
+      "q_num": 71,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Find the missing no. in the following series.",
+      "stem": "1, 35, 63, 85, 101, ?",
+      "options": {
+        "a": "121",
+        "b": "125",
+        "c": "101",
+        "d": "105",
+        "e": "111"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 21,
+        "page_start": 17,
+        "page_end": null
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q072",
+      "q_num": 72,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Find the missing no. in the following series.",
+      "stem": "11, 22, 66, 330, ?, 25410",
+      "options": {
+        "a": "2310",
+        "b": "2415",
+        "c": "2523",
+        "d": "20310",
+        "e": "24015"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 25,
+        "page_start": null,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q073",
+      "q_num": 73,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Find the missing no. in the following series.",
+      "stem": "–5, 1, 13, ?, 55, 85",
+      "options": {
+        "a": "23",
+        "b": "30",
+        "c": "31",
+        "d": "40",
+        "e": "41"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 20,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q074",
+      "q_num": 74,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Find the missing no. in the following series.",
+      "stem": "5, 17, 65, 257, 1025, ?",
+      "options": {
+        "a": "3087",
+        "b": "3907",
+        "c": "4107",
+        "d": "4097",
+        "e": "4101"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 23,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q075",
+      "q_num": 75,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d014",
+      "direction_text": "Find the missing no. in the following series.",
+      "stem": "313, 300, 282, 254, 221, ?",
+      "options": {
+        "a": "178",
+        "b": "200",
+        "c": "208",
+        "d": "180",
+        "e": "198"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 26,
+        "page_start": 18,
+        "page_end": 18
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q076",
+      "q_num": 76,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Given bar graph shows the number of patients who have visited to a hospital on three different days (Monday, Tuesday and Wednesday) and number of patients who were referred to higher hospital. Read the data carefully and answer the following questions.",
+      "stem": "How many patients were not referred on all three days together?",
+      "options": {
+        "a": "450",
+        "b": "600",
+        "c": "550",
+        "d": "650",
+        "e": "580"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 63,
+        "page_start": null,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q077",
+      "q_num": 77,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Given bar graph shows the number of patients who have visited to a hospital on three different days (Monday, Tuesday and Wednesday) and number of patients who were referred to higher hospital. Read the data carefully and answer the following questions.",
+      "stem": "By what percent, number of patients who were referred on Monday is more than those on Wednesday?",
+      "options": {
+        "a": "55%",
+        "b": "60%",
+        "c": "40%",
+        "d": "50%",
+        "e": "45%"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 96,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q078",
+      "q_num": 78,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Given bar graph shows the number of patients who have visited to a hospital on three different days (Monday, Tuesday and Wednesday) and number of patients who were referred to higher hospital. Read the data carefully and answer the following questions.",
+      "stem": "What is the ratio of number of patients who visited on Tuesday to the number of patients who were not referred on Wednesday?",
+      "options": {
+        "a": "8 : 5",
+        "b": "2 : 1",
+        "c": "1 :2",
+        "d": "5 : 8",
+        "e": "3 : 1"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 124,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q079",
+      "q_num": 79,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Given bar graph shows the number of patients who have visited to a hospital on three different days (Monday, Tuesday and Wednesday) and number of patients who were referred to higher hospital. Read the data carefully and answer the following questions.",
+      "stem": "If on Friday 20% more patients visited to the hospital than on Monday and 80% of total patients were not referred on Friday, then what is the difference between number of patients who were referred on Tuesday and Friday?",
+      "options": {
+        "a": "120",
+        "b": "110",
+        "c": "125",
+        "d": "115",
+        "e": "130"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 220,
+        "page_start": 19,
+        "page_end": 19
+      }
+    },
+    {
+      "q_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4::q080",
+      "q_num": 80,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d015",
+      "direction_text": "Given bar graph shows the number of patients who have visited to a hospital on three different days (Monday, Tuesday and Wednesday) and number of patients who were referred to higher hospital. Read the data carefully and answer the following questions.",
+      "stem": "On which days, percentage of patients who were referred out of who visited on that day is maximum?",
+      "options": {
+        "a": "Wednesday",
+        "b": "Monday",
+        "c": "Tuesday",
+        "d": "Monday & Tuesday",
+        "e": "Monday & Wednesday Solutions S1. Ans"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 98,
+        "page_start": 19,
+        "page_end": 45
+      }
+    }
+  ]
+}

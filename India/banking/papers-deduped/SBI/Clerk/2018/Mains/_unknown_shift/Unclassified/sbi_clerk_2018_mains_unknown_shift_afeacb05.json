@@ -1,0 +1,292 @@
+{
+  "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/SBI/Clerk/2018/Mains/_unknown_shift/SBI-Clerk-Mains-2018.pdf",
+    "sha256": "afeacb05b5ea54ae733e7903be90c7d1f9031f81cb02c0672e5ba6151c1ad910",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2024/11/25185348/SBI-Clerk-Mains-2018.pdf",
+    "source_filename": "SBI-Clerk-Mains-2018.pdf"
+  },
+  "bank": "SBI",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2018,
+  "shift": null,
+  "memory_based": false,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 10,
+  "questions": [
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q001",
+      "q_num": 1,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
+      "stem": "A like which of the following item?",
+      "options": {
+        "a": "Mango",
+        "b": "Rose",
+        "c": "Kiwi",
+        "d": "Sunflower",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 35,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
+      "stem": "Who among the following sits second to the right of C?",
+      "options": {
+        "a": "The one who likes Kiwi",
+        "b": "D",
+        "c": "The one who likes Banana",
+        "d": "The one who likes Lily",
+        "e": "Both a and b"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 54,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q003",
+      "q_num": 3,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
+      "stem": "Which of the following is not true regarding F?",
+      "options": {
+        "a": "F faces the one who likes Sunflower",
+        "b": "F and G faces opposite direction",
+        "c": "F sits second to the right of the who likes Orchid",
+        "d": "F and E are immediate neighbours",
+        "e": "All are correct"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 47,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q004",
+      "q_num": 4,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
+      "stem": "How many persons sit between A and B when counted from the left of A?",
+      "options": {
+        "a": "Three",
+        "b": "One",
+        "c": "Two",
+        "d": "Four",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 69,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
+      "stem": "Who among the following sits third to the left of D?",
+      "options": {
+        "a": "H",
+        "b": "C",
+        "c": "G",
+        "d": "B",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 52,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "stem": "How many steps are required to complete the given arrangement?",
+      "options": {
+        "a": "III",
+        "b": "V",
+        "c": "IV",
+        "d": "VI",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 62,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "stem": "How many elements are there between ‘03’ and ‘42’ in step-II?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 61,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "stem": "Which number would be at the fourth position from the left end in the last step of the output?",
+      "options": {
+        "a": "04",
+        "b": "05",
+        "c": "64",
+        "d": "02",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 94,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q009",
+      "q_num": 9,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "stem": "What is the sum of the third element from the left in step II and 2nd from the right in the last step?",
+      "options": {
+        "a": "78",
+        "b": "76",
+        "c": "65",
+        "d": "83",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 102,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q010",
+      "q_num": 10,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "stem": "What is the difference between the third element from the right in step IV and the fourth element from the left in step III?",
+      "options": {
+        "a": "21",
+        "b": "24",
+        "c": "28",
+        "d": "19",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 124,
+        "page_start": 1,
+        "page_end": 1
+      }
+    }
+  ]
+}

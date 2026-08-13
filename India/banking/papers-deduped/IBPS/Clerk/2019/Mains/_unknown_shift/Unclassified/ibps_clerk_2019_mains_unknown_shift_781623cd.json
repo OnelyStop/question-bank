@@ -1,0 +1,157 @@
+{
+  "paper_id": "ibps_clerk_2019_mains_unknown_shift_781623cd",
+  "subject": "Unclassified",
+  "source": {
+    "pdf_path": "corpus/IBPS/Clerk/2019/Mains/_unknown_shift/IBPS_Clerk_Mains_2019_Memory_Based_Papers_For_Pratices.pdf",
+    "sha256": "781623cd26a6895b369fb11e2b1124318619b56d7a31e5d63912ccb170d27a22",
+    "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2021/05/24110242/IBPS_Clerk_Mains_2019_Memory_Based_Papers_For_Pratices.pdf",
+    "source_filename": "IBPS_Clerk_Mains_2019_Memory_Based_Papers_For_Pratices.pdf"
+  },
+  "bank": "IBPS",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2019,
+  "shift": null,
+  "memory_based": true,
+  "language": "english",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 5,
+  "questions": [
+    {
+      "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q002",
+      "q_num": 2,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons sit in a row such that some of them are facing in the north direction and some are facing in the south direction. Note: No two adjacent persons are sitting according to the English alphabetical series for example, P is not an immediate neighbor of both O and Q, and so on. C sits third from one of the extreme ends of the row. A sits third to the left of C. Only one person sits between A and B. Three persons sit between D and E. As many persons sit to the left of E as to the left of H. H faces north direction. Immediate neighbors of C face same direction. Persons sitting at the extreme end faces the same direction. G sits to the left of F. E faces opposite direction as A. Immediate neighbors of G faces the opposite direction. G does not face north direction.",
+      "stem": "Who among the following sits third to the right of H?",
+      "options": {
+        "a": "F",
+        "b": "E",
+        "c": "D",
+        "d": "G",
+        "e": "A"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 53,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q005",
+      "q_num": 5,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons sit in a row such that some of them are facing in the north direction and some are facing in the south direction. Note: No two adjacent persons are sitting according to the English alphabetical series for example, P is not an immediate neighbor of both O and Q, and so on. C sits third from one of the extreme ends of the row. A sits third to the left of C. Only one person sits between A and B. Three persons sit between D and E. As many persons sit to the left of E as to the left of H. H faces north direction. Immediate neighbors of C face same direction. Persons sitting at the extreme end faces the same direction. G sits to the left of F. E faces opposite direction as A. Immediate neighbors of G faces the opposite direction. G does not face north direction.",
+      "stem": "Which of the following statement is not true?",
+      "options": {
+        "a": "H sits immediate left of E",
+        "b": "A sits between H and C",
+        "c": "D sits at an extreme end",
+        "d": "C sits immediate left of F",
+        "e": "No one sits between A and G"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 45,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q006",
+      "q_num": 6,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In each of the questions below. Some statements are given followed by conclusions/group of conclusions. You have to assume all the statements to be true even if they seem to be at variance from the commonly known facts and then decide which of the given conclusion given in the options logically follow from the information given in the statements:",
+      "stem": "Statements: Only a few paint is color. No color is fabric. Only a few fabric is enamel.",
+      "options": {
+        "a": "Some fabric is paint",
+        "b": "All paint can be fabric",
+        "c": "All enamel can be color",
+        "d": "Some paint is enamel",
+        "e": "All color can be paint"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 87,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q007",
+      "q_num": 7,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d002",
+      "direction_text": "In each of the questions below. Some statements are given followed by conclusions/group of conclusions. You have to assume all the statements to be true even if they seem to be at variance from the commonly known facts and then decide which of the given conclusion given in the options logically follow from the information given in the statements:",
+      "stem": "Statements: Only a few brush is nail. Only a few home is buyer. Some buyer is nail.",
+      "options": {
+        "a": "Some buyer is not nail",
+        "b": "Some nail is not home",
+        "c": "All brush is buyer",
+        "d": "Some brush is not nail",
+        "e": "All home can be buyer"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 83,
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q008",
+      "q_num": 8,
+      "section": null,
+      "topic": null,
+      "topic_confidence": null,
+      "topic_source": null,
+      "direction_id": "d003",
+      "direction_text": "Digits in the number given in each of the following questions are to be coded based on the codes and the conditions given below: Elements V # T & U E A Codes @ n h * f ! $ Conditions: I. If first element is even number and last element is symbol then the codes for both of them is interchanged. II. If any vowel is preceded by an odd number then their codes will be code of the odd number. III. If the first element is odd number and last element is consonant then their codes will be the code of the first element. IV. If any consonant is succeeded by symbol then their codes will be the code of the symbol. Note: In each case either no or one or more than one condition is followed.",
+      "stem": "What is the code for 27AU#?",
+      "options": {
+        "a": "n@$fn",
+        "b": "n@@*f",
+        "c": "f@@*f",
+        "d": "f@@*n",
+        "e": "n$@nf REASONING ABILITY"
+      },
+      "answer": null,
+      "explanation": null,
+      "metrics": {
+        "has_passage": true,
+        "option_count": 5,
+        "stem_char_len": 27,
+        "page_start": 1,
+        "page_end": null
+      }
+    }
+  ]
+}
