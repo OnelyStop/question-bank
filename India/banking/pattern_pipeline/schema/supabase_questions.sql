@@ -6,7 +6,6 @@ create extension if not exists "pgcrypto";
 create table if not exists public.banking_questions (
   id uuid primary key default gen_random_uuid(),
   q_id text not null unique,
-  paper_id text not null,
   bank text,
   role text,
   exam_type text,
@@ -17,7 +16,6 @@ create table if not exists public.banking_questions (
   section text,
   subject text,
   topic text,
-  q_num integer,
   question_pattern text not null,
   secondary_patterns text[] not null default '{}',
   direction_id text,
@@ -31,13 +29,6 @@ create table if not exists public.banking_questions (
   is_bilingual boolean not null default false,
   has_image boolean not null default false,
   image_refs jsonb not null default '[]'::jsonb,
-  source_pdf_path text,
-  source_collection text not null,
-  classification_confidence double precision,
-  classification_signals text[] not null default '{}',
-  page_start integer,
-  page_end integer,
-  raw_metrics jsonb,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
@@ -48,11 +39,12 @@ create index if not exists banking_questions_pattern_idx
 create index if not exists banking_questions_bank_role_year_idx
   on public.banking_questions (bank, role, year);
 
-create index if not exists banking_questions_paper_idx
-  on public.banking_questions (paper_id);
-
 create index if not exists banking_questions_section_idx
   on public.banking_questions (section);
+
+create index if not exists banking_questions_direction_idx
+  on public.banking_questions (direction_id)
+  where direction_id is not null;
 
 create index if not exists banking_questions_bilingual_idx
   on public.banking_questions (is_bilingual)
@@ -62,7 +54,6 @@ create index if not exists banking_questions_image_idx
   on public.banking_questions (has_image)
   where has_image = true;
 
--- Optional: keep updated_at fresh
 create or replace function public.set_updated_at()
 returns trigger
 language plpgsql

@@ -13,7 +13,6 @@ PATTERNS_FILE = ROOT.parent / "question_patterns.json"
 
 REQUIRED = [
     "q_id",
-    "paper_id",
     "question_pattern",
     "stem",
     "options",
@@ -21,7 +20,6 @@ REQUIRED = [
     "has_shared_directions",
     "is_bilingual",
     "has_image",
-    "source_collection",
 ]
 
 

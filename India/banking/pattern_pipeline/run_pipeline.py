@@ -95,6 +95,7 @@ def main() -> int:
         sources.append(("papers-deduped", BANKING / "papers-deduped"))
 
     by_qid: dict[str, dict[str, Any]] = {}
+    qid_collection: dict[str, str] = {}
     pattern_counts: Counter[str] = Counter()
     secondary_counts: Counter[str] = Counter()
     papers_seen = 0
@@ -123,13 +124,15 @@ def main() -> int:
                 existing = by_qid.get(qid)
                 if existing is None:
                     by_qid[qid] = row
+                    qid_collection[qid] = collection
                     continue
                 # Prefer configured collection on duplicates
-                if existing.get("source_collection") != args.prefer and collection == args.prefer:
+                if qid_collection.get(qid) != args.prefer and collection == args.prefer:
                     by_qid[qid] = row
+                    qid_collection[qid] = collection
 
     rows = list(by_qid.values())
-    rows.sort(key=lambda r: (r.get("paper_id") or "", r.get("q_num") or 0, r.get("q_id") or ""))
+    rows.sort(key=lambda r: r.get("q_id") or "")
 
     for row in rows:
         pattern_counts[row["question_pattern"]] += 1

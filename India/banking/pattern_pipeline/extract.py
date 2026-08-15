@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any
 
 from classify import classify_question
-from patterns.base import MatchResult, PatternSkill, has_shared_directions, image_blocks, option_count
+from patterns.base import has_shared_directions, image_blocks, option_count
 
 
 def _normalize_options(options: Any) -> dict[str, str]:
@@ -36,8 +36,6 @@ def extract_uniform_question(
     if oc == 0:
         oc = len(opts)
 
-    metrics = question.get("metrics") or {}
-    signals = list(primary_match.signals)
     secondary_ids: list[str] = []
     is_bilingual = False
     has_image = False
@@ -48,7 +46,6 @@ def extract_uniform_question(
 
     for skill, match in secondary:
         secondary_ids.append(skill.id)
-        signals.extend(match.signals)
         extras.update(skill.extract_fields(question, match))
 
     if extras.get("is_bilingual"):
@@ -62,11 +59,8 @@ def extract_uniform_question(
     if primary.id == "bilingual_stem_directions":
         is_bilingual = True
 
-    source = paper.get("source") or {}
-
     row: dict[str, Any] = {
         "q_id": question.get("q_id") or f"{paper.get('paper_id')}::q{int(question.get('q_num') or 0):03d}",
-        "paper_id": paper.get("paper_id"),
         "bank": paper.get("bank"),
         "role": paper.get("role"),
         "exam_type": paper.get("exam_type"),
@@ -77,7 +71,6 @@ def extract_uniform_question(
         "section": question.get("section") or paper.get("subject"),
         "subject": paper.get("subject") or question.get("section"),
         "topic": question.get("topic"),
-        "q_num": question.get("q_num"),
         "question_pattern": primary.id,
         "secondary_patterns": secondary_ids,
         "direction_id": question.get("direction_id"),
@@ -91,13 +84,6 @@ def extract_uniform_question(
         "is_bilingual": is_bilingual,
         "has_image": has_image,
         "image_refs": image_refs,
-        "source_pdf_path": source.get("pdf_path"),
-        "source_collection": source_collection,
-        "classification_confidence": primary_match.confidence,
-        "classification_signals": signals,
-        "page_start": metrics.get("page_start"),
-        "page_end": metrics.get("page_end"),
-        "raw_metrics": metrics or None,
     }
     return row
 

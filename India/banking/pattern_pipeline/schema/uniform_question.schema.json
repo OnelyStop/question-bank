@@ -6,19 +6,16 @@
   "type": "object",
   "required": [
     "q_id",
-    "paper_id",
     "question_pattern",
     "stem",
     "options",
     "option_count",
     "has_shared_directions",
     "is_bilingual",
-    "has_image",
-    "source_collection"
+    "has_image"
   ],
   "properties": {
     "q_id": { "type": "string" },
-    "paper_id": { "type": "string" },
     "bank": { "type": ["string", "null"] },
     "role": { "type": ["string", "null"] },
     "exam_type": { "type": ["string", "null"] },
@@ -29,7 +26,6 @@
     "section": { "type": ["string", "null"] },
     "subject": { "type": ["string", "null"] },
     "topic": { "type": ["string", "null"] },
-    "q_num": { "type": ["integer", "null"] },
     "question_pattern": {
       "type": "string",
       "enum": [
@@ -70,20 +66,7 @@
     "image_refs": {
       "type": "array",
       "items": { "type": "object" }
-    },
-    "source_pdf_path": { "type": ["string", "null"] },
-    "source_collection": {
-      "type": "string",
-      "enum": ["papers", "papers-deduped", "mixed", "unknown"]
-    },
-    "classification_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
-    "classification_signals": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "page_start": { "type": ["integer", "null"] },
-    "page_end": { "type": ["integer", "null"] },
-    "raw_metrics": { "type": ["object", "null"] }
+    }
   },
   "additionalProperties": false
 }
