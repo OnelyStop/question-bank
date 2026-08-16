@@ -2,30 +2,113 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://onelystop.local/banking/feature_tables/questions.schema.json",
   "title": "questions",
-  "description": "One row per question. paper_id must never be dropped.",
+  "description": "One row per question. Filled by parser + classifier + import script. paper_id must never be dropped.",
   "type": "object",
-  "required": ["q_id", "paper_id", "q_num", "stem", "options", "content_hash", "is_active"],
+  "required": [
+    "q_id",
+    "paper_id",
+    "q_num",
+    "stem",
+    "options",
+    "has_image",
+    "image_refs",
+    "option_count",
+    "content_hash",
+    "is_active"
+  ],
   "properties": {
-    "q_id": { "type": "string" },
-    "paper_id": { "type": "string", "description": "Which paper it came from. Never drop this." },
-    "q_num": { "type": "integer", "description": "Number in that paper; sets mock order." },
-    "stem": { "type": "string", "description": "The question text." },
+    "q_id": {
+      "type": "string",
+      "description": "Parser. Unique question id."
+    },
+    "paper_id": {
+      "type": "string",
+      "description": "Which paper it came from. Never drop this."
+    },
+    "q_num": {
+      "type": "integer",
+      "description": "Parser. Number in that paper; sets mock order."
+    },
+    "stem": {
+      "type": "string",
+      "description": "Parser. The question text."
+    },
     "options": {
       "type": "object",
+      "description": "Parser. Choices a–e.",
       "propertyNames": { "enum": ["a", "b", "c", "d", "e"] },
       "additionalProperties": { "type": "string" }
     },
-    "answer": { "type": ["string", "null"], "enum": ["a", "b", "c", "d", "e", null] },
-    "explanation": { "type": ["string", "null"] },
-    "section": { "type": ["string", "null"], "description": "Reasoning / Quant / English / GA" },
-    "topic": { "type": ["string", "null"] },
-    "difficulty": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
-    "direction_id": { "type": ["string", "null"] },
-    "marks": { "type": ["number", "null"], "description": "Usually 1, from exam pattern." },
-    "negative_marks": { "type": ["number", "null"], "description": "Usually 0.25, from exam pattern." },
-    "content_hash": { "type": "string", "description": "Fingerprint of stem + options for dedupe." },
-    "is_active": { "type": "boolean", "description": "false if options missing/empty." },
-    "question_pattern": { "type": ["string", "null"], "description": "Optional structural pattern from pattern pipeline." }
+    "answer": {
+      "type": ["string", "null"],
+      "enum": ["a", "b", "c", "d", "e", null],
+      "description": "Parser. Correct option when known."
+    },
+    "explanation": {
+      "type": ["string", "null"],
+      "description": "Parser. Why the answer is right."
+    },
+    "direction_id": {
+      "type": ["string", "null"],
+      "description": "Parser. Shared passage id within the paper, if any."
+    },
+    "has_image": {
+      "type": "boolean",
+      "description": "Parser. Whether the question depends on a figure/chart image."
+    },
+    "image_refs": {
+      "type": "array",
+      "description": "Parser. Image/figure references for this question.",
+      "items": { "type": "object" }
+    },
+    "page_start": {
+      "type": ["integer", "null"],
+      "description": "Parser. First PDF page for this question (1-based)."
+    },
+    "section": {
+      "type": ["string", "null"],
+      "description": "Classifier. Reasoning / Quantitative / English / GA / …"
+    },
+    "topic": {
+      "type": ["string", "null"],
+      "description": "Classifier. Finer label than section."
+    },
+    "topic_source": {
+      "type": ["string", "null"],
+      "description": "Classifier. How topic was assigned (rules / llm / manual / …)."
+    },
+    "difficulty": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Classifier. Difficulty 1–5."
+    },
+    "content_hash": {
+      "type": "string",
+      "description": "Import. Fingerprint of stem + options for dedupe."
+    },
+    "marks": {
+      "type": ["number", "null"],
+      "description": "Import. Usually 1, from exam pattern."
+    },
+    "negative_marks": {
+      "type": ["number", "null"],
+      "description": "Import. Usually 0.25, from exam pattern."
+    },
+    "option_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Import. Number of options present."
+    },
+    "is_active": {
+      "type": "boolean",
+      "description": "Import. false if options missing/empty."
+    },
+    "question_pattern": {
+      "type": ["string", "null"],
+      "description": "Optional structural pattern from pattern pipeline."
+    }
   },
   "additionalProperties": false
 }

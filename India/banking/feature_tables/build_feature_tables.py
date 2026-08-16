@@ -111,19 +111,61 @@ def iter_paper_files(source_dir: Path) -> list[Path]:
     return files
 
 
-def load_cleaned_patterns(path: Path) -> dict[str, str]:
-    """Map q_id -> question_pattern from cleaned JSONL."""
+def load_cleaned_by_qid(path: Path) -> dict[str, dict[str, Any]]:
+    """Map q_id -> useful fields from cleaned pattern JSONL."""
     if not path.exists():
         return {}
-    out: dict[str, str] = {}
+    out: dict[str, dict[str, Any]] = {}
     with path.open(encoding="utf-8") as f:
         for line in f:
             row = json.loads(line)
             qid = row.get("q_id")
-            pat = row.get("question_pattern")
-            if qid and pat:
-                out[qid] = pat
+            if not qid:
+                continue
+            out[qid] = {
+                "question_pattern": row.get("question_pattern"),
+                "has_image": row.get("has_image"),
+                "image_refs": row.get("image_refs"),
+                "section": row.get("section"),
+                "topic": row.get("topic"),
+            }
     return out
+
+
+def extract_image_refs(question: dict[str, Any]) -> list[dict[str, Any]]:
+    refs: list[dict[str, Any]] = []
+    for block in question.get("context") or []:
+        if not isinstance(block, dict):
+            continue
+        if block.get("type") == "image" or block.get("role") in {"figure", "chart", "diagram"}:
+            refs.append(block)
+    return refs
+
+
+def detect_has_image(
+    question: dict[str, Any],
+    refs: list[dict[str, Any]],
+    cleaned: dict[str, Any] | None,
+    question_pattern: str | None,
+) -> bool:
+    if refs:
+        return True
+    if cleaned and cleaned.get("has_image"):
+        return True
+    if question_pattern in {"image_figure_based", "visual_chart_graph_di"}:
+        return True
+    text = f"{question.get('direction_text') or ''}\n{question.get('stem') or ''}".lower()
+    cues = (
+        "pie chart",
+        "bar graph",
+        "line graph",
+        "radar chart",
+        "following diagram",
+        "following figure",
+        "study the following diagram",
+        "as shown in the figure",
+    )
+    return any(c in text for c in cues)
 
 
 def paper_completeness(paper: dict[str, Any]) -> tuple[int, int, int]:
@@ -201,7 +243,7 @@ def build(
     out_dir: Path,
 ) -> dict[str, Any]:
     patterns = json.loads(patterns_path.read_text(encoding="utf-8"))
-    cleaned_patterns = load_cleaned_patterns(cleaned_jsonl)
+    cleaned_by_qid = load_cleaned_by_qid(cleaned_jsonl)
 
     paper_rows: list[dict[str, Any]] = []
     direction_rows: list[dict[str, Any]] = []
@@ -304,7 +346,8 @@ def build(
             stem = q.get("stem") or ""
             q_id = q.get("q_id") or f"{paper_id}::q{int(q.get('q_num') or 0):03d}"
             q_num = int(q.get("q_num") or 0)
-            is_q_active = len(opts) >= 4 and bool(stem.strip())
+            option_count = len(opts)
+            is_q_active = option_count >= 4 and bool(stem.strip())
             if not is_q_active:
                 inactive_questions += 1
             if not q.get("answer"):
@@ -312,13 +355,23 @@ def build(
             if q.get("direction_id"):
                 with_direction += 1
 
+            cleaned = cleaned_by_qid.get(q_id) or {}
+            question_pattern = cleaned.get("question_pattern")
+
             # Prefer section from paper subject folder when question section empty
-            section = q.get("section") or paper.get("subject")
+            section = q.get("section") or paper.get("subject") or cleaned.get("section")
             if section in ("Unclassified", ""):
-                section = q.get("section") or None
+                section = q.get("section") or cleaned.get("section") or None
+
+            metrics = q.get("metrics") or {}
+            image_refs = extract_image_refs(q)
+            if not image_refs and isinstance(cleaned.get("image_refs"), list):
+                image_refs = cleaned.get("image_refs") or []
+            has_image = detect_has_image(q, image_refs, cleaned, question_pattern)
 
             question_rows.append(
                 {
+                    # Stage 1 — parser
                     "q_id": q_id,
                     "paper_id": paper_id,
                     "q_num": q_num,
@@ -326,15 +379,23 @@ def build(
                     "options": opts,
                     "answer": q.get("answer"),
                     "explanation": q.get("explanation"),
-                    "section": section if section not in ("Unclassified",) else None,
-                    "topic": q.get("topic"),
-                    "difficulty": None,
                     "direction_id": q.get("direction_id"),
+                    "has_image": has_image,
+                    "image_refs": image_refs,
+                    "page_start": metrics.get("page_start"),
+                    # Stage 2 — classifier
+                    "section": section if section not in ("Unclassified",) else None,
+                    "topic": q.get("topic") or cleaned.get("topic"),
+                    "topic_source": q.get("topic_source"),
+                    "difficulty": q.get("difficulty"),
+                    # Stage 3 — import script
+                    "content_hash": content_hash(stem, opts),
                     "marks": pat.get("marks_per_question"),
                     "negative_marks": pat.get("negative_marks"),
-                    "content_hash": content_hash(stem, opts),
+                    "option_count": option_count,
                     "is_active": is_q_active,
-                    "question_pattern": cleaned_patterns.get(q_id),
+                    # Extra from pattern pipeline
+                    "question_pattern": question_pattern,
                 }
             )
 

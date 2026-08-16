@@ -1,0 +1,68 @@
+{
+  "paper_id": "sbi_po_2025_prelims_shift_2_75b1b12e",
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "shift": "Shift_2",
+  "memory_based": true,
+  "exam_key": "SBI|PO|PRELIMS|2025|Shift_2",
+  "is_canonical": true,
+  "duration_min": 60,
+  "total_marks": 100,
+  "section_timing": [
+    {
+      "section": "English",
+      "duration_min": 20,
+      "questions": 30,
+      "marks": 30
+    },
+    {
+      "section": "Quantitative",
+      "duration_min": 20,
+      "questions": 35,
+      "marks": 35
+    },
+    {
+      "section": "Reasoning",
+      "duration_min": 20,
+      "questions": 35,
+      "marks": 35
+    }
+  ],
+  "source_pdf": "corpus/SBI/PO/2025/Prelims/Shift_2/SBI-PO-Pre-2025-Memory-Based-Paper-Based-on-4th-August-2nd-Shift.pdf",
+  "is_active": true,
+  "language": "english",
+  "question_count": 1,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_prelims_shift_2_75b1b12e::q100",
+      "paper_id": "sbi_po_2025_prelims_shift_2_75b1b12e",
+      "q_num": 100,
+      "stem": "Choose the correct combination.",
+      "options": {
+        "a": "A - Nickel",
+        "b": "E - Silver",
+        "c": "D - Copper",
+        "d": "C - Mercury",
+        "e": "G - Gold"
+      },
+      "answer": null,
+      "explanation": null,
+      "direction_id": "d015",
+      "has_image": false,
+      "image_refs": [],
+      "page_start": 14,
+      "section": null,
+      "topic": null,
+      "topic_source": null,
+      "difficulty": null,
+      "content_hash": "24a837494122d24b2b3c1fbba458bd53f74fa80e1b1ea6d679ce01d22ec3be28",
+      "marks": 1,
+      "negative_marks": 0.25,
+      "option_count": 5,
+      "is_active": true,
+      "question_pattern": "shared_directions_set"
+    }
+  ]
+}

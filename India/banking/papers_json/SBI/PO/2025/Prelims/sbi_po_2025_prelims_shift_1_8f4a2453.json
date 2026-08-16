@@ -1,0 +1,68 @@
+{
+  "paper_id": "sbi_po_2025_prelims_shift_1_8f4a2453",
+  "bank": "SBI",
+  "role": "PO",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "shift": "Shift_1",
+  "memory_based": true,
+  "exam_key": "SBI|PO|PRELIMS|2025|Shift_1",
+  "is_canonical": false,
+  "duration_min": 60,
+  "total_marks": 100,
+  "section_timing": [
+    {
+      "section": "English",
+      "duration_min": 20,
+      "questions": 30,
+      "marks": 30
+    },
+    {
+      "section": "Quantitative",
+      "duration_min": 20,
+      "questions": 35,
+      "marks": 35
+    },
+    {
+      "section": "Reasoning",
+      "duration_min": 20,
+      "questions": 35,
+      "marks": 35
+    }
+  ],
+  "source_pdf": "corpus/SBI/PO/2025/Prelims/Shift_1/SBI-PO-Pre-2025-Memory-Based-Paper-Based-on-4th-August-1st-Shift-1.pdf",
+  "is_active": true,
+  "language": "english",
+  "question_count": 1,
+  "questions": [
+    {
+      "q_id": "sbi_po_2025_prelims_shift_1_8f4a2453::q100",
+      "paper_id": "sbi_po_2025_prelims_shift_1_8f4a2453",
+      "q_num": 100,
+      "stem": "The one who sits exactly between E and B is from which city?",
+      "options": {
+        "a": "Agra",
+        "b": "Surat",
+        "c": "Pune",
+        "d": "Bhopal",
+        "e": "None of these"
+      },
+      "answer": null,
+      "explanation": null,
+      "direction_id": "d014",
+      "has_image": false,
+      "image_refs": [],
+      "page_start": 14,
+      "section": null,
+      "topic": null,
+      "topic_source": null,
+      "difficulty": null,
+      "content_hash": "af88a4a3b718257bf71dedb5b8a677f4e5e448d6efe3f1f66206489583db3337",
+      "marks": 1,
+      "negative_marks": 0.25,
+      "option_count": 5,
+      "is_active": true,
+      "question_pattern": "shared_directions_set"
+    }
+  ]
+}

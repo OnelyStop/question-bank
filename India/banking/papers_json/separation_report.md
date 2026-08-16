@@ -1,0 +1,117 @@
+# papers_json separation report
+
+- Layout: `papers_json/{bank}/{role}/{year}/{exam_type}/{paper_id}.json`
+- Files written: **235**
+- Questions written: **18651**
+- Papers missing meta: 0
+
+## By bank
+
+- `IBPS`: 112 papers
+- `SBI`: 103 papers
+- `_unknown_bank`: 20 papers
+
+## By bank / role / year / exam
+
+- `IBPS/Clerk/2019/Mains`: 1 papers, 131 questions
+- `IBPS/Clerk/2019/Prelims`: 1 papers, 96 questions
+- `IBPS/Clerk/2020/Prelims`: 1 papers, 97 questions
+- `IBPS/Clerk/2021/Mains`: 1 papers, 135 questions
+- `IBPS/Clerk/2021/_unknown_stage`: 1 papers, 88 questions
+- `IBPS/Clerk/2022/_unknown_stage`: 1 papers, 95 questions
+- `IBPS/Clerk/2023/Mains`: 1 papers, 134 questions
+- `IBPS/Clerk/2023/_unknown_stage`: 1 papers, 86 questions
+- `IBPS/Clerk/2024/Mains`: 2 papers, 199 questions
+- `IBPS/Clerk/2024/Prelims`: 1 papers, 88 questions
+- `IBPS/Clerk/2025/Mains`: 1 papers, 114 questions
+- `IBPS/Clerk/2025/Prelims`: 4 papers, 388 questions
+- `IBPS/Clerk/2025/_unknown_stage`: 1 papers, 95 questions
+- `IBPS/Clerk/no_year/Prelims`: 2 papers, 63 questions
+- `IBPS/PO/2016/Mains`: 3 papers, 117 questions
+- `IBPS/PO/2016/Prelims`: 1 papers, 30 questions
+- `IBPS/PO/2017/Mains`: 2 papers, 77 questions
+- `IBPS/PO/2017/Prelims`: 1 papers, 93 questions
+- `IBPS/PO/2018/Mains`: 4 papers, 131 questions
+- `IBPS/PO/2018/Prelims`: 1 papers, 92 questions
+- `IBPS/PO/2019/Mains`: 1 papers, 114 questions
+- `IBPS/PO/2019/Prelims`: 3 papers, 277 questions
+- `IBPS/PO/2020/Mains`: 4 papers, 213 questions
+- `IBPS/PO/2020/Prelims`: 1 papers, 98 questions
+- `IBPS/PO/2021/Mains`: 1 papers, 111 questions
+- `IBPS/PO/2021/Prelims`: 1 papers, 91 questions
+- `IBPS/PO/2022/Mains`: 2 papers, 211 questions
+- `IBPS/PO/2022/Prelims`: 7 papers, 643 questions
+- `IBPS/PO/2023/Mains`: 1 papers, 114 questions
+- `IBPS/PO/2023/Prelims`: 5 papers, 472 questions
+- `IBPS/PO/2023/_unknown_stage`: 1 papers, 34 questions
+- `IBPS/PO/2024/Mains`: 1 papers, 152 questions
+- `IBPS/PO/2024/Prelims`: 1 papers, 93 questions
+- `IBPS/PO/2025/Mains`: 2 papers, 114 questions
+- `IBPS/PO/2025/Prelims`: 4 papers, 280 questions
+- `IBPS/PO/no_year/Prelims`: 1 papers, 31 questions
+- `IBPS/RRB/2017/Mains`: 2 papers, 237 questions
+- `IBPS/RRB/2017/Prelims`: 2 papers, 158 questions
+- `IBPS/RRB/2018/Mains`: 2 papers, 198 questions
+- `IBPS/RRB/2018/Prelims`: 2 papers, 156 questions
+- `IBPS/RRB/2019/Mains`: 2 papers, 230 questions
+- `IBPS/RRB/2019/Prelims`: 2 papers, 149 questions
+- `IBPS/RRB/2020/Mains`: 1 papers, 115 questions
+- `IBPS/RRB/2020/Prelims`: 1 papers, 67 questions
+- `IBPS/RRB/2021/Mains`: 1 papers, 111 questions
+- `IBPS/RRB/2021/_unknown_stage`: 2 papers, 159 questions
+- `IBPS/RRB/2022/Mains`: 2 papers, 214 questions
+- `IBPS/RRB/2022/Prelims`: 3 papers, 231 questions
+- `IBPS/RRB/2023/Mains`: 1 papers, 115 questions
+- `IBPS/RRB/2023/Prelims`: 2 papers, 140 questions
+- `IBPS/RRB/2024/Mains`: 1 papers, 199 questions
+- `IBPS/RRB/2024/Prelims`: 6 papers, 446 questions
+- `IBPS/RRB/2025/Mains`: 1 papers, 40 questions
+- `IBPS/RRB/2025/Prelims`: 7 papers, 500 questions
+- `IBPS/_unknown_role/no_year/Prelims`: 1 papers, 34 questions
+- `IBPS/_unknown_role/no_year/_unknown_stage`: 4 papers, 313 questions
+- `SBI/Clerk/2016/Mains`: 1 papers, 135 questions
+- `SBI/Clerk/2016/Prelims`: 1 papers, 35 questions
+- `SBI/Clerk/2018/Mains`: 1 papers, 140 questions
+- `SBI/Clerk/2018/Prelims`: 3 papers, 98 questions
+- `SBI/Clerk/2019/Mains`: 1 papers, 135 questions
+- `SBI/Clerk/2019/Prelims`: 3 papers, 90 questions
+- `SBI/Clerk/2020/Mains`: 1 papers, 137 questions
+- `SBI/Clerk/2020/Prelims`: 3 papers, 100 questions
+- `SBI/Clerk/2021/Mains`: 1 papers, 133 questions
+- `SBI/Clerk/2021/Prelims`: 1 papers, 97 questions
+- `SBI/Clerk/2022/Mains`: 1 papers, 138 questions
+- `SBI/Clerk/2022/Prelims`: 13 papers, 1003 questions
+- `SBI/Clerk/2022/_unknown_stage`: 1 papers, 90 questions
+- `SBI/Clerk/2023/Mains`: 1 papers, 138 questions
+- `SBI/Clerk/2023/Prelims`: 1 papers, 1 questions
+- `SBI/Clerk/2023/_unknown_stage`: 1 papers, 95 questions
+- `SBI/Clerk/2024/Mains`: 1 papers, 186 questions
+- `SBI/Clerk/2024/Prelims`: 10 papers, 902 questions
+- `SBI/Clerk/2025/Mains`: 3 papers, 71 questions
+- `SBI/Clerk/2025/Prelims`: 5 papers, 382 questions
+- `SBI/Clerk/2025/_unknown_stage`: 1 papers, 65 questions
+- `SBI/Clerk/no_year/_unknown_stage`: 1 papers, 99 questions
+- `SBI/PO/2016/Mains`: 1 papers, 114 questions
+- `SBI/PO/2017/Mains`: 1 papers, 113 questions
+- `SBI/PO/2017/Prelims`: 1 papers, 95 questions
+- `SBI/PO/2018/Mains`: 1 papers, 114 questions
+- `SBI/PO/2018/Prelims`: 2 papers, 69 questions
+- `SBI/PO/2019/Prelims`: 1 papers, 100 questions
+- `SBI/PO/2020/Prelims`: 1 papers, 100 questions
+- `SBI/PO/2021/Mains`: 1 papers, 112 questions
+- `SBI/PO/2021/Prelims`: 2 papers, 194 questions
+- `SBI/PO/2022/Mains`: 1 papers, 98 questions
+- `SBI/PO/2022/Prelims`: 12 papers, 1065 questions
+- `SBI/PO/2023/Mains`: 1 papers, 96 questions
+- `SBI/PO/2023/Prelims`: 5 papers, 416 questions
+- `SBI/PO/2024/Prelims`: 6 papers, 551 questions
+- `SBI/PO/2025/Mains`: 6 papers, 158 questions
+- `SBI/PO/2025/Prelims`: 4 papers, 192 questions
+- `SBI/PO/no_year/Prelims`: 1 papers, 29 questions
+- `SBI/_unknown_role/no_year/_unknown_stage`: 1 papers, 93 questions
+- `_unknown_bank/RRB/2020/Prelims`: 1 papers, 34 questions
+- `_unknown_bank/RRB/2022/Prelims`: 14 papers, 1044 questions
+- `_unknown_bank/RRB/2023/Mains`: 1 papers, 111 questions
+- `_unknown_bank/RRB/2024/Mains`: 1 papers, 195 questions
+- `_unknown_bank/RRB/2025/Mains`: 1 papers, 8 questions
+- `_unknown_bank/_unknown_role/no_year/_unknown_stage`: 2 papers, 71 questions

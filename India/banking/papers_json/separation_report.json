@@ -1,0 +1,1185 @@
+{
+  "source_questions": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/questions.jsonl",
+  "source_papers": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/papers.jsonl",
+  "out_dir": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/papers_json",
+  "layout": "papers_json/{bank}/{role}/{year}/{exam_type}/{paper_id}.json",
+  "totals": {
+    "input_questions": 18651,
+    "unique_papers_in_questions": 235,
+    "papers_meta_available": 235,
+    "files_written": 235,
+    "questions_written": 18651,
+    "orphan_questions_no_paper_id": 0,
+    "papers_missing_meta": 0
+  },
+  "by_bank": {
+    "IBPS": 112,
+    "SBI": 103,
+    "_unknown_bank": 20
+  },
+  "by_bank_role": {
+    "SBI/Clerk": 55,
+    "IBPS/PO": 48,
+    "SBI/PO": 47,
+    "IBPS/RRB": 40,
+    "IBPS/Clerk": 19,
+    "_unknown_bank/RRB": 18,
+    "IBPS/_unknown_role": 5,
+    "_unknown_bank/_unknown_role": 2,
+    "SBI/_unknown_role": 1
+  },
+  "by_bank_role_year": {
+    "IBPS/Clerk/2019": 2,
+    "IBPS/Clerk/2020": 1,
+    "IBPS/Clerk/2021": 2,
+    "IBPS/Clerk/2022": 1,
+    "IBPS/Clerk/2023": 2,
+    "IBPS/Clerk/2024": 3,
+    "IBPS/Clerk/2025": 6,
+    "IBPS/Clerk/no_year": 2,
+    "IBPS/PO/2016": 4,
+    "IBPS/PO/2017": 3,
+    "IBPS/PO/2018": 5,
+    "IBPS/PO/2019": 4,
+    "IBPS/PO/2020": 5,
+    "IBPS/PO/2021": 2,
+    "IBPS/PO/2022": 9,
+    "IBPS/PO/2023": 7,
+    "IBPS/PO/2024": 2,
+    "IBPS/PO/2025": 6,
+    "IBPS/PO/no_year": 1,
+    "IBPS/RRB/2017": 4,
+    "IBPS/RRB/2018": 4,
+    "IBPS/RRB/2019": 4,
+    "IBPS/RRB/2020": 2,
+    "IBPS/RRB/2021": 3,
+    "IBPS/RRB/2022": 5,
+    "IBPS/RRB/2023": 3,
+    "IBPS/RRB/2024": 7,
+    "IBPS/RRB/2025": 8,
+    "IBPS/_unknown_role/no_year": 5,
+    "SBI/Clerk/2016": 2,
+    "SBI/Clerk/2018": 4,
+    "SBI/Clerk/2019": 4,
+    "SBI/Clerk/2020": 4,
+    "SBI/Clerk/2021": 2,
+    "SBI/Clerk/2022": 15,
+    "SBI/Clerk/2023": 3,
+    "SBI/Clerk/2024": 11,
+    "SBI/Clerk/2025": 9,
+    "SBI/Clerk/no_year": 1,
+    "SBI/PO/2016": 1,
+    "SBI/PO/2017": 2,
+    "SBI/PO/2018": 3,
+    "SBI/PO/2019": 1,
+    "SBI/PO/2020": 1,
+    "SBI/PO/2021": 3,
+    "SBI/PO/2022": 13,
+    "SBI/PO/2023": 6,
+    "SBI/PO/2024": 6,
+    "SBI/PO/2025": 10,
+    "SBI/PO/no_year": 1,
+    "SBI/_unknown_role/no_year": 1,
+    "_unknown_bank/RRB/2020": 1,
+    "_unknown_bank/RRB/2022": 14,
+    "_unknown_bank/RRB/2023": 1,
+    "_unknown_bank/RRB/2024": 1,
+    "_unknown_bank/RRB/2025": 1,
+    "_unknown_bank/_unknown_role/no_year": 2
+  },
+  "by_bank_role_year_exam": {
+    "IBPS/Clerk/2019/Mains": 1,
+    "IBPS/Clerk/2019/Prelims": 1,
+    "IBPS/Clerk/2020/Prelims": 1,
+    "IBPS/Clerk/2021/Mains": 1,
+    "IBPS/Clerk/2021/_unknown_stage": 1,
+    "IBPS/Clerk/2022/_unknown_stage": 1,
+    "IBPS/Clerk/2023/Mains": 1,
+    "IBPS/Clerk/2023/_unknown_stage": 1,
+    "IBPS/Clerk/2024/Mains": 2,
+    "IBPS/Clerk/2024/Prelims": 1,
+    "IBPS/Clerk/2025/Mains": 1,
+    "IBPS/Clerk/2025/Prelims": 4,
+    "IBPS/Clerk/2025/_unknown_stage": 1,
+    "IBPS/Clerk/no_year/Prelims": 2,
+    "IBPS/PO/2016/Mains": 3,
+    "IBPS/PO/2016/Prelims": 1,
+    "IBPS/PO/2017/Mains": 2,
+    "IBPS/PO/2017/Prelims": 1,
+    "IBPS/PO/2018/Mains": 4,
+    "IBPS/PO/2018/Prelims": 1,
+    "IBPS/PO/2019/Mains": 1,
+    "IBPS/PO/2019/Prelims": 3,
+    "IBPS/PO/2020/Mains": 4,
+    "IBPS/PO/2020/Prelims": 1,
+    "IBPS/PO/2021/Mains": 1,
+    "IBPS/PO/2021/Prelims": 1,
+    "IBPS/PO/2022/Mains": 2,
+    "IBPS/PO/2022/Prelims": 7,
+    "IBPS/PO/2023/Mains": 1,
+    "IBPS/PO/2023/Prelims": 5,
+    "IBPS/PO/2023/_unknown_stage": 1,
+    "IBPS/PO/2024/Mains": 1,
+    "IBPS/PO/2024/Prelims": 1,
+    "IBPS/PO/2025/Mains": 2,
+    "IBPS/PO/2025/Prelims": 4,
+    "IBPS/PO/no_year/Prelims": 1,
+    "IBPS/RRB/2017/Mains": 2,
+    "IBPS/RRB/2017/Prelims": 2,
+    "IBPS/RRB/2018/Mains": 2,
+    "IBPS/RRB/2018/Prelims": 2,
+    "IBPS/RRB/2019/Mains": 2,
+    "IBPS/RRB/2019/Prelims": 2,
+    "IBPS/RRB/2020/Mains": 1,
+    "IBPS/RRB/2020/Prelims": 1,
+    "IBPS/RRB/2021/Mains": 1,
+    "IBPS/RRB/2021/_unknown_stage": 2,
+    "IBPS/RRB/2022/Mains": 2,
+    "IBPS/RRB/2022/Prelims": 3,
+    "IBPS/RRB/2023/Mains": 1,
+    "IBPS/RRB/2023/Prelims": 2,
+    "IBPS/RRB/2024/Mains": 1,
+    "IBPS/RRB/2024/Prelims": 6,
+    "IBPS/RRB/2025/Mains": 1,
+    "IBPS/RRB/2025/Prelims": 7,
+    "IBPS/_unknown_role/no_year/Prelims": 1,
+    "IBPS/_unknown_role/no_year/_unknown_stage": 4,
+    "SBI/Clerk/2016/Mains": 1,
+    "SBI/Clerk/2016/Prelims": 1,
+    "SBI/Clerk/2018/Mains": 1,
+    "SBI/Clerk/2018/Prelims": 3,
+    "SBI/Clerk/2019/Mains": 1,
+    "SBI/Clerk/2019/Prelims": 3,
+    "SBI/Clerk/2020/Mains": 1,
+    "SBI/Clerk/2020/Prelims": 3,
+    "SBI/Clerk/2021/Mains": 1,
+    "SBI/Clerk/2021/Prelims": 1,
+    "SBI/Clerk/2022/Mains": 1,
+    "SBI/Clerk/2022/Prelims": 13,
+    "SBI/Clerk/2022/_unknown_stage": 1,
+    "SBI/Clerk/2023/Mains": 1,
+    "SBI/Clerk/2023/Prelims": 1,
+    "SBI/Clerk/2023/_unknown_stage": 1,
+    "SBI/Clerk/2024/Mains": 1,
+    "SBI/Clerk/2024/Prelims": 10,
+    "SBI/Clerk/2025/Mains": 3,
+    "SBI/Clerk/2025/Prelims": 5,
+    "SBI/Clerk/2025/_unknown_stage": 1,
+    "SBI/Clerk/no_year/_unknown_stage": 1,
+    "SBI/PO/2016/Mains": 1,
+    "SBI/PO/2017/Mains": 1,
+    "SBI/PO/2017/Prelims": 1,
+    "SBI/PO/2018/Mains": 1,
+    "SBI/PO/2018/Prelims": 2,
+    "SBI/PO/2019/Prelims": 1,
+    "SBI/PO/2020/Prelims": 1,
+    "SBI/PO/2021/Mains": 1,
+    "SBI/PO/2021/Prelims": 2,
+    "SBI/PO/2022/Mains": 1,
+    "SBI/PO/2022/Prelims": 12,
+    "SBI/PO/2023/Mains": 1,
+    "SBI/PO/2023/Prelims": 5,
+    "SBI/PO/2024/Prelims": 6,
+    "SBI/PO/2025/Mains": 6,
+    "SBI/PO/2025/Prelims": 4,
+    "SBI/PO/no_year/Prelims": 1,
+    "SBI/_unknown_role/no_year/_unknown_stage": 1,
+    "_unknown_bank/RRB/2020/Prelims": 1,
+    "_unknown_bank/RRB/2022/Prelims": 14,
+    "_unknown_bank/RRB/2023/Mains": 1,
+    "_unknown_bank/RRB/2024/Mains": 1,
+    "_unknown_bank/RRB/2025/Mains": 1,
+    "_unknown_bank/_unknown_role/no_year/_unknown_stage": 2
+  },
+  "tree": {
+    "IBPS": {
+      "Clerk": {
+        "2019": {
+          "Mains": {
+            "files": 1,
+            "questions": 131,
+            "paper_ids": [
+              "ibps_clerk_2019_mains_unknown_shift_781623cd"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 96,
+            "paper_ids": [
+              "ibps_clerk_2019_prelims_unknown_shift_237fb266"
+            ]
+          }
+        },
+        "2020": {
+          "Prelims": {
+            "files": 1,
+            "questions": 97,
+            "paper_ids": [
+              "ibps_clerk_2020_prelims_unknown_shift_f1a8daa3"
+            ]
+          }
+        },
+        "2021": {
+          "Mains": {
+            "files": 1,
+            "questions": 135,
+            "paper_ids": [
+              "ibps_clerk_2021_mains_unknown_shift_327135b6"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 88,
+            "paper_ids": [
+              "ibps_clerk_2021_unknown_unknown_shift_c3b9733a"
+            ]
+          }
+        },
+        "2022": {
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 95,
+            "paper_ids": [
+              "ibps_clerk_2022_unknown_unknown_shift_e9d28f7c"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 134,
+            "paper_ids": [
+              "ibps_clerk_2023_mains_unknown_shift_6d66a1eb"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 86,
+            "paper_ids": [
+              "ibps_clerk_2023_unknown_unknown_shift_3d393f68"
+            ]
+          }
+        },
+        "2024": {
+          "Mains": {
+            "files": 2,
+            "questions": 199,
+            "paper_ids": [
+              "ibps_clerk_2024_mains_unknown_shift_3d8c6008",
+              "ibps_clerk_2024_mains_unknown_shift_a2bb4bde"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 88,
+            "paper_ids": [
+              "ibps_clerk_2024_prelims_unknown_shift_da38d550"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 1,
+            "questions": 114,
+            "paper_ids": [
+              "ibps_clerk_2025_mains_shift_1_c3e1f73d"
+            ]
+          },
+          "Prelims": {
+            "files": 4,
+            "questions": 388,
+            "paper_ids": [
+              "ibps_clerk_2025_prelims_shift_1_3e06dc26",
+              "ibps_clerk_2025_prelims_shift_2_8b0fdbfe",
+              "ibps_clerk_2025_prelims_shift_3_76aefd00",
+              "ibps_clerk_2025_prelims_shift_4_759203f6"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 95,
+            "paper_ids": [
+              "ibps_clerk_2025_unknown_unknown_shift_5d6b2988"
+            ]
+          }
+        },
+        "no_year": {
+          "Prelims": {
+            "files": 2,
+            "questions": 63,
+            "paper_ids": [
+              "ibps_clerk_noyear_prelims_unknown_shift_340cc53d",
+              "ibps_clerk_noyear_prelims_unknown_shift_9868e39d"
+            ]
+          }
+        }
+      },
+      "PO": {
+        "2016": {
+          "Mains": {
+            "files": 3,
+            "questions": 117,
+            "paper_ids": [
+              "ibps_po_2016_mains_unknown_shift_62864114",
+              "ibps_po_2016_mains_unknown_shift_9de3604a",
+              "ibps_po_2016_mains_unknown_shift_ddd7b718"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 30,
+            "paper_ids": [
+              "ibps_po_2016_prelims_unknown_shift_8537b0d6"
+            ]
+          }
+        },
+        "2017": {
+          "Mains": {
+            "files": 2,
+            "questions": 77,
+            "paper_ids": [
+              "ibps_po_2017_mains_unknown_shift_0a7c0e02",
+              "ibps_po_2017_mains_unknown_shift_760489c0"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 93,
+            "paper_ids": [
+              "ibps_po_2017_prelims_unknown_shift_1078480f"
+            ]
+          }
+        },
+        "2018": {
+          "Mains": {
+            "files": 4,
+            "questions": 131,
+            "paper_ids": [
+              "ibps_po_2018_mains_unknown_shift_0203e7f6",
+              "ibps_po_2018_mains_unknown_shift_033c07c5",
+              "ibps_po_2018_mains_unknown_shift_92c89501",
+              "ibps_po_2018_mains_unknown_shift_9abcba27"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 92,
+            "paper_ids": [
+              "ibps_po_2018_prelims_unknown_shift_b509afdc"
+            ]
+          }
+        },
+        "2019": {
+          "Mains": {
+            "files": 1,
+            "questions": 114,
+            "paper_ids": [
+              "ibps_po_2019_mains_unknown_shift_7d2bd029"
+            ]
+          },
+          "Prelims": {
+            "files": 3,
+            "questions": 277,
+            "paper_ids": [
+              "ibps_po_2019_prelims_unknown_shift_0d55c130",
+              "ibps_po_2019_prelims_unknown_shift_83385e24",
+              "ibps_po_2019_prelims_unknown_shift_cacff496"
+            ]
+          }
+        },
+        "2020": {
+          "Mains": {
+            "files": 4,
+            "questions": 213,
+            "paper_ids": [
+              "ibps_po_2020_mains_unknown_shift_14a55cbe",
+              "ibps_po_2020_mains_unknown_shift_44093f2d",
+              "ibps_po_2020_mains_unknown_shift_817c519e",
+              "ibps_po_2020_mains_unknown_shift_f6c3d71c"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 98,
+            "paper_ids": [
+              "ibps_po_2020_prelims_unknown_shift_3ad5d45a"
+            ]
+          }
+        },
+        "2021": {
+          "Mains": {
+            "files": 1,
+            "questions": 111,
+            "paper_ids": [
+              "ibps_po_2021_mains_unknown_shift_717e6dcf"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 91,
+            "paper_ids": [
+              "ibps_po_2021_prelims_unknown_shift_f5ec5a2d"
+            ]
+          }
+        },
+        "2022": {
+          "Mains": {
+            "files": 2,
+            "questions": 211,
+            "paper_ids": [
+              "ibps_po_2022_mains_unknown_shift_0fd665e7",
+              "ibps_po_2022_mains_unknown_shift_7c2e48cb"
+            ]
+          },
+          "Prelims": {
+            "files": 7,
+            "questions": 643,
+            "paper_ids": [
+              "ibps_po_2022_prelims_unknown_shift_4734233b",
+              "ibps_po_2022_prelims_unknown_shift_50f41d91",
+              "ibps_po_2022_prelims_unknown_shift_72560825",
+              "ibps_po_2022_prelims_unknown_shift_c64ae3e3",
+              "ibps_po_2022_prelims_unknown_shift_dc85a244",
+              "ibps_po_2022_prelims_unknown_shift_dce967a7",
+              "ibps_po_2022_prelims_unknown_shift_f125e774"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 114,
+            "paper_ids": [
+              "ibps_po_2023_mains_unknown_shift_68def042"
+            ]
+          },
+          "Prelims": {
+            "files": 5,
+            "questions": 472,
+            "paper_ids": [
+              "ibps_po_2023_prelims_unknown_shift_0cedef20",
+              "ibps_po_2023_prelims_unknown_shift_2b26d7ef",
+              "ibps_po_2023_prelims_unknown_shift_ada1e12a",
+              "ibps_po_2023_prelims_unknown_shift_bd2cd2c0",
+              "ibps_po_2023_prelims_unknown_shift_dfc4b883"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 34,
+            "paper_ids": [
+              "ibps_po_2023_unknown_unknown_shift_6ea70b83"
+            ]
+          }
+        },
+        "2024": {
+          "Mains": {
+            "files": 1,
+            "questions": 152,
+            "paper_ids": [
+              "ibps_po_2024_mains_shift_1_a28ce3a4"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 93,
+            "paper_ids": [
+              "ibps_po_2024_prelims_unknown_shift_5f47be6c"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 2,
+            "questions": 114,
+            "paper_ids": [
+              "ibps_po_2025_mains_unknown_shift_66f6566a",
+              "ibps_po_2025_mains_unknown_shift_baf0001d"
+            ]
+          },
+          "Prelims": {
+            "files": 4,
+            "questions": 280,
+            "paper_ids": [
+              "ibps_po_2025_prelims_shift_1_a0b42c96",
+              "ibps_po_2025_prelims_shift_1_bb7b7f24",
+              "ibps_po_2025_prelims_shift_1_f0351cbf",
+              "ibps_po_2025_prelims_shift_2_62c07700"
+            ]
+          }
+        },
+        "no_year": {
+          "Prelims": {
+            "files": 1,
+            "questions": 31,
+            "paper_ids": [
+              "ibps_po_noyear_prelims_unknown_shift_e62351f3"
+            ]
+          }
+        }
+      },
+      "RRB": {
+        "2017": {
+          "Mains": {
+            "files": 2,
+            "questions": 237,
+            "paper_ids": [
+              "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
+              "ibps_rrb_2017_mains_unknown_shift_bfad9cea"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 158,
+            "paper_ids": [
+              "ibps_rrb_2017_prelims_unknown_shift_7a4cca02",
+              "ibps_rrb_2017_prelims_unknown_shift_7b3ae560"
+            ]
+          }
+        },
+        "2018": {
+          "Mains": {
+            "files": 2,
+            "questions": 198,
+            "paper_ids": [
+              "ibps_rrb_2018_mains_unknown_shift_18e4bfd9",
+              "ibps_rrb_2018_mains_unknown_shift_35bc7048"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 156,
+            "paper_ids": [
+              "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+              "ibps_rrb_2018_prelims_unknown_shift_7ed35592"
+            ]
+          }
+        },
+        "2019": {
+          "Mains": {
+            "files": 2,
+            "questions": 230,
+            "paper_ids": [
+              "ibps_rrb_2019_mains_unknown_shift_32db027d",
+              "ibps_rrb_2019_mains_unknown_shift_f091d98c"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 149,
+            "paper_ids": [
+              "ibps_rrb_2019_prelims_unknown_shift_392b4a3b",
+              "ibps_rrb_2019_prelims_unknown_shift_c0605d17"
+            ]
+          }
+        },
+        "2020": {
+          "Mains": {
+            "files": 1,
+            "questions": 115,
+            "paper_ids": [
+              "ibps_rrb_2020_mains_unknown_shift_4b76b057"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 67,
+            "paper_ids": [
+              "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6"
+            ]
+          }
+        },
+        "2021": {
+          "Mains": {
+            "files": 1,
+            "questions": 111,
+            "paper_ids": [
+              "ibps_rrb_2021_mains_unknown_shift_5790dd1e"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 2,
+            "questions": 159,
+            "paper_ids": [
+              "ibps_rrb_2021_unknown_unknown_shift_11703c49",
+              "ibps_rrb_2021_unknown_unknown_shift_6825a2d3"
+            ]
+          }
+        },
+        "2022": {
+          "Mains": {
+            "files": 2,
+            "questions": 214,
+            "paper_ids": [
+              "ibps_rrb_2022_mains_unknown_shift_08ca6854",
+              "ibps_rrb_2022_mains_unknown_shift_48596fb8"
+            ]
+          },
+          "Prelims": {
+            "files": 3,
+            "questions": 231,
+            "paper_ids": [
+              "ibps_rrb_2022_prelims_unknown_shift_48679356",
+              "ibps_rrb_2022_prelims_unknown_shift_d3c02a18",
+              "ibps_rrb_2022_prelims_unknown_shift_d7a42148"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 115,
+            "paper_ids": [
+              "ibps_rrb_2023_mains_unknown_shift_15e224e5"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 140,
+            "paper_ids": [
+              "ibps_rrb_2023_prelims_unknown_shift_1289aacd",
+              "ibps_rrb_2023_prelims_unknown_shift_5302a3ed"
+            ]
+          }
+        },
+        "2024": {
+          "Mains": {
+            "files": 1,
+            "questions": 199,
+            "paper_ids": [
+              "ibps_rrb_2024_mains_unknown_shift_62d426f1"
+            ]
+          },
+          "Prelims": {
+            "files": 6,
+            "questions": 446,
+            "paper_ids": [
+              "ibps_rrb_2024_prelims_shift_1_01eb16bf",
+              "ibps_rrb_2024_prelims_shift_1_83f44b21",
+              "ibps_rrb_2024_prelims_shift_1_e449979b",
+              "ibps_rrb_2024_prelims_shift_2_33292564",
+              "ibps_rrb_2024_prelims_shift_3_84950236",
+              "ibps_rrb_2024_prelims_unknown_shift_ca44b261"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 1,
+            "questions": 40,
+            "paper_ids": [
+              "ibps_rrb_2025_mains_unknown_shift_cff0a579"
+            ]
+          },
+          "Prelims": {
+            "files": 7,
+            "questions": 500,
+            "paper_ids": [
+              "ibps_rrb_2025_prelims_shift_1_525d6475",
+              "ibps_rrb_2025_prelims_shift_1_cf975819",
+              "ibps_rrb_2025_prelims_shift_1_ee59c9b5",
+              "ibps_rrb_2025_prelims_shift_2_58c60b3f",
+              "ibps_rrb_2025_prelims_shift_2_c8ab2176",
+              "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
+              "ibps_rrb_2025_prelims_unknown_shift_c4879dbc"
+            ]
+          }
+        }
+      },
+      "_unknown_role": {
+        "no_year": {
+          "Prelims": {
+            "files": 1,
+            "questions": 34,
+            "paper_ids": [
+              "ibps_unknown_noyear_prelims_unknown_shift_687be116"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 4,
+            "questions": 313,
+            "paper_ids": [
+              "ibps_unknown_noyear_unknown_unknown_shift_02389ac7",
+              "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
+              "ibps_unknown_noyear_unknown_unknown_shift_90de4377",
+              "ibps_unknown_noyear_unknown_unknown_shift_b7c86833"
+            ]
+          }
+        }
+      }
+    },
+    "SBI": {
+      "Clerk": {
+        "2016": {
+          "Mains": {
+            "files": 1,
+            "questions": 135,
+            "paper_ids": [
+              "sbi_clerk_2016_mains_unknown_shift_aa76e853"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 35,
+            "paper_ids": [
+              "sbi_clerk_2016_prelims_unknown_shift_8fe6aa77"
+            ]
+          }
+        },
+        "2018": {
+          "Mains": {
+            "files": 1,
+            "questions": 140,
+            "paper_ids": [
+              "sbi_clerk_2018_mains_unknown_shift_afeacb05"
+            ]
+          },
+          "Prelims": {
+            "files": 3,
+            "questions": 98,
+            "paper_ids": [
+              "sbi_clerk_2018_prelims_unknown_shift_3fd999fa",
+              "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
+              "sbi_clerk_2018_prelims_unknown_shift_ccbb69fb"
+            ]
+          }
+        },
+        "2019": {
+          "Mains": {
+            "files": 1,
+            "questions": 135,
+            "paper_ids": [
+              "sbi_clerk_2019_mains_unknown_shift_3778ee5c"
+            ]
+          },
+          "Prelims": {
+            "files": 3,
+            "questions": 90,
+            "paper_ids": [
+              "sbi_clerk_2019_prelims_unknown_shift_3f68b320",
+              "sbi_clerk_2019_prelims_unknown_shift_64d9f811",
+              "sbi_clerk_2019_prelims_unknown_shift_8f9dc1e7"
+            ]
+          }
+        },
+        "2020": {
+          "Mains": {
+            "files": 1,
+            "questions": 137,
+            "paper_ids": [
+              "sbi_clerk_2020_mains_unknown_shift_1e762e8e"
+            ]
+          },
+          "Prelims": {
+            "files": 3,
+            "questions": 100,
+            "paper_ids": [
+              "sbi_clerk_2020_prelims_unknown_shift_be312f17",
+              "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+              "sbi_clerk_2020_prelims_unknown_shift_ffd99f37"
+            ]
+          }
+        },
+        "2021": {
+          "Mains": {
+            "files": 1,
+            "questions": 133,
+            "paper_ids": [
+              "sbi_clerk_2021_mains_unknown_shift_e39202f9"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 97,
+            "paper_ids": [
+              "sbi_clerk_2021_prelims_unknown_shift_82295e93"
+            ]
+          }
+        },
+        "2022": {
+          "Mains": {
+            "files": 1,
+            "questions": 138,
+            "paper_ids": [
+              "sbi_clerk_2022_mains_unknown_shift_347c6512"
+            ]
+          },
+          "Prelims": {
+            "files": 13,
+            "questions": 1003,
+            "paper_ids": [
+              "sbi_clerk_2022_prelims_unknown_shift_1544a614",
+              "sbi_clerk_2022_prelims_unknown_shift_171042aa",
+              "sbi_clerk_2022_prelims_unknown_shift_227b0836",
+              "sbi_clerk_2022_prelims_unknown_shift_2ce87e64",
+              "sbi_clerk_2022_prelims_unknown_shift_4884866d",
+              "sbi_clerk_2022_prelims_unknown_shift_5a0500b9",
+              "sbi_clerk_2022_prelims_unknown_shift_712f26db",
+              "sbi_clerk_2022_prelims_unknown_shift_71ea5ad9",
+              "sbi_clerk_2022_prelims_unknown_shift_82e8a2db",
+              "sbi_clerk_2022_prelims_unknown_shift_a2c059ce",
+              "sbi_clerk_2022_prelims_unknown_shift_b56440f0",
+              "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
+              "sbi_clerk_2022_prelims_unknown_shift_cb322a6f"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 90,
+            "paper_ids": [
+              "sbi_clerk_2022_unknown_unknown_shift_ac5ffb0a"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 138,
+            "paper_ids": [
+              "sbi_clerk_2023_mains_unknown_shift_5fa54eac"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 1,
+            "paper_ids": [
+              "sbi_clerk_2023_prelims_unknown_shift_3dbdfb6c"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 95,
+            "paper_ids": [
+              "sbi_clerk_2023_unknown_unknown_shift_a6bd9cc3"
+            ]
+          }
+        },
+        "2024": {
+          "Mains": {
+            "files": 1,
+            "questions": 186,
+            "paper_ids": [
+              "sbi_clerk_2024_mains_shift_1_40110b96"
+            ]
+          },
+          "Prelims": {
+            "files": 10,
+            "questions": 902,
+            "paper_ids": [
+              "sbi_clerk_2024_prelims_shift_1_3150ce84",
+              "sbi_clerk_2024_prelims_shift_1_759e8a62",
+              "sbi_clerk_2024_prelims_shift_1_953bf3a3",
+              "sbi_clerk_2024_prelims_shift_1_9b99a1dd",
+              "sbi_clerk_2024_prelims_shift_2_576305f6",
+              "sbi_clerk_2024_prelims_shift_2_5959fae2",
+              "sbi_clerk_2024_prelims_shift_2_c147328e",
+              "sbi_clerk_2024_prelims_shift_3_fc74a4e2",
+              "sbi_clerk_2024_prelims_shift_4_35c88a64",
+              "sbi_clerk_2024_prelims_unknown_shift_05e2787a"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 3,
+            "questions": 71,
+            "paper_ids": [
+              "sbi_clerk_2025_mains_unknown_shift_1f71bf22",
+              "sbi_clerk_2025_mains_unknown_shift_850372b6",
+              "sbi_clerk_2025_mains_unknown_shift_9401348b"
+            ]
+          },
+          "Prelims": {
+            "files": 5,
+            "questions": 382,
+            "paper_ids": [
+              "sbi_clerk_2025_prelims_shift_1_00bffd12",
+              "sbi_clerk_2025_prelims_shift_1_5fab46d6",
+              "sbi_clerk_2025_prelims_shift_1_8b31bc1a",
+              "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+              "sbi_clerk_2025_prelims_shift_2_43fa34b9"
+            ]
+          },
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 65,
+            "paper_ids": [
+              "sbi_clerk_2025_unknown_unknown_shift_3c35ac14"
+            ]
+          }
+        },
+        "no_year": {
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 99,
+            "paper_ids": [
+              "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8"
+            ]
+          }
+        }
+      },
+      "PO": {
+        "2016": {
+          "Mains": {
+            "files": 1,
+            "questions": 114,
+            "paper_ids": [
+              "sbi_po_2016_mains_unknown_shift_1ad95c75"
+            ]
+          }
+        },
+        "2017": {
+          "Mains": {
+            "files": 1,
+            "questions": 113,
+            "paper_ids": [
+              "sbi_po_2017_mains_unknown_shift_213a5720"
+            ]
+          },
+          "Prelims": {
+            "files": 1,
+            "questions": 95,
+            "paper_ids": [
+              "sbi_po_2017_prelims_unknown_shift_f0aab19f"
+            ]
+          }
+        },
+        "2018": {
+          "Mains": {
+            "files": 1,
+            "questions": 114,
+            "paper_ids": [
+              "sbi_po_2018_mains_unknown_shift_8b024b5b"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 69,
+            "paper_ids": [
+              "sbi_po_2018_prelims_unknown_shift_58bd6af6",
+              "sbi_po_2018_prelims_unknown_shift_7954b56e"
+            ]
+          }
+        },
+        "2019": {
+          "Prelims": {
+            "files": 1,
+            "questions": 100,
+            "paper_ids": [
+              "sbi_po_2019_prelims_unknown_shift_57ec9383"
+            ]
+          }
+        },
+        "2020": {
+          "Prelims": {
+            "files": 1,
+            "questions": 100,
+            "paper_ids": [
+              "sbi_po_2020_prelims_unknown_shift_71d3da53"
+            ]
+          }
+        },
+        "2021": {
+          "Mains": {
+            "files": 1,
+            "questions": 112,
+            "paper_ids": [
+              "sbi_po_2021_mains_unknown_shift_4a32c76f"
+            ]
+          },
+          "Prelims": {
+            "files": 2,
+            "questions": 194,
+            "paper_ids": [
+              "sbi_po_2021_prelims_unknown_shift_5cb01cf7",
+              "sbi_po_2021_prelims_unknown_shift_9fd5b22e"
+            ]
+          }
+        },
+        "2022": {
+          "Mains": {
+            "files": 1,
+            "questions": 98,
+            "paper_ids": [
+              "sbi_po_2022_mains_unknown_shift_2bbd4a3f"
+            ]
+          },
+          "Prelims": {
+            "files": 12,
+            "questions": 1065,
+            "paper_ids": [
+              "sbi_po_2022_prelims_unknown_shift_00b907bd",
+              "sbi_po_2022_prelims_unknown_shift_08dac514",
+              "sbi_po_2022_prelims_unknown_shift_2a64d52a",
+              "sbi_po_2022_prelims_unknown_shift_3d8d5bbd",
+              "sbi_po_2022_prelims_unknown_shift_522357b1",
+              "sbi_po_2022_prelims_unknown_shift_57c8f826",
+              "sbi_po_2022_prelims_unknown_shift_5ed0c217",
+              "sbi_po_2022_prelims_unknown_shift_d9be0fd9",
+              "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
+              "sbi_po_2022_prelims_unknown_shift_ed9802ba",
+              "sbi_po_2022_prelims_unknown_shift_eec909f1",
+              "sbi_po_2022_prelims_unknown_shift_fb819c24"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 96,
+            "paper_ids": [
+              "sbi_po_2023_mains_unknown_shift_a38a0353"
+            ]
+          },
+          "Prelims": {
+            "files": 5,
+            "questions": 416,
+            "paper_ids": [
+              "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
+              "sbi_po_2023_prelims_unknown_shift_6109a010",
+              "sbi_po_2023_prelims_unknown_shift_703c78ff",
+              "sbi_po_2023_prelims_unknown_shift_b3589395",
+              "sbi_po_2023_prelims_unknown_shift_b7ec4c87"
+            ]
+          }
+        },
+        "2024": {
+          "Prelims": {
+            "files": 6,
+            "questions": 551,
+            "paper_ids": [
+              "sbi_po_2024_prelims_shift_1_20693d2f",
+              "sbi_po_2024_prelims_shift_1_f4e4c187",
+              "sbi_po_2024_prelims_shift_1_ff8452fa",
+              "sbi_po_2024_prelims_shift_2_8b244374",
+              "sbi_po_2024_prelims_shift_3_7320ae0f",
+              "sbi_po_2024_prelims_shift_4_4061bfbf"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 6,
+            "questions": 158,
+            "paper_ids": [
+              "sbi_po_2025_mains_unknown_shift_41d441a2",
+              "sbi_po_2025_mains_unknown_shift_984f2b08",
+              "sbi_po_2025_mains_unknown_shift_af4534b2",
+              "sbi_po_2025_mains_unknown_shift_c93aff04",
+              "sbi_po_2025_mains_unknown_shift_cba8c243",
+              "sbi_po_2025_mains_unknown_shift_d673df85"
+            ]
+          },
+          "Prelims": {
+            "files": 4,
+            "questions": 192,
+            "paper_ids": [
+              "sbi_po_2025_prelims_shift_1_8f4a2453",
+              "sbi_po_2025_prelims_shift_1_dae2802e",
+              "sbi_po_2025_prelims_shift_2_75b1b12e",
+              "sbi_po_2025_prelims_unknown_shift_8c172852"
+            ]
+          }
+        },
+        "no_year": {
+          "Prelims": {
+            "files": 1,
+            "questions": 29,
+            "paper_ids": [
+              "sbi_po_noyear_prelims_unknown_shift_4293d77f"
+            ]
+          }
+        }
+      },
+      "_unknown_role": {
+        "no_year": {
+          "_unknown_stage": {
+            "files": 1,
+            "questions": 93,
+            "paper_ids": [
+              "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3"
+            ]
+          }
+        }
+      }
+    },
+    "_unknown_bank": {
+      "RRB": {
+        "2020": {
+          "Prelims": {
+            "files": 1,
+            "questions": 34,
+            "paper_ids": [
+              "unknown_rrb_2020_prelims_unknown_shift_9f2fbb87"
+            ]
+          }
+        },
+        "2022": {
+          "Prelims": {
+            "files": 14,
+            "questions": 1044,
+            "paper_ids": [
+              "unknown_rrb_2022_prelims_unknown_shift_03791f04",
+              "unknown_rrb_2022_prelims_unknown_shift_54f37dc7",
+              "unknown_rrb_2022_prelims_unknown_shift_6a4138e1",
+              "unknown_rrb_2022_prelims_unknown_shift_703c9504",
+              "unknown_rrb_2022_prelims_unknown_shift_86460901",
+              "unknown_rrb_2022_prelims_unknown_shift_86b579cb",
+              "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4",
+              "unknown_rrb_2022_prelims_unknown_shift_8e8c4bc8",
+              "unknown_rrb_2022_prelims_unknown_shift_a9b5b144",
+              "unknown_rrb_2022_prelims_unknown_shift_b5edfb0f",
+              "unknown_rrb_2022_prelims_unknown_shift_b9ec4fb9",
+              "unknown_rrb_2022_prelims_unknown_shift_c30ed7b1",
+              "unknown_rrb_2022_prelims_unknown_shift_d127eb20",
+              "unknown_rrb_2022_prelims_unknown_shift_fa17267e"
+            ]
+          }
+        },
+        "2023": {
+          "Mains": {
+            "files": 1,
+            "questions": 111,
+            "paper_ids": [
+              "unknown_rrb_2023_mains_unknown_shift_deaf21d1"
+            ]
+          }
+        },
+        "2024": {
+          "Mains": {
+            "files": 1,
+            "questions": 195,
+            "paper_ids": [
+              "unknown_rrb_2024_mains_unknown_shift_fdae644d"
+            ]
+          }
+        },
+        "2025": {
+          "Mains": {
+            "files": 1,
+            "questions": 8,
+            "paper_ids": [
+              "unknown_rrb_2025_mains_unknown_shift_e6e7eb4f"
+            ]
+          }
+        }
+      },
+      "_unknown_role": {
+        "no_year": {
+          "_unknown_stage": {
+            "files": 2,
+            "questions": 71,
+            "paper_ids": [
+              "unknown_unknown_noyear_unknown_unknown_shift_8cf4d239",
+              "unknown_unknown_noyear_unknown_unknown_shift_8d36b7a5"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "outputs": {
+    "separation_report_json": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/papers_json/separation_report.json",
+    "separation_report_md": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/papers_json/separation_report.md"
+  }
+}
