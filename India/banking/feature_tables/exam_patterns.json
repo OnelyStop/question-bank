@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "description": "Exam duration / marks / sectional timing used when building papers + question marks. Keys are bank|role|exam_type (case-insensitive).",
+  "default": {
+    "duration_min": null,
+    "total_marks": null,
+    "marks_per_question": 1,
+    "negative_marks": 0.25,
+    "section_timing": null
+  },
+  "patterns": {
+    "SBI|PO|Prelims": {
+      "duration_min": 60,
+      "total_marks": 100,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": [
+        { "section": "English", "duration_min": 20, "questions": 30, "marks": 30 },
+        { "section": "Quantitative", "duration_min": 20, "questions": 35, "marks": 35 },
+        { "section": "Reasoning", "duration_min": 20, "questions": 35, "marks": 35 }
+      ]
+    },
+    "SBI|PO|Mains": {
+      "duration_min": 180,
+      "total_marks": 200,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": null
+    },
+    "SBI|Clerk|Prelims": {
+      "duration_min": 60,
+      "total_marks": 100,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": [
+        { "section": "English", "duration_min": 20, "questions": 30, "marks": 30 },
+        { "section": "Numerical", "duration_min": 20, "questions": 35, "marks": 35 },
+        { "section": "Reasoning", "duration_min": 20, "questions": 35, "marks": 35 }
+      ]
+    },
+    "SBI|Clerk|Mains": {
+      "duration_min": 160,
+      "total_marks": 200,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": null
+    },
+    "IBPS|PO|Prelims": {
+      "duration_min": 60,
+      "total_marks": 100,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": [
+        { "section": "English", "duration_min": 20, "questions": 30, "marks": 30 },
+        { "section": "Quantitative", "duration_min": 20, "questions": 35, "marks": 35 },
+        { "section": "Reasoning", "duration_min": 20, "questions": 35, "marks": 35 }
+      ]
+    },
+    "IBPS|PO|Mains": {
+      "duration_min": 180,
+      "total_marks": 200,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": null
+    },
+    "IBPS|Clerk|Prelims": {
+      "duration_min": 60,
+      "total_marks": 100,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": [
+        { "section": "English", "duration_min": 20, "questions": 30, "marks": 30 },
+        { "section": "Numerical", "duration_min": 20, "questions": 35, "marks": 35 },
+        { "section": "Reasoning", "duration_min": 20, "questions": 35, "marks": 35 }
+      ]
+    },
+    "IBPS|Clerk|Mains": {
+      "duration_min": 160,
+      "total_marks": 200,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": null
+    },
+    "IBPS|RRB|Prelims": {
+      "duration_min": 45,
+      "total_marks": 80,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": [
+        { "section": "Reasoning", "duration_min": 25, "questions": 40, "marks": 40 },
+        { "section": "Quantitative", "duration_min": 20, "questions": 40, "marks": 40 }
+      ]
+    },
+    "IBPS|RRB|Mains": {
+      "duration_min": 120,
+      "total_marks": 200,
+      "marks_per_question": 1,
+      "negative_marks": 0.25,
+      "section_timing": null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source_papers_dir": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/papers-deduped",
+  "cleaned_jsonl": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/pattern_pipeline/out/questions.jsonl",
+  "paper_files_seen": 305,
+  "papers": 235,
+  "papers_active": 235,
+  "papers_canonical": 121,
+  "unique_exam_keys": 121,
+  "directions": 3039,
+  "questions": 18651,
+  "questions_active": 17797,
+  "questions_inactive": 854,
+  "questions_missing_answer": 18651,
+  "questions_with_direction": 13292,
+  "questions_with_pattern": 18651,
+  "duplicate_content_hash_groups": 26,
+  "bank_counts": {
+    "IBPS": 112,
+    "SBI": 103,
+    "null": 20
+  },
+  "outputs": {
+    "papers": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/papers.jsonl",
+    "directions": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/directions.jsonl",
+    "questions": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/questions.jsonl",
+    "attempts": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/attempts.jsonl",
+    "attempt_answers": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/attempt_answers.jsonl",
+    "user_topic_stats": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/user_topic_stats.jsonl",
+    "tables_catalog": "C:/Users/avish/Downloads/OnelyStop-question-bank/India/banking/feature_tables/out/tables_catalog.json"
+  }
+}

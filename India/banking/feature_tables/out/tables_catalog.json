@@ -1,0 +1,40 @@
+{
+  "tables": [
+    {
+      "name": "papers",
+      "schema": "schemas/papers.schema.json",
+      "rows": 235,
+      "populated": true
+    },
+    {
+      "name": "directions",
+      "schema": "schemas/directions.schema.json",
+      "rows": 3039,
+      "populated": true
+    },
+    {
+      "name": "questions",
+      "schema": "schemas/questions.schema.json",
+      "rows": 18651,
+      "populated": true
+    },
+    {
+      "name": "attempts",
+      "schema": "schemas/attempts.schema.json",
+      "rows": 0,
+      "populated": false
+    },
+    {
+      "name": "attempt_answers",
+      "schema": "schemas/attempt_answers.schema.json",
+      "rows": 0,
+      "populated": false
+    },
+    {
+      "name": "user_topic_stats",
+      "schema": "schemas/user_topic_stats.schema.json",
+      "rows": 0,
+      "populated": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onelystop.local/banking/feature_tables/questions.schema.json",
+  "title": "questions",
+  "description": "One row per question. paper_id must never be dropped.",
+  "type": "object",
+  "required": ["q_id", "paper_id", "q_num", "stem", "options", "content_hash", "is_active"],
+  "properties": {
+    "q_id": { "type": "string" },
+    "paper_id": { "type": "string", "description": "Which paper it came from. Never drop this." },
+    "q_num": { "type": "integer", "description": "Number in that paper; sets mock order." },
+    "stem": { "type": "string", "description": "The question text." },
+    "options": {
+      "type": "object",
+      "propertyNames": { "enum": ["a", "b", "c", "d", "e"] },
+      "additionalProperties": { "type": "string" }
+    },
+    "answer": { "type": ["string", "null"], "enum": ["a", "b", "c", "d", "e", null] },
+    "explanation": { "type": ["string", "null"] },
+    "section": { "type": ["string", "null"], "description": "Reasoning / Quant / English / GA" },
+    "topic": { "type": ["string", "null"] },
+    "difficulty": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+    "direction_id": { "type": ["string", "null"] },
+    "marks": { "type": ["number", "null"], "description": "Usually 1, from exam pattern." },
+    "negative_marks": { "type": ["number", "null"], "description": "Usually 0.25, from exam pattern." },
+    "content_hash": { "type": "string", "description": "Fingerprint of stem + options for dedupe." },
+    "is_active": { "type": "boolean", "description": "false if options missing/empty." },
+    "question_pattern": { "type": ["string", "null"], "description": "Optional structural pattern from pattern pipeline." }
+  },
+  "additionalProperties": false
+}

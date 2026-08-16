@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onelystop.local/banking/feature_tables/directions.schema.json",
+  "title": "directions",
+  "description": "Passages / shared instructions. Always look up by paper_id + direction_id together.",
+  "type": "object",
+  "required": ["paper_id", "direction_id", "body"],
+  "properties": {
+    "paper_id": { "type": "string", "description": "Part of the key. Passage ids repeat across papers." },
+    "direction_id": { "type": "string", "description": "d001…d030, only unique inside one paper." },
+    "body": { "type": "string", "description": "The passage or instruction text." }
+  },
+  "additionalProperties": false
+}

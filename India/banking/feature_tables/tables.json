@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "spec": "question-features-spec.pdf",
+  "tables": [
+    {
+      "name": "papers",
+      "kind": "content",
+      "schema_file": "schemas/papers.schema.json",
+      "plain_words": "One row per exam paper"
+    },
+    {
+      "name": "directions",
+      "kind": "content",
+      "schema_file": "schemas/directions.schema.json",
+      "plain_words": "Passages shared by several questions; key is paper_id + direction_id"
+    },
+    {
+      "name": "questions",
+      "kind": "content",
+      "schema_file": "schemas/questions.schema.json",
+      "plain_words": "One row per question; never drop paper_id"
+    },
+    {
+      "name": "attempts",
+      "kind": "runtime",
+      "schema_file": "schemas/attempts.schema.json",
+      "plain_words": "One row each time a student sits something"
+    },
+    {
+      "name": "attempt_answers",
+      "kind": "runtime",
+      "schema_file": "schemas/attempt_answers.schema.json",
+      "plain_words": "One row per question answered"
+    },
+    {
+      "name": "user_topic_stats",
+      "kind": "runtime",
+      "schema_file": "schemas/user_topic_stats.schema.json",
+      "plain_words": "Running total per student per topic"
+    }
+  ]
+}

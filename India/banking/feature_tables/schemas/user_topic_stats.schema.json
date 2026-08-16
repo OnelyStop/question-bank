@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onelystop.local/banking/feature_tables/user_topic_stats.schema.json",
+  "title": "user_topic_stats",
+  "description": "Running total per student per topic. Derived from attempt_answers for fast dashboard reads.",
+  "type": "object",
+  "required": ["user_id", "topic", "attempted", "correct", "accuracy"],
+  "properties": {
+    "user_id": { "type": "string" },
+    "topic": { "type": "string" },
+    "attempted": { "type": "integer", "minimum": 0 },
+    "correct": { "type": "integer", "minimum": 0 },
+    "accuracy": { "type": "number", "minimum": 0, "maximum": 1, "description": "correct ÷ attempted (mastery)." },
+    "last_seen_at": { "type": ["string", "null"], "format": "date-time" }
+  },
+  "additionalProperties": false
+}
