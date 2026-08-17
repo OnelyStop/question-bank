@@ -1,65 +1,81 @@
 # schema
 
-One file — [`schema.json`](schema.json) — one question, flat. 29 fields, and
-everything is on the row: no joins, no lookup tables.
+One file — [`schema.json`](schema.json) — one question, flat. 23 fields, no
+joins.
 
-```jsonc
-{
-  "q_id": "...", "paper_id": "...", "q_num": 12,
-  "stem": "...", "options": [...], "answer": null,
-  "direction_text": "Directions (11-15): Study the following...",
-  "bank": "IBPS", "role": "Clerk", "year": 2023, "shift": null,
-  "section": "Reasoning", "question_pattern": "shared_directions_set",
-  "marks": 1, "is_active": true
-}
-```
+## What was dropped, and why
 
-Import this one file and you can filter by bank, role, year, exam type,
-section or pattern, and render the question without fetching anything else.
+Six fields carried no information. A field that has one value everywhere cannot
+filter anything:
 
-## What each group is for
-
-| Group | Fields |
+| Dropped | Reason |
 |---|---|
-| **Identity** | `q_id` `paper_id` `q_num` `content_hash` |
-| **Content** | `stem` `options` `answer` `explanation` `direction_id` `direction_text` |
-| **Filter** | `bank` `role` `exam_type` `year` `shift` `memory_based` `language` `section` `topic` `topic_source` `difficulty` `question_pattern` |
-| **Render** | `has_image` `image_refs` `page_start` |
-| **Scoring** | `marks` `negative_marks` `option_count` `is_active` |
+| `marks` | constant `1` on all 18,651 — exam config, not question data |
+| `negative_marks` | constant `0.25` — same |
+| `language` | constant `"english"` — add back when Hindi papers land |
+| `option_count` | `len(options)` — derivable |
+| `topic_source` | provenance for a field that doesn't exist yet |
+| `page_start` | which PDF page it came from; no product use |
 
-`direction_text` is the shared passage, DI table or seating arrangement,
-**inlined** rather than referenced. 71% of questions have one, and 3,039
-passages are shared by 13,292 questions, so inlining duplicates each about 4.4×
-— roughly **+9.7 MB on a 16.8 MB file**. That's the price of not needing a
-second table, and at this size it's the right trade.
+## Two changes that cost nothing
 
-`direction_id` stays alongside it so questions sharing a passage can still be
-grouped and shown together.
+**Null fields are omitted, not written.** `answer` and four others are empty on
+every row; writing `"answer": null` 18,651 times cost 2.5 MB. They stay declared
+in the schema — they're coming — but absent from the data until filled.
 
-## x-fill: what is actually populated
+**`content_hash` is 16 hex chars, not 64.** It exists to make re-import
+idempotent; 16 chars is collision-safe at this scale and the full hash was 5% of
+the whole file.
 
-Every field carries `x-fill`, measured across all 18,651 questions rather than
-asserted. Read it before building on a field.
+Together with the six dropped fields: **29.3 MB → 23.7 MB, 19% smaller.**
 
-**Empty (0%)** — `answer`, `explanation`, `topic`, `topic_source`,
-`difficulty`, `image_refs`.
+## Where the bytes actually are
 
-**Partial** — `shift` 20%, `section` 17%, `page_start` 87%, `bank` 92%,
-`exam_type` 93%, `year` 96%, `role` 97%.
+| | | |
+|---|---|---|
+| `direction_text` | 10.1 MB | **34%** — the inlining cost |
+| `stem` | 4.6 MB | 16% |
+| `options` | 2.4 MB | 8% |
 
-Two consequences worth knowing before wiring the UI:
+`direction_text` is one third of the file because 3,039 passages are shared by
+13,292 questions — inlining duplicates each ~4.4×. That is the price of a
+single-file import with no join, and it's the right trade at this size. If the
+corpus grows 10×, revisit it.
 
-- **`answer` at 0% means no practice, scoring or marking works yet.** This is
-  the blocker.
-- **`shift` at 20% and `section` at 17% are filter fields.** A shift filter
-  hides 80% of the bank; a section filter hides 83%. Ship those two as facets
-  only once they're filled, or they'll look broken.
+## File size is not the real efficiency question
 
-`topic`, `topic_source`, `difficulty` and most of `section` are empty because
-the classifier stage was never built. See the root [README](../README.md).
+This file is imported into Postgres once. 23.7 MB costs nothing at import and
+the app never ships it to a browser. What matters is how the filters run:
+
+- The filter columns are **low cardinality** — `bank` 2 distinct, `exam_type` 2,
+  `role` 3, `section` 3, `year` 10, `question_pattern` 13. A btree index on any
+  one alone is close to useless; Postgres will just seq-scan. Index the
+  combinations you actually query, e.g. `(bank, role, year)`.
+- **`is_active` belongs in every filter**, and 854 questions are already false.
+  A partial index — `where is_active` — keeps the dead rows out of the index
+  entirely.
+- Searching `stem` is a full-text problem, not a `LIKE` one. That needs a GIN
+  index on a `tsvector`, and it's the only field where the index will approach
+  the size of the data.
+
+## x-fill: read before you build
+
+Every field carries `x-fill`, measured across all 18,651 rows.
+
+**Empty (0%)** — `answer`, `explanation`, `topic`, `difficulty`, `image_refs`.
+
+**Partial** — `section` 17%, `shift` 20%, `bank` 92%, `exam_type` 93%,
+`year` 96%, `role` 97%.
+
+Two that will bite:
+
+- **`answer` at 0% blocks practice, scoring and marking entirely.**
+- **`section` 17% and `shift` 20% are filter fields.** As facets they'd hide 83%
+  and 80% of the bank respectively — they read as broken UI, not missing data.
+  Hold them back until the classifier fills them.
 
 ## Not here
 
-The app's own tables — `attempts`, `attempt_answers`, `user_topic_stats` — are
-written at runtime and defined in the frontend repo (`src/db/schema.ts`) with
-their RLS policies. This repo produces no rows for them.
+`attempts`, `attempt_answers` and `user_topic_stats` are written by the app at
+runtime and defined in the frontend repo (`src/db/schema.ts`) with their RLS
+policies. This repo produces no rows for them.
