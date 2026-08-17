@@ -3,9 +3,18 @@
 Different people own different pipeline steps, so the rules exist to stop one
 step's change from silently breaking the next.
 
+## Setup
+
+```bash
+git config core.hooksPath .githooks
+```
+
+One command, once per clone. It installs the pre-push hook that stops an
+accidental push to `main`.
+
 ## No direct pushes to main
 
-`main` is protected. Branch, push the branch, open a PR:
+Branch, push the branch, open a PR:
 
 ```bash
 git switch -c 2-classify/strip-devanagari
@@ -16,8 +25,24 @@ gh pr create
 Name the branch after the step you're working on — `1-extract/…`,
 `2-classify/…`, `4-dedupe/…`. It makes it obvious who should review.
 
-CI must pass and one review is required. Force-pushing to `main` is blocked for
-everyone, including admins.
+CI must pass and a review is expected before merge.
+
+**Server-side enforcement is not switched on, and can't be yet.** GitHub requires
+Pro or Team to protect a branch on a *private* repo, and this org is on the free
+plan — both the branch-protection and rulesets APIs return 403. Making the repo
+public would unlock it, but `corpus/pdf/` holds several hundred third-party exam
+PDFs, so that isn't an option.
+
+So the rule is enforced two ways, neither of them airtight:
+
+| | |
+|---|---|
+| `.githooks/pre-push` | refuses a push to `main`. Per-clone, opt-in, bypassable with `--no-verify` |
+| CI | runs on every PR *and* every push to `main`, so a direct push still gets checked |
+
+To close the gap properly: **GitHub Team is $4/user/month**, and then
+`required_pull_request_reviews` and `enforce_admins` can be turned on for real.
+Worth doing once more than two people are committing.
 
 ## What CI checks
 
