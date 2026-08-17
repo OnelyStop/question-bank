@@ -1,52 +1,57 @@
 # schema
 
-One file — [`schema.json`](schema.json) — covering everything this repo
-produces. Four definitions under `$defs`:
+One file — [`schema.json`](schema.json) — describing what this repo hands to
+the app.
 
-| `$def` | Describes |
-|---|---|
-| `paper_file` | a paper under `data/papers/`, questions nested inside |
-| `index_row` | one flat row per question in `data/papers/index.jsonl` |
-| `parse_report` | the per-run summary written beside the papers |
-| `question_pattern` | the closed list of 14 patterns |
+A **question** is the unit. It points at two other rows, and both are in the
+schema because a question is not usable without them:
 
-## The app's tables are not here
+| `$def` | | Why it's here |
+|---|---|---|
+| `question` | 21 fields | the thing you import |
+| `direction` | 3 fields | **71% of questions are unreadable without it** |
+| `paper` | 16 fields | where the question came from |
 
-This repo extracts and validates. It does not own the database.
+## Why direction is not optional
 
-`papers`, `directions`, `questions`, `attempts`, `attempt_answers` and
-`user_topic_stats` are defined in the **frontend repo** as Drizzle schema
-(`src/db/schema.ts`), created by `bun run db:migrate`, with their RLS policies
-beside them. Three of those six this repo never writes a single row for — they
-are filled by the app at runtime.
+13,292 of 18,651 questions carry a `direction_id` and nothing else — the shared
+passage, the DI table, the seating arrangement all live in the `direction` row.
+A reading-comprehension question imported on its own is five options and no
+passage.
 
-`build_feature_tables.py` exports JSONL for the importer to read. The shape of
-that export is whatever the build script writes; the app validates it on the
-way in. A schema here would be a second definition of someone else's tables,
-kept in sync by hand.
+`paper` matters less at read time but every question has a `paper_id`, and it's
+what "IBPS Clerk 2023 Mains" is attached to.
 
-## paper_file
+## The fields tell you what's actually filled
 
-A paper is one file, so `bank`, `role`, `year` and `shift` are stored once at
-the top and every question inherits them. `paper_id` is
-`{bank}_{role}_{year}_{stage}_{shift}_{hash8}`.
+Every field in `question` carries `x-fill` — the percentage non-null across all
+18,651 exported questions, measured from the data, not asserted.
 
-Questions carry `direction_id` so a puzzle or DI set stays linked to the passage
-it shares, and `metrics` records what the parser could and could not see.
+Five are at **0%**:
 
-## index_row
+```
+answer        explanation    topic    topic_source    difficulty
+```
 
-The same questions flattened, one row each, so a filter over 21,044 questions
-doesn't have to open 243 files. Every field carries `x-fill` — the percentage of
-rows where it is non-null, measured from the data rather than asserted.
+`answer` is the blocker — the export cannot be used for practice until it's
+filled. `topic` and `difficulty` are empty because the classifier stage was
+never built; `section` is at 17% for the same reason. See the root
+[README](../README.md).
 
-Two are worth knowing before you build on it: **`answer` is 0%** and **`topic`
-is 0%**. `section` is partial. The pipeline that fills them is described in the
-root [README](../README.md).
+`image_refs` is also 0%, on the 986 questions where `has_image` is true.
 
 ## question_pattern
 
-The only thing here enforced at runtime: `pipeline/patterns/validate.py` fails
-any row whose `question_pattern` is outside the 14. Each entry keeps its
-description and detection signals under `x-patterns`, and the human-readable
-write-up of each lives in `.cursor/skills/banking-question-pattern-pipeline/`.
+An enum on the question itself, not a separate concern — one of 14 values,
+enforced at runtime by `pipeline/patterns/validate.py`. The write-up of each
+pattern lives in `.cursor/skills/banking-question-pattern-pipeline/`.
+
+## Not here
+
+**The app's tables.** `attempts`, `attempt_answers` and `user_topic_stats` are
+written by the app at runtime; this repo produces no rows for them. All the
+tables — including the three above — are defined in the frontend repo as
+Drizzle schema (`src/db/schema.ts`) with their RLS policies beside them.
+
+**The source paper files** under `data/papers/`. Those are the pipeline's input,
+not its output. Their shape is whatever `pipeline/pdf/` writes.

@@ -29,7 +29,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
 
-    allowed = set(json.loads(SCHEMA_FILE.read_text(encoding="utf-8"))["$defs"]["question_pattern"]["enum"])
+    allowed = set(json.loads(SCHEMA_FILE.read_text(encoding="utf-8"))["$defs"]["question"]["properties"]["question_pattern"]["enum"])
     errors = 0
     rows = 0
     with args.jsonl.open(encoding="utf-8") as f:
