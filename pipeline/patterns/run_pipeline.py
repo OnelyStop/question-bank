@@ -2,7 +2,7 @@
 """
 Run the banking question pattern extraction pipeline.
 
-Reads papers from India/banking/papers and/or papers-deduped,
+Reads papers from data/papers and/or data/papers-deduped,
 classifies each question with pattern skills, and writes uniform
 Supabase-ready JSONL (+ summary report).
 

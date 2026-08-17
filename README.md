@@ -5,8 +5,9 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-data/       the questions — the only copy, not regenerable
-pipeline/   the code that produced them
+corpus/     the source PDFs — input, gitignored, currently empty
+data/       the questions extracted from them — output, the only copy
+pipeline/   the code that turns one into the other
 schema/     what one exported question looks like
 scripts/    typesetting and publish-time checks
 ```

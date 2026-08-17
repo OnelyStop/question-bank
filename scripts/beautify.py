@@ -17,7 +17,7 @@ Two things happen here, and they are deliberately separate:
           never extracted cannot be answered by anyone, and no amount of string
           surgery invents the arrangement back. Those leave the set.
 
-Reads India/banking/raw/ready.json and writes, per slice N:
+Reads data/raw/ready.json and writes, per slice N:
   cleaned/N.pdf    typeset, branding-free, charts embedded
   cleaned/N.json   the same questions, machine-readable
   flagged/N.pdf    the rejects, each with its reason
@@ -40,7 +40,7 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 
 ROOT = Path(__file__).resolve().parents[1]
-SETS = ROOT / "India" / "banking" / "sets"
+SETS = ROOT / "data" / "sets"
 SRC = SETS / "extracted.json"
 ASSET_CLASSES = ROOT / "tools" / "assets_classified.json"
 OUT_CLEAN = SETS / "usable"

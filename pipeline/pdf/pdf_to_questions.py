@@ -1,5 +1,5 @@
 """
-Convert bank exam PYQ PDFs in corpus/ into structured JSON under question_bank/.
+Convert bank exam PYQ PDFs in corpus/ into structured JSON under data/papers/.
 
 Usually just run:
   python pdf_question_pipeline.py --force --skip-answers
@@ -44,8 +44,8 @@ from question_schema import (
 # tools/pdf_pipeline/ → repo root is two levels up
 ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parents[1]
-DEFAULT_CORPUS = REPO_ROOT / "India" / "banking" / "corpus"
-DEFAULT_OUT = REPO_ROOT / "India" / "banking" / "papers"
+DEFAULT_CORPUS = REPO_ROOT / "corpus"
+DEFAULT_OUT = REPO_ROOT / "data" / "papers"
 
 log = logging.getLogger("pdf_to_questions")
 
