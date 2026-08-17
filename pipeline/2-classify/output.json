@@ -1,0 +1,47 @@
+{
+  "paper_id": "ibps_clerk_2019_mains_unknown_shift_781623cd",
+  "bank": "IBPS",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2019,
+  "stage": "Mains",
+  "shift": null,
+  "memory_based": true,
+  "source_pdf": "IBPS/Clerk/2019/Mains/IBPS-Clerk-Mains-2019.pdf",
+  "parse_status": "ok",
+  "parse_notes": [],
+  "question_count": 155,
+
+  "directions": [
+    {
+      "direction_id": "d019",
+      "q_range": [93, 99],
+      "body": "Line chart given below shows markup percent more than CP and discount percent given on MRP of seven different articles sold by a shopkeeper. Study the data carefully and answer the following questions.",
+      "body_hi": null,
+      "has_image": true,
+      "image_refs": ["ibps_clerk_2019_mains_781623cd_p07_chart1.png"]
+    }
+  ],
+
+  "questions": [
+    {
+      "q_num": 95,
+      "stem": "What is the ratio of marked price to selling price of article C?",
+      "stem_hi": null,
+      "options": { "a": "4 : 3", "b": "3 : 4", "c": "4 : 7", "d": "7 : 4", "e": "4 : 5" },
+      "options_hi": null,
+      "direction_id": "d019",
+      "has_image": false,
+      "image_refs": [],
+      "page_start": 7,
+      "context_complete": true,
+
+      "section": "Quantitative",
+      "topic": "Data_Interpretation",
+      "difficulty": 3,
+      "question_pattern": "shared_directions_set",
+      "label_source": "rules",
+      "label_confidence": 0.92
+    }
+  ]
+}

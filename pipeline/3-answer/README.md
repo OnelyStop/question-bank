@@ -56,6 +56,18 @@ Budget note: ~600 characters each across 20,000 questions is about 12 MB in
 Postgres and a few dollars of tokens for one pass. Generate once and store it;
 regenerating per view costs more than storing it for years.
 
+## Output
+
+[`output.json`](output.json) — step 2's shape, plus three fields per question:
+
+```
+answer  answer_source  explanation
+```
+
+`answer_source` is not optional. `pdf_key` and `stem_match` have very different
+reliability, and when a wrong answer surfaces later you need to know which path
+produced it without re-deriving it.
+
 ## Done when
 
 - Answer coverage is reported honestly, per source, in `answer_report.json`.

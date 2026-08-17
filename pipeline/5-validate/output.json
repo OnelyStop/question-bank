@@ -1,0 +1,50 @@
+{
+  "checked": "data/questions.jsonl.gz",
+  "passed": false,
+  "questions": 18651,
+
+  "checks": [
+    { "name": "schema", "passed": true, "detail": "all 18651 rows match schema.json" },
+    { "name": "pattern_enum", "passed": true, "detail": "no value outside the 14" },
+    { "name": "answer_in_options", "passed": false, "detail": "0 answers present — nothing to check" },
+    { "name": "direction_integrity", "passed": true, "detail": "2744 passages, every direction_hash groups one" },
+    { "name": "no_provenance", "passed": true, "detail": "no source book, brand, internal id or URL" },
+    { "name": "no_duplicate_q_id", "passed": true, "detail": "18651 distinct" },
+    { "name": "no_duplicate_content_hash", "passed": true, "detail": "18651 distinct" },
+    { "name": "fill_not_regressed", "passed": true, "detail": "no field lower than the previous run" }
+  ],
+
+  "failures": [
+    {
+      "check": "required_field_empty",
+      "field": "answer",
+      "count": 18651,
+      "detail": "0% filled. The export cannot drive practice, scoring or marking.",
+      "severity": "fail"
+    },
+    {
+      "check": "figure_missing",
+      "field": "image_refs",
+      "count": 986,
+      "detail": "has_image is true but no file is referenced — these questions are unanswerable.",
+      "severity": "fail",
+      "sample_q_ids": ["ibps_clerk_2019_mains_unknown_shift_781623cd::q095"]
+    },
+    {
+      "check": "filter_too_sparse",
+      "field": "section",
+      "count": 15422,
+      "detail": "17% filled. Too sparse to expose as a filter facet — would hide 83% of the bank.",
+      "severity": "warn"
+    }
+  ],
+
+  "fill": {
+    "q_id": 100.0, "paper_id": 100.0, "q_num": 100.0, "content_hash": 100.0,
+    "stem": 99.1, "options": 97.8, "answer": 0.0, "explanation": 0.0,
+    "direction_id": 71.3, "direction_hash": 71.3, "direction_text": 71.3,
+    "bank": 92.2, "role": 97.3, "exam_type": 92.6, "year": 96.1, "shift": 19.8,
+    "section": 17.3, "topic": 0.0, "difficulty": 0.0, "question_pattern": 100.0,
+    "has_image": 100.0, "image_refs": 0.0, "is_active": 100.0
+  }
+}

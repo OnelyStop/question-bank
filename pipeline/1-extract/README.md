@@ -43,8 +43,14 @@ a guess.
 
 ## Output
 
-Per paper: `paper_id`, the exam metadata, and `questions[]` with `q_num`, `stem`,
-`options`, `direction_id`, `has_image`. No answers — that's step 3.
+[`output.json`](output.json) is the exact shape this step must produce — one
+paper, with `directions[]` and `questions[]` nested inside it.
+
+New in this step: everything. The fields to note are `stem_hi` / `options_hi` /
+`body_hi`, which hold the Devanagari **separately** rather than appended, and
+`direction_image_refs` on the direction rather than on each question.
+
+`answer`, `section` and `topic` are absent on purpose — later steps add them.
 
 Also write `parse_report.json`: per-PDF status, question count, and what couldn't
 be read. The previous run's report is what told us 134 of 379 PDFs produced

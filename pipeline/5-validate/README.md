@@ -46,6 +46,20 @@ Decide which of these are hard failures and which are warnings, and write the
 threshold down. A check whose threshold lives in someone's head gets argued with
 instead of fixed.
 
+## Output
+
+[`output.json`](output.json) — a report, not a pass/fail line.
+
+`passed` is the gate. `checks[]` records every check that ran, including the ones
+that passed, so an absent check is visible rather than silently skipped.
+`failures[]` names the field, the count, and a sample of `q_id`s so the fix
+doesn't need a grep. `fill{}` is kept so the next run can compare against it and
+fail on a regression.
+
+The committed example is the **current real state** of the last export: `answer`
+0%, 986 questions flagged for a figure that doesn't exist, `section` at 17%. It
+should fail today, and it does.
+
 ## Done when
 
 - It fails on a deliberately corrupted export — try it: flip an `answer` to a

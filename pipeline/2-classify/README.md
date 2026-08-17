@@ -50,6 +50,20 @@ push 73% higher". Two known problems to fix:
 - Some existing `section` values are wrong. A percentage/DI question was labelled
   Reasoning. Don't trust the 17% that's already populated; recompute it.
 
+## Output
+
+[`output.json`](output.json) — step 1's shape, plus five fields per question:
+
+```
+section  topic  difficulty  question_pattern  label_source  label_confidence
+```
+
+`label_source` and `label_confidence` are for auditing: they record whether a
+label came from a rule, a cross-section rule, or a section fallback, so a bad
+batch can be traced instead of guessed at.
+
+Nothing else changes. Same files, same nesting, same `q_num`s.
+
 ## Done when
 
 - `section` and `topic` are above 90%.

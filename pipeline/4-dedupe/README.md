@@ -88,6 +88,29 @@ Flatten to one line per question, per
 - Truncate `content_hash` to 16 chars.
 - Gzip. Repeated passages compress to almost nothing — 23 MB becomes about 3 MB.
 
+## Output
+
+[`output.json`](output.json) is one line of `data/questions.jsonl.gz` — the shape
+changes here, from nested paper files to one flat question per line.
+
+What's different from step 3:
+
+| | |
+|---|---|
+| added | `q_id`, `content_hash`, `direction_hash`, `seen_in`, `seen_count` |
+| flattened in | `bank`, `role`, `exam_type`, `year`, `shift`, `memory_based` |
+| inlined | `direction_text`, `direction_has_image`, `direction_image_refs` |
+| dropped | `stem_hi`, `options_hi`, `body_hi`, `label_source`, `answer_source`, `page_start`, `context_complete` |
+
+The `_hi` fields are dropped because the export is English-only. The audit fields
+(`label_source`, `answer_source`) are dropped because they exist to debug steps
+2 and 3, not to serve the app — but keep them in the paper JSON, don't discard
+them at the source.
+
+Every field must validate against
+[`schema/schema.json`](../../schema/README.md), which is the authority. 30 fields
+declared; `marks` and `negative_marks` are absent when they equal their defaults.
+
 ## Done when
 
 - `build_report.json` gives the fill rate of every field, how many duplicates

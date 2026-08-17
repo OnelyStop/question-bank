@@ -21,6 +21,28 @@ Each step reads the previous step's output and writes the same shape back, so a
 step can be re-run on its own without re-running the ones before it. Only step 4
 changes the shape, into the flat export.
 
+## What each step adds
+
+Every folder has an `output.json` — the exact shape that step must produce. The
+same question runs through all five, so you can diff one against the next.
+
+| After | Fields | Gains |
+|---|---|---|
+| [1-extract](1-extract/output.json) | 10 | `stem` `options` `direction_id` `has_image` `stem_hi` … |
+| [2-classify](2-classify/output.json) | 16 | `section` `topic` `difficulty` `question_pattern` `label_source` `label_confidence` |
+| [3-answer](3-answer/output.json) | 19 | `answer` `answer_source` `explanation` |
+| [4-dedupe](4-dedupe/output.json) | 28 | `q_id` `content_hash` `direction_hash` `seen_in` `seen_count` + the paper's identity flattened in |
+| [5-validate](5-validate/output.json) | — | a report, not questions |
+
+Step 4 also **drops** seven fields: `stem_hi`, `options_hi`, `page_start`,
+`context_complete`, `label_source`, `label_confidence`, `answer_source`. Those
+exist to debug steps 1–3 and to hold the Hindi; the app doesn't need them. Keep
+them in the paper JSON — drop them only on the way out.
+
+Steps 1–3 write **one nested file per paper**. Step 4 is where the shape changes,
+to one flat question per line, matching
+[`schema/schema.json`](../schema/README.md).
+
 ## Working on one step
 
 Each folder's README says what its step reads, what it must write, and how to
