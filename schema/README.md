@@ -294,7 +294,8 @@ Three that will bite:
 - **`answer` is 0%.** No practice, scoring or marking works until it's filled.
 - **`section` 17% and `shift` 20% are filter fields.** As facets they'd hide 83%
   and 80% of the bank — that reads as broken UI, not missing data. Hold them
-  back until the classifier fills them.
+  back until the classifier runs — it exists and would take `section` to 73%,
+  see the [pipeline steps](../README.md#the-pipeline).
 - **No figures exist at all.** 986 questions are flagged `has_image`, and not one
   carries a file reference — the extraction never produced the images. Those
   questions can't be answered from what we have, whichever field they'd sit in.

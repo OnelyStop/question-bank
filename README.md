@@ -32,17 +32,49 @@ Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
 never extracted can't be answered by anyone, so it's quarantined rather than
 shipped looking fine.
 
-## Running it
+## The pipeline
 
-From the repo root:
+Five steps, one file each.
+
+| Step | In → out | Needs | Status |
+|---|---|---|---|
+| **1. extract** | PDFs → paper JSON | the corpus | **blocked** — corpus is gone |
+| **2. classify** | + `section`, `topic`, `question_pattern` | nothing | **works, not wired in** |
+| **3. answer** | + `answer`, `explanation` | corpus, or a match against `sets/` | **blocked** |
+| **4. build** | → `questions.jsonl.gz` | nothing | works |
+| **5. validate** | checks the export against `schema/schema.json` | nothing | works |
+
+Steps 2, 4 and 5 need only the JSON in `data/`, so they run today. Only 1 and 3
+depend on the missing PDFs.
+
+### What runs right now
 
 ```bash
-python3 pipeline/patterns/run_pipeline.py               # classify into 14 patterns
-python3 pipeline/feature_tables/build_feature_tables.py # build the export
+python3 pipeline/patterns/run_pipeline.py                 # classify patterns
+python3 pipeline/feature_tables/build_feature_tables.py   # build the export
 python3 pipeline/patterns/validate.py pipeline/patterns/out/questions.jsonl
 ```
 
 Output today: **235 papers, 3,039 directions, 18,651 questions.**
+
+### Step 2 is the one worth doing next
+
+The section and topic classifier already exists — `pipeline/pdf/label_sections.py`
+and `label_topics.py`, with a taxonomy in `topic_taxonomy.json`. It reads the
+paper JSON, not the PDFs, and run against `data/papers-deduped` today it labels
+**13,569 of 18,651 questions (73%)**:
+
+| | Now | After step 2 |
+|---|---|---|
+| `section` | 17% | **73%** |
+| `topic` | 0% | **73%** |
+
+Subtopics it produces: Data_Interpretation (1,606), Seating_Arrangement (1,377),
+Error_Spotting (1,359), Arithmetic (1,220), Reading_Comprehension (987).
+
+It has never been wired into the export, and it currently won't even import —
+it sits in `pipeline/pdf/` and inherits an `import fitz` from `pdf_to_questions`
+that it doesn't need. Splitting the steps apart fixes that.
 
 ## What gets exported
 
@@ -76,12 +108,14 @@ are written.
 
 ## Status
 
-| Stage | | |
+| Step | | |
 |---|---|---|
-| Parse PDFs → questions | done | `stem` 99%, `options` 98% |
-| Classify patterns | done | `question_pattern` 100% |
-| **Answers** | **not done** | **0 of 18,651** |
-| **Classify section/topic** | **not built** | `section` 17%, `topic` 0% |
+| 1. Extract | done | `stem` 99%, `options` 98% |
+| 2. Classify patterns | done | `question_pattern` 100% |
+| 2. Classify section/topic | **built, never run** | would go 17% → 73% and 0% → 73% |
+| **3. Answers** | **not done** | **0 of 18,651** |
+| 4. Build | done | 235 papers, 18,651 questions |
+| 5. Validate | done | 21,044 rows, 0 errors |
 
 ## Two things to know first
 
@@ -93,9 +127,13 @@ extraction. Treat it as irreplaceable.
 questions were built by a separate path and never joined to the papers. Fixing
 this means either restoring the corpus and running
 `pipeline/pdf/attach_answers.py`, or matching `sets/` questions back onto their
-papers by stem. The second needs no missing files.
+papers by stem — step 3 above. The second needs no missing files.
 
 Until that's done the export can't drive practice, scoring or marking.
+
+**986 questions need a figure that doesn't exist.** They carry
+`has_image: true` and no file reference; the extraction never produced the
+images. Recovering them needs the corpus too.
 
 ## What a question contains
 
