@@ -1,6 +1,6 @@
 # schema
 
-One file — [`schema.json`](schema.json) — one question, flat. 23 fields, no
+One file — [`schema.json`](schema.json) — one question, flat. 26 fields, no
 joins.
 
 ## One question, every field filled
@@ -21,6 +21,7 @@ and classifier stages have run:
   "explanation": "MRP = CP x 1.4, SP = MRP x 0.75, so MRP : SP = 1 : 0.75 = 4 : 3...",
 
   "direction_id": "d019",
+  "direction_hash": "9f3c1ab77e40d215",
   "direction_text": "Line chart given below shows markup percent more than CP and discount percent given on MRP of seven different articles sold by a shopkeeper. Study the data carefully and answer the following questions.",
 
   "bank": "IBPS",
@@ -41,12 +42,14 @@ and classifier stages have run:
 }
 ```
 
-Everything except `answer`, `explanation`, `topic`, `difficulty` and
-`image_refs` is real, exported data — those five are empty today and shown
-filled to make the shape clear.
+Everything except `answer`, `explanation`, `topic`, `difficulty`,
+`image_refs` and `direction_hash` is real, exported data — those are empty or
+not yet emitted today, and shown filled to make the shape clear.
 
-Three things to read off it:
+Four things to read off it:
 
+- **`marks` and `negative_marks` are absent** because this question uses the
+  defaults (`1` and `-0.25`). They appear only where a paper differs.
 - **`options` is an object keyed `a`–`e`, not an array.** So `answer` is the
   key `"b"`, not an index. `option_count` was dropped because it's just
   `Object.keys(options).length`.
@@ -59,17 +62,62 @@ Three things to read off it:
 
 ## What was dropped, and why
 
-Six fields carried no information. A field that has one value everywhere cannot
+Four fields carried no information. A field with one value everywhere cannot
 filter anything:
 
 | Dropped | Reason |
 |---|---|
-| `marks` | constant `1` on all 18,651 — exam config, not question data |
-| `negative_marks` | constant `0.25` — same |
 | `language` | constant `"english"` — add back when Hindi papers land |
 | `option_count` | `len(options)` — derivable |
 | `topic_source` | provenance for a field that doesn't exist yet |
 | `page_start` | which PDF page it came from; no product use |
+
+## Grouping questions by passage
+
+**Never group by `direction_id`.** It is paper-scoped — 30 distinct values
+(`d001`…`d030`) reused across all 235 papers. Grouping by it alone merges
+questions from unrelated exams into one "passage".
+
+Group by **`direction_hash`** — 16 hex chars of the passage text:
+
+```sql
+select direction_hash, min(direction_text) as passage,
+       array_agg(q_id order by q_num) as questions
+from questions
+where direction_hash is not null and is_active
+group by direction_hash;
+```
+
+That gives **2,744 groups** rather than 3,039, because 148 passages are reused
+across papers — one appears in 11 — and hashing the text collapses them
+automatically. A paper-scoped key can't do that.
+
+Order inside a set is `q_num`. Typical set is 5 questions (median 5, max 32,
+68 passages have only one).
+
+If you need the group scoped to a single paper instead — showing a paper
+exactly as it was sat — use `(paper_id, direction_id)`. Both columns are
+already on the row, so that costs nothing.
+
+`direction_hash` costs +0.51 MB and is what makes the passage a first-class
+thing you can index, cache and render once.
+
+## marks and negative_marks
+
+Both are back, with defaults:
+
+| | Default |
+|---|---|
+| `marks` | `1` |
+| `negative_marks` | `-0.25` |
+
+They're **omitted from the export when they equal the default**, so today they
+cost nothing — all 18,651 questions are standard — and a paper that scores
+differently just writes the field. You get per-question customisation without
+paying 0.45 MB to repeat the same two numbers 18,651 times.
+
+Note `negative_marks` is stored **negative** (`-0.25`). The old export had it
+positive, which meant every consumer had to know whether to add or subtract.
 
 ## Two changes that cost nothing
 
@@ -81,7 +129,8 @@ in the schema — they're coming — but absent from the data until filled.
 idempotent; 16 chars is collision-safe at this scale and the full hash was 5% of
 the whole file.
 
-Together with the six dropped fields: **29.3 MB → 23.7 MB, 19% smaller.**
+Together with the four dropped fields, and after adding `direction_hash`:
+**29.3 MB → 24.2 MB, 17% smaller.**
 
 ## Where the bytes actually are
 
@@ -98,7 +147,7 @@ corpus grows 10×, revisit it.
 
 ## File size is not the real efficiency question
 
-This file is imported into Postgres once. 23.7 MB costs nothing at import and
+This file is imported into Postgres once. 24.2 MB costs nothing at import and
 the app never ships it to a browser. What matters is how the filters run:
 
 - The filter columns are **low cardinality** — `bank` 2 distinct, `exam_type` 2,

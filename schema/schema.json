@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/OnelyStop/question-bank/schema/schema.json",
   "title": "OnelyStop question",
-  "description": "One exported question, flat. Filter by bank, role, year, exam_type, section or question_pattern and render it without a join. Null fields are omitted from the export rather than written as null; x-fill is the percentage non-null across all 18,651 questions.",
+  "description": "One exported question, flat. Filter by bank, role, year, exam_type, section or question_pattern and render it without a join. Fields that are null, or equal to their default, are omitted from the export rather than written out; x-fill is the percentage non-null across all 18,651 questions.",
   "type": "object",
   "required": [
     "q_id",
@@ -88,6 +88,14 @@
         "null"
       ],
       "description": "Parser. Shared passage id within the paper, if any.",
+      "x-fill": 71.3
+    },
+    "direction_hash": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "16 hex chars of the passage text. Group questions sharing a passage by this. Do NOT group by direction_id — it is paper-scoped (30 distinct values reused across 235 papers) and grouping by it alone merges unrelated papers.",
       "x-fill": 71.3
     },
     "direction_text": {
@@ -213,6 +221,18 @@
       "type": "boolean",
       "description": "Import. false if options missing/empty.",
       "x-fill": 100.0
+    },
+    "marks": {
+      "type": "number",
+      "default": 1,
+      "description": "Marks awarded. Omitted from the export when it equals the default; write it only where a paper differs.",
+      "x-fill": 0.0
+    },
+    "negative_marks": {
+      "type": "number",
+      "default": -0.25,
+      "description": "Deducted on a wrong answer, stored negative. Omitted when it equals the default.",
+      "x-fill": 0.0
     }
   }
 }
