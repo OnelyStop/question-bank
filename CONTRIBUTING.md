@@ -25,24 +25,24 @@ gh pr create
 Name the branch after the step you're working on — `1-extract/…`,
 `2-classify/…`, `4-dedupe/…`. It makes it obvious who should review.
 
-CI must pass and a review is expected before merge.
+**`main` is protected server-side** by the `protect-main` ruleset. It applies to
+everyone — the bypass list is empty, so admins get no exemption either.
 
-**Server-side enforcement is not switched on, and can't be yet.** GitHub requires
-Pro or Team to protect a branch on a *private* repo, and this org is on the free
-plan — both the branch-protection and rulesets APIs return 403. Making the repo
-public would unlock it, but `corpus/pdf/` holds several hundred third-party exam
-PDFs, so that isn't an option.
-
-So the rule is enforced two ways, neither of them airtight:
-
-| | |
+| Rule | Effect |
 |---|---|
-| `.githooks/pre-push` | refuses a push to `main`. Per-clone, opt-in, bypassable with `--no-verify` |
-| CI | runs on every PR *and* every push to `main`, so a direct push still gets checked |
+| Pull request required | 1 approval, and **you cannot approve your own** |
+| Status check `checks` | CI must pass, and your branch must be up to date with `main` |
+| Squash only | one commit per PR on `main` |
+| Linear history | no merge commits |
+| No force push, no deletion | `main` can't be rewritten or removed |
 
-To close the gap properly: **GitHub Team is $4/user/month**, and then
-`required_pull_request_reviews` and `enforce_admins` can be turned on for real.
-Worth doing once more than two people are committing.
+`.githooks/pre-push` is still worth installing. It catches a push to `main` before
+you wait on a network round trip, and the error tells you the branch-and-PR flow.
+It's a convenience now, not the enforcement.
+
+**You need someone else to approve.** With three people on different steps that's
+the point — but it does mean a one-line fix waits for a reviewer. Ask in chat
+rather than sitting on it.
 
 ## What CI checks
 
