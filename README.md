@@ -5,86 +5,101 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-data/       the questions themselves — hand-checked, not regenerable
+data/       the questions — the only copy, not regenerable
 pipeline/   the code that produced them
-schema/     what every file is shaped like
-scripts/    typesetting and the publish-time checks
+schema/     what one exported question looks like
+scripts/    typesetting and publish-time checks
 ```
 
-Everything under `data/` is a source. Everything a pipeline writes is ignored by
-git and rebuilt on demand, so nothing in here is both large and derivable.
+Anything a pipeline writes is gitignored and rebuilt on demand, so nothing here
+is both large and derivable.
 
-## data/
+## The data
 
 | | Papers | Questions | Answers |
 |---|---|---|---|
-| **`papers/`** | 243 | 21,106 | — |
-| **`papers-deduped/`** | 235 | 18,651 | — |
-| **`sets/usable/`** | — | 3,596 | **all** |
+| `data/papers/` | 243 | 21,106 | none |
+| `data/papers-deduped/` | 235 | 18,651 | none |
+| `data/sets/usable/` | — | 3,596 | **all** |
 
-`papers/` and `papers-deduped/` are previous-year papers laid out as
-`{bank}/{role}/{year}/{stage}/{shift}/`, with an `index.jsonl` for filtering
-without opening every file. A question here stays attached to its paper: which
-bank, which year, which shift. The deduped pass drops 8 papers the full set
-keeps, which is the only reason both are here — `papers/` is the superset and
-the one to reach for if a paper seems to be missing.
+**Papers** are laid out as `{bank}/{role}/{year}/{stage}/{shift}/`. A question
+stays attached to its paper, so you always know which exam it came from.
+`papers/` is the superset — the deduped pass drops 8 papers it keeps.
 
-`sets/` pools questions from 58 PDFs — about half previous-year and
-memory-based papers, half coaching books — deduped across all of them and split
-into ten sets of 500. Provenance is dropped; what you get instead is a
-judgement on each question. 3,596 are usable, 1,255 are held back with a
-reason.
+**Sets** pool questions from 58 PDFs, deduped and split into ten sets of 500.
+Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
+1,255 are held back with a reason — a question whose seating arrangement was
+never extracted can't be answered by anyone, so it's quarantined rather than
+shipped looking fine.
 
-That distinction is the point. A question whose seating arrangement was never
-extracted cannot be answered by anyone, and a question whose stacked fraction
-collapsed into loose digits no longer means what it meant. Those are
-quarantined rather than shipped looking sound.
+## Running it
 
-**`sets/usable/` is the only place answers currently live**, under
-`correct_option`. The papers pipeline carries none — see below.
-
-Six PDFs feed both collections, so some questions appear in each, parsed two
-different ways. `data/sets/README.md` lists them.
-
-## pipeline/
-
-```
-pdf/             source PDFs → data/papers/           (needs the corpus)
-patterns/        classifies each question into 14 patterns
-feature_tables/  → the six tables the app imports
-```
-
-Run them from the repo root; the defaults resolve to `data/`.
+From the repo root:
 
 ```bash
-python3 pipeline/patterns/run_pipeline.py                  # → pipeline/patterns/out/
-python3 pipeline/feature_tables/build_feature_tables.py    # → pipeline/feature_tables/out/
+python3 pipeline/patterns/run_pipeline.py               # classify into 14 patterns
+python3 pipeline/feature_tables/build_feature_tables.py # build the export
+python3 pipeline/patterns/validate.py pipeline/patterns/out/questions.jsonl
 ```
 
-`build_feature_tables.py` emits `papers`, `directions`, `questions` and three
-empty per-user tables (`attempts`, `attempt_answers`, `user_topic_stats`) that
-the app fills at runtime. Current output: 235 papers, 3,039 directions, 18,651
-questions, 121 canonical.
+Output today: **235 papers, 3,039 directions, 18,651 questions.**
 
-## Two things to know before relying on this
+## What gets exported
 
-**The source PDFs are not in git.** `data/corpus/` is gitignored and absent, so
-`pipeline/pdf/` cannot run and the JSON under `data/` is the only copy of that
+One flat file. Each question carries everything needed to filter it (bank, role,
+year, section, pattern) and render it — no second file, no join.
+
+```json
+{
+  "q_id": "ibps_clerk_2019_mains_781623cd::q095",
+  "stem": "What is the ratio of marked price to selling price of article C?",
+  "options": { "a": "4 : 3", "b": "3 : 4", "c": "4 : 7", "d": "7 : 4", "e": "4 : 5" },
+  "answer": "b",
+  "direction_hash": "9f3c1ab77e40d215",
+  "direction_text": "Line chart given below shows markup percent...",
+  "bank": "IBPS", "role": "Clerk", "year": 2019,
+  "section": "Quantitative", "question_pattern": "shared_directions_set"
+}
+```
+
+Full field list in [`schema/`](schema/README.md). Two things worth knowing:
+
+- **The file and your database are different shapes.** In the file, all 6
+  questions of a passage set carry the passage text. In the database that column
+  doesn't exist — the text lives once in a `passages` table and each question
+  keeps the 16-character `direction_hash`.
+- **Ship it gzipped.** 23 MB becomes 3 MB, because the repeated passages
+  compress away.
+
+In Postgres the whole bank is about **18 MB**, or **30 MB** once explanations
+are written.
+
+## Status
+
+| Stage | | |
+|---|---|---|
+| Parse PDFs → questions | done | `stem` 99%, `options` 98% |
+| Classify patterns | done | `question_pattern` 100% |
+| **Answers** | **not done** | **0 of 18,651** |
+| **Classify section/topic** | **not built** | `section` 17%, `topic` 0% |
+
+## Two things to know first
+
+**The source PDFs are gone.** `data/corpus/` is gitignored and absent, so
+`pipeline/pdf/` can't run and the JSON under `data/` is the only copy of that
 extraction. Treat it as irreplaceable.
 
-**The papers pipeline has no answers — 0 of 18,651.** The 3,596 answered
-questions in `data/sets/usable/` are not wired into it; the two collections were
-built by separate paths and never joined. Answering the papers set means either
-running `pipeline/pdf/attach_answers.py` against a restored corpus, or matching
-`sets/` questions back onto their papers by stem.
+**Nothing has answers except `data/sets/usable/`.** Those 3,596 answered
+questions were built by a separate path and never joined to the papers. Fixing
+this means either restoring the corpus and running
+`pipeline/pdf/attach_answers.py`, or matching `sets/` questions back onto their
+papers by stem. The second needs no missing files.
 
-## What a question looks like
+Until that's done the export can't drive practice, scoring or marking.
 
-Only the question, its options, the answer, and — where the question genuinely
-needs one — the chart or table. No source book, no internal id, no coaching
-brand, no URL. `scripts/verify.py` re-reads the published output and fails if
-any of that survives.
+## What a question contains
 
-Formats are in `schema/schema.json` — one file, covering the paper files, the
-index rows, and the 14 question patterns. The app's database tables are defined
-in the frontend repo, not here.
+Only the question, its options, the answer, and — where it genuinely needs one —
+the chart or table. No source book, no internal id, no coaching brand, no URL.
+`scripts/verify.py` re-reads the published output and fails if any of that
+survives.
