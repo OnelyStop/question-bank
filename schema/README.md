@@ -1,57 +1,65 @@
 # schema
 
-One file — [`schema.json`](schema.json) — describing what this repo hands to
-the app.
+One file — [`schema.json`](schema.json) — one question, flat. 29 fields, and
+everything is on the row: no joins, no lookup tables.
 
-A **question** is the unit. It points at two other rows, and both are in the
-schema because a question is not usable without them:
-
-| `$def` | | Why it's here |
-|---|---|---|
-| `question` | 21 fields | the thing you import |
-| `direction` | 3 fields | **71% of questions are unreadable without it** |
-| `paper` | 16 fields | where the question came from |
-
-## Why direction is not optional
-
-13,292 of 18,651 questions carry a `direction_id` and nothing else — the shared
-passage, the DI table, the seating arrangement all live in the `direction` row.
-A reading-comprehension question imported on its own is five options and no
-passage.
-
-`paper` matters less at read time but every question has a `paper_id`, and it's
-what "IBPS Clerk 2023 Mains" is attached to.
-
-## The fields tell you what's actually filled
-
-Every field in `question` carries `x-fill` — the percentage non-null across all
-18,651 exported questions, measured from the data, not asserted.
-
-Five are at **0%**:
-
-```
-answer        explanation    topic    topic_source    difficulty
+```jsonc
+{
+  "q_id": "...", "paper_id": "...", "q_num": 12,
+  "stem": "...", "options": [...], "answer": null,
+  "direction_text": "Directions (11-15): Study the following...",
+  "bank": "IBPS", "role": "Clerk", "year": 2023, "shift": null,
+  "section": "Reasoning", "question_pattern": "shared_directions_set",
+  "marks": 1, "is_active": true
+}
 ```
 
-`answer` is the blocker — the export cannot be used for practice until it's
-filled. `topic` and `difficulty` are empty because the classifier stage was
-never built; `section` is at 17% for the same reason. See the root
-[README](../README.md).
+Import this one file and you can filter by bank, role, year, exam type,
+section or pattern, and render the question without fetching anything else.
 
-`image_refs` is also 0%, on the 986 questions where `has_image` is true.
+## What each group is for
 
-## question_pattern
+| Group | Fields |
+|---|---|
+| **Identity** | `q_id` `paper_id` `q_num` `content_hash` |
+| **Content** | `stem` `options` `answer` `explanation` `direction_id` `direction_text` |
+| **Filter** | `bank` `role` `exam_type` `year` `shift` `memory_based` `language` `section` `topic` `topic_source` `difficulty` `question_pattern` |
+| **Render** | `has_image` `image_refs` `page_start` |
+| **Scoring** | `marks` `negative_marks` `option_count` `is_active` |
 
-An enum on the question itself, not a separate concern — one of 14 values,
-enforced at runtime by `pipeline/patterns/validate.py`. The write-up of each
-pattern lives in `.cursor/skills/banking-question-pattern-pipeline/`.
+`direction_text` is the shared passage, DI table or seating arrangement,
+**inlined** rather than referenced. 71% of questions have one, and 3,039
+passages are shared by 13,292 questions, so inlining duplicates each about 4.4×
+— roughly **+9.7 MB on a 16.8 MB file**. That's the price of not needing a
+second table, and at this size it's the right trade.
+
+`direction_id` stays alongside it so questions sharing a passage can still be
+grouped and shown together.
+
+## x-fill: what is actually populated
+
+Every field carries `x-fill`, measured across all 18,651 questions rather than
+asserted. Read it before building on a field.
+
+**Empty (0%)** — `answer`, `explanation`, `topic`, `topic_source`,
+`difficulty`, `image_refs`.
+
+**Partial** — `shift` 20%, `section` 17%, `page_start` 87%, `bank` 92%,
+`exam_type` 93%, `year` 96%, `role` 97%.
+
+Two consequences worth knowing before wiring the UI:
+
+- **`answer` at 0% means no practice, scoring or marking works yet.** This is
+  the blocker.
+- **`shift` at 20% and `section` at 17% are filter fields.** A shift filter
+  hides 80% of the bank; a section filter hides 83%. Ship those two as facets
+  only once they're filled, or they'll look broken.
+
+`topic`, `topic_source`, `difficulty` and most of `section` are empty because
+the classifier stage was never built. See the root [README](../README.md).
 
 ## Not here
 
-**The app's tables.** `attempts`, `attempt_answers` and `user_topic_stats` are
-written by the app at runtime; this repo produces no rows for them. All the
-tables — including the three above — are defined in the frontend repo as
-Drizzle schema (`src/db/schema.ts`) with their RLS policies beside them.
-
-**The source paper files** under `data/papers/`. Those are the pipeline's input,
-not its output. Their shape is whatever `pipeline/pdf/` writes.
+The app's own tables — `attempts`, `attempt_answers`, `user_topic_stats` — are
+written at runtime and defined in the frontend repo (`src/db/schema.ts`) with
+their RLS policies. This repo produces no rows for them.

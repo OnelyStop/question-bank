@@ -1,371 +1,269 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/OnelyStop/question-bank/schema/schema.json",
-  "title": "OnelyStop question export",
-  "description": "What this repo hands to the app. A question is the unit; direction and paper are the two rows it points at. x-fill on each question field is the percentage non-null across the 18,651 exported questions.",
-  "$defs": {
-    "question": {
-      "title": "questions",
-      "description": "One row per question. Filled by parser + classifier + import script. paper_id must never be dropped.",
-      "type": "object",
-      "required": [
-        "q_id",
-        "paper_id",
-        "q_num",
-        "stem",
-        "options",
-        "has_image",
-        "image_refs",
-        "option_count",
-        "content_hash",
-        "is_active"
-      ],
-      "properties": {
-        "q_id": {
-          "type": "string",
-          "description": "Parser. Unique question id.",
-          "x-fill": 100.0
-        },
-        "paper_id": {
-          "type": "string",
-          "description": "Which paper it came from. Never drop this.",
-          "x-fill": 100.0
-        },
-        "q_num": {
-          "type": "integer",
-          "description": "Parser. Number in that paper; sets mock order.",
-          "x-fill": 100.0
-        },
-        "stem": {
-          "type": "string",
-          "description": "Parser. The question text.",
-          "x-fill": 99.1
-        },
-        "options": {
-          "type": "object",
-          "description": "Parser. Choices a–e.",
-          "propertyNames": {
-            "enum": [
-              "a",
-              "b",
-              "c",
-              "d",
-              "e"
-            ]
-          },
-          "additionalProperties": {
-            "type": "string"
-          },
-          "x-fill": 97.8
-        },
-        "answer": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "a",
-            "b",
-            "c",
-            "d",
-            "e",
-            null
-          ],
-          "description": "Parser. Correct option when known.",
-          "x-fill": 0.0
-        },
-        "explanation": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Parser. Why the answer is right.",
-          "x-fill": 0.0
-        },
-        "direction_id": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Parser. Shared passage id within the paper, if any.",
-          "x-fill": 71.3
-        },
-        "has_image": {
-          "type": "boolean",
-          "description": "Parser. Whether the question depends on a figure/chart image.",
-          "x-fill": 100.0
-        },
-        "image_refs": {
-          "type": "array",
-          "description": "Parser. Image/figure references for this question.",
-          "items": {
-            "type": "object"
-          },
-          "x-fill": 0.0
-        },
-        "page_start": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "description": "Parser. First PDF page for this question (1-based).",
-          "x-fill": 87.2
-        },
-        "section": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Classifier. Reasoning / Quantitative / English / GA / …",
-          "x-fill": 17.3
-        },
-        "topic": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Classifier. Finer label than section.",
-          "x-fill": 0.0
-        },
-        "topic_source": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Classifier. How topic was assigned (rules / llm / manual / …).",
-          "x-fill": 0.0
-        },
-        "difficulty": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "minimum": 1,
-          "maximum": 5,
-          "description": "Classifier. Difficulty 1–5.",
-          "x-fill": 0.0
-        },
-        "content_hash": {
-          "type": "string",
-          "description": "Import. Fingerprint of stem + options for dedupe.",
-          "x-fill": 100.0
-        },
-        "marks": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Import. Usually 1, from exam pattern.",
-          "x-fill": 100.0
-        },
-        "negative_marks": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Import. Usually 0.25, from exam pattern.",
-          "x-fill": 100.0
-        },
-        "option_count": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 5,
-          "description": "Import. Number of options present.",
-          "x-fill": 100.0
-        },
-        "is_active": {
-          "type": "boolean",
-          "description": "Import. false if options missing/empty.",
-          "x-fill": 100.0
-        },
-        "question_pattern": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Optional structural pattern from pattern pipeline.",
-          "enum": [
-            "standalone_mcq",
-            "shared_directions_set",
-            "reading_comprehension_set",
-            "cloze_passage_set",
-            "image_figure_based",
-            "visual_chart_graph_di",
-            "table_di_set",
-            "caselet_di_set",
-            "data_sufficiency",
-            "quantity_comparison",
-            "quadratic_comparison",
-            "match_the_columns",
-            "partial_or_missing_options",
-            "bilingual_stem_directions"
-          ],
-          "x-fill": 100.0
-        }
-      },
-      "additionalProperties": false
+  "title": "OnelyStop question",
+  "description": "One exported question, flat. Everything needed to filter it (bank, role, year, shift, section, pattern) and to render it (stem, options, inlined direction_text) is on the row. x-fill is the percentage non-null across all 18,651 questions.",
+  "type": "object",
+  "required": [
+    "q_id",
+    "paper_id",
+    "q_num",
+    "content_hash",
+    "memory_based",
+    "language",
+    "question_pattern",
+    "has_image",
+    "marks",
+    "negative_marks",
+    "option_count",
+    "is_active"
+  ],
+  "properties": {
+    "q_id": {
+      "type": "string",
+      "description": "Parser. Unique question id.",
+      "x-fill": 100.0
     },
-    "direction": {
-      "title": "directions",
-      "description": "The passage or DI table a question points at via direction_id. 13,292 of 18,651 questions (71%) are unreadable without it.",
-      "type": "object",
-      "required": [
-        "paper_id",
-        "direction_id",
-        "body"
-      ],
-      "properties": {
-        "paper_id": {
-          "type": "string",
-          "description": "Part of the key. Passage ids repeat across papers."
-        },
-        "direction_id": {
-          "type": "string",
-          "description": "d001…d030, only unique inside one paper."
-        },
-        "body": {
-          "type": "string",
-          "description": "The passage or instruction text."
-        }
-      },
-      "additionalProperties": false
+    "paper_id": {
+      "type": "string",
+      "description": "Which paper it came from. Never drop this.",
+      "x-fill": 100.0
     },
-    "paper": {
-      "title": "papers",
-      "description": "The paper a question belongs to, via paper_id.",
+    "q_num": {
+      "type": "integer",
+      "description": "Parser. Number in that paper; sets mock order.",
+      "x-fill": 100.0
+    },
+    "content_hash": {
+      "type": "string",
+      "description": "Import. Fingerprint of stem + options for dedupe.",
+      "x-fill": 100.0
+    },
+    "stem": {
+      "type": "string",
+      "description": "Parser. The question text.",
+      "x-fill": 99.1
+    },
+    "options": {
       "type": "object",
-      "required": [
-        "paper_id",
-        "exam_key",
-        "is_canonical",
-        "is_active"
-      ],
-      "properties": {
-        "paper_id": {
-          "type": "string",
-          "description": "Which document this is. Everything hangs off it."
-        },
-        "bank": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "SBI, IBPS, …"
-        },
-        "role": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "PO, Clerk, RRB, …"
-        },
-        "exam_type": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Prelims or Mains"
-        },
-        "year": {
-          "type": [
-            "integer",
-            "null"
-          ]
-        },
-        "shift": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Morning / afternoon sitting"
-        },
-        "memory_based": {
-          "type": [
-            "boolean",
-            "null"
-          ]
-        },
-        "exam_key": {
-          "type": "string",
-          "description": "bank + role + exam_type + year + shift; papers sharing a key describe the same real exam."
-        },
-        "is_canonical": {
-          "type": "boolean",
-          "description": "Show this one; hide other recalls of the same exam_key."
-        },
-        "duration_min": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "description": "Exam duration in minutes (from exam pattern)."
-        },
-        "total_marks": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Marks for the whole paper (from exam pattern)."
-        },
-        "section_timing": {
-          "type": [
-            "array",
-            "null"
-          ],
-          "description": "Prelims sectional timing, if any.",
-          "items": {
-            "type": "object",
-            "required": [
-              "section",
-              "duration_min"
-            ],
-            "properties": {
-              "section": {
-                "type": "string"
-              },
-              "duration_min": {
-                "type": "integer"
-              },
-              "questions": {
-                "type": [
-                  "integer",
-                  "null"
-                ]
-              },
-              "marks": {
-                "type": [
-                  "number",
-                  "null"
-                ]
-              }
-            }
-          }
-        },
-        "source_pdf": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "PDF path for tracing mistakes."
-        },
-        "is_active": {
-          "type": "boolean",
-          "description": "Hide a bad paper without deleting it."
-        },
-        "question_count": {
-          "type": [
-            "integer",
-            "null"
-          ]
-        },
-        "language": {
-          "type": [
-            "string",
-            "null"
-          ]
-        }
+      "description": "Parser. Choices a–e.",
+      "propertyNames": {
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ]
       },
-      "additionalProperties": false
+      "additionalProperties": {
+        "type": "string"
+      },
+      "x-fill": 97.8
+    },
+    "answer": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        null
+      ],
+      "description": "Parser. Correct option when known.",
+      "x-fill": 0.0
+    },
+    "explanation": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Parser. Why the answer is right.",
+      "x-fill": 0.0
+    },
+    "direction_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Parser. Shared passage id within the paper, if any.",
+      "x-fill": 71.3
+    },
+    "direction_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The shared passage / DI table / seating arrangement, inlined. 71% of questions have one.",
+      "x-fill": 71.3
+    },
+    "bank": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 92.2
+    },
+    "role": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 97.3
+    },
+    "exam_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 92.6
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 96.1
+    },
+    "shift": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 19.8
+    },
+    "memory_based": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 100.0
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Copied from the paper so questions filter without a join.",
+      "x-fill": 100.0
+    },
+    "section": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Classifier. Reasoning / Quantitative / English / GA / …",
+      "x-fill": 17.3
+    },
+    "topic": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Classifier. Finer label than section.",
+      "x-fill": 0.0
+    },
+    "topic_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Classifier. How topic was assigned (rules / llm / manual / …).",
+      "x-fill": 0.0
+    },
+    "difficulty": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Classifier. Difficulty 1–5.",
+      "x-fill": 0.0
+    },
+    "question_pattern": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional structural pattern from pattern pipeline.",
+      "enum": [
+        "standalone_mcq",
+        "shared_directions_set",
+        "reading_comprehension_set",
+        "cloze_passage_set",
+        "image_figure_based",
+        "visual_chart_graph_di",
+        "table_di_set",
+        "caselet_di_set",
+        "data_sufficiency",
+        "quantity_comparison",
+        "quadratic_comparison",
+        "match_the_columns",
+        "partial_or_missing_options",
+        "bilingual_stem_directions"
+      ],
+      "x-fill": 100.0
+    },
+    "has_image": {
+      "type": "boolean",
+      "description": "Parser. Whether the question depends on a figure/chart image.",
+      "x-fill": 100.0
+    },
+    "image_refs": {
+      "type": "array",
+      "description": "Parser. Image/figure references for this question.",
+      "items": {
+        "type": "object"
+      },
+      "x-fill": 0.0
+    },
+    "page_start": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Parser. First PDF page for this question (1-based).",
+      "x-fill": 87.2
+    },
+    "marks": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Import. Usually 1, from exam pattern.",
+      "x-fill": 100.0
+    },
+    "negative_marks": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Import. Usually 0.25, from exam pattern.",
+      "x-fill": 100.0
+    },
+    "option_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Import. Number of options present.",
+      "x-fill": 100.0
+    },
+    "is_active": {
+      "type": "boolean",
+      "description": "Import. false if options missing/empty.",
+      "x-fill": 100.0
     }
-  }
+  },
+  "additionalProperties": false
 }
