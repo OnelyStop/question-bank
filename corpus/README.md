@@ -3,17 +3,16 @@
 Everything the pipeline reads. Two sources, both raw:
 
 ```
-pdf/       the source PDFs                          gitignored, EMPTY
-papers/    243 papers, 21,044 questions             extracted from those PDFs
-sets/      4,851 questions from 58 other PDFs       3,596 of them answered
+papers/    243 papers, 21,044 questions          extracted from the source PDFs
+sets/      4,851 questions from 58 other PDFs    3,596 of them answered
 ```
 
 Nothing here is cleaned — that's the point. Cleaning is what the pipeline does,
 and its output goes to [`data/`](../data/README.md).
 
-## pdf/ — empty, and it's the main problem
+## The source PDFs are not here
 
-Tens of gigabytes of exam PDFs, never committed. Without them:
+Tens of gigabytes of exam papers, never committed to this repo. Without them:
 
 | | |
 |---|---|
@@ -21,10 +20,11 @@ Tens of gigabytes of exam PDFs, never committed. Without them:
 | `image_refs` | 986 questions need a figure that was never extracted |
 | re-extraction | a parser fix can't be re-run over the papers |
 
-Layout matters — the pipeline reads the path to work out which exam a PDF is:
+If they're recovered, they go in `corpus/pdf/` (gitignored), and layout matters —
+the pipeline reads the path to work out which exam a PDF is:
 
 ```
-pdf/{bank}/{role}/{year}/{stage}/ibps_clerk_2019_mains.pdf
+corpus/pdf/{bank}/{role}/{year}/{stage}/ibps_clerk_2019_mains.pdf
 ```
 
 A PDF that doesn't match lands in an `_unknown_*` bucket. The `_unknown` folders
@@ -51,7 +51,7 @@ in the source tree, it held 2,393 fewer questions than `papers/`, and keeping
 both meant every script had to pick one. The cleaning it did belongs in the
 pipeline, where it can be re-run.
 
-`papers/` is now the single source. While `pdf/` is empty it is also the only
+`papers/` is now the single source. Until the PDFs come back it is also the only
 copy of that extraction — treat it as irreplaceable.
 
 ## sets/ — the only answers in the repo

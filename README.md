@@ -5,7 +5,7 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     everything the pipeline reads — PDFs and the raw extraction
+corpus/     everything the pipeline reads — the raw extraction
 data/       the clean output, one gzipped file
 pipeline/   the five steps
 schema/     what one exported question looks like
@@ -69,7 +69,7 @@ old layout hid.
 
 ### 1. `1_extract.py` — PDFs to questions
 
-**In** `corpus/pdf/**/*.pdf` · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
+**In** the source PDFs · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
 
 - Read each PDF page as a layout stream, not flat text — column order and
   option alignment both come from geometry.
@@ -84,7 +84,8 @@ old layout hid.
 - Write `parse_report.json`: per-PDF status, question counts, what it couldn't
   read.
 
-Needs PyMuPDF and a populated `corpus/pdf/`. Both missing today.
+Needs PyMuPDF and the source PDFs, which aren't in this repo. Restore them to
+`corpus/pdf/` and this step runs again.
 
 ---
 
@@ -125,7 +126,7 @@ inherited from the PDF module — moving it to `lib/classify/` fixes that.
 Two sources, in order:
 
 1. **Answer keys from the PDFs** — the back-of-paper key, mapped to question
-   numbers. Needs `corpus/pdf/`, so blocked.
+   numbers. Needs the source PDFs, so blocked.
 2. **Stem match against `corpus/sets/usable/`** — 3,596 questions there are
    answered under `correct_option`, and **1,126 of them match a paper question**.
    Needs no missing files. Do this one now.
@@ -222,9 +223,9 @@ three-entry-point version.
 
 ## Two things to know first
 
-**The source PDFs are gone.** [`corpus/pdf/`](corpus/README.md) is gitignored
-and empty, so step 1 can't run and the JSON in `corpus/papers*` is the only copy
-of that extraction. Treat it as irreplaceable until the PDFs are restored.
+**The source PDFs are gone.** They were never committed, so step 1 can't run and
+[`corpus/papers/`](corpus/README.md) is the only copy of that extraction. Treat
+it as irreplaceable until they're restored.
 
 **Nothing has answers except `corpus/sets/usable/`.** Those 3,596 answered
 questions were built by a separate path and never joined to the papers. Fixing
