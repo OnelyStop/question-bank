@@ -3,6 +3,60 @@
 One file — [`schema.json`](schema.json) — one question, flat. 23 fields, no
 joins.
 
+## One question, every field filled
+
+A real row from IBPS Clerk 2019 Mains, shown as it will look once the answer
+and classifier stages have run:
+
+```json
+{
+  "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q095",
+  "paper_id": "ibps_clerk_2019_mains_unknown_shift_781623cd",
+  "q_num": 95,
+  "content_hash": "d758775a0377eafe",
+
+  "stem": "What is the ratio of marked price to selling price of article C?",
+  "options": { "a": "4 : 3", "b": "3 : 4", "c": "4 : 7", "d": "7 : 4", "e": "4 : 5" },
+  "answer": "b",
+  "explanation": "MRP = CP x 1.4, SP = MRP x 0.75, so MRP : SP = 1 : 0.75 = 4 : 3...",
+
+  "direction_id": "d019",
+  "direction_text": "Line chart given below shows markup percent more than CP and discount percent given on MRP of seven different articles sold by a shopkeeper. Study the data carefully and answer the following questions.",
+
+  "bank": "IBPS",
+  "role": "Clerk",
+  "exam_type": "Mains",
+  "year": 2019,
+  "shift": null,
+  "memory_based": true,
+
+  "section": "Quantitative",
+  "topic": "Profit and Loss",
+  "difficulty": "medium",
+  "question_pattern": "shared_directions_set",
+
+  "has_image": true,
+  "image_refs": ["ibps_clerk_2019_mains_781623cd_p07_chart1.png"],
+  "is_active": true
+}
+```
+
+Everything except `answer`, `explanation`, `topic`, `difficulty` and
+`image_refs` is real, exported data — those five are empty today and shown
+filled to make the shape clear.
+
+Three things to read off it:
+
+- **`options` is an object keyed `a`–`e`, not an array.** So `answer` is the
+  key `"b"`, not an index. `option_count` was dropped because it's just
+  `Object.keys(options).length`.
+- **`direction_text` repeats on every question in the set.** All seven articles
+  in that line chart share this passage — that's the 4.4× duplication, and it's
+  what lets you import one file.
+- **`has_image` is true here and `image_refs` is empty in the real data.** 986
+  questions are flagged as needing a figure and not one of them carries a
+  reference to it. This question cannot actually be answered without the chart.
+
 ## What was dropped, and why
 
 Six fields carried no information. A field that has one value everywhere cannot
