@@ -104,6 +104,41 @@ drop table questions_import;
 
 The 6 copies exist only inside `questions_import`, which is deleted at the end.
 
+### Do you actually need the passages table?
+
+Storage is not the reason. The deduped passages are **1.58 MB** across 2,744
+rows — keeping the text on all 13,292 questions instead costs about 10 MB, and
+10 MB is nothing to Postgres.
+
+The payload isn't the reason either. You can send a passage once per set without
+a separate table, by grouping in the query:
+
+```sql
+select direction_hash, min(direction_text), array_agg(q_id order by q_num)
+from questions group by direction_hash;
+```
+
+**The reason is editing.** These passages came out of PDFs and some are wrong —
+6 are cut off mid-sentence, and stacked fractions arrive mangled. When you fix
+one, you want to fix it in **one row**, not find all 6 copies and hope you got
+them all. With one table you cannot half-fix a passage.
+
+So: skip the table if the text is never going to change. Keep it if you'll be
+correcting extraction errors — which, with this corpus, you will.
+
+**Don't** try the middle option of storing the text on only the first question
+of each set. It saves the same space, but the query becomes a self-join, and
+deactivating that one question silently strips the passage from the whole set.
+
+### Can the passage text be made smaller?
+
+Not meaningfully, and it doesn't need to be. After dedup it's 1.58 MB total —
+mean 575 characters, median 370. Only 135 of 2,744 passages are over 2 KB, which
+is where Postgres would start compressing them anyway.
+
+The big text in `questions` is `stem` (4.6 MB) and `options` (2.4 MB), and that
+is the actual content — there is nothing to squeeze out of it.
+
 ### Why the file has copies at all
 
 Because it keeps it **one file**. No second file, no "load this one first", no
@@ -139,7 +174,9 @@ group by p.direction_hash, p.body;
 - Hashing the text also merges the **148 passages reused across papers** (one
   appears in 11), which a per-paper key can't do.
 - Want a passage scoped to one paper, exactly as it was sat? Use
-  `(paper_id, direction_id)` — both columns are already there.
+  `(paper_id, direction_id)`. Keep `direction_id` for this — 10 papers contain
+  two separate direction blocks whose text is identical, and hashing merges
+  them into one set.
 
 ## What's empty — read before building
 
