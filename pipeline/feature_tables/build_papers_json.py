@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.parent
 DEFAULT_QUESTIONS = ROOT / "out" / "questions.jsonl"
 DEFAULT_PAPERS = ROOT / "out" / "papers.jsonl"
-DEFAULT_OUT = REPO / "data/papers_json"
+DEFAULT_OUT = REPO / "corpus/papers_json"
 
 
 def slug_bank(value: Any) -> str:
@@ -169,7 +169,7 @@ def build(
         "source_questions": str(questions_path.as_posix()),
         "source_papers": str(papers_path.as_posix()),
         "out_dir": str(out_dir.as_posix()),
-        "layout": "data/papers_json/{bank}/{role}/{year}/{exam_type}/{paper_id}.json",
+        "layout": "corpus/papers_json/{bank}/{role}/{year}/{exam_type}/{paper_id}.json",
         "totals": {
             "input_questions": len(questions),
             "unique_papers_in_questions": len(by_paper),

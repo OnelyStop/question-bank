@@ -40,7 +40,7 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 
 ROOT = Path(__file__).resolve().parents[1]
-SETS = ROOT / "data" / "sets"
+SETS = ROOT / "corpus" / "sets"
 SRC = SETS / "extracted.json"
 ASSET_CLASSES = ROOT / "tools" / "assets_classified.json"
 OUT_CLEAN = SETS / "usable"

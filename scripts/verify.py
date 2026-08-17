@@ -21,7 +21,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SETS = ROOT / "data" / "sets"
+SETS = ROOT / "corpus" / "sets"
 
 LEAKS = {
     "coaching brand": re.compile(

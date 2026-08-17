@@ -21,7 +21,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.parent
-DEFAULT_PAPERS = REPO / "data/papers-deduped"
+DEFAULT_PAPERS = REPO / "corpus/papers-deduped"
 DEFAULT_CLEANED = REPO / "pipeline" / "patterns" / "out" / "questions.jsonl"
 DEFAULT_PATTERNS = ROOT / "exam_patterns.json"
 DEFAULT_OUT = ROOT / "out"

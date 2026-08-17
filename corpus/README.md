@@ -1,49 +1,74 @@
 # corpus
 
-The source PDFs. **Not in git** — everything in this folder except this file is
-gitignored, because it's tens of gigabytes of third-party exam papers.
+Everything the pipeline reads. Nothing here is clean — that's the point. The
+clean output goes to [`data/`](../data/README.md).
 
-**It is currently empty, and that is the repo's biggest problem.** Three things
-can't be done without it:
+```
+pdf/              the source PDFs                        (gitignored, EMPTY)
+papers/           243 papers, 21,106 questions           extracted from those PDFs
+papers-deduped/   235 papers, 18,651 questions           a second, lossy pass
+sets/             4,851 questions pooled from 58 PDFs    3,596 of them answered
+```
+
+## pdf/ — empty, and it's the main problem
+
+Tens of gigabytes of exam PDFs, never committed. Without them:
 
 | | |
 |---|---|
-| `answer` | 0 of 18,651 questions have one |
+| `answer` | only 1,126 questions can be answered, by matching `sets/` |
 | `image_refs` | 986 questions need a figure that was never extracted |
-| re-extraction | any parser fix can't be re-run over the papers |
+| re-extraction | a parser fix can't be re-run over the papers |
 
-## Layout
-
-`pipeline/pdf/` reads the path to work out which exam a PDF belongs to, so the
-folder names matter:
+Layout matters — `pipeline` reads the path to work out which exam a PDF is:
 
 ```
-corpus/
-  {bank}/{role}/{year}/{stage}/
-    IBPS/Clerk/2019/Mains/ibps_clerk_2019_mains.pdf
-    SBI/PO/2023/Prelims/sbi_po_2023_prelims_shift1.pdf
+pdf/{bank}/{role}/{year}/{stage}/ibps_clerk_2019_mains.pdf
 ```
 
-`pipeline/pdf/filename_parser.py` handles the filename; `meta_from_path()` in
-`pdf_to_questions.py` handles the directory. A PDF that doesn't match lands under
-`_unknown_bank` in the output — 235 papers made it through, and the `_unknown`
-buckets in `data/papers/` are the ones that didn't.
+A PDF that doesn't match lands in an `_unknown_*` bucket. The `_unknown` folders
+in `papers/` are the ones that didn't match.
 
-## Getting it back
+## papers/ vs papers-deduped/ — neither is complete
 
-Whoever ran the original extraction has these files locally. They were never
-committed, so git can't help. Put them back in the layout above and step 1 of
-[the pipeline](../README.md#the-pipeline) runs again.
+This is the thing to know before building anything. They were produced by
+separate runs and **each holds questions the other doesn't**:
 
-Needs PyMuPDF:
+| | Distinct stems |
+|---|---|
+| `papers/` | 17,227 |
+| `papers-deduped/` | 16,710 |
+| only in `papers/` | **1,408** |
+| only in `papers-deduped/` | **891** |
+| **union** | **18,118** |
 
-```bash
-pip install pymupdf
-python3 pipeline/pdf/pdf_to_questions.py --corpus corpus --out data/papers
+`papers-deduped/` calls itself "a strict subset that adds nothing". That is
+wrong — it adds 891 stems `papers/` doesn't have.
+
+So neither folder is the source of truth. **Step 4 builds from the union of
+both** and dedupes there, which recovers 1,408 questions the current export is
+missing. Dedup is a pipeline step, not a folder.
+
+Both are also irreplaceable while `pdf/` is empty — this JSON is the only copy of
+that extraction.
+
+## sets/ — the only answers in the repo
+
+4,851 questions pooled from 58 PDFs, deduped and split into ten sets of 500.
+Provenance is dropped; each question carries a judgement instead.
+
+```
+usable/    3,596 questions, all answered
+flagged/   1,255 held back, each with a reason
+charts/    the 50 images a question genuinely needs
+extracted.json   what came out of the PDFs, damage and all
 ```
 
-## Why it's separate from data/
+**All 3,596 usable questions have an answer**, under `correct_option`. That's the
+only answer data anywhere in this repo, and 1,126 of them match a question in
+`papers/` by stem — which is how step 3 fills answers without the PDFs.
 
-`corpus/` is input, `data/` is output. Everything in `data/` was derived from
-these PDFs — and since the PDFs are gone, that derived JSON is currently the
-only copy. Treat `data/` as irreplaceable until this folder is restored.
+The 1,255 flagged ones are held back for real reasons: a seating arrangement
+that was never extracted can't be answered by anyone, and a stacked fraction
+that collapsed into loose digits no longer means what it meant. Quarantined
+rather than shipped looking fine.

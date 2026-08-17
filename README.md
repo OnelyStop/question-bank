@@ -5,12 +5,15 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     the source PDFs — input, gitignored, currently empty
-data/       the questions extracted from them — output, the only copy
-pipeline/   the code that turns one into the other
+corpus/     everything the pipeline reads — PDFs and the raw extraction
+data/       the clean output, one gzipped file
+pipeline/   the five steps
 schema/     what one exported question looks like
 scripts/    typesetting and publish-time checks
 ```
+
+`corpus/` is raw and messy by design; `data/` is generated and disposable.
+Delete `data/`, re-run step 4, get it back.
 
 Anything a pipeline writes is gitignored and rebuilt on demand, so nothing here
 is both large and derivable.
@@ -19,13 +22,14 @@ is both large and derivable.
 
 | | Papers | Questions | Answers |
 |---|---|---|---|
-| `data/papers/` | 243 | 21,106 | none |
-| `data/papers-deduped/` | 235 | 18,651 | none |
-| `data/sets/usable/` | — | 3,596 | **all** |
+| `corpus/papers/` | 243 | 21,106 | none |
+| `corpus/papers-deduped/` | 235 | 18,651 | none |
+| `corpus/sets/usable/` | — | 3,596 | **all** |
 
 **Papers** are laid out as `{bank}/{role}/{year}/{stage}/{shift}/`. A question
 stays attached to its paper, so you always know which exam it came from.
-`papers/` is the superset — the deduped pass drops 8 papers it keeps.
+**Neither folder is complete** — 1,408 distinct stems exist only in `papers/`
+and 891 only in `papers-deduped/`, so step 4 builds from the union of both.
 
 **Sets** pool questions from 58 PDFs, deduped and split into ten sets of 500.
 Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
@@ -35,47 +39,143 @@ shipped looking fine.
 
 ## The pipeline
 
-Five steps, one file each.
+Not built yet. What exists in `pipeline/` is the old code — three overlapping
+entry points, 37 files, and a classifier shelved inside the PDF folder where it
+can't run. This is what replaces it: five steps, one file each.
 
-| Step | In → out | Needs | Status |
-|---|---|---|---|
-| **1. extract** | PDFs → paper JSON | the corpus | **blocked** — corpus is gone |
-| **2. classify** | + `section`, `topic`, `question_pattern` | nothing | **works, not wired in** |
-| **3. answer** | + `answer`, `explanation` | corpus, or a match against `sets/` | **blocked** |
-| **4. build** | → `questions.jsonl.gz` | nothing | works |
-| **5. validate** | checks the export against `schema/schema.json` | nothing | works |
-
-Steps 2, 4 and 5 need only the JSON in `data/`, so they run today. Only 1 and 3
-depend on the missing PDFs.
-
-### What runs right now
-
-```bash
-python3 pipeline/patterns/run_pipeline.py                 # classify patterns
-python3 pipeline/feature_tables/build_feature_tables.py   # build the export
-python3 pipeline/patterns/validate.py pipeline/patterns/out/questions.jsonl
+```
+corpus/  ->  1_extract  ->  2_classify  ->  3_answer  ->  4_build  ->  data/
+                                                              |
+                                                          5_validate
 ```
 
-Output today: **235 papers, 3,039 directions, 18,651 questions.**
+```
+pipeline/
+  1_extract.py    2_classify.py    3_answer.py    4_build.py    5_validate.py
+  lib/            shared modules the steps import
+```
 
-### Step 2 is the one worth doing next
+| Step | Needs the PDFs? |
+|---|---|
+| 1. extract | **yes** — blocked |
+| 2. classify | no |
+| 3. answer | partly — 1,126 without them |
+| 4. build | no |
+| 5. validate | no |
 
-The section and topic classifier already exists — `pipeline/pdf/label_sections.py`
-and `label_topics.py`, with a taxonomy in `topic_taxonomy.json`. It reads the
-paper JSON, not the PDFs, and run against `data/papers-deduped` today it labels
-**13,569 of 18,651 questions (73%)**:
+Steps 2, 4 and 5 run on the JSON already in `corpus/`. That's the boundary the
+old layout hid.
 
-| | Now | After step 2 |
+---
+
+### 1. `1_extract.py` — PDFs to questions
+
+**In** `corpus/pdf/**/*.pdf` · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
+
+- Read each PDF page as a layout stream, not flat text — column order and
+  option alignment both come from geometry.
+- OCR only the pages where the text layer is missing or garbage.
+- Detect direction blocks ("Directions (11–15): …") and attach every question in
+  the range to one `direction_id`.
+- Parse options into `{a: …, b: …}`, keyed not indexed.
+- Flag figures: set `has_image`, and crop the chart to a file that
+  `image_refs` / `direction_image_refs` can point at. **This is the part that
+  was never done** — 986 questions are flagged with no file.
+- Derive `bank`, `role`, `year`, `stage`, `shift` from the path and filename.
+- Write `parse_report.json`: per-PDF status, question counts, what it couldn't
+  read.
+
+Needs PyMuPDF and a populated `corpus/pdf/`. Both missing today.
+
+---
+
+### 2. `2_classify.py` — label what each question is
+
+**In** `corpus/papers/` · **Out** the same JSON, with labels added
+
+- `section` — Quantitative, Reasoning, English, GA, Computer.
+- `topic` — from `lib/topic_taxonomy.json`: Data_Interpretation,
+  Seating_Arrangement, Error_Spotting, Arithmetic, Reading_Comprehension…
+- `difficulty` — integer.
+- `question_pattern` — one of the 14 structural patterns, validated against the
+  enum in `schema.json`.
+- Propagate `section` across a direction set: if four of five questions under one
+  passage are Reasoning, the fifth is too.
+
+**This step's logic already exists** and is worth running first. Measured against
+`corpus/papers-deduped/` today it labels 13,569 of 18,651 questions:
+
+| | Now | After |
 |---|---|---|
 | `section` | 17% | **73%** |
 | `topic` | 0% | **73%** |
 
-Subtopics it produces: Data_Interpretation (1,606), Seating_Arrangement (1,377),
-Error_Spotting (1,359), Arithmetic (1,220), Reading_Comprehension (987).
+It needs nothing but the JSON. What stops it running today is an `import fitz`
+inherited from the PDF module — moving it to `lib/classify/` fixes that.
 
-It has never been wired into the export, and it currently won't even import —
-it sits in `pipeline/pdf/` and inherits an `import fitz` from `pdf_to_questions`
-that it doesn't need. Splitting the steps apart fixes that.
+---
+
+### 3. `3_answer.py` — fill in the answers
+
+**In** `corpus/papers/` + `corpus/sets/usable/` · **Out** the same JSON, with
+`answer` and `explanation`
+
+Two sources, in order:
+
+1. **Answer keys from the PDFs** — the back-of-paper key, mapped to question
+   numbers. Needs `corpus/pdf/`, so blocked.
+2. **Stem match against `corpus/sets/usable/`** — 3,596 questions there are
+   answered under `correct_option`, and **1,126 of them match a paper question**.
+   Needs no missing files. Do this one now.
+
+Match on a normalised stem, not an exact string: strip whitespace and case, and
+require the option set to agree before accepting an answer. Log every match and
+every near-miss to `answer_report.json` — a wrong answer is worse than none.
+
+`explanation` is generated, not extracted. That's a separate pass, once answers
+exist.
+
+Ceiling without the PDFs: **1,126 of 18,651, about 6%.**
+
+---
+
+### 4. `4_build.py` — the export
+
+**In** `corpus/papers/` **and** `corpus/papers-deduped/` · **Out**
+`data/questions.jsonl.gz`
+
+- **Build from the union of both folders.** Neither is complete: 1,408 distinct
+  stems exist only in `papers/`, 891 only in `papers-deduped/`. The current
+  export uses deduped alone and loses 1,408 questions.
+- **Dedupe here**, on `content_hash`, keeping the copy with more filled fields.
+  Dedup is a step, not a pre-baked folder.
+- Flatten the paper's identity onto every question — `bank`, `role`,
+  `exam_type`, `year`, `shift`, `memory_based`.
+- Compute `direction_hash` from the passage text, and inline `direction_text`
+  and `direction_image_refs`.
+- Omit nulls, and omit `marks` / `negative_marks` when they equal the default.
+- Truncate `content_hash` to 16 chars.
+- Gzip. 23 MB becomes 3 MB, because the repeated passages compress away.
+- Write `build_report.json` with the fill rate of every field.
+
+Union target: **18,118 distinct questions**, up from 16,710.
+
+---
+
+### 5. `5_validate.py` — refuse to ship it broken
+
+**In** `data/questions.jsonl.gz` · **Out** exit 0, or a list of failures
+
+- Every row against `schema/schema.json` — types, required fields, and the
+  `question_pattern` enum.
+- Referential integrity: every `direction_hash` groups questions that really do
+  share a passage; every `direction_id` resolves within its paper.
+- No leaked provenance — no source book, coaching brand, internal id or URL.
+  This is what `scripts/verify.py` does today.
+- Fill rates, compared against the last run: **fail if a field went
+  backwards.** A parser change that silently drops `options` on 2,000 questions
+  should stop the build, not ship.
+- No duplicate `q_id`, no duplicate `content_hash`.
 
 ## What gets exported
 
@@ -109,26 +209,28 @@ are written.
 
 ## Status
 
-| Step | | |
+| Step | State | |
 |---|---|---|
-| 1. Extract | done | `stem` 99%, `options` 98% |
-| 2. Classify patterns | done | `question_pattern` 100% |
-| 2. Classify section/topic | **built, never run** | would go 17% → 73% and 0% → 73% |
-| **3. Answers** | **not done** | **0 of 18,651** |
-| 4. Build | done | 235 papers, 18,651 questions |
-| 5. Validate | done | 21,044 rows, 0 errors |
+| 1. extract | ran once, can't re-run | gave `stem` 99%, `options` 98%; no figures |
+| 2. classify | logic exists, never wired in | would take `section` 17%→73%, `topic` 0%→73% |
+| 3. answer | not written | 1,126 reachable now, rest needs the PDFs |
+| 4. build | old version only | builds from deduped alone, loses 1,408 questions |
+| 5. validate | partial | pattern enum only; no schema or fill-rate checks |
+
+Nothing in `pipeline/` matches the five steps yet — that code is the old
+three-entry-point version.
 
 ## Two things to know first
 
-**The source PDFs are gone.** `data/corpus/` is gitignored and absent, so
-`pipeline/pdf/` can't run and the JSON under `data/` is the only copy of that
-extraction. Treat it as irreplaceable.
+**The source PDFs are gone.** [`corpus/pdf/`](corpus/README.md) is gitignored
+and empty, so step 1 can't run and the JSON in `corpus/papers*` is the only copy
+of that extraction. Treat it as irreplaceable until the PDFs are restored.
 
-**Nothing has answers except `data/sets/usable/`.** Those 3,596 answered
+**Nothing has answers except `corpus/sets/usable/`.** Those 3,596 answered
 questions were built by a separate path and never joined to the papers. Fixing
 this means either restoring the corpus and running
-`pipeline/pdf/attach_answers.py`, or matching `sets/` questions back onto their
-papers by stem — step 3 above. The second needs no missing files.
+the PDF answer keys, or matching `sets/` questions back onto their papers by
+stem — step 3 above. The second needs no missing files and reaches 1,126.
 
 Until that's done the export can't drive practice, scoring or marking.
 
