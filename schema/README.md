@@ -54,8 +54,8 @@ Four things to read off it:
   key `"b"`, not an index. `option_count` was dropped because it's just
   `Object.keys(options).length`.
 - **`direction_text` repeats on every question in the set.** All seven articles
-  in that line chart share this passage — that's the 4.4× duplication, and it's
-  what lets you import one file.
+  in that line chart share this passage. That duplication is what lets you
+  import one file — split it into a passages table on the way in.
 - **`has_image` is true here and `image_refs` is empty in the real data.** 986
   questions are flagged as needing a figure and not one of them carries a
   reference to it. This question cannot actually be answered without the chart.
@@ -72,6 +72,46 @@ filter anything:
 | `topic_source` | provenance for a field that doesn't exist yet |
 | `page_start` | which PDF page it came from; no product use |
 
+## Yes, the passage repeats — and you split it at import
+
+A 6-question passage set carries the same `direction_text` six times. That is
+deliberate **in the file**, and wrong to keep **in the database**.
+
+The file is read once, by one importer. Repeating the passage is what keeps it a
+single file with no join and no ordering rules — you can `COPY` it straight in.
+The 9.7 MB it costs is a one-time import cost nobody waits on.
+
+The database is queried forever, and there the repeats hurt in two ways that
+matter:
+
+- **Editing.** Fix a typo in a passage and you update 6 rows instead of 1. Miss
+  one and the same passage renders differently in two questions.
+- **Payload.** Serving a 5-question RC set with the passage on every question is
+  **7.0 KB instead of 4.5 KB — 37% larger**, on every set, for every user. The
+  worst set in the corpus is 22 questions on a 4,275-character passage: **92 KB
+  of the same text repeated**.
+
+So split it on the way in. One statement, run once:
+
+```sql
+-- 2,744 passages out of 13,292 inlined copies
+insert into passages (direction_hash, body)
+select distinct direction_hash, direction_text
+from questions_import
+where direction_hash is not null
+on conflict (direction_hash) do nothing;
+
+-- questions keep the 16-char key, not the text
+alter table questions drop column direction_text;
+```
+
+Then a passage set is one indexed join, and the passage is stored once, edited
+once, sent once.
+
+That's the whole trick: **denormalized for transport, normalized for storage.**
+You keep the easy single-file import without carrying the duplication anywhere
+it costs you.
+
 ## Grouping questions by passage
 
 **Never group by `direction_id`.** It is paper-scoped — 30 distinct values
@@ -81,11 +121,12 @@ questions from unrelated exams into one "passage".
 Group by **`direction_hash`** — 16 hex chars of the passage text:
 
 ```sql
-select direction_hash, min(direction_text) as passage,
-       array_agg(q_id order by q_num) as questions
-from questions
-where direction_hash is not null and is_active
-group by direction_hash;
+select p.direction_hash, p.body as passage,
+       array_agg(q.q_id order by q.q_num) as questions
+from questions q
+join passages p using (direction_hash)
+where q.is_active
+group by p.direction_hash, p.body;
 ```
 
 That gives **2,744 groups** rather than 3,039, because 148 passages are reused
@@ -99,7 +140,8 @@ If you need the group scoped to a single paper instead — showing a paper
 exactly as it was sat — use `(paper_id, direction_id)`. Both columns are
 already on the row, so that costs nothing.
 
-`direction_hash` costs +0.51 MB and is what makes the passage a first-class
+`direction_hash` costs +0.51 MB in the file and becomes the foreign key to
+`passages` after the split — the one column that makes a passage a first-class
 thing you can index, cache and render once.
 
 ## marks and negative_marks
@@ -142,8 +184,8 @@ Together with the four dropped fields, and after adding `direction_hash`:
 
 `direction_text` is one third of the file because 3,039 passages are shared by
 13,292 questions — inlining duplicates each ~4.4×. That is the price of a
-single-file import with no join, and it's the right trade at this size. If the
-corpus grows 10×, revisit it.
+single-file import, and it is paid once at import and then dropped, per the
+split above. It never reaches the database or the client.
 
 ## File size is not the real efficiency question
 
