@@ -1,9 +1,14 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, combined_text, direction_text
+
+# Below this a "passage" is an instruction line, not something to comprehend.
+MIN_PASSAGE = 200
 
 
 RC_RX = re.compile(
@@ -32,3 +37,12 @@ class ReadingComprehensionSetSkill(PatternSkill):
         if dt and len(dt) < 120 and "passage" not in dt.lower():
             return MatchResult(matched=False)
         return MatchResult(matched=True, confidence=0.9, signals=[f"RC cue: {m.group(0)[:60]}"])
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        passage = (row.get("direction_text") or "").strip()
+        if not passage:
+            yield Defect(reason="context_missing", tier="blocking",
+                         detail="comprehension question with no passage")
+        elif len(passage) < MIN_PASSAGE:
+            yield Defect(reason="context_unusable", tier="blocking",
+                         detail=f"passage is only {len(passage)} chars - the body did not survive")

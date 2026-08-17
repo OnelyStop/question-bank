@@ -30,6 +30,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from extract import extract_paper  # noqa: E402
+from quality import audit, is_serveable  # noqa: E402
 
 
 SKIP_NAMES = {
@@ -85,6 +86,11 @@ def main() -> int:
         choices=["papers-deduped", "papers"],
         default="papers-deduped",
         help="When both sources have the same paper_id, keep this collection",
+    )
+    parser.add_argument(
+        "--no-quarantine",
+        action="store_true",
+        help="Keep every row in questions.jsonl instead of splitting out flagged.jsonl",
     )
     args = parser.parse_args()
 
@@ -142,15 +148,37 @@ def main() -> int:
     out_dir: Path = args.out_dir
     out_dir.mkdir(parents=True, exist_ok=True)
     jsonl_path = out_dir / "questions.jsonl"
+    flagged_path = out_dir / "flagged.jsonl"
     report_path = out_dir / "report.json"
     by_pattern_dir = out_dir / "by_pattern"
     by_pattern_dir.mkdir(parents=True, exist_ok=True)
 
-    write_jsonl(jsonl_path, rows)
-
-    # Also split by pattern for easier QA / staged uploads
-    grouped: dict[str, list[dict[str, Any]]] = {}
+    # Quality pass. Blocking rows are held back rather than shipped, the same way
+    # sets/usable + sets/flagged already split that lane.
+    defects_by_qid = audit(rows)
+    flagged_counts: Counter[str] = Counter()
+    clean: list[dict[str, Any]] = []
+    flagged: list[dict[str, Any]] = []
     for row in rows:
+        defects = defects_by_qid.get(row.get("q_id")) or []
+        if args.no_quarantine or is_serveable(defects):
+            clean.append(row)
+        else:
+            reasons = sorted({d.reason for d in defects if d.tier in ("fatal", "blocking")})
+            for reason in reasons:
+                flagged_counts[reason] += 1
+            flagged.append({**row, "flagged_reasons": reasons})
+
+    write_jsonl(jsonl_path, clean)
+    if not args.no_quarantine:
+        write_jsonl(flagged_path, flagged)
+
+    # Also split by pattern for easier QA / staged uploads.
+    # Seeded with every pattern seen, so a pattern whose rows were all quarantined
+    # gets truncated to empty rather than leaving the previous run's file on disk
+    # -- otherwise by_pattern/ still serves exactly the rows we just held back.
+    grouped: dict[str, list[dict[str, Any]]] = {p: [] for p in pattern_counts}
+    for row in clean:
         grouped.setdefault(row["question_pattern"], []).append(row)
     for pattern, group in grouped.items():
         write_jsonl(by_pattern_dir / f"{pattern}.jsonl", group)
@@ -161,12 +189,17 @@ def main() -> int:
         "skipped_files": skipped_files,
         "questions_seen_before_dedupe": questions_seen,
         "questions_unique": len(rows),
+        "questions_clean": len(clean),
+        "questions_flagged": len(flagged),
         "source": args.source,
         "prefer": args.prefer,
+        "quarantine": not args.no_quarantine,
         "pattern_counts": dict(pattern_counts.most_common()),
         "secondary_counts": dict(secondary_counts.most_common()),
+        "flagged_counts": dict(flagged_counts.most_common()),
         "outputs": {
             "questions_jsonl": str(jsonl_path.as_posix()),
+            "flagged_jsonl": None if args.no_quarantine else str(flagged_path.as_posix()),
             "report_json": str(report_path.as_posix()),
             "by_pattern_dir": str(by_pattern_dir.as_posix()),
         },
@@ -174,10 +207,17 @@ def main() -> int:
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"papers_used={papers_used} unique_questions={len(rows)}")
+    print(f"  clean={len(clean)}  flagged={len(flagged)}")
     print(f"wrote {jsonl_path}")
+    if not args.no_quarantine:
+        print(f"wrote {flagged_path}")
     print(f"wrote {report_path}")
     for pattern, count in pattern_counts.most_common():
         print(f"  {count:6d}  {pattern}")
+    if flagged_counts:
+        print("held back:")
+        for reason, count in flagged_counts.most_common():
+            print(f"  {count:6d}  {reason}")
     return 0
 
 

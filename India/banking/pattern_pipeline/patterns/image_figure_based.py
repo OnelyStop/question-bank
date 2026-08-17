@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, combined_text, image_blocks
 
@@ -40,7 +42,15 @@ class ImageFigureBasedSkill(PatternSkill):
         return MatchResult(matched=False)
 
     def extract_fields(self, question: dict[str, Any], match: MatchResult) -> dict[str, Any]:
-        return {
-            "has_image": True,
-            "image_refs": match.extras.get("image_refs") or image_blocks(question),
-        }
+        # has_image follows the refs, never the regex -- the text mentioning a
+        # figure is not evidence a figure was extracted.
+        refs = match.extras.get("image_refs") or image_blocks(question)
+        return {"has_image": bool(refs), "image_refs": refs}
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        if not (row.get("image_refs") or []):
+            yield Defect(
+                reason="chart_missing",
+                tier="blocking",
+                detail="figure-based question with no image attached",
+            )

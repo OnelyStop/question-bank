@@ -1,8 +1,10 @@
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Iterable
 
-from .base import MatchResult, PatternSkill, has_shared_directions, option_count
+from checks.base import Defect
+
+from .base import MatchResult, PatternSkill, option_count
 
 
 class PartialOrMissingOptionsSkill(PatternSkill):
@@ -19,3 +21,11 @@ class PartialOrMissingOptionsSkill(PatternSkill):
                 signals=[f"option_count={oc}"],
             )
         return MatchResult(matched=False)
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        # This pattern IS the defect -- a question classified here is by
+        # definition missing options. Say so once, here, rather than leaving it
+        # to a generic check to rediscover.
+        count = len(row.get("options") or {})
+        yield Defect(reason="option_partial", tier="blocking",
+                     detail=f"only {count} options parsed")

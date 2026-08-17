@@ -24,9 +24,13 @@ python India/banking/pattern_pipeline/validate.py India/banking/pattern_pipeline
 
 Outputs:
 
-- `India/banking/pattern_pipeline/out/questions.jsonl`
-- `India/banking/pattern_pipeline/out/by_pattern/<pattern>.jsonl`
-- `India/banking/pattern_pipeline/out/report.json`
+- `India/banking/pattern_pipeline/out/questions.jsonl` — serveable rows only
+- `India/banking/pattern_pipeline/out/flagged.jsonl` — held back, each with `flagged_reasons`
+- `India/banking/pattern_pipeline/out/by_pattern/<pattern>.jsonl` — serveable rows, split
+- `India/banking/pattern_pipeline/out/report.json` — counts, including `flagged_counts`
+
+`--no-quarantine` keeps everything in `questions.jsonl` instead. Clean + flagged
+always reconciles to `questions_unique`.
 
 Supabase DDL: `India/banking/pattern_pipeline/schema/supabase_questions.sql`
 
@@ -38,8 +42,11 @@ Supabase DDL: `India/banking/pattern_pipeline/schema/supabase_questions.sql`
 | Pattern skills (code) | `India/banking/pattern_pipeline/patterns/*.py` |
 | Classifier | `India/banking/pattern_pipeline/classify.py` |
 | Uniform extractor | `India/banking/pattern_pipeline/extract.py` |
+| Check skills (code) | `India/banking/pattern_pipeline/checks/*.py` |
+| Quality driver | `India/banking/pattern_pipeline/quality.py` |
 | CLI | `India/banking/pattern_pipeline/run_pipeline.py` |
 | Pattern skill docs | [patterns/](patterns/) |
+| Check skill docs | [checks.md](checks.md) |
 
 ## Workflow
 
@@ -49,6 +56,17 @@ Supabase DDL: `India/banking/pattern_pipeline/schema/supabase_questions.sql`
 4. Check `report.json` pattern counts.
 5. Validate JSONL.
 6. Load into `public.banking_questions`.
+
+## Adding / changing a check
+
+1. Add `pattern_pipeline/checks/<id>.py` implementing `CheckSkill`.
+2. Register in `checks/__init__.py` (`ROW_CHECKS` or `CORPUS_CHECKS`).
+3. Add an assertion to `validate.py --selftest`.
+4. Document it in [checks.md](checks.md).
+5. Re-run and diff `flagged_counts` in `out/report.json`.
+
+A rule that is specific to one pattern belongs on that pattern's
+`validate()` instead — see [checks.md](checks.md).
 
 ## Adding / changing a pattern
 

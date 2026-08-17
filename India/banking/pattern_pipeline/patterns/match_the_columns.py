@@ -6,12 +6,16 @@ from typing import Any
 from .base import MatchResult, PatternSkill, combined_text
 
 
+# A bare `Column I` is NOT enough: it is an ordinary DI table header, and matched
+# 67 of the 89 rows this skill claimed. Require either an explicit instruction to
+# match, or both columns named -- which is what a real match-the-columns item has.
 MATCH_RX = re.compile(
     r"(?i)("
     r"match\s+the\s+(following|column|list)|"
-    r"column\s*[iI1]\b|"
-    r"column\s*[iI1].{0,40}column\s*[iI2]"
-    r")"
+    r"column\s*(?:I|1)\b.{0,200}?column\s*(?:II|2)\b|"
+    r"list\s*(?:I|1)\b.{0,200}?list\s*(?:II|2)\b"
+    r")",
+    re.S,
 )
 
 

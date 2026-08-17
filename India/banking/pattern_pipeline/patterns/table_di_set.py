@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, combined_text
 
@@ -25,3 +27,12 @@ class TableDiSetSkill(PatternSkill):
         if not m:
             return MatchResult(matched=False)
         return MatchResult(matched=True, confidence=0.9, signals=[f"table DI cue: {m.group(0)[:60]}"])
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        direction = (row.get("direction_text") or "").strip()
+        if not direction:
+            yield Defect(reason="context_missing", tier="blocking",
+                         detail="table DI question with no table")
+        elif len(re.findall(r"\d", direction)) < 5:
+            yield Defect(reason="context_unusable", tier="blocking",
+                         detail="table announced but its numbers were only in the image")

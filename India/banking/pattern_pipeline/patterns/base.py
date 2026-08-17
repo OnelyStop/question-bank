@@ -4,7 +4,10 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
-from typing import Any
+from typing import TYPE_CHECKING, Any, Iterable
+
+if TYPE_CHECKING:  # avoids a runtime dependency from patterns/ onto checks/
+    from checks.base import Defect
 
 
 NON_LATIN = re.compile(
@@ -34,11 +37,41 @@ def stem_text(question: dict[str, Any]) -> str:
     return (question.get("stem") or "").strip()
 
 
+def normalize_options(options: Any) -> dict[str, str]:
+    """Raw `options` -> the exact dict the uniform row will carry.
+
+    Single source of truth: `extract.py` writes this onto the row and
+    `option_count()` counts it, so a skill can never gate on a different number
+    from the one that ships.
+    """
+    if not isinstance(options, dict):
+        return {}
+    out: dict[str, str] = {}
+    for key in ("a", "b", "c", "d", "e"):
+        if options.get(key) is not None:
+            out[key] = str(options[key])
+    for key in ("A", "B", "C", "D", "E"):  # also accept uppercase keys
+        low = key.lower()
+        if low not in out and options.get(key) is not None:
+            out[low] = str(options[key])
+    return out
+
+
 def option_count(question: dict[str, Any]) -> int:
-    metrics = question.get("metrics") or {}
-    if "option_count" in metrics:
-        return int(metrics["option_count"] or 0)
-    return len(question.get("options") or {})
+    """How many options this question really has.
+
+    Counts the normalized dict -- the exact options the uniform row will carry --
+    and deliberately ignores `metrics.option_count`. That metric is the upstream
+    parser's claim about the PDF, and it disagrees with reality: 115 rows claim 5
+    while the dict is empty, which let them slip past the `< 4` guard in
+    `partial_or_missing_options` and land in `shared_directions_set` /
+    `standalone_mcq` as if they were complete.
+
+    Every caller that gates on option count (`partial_or_missing_options`,
+    `shared_directions_set`, `standalone_mcq`, and the fallbacks in
+    `classify.py`) routes through here, so fixing it once fixes all of them.
+    """
+    return len(normalize_options(question.get("options")))
 
 
 def has_shared_directions(question: dict[str, Any]) -> bool:
@@ -55,6 +88,14 @@ def is_bilingual_text(text: str) -> bool:
 
 
 def image_blocks(question: dict[str, Any]) -> list[dict[str, Any]]:
+    """Image refs carried by the question, if any.
+
+    NOTE: papers under `India/banking/papers/` carry no `context[]` at all (see
+    `papers/SCHEMA.md`) -- only the newer `tools/pdf_pipeline/` emits it. Against
+    the current corpus this returns [] for every question, which is why
+    `chart_missing` fires on all figure-pattern rows. Kept as-is so the pipeline
+    starts attaching refs for free once papers are rebuilt.
+    """
     refs: list[dict[str, Any]] = []
     for block in question.get("context") or []:
         if not isinstance(block, dict):
@@ -77,3 +118,12 @@ class PatternSkill:
     def extract_fields(self, question: dict[str, Any], match: MatchResult) -> dict[str, Any]:
         """Optional pattern-specific fields merged into uniform row."""
         return {}
+
+    def validate(self, row: dict[str, Any]) -> Iterable["Defect"]:
+        """What 'complete' means for THIS pattern. Default: nothing to say.
+
+        The classifier has already decided the row is, say, a table DI set --
+        so this skill is the right place to know that a table DI set without a
+        table is not serveable. Cross-pattern rules live in `checks/` instead.
+        """
+        return ()

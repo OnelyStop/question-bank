@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, combined_text, direction_text
 
@@ -32,3 +34,10 @@ class ClozePassageSetSkill(PatternSkill):
         if not direction_text(question) and "blank" in (question.get("stem") or "").lower():
             return MatchResult(matched=False)
         return MatchResult(matched=True, confidence=0.92, signals=[f"cloze cue: {m.group(0)[:60]}"])
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        # The stem is usually synthetic ("Select the word that fits blank (79)."),
+        # so the passage in direction_text is the entire question.
+        if not (row.get("direction_text") or "").strip():
+            yield Defect(reason="context_missing", tier="blocking",
+                         detail="cloze blank with no passage to fill it in")

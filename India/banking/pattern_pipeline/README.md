@@ -7,6 +7,11 @@ Each of the 14 patterns is implemented as a **pattern skill** under
 `patterns/` (classifier + optional field extraction). Cursor agent skills live
 under `.cursor/skills/banking-question-pattern-pipeline/`.
 
+Quality is the same idea in a second registry: each rule is a **check skill**
+under `checks/`, plus each pattern's own `validate()` for what completeness means
+for *that* pattern. `quality.py` runs both. See
+[.cursor/skills/banking-question-pattern-pipeline/checks.md](../../../.cursor/skills/banking-question-pattern-pipeline/checks.md).
+
 ## Quick start
 
 ```bash
@@ -16,17 +21,24 @@ python India/banking/pattern_pipeline/run_pipeline.py
 # smoke test
 python India/banking/pattern_pipeline/run_pipeline.py --limit-papers 10 --out-dir India/banking/pattern_pipeline/out/sample
 
-# validate
+# validate (exits non-zero on anything blocking or worse)
 python India/banking/pattern_pipeline/validate.py India/banking/pattern_pipeline/out/questions.jsonl
+
+# check the checks themselves
+python India/banking/pattern_pipeline/validate.py --selftest
 ```
 
 ## Outputs
 
 | File | Purpose |
 |------|---------|
-| `out/questions.jsonl` | One uniform question object per line (Supabase load) |
-| `out/by_pattern/*.jsonl` | Same rows split by `question_pattern` |
-| `out/report.json` | Counts + paths |
+| `out/questions.jsonl` | Serveable rows, one per line (Supabase load) |
+| `out/flagged.jsonl` | Rows held back, each with `flagged_reasons` |
+| `out/by_pattern/*.jsonl` | Serveable rows split by `question_pattern` |
+| `out/report.json` | Counts + paths, including `flagged_counts` |
+
+Pass `--no-quarantine` to keep every row in `questions.jsonl`.
+`questions.jsonl + flagged.jsonl` always reconciles to `questions_unique`.
 
 Duplicate `q_id`s across `papers` and `papers-deduped` are collapsed; default prefer is `papers-deduped`.
 

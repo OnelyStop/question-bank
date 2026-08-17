@@ -74,9 +74,17 @@ DIRECTION_RANGE_RE = re.compile(
 # Bare "Directions:" / "Directions : Answer the questions…"
 DIRECTION_BARE_RE = re.compile(r"(?im)^\s*Directions?\s*:\s+")
 
-# 1.  | 1)  | Q1.  | Q.1  | Q 1.  | Question 1:  | Question 1.
+# 1.  | 1)  | Q1.  | Q.1  | Q 1.  | Question 1:  | Question 1.  | Q32.<text>
+#
+# The separator is NOT required to be followed by whitespace. Papers typeset in
+# Indic scripts routinely run the stem straight on ("Q32.\u0b92\u0bb0\u0bc1 ..."), and demanding
+# `\s+` made every such question invisible to the parser -- 115 questions across
+# 46 papers, in Tamil, Hindi and plain-English files alike.
+#
+# `[1-9]` on the first digit: with the space no longer required, a bare "0." or
+# a leading-zero label inside prose would otherwise register as question zero.
 QUESTION_START_RE = re.compile(
-    r"(?im)^\s*(?:Question\s+|Q\s*\.?\s*)?(\d{1,3})\s*(?:[.):]|[\u0964])\s+"
+    r"(?im)^\s*(?:Question\s+|Q\s*\.?\s*)?([1-9]\d{0,2})\s*(?:[.):]|[\u0964])\s*"
 )
 
 # Lowercase only — uppercase (A) is stimulus, not MCQ option

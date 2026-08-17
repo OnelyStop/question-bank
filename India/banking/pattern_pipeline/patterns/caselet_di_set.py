@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, direction_text, has_shared_directions
 
@@ -23,6 +25,16 @@ NUMERIC_RX = re.compile(
     r"\bprofit\b|\bloss\b|\bincome\b|\bexpense\b|\bkm\b|\bmetres?\b|\bmeters?\b|"
     r"\bcrore\b|\blakh\b|\bmillion\b"
     r")"
+)
+
+# Word-only numeric cues, for deciding whether a caselet's *figures* are missing.
+# Deliberately excludes punctuation like `%` and `Rs` symbols -- see validate().
+NUMERIC_WORDS = re.compile(
+    r"(?i)\b("
+    r"rs\.?|rupees?|percent|per\s+cent|total|average|ratio|sold|bought|"
+    r"income|expenditure|profit|loss|population|students?|litres?|liters?|"
+    r"crore|lakh|million|thousand"
+    r")\b"
 )
 
 PUZZLE_RX = re.compile(
@@ -52,3 +64,18 @@ class CaseletDiSetSkill(PatternSkill):
             if CASELET_RX.search(dt[:350]) or len(re.findall(r"\d+", dt)) >= 6:
                 return MatchResult(matched=True, confidence=0.75, signals=["numeric paragraph caselet"])
         return MatchResult(matched=False)
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        # A *numeric* caselet is answerable only if its figures are in the prose.
+        #
+        # Gated on NUMERIC_WORDS, not NUMERIC_RX: the latter counts a bare `%` as
+        # a numeric cue, and `%` is a defined operator in symbol-notation
+        # reasoning ("A%B means A is the child of B") and a code glyph in
+        # coding-decoding sets. Both carry their whole premise in the text and
+        # are perfectly answerable; gating on `%` quarantines 98 of them.
+        direction = (row.get("direction_text") or "").strip()
+        if not direction or not NUMERIC_WORDS.search(direction):
+            return
+        if len(re.findall(r"\d", direction)) < 5:
+            yield Defect(reason="context_unusable", tier="blocking",
+                         detail="numeric caselet whose figures did not survive extraction")

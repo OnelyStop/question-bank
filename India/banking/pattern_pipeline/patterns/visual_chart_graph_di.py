@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import Any, Iterable
+
+from checks.base import Defect
 
 from .base import MatchResult, PatternSkill, combined_text
 
@@ -35,4 +37,16 @@ class VisualChartGraphDiSkill(PatternSkill):
         )
 
     def extract_fields(self, question: dict[str, Any], match: MatchResult) -> dict[str, Any]:
-        return {"has_image": True}
+        # Deliberately does NOT assert has_image. The text said "pie chart"; that
+        # is evidence a chart existed in the PDF, not that one was extracted.
+        # `extract.py` derives has_image from real refs, and validate() below
+        # flags the row when there are none.
+        return {}
+
+    def validate(self, row: dict[str, Any]) -> Iterable[Defect]:
+        if not (row.get("image_refs") or []):
+            yield Defect(
+                reason="chart_missing",
+                tier="blocking",
+                detail="chart/graph DI with no image attached - the data was only in the figure",
+            )
