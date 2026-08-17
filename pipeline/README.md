@@ -10,9 +10,9 @@ corpus/  ->  1-extract  ->  2-classify  ->  3-answer  ->  4-dedupe  ->  data/
 
 | Step | Does | Blocked by |
 |---|---|---|
-| [1-extract](1-extract/) | PDFs → one JSON per paper | needs the source PDFs |
+| [1-extract](1-extract/) | PDFs → one JSON per paper | nothing — the PDFs are here |
 | [2-classify](2-classify/) | adds `section`, `topic`, `question_pattern` | nothing |
-| [3-answer](3-answer/) | adds `answer`, `explanation` | needs PDFs or an answered source |
+| [3-answer](3-answer/) | adds `answer`, `explanation` | nothing — the PDFs are here |
 | [4-dedupe](4-dedupe/) | keeps one copy of each question, writes the export | nothing |
 | [5-validate](5-validate/) | refuses to ship a broken export | nothing |
 | [lib](lib/) | shared helpers | — |
@@ -74,8 +74,16 @@ What's left is the parts with real logic in them:
 Expect to rewrite the orchestration. Expect the parsing details to be worth
 keeping.
 
-## The one thing blocking everything
+## The PDFs are here
 
-The source PDFs were never committed to this repo. 379 of them, listed at
-`git checkout 6da6705 -- corpus/PDF-MANIFEST.md`. Without them steps 1 and 3
-can't run, and 2, 4 and 5 have nothing to read.
+375 of the 379 source PDFs are committed under `corpus/pdf/`, each with a
+`.meta.json` sidecar, at the path step 1 reads. **Nothing is blocked any more** —
+step 1 can run, and everything downstream follows from it.
+
+Two things came with them:
+
+- **414 MB in git history.** Removing it later needs a rewrite, so if more
+  batches are coming, decide on Git LFS before they land rather than after.
+- **RRB papers are filed two ways** — 52 as `bank=IBPS, role=RRB` and 28 as
+  `bank=null, role=RRB`. Same exam family, two buckets. Step 1 will emit
+  `_unknown_bank` for the second set until that's reconciled.
