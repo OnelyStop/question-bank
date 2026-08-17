@@ -1,60 +1,48 @@
 # corpus
 
-Everything the pipeline reads. Two sources, both raw:
+Everything the pipeline reads.
 
 ```
-papers/    243 papers, 21,044 questions          extracted from the source PDFs
-sets/      4,851 questions from 58 other PDFs    3,596 of them answered
+sets/              4,851 questions from 58 PDFs, 3,596 answered
+PDF-MANIFEST.md    the 379 source PDFs to recover
 ```
 
 Nothing here is cleaned — that's the point. Cleaning is what the pipeline does,
 and its output goes to [`data/`](../data/README.md).
 
-## The source PDFs are not here
+## The source PDFs are missing
 
-Tens of gigabytes of exam papers, never committed to this repo. Without them:
+Tens of gigabytes of exam papers. **They were never committed to this repo** — in
+all of git history the only PDFs are the 20 typeset files under `sets/`. The
+originals are on the machine that ran the first extraction.
 
-| | |
-|---|---|
-| `answer` | only 1,126 questions can be answered, by matching `sets/` |
-| `image_refs` | 986 questions need a figure that was never extracted |
-| re-extraction | a parser fix can't be re-run over the papers |
+[`PDF-MANIFEST.md`](PDF-MANIFEST.md) lists all 379 of them by name: 245 that
+produced a paper and 134 that produced nothing. It's the list to ask for.
 
-If they're recovered, they go in `corpus/pdf/` (gitignored), and layout matters —
-the pipeline reads the path to work out which exam a PDF is:
+Restore them under `corpus/pdf/` (gitignored), keeping the manifest's relative
+paths. Layout matters — the pipeline reads the path to work out which exam a PDF
+is:
 
 ```
 corpus/pdf/{bank}/{role}/{year}/{stage}/ibps_clerk_2019_mains.pdf
 ```
 
-A PDF that doesn't match lands in an `_unknown_*` bucket. The `_unknown` folders
-in `papers/` are the ones that didn't match.
+A PDF that doesn't match lands in an `_unknown_*` bucket.
 
-## papers/ — the extraction, as it came out
+**95 of the 134 failures are Hindi editions** of papers whose English version
+parsed fine — worth retrying once step 1 handles Devanagari properly rather than
+appending it to the English text.
 
-243 papers, 21,044 questions, one file per paper, laid out
-`{bank}/{role}/{year}/{stage}/{shift}/`. A question stays attached to its paper,
-so you always know which exam it came from.
+Until the PDFs are back, step 1 can't run and there are no papers. What was
+previously extracted from them lived in `corpus/papers/` and has been deleted, on
+the grounds that pipeline output does not belong in the source tree. It is still
+in git history:
 
-**It is raw, and it needs work the pipeline hasn't done yet:**
+```bash
+git checkout c73426f -- corpus/papers    # 243 papers, 21,044 questions
+```
 
-- **1,350 questions (6%) are bilingual** — the Hindi is appended to the English
-  stem and options, across 35 papers. Stripping it is step 2's job.
-- **No answers.** Not one.
-- **986 questions flagged `has_image` with no figure**, because the extraction
-  never cropped them.
-- Duplicates across papers, since memory-based papers repeat questions.
-
-There was a second folder, `papers-deduped/`, holding a cleaned pass — Hindi
-stripped, deduped, split by subject. It's deleted. It was pipeline output living
-in the source tree, it held 2,393 fewer questions than `papers/`, and keeping
-both meant every script had to pick one. The cleaning it did belongs in the
-pipeline, where it can be re-run.
-
-`papers/` is now the single source. Until the PDFs come back it is also the only
-copy of that extraction — treat it as irreplaceable.
-
-## sets/ — the only answers in the repo
+## sets/ — the only questions and the only answers right now
 
 4,851 questions pooled from 58 PDFs, deduped and split into ten sets of 500.
 Provenance is dropped; each question carries a judgement instead.
@@ -66,9 +54,8 @@ charts/          the 50 images a question genuinely needs
 extracted.json   what came out of the PDFs, damage and all
 ```
 
-**All 3,596 usable questions have an answer**, under `correct_option` — the only
-answer data anywhere here. **1,126 of them match a question in `papers/` by
-stem**, which is how step 3 fills answers without the PDFs.
+**All 3,596 usable questions have an answer**, under `correct_option`. That makes
+this the only usable question data in the repo today.
 
 The 1,255 flagged ones are held back for real reasons: a seating arrangement that
 was never extracted can't be answered by anyone, and a stacked fraction that

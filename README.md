@@ -20,15 +20,18 @@ is both large and derivable.
 
 ## The data
 
-| | Papers | Questions | Answers |
-|---|---|---|---|
-| `corpus/papers/` | 243 | 21,044 | none |
-| `corpus/sets/usable/` | — | 3,596 | **all** |
+| | Questions | Answers |
+|---|---|---|
+| `corpus/sets/usable/` | 3,596 | **all** |
+| `corpus/sets/flagged/` | 1,255 | held back |
 
-**Papers** are laid out as `{bank}/{role}/{year}/{stage}/{shift}/`. A question
-stays attached to its paper, so you always know which exam it came from. It is
-raw: no answers, 1,350 questions still carrying their Hindi translation, and
-duplicates across memory-based papers. Cleaning all three is the pipeline's job.
+That's it. The 243 extracted papers that used to sit in `corpus/papers/` are
+deleted — they were the old pipeline's output, and output doesn't belong in the
+source tree. They're in git history (`git checkout c73426f -- corpus/papers`).
+
+**The source PDFs were never in this repo.** All 379 of them are listed in
+[`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md); they live on the machine that
+ran the first extraction. Nothing upstream of step 2 can run until they're back.
 
 **Sets** pool questions from 58 PDFs, deduped and split into ten sets of 500.
 Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
@@ -91,7 +94,8 @@ Needs PyMuPDF and the source PDFs, which aren't in this repo. Restore them to
 
 ### 2. `2_classify.py` — label what each question is
 
-**In** `corpus/papers/` · **Out** the same JSON, with labels added
+**In** `corpus/papers/` (once step 1 has written it) · **Out** the same JSON, with
+labels added
 
 - **Strip the Hindi.** 1,350 questions across 35 papers carry the Devanagari
   translation appended to the English stem and options. Do this first — every
@@ -210,30 +214,28 @@ are written.
 
 ## Status
 
-| Step | State | |
-|---|---|---|
-| 1. extract | ran once, can't re-run | gave `stem` 99%, `options` 98%; no figures |
-| 2. classify | logic exists, never wired in | would take `section` 17%→73%, `topic` 0%→73% |
-| 3. answer | not written | 1,126 reachable now, rest needs the PDFs |
-| 4. build | old version only | now reads `papers/`: 243 papers, 21,044 questions |
-| 5. validate | partial | pattern enum only; no schema or fill-rate checks |
+| Step | State |
+|---|---|
+| 1. extract | **blocked** — needs the 379 PDFs in `PDF-MANIFEST.md` |
+| 2. classify | logic exists; nothing to run it on until step 1 does |
+| 3. answer | not written |
+| 4. build | old version only, and it now outputs 0 papers |
+| 5. validate | partial — pattern enum only, no schema or fill-rate checks |
 
-Nothing in `pipeline/` matches the five steps yet — that code is the old
-three-entry-point version.
+Nothing in `pipeline/` matches the five steps yet; that code is the old
+three-entry-point version, and with `corpus/papers/` gone it has no input.
+**Recovering the PDFs is the one thing that unblocks all of it.**
 
 ## Two things to know first
 
-**The source PDFs are gone.** They were never committed, so step 1 can't run and
-[`corpus/papers/`](corpus/README.md) is the only copy of that extraction. Treat
-it as irreplaceable until they're restored.
+**The source PDFs were never committed.** Step 1 can't run without them, and
+every step after it has nothing to read. [`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md)
+lists all 379 — 245 that parsed and 134 that didn't, 95 of those Hindi editions.
+Getting them back is the unblock for everything else.
 
-**Nothing has answers except `corpus/sets/usable/`.** Those 3,596 answered
-questions were built by a separate path and never joined to the papers. Fixing
-this means either restoring the corpus and running
-the PDF answer keys, or matching `sets/` questions back onto their papers by
-stem — step 3 above. The second needs no missing files and reaches 1,126.
-
-Until that's done the export can't drive practice, scoring or marking.
+**`corpus/sets/usable/` is the only question data left in the repo.** 3,596
+questions, all answered under `correct_option`. It's a separate source from the
+papers and survives independently of them.
 
 **986 questions need a figure that doesn't exist.** They carry
 `has_image: true` and no file reference; the extraction never produced the
