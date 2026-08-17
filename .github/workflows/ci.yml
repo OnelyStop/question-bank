@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Every Python file parses
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            python3 -m py_compile "$f" || { echo "::error file=$f::syntax error"; fail=1; }
+          done < <(git ls-files '*.py')
+          exit $fail
+
+      - name: schema.json is valid JSON Schema
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          from pathlib import Path
+          s = json.loads(Path("schema/schema.json").read_text())
+          for key in ("$schema", "title", "type", "properties"):
+              if key not in s:
+                  sys.exit(f"schema.json is missing {key}")
+          missing = [k for k, v in s["properties"].items() if "type" not in v]
+          if missing:
+              sys.exit(f"fields with no declared type: {missing}")
+          undeclared = [k for k in s.get("required", []) if k not in s["properties"]]
+          if undeclared:
+              sys.exit(f"required fields that are not declared: {undeclared}")
+          print(f"OK - {len(s['properties'])} fields, {len(s.get('required', []))} required")
+          PY
+
+      - name: Step examples match the schema
+        run: python3 pipeline/5-validate/check_examples.py
+
+      - name: No secrets committed
+        run: |
+          # service-role keys and connection strings, not the anon key which is public
+          if git grep -nIE '(service_role|SUPABASE_SERVICE|sk-[A-Za-z0-9]{20,}|postgres(ql)?://[^ ]*:[^ @]+@)' -- . ':!*.md'; then
+            echo "::error::possible secret committed"
+            exit 1
+          fi
+          echo "OK - none found"
+
+      - name: No links to files that don't exist
+        run: |
+          python3 - <<'PY'
+          import re, subprocess, sys
+          from pathlib import Path
+          bad = []
+          for md in subprocess.run(["git","ls-files","*.md"],capture_output=True,text=True).stdout.split():
+              base = Path(md).parent
+              for label, target in re.findall(r"\[([^\]]+)\]\(([^)]+)\)", Path(md).read_text()):
+                  if target.startswith(("http", "#", "mailto:")):
+                      continue
+                  if not (base / target.split("#")[0]).exists():
+                      bad.append(f"{md}: [{label}]({target})")
+          if bad:
+              print("\n".join(bad))
+              sys.exit(f"{len(bad)} broken link(s)")
+          print("OK - all links resolve")
+          PY
+
+      - name: No paths from the old layout
+        run: |
+          # these directories are gone; a reference to one means a stale script or doc
+          if git grep -nIE 'India/banking|papers-deduped|feature_tables|pipeline/(pdf|patterns)/' -- . ':!*.md'; then
+            echo "::error::reference to a path that no longer exists"
+            exit 1
+          fi
+          echo "OK - none found"
+
+      - name: Export validates, if one is committed
+        run: |
+          if [ -f data/questions.jsonl ] || [ -f data/questions.jsonl.gz ]; then
+            python3 pipeline/5-validate/check_schema.py
+          else
+            echo "no export committed yet - skipping"
+          fi
