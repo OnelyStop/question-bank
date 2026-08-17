@@ -42,7 +42,7 @@ See `schema/uniform_question.schema.json`. Key fields:
 
 ## Supabase
 
-1. Run `schema/supabase_questions.sql` in the Supabase SQL editor.
+1. Create the tables from the frontend repo (`bun run db:migrate`); shapes are in `schema/feature_tables/`.
 2. Bulk-upsert `out/questions.jsonl` (e.g. via script, Edge function, or `COPY` after converting to CSV/NDJSON import).
 
 ## Pattern skill priority (first match wins)

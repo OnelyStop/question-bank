@@ -28,7 +28,7 @@ Outputs:
 - `pipeline/patterns/out/by_pattern/<pattern>.jsonl`
 - `pipeline/patterns/out/report.json`
 
-Supabase DDL: `schema/supabase_questions.sql`
+Table shapes: `schema/feature_tables/` (DDL lives in the frontend repo, `src/db/schema.ts`)
 
 ## Architecture
 
