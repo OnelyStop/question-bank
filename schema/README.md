@@ -1,6 +1,6 @@
 # schema
 
-One file — [`schema.json`](schema.json). One question, flat, 26 fields.
+One file — [`schema.json`](schema.json). One question, flat, 28 fields.
 
 Import it and you can filter by bank, role, year, exam type, section or pattern,
 and render the question — without touching a second file.
@@ -29,6 +29,8 @@ see the whole shape:
   "direction_id": "d019",
   "direction_hash": "9f3c1ab77e40d215",
   "direction_text": "Line chart given below shows markup percent more than CP and discount percent given on MRP of seven different articles sold by a shopkeeper.",
+  "direction_has_image": true,
+  "direction_image_refs": ["ibps_clerk_2019_mains_781623cd_p07_chart1.png"],
 
   "bank": "IBPS",
   "role": "Clerk",
@@ -43,7 +45,7 @@ see the whole shape:
   "question_pattern": "shared_directions_set",
 
   "has_image": true,
-  "image_refs": ["ibps_clerk_2019_mains_781623cd_p07_chart1.png"],
+  "image_refs": [],
   "is_active": true
 }
 ```
@@ -83,6 +85,8 @@ see the whole shape:
 | `direction_id` | string | 71% | The block within its paper — `d001`…`d030` |
 | `direction_hash` | string | 71% | 16 hex chars of the passage text — **group by this** |
 | `direction_text` | string | 71% | The passage itself (file only — see Storage) |
+| `direction_has_image` | boolean | **—** | The passage needs a figure |
+| `direction_image_refs` | array | **—** | Figures belonging to the **passage** — the DI chart, table or grid |
 
 **Filter by exam** — copied from the paper so you don't need a join
 
@@ -109,7 +113,13 @@ see the whole shape:
 | Field | Type | Fill | |
 |---|---|---|---|
 | `has_image` | boolean | 100% | True on 986 questions |
-| `image_refs` | array | **—** | Filenames. Empty on all 986 — see below |
+| `image_refs` | array | **—** | Figures for **this question alone** |
+
+For a passage set the chart almost always belongs to the passage, not the
+question — **902 of the 986 flagged questions are in a set**, and in 175 of 176
+sets every question is flagged. So the chart goes in `direction_image_refs` and
+ends up on the `passages` row, not repeated on all 6 questions. Only the 84
+standalone figure questions use `image_refs`.
 
 **Scoring**
 
@@ -136,11 +146,11 @@ Say 6 questions share one passage.
 **In the database they don't.** The `questions` table has **no `direction_text`
 column at all** — the import drops it. The text goes into its own table:
 
-`passages` — **1 row**
+`passages` — **1 row**, and this is where the chart lives too
 
-| `direction_hash` | `body` |
-|---|---|
-| `9f3c1ab7` | Line chart given below shows… |
+| `direction_hash` | `body` | `image_refs` |
+|---|---|---|
+| `9f3c1ab7` | Line chart given below shows… | `["…_p07_chart1.png"]` |
 
 `questions` — **6 rows**, holding a 16-character code
 
@@ -159,8 +169,9 @@ Across the bank: **13,292 copies become 2,744 rows.**
 copy questions_import from 'questions.jsonl';
 
 -- 2. the text goes to passages, questions keep only the code
-insert into passages (direction_hash, body)
-select distinct direction_hash, direction_text from questions_import;
+insert into passages (direction_hash, body, image_refs)
+select distinct direction_hash, direction_text, direction_image_refs
+from questions_import;
 
 insert into questions (q_id, stem, options, direction_hash, ...)
 select q_id, stem, options, direction_hash, ... from questions_import;
@@ -284,8 +295,9 @@ Three that will bite:
 - **`section` 17% and `shift` 20% are filter fields.** As facets they'd hide 83%
   and 80% of the bank — that reads as broken UI, not missing data. Hold them
   back until the classifier fills them.
-- **`image_refs` is empty on all 986 questions where `has_image` is true.** Those
-  questions can't be answered from the data we have.
+- **No figures exist at all.** 986 questions are flagged `has_image`, and not one
+  carries a file reference — the extraction never produced the images. Those
+  questions can't be answered from what we have, whichever field they'd sit in.
 
 ## Query speed
 

@@ -106,6 +106,25 @@
       "description": "The shared passage / DI table / seating arrangement, inlined. 71% of questions have one.",
       "x-fill": 71.3
     },
+    "direction_has_image": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "The shared passage needs a figure to be answerable.",
+      "x-fill": 0.0
+    },
+    "direction_image_refs": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Figures belonging to the shared passage — the DI chart, the table, the seating grid. Moves to passages.image_refs at import, like direction_text. 902 of 986 figure questions are passage sets, so this is where most charts belong.",
+      "x-fill": 0.0
+    },
     "bank": {
       "type": [
         "string",
@@ -211,7 +230,7 @@
     },
     "image_refs": {
       "type": "array",
-      "description": "Parser. Image/figure references for this question.",
+      "description": "Figures belonging to this question alone. For a passage set the chart usually belongs to the passage — see direction_image_refs.",
       "items": {
         "type": "object"
       },
