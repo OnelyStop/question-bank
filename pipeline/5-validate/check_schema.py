@@ -25,7 +25,7 @@ REQUIRED = [
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("jsonl", type=Path, nargs="?", default=ROOT / "out" / "questions.jsonl")
+    parser.add_argument("jsonl", type=Path, nargs="?", default=ROOT.parent.parent / "data" / "questions.jsonl")
     parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
 

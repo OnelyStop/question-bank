@@ -5,11 +5,10 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     everything the pipeline reads — the raw extraction
+corpus/     everything the pipeline reads — empty, put source material here
 data/       the clean output, one gzipped file
-pipeline/   the five steps
+pipeline/   the five steps, one folder each
 schema/     what one exported question looks like
-scripts/    typesetting and publish-time checks
 ```
 
 `corpus/` is raw and messy by design; `data/` is generated and disposable.
@@ -38,9 +37,9 @@ Recovering them unblocks everything.
 
 ## The pipeline
 
-Not built yet. What exists in `pipeline/` is the old code — three overlapping
-entry points, 37 files, and a classifier shelved inside the PDF folder where it
-can't run. This is what replaces it: five steps, one file each.
+Five steps, [one folder each](pipeline/README.md). The old code's three
+overlapping entry points and its six-table export are deleted; what survived is
+the parts with real logic, filed under the step they belong to.
 
 ```
 corpus/  ->  1_extract  ->  2_classify  ->  3_answer  ->  4_build  ->  data/
@@ -50,9 +49,13 @@ corpus/  ->  1_extract  ->  2_classify  ->  3_answer  ->  4_build  ->  data/
 
 ```
 pipeline/
-  1_extract.py    2_classify.py    3_answer.py    4_build.py    5_validate.py
-  lib/            shared modules the steps import
+  1-extract/   2-classify/   3-answer/   4-dedupe/   5-validate/   lib/
 ```
+
+One folder per step, one owner per step, and a README in each saying what it
+reads, what it must write, and how to tell it worked. Steps 1–3 each read the
+previous step's output and write the same shape back, so any one of them can be
+re-run alone.
 
 | Step | Needs the PDFs? |
 |---|---|
@@ -67,7 +70,7 @@ old layout hid.
 
 ---
 
-### 1. `1_extract.py` — PDFs to questions
+### 1. `1-extract/` — PDFs to questions
 
 **In** the source PDFs · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
 
@@ -89,7 +92,7 @@ Needs PyMuPDF and the source PDFs, which aren't in this repo. Restore them to
 
 ---
 
-### 2. `2_classify.py` — label what each question is
+### 2. `2-classify/` — label what each question is
 
 **In** `corpus/papers/` (once step 1 has written it) · **Out** the same JSON, with
 labels added
@@ -114,12 +117,12 @@ labels added
 | `section` | 17% | **73%** |
 | `topic` | 0% | **73%** |
 
-It needs nothing but the JSON. What stops it running today is an `import fitz`
-inherited from the PDF module — moving it to `lib/classify/` fixes that.
+It needs nothing but the JSON. The `import fitz` that used to stop it running is
+gone now that it lives in `2-classify/`.
 
 ---
 
-### 3. `3_answer.py` — fill in the answers
+### 3. `3-answer/` — fill in the answers
 
 **In** `corpus/papers/` + any answered source in `corpus/` · **Out** the same
 JSON, with `answer` and `explanation`
@@ -146,7 +149,7 @@ question, and copying its answer over is the worst outcome available here.
 
 ---
 
-### 4. `4_build.py` — dedupe and export
+### 4. `4-dedupe/` — dedupe and export
 
 **In** `corpus/` · **Out** `data/questions.jsonl.gz`
 
@@ -234,7 +237,7 @@ prefers one that has an `answer`, unions the `image_refs`, and keeps the earlies
 - Write `build_report.json`: fill rate per field, how many duplicates were
   merged, how many conflicts went to review.
 
-### 5. `5_validate.py` — refuse to ship it broken
+### 5. `5-validate/` — refuse to ship it broken
 
 **In** `data/questions.jsonl.gz` · **Out** exit 0, or a list of failures
 
@@ -243,7 +246,7 @@ prefers one that has an `answer`, unions the `image_refs`, and keeps the earlies
 - Referential integrity: every `direction_hash` groups questions that really do
   share a passage; every `direction_id` resolves within its paper.
 - No leaked provenance — no source book, coaching brand, internal id or URL.
-  This is what `scripts/verify.py` does today.
+  This is what `pipeline/5-validate/check_no_provenance.py` does today.
 - Fill rates, compared against the last run: **fail if a field went
   backwards.** A parser change that silently drops `options` on 2,000 questions
   should stop the build, not ship.
@@ -283,15 +286,14 @@ are written.
 
 | Step | State |
 |---|---|
-| 1. extract | **blocked** — needs the 379 PDFs in `PDF-MANIFEST.md` |
-| 2. classify | logic exists; nothing to run it on until step 1 does |
-| 3. answer | not written |
-| 4. build | old version only, and it now outputs 0 papers |
-| 5. validate | partial — pattern enum only, no schema or fill-rate checks |
+| 1-extract | **blocked** — needs the 379 source PDFs |
+| 2-classify | works; takes `section` to 73% and `topic` to 73% once there's input |
+| 3-answer | 1,085 lines that have never produced an answer |
+| 4-dedupe | not written |
+| 5-validate | two narrow checks |
 
-Nothing in `pipeline/` matches the five steps yet; that code is the old
-three-entry-point version, and with `corpus/papers/` gone it has no input.
-**Recovering the PDFs is the one thing that unblocks all of it.**
+**Recovering the PDFs unblocks all of it.** They're the input to step 1, and every
+step after it reads step 1's output.
 
 ## What blocks everything
 
@@ -311,5 +313,5 @@ images. Recovering them needs the corpus too.
 
 Only the question, its options, the answer, and — where it genuinely needs one —
 the chart or table. No source book, no internal id, no coaching brand, no URL.
-`scripts/verify.py` re-reads the published output and fails if any of that
+`pipeline/5-validate/check_no_provenance.py` re-reads the export and fails if any of that
 survives.

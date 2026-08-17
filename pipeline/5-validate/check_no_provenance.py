@@ -20,8 +20,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-SETS = ROOT / "corpus" / "sets"
+ROOT = Path(__file__).resolve().parents[2]
+SETS = ROOT / "corpus" / "sets"  # recover with: git checkout ce4d92f -- corpus/sets
 
 LEAKS = {
     "coaching brand": re.compile(
