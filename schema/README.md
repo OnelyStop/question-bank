@@ -1,36 +1,39 @@
 # schema
 
-Ten files, because a question changes shape three times on its way from a PDF
-to the app. Each stage needs its own contract.
+Nine files. Two describe data that is committed to this repo, six describe the
+tables the app imports, and one is a controlled vocabulary.
 
 ```
-papers.schema.json     ①  a paper file, questions nested inside it
-uniform_question.*     ②  one flat question, paper metadata copied onto it
-feature_tables/        ③  the six normalized tables the app imports
+papers.schema.json     the paper files in data/papers/
+papers.SCHEMA.md       the same format, in prose — read this one first
+feature_tables/        the six tables build_feature_tables.py exports
+question_patterns.json the 14 patterns a question may be classified as
 ```
 
-## ① papers.schema.json · papers.SCHEMA.md
+## One question schema
 
-The source shape — what `pipeline/pdf/` writes into `data/papers/`. A paper is
-one file and its questions live inside it, so the bank, year and shift are
-stored once at the top.
+`feature_tables/questions.schema.json` is it. A question is exported once, with
+a `paper_id` pointing at its paper.
 
-`papers.SCHEMA.md` is the same format written out in prose, and is the one to
-read first.
+The pipeline does flatten questions into an intermediate on the way there —
+`extract.py` copies the paper's `bank`, `year`, `shift` and so on onto every
+row so patterns can be classified across the whole corpus at once. That
+intermediate has no schema file, and shouldn't: it is written and consumed by
+`pipeline/patterns/` within a single run, its output is gitignored, and the
+function in `extract.py` is the only contract anything checks against. A JSON
+Schema sitting beside it would have been a second definition that no code
+reads and nothing keeps in sync.
 
-## ② uniform_question.schema.json
+## papers.schema.json · papers.SCHEMA.md
 
-The intermediate, written by `pipeline/patterns/extract.py`. Questions are
-pulled out of their papers into one flat list so patterns can be classified
-across the whole corpus at once.
+The source shape — what `pipeline/pdf/` wrote into `data/papers/`. A paper is
+one file with its questions nested inside, so bank, year and shift are stored
+once at the top rather than on every question.
 
-Nothing links back to a paper at this stage, so the paper's identity is copied
-onto every question — `bank`, `role`, `exam_type`, `year`, `shift`, `subject`,
-`language`. That duplication is the point of the stage, not an oversight.
+This one earns a committed schema because the data it describes is committed,
+and the PDFs it came from are gone.
 
-## ③ feature_tables/
-
-The six tables `build_feature_tables.py` exports.
+## feature_tables/
 
 | Table | Rows | Filled by |
 |---|---|---|
@@ -41,23 +44,19 @@ The six tables `build_feature_tables.py` exports.
 | `attempt_answers` | 0 | the app, at runtime |
 | `user_topic_stats` | 0 | the app, at runtime |
 
-Here the twelve copied fields from ② collapse back into a single `paper_id`,
-and the columns the app needs appear: `is_active`, `difficulty`, `marks`,
-`negative_marks`, `content_hash`.
-
-The three empty tables ship as schemas with no rows on purpose — they define
-what the app writes, not what the pipeline produces.
+The three empty ones ship as schemas with no rows on purpose — they define what
+the app writes, not what the pipeline produces.
 
 ## question_patterns.json
 
-Not a schema — the closed list of 14 patterns a question can be classified as.
-`pipeline/patterns/validate.py` fails any row whose `question_pattern` is not
-in it.
+Not a schema — the closed list of 14 patterns. `pipeline/patterns/validate.py`
+fails any row whose `question_pattern` is not in it. This is the only file here
+that is enforced at runtime.
 
 ## No DDL here
 
 There is no `CREATE TABLE` in this repo. The tables are defined in the frontend
 repo as Drizzle schema (`src/db/schema.ts`) and created by `bun run db:migrate`,
 so migrations stay in one place with RLS policies beside them. The JSON Schema
-files here describe the *export* — treat them as the contract the importer
-checks against, not as the database definition.
+files here describe the *export* — the contract an importer checks against, not
+the database definition.

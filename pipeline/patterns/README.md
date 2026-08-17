@@ -32,9 +32,9 @@ Duplicate `q_id`s across `papers` and `papers-deduped` are collapsed; default pr
 
 ## Uniform row fields
 
-See `schema/uniform_question.schema.json`. Key fields:
+Written by `extract.py`; the function there is the contract. Key fields:
 
-- `question_pattern` — primary pattern id from `../question_patterns.json`
+- `question_pattern` — primary pattern id from `../../schema/question_patterns.json`
 - `secondary_patterns` — e.g. `bilingual_stem_directions`
 - `stem`, `options`, `direction_text`, `direction_id`
 - `has_shared_directions`, `is_bilingual`, `has_image`
