@@ -10,8 +10,8 @@ from typing import Any
 
 import fitz
 
-from context_completeness import assess_context, needs_figure_stimulus
-from question_schema import Question, QuestionMetrics, make_direction_id, make_q_id
+from context_completeness import needs_figure_stimulus
+from question_schema import Question, make_direction_id, make_q_id
 
 log = logging.getLogger("layout_parse")
 
@@ -75,7 +75,103 @@ def _union_bbox(boxes: list[tuple[float, float, float, float]]) -> tuple[float, 
     return (x0, y0, x1, y1)
 
 
-def _sort_blocks(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+# Same header line pdf_to_questions.SOLUTIONS_CUT_RE looks for, kept as a local
+# copy rather than threaded through the cross-module lazy-import shim in
+# _helpers() -- this only needs a one-line per-block text match, not the
+# multi-line cut semantics the original does on the whole concatenated string.
+_SOLUTIONS_HEADER_RE = re.compile(
+    r"(?im)^\s*(?:SOLUTIONS?(?:\s+AND\s+EXPLANATIONS?)?|ANSWER\s+KEY|DETAILED\s+SOLUTIONS?)\s*$"
+)
+
+
+def _has_solutions_header(blocks: list[dict[str, Any]]) -> bool:
+    for b in blocks:
+        for line in b.get("lines") or []:
+            text = "".join(s.get("text", "") for s in line.get("spans") or [])
+            if _SOLUTIONS_HEADER_RE.match(text.strip()):
+                return True
+    return False
+
+
+def find_gutter(blocks: list[dict[str, Any]], page_width: float) -> float | None:
+    """x of the column gutter on this page, or None for single-column.
+
+    A real two-column layout has a vertical band that (almost) nothing crosses,
+    with real content on both sides. Scanned in the middle 20% of the page width
+    rather than fixed at the midpoint, because gutters drift a little per paper.
+    A few full-width crossers (a wide direction, a table header) are tolerated —
+    demanding zero broke on pages that are two-column apart from one wide block.
+
+    Conservative on purpose: no gutter found -> caller keeps today's plain
+    top-to-bottom order, so single-column pages are never touched by this.
+    """
+    n = len(blocks)
+    if n < 4:
+        return None
+
+    def _area(b: dict[str, Any]) -> float:
+        x0, y0, x1, y1 = b["bbox"]
+        return max(0.0, x1 - x0) * max(0.0, y1 - y0)
+
+    total_area = sum(_area(b) for b in blocks)
+    if total_area <= 0:
+        return None
+
+    best: tuple[tuple[int, float], float] | None = None
+    lo, hi = int(page_width * 0.40), int(page_width * 0.60)
+    for cut in range(lo, hi, 3):
+        crossing = sum(1 for b in blocks if b["bbox"][0] < cut - 2 and b["bbox"][2] > cut + 2)
+        # Area-weighted, not block-count-based: a passage that wraps into many
+        # small paragraph blocks on one side and lands as one or two tall
+        # blocks on the other (e.g. a cloze passage's tail continuing at the
+        # top of the next column) used to fail a >=25%-of-block-count check on
+        # the sparse side even though that side plainly has real content.
+        # Measured case: 9 small left-column blocks vs. 2 blocks spanning most
+        # of the right column's height -- right was 2/14 blocks (14%) but
+        # ~35% of page area, and the direction+passage for q79-84 silently
+        # lost its whole body because no gutter was ever found on that page.
+        left_area = sum(_area(b) for b in blocks if b["bbox"][2] <= cut + 2)
+        right_area = sum(_area(b) for b in blocks if b["bbox"][0] >= cut - 2)
+        if (
+            crossing <= max(1, int(0.15 * n))
+            and left_area >= 0.15 * total_area
+            and right_area >= 0.15 * total_area
+        ):
+            score = (-crossing, min(left_area, right_area))
+            if best is None or score > best[0]:
+                best = (score, cut)
+    return best[1] if best else None
+
+
+def _sort_blocks(blocks: list[dict[str, Any]], page_width: float | None = None) -> list[dict[str, Any]]:
+    """Reading order for one page's blocks.
+
+    Plain top-to-bottom (y0, then x0 as a sub-point tiebreak) is wrong on a
+    two-column page: a left-column block and a right-column block a few points
+    apart in y0 emit in y-order, which stitches the end of one column's sentence
+    onto the start of the other's. When `find_gutter` locates a real gutter, sort
+    by column bucket first so the whole left column is emitted before the right
+    column starts. `page_width=None` (page_stream.py's copy of this function,
+    dead code in step 1) keeps the old behaviour untouched.
+
+    Skipped on any page carrying a "Solutions" / "Answer Key" header: that
+    header can land in either column bucket depending on its x0, and if it
+    lands in the left bucket, column-bucketing puts the ENTIRE left column --
+    header included -- ahead of the right column, even when the right column's
+    real questions print visually above the header. `cut_solutions_section`
+    then truncates from the header's position in the reordered string and
+    takes those real questions with it. Measured: this silently deleted the
+    last 2-3 questions on several papers before the guard was added. Plain
+    y0 sort already handles these pages correctly -- that is why the original
+    unfixed extractor never hit this -- so just fall back to it here.
+    """
+    if page_width is not None and not _has_solutions_header(blocks):
+        gutter = find_gutter(blocks, page_width)
+        if gutter is not None:
+            return sorted(
+                blocks,
+                key=lambda b: (0 if b["bbox"][0] < gutter else 1, round(b["bbox"][1], 1), round(b["bbox"][0], 1)),
+            )
     return sorted(blocks, key=lambda b: (round(b["bbox"][1], 1), round(b["bbox"][0], 1)))
 
 
@@ -95,7 +191,7 @@ def extract_text_boxes(pdf_path: Path) -> tuple[str, list[tuple[int, int, int]],
             page_rects[page_num] = page.rect
             blocks = page.get_text("dict").get("blocks") or []
             page_boxes: list[TextBox] = []
-            for block in _sort_blocks(blocks):
+            for block in _sort_blocks(blocks, page.rect.width):
                 if block.get("type") != 0:
                     continue
                 raw_bbox = block.get("bbox") or (0, 0, 0, 0)
@@ -243,7 +339,26 @@ def find_figure_gap(
     y1 = min(gap_bot, footer_y)
     if y1 - y0 < 40:
         return None
-    return (page_rect.x0 + 20, y0, page_rect.x1 - 20, y1)
+    # Width was previously the full page minus a 20pt margin -- on a two-column
+    # page that crop spans both columns and swallows the neighbouring column's
+    # text (measured: a 40-question-shared "figure" that turned out to be a
+    # screenshot of an unrelated seating puzzle in the other column).
+    #
+    # Clamp to the direction's own COLUMN, not to the tight bbox of its text: a
+    # pie chart routinely draws wider than its caption/direction text (measured
+    # on a real chart here -- labels span x=378-510, legend to x=501, well past
+    # the direction line's own extent), so clamping to text bbox would crop the
+    # chart itself. Clamping to the column is wide enough for the chart and
+    # still excludes the other column.
+    x0, x1 = page_rect.x0 + 20, page_rect.x1 - 20
+    gutter = find_gutter(page.get_text("dict").get("blocks") or [], page_rect.width)
+    if gutter is not None:
+        dir_x0 = dir_ub[0]
+        if dir_x0 < gutter:
+            x1 = min(x1, gutter)
+        else:
+            x0 = max(x0, gutter)
+    return (x0, y0, x1, y1)
 
 
 def embedded_images_in_zone(
@@ -366,8 +481,6 @@ def parse_pdf_layout(
     """Parse PDF into Question objects with geometry-first context (default: no images)."""
     h = _helpers()
     find_events = h["find_events"]
-    section_map_from_text = h["section_map_from_text"]
-    section_at = h["section_at"]
     direction_covers = h["direction_covers"]
     parse_options = h["parse_options"]
     normalize_ws = h["normalize_ws"]
@@ -378,7 +491,6 @@ def parse_pdf_layout(
     if not text.strip():
         return LayoutResult(questions=[], notes=["empty_text"])
 
-    section_spans = section_map_from_text(text)
     events = find_events(text)
     assets_dir = assets_root / "_assets" / paper_id
     assets_exported = 0
@@ -529,41 +641,14 @@ def parse_pdf_layout(
             if stem:
                 context.append({"type": "text", "text": stem, "role": "stem"})
 
-            status, issues = assess_context(
-                stem=stem,
-                options=options,
-                direction_text=dir_text,
-                context=context,
-                q_num=q_num,
-            )
-            if want_figure and not figure_asset and "missing_figure" not in issues:
-                issues = list(issues) + ["missing_figure"]
-                status = "missing_context"
-
-            section = section_at(ev["start"], section_spans)
             q = Question(
                 q_id=make_q_id(paper_id, q_num),
                 q_num=q_num,
-                section=section,
-                topic=None,
-                topic_confidence=None,
-                topic_source=None,
                 direction_id=dir_id,
                 direction_text=dir_text,
                 stem=stem,
                 options=options,
-                answer=None,
-                explanation=None,
-                metrics=QuestionMetrics(
-                    has_passage=bool(dir_text or figure_asset),
-                    option_count=len(options),
-                    stem_char_len=len(stem),
-                    page_start=p_start,
-                    page_end=p_end,
-                ),
                 context=context,
-                context_status=status,
-                context_issues=issues,
             )
             questions.append(q)
             seen_nums.add(q_num)

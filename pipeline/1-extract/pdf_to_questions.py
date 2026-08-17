@@ -23,6 +23,7 @@ import fitz
 from context_completeness import (
     assess_context,
     is_decorative_image_block,
+    sanitize_question_context,
     should_synthesize_cloze_stem,
 )
 from ocr_supplement import supplement_context_ocr
@@ -34,7 +35,6 @@ from page_stream import (
 from question_schema import (
     Paper,
     Question,
-    QuestionMetrics,
     detect_section,
     make_direction_id,
     make_paper_id,
@@ -74,9 +74,26 @@ DIRECTION_RANGE_RE = re.compile(
 # Bare "Directions:" / "Directions : Answer the questions…"
 DIRECTION_BARE_RE = re.compile(r"(?im)^\s*Directions?\s*:\s+")
 
-# 1.  | 1)  | Q1.  | Q.1  | Q 1.  | Question 1:  | Question 1.
+# 1.  | 1)  | Q1.  | Q.1  | Q 1.  | Question 1:  | Question 1.  | Q32.<text-with-no-space>
+#
+# Trailing separator is `\s*`, not `\s+`: Indic-script typesetting (and some
+# plain-English papers too) runs the stem straight on with no space after the
+# period -- "Q32.\u0b92\u0bb0\u0bc1..." -- and requiring a space made every such question
+# invisible. Measured: 115 questions recovered across 46 papers, 0 lost.
+#
+# First digit is `[1-9]`, not `\d`: once the space is no longer required, a
+# bare "0." (a list marker, a footnote) would otherwise register as question 0.
+#
+# `(?!\d)` after the separator: without it, `\s*` matching zero spaces makes
+# any decimal number at a line start read as a question anchor -- "30.2" on its
+# own extracted line (a stacked-option value, one number per line, is normal
+# layout in these PDFs) matches as "30." + digit "2", and the real question was
+# cut into by that fake anchor. Caught in testing: q52 of one paper vanished
+# because its own option list (27, 30.2, 23.8, 33.4, 20.6) tripped this. The
+# lookahead rejects a digit right after the separator, so "30.2" is rejected
+# while "Q32.\u0b92\u0bb0\u0bc1" (a letter follows) and "52. 27" (a space follows) still match.
 QUESTION_START_RE = re.compile(
-    r"(?im)^\s*(?:Question\s+|Q\s*\.?\s*)?(\d{1,3})\s*(?:[.):]|[\u0964])\s+"
+    r"(?im)^\s*(?:Question\s+|Q\s*\.?\s*)?([1-9]\d{0,2})\s*(?:[.):]|[\u0964])(?!\d)\s*"
 )
 
 # Lowercase only — uppercase (A) is stimulus, not MCQ option
@@ -91,7 +108,23 @@ SOLUTIONS_CUT_RE = re.compile(
 STIMULUS_LABEL_RE = re.compile(r"\([A-F]\)\s+\S{10,}")
 OPTION_BLEED_CUT_RE = re.compile(
     r"(?i)\s*(?:Directions?\s*\(|Question\s+\d+|Q\s*\d+\.|"
-    r"Copyright\s*©|www\.[a-z0-9.\-]+).*$"
+    r"Copyright\s*©|www\.[a-z0-9.\-]+|"
+    # Papers that print the answer inline right after a question's own options
+    # ("Answer: D) \nSolution: \nN is the Admiral. \nHence, option d.") rather
+    # than in a separate solutions section -- SOLUTIONS_CUT_RE only strips a
+    # dedicated section, so this text has nowhere else to be caught and lands
+    # inside the last option. Measured: option (e) carried the full explanation
+    # as part of its text.
+    r"Answer\s*:\s*[A-Ea-e]\)|Solution\s*:).*$",
+    # DOTALL: the bleed text above is multi-line (a real newline after every
+    # sentence), and without this flag `.` cannot cross those newlines, so
+    # `.*$` could never reach the true end of the string -- the whole
+    # alternation silently failed to match on any multi-line trailing text,
+    # including the pre-existing Directions?/Question/Q\d+ cases, not just
+    # this one. Caught because this fix's own regex tested correct in
+    # isolation on single-line input but did nothing on the real multi-line
+    # capture from the PDF.
+    re.DOTALL,
 )
 
 # Keep old name as alias used in find_events
@@ -680,6 +713,25 @@ def convert_pdf(
         notes = list(layout.notes)
         if layout.assets_exported:
             notes.append(f"assets_exported:{layout.assets_exported}")
+
+        # Strip bleed/logos now, before Question.to_dict() reads context[] to
+        # derive direction_image_refs, and copy the paper-level fields the
+        # schema wants duplicated onto every question so it filters without a
+        # join (see schema/schema.json).
+        for q in questions:
+            q.context = sanitize_question_context(
+                direction_text=q.direction_text,
+                stem=q.stem,
+                context=q.context,
+                q_num=q.q_num,
+            )
+            q.paper_id = paper_id
+            q.bank = bank
+            q.role = role
+            q.exam_type = exam_type
+            q.year = year
+            q.shift = shift
+            q.memory_based = memory_based
     except Exception as exc:  # noqa: BLE001 — collect per-file failures
         log.exception("Failed parsing %s", pdf_path)
         paper = Paper(
@@ -712,7 +764,7 @@ def convert_pdf(
             "notes": paper.parse_notes,
         }
 
-    with_opts = sum(1 for q in questions if q.metrics.option_count >= 4)
+    with_opts = sum(1 for q in questions if len(q.options) >= 4)
     if not questions:
         status = "failed"
     elif with_opts < max(1, len(questions) // 3):
@@ -742,13 +794,6 @@ def convert_pdf(
     )
 
     paper_dict = paper.to_dict()
-    from question_pipeline import load_taxonomy_cached, post_process_paper
-
-    post_process_paper(
-        paper_dict,
-        taxonomy=taxonomy or load_taxonomy_cached(),
-        label=label_questions,
-    )
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(paper_dict, indent=2, ensure_ascii=False), encoding="utf-8")

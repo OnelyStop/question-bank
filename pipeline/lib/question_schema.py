@@ -1,10 +1,18 @@
-"""JSON schemas / builders for the bank-exam question bank."""
+"""JSON schemas / builders for the bank-exam question bank.
+
+Question.to_dict() writes the step-1 slice of schema/schema.json (17 of 28
+fields) directly -- see pipeline/1-extract/README.md. There is one shape, not
+four: every field name here is a schema field, and steps 2-4 add more of the
+same object rather than translating between formats.
+"""
 
 from __future__ import annotations
 
 import re
-from dataclasses import asdict, dataclass, field
+from dataclasses import dataclass, field
 from typing import Any
+
+from context_completeness import needs_figure_stimulus
 
 
 SECTION_HEADERS: list[tuple[str, re.Pattern[str]]] = [
@@ -17,72 +25,58 @@ SECTION_HEADERS: list[tuple[str, re.Pattern[str]]] = [
 
 
 @dataclass
-class QuestionMetrics:
-    has_passage: bool
-    option_count: int
-    stem_char_len: int
-    page_start: int | None = None
-    page_end: int | None = None
-
-    def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
-
-
-@dataclass
 class Question:
     q_id: str
     q_num: int
-    section: str | None
-    topic: str | None
-    topic_confidence: float | None
-    topic_source: str | None
     direction_id: str | None
     direction_text: str | None
     stem: str
     options: dict[str, str]
-    answer: str | None
-    explanation: str | None
-    metrics: QuestionMetrics
-    answer_confidence: float | None = None
-    answer_source: str | None = None
-    section_source: str | None = None
+    # Internal working state -- direction/figure blocks used to derive
+    # direction_image_refs below. Never serialized: it isn't a schema field.
     context: list[dict[str, Any]] = field(default_factory=list)
-    context_status: str = "unknown"
-    context_issues: list[str] = field(default_factory=list)
+    # Paper-level fields, copied on so a question filters without a join.
+    # Filled in by convert_pdf() once paper metadata is known.
+    paper_id: str | None = None
+    bank: str | None = None
+    role: str | None = None
+    exam_type: str | None = None
+    year: int | None = None
+    shift: str | None = None
+    memory_based: bool | None = None
 
     def to_dict(self) -> dict[str, Any]:
-        d = asdict(self)
-        return d
+        direction_image_refs: list[str] = []
+        for block in self.context:
+            if block.get("type") == "image" and block.get("role") == "figure":
+                asset = block.get("asset")
+                if asset and asset not in direction_image_refs:
+                    direction_image_refs.append(asset)
 
-    def to_index_row(self, paper: "Paper") -> dict[str, Any]:
-        """Flat row for index.jsonl (filter-friendly)."""
+        # A figure crop only ever gets attempted for a question covered by an
+        # active direction (see layout_parse.py) -- a standalone question that
+        # needs one is flagged here with no file behind it, same as the
+        # existing direction case; nothing here builds a new crop path.
+        wants_figure = needs_figure_stimulus(self.direction_text, self.stem, self.options)
+
         return {
             "q_id": self.q_id,
-            "paper_id": paper.paper_id,
-            "bank": paper.bank,
-            "role": paper.role,
-            "exam_type": paper.exam_type,
-            "year": paper.year,
-            "shift": paper.shift,
-            "memory_based": paper.memory_based,
-            "language": paper.language,
+            "paper_id": self.paper_id,
             "q_num": self.q_num,
-            "section": self.section,
-            "topic": self.topic,
-            "direction_id": self.direction_id,
-            "has_passage": self.metrics.has_passage,
-            "option_count": self.metrics.option_count,
             "stem": self.stem,
             "options": self.options,
-            "answer": self.answer,
-            "answer_confidence": self.answer_confidence,
-            "answer_source": self.answer_source,
-            "pdf_path": paper.source.get("pdf_path"),
-            "context_status": self.context_status,
-            "context_issues": self.context_issues,
-            "has_context_images": any(
-                b.get("type") == "image" and b.get("role") == "figure" for b in (self.context or [])
-            ),
+            "direction_id": self.direction_id,
+            "direction_text": self.direction_text,
+            "direction_has_image": bool(self.direction_id) and wants_figure,
+            "direction_image_refs": direction_image_refs,
+            "bank": self.bank,
+            "role": self.role,
+            "exam_type": self.exam_type,
+            "year": self.year,
+            "shift": self.shift,
+            "memory_based": self.memory_based,
+            "has_image": (not self.direction_id) and wants_figure,
+            "image_refs": [],
         }
 
 
