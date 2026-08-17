@@ -22,14 +22,13 @@ is both large and derivable.
 
 | | Papers | Questions | Answers |
 |---|---|---|---|
-| `corpus/papers/` | 243 | 21,106 | none |
-| `corpus/papers-deduped/` | 235 | 18,651 | none |
+| `corpus/papers/` | 243 | 21,044 | none |
 | `corpus/sets/usable/` | — | 3,596 | **all** |
 
 **Papers** are laid out as `{bank}/{role}/{year}/{stage}/{shift}/`. A question
-stays attached to its paper, so you always know which exam it came from.
-**Neither folder is complete** — 1,408 distinct stems exist only in `papers/`
-and 891 only in `papers-deduped/`, so step 4 builds from the union of both.
+stays attached to its paper, so you always know which exam it came from. It is
+raw: no answers, 1,350 questions still carrying their Hindi translation, and
+duplicates across memory-based papers. Cleaning all three is the pipeline's job.
 
 **Sets** pool questions from 58 PDFs, deduped and split into ten sets of 500.
 Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
@@ -93,6 +92,9 @@ Needs PyMuPDF and a populated `corpus/pdf/`. Both missing today.
 
 **In** `corpus/papers/` · **Out** the same JSON, with labels added
 
+- **Strip the Hindi.** 1,350 questions across 35 papers carry the Devanagari
+  translation appended to the English stem and options. Do this first — every
+  label below is computed from the text.
 - `section` — Quantitative, Reasoning, English, GA, Computer.
 - `topic` — from `lib/topic_taxonomy.json`: Data_Interpretation,
   Seating_Arrangement, Error_Spotting, Arithmetic, Reading_Comprehension…
@@ -102,8 +104,8 @@ Needs PyMuPDF and a populated `corpus/pdf/`. Both missing today.
 - Propagate `section` across a direction set: if four of five questions under one
   passage are Reasoning, the fifth is too.
 
-**This step's logic already exists** and is worth running first. Measured against
-`corpus/papers-deduped/` today it labels 13,569 of 18,651 questions:
+**This step's logic already exists** and is worth running first. Measured today it labels
+13,569 of 18,651 questions:
 
 | | Now | After |
 |---|---|---|
@@ -141,14 +143,11 @@ Ceiling without the PDFs: **1,126 of 18,651, about 6%.**
 
 ### 4. `4_build.py` — the export
 
-**In** `corpus/papers/` **and** `corpus/papers-deduped/` · **Out**
-`data/questions.jsonl.gz`
+**In** `corpus/papers/` · **Out** `data/questions.jsonl.gz`
 
-- **Build from the union of both folders.** Neither is complete: 1,408 distinct
-  stems exist only in `papers/`, 891 only in `papers-deduped/`. The current
-  export uses deduped alone and loses 1,408 questions.
 - **Dedupe here**, on `content_hash`, keeping the copy with more filled fields.
-  Dedup is a step, not a pre-baked folder.
+  Memory-based papers repeat questions, so this is real work — but it belongs in
+  the pipeline, where it can be re-run, not baked into a second folder.
 - Flatten the paper's identity onto every question — `bank`, `role`,
   `exam_type`, `year`, `shift`, `memory_based`.
 - Compute `direction_hash` from the passage text, and inline `direction_text`
@@ -158,7 +157,8 @@ Ceiling without the PDFs: **1,126 of 18,651, about 6%.**
 - Gzip. 23 MB becomes 3 MB, because the repeated passages compress away.
 - Write `build_report.json` with the fill rate of every field.
 
-Union target: **18,118 distinct questions**, up from 16,710.
+Input is 21,044 questions across 243 papers. How many survive dedup is the
+thing to measure once it runs — the old export got 18,651 from a smaller input.
 
 ---
 
@@ -214,7 +214,7 @@ are written.
 | 1. extract | ran once, can't re-run | gave `stem` 99%, `options` 98%; no figures |
 | 2. classify | logic exists, never wired in | would take `section` 17%→73%, `topic` 0%→73% |
 | 3. answer | not written | 1,126 reachable now, rest needs the PDFs |
-| 4. build | old version only | builds from deduped alone, loses 1,408 questions |
+| 4. build | old version only | now reads `papers/`: 243 papers, 21,044 questions |
 | 5. validate | partial | pattern enum only; no schema or fill-rate checks |
 
 Nothing in `pipeline/` matches the five steps yet — that code is the old

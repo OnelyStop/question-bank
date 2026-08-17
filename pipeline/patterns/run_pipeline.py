@@ -2,7 +2,7 @@
 """
 Run the banking question pattern extraction pipeline.
 
-Reads papers from corpus/papers and/or corpus/papers-deduped,
+Reads papers from corpus/papers and/or corpus/papers,
 classifies each question with pattern skills, and writes uniform
 Supabase-ready JSONL (+ summary report).
 
@@ -91,7 +91,7 @@ def main() -> int:
     if args.source in ("papers", "both"):
         sources.append(("papers", REPO / "corpus/papers"))
     if args.source in ("papers-deduped", "both"):
-        sources.append(("papers-deduped", REPO / "corpus/papers-deduped"))
+        sources.append(("papers-deduped", REPO / "corpus/papers"))
 
     by_qid: dict[str, dict[str, Any]] = {}
     qid_collection: dict[str, str] = {}
