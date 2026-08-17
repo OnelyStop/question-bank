@@ -20,19 +20,21 @@ is both large and derivable.
 
 ## The data
 
-`corpus/` is **empty**. Both folders that were in it — 243 extracted papers and
-4,851 pooled questions — were the old pipeline's output, so they're gone. Both
-are in git history:
+`corpus/` is **empty** — drop source material in there and run the pipeline.
+Overlap between folders is expected; step 4 dedupes.
+
+Everything that used to be in it was the old pipeline's output. It's in git
+history if needed:
 
 ```bash
-git checkout c73426f -- corpus/papers   # 243 papers, 21,044 questions, no answers
-git checkout ce4d92f -- corpus/sets     # 4,851 questions, 3,596 answered
+git checkout c73426f -- corpus/papers        # 243 papers, 21,044 questions, no answers
+git checkout ce4d92f -- corpus/sets          # 4,851 questions, 3,596 answered
+git checkout 6da6705 -- corpus/PDF-MANIFEST.md   # the 379 source PDFs by name
 ```
 
-**The source PDFs were never in this repo.** All 379 are listed in
-[`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md) — 245 that parsed, 134 that
-didn't, 95 of those Hindi editions. They live on the machine that ran the first
-extraction, and recovering them unblocks everything.
+**The source PDFs were never committed here.** 379 of them, on the machine that
+ran the first extraction — 245 parsed, 134 didn't, 95 of those Hindi editions.
+Recovering them unblocks everything.
 
 ## The pipeline
 
@@ -146,92 +148,82 @@ question, and copying its answer over is the worst outcome available here.
 
 ### 4. `4_build.py` — dedupe and export
 
-**In** `corpus/papers/` · **Out** `data/questions.jsonl.gz`
+**In** `corpus/` · **Out** `data/questions.jsonl.gz`
 
-Many folders will get dropped into `corpus/`, overlapping heavily — memory-based
-papers repeat questions, and the same paper arrives from several sources. This
-step is where only unique questions survive.
+Many overlapping folders will land in `corpus/` — memory-based papers repeat
+questions and the same paper arrives from several sources. This step keeps one
+copy of each.
 
-#### The trap that makes naive dedup wrong
+#### Exact duplicates only
 
-Measured on 3,596 already-deduped questions, grouping by text with the digits
-stripped out:
+Only questions that are **character-for-character the same** are merged. Nothing
+based on similarity scores, because the measurement below shows why that would be
+dangerous here.
+
+```python
+def key(q):
+    return sha256(
+        norm(q["stem"]) + "\x00" +
+        "\x00".join(f"{k}={norm(v)}" for k, v in sorted(q["options"].items()))
+    ).hexdigest()
+
+def norm(s):
+    s = unicodedata.normalize("NFKC", s)   # ² and 2 settled the same way
+    s = re.sub(r"\s+", " ", s).strip()     # whitespace and line breaks
+    return s.casefold()                    # "Who" == "who"
+```
+
+One dict, one pass, O(n). First copy wins.
+
+Digits are **never** touched. That is the whole safety property: two questions
+that differ only in a number produce different keys and stay separate.
+
+#### Why nothing fuzzier
+
+Grouping the 3,596 answered questions by their text with the digits stripped out:
 
 | | |
 |---|---|
 | true duplicates — same words **and** numbers | 182 |
 | **same words, different numbers** | **105** |
-| same words and numbers, answers disagree | 25 |
 
-So **37% of near-duplicate pairs are not duplicates at all.** Two examples that
-are character-identical once digits are removed:
+**37% of look-alike pairs are not duplicates.** These two are identical strings
+once digits are removed, and have different answers:
 
 ```
 I. 35x2 – 34x – 21 = 0  /  II. 63y² + 55y + 12 = 0     answer: c
 I. 3x2 – 5x – 12 = 0    /  II. 2y² + 15y + 25 = 0      answer: a
 ```
 
-Any similarity threshold above ~0.9 merges those and silently deletes a real
-question. **For quantitative questions the numbers are the question.** So the
-numeric tuple is a hard gate, not a similarity feature.
+Any similarity threshold that catches the 182 also merges some of the 105 and
+deletes real questions. Exact matching catches fewer duplicates and never makes
+that mistake — the right trade when the source folders may be gone afterwards.
 
-#### Four tiers, cheapest first
+If near-duplicates become a problem later, the shape to add is MinHash + LSH
+**gated on the numeric tuple matching exactly**, writing candidates to a review
+file rather than merging them.
 
-**0. Canonicalise** — not dedup, but everything below depends on it. Unicode
-NFKC; split the Devanagari into its own field rather than leaving it appended;
-collapse whitespace; unify dashes and minus signs; normalise `x2` to `x²`. Keep
-the original text for display and hash only the canonical form.
+#### Two things to record while merging
 
-**1. Exact match — deterministic, auto-merge.**
-
-```
-key = sha256(canonical_stem ‖ sorted(canonical_options) ‖ numeric_tuple)
-```
-
-One pass, a dict, O(n). Zero false positives by construction — this is the tier
-that is genuinely 100% correct.
-
-**2. Near duplicates — MinHash + LSH, gated.** 128 permutations over word
-5-shingles, banded for a ~0.85 threshold. O(n) to build, sublinear to query;
-pairwise comparison is not an option at 100k questions (10¹⁰ pairs).
-
-Merge a candidate pair **only if all three hold**:
-
-- the numeric tuple is identical
-- the option count matches
-- the answers agree, or only one has an answer
-
-Fail any of them and it is not a duplicate.
-
-**3. Conflicts — never auto-merge.** Identical text and numbers but disagreeing
-answers (25 in the sample) means one source is wrong. Route to a review file with
-both versions and their `paper_id`s. Silently picking one ships a wrong answer,
-which is worse than shipping nothing.
-
-#### Blocking, so it stays fast
-
-Bucket on `(numeric_signature, option_count, section)` and only run LSH within a
-bucket. Questions with different numbers can never merge, so they never need
-comparing — which is what keeps this linear rather than quadratic.
-
-#### Keep the duplicate count, don't discard it
-
-When N copies collapse into one, record where they came from:
+**Where the copies came from.** When N collapse into one:
 
 ```json
 "seen_in": ["ibps_clerk_2019_mains_…", "ibps_clerk_2021_prelims_…"],
 "seen_count": 6
 ```
 
-A question that appeared in six exams is high-yield, and that is a ranking signal
-for practice sets. Dedup normally throws this away; here it is one of the more
-useful fields you get out of it.
+A question that appeared in six exams is high-yield, and this is the only place
+that fact exists. Dedup usually discards it.
 
-Merge policy for the surviving record: take the copy with the most filled fields,
-prefer one that has an `answer`, union the `image_refs`, and keep the earliest
-`year` as first appearance.
+**Answer conflicts.** Same key, different `answer` — one source is wrong. Write
+both to a review file and pick neither. There were 25 such cases in 3,596
+questions. Silently choosing one ships a wrong answer.
 
-#### Then the export itself
+Otherwise the surviving record takes the copy with the most filled fields,
+prefers one that has an `answer`, unions the `image_refs`, and keeps the earliest
+`year`.
+
+#### Then the export
 
 - Flatten the paper's identity onto every question — `bank`, `role`,
   `exam_type`, `year`, `shift`, `memory_based`.
@@ -239,17 +231,8 @@ prefer one that has an `answer`, union the `image_refs`, and keep the earliest
 - Omit nulls, and omit `marks` / `negative_marks` when they equal the default.
 - Truncate `content_hash` to 16 chars.
 - Gzip — repeated passages compress to almost nothing.
-- Write `build_report.json`: fill rate per field, plus how many questions each
-  tier merged and how many went to review.
-
-#### On "100% accuracy"
-
-Tier 1 is exact and deterministic, so it is 100%. Tier 2 cannot be — every
-similarity threshold trades false merges against missed duplicates. The way to
-get 100% on what you actually merge is to auto-merge only tiers 1 and 2, and send
-everything else to a review file. A residual review list is a known quantity;
-silent bad merges are not, and they are unrecoverable once the source folders are
-gone.
+- Write `build_report.json`: fill rate per field, how many duplicates were
+  merged, how many conflicts went to review.
 
 ### 5. `5_validate.py` — refuse to ship it broken
 
@@ -313,9 +296,9 @@ three-entry-point version, and with `corpus/papers/` gone it has no input.
 ## What blocks everything
 
 **The source PDFs were never committed.** Step 1 can't run without them, and
-every step after it has nothing to read. [`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md)
-lists all 379 — 245 that parsed and 134 that didn't, 95 of those Hindi editions.
-Getting them back is the unblock for everything else.
+every step after it has nothing to read. The manifest naming all 379 is at
+`git checkout 6da6705 -- corpus/PDF-MANIFEST.md`. Getting the PDFs back is the
+unblock for everything else.
 
 **There is no question data in the repo at all right now.** The pipeline is a
 specification; `corpus/` is where the source material goes.
