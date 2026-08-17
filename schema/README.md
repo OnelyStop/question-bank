@@ -5,6 +5,12 @@ One file — [`schema.json`](schema.json). One question, flat, 26 fields.
 Import it and you can filter by bank, role, year, exam type, section or pattern,
 and render the question — without touching a second file.
 
+> **This describes the file, not your database tables.** They are not the same
+> shape. In the file every question carries `direction_text`; in the database
+> that column does not exist — the text lives once in a `passages` table and
+> each question keeps a 16-character `direction_hash`. See
+> [the passage section](#the-passage-written-6-times-stored-once).
+
 ## A question
 
 Real row from IBPS Clerk 2019 Mains, shown with the empty fields filled in so
@@ -81,8 +87,9 @@ table, and each question keeps only a short code:
 | q012 | What is the profit…? | `9f3c1ab7` |
 | q013 | What is the discount…? | `9f3c1ab7` |
 
-So the answer to "do the 6 questions still hold the text?" is **no**. They hold
-a 16-character code. The text sits in one row, and a join brings it back.
+So the answer to "do the 6 questions still hold the text?" is **no**. The
+`questions` table has **no `direction_text` column at all** — the import drops
+it. Each question holds a 16-character code, and a join brings the text back.
 
 ### How the text gets out
 
