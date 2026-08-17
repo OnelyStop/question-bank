@@ -20,24 +20,19 @@ is both large and derivable.
 
 ## The data
 
-| | Questions | Answers |
-|---|---|---|
-| `corpus/sets/usable/` | 3,596 | **all** |
-| `corpus/sets/flagged/` | 1,255 | held back |
+`corpus/` is **empty**. Both folders that were in it — 243 extracted papers and
+4,851 pooled questions — were the old pipeline's output, so they're gone. Both
+are in git history:
 
-That's it. The 243 extracted papers that used to sit in `corpus/papers/` are
-deleted — they were the old pipeline's output, and output doesn't belong in the
-source tree. They're in git history (`git checkout c73426f -- corpus/papers`).
+```bash
+git checkout c73426f -- corpus/papers   # 243 papers, 21,044 questions, no answers
+git checkout ce4d92f -- corpus/sets     # 4,851 questions, 3,596 answered
+```
 
-**The source PDFs were never in this repo.** All 379 of them are listed in
-[`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md); they live on the machine that
-ran the first extraction. Nothing upstream of step 2 can run until they're back.
-
-**Sets** pool questions from 58 PDFs, deduped and split into ten sets of 500.
-Provenance is dropped; instead each question gets a judgement. 3,596 are usable,
-1,255 are held back with a reason — a question whose seating arrangement was
-never extracted can't be answered by anyone, so it's quarantined rather than
-shipped looking fine.
+**The source PDFs were never in this repo.** All 379 are listed in
+[`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md) — 245 that parsed, 134 that
+didn't, 95 of those Hindi editions. They live on the machine that ran the first
+extraction, and recovering them unblocks everything.
 
 ## The pipeline
 
@@ -124,16 +119,17 @@ inherited from the PDF module — moving it to `lib/classify/` fixes that.
 
 ### 3. `3_answer.py` — fill in the answers
 
-**In** `corpus/papers/` + `corpus/sets/usable/` · **Out** the same JSON, with
-`answer` and `explanation`
+**In** `corpus/papers/` + any answered source in `corpus/` · **Out** the same
+JSON, with `answer` and `explanation`
 
 Two sources, in order:
 
 1. **Answer keys from the PDFs** — the back-of-paper key, mapped to question
    numbers. Needs the source PDFs, so blocked.
-2. **Stem match against `corpus/sets/usable/`** — 3,596 questions there are
-   answered under `correct_option`, and **1,126 of them match a paper question**.
-   Needs no missing files. Do this one now.
+2. **Stem match against an answered source.** The `sets/` collection in git
+   history (`ce4d92f`) has 3,596 answered questions, and **1,126 of them matched a
+   paper question by stem** — a fallback that needs no PDFs if answers get
+   urgent before the corpus is recovered.
 
 Match on a normalised stem, not an exact string: strip whitespace and case, and
 require the option set to agree before accepting an answer. Log every match and
@@ -142,30 +138,118 @@ every near-miss to `answer_report.json` — a wrong answer is worse than none.
 `explanation` is generated, not extracted. That's a separate pass, once answers
 exist.
 
-Ceiling without the PDFs: **1,126 of 18,651, about 6%.**
+Gate every match the same way step 4 does: the numeric tuple must be identical
+and the options must agree. A near-match with different numbers is a different
+question, and copying its answer over is the worst outcome available here.
 
 ---
 
-### 4. `4_build.py` — the export
+### 4. `4_build.py` — dedupe and export
 
 **In** `corpus/papers/` · **Out** `data/questions.jsonl.gz`
 
-- **Dedupe here**, on `content_hash`, keeping the copy with more filled fields.
-  Memory-based papers repeat questions, so this is real work — but it belongs in
-  the pipeline, where it can be re-run, not baked into a second folder.
+Many folders will get dropped into `corpus/`, overlapping heavily — memory-based
+papers repeat questions, and the same paper arrives from several sources. This
+step is where only unique questions survive.
+
+#### The trap that makes naive dedup wrong
+
+Measured on 3,596 already-deduped questions, grouping by text with the digits
+stripped out:
+
+| | |
+|---|---|
+| true duplicates — same words **and** numbers | 182 |
+| **same words, different numbers** | **105** |
+| same words and numbers, answers disagree | 25 |
+
+So **37% of near-duplicate pairs are not duplicates at all.** Two examples that
+are character-identical once digits are removed:
+
+```
+I. 35x2 – 34x – 21 = 0  /  II. 63y² + 55y + 12 = 0     answer: c
+I. 3x2 – 5x – 12 = 0    /  II. 2y² + 15y + 25 = 0      answer: a
+```
+
+Any similarity threshold above ~0.9 merges those and silently deletes a real
+question. **For quantitative questions the numbers are the question.** So the
+numeric tuple is a hard gate, not a similarity feature.
+
+#### Four tiers, cheapest first
+
+**0. Canonicalise** — not dedup, but everything below depends on it. Unicode
+NFKC; split the Devanagari into its own field rather than leaving it appended;
+collapse whitespace; unify dashes and minus signs; normalise `x2` to `x²`. Keep
+the original text for display and hash only the canonical form.
+
+**1. Exact match — deterministic, auto-merge.**
+
+```
+key = sha256(canonical_stem ‖ sorted(canonical_options) ‖ numeric_tuple)
+```
+
+One pass, a dict, O(n). Zero false positives by construction — this is the tier
+that is genuinely 100% correct.
+
+**2. Near duplicates — MinHash + LSH, gated.** 128 permutations over word
+5-shingles, banded for a ~0.85 threshold. O(n) to build, sublinear to query;
+pairwise comparison is not an option at 100k questions (10¹⁰ pairs).
+
+Merge a candidate pair **only if all three hold**:
+
+- the numeric tuple is identical
+- the option count matches
+- the answers agree, or only one has an answer
+
+Fail any of them and it is not a duplicate.
+
+**3. Conflicts — never auto-merge.** Identical text and numbers but disagreeing
+answers (25 in the sample) means one source is wrong. Route to a review file with
+both versions and their `paper_id`s. Silently picking one ships a wrong answer,
+which is worse than shipping nothing.
+
+#### Blocking, so it stays fast
+
+Bucket on `(numeric_signature, option_count, section)` and only run LSH within a
+bucket. Questions with different numbers can never merge, so they never need
+comparing — which is what keeps this linear rather than quadratic.
+
+#### Keep the duplicate count, don't discard it
+
+When N copies collapse into one, record where they came from:
+
+```json
+"seen_in": ["ibps_clerk_2019_mains_…", "ibps_clerk_2021_prelims_…"],
+"seen_count": 6
+```
+
+A question that appeared in six exams is high-yield, and that is a ranking signal
+for practice sets. Dedup normally throws this away; here it is one of the more
+useful fields you get out of it.
+
+Merge policy for the surviving record: take the copy with the most filled fields,
+prefer one that has an `answer`, union the `image_refs`, and keep the earliest
+`year` as first appearance.
+
+#### Then the export itself
+
 - Flatten the paper's identity onto every question — `bank`, `role`,
   `exam_type`, `year`, `shift`, `memory_based`.
-- Compute `direction_hash` from the passage text, and inline `direction_text`
-  and `direction_image_refs`.
+- Compute `direction_hash`; inline `direction_text` and `direction_image_refs`.
 - Omit nulls, and omit `marks` / `negative_marks` when they equal the default.
 - Truncate `content_hash` to 16 chars.
-- Gzip. 23 MB becomes 3 MB, because the repeated passages compress away.
-- Write `build_report.json` with the fill rate of every field.
+- Gzip — repeated passages compress to almost nothing.
+- Write `build_report.json`: fill rate per field, plus how many questions each
+  tier merged and how many went to review.
 
-Input is 21,044 questions across 243 papers. How many survive dedup is the
-thing to measure once it runs — the old export got 18,651 from a smaller input.
+#### On "100% accuracy"
 
----
+Tier 1 is exact and deterministic, so it is 100%. Tier 2 cannot be — every
+similarity threshold trades false merges against missed duplicates. The way to
+get 100% on what you actually merge is to auto-merge only tiers 1 and 2, and send
+everything else to a review file. A residual review list is a known quantity;
+silent bad merges are not, and they are unrecoverable once the source folders are
+gone.
 
 ### 5. `5_validate.py` — refuse to ship it broken
 
@@ -226,16 +310,15 @@ Nothing in `pipeline/` matches the five steps yet; that code is the old
 three-entry-point version, and with `corpus/papers/` gone it has no input.
 **Recovering the PDFs is the one thing that unblocks all of it.**
 
-## Two things to know first
+## What blocks everything
 
 **The source PDFs were never committed.** Step 1 can't run without them, and
 every step after it has nothing to read. [`corpus/PDF-MANIFEST.md`](corpus/PDF-MANIFEST.md)
 lists all 379 — 245 that parsed and 134 that didn't, 95 of those Hindi editions.
 Getting them back is the unblock for everything else.
 
-**`corpus/sets/usable/` is the only question data left in the repo.** 3,596
-questions, all answered under `correct_option`. It's a separate source from the
-papers and survives independently of them.
+**There is no question data in the repo at all right now.** The pipeline is a
+specification; `corpus/` is where the source material goes.
 
 **986 questions need a figure that doesn't exist.** They carry
 `has_image: true` and no file reference; the extraction never produced the
