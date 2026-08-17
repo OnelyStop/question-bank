@@ -1,0 +1,812 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/OnelyStop/question-bank/schema/schema.json",
+  "title": "OnelyStop question bank",
+  "description": "What this repo produces: the paper files committed under data/, and the closed list of question patterns the classifier may assign. The app's database tables are defined in the frontend repo (src/db/schema.ts), not here.",
+  "$defs": {
+    "paper_file": {
+      "title": "BankExamPaper",
+      "description": "Structured PYQ paper extracted from a corpus PDF",
+      "type": "object",
+      "required": [
+        "paper_id",
+        "source",
+        "bank",
+        "role",
+        "exam_type",
+        "year",
+        "shift",
+        "memory_based",
+        "language",
+        "parse_status",
+        "parse_notes",
+        "question_count",
+        "questions"
+      ],
+      "properties": {
+        "paper_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "pdf_path",
+            "sha256",
+            "source_url",
+            "source_filename"
+          ],
+          "properties": {
+            "pdf_path": {
+              "type": "string"
+            },
+            "sha256": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_filename": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "bank": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "IBPS",
+            "SBI",
+            "RBI",
+            "NABARD",
+            "SIDBI"
+          ]
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "PO",
+            "Clerk",
+            "RRB",
+            "SO",
+            "Assistant",
+            "Grade_B"
+          ]
+        },
+        "exam_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Prelims",
+            "Mains",
+            null
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 2000,
+          "maximum": 2099
+        },
+        "shift": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "Shift_1",
+            "Shift_2",
+            null
+          ]
+        },
+        "memory_based": {
+          "type": "boolean"
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "english",
+            "hindi"
+          ]
+        },
+        "parse_status": {
+          "type": "string",
+          "enum": [
+            "ok",
+            "partial",
+            "failed"
+          ]
+        },
+        "parse_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "question_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Question"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "$defs": {
+        "QuestionMetrics": {
+          "type": "object",
+          "required": [
+            "has_passage",
+            "option_count",
+            "stem_char_len",
+            "page_start",
+            "page_end"
+          ],
+          "properties": {
+            "has_passage": {
+              "type": "boolean"
+            },
+            "option_count": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "stem_char_len": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "page_start": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "page_end": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "Options": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ]
+          },
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "Question": {
+          "type": "object",
+          "required": [
+            "q_id",
+            "q_num",
+            "section",
+            "topic",
+            "topic_confidence",
+            "topic_source",
+            "direction_id",
+            "direction_text",
+            "stem",
+            "options",
+            "answer",
+            "explanation",
+            "metrics"
+          ],
+          "properties": {
+            "q_id": {
+              "type": "string",
+              "pattern": "^.+::q\\d{3}$"
+            },
+            "q_num": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "section": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Reasoning",
+                "Quantitative",
+                "English",
+                "GA",
+                "Computer",
+                null
+              ]
+            },
+            "topic": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "topic_confidence": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "topic_source": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "rules",
+                "llm",
+                "manual",
+                null
+              ]
+            },
+            "direction_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^d\\d{3}$"
+            },
+            "direction_text": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "stem": {
+              "type": "string",
+              "minLength": 1
+            },
+            "options": {
+              "$ref": "#/$defs/Options"
+            },
+            "answer": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                null
+              ]
+            },
+            "explanation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "metrics": {
+              "$ref": "#/$defs/QuestionMetrics"
+            }
+          },
+          "additionalProperties": false
+        },
+        "IndexRow": {
+          "type": "object",
+          "description": "One line in index.jsonl",
+          "required": [
+            "q_id",
+            "paper_id",
+            "bank",
+            "role",
+            "exam_type",
+            "year",
+            "shift",
+            "memory_based",
+            "language",
+            "q_num",
+            "section",
+            "topic",
+            "direction_id",
+            "has_passage",
+            "option_count",
+            "stem",
+            "options",
+            "answer",
+            "pdf_path"
+          ],
+          "properties": {
+            "q_id": {
+              "type": "string"
+            },
+            "paper_id": {
+              "type": "string"
+            },
+            "bank": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "role": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "exam_type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "year": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "shift": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "memory_based": {
+              "type": "boolean"
+            },
+            "language": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "q_num": {
+              "type": "integer"
+            },
+            "section": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "topic": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "direction_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "has_passage": {
+              "type": "boolean"
+            },
+            "option_count": {
+              "type": "integer"
+            },
+            "stem": {
+              "type": "string"
+            },
+            "options": {
+              "$ref": "#/$defs/Options"
+            },
+            "answer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "pdf_path": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "question_pattern": {
+      "title": "Question pattern",
+      "description": "Canonical list of structural question presentation patterns for banking PYQ extraction into typed JSON.",
+      "type": "string",
+      "enum": [
+        "standalone_mcq",
+        "shared_directions_set",
+        "reading_comprehension_set",
+        "cloze_passage_set",
+        "image_figure_based",
+        "visual_chart_graph_di",
+        "table_di_set",
+        "caselet_di_set",
+        "data_sufficiency",
+        "quantity_comparison",
+        "quadratic_comparison",
+        "match_the_columns",
+        "partial_or_missing_options",
+        "bilingual_stem_directions"
+      ],
+      "x-patterns": [
+        {
+          "id": "standalone_mcq",
+          "name": "Standalone MCQ",
+          "description": "Single question stem with options; no shared passage or directions block.",
+          "has_shared_directions": false,
+          "typical_option_count": [
+            4,
+            5
+          ],
+          "signals": [
+            "no direction_id / direction_text",
+            "self-contained stem",
+            "options a-e present"
+          ]
+        },
+        {
+          "id": "shared_directions_set",
+          "name": "Shared-directions / set-based MCQ",
+          "description": "One common directions/information block shared by multiple questions via direction_id.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            4,
+            5
+          ],
+          "signals": [
+            "direction_id set",
+            "direction_text shared across 2+ questions",
+            "Study/Read the following information..."
+          ]
+        },
+        {
+          "id": "reading_comprehension_set",
+          "name": "Reading comprehension (passage) set",
+          "description": "Long English passage in directions plus several comprehension questions on it.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            4,
+            5
+          ],
+          "signals": [
+            "Read the following passage...",
+            "according to the passage",
+            "based on the passage"
+          ]
+        },
+        {
+          "id": "cloze_passage_set",
+          "name": "Cloze / fill-in-the-blank passage",
+          "description": "Passage with numbered blanks; each question asks which word/phrase fits a blank.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "blanks numbered/denoted",
+            "Select the word that fits blank (N)",
+            "In the following passage there are blanks..."
+          ]
+        },
+        {
+          "id": "image_figure_based",
+          "name": "Image / figure / diagram based",
+          "description": "Question depends on a figure, diagram, or image that must be taken from the source PDF.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            4,
+            5
+          ],
+          "signals": [
+            "Study the following diagram/figure",
+            "as shown in the figure",
+            "following figure/diagram"
+          ],
+          "notes": "Extractor should retain image refs / page crops; text alone is often insufficient."
+        },
+        {
+          "id": "visual_chart_graph_di",
+          "name": "Visual chart / graph DI",
+          "description": "Data Interpretation set based on pie/bar/line/radar or mixed charts (often image-backed in PDF).",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "pie chart",
+            "bar graph",
+            "line graph",
+            "radar chart"
+          ]
+        },
+        {
+          "id": "table_di_set",
+          "name": "Table DI set",
+          "description": "Data Interpretation set based on a table of values plus several numerical questions.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "following table",
+            "table shows / given below",
+            "tabulated data"
+          ]
+        },
+        {
+          "id": "caselet_di_set",
+          "name": "Caselet DI set",
+          "description": "Data Interpretation set based on a paragraph of quantitative information (no chart/table).",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "Answer the questions based on the information given below",
+            "numeric paragraph / caselet style data"
+          ]
+        },
+        {
+          "id": "data_sufficiency",
+          "name": "Data sufficiency",
+          "description": "A question followed by Statement I / II (sometimes III); options indicate which statements are sufficient.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "two/three statements numbered I and II",
+            "data in statement",
+            "which of the statements is/are sufficient"
+          ]
+        },
+        {
+          "id": "quantity_comparison",
+          "name": "Quantity comparison",
+          "description": "Compare Quantity I and Quantity II and choose the relationship.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "Quantity I",
+            "Quantity II",
+            "compare the two quantities"
+          ]
+        },
+        {
+          "id": "quadratic_comparison",
+          "name": "Quadratic / two-equation comparison",
+          "description": "Two equations in x and y; compare roots or relationship between x and y.",
+          "has_shared_directions": true,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "two equations (I) and (II)",
+            "solve both equations",
+            "quadratic equations"
+          ]
+        },
+        {
+          "id": "match_the_columns",
+          "name": "Match the columns / lists",
+          "description": "Match Column I with Column II (or equivalent list matching) and pick the correct pairing option.",
+          "has_shared_directions": false,
+          "typical_option_count": [
+            5
+          ],
+          "signals": [
+            "Column I / Column II",
+            "Match the following",
+            "which of the following pairs"
+          ]
+        },
+        {
+          "id": "partial_or_missing_options",
+          "name": "Partial / missing options",
+          "description": "Stem is present but options are incomplete, truncated, or missing (parse/extraction gap).",
+          "has_shared_directions": null,
+          "typical_option_count": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "signals": [
+            "option_count < 4",
+            "empty options object",
+            "truncated option text"
+          ],
+          "notes": "Keep as an explicit pattern so the pipeline can flag QA failures separately from valid formats."
+        },
+        {
+          "id": "bilingual_stem_directions",
+          "name": "Bilingual stem / directions",
+          "description": "Same question content presented with mixed English + Hindi/Tamil (or other) text in stem and/or directions.",
+          "has_shared_directions": null,
+          "typical_option_count": [
+            4,
+            5
+          ],
+          "signals": [
+            "non-English script alongside English",
+            "parallel Hindi/Tamil wording in stem/directions"
+          ],
+          "notes": "May co-occur with another structural pattern; pipeline may store this as a flag or secondary pattern."
+        }
+      ]
+    },
+    "index_row": {
+      "title": "index.jsonl row",
+      "description": "One flat row per question in data/papers/index.jsonl, for filtering without opening every paper file. x-fill records how often the field is non-null across the 21,044 rows.",
+      "type": "object",
+      "required": [
+        "has_passage",
+        "language",
+        "memory_based",
+        "option_count",
+        "options",
+        "paper_id",
+        "pdf_path",
+        "q_id",
+        "q_num",
+        "stem"
+      ],
+      "properties": {
+        "answer": {
+          "type": [
+            "null"
+          ],
+          "x-fill": 0.0
+        },
+        "bank": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 92.7
+        },
+        "direction_id": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 72.5
+        },
+        "exam_type": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 93.0
+        },
+        "has_passage": {
+          "type": "boolean",
+          "x-fill": 100.0
+        },
+        "language": {
+          "type": "string",
+          "x-fill": 100.0
+        },
+        "memory_based": {
+          "type": "boolean",
+          "x-fill": 100.0
+        },
+        "option_count": {
+          "type": "integer",
+          "x-fill": 100.0
+        },
+        "options": {
+          "type": "object",
+          "x-fill": 100.0
+        },
+        "paper_id": {
+          "type": "string",
+          "x-fill": 100.0
+        },
+        "pdf_path": {
+          "type": "string",
+          "x-fill": 100.0
+        },
+        "q_id": {
+          "type": "string",
+          "x-fill": 100.0
+        },
+        "q_num": {
+          "type": "integer",
+          "x-fill": 100.0
+        },
+        "role": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 97.5
+        },
+        "section": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 14.4
+        },
+        "shift": {
+          "type": [
+            "string"
+          ],
+          "x-fill": 21.0
+        },
+        "stem": {
+          "type": "string",
+          "x-fill": 100.0
+        },
+        "topic": {
+          "type": [
+            "null"
+          ],
+          "x-fill": 0.0
+        },
+        "year": {
+          "type": [
+            "integer"
+          ],
+          "x-fill": 96.4
+        }
+      }
+    },
+    "parse_report": {
+      "title": "parse_report.json",
+      "description": "Per-run summary written beside the papers.",
+      "type": "object",
+      "properties": {
+        "avg_questions_per_parsed_paper": {
+          "type": "number"
+        },
+        "index_rows": {
+          "type": "integer"
+        },
+        "papers": {
+          "type": "array"
+        },
+        "papers_seen": {
+          "type": "integer"
+        },
+        "papers_with_questions": {
+          "type": "integer"
+        },
+        "status_counts": {
+          "type": "object"
+        },
+        "total_questions_indexed_approx": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

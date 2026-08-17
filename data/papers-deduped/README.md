@@ -34,7 +34,7 @@ Two other things to know:
 - 29 `paper_id`s appear in more than one file here (up to 4 copies each), so
   reading the tree naively double-counts questions.
 - No `index.jsonl`, `SCHEMA.md`, `parse_report.json` or `puzzles/`. Use
-  `../papers/SCHEMA.md` for the field definitions.
+  `../../schema/schema.json` for the field definitions.
 
 ## What it gets right
 

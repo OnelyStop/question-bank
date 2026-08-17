@@ -422,12 +422,12 @@ def build(
     schemas_dir = ROOT / "schemas"
     catalog = {
         "tables": [
-            {"name": "papers", "schema": "schemas/papers.schema.json", "rows": len(paper_rows), "populated": True},
-            {"name": "directions", "schema": "schemas/directions.schema.json", "rows": len(direction_rows), "populated": True},
-            {"name": "questions", "schema": "schemas/questions.schema.json", "rows": len(question_rows), "populated": True},
-            {"name": "attempts", "schema": "schemas/attempts.schema.json", "rows": 0, "populated": False},
-            {"name": "attempt_answers", "schema": "schemas/attempt_answers.schema.json", "rows": 0, "populated": False},
-            {"name": "user_topic_stats", "schema": "schemas/user_topic_stats.schema.json", "rows": 0, "populated": False},
+            {"name": "papers", "rows": len(paper_rows), "populated": True},
+            {"name": "directions", "rows": len(direction_rows), "populated": True},
+            {"name": "questions", "rows": len(question_rows), "populated": True},
+            {"name": "attempts", "rows": 0, "populated": False},
+            {"name": "attempt_answers", "rows": 0, "populated": False},
+            {"name": "user_topic_stats", "rows": 0, "populated": False},
         ]
     }
     (out_dir / "tables_catalog.json").write_text(

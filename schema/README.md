@@ -1,62 +1,52 @@
 # schema
 
-Nine files. Two describe data that is committed to this repo, six describe the
-tables the app imports, and one is a controlled vocabulary.
+One file — [`schema.json`](schema.json) — covering everything this repo
+produces. Four definitions under `$defs`:
 
-```
-papers.schema.json     the paper files in data/papers/
-papers.SCHEMA.md       the same format, in prose — read this one first
-feature_tables/        the six tables build_feature_tables.py exports
-question_patterns.json the 14 patterns a question may be classified as
-```
+| `$def` | Describes |
+|---|---|
+| `paper_file` | a paper under `data/papers/`, questions nested inside |
+| `index_row` | one flat row per question in `data/papers/index.jsonl` |
+| `parse_report` | the per-run summary written beside the papers |
+| `question_pattern` | the closed list of 14 patterns |
 
-## One question schema
+## The app's tables are not here
 
-`feature_tables/questions.schema.json` is it. A question is exported once, with
-a `paper_id` pointing at its paper.
+This repo extracts and validates. It does not own the database.
 
-The pipeline does flatten questions into an intermediate on the way there —
-`extract.py` copies the paper's `bank`, `year`, `shift` and so on onto every
-row so patterns can be classified across the whole corpus at once. That
-intermediate has no schema file, and shouldn't: it is written and consumed by
-`pipeline/patterns/` within a single run, its output is gitignored, and the
-function in `extract.py` is the only contract anything checks against. A JSON
-Schema sitting beside it would have been a second definition that no code
-reads and nothing keeps in sync.
+`papers`, `directions`, `questions`, `attempts`, `attempt_answers` and
+`user_topic_stats` are defined in the **frontend repo** as Drizzle schema
+(`src/db/schema.ts`), created by `bun run db:migrate`, with their RLS policies
+beside them. Three of those six this repo never writes a single row for — they
+are filled by the app at runtime.
 
-## papers.schema.json · papers.SCHEMA.md
+`build_feature_tables.py` exports JSONL for the importer to read. The shape of
+that export is whatever the build script writes; the app validates it on the
+way in. A schema here would be a second definition of someone else's tables,
+kept in sync by hand.
 
-The source shape — what `pipeline/pdf/` wrote into `data/papers/`. A paper is
-one file with its questions nested inside, so bank, year and shift are stored
-once at the top rather than on every question.
+## paper_file
 
-This one earns a committed schema because the data it describes is committed,
-and the PDFs it came from are gone.
+A paper is one file, so `bank`, `role`, `year` and `shift` are stored once at
+the top and every question inherits them. `paper_id` is
+`{bank}_{role}_{year}_{stage}_{shift}_{hash8}`.
 
-## feature_tables/
+Questions carry `direction_id` so a puzzle or DI set stays linked to the passage
+it shares, and `metrics` records what the parser could and could not see.
 
-| Table | Rows | Filled by |
-|---|---|---|
-| `papers` | 235 | the pipeline |
-| `directions` | 3,039 | the pipeline |
-| `questions` | 18,651 | the pipeline |
-| `attempts` | 0 | the app, at runtime |
-| `attempt_answers` | 0 | the app, at runtime |
-| `user_topic_stats` | 0 | the app, at runtime |
+## index_row
 
-The three empty ones ship as schemas with no rows on purpose — they define what
-the app writes, not what the pipeline produces.
+The same questions flattened, one row each, so a filter over 21,044 questions
+doesn't have to open 243 files. Every field carries `x-fill` — the percentage of
+rows where it is non-null, measured from the data rather than asserted.
 
-## question_patterns.json
+Two are worth knowing before you build on it: **`answer` is 0%** and **`topic`
+is 0%**. `section` is partial. The pipeline that fills them is described in the
+root [README](../README.md).
 
-Not a schema — the closed list of 14 patterns. `pipeline/patterns/validate.py`
-fails any row whose `question_pattern` is not in it. This is the only file here
-that is enforced at runtime.
+## question_pattern
 
-## No DDL here
-
-There is no `CREATE TABLE` in this repo. The tables are defined in the frontend
-repo as Drizzle schema (`src/db/schema.ts`) and created by `bun run db:migrate`,
-so migrations stay in one place with RLS policies beside them. The JSON Schema
-files here describe the *export* — the contract an importer checks against, not
-the database definition.
+The only thing here enforced at runtime: `pipeline/patterns/validate.py` fails
+any row whose `question_pattern` is outside the 14. Each entry keeps its
+description and detection signals under `x-patterns`, and the human-readable
+write-up of each lives in `.cursor/skills/banking-question-pattern-pipeline/`.

@@ -85,5 +85,6 @@ needs one — the chart or table. No source book, no internal id, no coaching
 brand, no URL. `scripts/verify.py` re-reads the published output and fails if
 any of that survives.
 
-Formats are in `schema/`: `papers.SCHEMA.md` for the paper files,
-`feature_tables/` for the six exported tables.
+Formats are in `schema/schema.json` — one file, covering the paper files, the
+index rows, and the 14 question patterns. The app's database tables are defined
+in the frontend repo, not here.

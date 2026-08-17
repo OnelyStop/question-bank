@@ -13,7 +13,7 @@ description: >-
 
 Normalize ~39k paper questions into one uniform JSON shape with
 `question_pattern` set from the canonical 14 patterns in
-`schema/question_patterns.json`.
+`schema/schema.json` (`$defs.question_pattern`).
 
 ## Run (bulk)
 
@@ -28,13 +28,13 @@ Outputs:
 - `pipeline/patterns/out/by_pattern/<pattern>.jsonl`
 - `pipeline/patterns/out/report.json`
 
-Table shapes: `schema/feature_tables/` (DDL lives in the frontend repo, `src/db/schema.ts`)
+Table shapes: defined in the frontend repo (`src/db/schema.ts`), not here
 
 ## Architecture
 
 | Layer | Path |
 |-------|------|
-| Pattern catalog | `schema/question_patterns.json` |
+| Pattern catalog | `schema/schema.json` (`$defs.question_pattern`) |
 | Pattern skills (code) | `pipeline/patterns/patterns/*.py` |
 | Classifier | `pipeline/patterns/classify.py` |
 | Uniform extractor | `pipeline/patterns/extract.py` |
@@ -43,7 +43,7 @@ Table shapes: `schema/feature_tables/` (DDL lives in the frontend repo, `src/db/
 
 ## Workflow
 
-1. Confirm pattern ids still match `question_patterns.json` `allowed_ids`.
+1. Confirm pattern ids still match the `question_pattern` enum in `schema/schema.json`.
 2. Adjust the relevant pattern skill under `pipeline/patterns/patterns/`.
 3. Re-run pipeline (optionally `--limit-papers` first).
 4. Check `report.json` pattern counts.
@@ -52,7 +52,7 @@ Table shapes: `schema/feature_tables/` (DDL lives in the frontend repo, `src/db/
 
 ## Adding / changing a pattern
 
-1. Add/update entry in `schema/question_patterns.json`.
+1. Add/update entry in `schema/schema.json` (`$defs.question_pattern`).
 2. Add/update `pipeline/patterns/patterns/<id>.py` implementing `PatternSkill`.
 3. Register in `pipeline/patterns/patterns/__init__.py` (`PRIMARY_SKILLS` or `SECONDARY_SKILLS`).
 4. Update schema enum + SQL check if needed.

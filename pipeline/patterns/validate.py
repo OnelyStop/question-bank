@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PATTERNS_FILE = ROOT.parent.parent / "schema" / "question_patterns.json"
+SCHEMA_FILE = ROOT.parent.parent / "schema" / "schema.json"
 
 REQUIRED = [
     "q_id",
@@ -29,7 +29,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
 
-    allowed = set(json.loads(PATTERNS_FILE.read_text(encoding="utf-8"))["allowed_ids"])
+    allowed = set(json.loads(SCHEMA_FILE.read_text(encoding="utf-8"))["$defs"]["question_pattern"]["enum"])
     errors = 0
     rows = 0
     with args.jsonl.open(encoding="utf-8") as f:
