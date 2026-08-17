@@ -422,7 +422,7 @@ def build(
     schemas_dir = ROOT / "schemas"
     catalog = {
         "tables": [
-            {"name": "data/papers", "schema": "schemas/papers.schema.json", "rows": len(paper_rows), "populated": True},
+            {"name": "papers", "schema": "schemas/papers.schema.json", "rows": len(paper_rows), "populated": True},
             {"name": "directions", "schema": "schemas/directions.schema.json", "rows": len(direction_rows), "populated": True},
             {"name": "questions", "schema": "schemas/questions.schema.json", "rows": len(question_rows), "populated": True},
             {"name": "attempts", "schema": "schemas/attempts.schema.json", "rows": 0, "populated": False},
@@ -438,7 +438,7 @@ def build(
         "source_papers_dir": str(papers_dir.as_posix()),
         "cleaned_jsonl": str(cleaned_jsonl.as_posix()),
         "paper_files_seen": files_seen,
-        "data/papers": len(paper_rows),
+        "papers": len(paper_rows),
         "papers_active": active_papers,
         "papers_canonical": sum(1 for r in paper_rows if r["is_canonical"]),
         "unique_exam_keys": len(by_exam_key),
@@ -452,7 +452,7 @@ def build(
         "duplicate_content_hash_groups": duplicate_hashes,
         "bank_counts": dict(Counter(r.get("bank") for r in paper_rows).most_common()),
         "outputs": {
-            "data/papers": str((out_dir / "papers.jsonl").as_posix()),
+            "papers": str((out_dir / "papers.jsonl").as_posix()),
             "directions": str((out_dir / "directions.jsonl").as_posix()),
             "questions": str((out_dir / "questions.jsonl").as_posix()),
             "attempts": str((out_dir / "attempts.jsonl").as_posix()),
@@ -480,7 +480,7 @@ def main() -> int:
         out_dir=args.out_dir,
     )
     print(
-        f"papers={report['data/papers']} directions={report['directions']} "
+        f"papers={report['papers']} directions={report['directions']} "
         f"questions={report['questions']} canonical={report['papers_canonical']}"
     )
     print(f"wrote {args.out_dir}")

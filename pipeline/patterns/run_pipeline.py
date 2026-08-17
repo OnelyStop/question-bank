@@ -68,7 +68,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Extract uniform patterned questions for Supabase")
     parser.add_argument(
         "--source",
-        choices=["data/papers", "data/papers-deduped", "both"],
+        choices=["papers", "papers-deduped", "both"],
         default="both",
         help="Which paper collection to read",
     )
@@ -81,17 +81,17 @@ def main() -> int:
     parser.add_argument("--limit-papers", type=int, default=0, help="Optional cap for smoke tests")
     parser.add_argument(
         "--prefer",
-        choices=["data/papers-deduped", "data/papers"],
-        default="data/papers-deduped",
+        choices=["papers-deduped", "papers"],
+        default="papers-deduped",
         help="When both sources have the same paper_id, keep this collection",
     )
     args = parser.parse_args()
 
     sources: list[tuple[str, Path]] = []
-    if args.source in ("data/papers", "both"):
-        sources.append(("data/papers", REPO / "data/papers"))
-    if args.source in ("data/papers-deduped", "both"):
-        sources.append(("data/papers-deduped", REPO / "data/papers-deduped"))
+    if args.source in ("papers", "both"):
+        sources.append(("papers", REPO / "data/papers"))
+    if args.source in ("papers-deduped", "both"):
+        sources.append(("papers-deduped", REPO / "data/papers-deduped"))
 
     by_qid: dict[str, dict[str, Any]] = {}
     qid_collection: dict[str, str] = {}

@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PATTERNS_FILE = ROOT.parent / "question_patterns.json"
+PATTERNS_FILE = ROOT.parent.parent / "schema" / "question_patterns.json"
 
 REQUIRED = [
     "q_id",

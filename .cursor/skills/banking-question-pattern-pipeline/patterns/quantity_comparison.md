@@ -1,4 +1,4 @@
-﻿# Quantity comparison
+# Quantity comparison
 
 **Pattern id:** `quantity_comparison`
 
@@ -6,7 +6,7 @@
 Quantity I vs Quantity II
 
 ## Code skill
-`India/banking/pattern_pipeline/patterns/quantity_comparison.py`
+`pipeline/patterns/patterns/quantity_comparison.py`
 
 ## Uniform output
 Sets `question_pattern` to `quantity_comparison` (unless secondary-only). Keep `stem`, `options`, `direction_text`, and paper metadata unchanged aside from classification fields.
@@ -15,5 +15,5 @@ Sets `question_pattern` to `quantity_comparison` (unless secondary-only). Keep `
 Edit the regex/signals in the Python skill, then re-run:
 
 ```bash
-python India/banking/pattern_pipeline/run_pipeline.py --limit-papers 20 --out-dir India/banking/pattern_pipeline/out/sample
+python pipeline/patterns/run_pipeline.py --limit-papers 20 --out-dir pipeline/patterns/out/sample
 ```
