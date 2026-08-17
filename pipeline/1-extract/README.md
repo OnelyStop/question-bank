@@ -80,6 +80,6 @@ nothing, so make this honest.
 | `ocr_supplement.py` | the OCR fallback |
 | `filename_parser.py` | filename → exam metadata |
 
-Needs `pip install pymupdf`. The previous run produced 243 papers and 21,044
-questions from 379 PDFs — recover it with
-`git checkout c73426f -- corpus/papers` to compare against.
+The previous run produced 243 papers and 21,044 questions from these PDFs.
+Recover it with `git checkout c73426f -- corpus/papers` and diff against it — if a
+rewrite produces materially fewer questions, that's a regression, not progress.

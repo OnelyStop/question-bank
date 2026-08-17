@@ -5,7 +5,7 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     everything the pipeline reads — empty, put source material here
+corpus/     the source PDFs — 375 of them, 414 MB
 data/       the clean output, one gzipped file
 pipeline/   the five steps, one folder each
 schema/     what one exported question looks like
@@ -19,21 +19,16 @@ is both large and derivable.
 
 ## The data
 
-`corpus/` is **empty** — drop source material in there and run the pipeline.
-Overlap between folders is expected; step 4 dedupes.
+`corpus/pdf/` holds **375 of the 379 source PDFs**, each with a `.meta.json`
+sidecar, laid out `{bank}/{role}/{year}/{stage}/`. That's the input to step 1, so
+**nothing is blocked** — the whole pipeline can run.
 
-Everything that used to be in it was the old pipeline's output. It's in git
-history if needed:
+Earlier extractions are in git history if you want to compare against them:
 
 ```bash
-git checkout c73426f -- corpus/papers        # 243 papers, 21,044 questions, no answers
-git checkout ce4d92f -- corpus/sets          # 4,851 questions, 3,596 answered
-git checkout 6da6705 -- corpus/PDF-MANIFEST.md   # the 379 source PDFs by name
+git checkout c73426f -- corpus/papers   # 243 papers, 21,044 questions, no answers
+git checkout ce4d92f -- corpus/sets     # 4,851 questions, 3,596 answered
 ```
-
-**The source PDFs were never committed here.** 379 of them, on the machine that
-ran the first extraction — 245 parsed, 134 didn't, 95 of those Hindi editions.
-Recovering them unblocks everything.
 
 ## The pipeline
 
@@ -59,14 +54,16 @@ re-run alone.
 
 | Step | Needs the PDFs? |
 |---|---|
-| 1. extract | **yes** — blocked |
+| 1. extract | yes |
 | 2. classify | no |
-| 3. answer | partly — 1,126 without them |
+| 3. answer | yes, for the answer keys |
 | 4. build | no |
 | 5. validate | no |
 
-Steps 2, 4 and 5 run on the JSON already in `corpus/`. That's the boundary the
-old layout hid.
+The PDFs are in `corpus/pdf/`, so all five can run. Steps 2, 4 and 5 need only
+step 1's JSON, which means they can be developed against the previous
+extraction (`git checkout c73426f -- corpus/papers`) without waiting for a step 1
+rewrite.
 
 ---
 
@@ -130,7 +127,7 @@ JSON, with `answer` and `explanation`
 Two sources, in order:
 
 1. **Answer keys from the PDFs** — the back-of-paper key, mapped to question
-   numbers. Needs the source PDFs, so blocked.
+   numbers. This is the primary path now that the PDFs are in `corpus/pdf/`.
 2. **Stem match against an answered source.** The `sets/` collection in git
    history (`ce4d92f`) has 3,596 answered questions, and **1,126 of them matched a
    paper question by stem** — a fallback that needs no PDFs if answers get
@@ -281,24 +278,28 @@ are written.
 
 | Step | State |
 |---|---|
-| 1-extract | **blocked** — needs the 379 source PDFs |
-| 2-classify | works; takes `section` to 73% and `topic` to 73% once there's input |
+| 1-extract | code exists, never cropped a figure; PDFs now available |
+| 2-classify | works; takes `section` to 73% and `topic` to 73% |
 | 3-answer | 1,085 lines that have never produced an answer |
 | 4-dedupe | not written |
-| 5-validate | two narrow checks |
+| 5-validate | two narrow checks, plus CI on the step examples |
 
-**Recovering the PDFs unblocks all of it.** They're the input to step 1, and every
-step after it reads step 1's output.
+Nothing is blocked. Step 1 is the one to run first, since everything reads its
+output — and its two known gaps are figures (986 questions flagged with no file)
+and the Devanagari it appends to English stems.
 
-## What blocks everything
+## Two things to know
 
-**The source PDFs were never committed.** Step 1 can't run without them, and
-every step after it has nothing to read. The manifest naming all 379 is at
-`git checkout 6da6705 -- corpus/PDF-MANIFEST.md`. Getting the PDFs back is the
-unblock for everything else.
+**414 MB of PDFs are in git history.** Removing them later needs a history
+rewrite, so if more batches are coming, decide on Git LFS before they land.
 
-**There is no question data in the repo at all right now.** The pipeline is a
-specification; `corpus/` is where the source material goes.
+**4 of the 379 PDFs are still missing**, and 35 have metadata that files them
+under `_unknown_bank` — RRB papers recorded two different ways. See
+[1-extract](pipeline/1-extract/README.md).
+
+**There is no extracted question data yet** — `data/` is empty until step 4 runs.
+The source PDFs are in place; the pipeline that turns them into questions is
+specified but not built.
 
 **986 questions need a figure that doesn't exist.** They carry
 `has_image: true` and no file reference; the extraction never produced the

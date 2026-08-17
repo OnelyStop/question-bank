@@ -1,0 +1,43 @@
+#!/bin/sh
+# Refuses a direct push to main.
+#
+# GitHub branch protection needs Pro/Team for a private repo, and this org is on
+# the free plan, so the server will accept a push to main. This hook is the
+# client-side stand-in. It is per-clone and opt-in:
+#
+#     git config core.hooksPath .githooks
+#
+# Which also means it is not a security control — anyone can pass --no-verify or
+# skip the config. It exists to stop the accident, not a determined push.
+
+protected=main
+remote_ref_prefix="refs/heads/$protected"
+
+while read -r _local_ref _local_sha remote_ref _remote_sha; do
+  case "$remote_ref" in
+    "$remote_ref_prefix")
+      current=$(git rev-parse --abbrev-ref HEAD)
+      cat >&2 <<EOF
+
+  Direct push to $protected is not allowed.
+
+  You are on: $current
+
+  Open a pull request instead:
+
+      git switch -c <step>/<what-you-did>     e.g. 2-classify/strip-devanagari
+      git push -u origin <branch>
+      gh pr create
+
+  CI runs on the PR. See CONTRIBUTING.md.
+
+  If you genuinely need to push to $protected, this hook can be bypassed with
+  --no-verify. Please don't make that a habit.
+
+EOF
+      exit 1
+      ;;
+  esac
+done
+
+exit 0

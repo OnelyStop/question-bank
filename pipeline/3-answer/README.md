@@ -13,8 +13,9 @@ most valuable thing in the pipeline.
 
 **1. Answer keys in the PDFs.** Most papers carry a key at the back, sometimes as
 a grid, sometimes as a table of `q_num → option`. Map it onto the questions.
-`attach_answers.py` (771 lines) was written for this and never successfully ran.
-Needs `corpus/pdf/`.
+`attach_answers.py` (771 lines) was written for this and never successfully ran —
+it now has the 375 PDFs in `corpus/pdf/` to run against, so this is the primary
+path rather than the blocked one.
 
 **2. Stem match against an answered collection.** The `sets/` collection in git
 history has 3,596 questions answered under `correct_option`, and **1,126 of them

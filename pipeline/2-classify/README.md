@@ -83,6 +83,14 @@ schema fields; the app has no use for them.
 | `patterns/` | 14 detectors + `base.py`, one file per pattern |
 | `classify.py` | dispatches a question through the detectors |
 
-Each pattern has a written spec in
-`.cursor/skills/banking-question-pattern-pipeline/patterns/` — read the one for a
-pattern before changing its detector.
+Each of the 14 patterns had a written spec — what it looks like, how to tell it
+apart from its neighbours, the signals that identify it. Those lived in a Cursor
+skill folder that has been removed; they're in git history:
+
+```bash
+git checkout f111f9c -- .cursor
+```
+
+Worth recovering before changing a detector. `quadratic_comparison` and
+`quantity_comparison` in particular are easy to confuse, and the specs are what
+distinguish them.
