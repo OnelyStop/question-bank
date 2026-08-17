@@ -252,20 +252,6 @@
       "default": -0.25,
       "description": "Deducted on a wrong answer, stored negative. Omitted when it equals the default.",
       "x-fill": 0.0
-    },
-    "seen_in": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Every paper_id this question appeared in. Length 1 unless dedup merged copies.",
-      "x-fill": 0.0
-    },
-    "seen_count": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "How many papers it appeared in. A high count means a high-yield question — the only place this is recorded.",
-      "x-fill": 0.0
     }
   }
 }

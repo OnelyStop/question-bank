@@ -52,17 +52,18 @@ push 73% higher". Two known problems to fix:
 
 ## Output
 
-[`output.json`](output.json) — step 1's shape, plus five fields per question:
+[`output.json`](output.json) — step 1's 17 fields plus four:
 
 ```
-section  topic  difficulty  question_pattern  label_source  label_confidence
+section   topic   difficulty   question_pattern
 ```
 
-`label_source` and `label_confidence` are for auditing: they record whether a
-label came from a rule, a cross-section rule, or a section fallback, so a bad
-batch can be traced instead of guessed at.
+21 of 28. Nothing else changes.
 
-Nothing else changes. Same files, same nesting, same `q_num`s.
+Keep `label_source` and `label_confidence` in your own run report, not on the
+question — a label from a rule and a label from a section fallback are worth very
+different amounts, and you'll want to trace a bad batch. They're deliberately not
+schema fields; the app has no use for them.
 
 ## Done when
 

@@ -206,17 +206,12 @@ If near-duplicates become a problem later, the shape to add is MinHash + LSH
 **gated on the numeric tuple matching exactly**, writing candidates to a review
 file rather than merging them.
 
-#### Two things to record while merging
+#### While merging
 
-**Where the copies came from.** When N collapse into one:
-
-```json
-"seen_in": ["ibps_clerk_2019_mains_…", "ibps_clerk_2021_prelims_…"],
-"seen_count": 6
-```
-
-A question that appeared in six exams is high-yield, and this is the only place
-that fact exists. Dedup usually discards it.
+**Log what merged**, in `build_report.json` — which `paper_id`s a surviving
+question absorbed. A question that appeared in six exams is high-yield, and this
+is the only point where that's visible. It belongs in the report, not on the
+question.
 
 **Answer conflicts.** Same key, different `answer` — one source is wrong. Write
 both to a review file and pick neither. There were 25 such cases in 3,596

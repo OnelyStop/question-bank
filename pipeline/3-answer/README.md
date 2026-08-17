@@ -58,15 +58,18 @@ regenerating per view costs more than storing it for years.
 
 ## Output
 
-[`output.json`](output.json) — step 2's shape, plus three fields per question:
+[`output.json`](output.json) — step 2's 21 fields plus two:
 
 ```
-answer  answer_source  explanation
+answer   explanation
 ```
 
-`answer_source` is not optional. `pdf_key` and `stem_match` have very different
-reliability, and when a wrong answer surfaces later you need to know which path
-produced it without re-deriving it.
+23 of 28. `answer` is the option **key** (`"a"`), not an index.
+
+Record which source produced each answer in `answer_report.json`, not on the
+question. `pdf_key` and `stem_match` have very different reliability, and when a
+wrong answer surfaces you need to trace it — but that belongs in the report, not
+the export.
 
 ## Done when
 

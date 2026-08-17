@@ -22,10 +22,11 @@ questions 11 through 15. Emit one `direction_id` per block and attach every
 question in its range. 71% of questions belong to one, so getting the ranges
 wrong breaks most of the bank.
 
-**Separate the Hindi.** Bilingual papers put the Devanagari immediately after the
+**Drop the Hindi.** Bilingual papers put the Devanagari immediately after the
 English, in the same block. The first attempt appended it to the English stem —
 1,350 questions came out that way, and **95 of the 134 PDFs that produced nothing
-were Hindi editions.** Put it in its own field, don't concatenate, don't discard.
+were Hindi editions.** The export is English-only, so detect the Devanagari and
+cut it rather than concatenating it into `stem`.
 
 **Options as an object**, keyed `a`–`e`, not an array. Watch for stacked
 fractions: `87 3/7 %` arriving as `87 3 %` is a question that no longer means
@@ -43,14 +44,19 @@ a guess.
 
 ## Output
 
-[`output.json`](output.json) is the exact shape this step must produce — one
-paper, with `directions[]` and `questions[]` nested inside it.
+[`output.json`](output.json) — one question, **17 of the 28 fields** in
+[`schema/schema.json`](../../schema/README.md).
 
-New in this step: everything. The fields to note are `stem_hi` / `options_hi` /
-`body_hi`, which hold the Devanagari **separately** rather than appended, and
-`direction_image_refs` on the direction rather than on each question.
+Every field name here is a schema field. There is no separate paper shape and no
+intermediate format: each step fills more of the same object.
 
-`answer`, `section` and `topic` are absent on purpose — later steps add them.
+The passage travels on the question — `direction_text`, `direction_has_image`,
+`direction_image_refs` — so a question is self-contained from the start. Note the
+chart belongs to the **passage**, not the question: 902 of 986 figure questions
+are in a passage set.
+
+`answer`, `section`, `topic`, `difficulty`, `question_pattern`, `content_hash`,
+`direction_hash` and `is_active` are absent on purpose. Later steps add them.
 
 Also write `parse_report.json`: per-PDF status, question count, and what couldn't
 be read. The previous run's report is what told us 134 of 379 PDFs produced

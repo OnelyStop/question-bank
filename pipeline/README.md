@@ -28,20 +28,23 @@ same question runs through all five, so you can diff one against the next.
 
 | After | Fields | Gains |
 |---|---|---|
-| [1-extract](1-extract/output.json) | 10 | `stem` `options` `direction_id` `has_image` `stem_hi` … |
-| [2-classify](2-classify/output.json) | 16 | `section` `topic` `difficulty` `question_pattern` `label_source` `label_confidence` |
-| [3-answer](3-answer/output.json) | 19 | `answer` `answer_source` `explanation` |
-| [4-dedupe](4-dedupe/output.json) | 28 | `q_id` `content_hash` `direction_hash` `seen_in` `seen_count` + the paper's identity flattened in |
+| [1-extract](1-extract/output.json) | 17 / 28 | `stem` `options` `direction_text` + the exam metadata |
+| [2-classify](2-classify/output.json) | 21 / 28 | `section` `topic` `difficulty` `question_pattern` |
+| [3-answer](3-answer/output.json) | 23 / 28 | `answer` `explanation` |
+| [4-dedupe](4-dedupe/output.json) | 26 / 28 | `content_hash` `direction_hash` `is_active` |
 | [5-validate](5-validate/output.json) | — | a report, not questions |
 
-Step 4 also **drops** seven fields: `stem_hi`, `options_hi`, `page_start`,
-`context_complete`, `label_source`, `label_confidence`, `answer_source`. Those
-exist to debug steps 1–3 and to hold the Hindi; the app doesn't need them. Keep
-them in the paper JSON — drop them only on the way out.
+**There is one shape, not four.** Every field in every `output.json` is a field in
+[`schema/schema.json`](../schema/README.md); each step fills more of the same
+question object. No paper wrapper, no intermediate format, nothing to translate
+between steps.
 
-Steps 1–3 write **one nested file per paper**. Step 4 is where the shape changes,
-to one flat question per line, matching
-[`schema/schema.json`](../schema/README.md).
+The last two of the 28 are `marks` and `negative_marks`, which stay absent while
+they equal their defaults (`1`, `-0.25`).
+
+Anything a step needs for its own auditing — label confidence, which source an
+answer came from, what merged with what — goes in that step's report file, not on
+the question.
 
 ## Working on one step
 

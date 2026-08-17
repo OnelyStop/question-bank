@@ -56,23 +56,19 @@ If near-duplicates become a real problem later, the shape to add is MinHash + LS
 **gated on the numeric tuple matching exactly**, writing candidates to a review
 file rather than merging them. Don't add it speculatively.
 
-## Two things to record while merging
+## While merging
 
-**Where the copies came from.** When N collapse into one:
-
-```json
-"seen_in": ["ibps_clerk_2019_mains_…", "ibps_clerk_2021_prelims_…"],
-"seen_count": 6
-```
-
-A question that appeared in six exams is high-yield, and this is the only place
-that fact exists. Dedup normally throws it away.
+**Log what merged, in the build report.** When N copies collapse into one, record
+which `paper_id`s they came from. A question that appeared in six exams is
+high-yield, and this is the only point in the pipeline where that is visible — it
+just belongs in `build_report.json`, not on the question.
 
 **Answer conflicts.** Same key, different `answer` — one source is wrong. Write
-both to a review file and pick neither.
+both to a review file and pick neither. There were 25 such cases in a
+3,596-question sample.
 
-The surviving record otherwise takes the copy with the most filled fields, prefers
-one that has an `answer`, unions the `image_refs`, and keeps the earliest `year`.
+The surviving record takes the copy with the most filled fields, prefers one that
+has an `answer`, unions the `image_refs`, and keeps the earliest `year`.
 
 ## Then the export
 
@@ -90,26 +86,22 @@ Flatten to one line per question, per
 
 ## Output
 
-[`output.json`](output.json) is one line of `data/questions.jsonl.gz` — the shape
-changes here, from nested paper files to one flat question per line.
+[`output.json`](output.json) is one line of `data/questions.jsonl.gz` — step 3's
+23 fields plus three derived ones:
 
-What's different from step 3:
+```
+content_hash   direction_hash   is_active
+```
 
-| | |
-|---|---|
-| added | `q_id`, `content_hash`, `direction_hash`, `seen_in`, `seen_count` |
-| flattened in | `bank`, `role`, `exam_type`, `year`, `shift`, `memory_based` |
-| inlined | `direction_text`, `direction_has_image`, `direction_image_refs` |
-| dropped | `stem_hi`, `options_hi`, `body_hi`, `label_source`, `answer_source`, `page_start`, `context_complete` |
+26 of 28. `marks` and `negative_marks` are the other two, absent because they
+equal their defaults (`1`, `-0.25`).
 
-The `_hi` fields are dropped because the export is English-only. The audit fields
-(`label_source`, `answer_source`) are dropped because they exist to debug steps
-2 and 3, not to serve the app — but keep them in the paper JSON, don't discard
-them at the source.
+`content_hash` is the dedup key, truncated to 16 chars. `direction_hash` is
+computed from the passage text and is what groups a passage set — never group by
+`direction_id`, which is paper-scoped.
 
 Every field must validate against
-[`schema/schema.json`](../../schema/README.md), which is the authority. 30 fields
-declared; `marks` and `negative_marks` are absent when they equal their defaults.
+[`schema/schema.json`](../../schema/README.md), which is the authority.
 
 ## Done when
 
@@ -118,4 +110,4 @@ declared; `marks` and `negative_marks` are absent when they equal their defaults
 - Re-running on unchanged input produces a byte-identical file.
 - Step 5 passes.
 - Nothing was dropped silently — every question that went in is either in the
-  output, merged into a row whose `seen_in` names its paper, or in the review file.
+  output, accounted for as a merge in `build_report.json`, or in the review file.
