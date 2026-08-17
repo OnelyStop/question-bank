@@ -53,62 +53,70 @@ you can see the whole shape:
 
 ## The passage: written 6 times, stored once
 
-Say a passage has 6 questions. In the file, each of the 6 carries the full
-`direction_text`:
+Say 6 questions share one passage.
 
-```jsonc
-{ "q_id": "...q011", "direction_hash": "9f3c1ab7", "direction_text": "Line chart given below shows..." }
-{ "q_id": "...q012", "direction_hash": "9f3c1ab7", "direction_text": "Line chart given below shows..." }
-{ "q_id": "...q013", "direction_hash": "9f3c1ab7", "direction_text": "Line chart given below shows..." }
-// ...6 identical passages
-```
+**In the file**, all 6 carry the full passage text:
 
-That looks wasteful, and it would be — if it went into the database that way.
-It doesn't. **Importing is two steps, and the copies only exist in the first
-one.**
+| `q_id` | `stem` | `direction_text` |
+|---|---|---|
+| q011 | What is the ratio…? | Line chart given below shows… |
+| q012 | What is the profit…? | Line chart given below shows… |
+| q013 | What is the discount…? | Line chart given below shows… |
+| …6 rows, same text 6 times | | |
 
-**Step 1** — load the file into a scratch table, copies and all:
+**In the database, after import, they do not.** The text moves into its own
+table, and each question keeps only a short code:
+
+`passages` — **1 row**
+
+| `direction_hash` | `body` |
+|---|---|
+| `9f3c1ab7` | Line chart given below shows… |
+
+`questions` — **6 rows**
+
+| `q_id` | `stem` | `direction_hash` |
+|---|---|---|
+| q011 | What is the ratio…? | `9f3c1ab7` |
+| q012 | What is the profit…? | `9f3c1ab7` |
+| q013 | What is the discount…? | `9f3c1ab7` |
+
+So the answer to "do the 6 questions still hold the text?" is **no**. They hold
+a 16-character code. The text sits in one row, and a join brings it back.
+
+### How the text gets out
+
+The importer does it in two steps:
 
 ```sql
-copy questions_import from 'questions.jsonl';   -- 6 rows, 6 copies of the passage
-```
+-- 1. load the file as-is, into a scratch table
+copy questions_import from 'questions.jsonl';
 
-**Step 2** — split it, then throw the scratch table away:
-
-```sql
+-- 2. text goes to passages, questions keep only the code
 insert into passages (direction_hash, body)
-select distinct direction_hash, direction_text from questions_import;   -- 1 row
+select distinct direction_hash, direction_text from questions_import;
 
 insert into questions (q_id, stem, options, direction_hash, ...)
-select q_id, stem, options, direction_hash, ... from questions_import;  -- 6 rows, no passage text
+select q_id, stem, options, direction_hash, ... from questions_import;
 
 drop table questions_import;
 ```
 
-What you end up with:
+The 6 copies exist only inside `questions_import`, which is deleted at the end.
 
-| Table | Rows | Passage text |
-|---|---|---|
-| `passages` | **1** | the full text, once |
-| `questions` | **6** | just `"9f3c1ab7"` — 16 characters each |
+### Why the file has copies at all
 
-So the passage lives in exactly one place. The 6 questions point at it with a
-16-character key, and you get it back with a join.
+Because it keeps it **one file**. No second file, no "load this one first", no
+ordering rules — one `copy` and you have everything. The extra 9.7 MB lives for
+about a minute during import, then it's gone.
 
-**Why keep the copies in the file at all?** Because it makes the file one file.
-No second file, no "load this before that", no ordering rules — one `copy` and
-you have everything. The duplication is 9.7 MB that exists for about a minute
-during import and then is gone.
+### What you get from this
 
-**Why it matters that it doesn't reach the database:**
-
-- Fix a typo in a passage → **1 row updated, not 6.** No risk of the same
-  passage rendering two different ways.
-- Serving a 5-question set → **4.5 KB instead of 7.0 KB**, because the passage
-  goes over the wire once. Worst set in the corpus is 22 questions on a 4,275
-  character passage — that's 92 KB of repeats saved.
-
-Across the whole bank: **13,292 inlined copies become 2,744 passage rows.**
+- Fix a typo in a passage → **1 row changes, not 6.** The passage can never show
+  up two different ways.
+- Send a 5-question set to a phone → **4.5 KB instead of 7.0 KB.** The passage
+  goes over once, not five times.
+- Whole bank: **13,292 copies become 2,744 passage rows.**
 
 ## Grouping questions by passage
 
