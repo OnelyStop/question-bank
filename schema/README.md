@@ -130,20 +130,41 @@ correcting extraction errors — which, with this corpus, you will.
 of each set. It saves the same space, but the query becomes a self-join, and
 deactivating that one question silently strips the passage from the whole set.
 
-### Can the passage text be made smaller?
+### Can the duplication in the file be reduced?
 
-Not meaningfully, and it doesn't need to be. After dedup it's 1.58 MB total —
-mean 575 characters, median 370. Only 135 of 2,744 passages are over 2 KB, which
-is where Postgres would start compressing them anyway.
+It already is, by compression — and that beats restructuring the file.
 
-The big text in `questions` is `stem` (4.6 MB) and `options` (2.4 MB), and that
-is the actual content — there is nothing to squeeze out of it.
+| | Size | Gzipped |
+|---|---|---|
+| passage on every question | 23.2 MB | **2.98 MB** |
+| passage on first of each set only | 15.9 MB | 2.84 MB |
+
+Repeated text is exactly what gzip is good at. Shipping `questions.jsonl.gz`
+takes the file from 23.2 MB to **2.98 MB — 87% smaller** — with no schema
+change and no change to how you import:
+
+```bash
+zcat questions.jsonl.gz | psql -c "copy questions_import from stdin"
+```
+
+Writing the passage on only the first question of each set saves 7.3 MB
+uncompressed, but only **0.14 MB** once both are gzipped — and it costs you a
+file where each line is no longer self-contained. Not worth it.
+
+So the duplication is real on paper and close to free in practice: it costs
+0.14 MB compressed, and it's deleted from the database at import anyway.
+
+### The passage text itself
+
+Nothing left to squeeze. Deduped it's 1.58 MB total — mean 575 characters,
+median 370, and only 135 of 2,744 are over 2 KB. The big text in `questions` is
+`stem` (4.6 MB) and `options` (2.4 MB), and that's the actual content.
 
 ### Why the file has copies at all
 
-Because it keeps it **one file**. No second file, no "load this one first", no
-ordering rules — one `copy` and you have everything. The extra 9.7 MB lives for
-about a minute during import, then it's gone.
+Because it keeps it **one file**, and every line stands alone. No second file,
+no "load this one first", no ordering rules — one `copy` and you have
+everything. Compressed it costs 0.14 MB, and it's dropped at import anyway.
 
 ### What you get from this
 
@@ -198,7 +219,7 @@ Every field carries `x-fill` in the schema, measured across all 18,651 rows.
 
 ## Size and speed
 
-**24.2 MB**, down from 29.3 MB. Four fields were dropped for having one value
+**23.2 MB**, or **2.98 MB gzipped**, down from 29.3 MB. Four fields were dropped for having one value
 everywhere — `language`, `option_count`, `topic_source`, `page_start` — nulls
 are omitted rather than written, and `content_hash` is 16 chars instead of 64.
 
