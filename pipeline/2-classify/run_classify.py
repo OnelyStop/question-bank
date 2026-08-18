@@ -399,6 +399,14 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 1
 
+    if report["totals"]["questions"] == 0:
+        log.error(
+            "%s paper(s) loaded under %s but none contained questions — nothing classified.",
+            report["totals"]["papers"],
+            args.papers_dir,
+        )
+        return 1
+
     cov = report["coverage"]
     tot = report["totals"]
     log.info(
