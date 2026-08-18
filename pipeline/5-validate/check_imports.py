@@ -5,22 +5,46 @@
 undefined name at module scope — which is how an `import fitz` inherited from the
 PDF module left the classifier unrunnable without anything noticing.
 
+Each module is imported in its **own subprocess**. An earlier version imported
+them all in one process and passed `4-answer/attach_answers.py`, which does not
+import at all: loading step 1 first left `pdf_to_questions` in `sys.modules`, so
+step 4's cross-step import silently resolved. Order-dependent false passes are
+the exact failure this check exists to catch.
+
     python3 pipeline/5-validate/check_imports.py
 """
 
 from __future__ import annotations
 
-import importlib
-import importlib.util
 import subprocess
 import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 
-# Known broken, with a reason. This list must only ever shrink: the check fails
-# if something on it starts importing, so it can't rot. Currently empty.
+# A run that finds nothing must fail, not pass quietly. 31 modules today.
+MIN_MODULES = 25
+
+# Known broken, with a reason. The check fails if anything on it starts
+# importing, so the list cannot rot.
 KNOWN_BROKEN: set[str] = set()
+
+CHILD = """
+import importlib, importlib.util, sys
+from pathlib import Path
+path = Path(sys.argv[1])
+pkg = path.parent
+if (pkg / "__init__.py").exists():
+    sys.path.insert(0, str(pkg.parent))
+    name = path.stem
+    importlib.import_module(f"{pkg.name}.{name}" if name != "__init__" else pkg.name)
+else:
+    sys.path.insert(0, str(pkg))
+    spec = importlib.util.spec_from_file_location(path.stem, path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[path.stem] = module
+    spec.loader.exec_module(module)
+"""
 
 
 def tracked_modules() -> list[Path]:
@@ -31,61 +55,41 @@ def tracked_modules() -> list[Path]:
     return [REPO / p for p in out]
 
 
-def load(path: Path) -> None:
-    """Import one file. Packages go through their parent so relative imports work."""
-    pkg_root = path.parent
-    if (pkg_root / "__init__.py").exists():
-        # part of a package — import it as package.module, from the parent dir
-        sys.path.insert(0, str(pkg_root.parent))
-        try:
-            name = path.stem if path.stem != "__init__" else ""
-            target = f"{pkg_root.name}.{name}" if name else pkg_root.name
-            importlib.import_module(target)
-        finally:
-            sys.path.pop(0)
-        return
-
-    sys.path.insert(0, str(path.parent))
-    try:
-        spec = importlib.util.spec_from_file_location(path.stem, path)
-        if spec is None or spec.loader is None:
-            raise ImportError("no import spec")
-        module = importlib.util.module_from_spec(spec)
-        # register before exec: dataclasses and typing resolve names via sys.modules
-        sys.modules[path.stem] = module
-        try:
-            spec.loader.exec_module(module)
-        finally:
-            sys.modules.pop(path.stem, None)
-    finally:
-        sys.path.pop(0)
+def imports_ok(path: Path) -> tuple[bool, str]:
+    proc = subprocess.run(
+        [sys.executable, "-c", CHILD, str(path)],
+        cwd=REPO, capture_output=True, text=True,
+    )
+    if proc.returncode == 0:
+        return True, ""
+    last = [ln for ln in proc.stderr.strip().splitlines() if ln.strip()]
+    return False, last[-1] if last else f"exit {proc.returncode}"
 
 
 def main() -> int:
     files = tracked_modules()
-    failures: list[tuple[str, str]] = []
 
-    skipped = []
+    if len(files) < MIN_MODULES:
+        print(f"::error::found only {len(files)} modules, expected at least "
+              f"{MIN_MODULES} — the glob is probably broken", file=sys.stderr)
+        return 1
+
+    failures: list[tuple[str, str]] = []
+    skipped: list[str] = []
+
     for path in files:
         rel = str(path.relative_to(REPO))
         if rel in KNOWN_BROKEN:
             skipped.append(rel)
             continue
-        try:
-            load(path)
-        except Exception as exc:
-            failures.append((rel, f"{type(exc).__name__}: {exc}"))
+        ok, err = imports_ok(path)
+        if not ok:
+            failures.append((rel, err))
 
-    # a file that starts importing should leave the list, or it rots
-    fixed = []
-    for rel in list(KNOWN_BROKEN):
-        try:
-            load(REPO / rel)
-            fixed.append(rel)
-        except Exception:
-            pass
+    fixed = [rel for rel in KNOWN_BROKEN if imports_ok(REPO / rel)[0]]
     if fixed:
-        print(f"\n  These now import — remove them from KNOWN_BROKEN: {fixed}", file=sys.stderr)
+        print(f"\n  These now import — remove them from KNOWN_BROKEN: {fixed}",
+              file=sys.stderr)
         return 1
 
     if failures:
