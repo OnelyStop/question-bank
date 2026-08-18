@@ -3,6 +3,12 @@ name: Claude review
 on:
   pull_request:
     types: [opened, synchronize]
+    # a review costs ~6 min of Opus; these can't carry the bugs it looks for
+    paths-ignore:
+      - "**/*.md"
+      - "LICENSE"
+      - ".gitignore"
+      - ".githooks/**"
 
 # a new push supersedes the review still running on the old commit
 concurrency:
@@ -33,6 +39,12 @@ jobs:
             PR NUMBER: ${{ github.event.pull_request.number }}
 
             Review this pull request. The branch is checked out already.
+
+            EVENT: ${{ github.event.action }}
+            If that is "synchronize", earlier commits on this PR were already
+            reviewed. Focus on what changed since — `git diff HEAD~1` — and only
+            revisit older code if the new commits interact with it. Do not
+            re-review the whole PR from scratch on every push.
 
             NEVER read anything under corpus/pdf/ — 414 MB of exam PDFs. Nothing
             there is reviewable and opening one wastes the whole run.
