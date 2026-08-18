@@ -1,4 +1,4 @@
-# 4 — dedupe
+# 3 — dedupe
 
 Keep one copy of each question, then write the export.
 
@@ -58,17 +58,33 @@ file rather than merging them. Don't add it speculatively.
 
 ## While merging
 
-**Log what merged, in the build report.** When N copies collapse into one, record
-which `paper_id`s they came from. A question that appeared in six exams is
-high-yield, and this is the only point in the pipeline where that is visible — it
-just belongs in `build_report.json`, not on the question.
+**Write the provenance to `dedupe_report.json`. Step 4 depends on it.**
 
-**Answer conflicts.** Same key, different `answer` — one source is wrong. Write
-both to a review file and pick neither. There were 25 such cases in a
-3,596-question sample.
+```json
+{ "d758775a0377eafe": [
+    { "paper_id": "ibps_clerk_2019_mains_…", "q_num": 95 },
+    { "paper_id": "ibps_clerk_2021_prelims_…", "q_num": 42 } ] }
+```
 
-The surviving record takes the copy with the most filled fields, prefers one that
-has an `answer`, unions the `image_refs`, and keeps the earliest `year`.
+This is the reason dedupe runs before answers rather than after. Answer keys are
+found by `(paper_id, q_num)`, so a merged question needs every place it appeared:
+if the 2019 paper has no answer key but the 2021 one does, step 4 finds it
+through this map. Drop the provenance and you throw away a second and third
+chance at an answer.
+
+It's also the high-yield signal — a question that appeared in six exams is worth
+ranking practice sets by, and nowhere else records that.
+
+**Answer conflicts move to step 4.** When two source papers give different
+answers for the same merged question, step 4 is where that surfaces — it has the
+provenance map and can see both keys at once. There were 25 such cases in a
+3,596-question sample, so this will happen.
+
+The surviving record takes the copy with the most filled fields, unions the
+`image_refs`, and keeps the earliest `year`. It can't prefer "the copy with an
+answer" any more — no answers exist yet at this point — which is fine, because
+step 4 looks the answer up across every paper in the provenance map regardless of
+which copy survived.
 
 ## Then the export
 
@@ -86,15 +102,14 @@ Flatten to one line per question, per
 
 ## Output
 
-[`output.json`](output.json) is one line of `data/questions.jsonl.gz` — step 3's
-23 fields plus three derived ones:
+[`output.json`](output.json) — step 2's 21 fields plus three derived ones:
 
 ```
 content_hash   direction_hash   is_active
 ```
 
-26 of 28. `marks` and `negative_marks` are the other two, absent because they
-equal their defaults (`1`, `-0.25`).
+24 of 28. `answer` and `explanation` come in step 4; `marks` and
+`negative_marks` stay absent while they equal their defaults (`1`, `-0.25`).
 
 `content_hash` is the dedup key, truncated to 16 chars. `direction_hash` is
 computed from the passage text and is what groups a passage set — never group by
@@ -105,9 +120,10 @@ Every field must validate against
 
 ## Done when
 
-- `build_report.json` gives the fill rate of every field, how many duplicates
-  merged, and how many conflicts went to review.
-- Re-running on unchanged input produces a byte-identical file.
-- Step 5 passes.
+- `dedupe_report.json` maps every surviving `content_hash` to all the
+  `(paper_id, q_num)` pairs it absorbed. Step 4 can't work without it.
+- Re-running on unchanged input produces byte-identical output.
 - Nothing was dropped silently — every question that went in is either in the
-  output, accounted for as a merge in `build_report.json`, or in the review file.
+  output or named in the provenance of one that is.
+- The duplicate rate is reported. It was **7.6%** on the last extraction —
+  1,601 copies of 21,044 — so a wildly different number means step 1 changed.

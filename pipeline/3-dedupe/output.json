@@ -2,6 +2,7 @@
   "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q095",
   "paper_id": "ibps_clerk_2019_mains_unknown_shift_781623cd",
   "q_num": 95,
+  "content_hash": "d758775a0377eafe",
   "stem": "What is the ratio of marked price to selling price of article C?",
   "options": {
     "a": "4 : 3",
@@ -10,9 +11,8 @@
     "d": "7 : 4",
     "e": "4 : 5"
   },
-  "answer": "a",
-  "explanation": "MRP = CP x 1.4 and SP = MRP x 0.75, so MRP : SP = 1 : 0.75 = 4 : 3.",
   "direction_id": "d019",
+  "direction_hash": "9f3c1ab77e40d215",
   "direction_text": "Line chart given below shows markup percent more than CP and discount percent given on MRP of seven different articles sold by a shopkeeper. Study the data carefully and answer the following questions.",
   "direction_has_image": true,
   "direction_image_refs": [
@@ -29,5 +29,6 @@
   "difficulty": 3,
   "question_pattern": "shared_directions_set",
   "has_image": false,
-  "image_refs": []
+  "image_refs": [],
+  "is_active": true
 }

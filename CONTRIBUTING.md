@@ -44,6 +44,20 @@ It's a convenience now, not the enforcement.
 the point — but it does mean a one-line fix waits for a reviewer. Ask in chat
 rather than sitting on it.
 
+## Review
+
+Every PR gets two reviews.
+
+**CodeRabbit** runs automatically when the PR opens and again on each push. It's
+free on public repos. `.coderabbit.yaml` carries the rules it can't infer from
+the code — no fuzzy matching in dedupe, `corpus/` is never modified in place,
+answers must be a key that exists in that question's options, and each step's
+output must stay a superset of the previous step's. Every one of those came from
+something that actually went wrong here, so **update the config when you learn a
+new rule** — that's what makes it improve.
+
+It's a first pass, not the approval. A human still has to approve.
+
 ## What CI checks
 
 Everything below runs on every PR. All of it runs locally too — do that first,
