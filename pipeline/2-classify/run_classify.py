@@ -376,6 +376,15 @@ def main(argv: list[str] | None = None) -> int:
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
+    if report["totals"]["papers"] == 0:
+        log.error(
+            "%s paper file(s) found under %s but none were valid papers "
+            "(bad JSON / missing paper_id or questions).",
+            len(paper_files),
+            args.papers_dir,
+        )
+        return 1
+
     cov = report["coverage"]
     tot = report["totals"]
     log.info(
