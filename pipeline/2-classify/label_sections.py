@@ -24,16 +24,19 @@ from corpus import (
     DEFAULT_OUT,
     iter_paper_jsons,
     load_paper,
-    rebuild_index,
 )
-
 
 try:
     from label_topics import topic_implied_section
 except ImportError:
     topic_implied_section = None  # type: ignore[assignment,misc]
 
+ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("label_sections")
+
+
+def save_paper(path: Path, paper: dict[str, Any]) -> None:
+    path.write_text(json.dumps(paper, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 PATH_CUES: list[tuple[str, re.Pattern[str]]] = [
     ("Quantitative", re.compile(r"\b(?:quant|quantitative|numerical|maths?|di)\b", re.I)),
@@ -334,8 +337,13 @@ def infer_section(paper: dict[str, Any], q: dict[str, Any]) -> tuple[str | None,
     return None, None
 
 
-def propagate_direction_sections(paper: dict[str, Any]) -> int:
-    """If any question in a direction group has a section, copy to siblings missing one."""
+def propagate_direction_sections(paper: dict[str, Any], *, unify: bool = False) -> int:
+    """
+    Copy section across a direction group.
+
+    Default: fill siblings that are missing a section.
+    unify=True: force every sibling to the majority section (fixes mixed sets).
+    """
     by_dir: dict[str, list[dict[str, Any]]] = {}
     for q in paper.get("questions") or []:
         did = q.get("direction_id")
@@ -352,6 +360,10 @@ def propagate_direction_sections(paper: dict[str, Any]) -> int:
             if not q.get("section"):
                 q["section"] = sec
                 q["section_source"] = "direction_propagate"
+                filled += 1
+            elif unify and q.get("section") != sec:
+                q["section"] = sec
+                q["section_source"] = "direction_unify"
                 filled += 1
     return filled
 
@@ -404,7 +416,7 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
 
         if dirty:
             papers_touched += 1
-            path.write_text(json.dumps(paper, indent=2, ensure_ascii=False), encoding="utf-8")
+            save_paper(path, paper)
 
     # Recount labelled accurately
     labelled = 0
@@ -420,7 +432,6 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
                 labelled += 1
                 sections[str(q["section"])] += 1
 
-    index_rows = rebuild_index(out_root)
     return {
         "questions": total,
         "labelled": labelled,
@@ -428,7 +439,6 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
         "papers_touched": papers_touched,
         "by_source": dict(sources),
         "by_section": dict(sections),
-        "index_rows": index_rows,
     }
 
 

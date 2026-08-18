@@ -28,12 +28,14 @@ from corpus import (
     DEFAULT_OUT,
     iter_paper_jsons,
     load_paper,
-    rebuild_index,
 )
-
 
 ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("label_topics")
+
+
+def save_paper(path: Path, paper: dict[str, Any]) -> None:
+    path.write_text(json.dumps(paper, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 PERM_OPTION_RE = re.compile(r"^[A-E]{3,5}$", re.I)
 NO_REARRANGEMENT_RE = re.compile(r"(?i)no\s+rearrangement\s+required")
@@ -387,9 +389,8 @@ def label_topics(
 
         if dirty:
             papers_touched += 1
-            path.write_text(json.dumps(paper, indent=2, ensure_ascii=False), encoding="utf-8")
+            save_paper(path, paper)
 
-    index_rows = rebuild_index(out_root)
     return {
         "filter": {"bank": bank, "role": role, "exam_type": exam_type},
         "questions_processed": total,
@@ -399,7 +400,6 @@ def label_topics(
         "by_source": dict(sources),
         "by_topic": dict(topics),
         "focus": focus_stats,
-        "index_rows": index_rows,
         "taxonomy": str(taxonomy_path.name),
     }
 
