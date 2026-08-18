@@ -46,17 +46,33 @@ rather than sitting on it.
 
 ## Review
 
-Every PR gets two reviews.
+Every PR gets an automated first pass and a human approval.
 
-**CodeRabbit** runs automatically when the PR opens and again on each push. It's
-free on public repos. `.coderabbit.yaml` carries the rules it can't infer from
-the code — no fuzzy matching in dedupe, `corpus/` is never modified in place,
+**Claude** reviews on open and on each push, via
+`.github/workflows/claude-review.yml`. It runs on a Claude Max subscription
+rather than API credits, so it costs nothing beyond quota — roughly 0.1–0.2% of
+the weekly Opus budget per review, about 1–2% at ten PRs a week.
+
+One-time setup, by whoever's subscription it runs on:
+
+```bash
+claude setup-token                      # prints a long-lived token
+gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo OnelyStop/question-bank
+```
+
+The prompt in that workflow carries the rules Claude can't infer from the code — no fuzzy matching in dedupe, `corpus/` is never modified in place,
 answers must be a key that exists in that question's options, and each step's
 output must stay a superset of the previous step's. Every one of those came from
 something that actually went wrong here, so **update the config when you learn a
 new rule** — that's what makes it improve.
 
+Drafts are skipped, so iterate in draft and mark ready when you want the review.
+
 It's a first pass, not the approval. A human still has to approve.
+
+`.coderabbit.yaml` is still in the repo. CodeRabbit's free tier turned out to be
+summary-only after a 14-day trial, so the config is dormant unless someone
+installs the app — harmless to leave, and the rules in it are the same ones.
 
 ## What CI checks
 
