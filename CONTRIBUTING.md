@@ -75,10 +75,6 @@ Drafts are skipped, so iterate in draft and mark ready when you want the review.
 
 It's a first pass, not the approval. A human still has to approve.
 
-`.coderabbit.yaml` is still in the repo. CodeRabbit's free tier turned out to be
-summary-only after a 14-day trial, so the config is dormant unless someone
-installs the app — harmless to leave, and the rules in it are the same ones.
-
 ## What CI checks
 
 Everything below runs on every PR. All of it runs locally too — do that first,
