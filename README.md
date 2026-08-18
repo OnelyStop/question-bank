@@ -12,7 +12,7 @@ schema/     what one exported question looks like
 ```
 
 `corpus/` is raw and messy by design; `data/` is generated and disposable.
-Delete `data/`, re-run step 4, get it back.
+Delete `data/`, re-run the pipeline, get it back.
 
 Anything a pipeline writes is gitignored and rebuilt on demand, so nothing here
 is both large and derivable.
@@ -37,14 +37,14 @@ overlapping entry points and its six-table export are deleted; what survived is
 the parts with real logic, filed under the step they belong to.
 
 ```
-corpus/  ->  1_extract  ->  2_classify  ->  3_answer  ->  4_build  ->  data/
+corpus/  ->  1-extract  ->  2-classify  ->  3-dedupe  ->  4-answer  ->  data/
                                                               |
-                                                          5_validate
+                                                          5-validate
 ```
 
 ```
 pipeline/
-  1-extract/   2-classify/   3-answer/   4-dedupe/   5-validate/   lib/
+  1-extract/   2-classify/   3-dedupe/   4-answer/   5-validate/   lib/
 ```
 
 One folder per step, one owner per step, and a README in each saying what it
@@ -56,8 +56,8 @@ re-run alone.
 |---|---|
 | 1. extract | yes |
 | 2. classify | no |
-| 3. answer | yes, for the answer keys |
-| 4. build | no |
+| 3. dedupe | no |
+| 4. answer | yes, for the answer keys |
 | 5. validate | no |
 
 The PDFs are in `corpus/pdf/`, so all five can run. Steps 2, 4 and 5 need only
@@ -84,8 +84,8 @@ rewrite.
 - Write `parse_report.json`: per-PDF status, question counts, what it couldn't
   read.
 
-Needs PyMuPDF and the source PDFs, which aren't in this repo. Restore them to
-`corpus/pdf/` and this step runs again.
+Needs `pip install pymupdf`. The 375 source PDFs are in `corpus/pdf/`, so this
+step can run.
 
 ---
 
@@ -119,46 +119,15 @@ gone now that it lives in `2-classify/`.
 
 ---
 
-### 3. `3-answer/` — fill in the answers
+### 3. `3-dedupe/` — keep one copy of each question
 
-**In** `corpus/papers/` + any answered source in `corpus/` · **Out** the same
-JSON, with `answer` and `explanation`
+**In** step 2's classified questions · **Out** the same, deduped, plus
+`dedupe_report.json`
 
-Two sources, in order:
-
-1. **Answer keys from the PDFs** — the back-of-paper key, mapped to question
-   numbers. This is the primary path now that the PDFs are in `corpus/pdf/`.
-2. **Stem match against an answered source.** The `sets/` collection in git
-   history (`ce4d92f`) has 3,596 answered questions, and **1,126 of them matched a
-   paper question by stem** — a fallback that needs no PDFs if answers get
-   urgent before the corpus is recovered.
-
-Match on a normalised stem, not an exact string: strip whitespace and case, and
-require the option set to agree before accepting an answer. Log every match and
-every near-miss to `answer_report.json` — a wrong answer is worse than none.
-
-`explanation` is generated, not extracted. That's a separate pass, once answers
-exist.
-
-Gate every match the same way step 4 does: the numeric tuple must be identical
-and the options must agree. A near-match with different numbers is a different
-question, and copying its answer over is the worst outcome available here.
-
----
-
-### 4. `4-dedupe/` — dedupe and export
-
-**In** `corpus/` · **Out** `data/questions.jsonl.gz`
-
-Many overlapping folders will land in `corpus/` — memory-based papers repeat
-questions and the same paper arrives from several sources. This step keeps one
-copy of each.
+Memory-based papers repeat questions and the same paper arrives from several
+sources. **The last extraction was 7.6% duplicates — 1,601 copies of 21,044.**
 
 #### Exact duplicates only
-
-Only questions that are **character-for-character the same** are merged. Nothing
-based on similarity scores, because the measurement below shows why that would be
-dangerous here.
 
 ```python
 def key(q):
@@ -168,66 +137,88 @@ def key(q):
     ).hexdigest()
 
 def norm(s):
-    s = unicodedata.normalize("NFKC", s)   # ² and 2 settled the same way
-    s = re.sub(r"\s+", " ", s).strip()     # whitespace and line breaks
+    s = unicodedata.normalize("NFKC", s)   # settles ² vs 2
+    s = re.sub(r"\s+", " ", s).strip()     # whitespace, line breaks
     return s.casefold()                    # "Who" == "who"
 ```
 
-One dict, one pass, O(n). First copy wins.
-
-Digits are **never** touched. That is the whole safety property: two questions
-that differ only in a number produce different keys and stay separate.
+One dict, one pass, O(n). First copy wins. **Digits are never normalised** — that
+is the whole safety property.
 
 #### Why nothing fuzzier
 
-Grouping the 3,596 answered questions by their text with the digits stripped out:
+Two independent measurements say the same thing:
 
-| | |
-|---|---|
-| true duplicates — same words **and** numbers | 182 |
-| **same words, different numbers** | **105** |
+- Grouping 3,596 answered questions by text with digits stripped: 182 are true
+  duplicates, **105 share every word but differ in their numbers**. 37% of
+  look-alikes aren't duplicates.
+- At file level, a "share the first 3000 characters" heuristic flagged 47 PDF
+  pairs. **46 were false positives** — different papers sharing a cover page.
+  Exact text hashing found the one real duplicate and nothing else.
 
-**37% of look-alike pairs are not duplicates.** These two are identical strings
-once digits are removed, and have different answers:
+A reasonable-sounding similarity heuristic was 46/47 wrong. Exact hashing was
+right both times.
 
 ```
 I. 35x2 – 34x – 21 = 0  /  II. 63y² + 55y + 12 = 0     answer: c
 I. 3x2 – 5x – 12 = 0    /  II. 2y² + 15y + 25 = 0      answer: a
 ```
 
-Any similarity threshold that catches the 182 also merges some of the 105 and
-deletes real questions. Exact matching catches fewer duplicates and never makes
-that mistake — the right trade when the source folders may be gone afterwards.
+Identical strings once digits are removed; different answers.
 
-If near-duplicates become a problem later, the shape to add is MinHash + LSH
-**gated on the numeric tuple matching exactly**, writing candidates to a review
-file rather than merging them.
+#### Keep the provenance — step 4 needs it
 
-#### While merging
+```json
+{ "d758775a0377eafe": [
+    { "paper_id": "ibps_clerk_2019_mains_…", "q_num": 95 },
+    { "paper_id": "ibps_clerk_2021_prelims_…", "q_num": 42 } ] }
+```
 
-**Log what merged**, in `build_report.json` — which `paper_id`s a surviving
-question absorbed. A question that appeared in six exams is high-yield, and this
-is the only point where that's visible. It belongs in the report, not on the
-question.
+This is why dedupe runs before answers. Keys are found by `(paper_id, q_num)`, so
+a merged question needs every place it appeared — if the 2019 paper has no key
+but the 2021 one does, step 4 finds it here. It's also the high-yield signal: a
+question in six exams is worth ranking practice by.
 
-**Answer conflicts.** Same key, different `answer` — one source is wrong. Write
-both to a review file and pick neither. There were 25 such cases in 3,596
-questions. Silently choosing one ships a wrong answer.
+---
 
-Otherwise the surviving record takes the copy with the most filled fields,
-prefers one that has an `answer`, unions the `image_refs`, and keeps the earliest
-`year`.
+### 4. `4-answer/` — fill in the answers
 
-#### Then the export
+**In** step 3's deduped questions + `dedupe_report.json` · **Out** the same, with
+`answer` and `explanation`
 
-- Flatten the paper's identity onto every question — `bank`, `role`,
-  `exam_type`, `year`, `shift`, `memory_based`.
-- Compute `direction_hash`; inline `direction_text` and `direction_image_refs`.
-- Omit nulls, and omit `marks` / `negative_marks` when they equal the default.
-- Truncate `content_hash` to 16 chars.
-- Gzip — repeated passages compress to almost nothing.
-- Write `build_report.json`: fill rate per field, how many duplicates were
-  merged, how many conflicts went to review.
+Running after dedupe means answering **19,443 unique questions instead of
+21,044**, and those 1,601 saved lookups come off the most expensive path.
+
+I scanned all 375 PDFs — **69% carry a machine-readable answer key**:
+
+| Format | PDFs | |
+|---|---|---|
+| `S{n}. Ans.(x)` + `Sol.` | **218** | 58% |
+| grid — `1. (c); 2. (b);` | 34 | 9% |
+| `Ans.` only | 7 | 2% |
+| **nothing** | **116** | **31%** |
+
+23,630 answer markers, and **15,926 `Sol.` blocks** — worked solutions, so
+`explanation` is *extracted*, not generated.
+
+Sources in order of reliability:
+
+1. **`S{n}. Ans.(x)` + `Sol.`** — 58% of PDFs, and `{n}` joins straight to
+   `q_num`. Build this first.
+2. **Grid keys** — 34 PDFs.
+3. **Separate solution PDFs** (`*-Solutions.pdf`, `*_SOL.pdf`) — pair to their
+   question paper first.
+4. **Other papers the question appeared in** — `dedupe_report.json` lists every
+   `(paper_id, q_num)`. If one paper has no key, try the rest.
+5. **Web search** — for the ~31% with no key anywhere. Expensive and
+   unverifiable, which is exactly why it runs on the smallest possible set.
+6. **Stem match** against `sets/` in git history — 1,126 matched.
+
+Validate every key against that question's `options` before accepting it, and log
+matched *and* unmatched counts on both sides. 100 questions and 100 answers off
+by one look perfect in aggregate and are entirely wrong.
+
+---
 
 ### 5. `5-validate/` — refuse to ship it broken
 
@@ -280,8 +271,8 @@ are written.
 |---|---|
 | 1-extract | code exists, never cropped a figure; PDFs now available |
 | 2-classify | works; takes `section` to 73% and `topic` to 73% |
-| 3-answer | 1,085 lines that have never produced an answer |
-| 4-dedupe | not written |
+| 3-dedupe | not written |
+| 4-answer | 1,085 lines that have never produced an answer |
 | 5-validate | two narrow checks, plus CI on the step examples |
 
 Nothing is blocked. Step 1 is the one to run first, since everything reads its
