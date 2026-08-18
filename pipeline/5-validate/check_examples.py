@@ -16,7 +16,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 SCHEMA = REPO / "schema" / "schema.json"
-STEPS = ["1-extract", "2-classify", "3-answer", "4-dedupe"]
+STEPS = ["1-extract", "2-classify", "3-dedupe", "4-answer"]
 
 JSON_TYPES = {
     "string": str,
@@ -85,7 +85,7 @@ def main() -> int:
     expected_absent = {"marks", "negative_marks"}
     if set(unused) - expected_absent:
         failures.append(
-            f"4-dedupe: schema fields never shown in any example: "
+            f"4-answer: schema fields never shown in any example: "
             f"{sorted(set(unused) - expected_absent)}"
         )
 
