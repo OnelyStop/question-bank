@@ -1,25 +1,24 @@
 {
   "papers_seen": 375,
   "status_counts": {
-    "partial": 1,
+    "failed": 4,
     "skipped": 134,
-    "ok": 237,
-    "failed": 3
+    "ok": 237
   },
-  "total_questions_indexed_approx": 20973,
-  "papers_with_questions": 238,
-  "avg_questions_per_parsed_paper": 88.12,
+  "total_questions_indexed_approx": 20971,
+  "papers_with_questions": 237,
+  "avg_questions_per_parsed_paper": 88.49,
   "papers": [
     {
-      "status": "partial",
+      "status": "failed",
       "pdf": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/LIC AAO pre 2023 memory based (20 Feb shift 1).pdf",
       "paper_id": "unknown_unknown_2023_prelims_shift_1_34dba86e",
-      "question_count": 2,
+      "question_count": 0,
       "with_options": 0,
       "out_path": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/unknown_unknown_2023_prelims_shift_1_34dba86e.json",
       "reason": null,
       "notes": [
-        "low_option_coverage:0/2"
+        "unusable_text_layer"
       ]
     },
     {
@@ -4357,5 +4356,5 @@
       "notes": []
     }
   ],
-  "index_rows": 20973
+  "index_rows": 20971
 }

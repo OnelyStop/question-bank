@@ -21,6 +21,14 @@ MIN_FIGURE_INK = 0.04
 MAX_WATERMARK_INK = 0.12
 MIN_CROP_AREA = 8000
 
+# A CID font with no ToUnicode CMap makes PyMuPDF hand back raw glyph IDs, which
+# land in the C0 control range instead of readable text -- the stem comes out as
+# "\x01 A\x10 6 D\x03 \x0f\x10 E F". Measured over all 375 corpus PDFs: the one
+# broken paper scores 0.7086 and every other PDF scores exactly 0.0000, so this
+# threshold sits an order of magnitude clear of both sides.
+CTRL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+MAX_CTRL_CHAR_RATIO = 0.10
+
 
 @dataclass
 class TextBox:
@@ -393,22 +401,25 @@ def embedded_images_in_zone(
     return out
 
 
-def export_crop(
+def _render_crop_candidate(
     page: fitz.Page,
     clip: tuple[float, float, float, float],
-    paper_id: str,
-    assets_dir: Path,
-    page_num: int,
-    tag: str,
-) -> tuple[str | None, float]:
-    """Render a page crop; return (asset_path, ink_density). Reject empty/watermark crops."""
+) -> tuple[fitz.Pixmap | None, float]:
+    """Render one crop candidate; return (pixmap, ink_density). Reject empty/watermark crops.
+
+    Rendering is separate from saving so a caller comparing several candidates
+    (attach_figure_for_direction tries up to three per direction) can pick the
+    winner before anything touches disk -- export_crop used to save every
+    candidate and only keep the best one's *path*, leaking the losers as
+    orphan PNGs (698 of 1,626 files on a full corpus run, 73 MB).
+    """
     rect = fitz.Rect(clip)
     if rect.width < 30 or rect.height < 30:
         return None, 0.0
     try:
         pix = page.get_pixmap(clip=rect, matrix=fitz.Matrix(1.5, 1.5), alpha=False)
     except Exception as exc:
-        log.debug("crop failed p%s: %s", page_num, exc)
+        log.debug("crop failed: %s", exc)
         return None, 0.0
     ink = _ink_density(pix)
     # Reject blank or watermark-like (very sparse ink on large area)
@@ -418,12 +429,29 @@ def export_crop(
     if ink < MAX_WATERMARK_INK and area > 0.25 * page.rect.width * page.rect.height:
         # Large sparse region ≈ watermark
         return None, ink
+    return pix, ink
+
+
+def _save_crop(pix: fitz.Pixmap, paper_id: str, assets_dir: Path, page_num: int, tag: str) -> str:
     assets_dir.mkdir(parents=True, exist_ok=True)
     name = f"p{page_num}_{tag}.png"
-    out_path = assets_dir / name
-    pix.save(str(out_path))
-    rel = f"_assets/{paper_id}/{name}".replace("\\", "/")
-    return rel, ink
+    pix.save(str(assets_dir / name))
+    return f"_assets/{paper_id}/{name}".replace("\\", "/")
+
+
+def export_crop(
+    page: fitz.Page,
+    clip: tuple[float, float, float, float],
+    paper_id: str,
+    assets_dir: Path,
+    page_num: int,
+    tag: str,
+) -> tuple[str | None, float]:
+    """Render a page crop and save it; return (asset_path, ink_density)."""
+    pix, ink = _render_crop_candidate(page, clip)
+    if pix is None:
+        return None, ink
+    return _save_crop(pix, paper_id, assets_dir, page_num, tag), ink
 
 
 def attach_figure_for_direction(
@@ -460,17 +488,37 @@ def attach_figure_for_direction(
         if dir_zone and dir_zone[3] - dir_zone[1] > 60:
             candidates.append(dir_zone)
 
-    best_asset: str | None = None
+    best_pix: fitz.Pixmap | None = None
     best_ink = 0.0
+    best_tag = ""
     for i, clip in enumerate(candidates):
         if is_header_footer_band(clip, page_rect):
             continue
-        asset, ink = export_crop(page, clip, paper_id, assets_dir, page_num, f"{dir_tag}_{i}")
-        if asset and ink > best_ink:
-            best_asset, best_ink = asset, ink
+        pix, ink = _render_crop_candidate(page, clip)
+        if pix is not None and ink > best_ink:
+            best_pix, best_ink, best_tag = pix, ink, f"{dir_tag}_{i}"
+
+    # Only the winner ever gets written -- the runner-up candidates rendered
+    # above are discarded in memory, never touching disk.
+    best_asset = (
+        _save_crop(best_pix, paper_id, assets_dir, page_num, best_tag) if best_pix is not None else None
+    )
 
     cache[dir_tag] = best_asset
     return best_asset
+
+
+def ctrl_char_ratio(text: str) -> float:
+    """Fraction of non-whitespace chars that are C0 control chars.
+
+    A healthy PDF's text layer scores 0.0 -- verified across all 375 corpus
+    PDFs. Only a broken CID font (glyph IDs standing in for text) produces a
+    non-trivial ratio.
+    """
+    non_ws = re.sub(r"\s", "", text)
+    if not non_ws:
+        return 0.0
+    return len(CTRL_CHAR_RE.findall(non_ws)) / len(non_ws)
 
 
 def parse_pdf_layout(
@@ -490,6 +538,11 @@ def parse_pdf_layout(
     notes: list[str] = []
     if not text.strip():
         return LayoutResult(questions=[], notes=["empty_text"])
+    if ctrl_char_ratio(text) > MAX_CTRL_CHAR_RATIO:
+        # Glyph IDs, not text. Emitting these produces questions whose stem is
+        # control characters, so refuse the paper and let it show up in
+        # parse_report.json with a reason instead.
+        return LayoutResult(questions=[], notes=["unusable_text_layer"])
 
     events = find_events(text)
     assets_dir = assets_root / "_assets" / paper_id
