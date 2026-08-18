@@ -53,7 +53,12 @@ Every PR gets an automated first pass and a human approval.
 rather than API credits, so it costs nothing beyond quota — roughly 0.1–0.2% of
 the weekly Opus budget per review, about 1–2% at ten PRs a week.
 
-One-time setup, by whoever's subscription it runs on:
+One-time setup, by whoever's subscription it runs on. **Both steps are
+required** — the token alone gives `401 Claude Code is not installed on this
+repository`:
+
+1. Install the Claude GitHub App: https://github.com/apps/claude
+2. Generate and store the token:
 
 ```bash
 claude setup-token                      # prints a long-lived token
