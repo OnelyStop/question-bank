@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.parent
 DEFAULT_SCHEMA = REPO / "schema" / "schema.json"
 DEFAULT_TAXONOMY = ROOT / "topic_taxonomy.json"
+DEFAULT_NAMING = ROOT / "naming_conventions.json"
 
 # Allow running as `python run_classify.py` from this folder
 if str(ROOT) not in sys.path:
@@ -37,7 +38,8 @@ from corpus import DEFAULT_OUT, iter_paper_jsons, load_paper  # noqa: E402
 from classify import classify_question  # noqa: E402
 from difficulty import infer_difficulty  # noqa: E402
 from label_sections import infer_section, propagate_direction_sections  # noqa: E402
-from label_topics import infer_labels, load_taxonomy  # noqa: E402
+from label_topics import TOPIC_RULES, FALLBACK_BY_SECTION, infer_labels, load_taxonomy  # noqa: E402
+from patterns import PRIMARY_SKILLS, SECONDARY_SKILLS  # noqa: E402
 from strip_bilingual import strip_question_fields  # noqa: E402
 
 
@@ -45,19 +47,6 @@ def save_paper(path: Path, paper: dict[str, Any]) -> None:
     path.write_text(json.dumps(paper, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 log = logging.getLogger("run_classify")
-
-# Pattern → topic hint when rules leave topic empty
-PATTERN_TOPIC_HINT: dict[str, tuple[str, str]] = {
-    "reading_comprehension_set": ("English", "Reading_Comprehension"),
-    "cloze_passage_set": ("English", "Cloze_Test"),
-    "table_di_set": ("Quantitative", "Data_Interpretation"),
-    "visual_chart_graph_di": ("Quantitative", "Data_Interpretation"),
-    "caselet_di_set": ("Quantitative", "Data_Interpretation"),
-    "data_sufficiency": ("Quantitative", "Data_Sufficiency_Quant"),
-    "quantity_comparison": ("Quantitative", "Arithmetic"),
-    "quadratic_comparison": ("Quantitative", "Quadratic_Equation"),
-    "match_the_columns": ("English", "Miscellaneous_English"),
-}
 
 AUDIT_KEYS = (
     "section_source",
@@ -73,6 +62,48 @@ def load_pattern_enum(schema_path: Path) -> set[str]:
     return set(qp.get("enum") or [])
 
 
+def load_pattern_topic_hints(path: Path) -> dict[str, tuple[str, str]]:
+    """Pattern → (section, topic) from naming_conventions.json (canonical)."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    hints: dict[str, tuple[str, str]] = {}
+    for pattern_id, row in (data.get("pattern_to_topic_hints") or {}).items():
+        section = row.get("section")
+        topic = row.get("topic")
+        if section and topic:
+            hints[pattern_id] = (section, topic)
+    return hints
+
+
+def assert_classifier_vocab(
+    *,
+    allowed_topics: set[str],
+    pattern_enum: set[str],
+    pattern_topic_hints: dict[str, tuple[str, str]],
+) -> None:
+    """Fail fast if rules/hints/skills drift from taxonomy or schema enum."""
+    rule_topics = {topic for _, topic, _ in TOPIC_RULES}
+    rule_topics.update(FALLBACK_BY_SECTION.values())
+    unknown_rules = sorted(rule_topics - allowed_topics)
+    if unknown_rules:
+        raise SystemExit(f"TOPIC_RULES/FALLBACK emit topics not in taxonomy: {unknown_rules}")
+
+    unknown_hints = sorted({t for _, t in pattern_topic_hints.values()} - allowed_topics)
+    if unknown_hints:
+        raise SystemExit(f"pattern_to_topic_hints topics not in taxonomy: {unknown_hints}")
+
+    skill_ids = {s.id for s in PRIMARY_SKILLS} | {s.id for s in SECONDARY_SKILLS}
+    missing_skills = sorted(pattern_enum - skill_ids)
+    extra_skills = sorted(skill_ids - pattern_enum)
+    if missing_skills:
+        raise SystemExit(f"schema question_pattern enum missing skills: {missing_skills}")
+    if extra_skills:
+        raise SystemExit(f"pattern skills not in schema enum: {extra_skills}")
+
+    bad_hint_patterns = sorted(set(pattern_topic_hints) - pattern_enum)
+    if bad_hint_patterns:
+        raise SystemExit(f"pattern_to_topic_hints keys not in schema enum: {bad_hint_patterns}")
+
+
 def scrub_audit_fields(question: dict[str, Any]) -> None:
     for key in AUDIT_KEYS:
         question.pop(key, None)
@@ -84,6 +115,7 @@ def classify_paper(
     force: bool,
     allowed_topics: set[str],
     pattern_enum: set[str],
+    pattern_topic_hints: dict[str, tuple[str, str]],
 ) -> dict[str, Any]:
     """Mutate paper questions in place. Return per-paper audit stats."""
     stats: dict[str, Any] = {
@@ -121,7 +153,7 @@ def classify_paper(
         else:
             stats["section_sources"]["existing"] += 1
 
-        # 3) Topic
+        # 3) Topic — only taxonomy ids from topic_taxonomy.json
         if force:
             q.pop("topic", None)
             q.pop("topic_source", None)
@@ -135,11 +167,15 @@ def classify_paper(
             )
             if sec2 and (force or not q.get("section") or tsrc in ("rules", "rules_cross_section")):
                 q["section"] = sec2
-            if topic and (not allowed_topics or topic in allowed_topics or topic.endswith("_Misc")):
+            if topic and topic in allowed_topics:
                 q["topic"] = topic
                 stats["topic_sources"][tsrc] += 1
             else:
                 stats["topic_sources"]["unlabelled"] += 1
+        elif q.get("topic") not in allowed_topics:
+            # Drop stale / out-of-vocab topic left from older runs
+            q.pop("topic", None)
+            stats["topic_sources"]["unlabelled"] += 1
         else:
             stats["topic_sources"]["existing"] += 1
 
@@ -157,10 +193,10 @@ def classify_paper(
         q["question_pattern"] = pattern
         stats["patterns"][pattern] += 1
 
-        # Topic hint from pattern if still missing
-        if not q.get("topic") and pattern in PATTERN_TOPIC_HINT:
-            sec_hint, topic_hint = PATTERN_TOPIC_HINT[pattern]
-            if not allowed_topics or topic_hint in allowed_topics:
+        # Topic hint from pattern if still missing (canonical naming_conventions map)
+        if not q.get("topic") and pattern in pattern_topic_hints:
+            sec_hint, topic_hint = pattern_topic_hints[pattern]
+            if topic_hint in allowed_topics:
                 q["topic"] = topic_hint
                 if not q.get("section"):
                     q["section"] = sec_hint
@@ -196,6 +232,7 @@ def run(
     papers_dir: Path,
     taxonomy_path: Path,
     schema_path: Path,
+    naming_path: Path,
     force: bool,
     limit_papers: int,
     dry_run: bool,
@@ -203,6 +240,12 @@ def run(
     taxonomy = load_taxonomy(taxonomy_path)
     allowed_topics = {t for topics in (taxonomy.get("sections") or {}).values() for t in topics}
     pattern_enum = load_pattern_enum(schema_path)
+    pattern_topic_hints = load_pattern_topic_hints(naming_path)
+    assert_classifier_vocab(
+        allowed_topics=allowed_topics,
+        pattern_enum=pattern_enum,
+        pattern_topic_hints=pattern_topic_hints,
+    )
 
     files = iter_paper_jsons(papers_dir)
     if limit_papers > 0:
@@ -235,6 +278,7 @@ def run(
             force=force,
             allowed_topics=allowed_topics,
             pattern_enum=pattern_enum,
+            pattern_topic_hints=pattern_topic_hints,
         )
         totals["questions"] += stats["questions"]
         totals["stripped_fields"] += stats["stripped_fields"]
@@ -274,6 +318,7 @@ def run(
         "sections": dict(sections.most_common()),
         "topics": dict(topics.most_common()),
         "pattern_enum_size": len(pattern_enum),
+        "allowed_topics": sorted(allowed_topics),
         "done_when": {
             "section_topic_above_90": totals["section_filled"] / qn >= 0.9
             and totals["topic_filled"] / qn >= 0.9,
@@ -295,6 +340,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     p.add_argument("--taxonomy", type=Path, default=DEFAULT_TAXONOMY)
     p.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA)
+    p.add_argument("--naming", type=Path, default=DEFAULT_NAMING)
     p.add_argument("--force", action="store_true", help="Recompute labels even if already set")
     p.add_argument("--limit-papers", type=int, default=0)
     p.add_argument("--dry-run", action="store_true")
@@ -321,6 +367,7 @@ def main(argv: list[str] | None = None) -> int:
         papers_dir=args.papers_dir,
         taxonomy_path=args.taxonomy,
         schema_path=args.schema,
+        naming_path=args.naming,
         force=args.force,
         limit_papers=args.limit_papers,
         dry_run=args.dry_run,

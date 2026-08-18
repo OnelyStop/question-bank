@@ -15,6 +15,7 @@ HAS_ENGLISH = re.compile(r"[A-Za-z]{3,}")
 
 
 def is_bilingual(text: str | None) -> bool:
+    """True only when both Latin and non-Latin scripts are present."""
     if not text:
         return False
     return bool(NON_LATIN.search(text)) and bool(HAS_ENGLISH.search(text))
@@ -24,12 +25,13 @@ def strip_non_latin(text: str | None) -> tuple[str, bool]:
     """
     Return (cleaned_text, changed).
 
-    Strategy: drop runs of non-Latin script and tidy leftover whitespace / separators.
-    Keeps Latin letters, digits, and common punctuation used in stems/options.
+    Only strips genuine bilingual text (Latin + non-Latin). Hindi-only /
+    non-Latin-only fields are left untouched so content is never wiped to "".
+    Never reports changed when the cleaned result would be empty.
     """
     if not text:
         return text or "", False
-    if not NON_LATIN.search(text):
+    if not is_bilingual(text):
         return text, False
 
     cleaned = NON_LATIN.sub(" ", text)
@@ -40,6 +42,9 @@ def strip_non_latin(text: str | None) -> tuple[str, bool]:
     cleaned = re.sub(r" ?/ ?", "/", cleaned)
     cleaned = cleaned.strip(" \t\n/|-")
     cleaned = cleaned.strip()
+    if not cleaned:
+        # Would destroy the field — leave original for review
+        return text, False
     return cleaned, cleaned != text.strip()
 
 
@@ -68,7 +73,8 @@ def strip_question_fields(question: dict[str, Any]) -> dict[str, int]:
         opt_changed = 0
         new_opts: dict[str, str] = {}
         for k, v in opts.items():
-            nv, ch = strip_non_latin(v if isinstance(v, str) else str(v) if v is not None else "")
+            raw = v if isinstance(v, str) else str(v) if v is not None else ""
+            nv, ch = strip_non_latin(raw)
             new_opts[k] = nv
             if ch:
                 opt_changed += 1

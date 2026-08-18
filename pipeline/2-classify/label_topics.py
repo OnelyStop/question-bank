@@ -155,6 +155,15 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
     ("Quantitative", "Quadratic_Equation", re.compile(r"(?i)\bquadratic|\bI\.\s*[xy]\^?2|\bcompare\s+x\s+and\s+y")),
     (
         "Quantitative",
+        "Data_Sufficiency_Quant",
+        re.compile(
+            r"(?i)\bdata\s+sufficien|\bthe\s+data\s+in\s+statement|"
+            r"\bwhich\s+of\s+the\s+following\s+(?:is|are)\s+(?:sufficient|necessary)|"
+            r"\bboth\s+statements?\s+(?:together|are\s+required)"
+        ),
+    ),
+    (
+        "Quantitative",
         "Arithmetic",
         re.compile(
             r"(?i)\bprofit\s+and\s+loss|\bsimple\s+interest|\bcompound\s+interest|"
@@ -166,6 +175,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
     # GA / Computer
     ("GA", "Current_Affairs", re.compile(r"(?i)\bcurrent\s+affairs|\brecently|\bin\s+20\d\d\b")),
     ("GA", "Banking_Awareness", re.compile(r"(?i)\bbanking\s+awareness|\bRBI\b|\bSEBI\b|\bNPA\b|\bCRR\b|\bSLR\b")),
+    ("GA", "Static_GK", re.compile(r"(?i)\bstatic\s+(?:gk|g\.?k\.?)|\bcapital\s+of\b|\bnational\s+(?:park|animal|bird)|\blongest\s+river")),
     ("Computer", "Computer_Basics", re.compile(r"(?i)\bCPU\b|\bRAM\b|\boperating\s+system|\bMS[\s\-]?Excel|\bnetwork")),
 ]
 
