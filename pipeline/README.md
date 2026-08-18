@@ -3,7 +3,7 @@
 Five steps. One folder each, one owner each.
 
 ```
-corpus/  ->  1-extract  ->  2-classify  ->  3-answer  ->  4-dedupe  ->  data/
+corpus/  ->  1-extract  ->  2-classify  ->  3-dedupe  ->  4-answer  ->  data/
                                                               |
                                                           5-validate
 ```
@@ -12,8 +12,8 @@ corpus/  ->  1-extract  ->  2-classify  ->  3-answer  ->  4-dedupe  ->  data/
 |---|---|---|
 | [1-extract](1-extract/) | PDFs → one JSON per paper | nothing — the PDFs are here |
 | [2-classify](2-classify/) | adds `section`, `topic`, `question_pattern` | nothing |
-| [3-answer](3-answer/) | adds `answer`, `explanation` | nothing — the PDFs are here |
-| [4-dedupe](4-dedupe/) | keeps one copy of each question, writes the export | nothing |
+| [3-dedupe](3-dedupe/) | keeps one copy of each question | nothing |
+| [4-answer](4-answer/) | adds `answer`, `explanation`, writes the export | nothing |
 | [5-validate](5-validate/) | refuses to ship a broken export | nothing |
 | [lib](lib/) | shared helpers | — |
 
@@ -30,8 +30,8 @@ same question runs through all five, so you can diff one against the next.
 |---|---|---|
 | [1-extract](1-extract/output.json) | 17 / 28 | `stem` `options` `direction_text` + the exam metadata |
 | [2-classify](2-classify/output.json) | 21 / 28 | `section` `topic` `difficulty` `question_pattern` |
-| [3-answer](3-answer/output.json) | 23 / 28 | `answer` `explanation` |
-| [4-dedupe](4-dedupe/output.json) | 26 / 28 | `content_hash` `direction_hash` `is_active` |
+| [3-dedupe](3-dedupe/output.json) | 24 / 28 | `content_hash` `direction_hash` `is_active` |
+| [4-answer](4-answer/output.json) | 26 / 28 | `answer` `explanation` |
 | [5-validate](5-validate/output.json) | — | a report, not questions |
 
 **There is one shape, not four.** Every field in every `output.json` is a field in
@@ -67,8 +67,8 @@ What's left is the parts with real logic in them:
 |---|---|
 | 1-extract | 2,039 lines — layout parsing, OCR fallback, filename/path parsing |
 | 2-classify | the topic taxonomy and 14 pattern detectors; **this one works** |
-| 3-answer | 1,085 lines of answer-key extraction, never successfully run |
-| 4-dedupe | nothing yet |
+| 3-dedupe | nothing yet |
+| 4-answer | 1,085 lines of answer-key extraction, never successfully run |
 | 5-validate | two narrow checks |
 
 Expect to rewrite the orchestration. Expect the parsing details to be worth
