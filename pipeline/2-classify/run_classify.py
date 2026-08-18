@@ -253,6 +253,7 @@ def run(
 
     totals = {
         "papers": 0,
+        "papers_skipped": 0,
         "papers_written": 0,
         "questions": 0,
         "stripped_fields": 0,
@@ -267,10 +268,14 @@ def run(
     patterns: Counter[str] = Counter()
     sections: Counter[str] = Counter()
     topics: Counter[str] = Counter()
+    skipped_paths: list[str] = []
 
     for path in files:
         paper = load_paper(path)
         if not paper:
+            totals["papers_skipped"] += 1
+            skipped_paths.append(path.as_posix())
+            log.warning("skipping invalid paper JSON: %s", path)
             continue
         totals["papers"] += 1
         stats = classify_paper(
@@ -300,12 +305,20 @@ def run(
             save_paper(path, paper)
             totals["papers_written"] += 1
 
+    if totals["papers_skipped"]:
+        log.warning(
+            "skipped %s/%s paper file(s) (bad JSON / missing paper_id or questions)",
+            totals["papers_skipped"],
+            totals["papers"] + totals["papers_skipped"],
+        )
+
     qn = totals["questions"] or 1
     report = {
         "papers_dir": str(papers_dir.as_posix()),
         "force": force,
         "dry_run": dry_run,
         "totals": totals,
+        "skipped_paths": skipped_paths,
         "coverage": {
             "section_pct": round(100.0 * totals["section_filled"] / qn, 2),
             "topic_pct": round(100.0 * totals["topic_filled"] / qn, 2),
@@ -324,6 +337,7 @@ def run(
             and totals["topic_filled"] / qn >= 0.9,
             "no_invalid_patterns": totals["pattern_invalid"] == 0,
             "no_direction_section_conflicts": totals["direction_section_conflicts"] == 0,
+            "no_papers_skipped": totals["papers_skipped"] == 0,
         },
     }
     return report
@@ -388,13 +402,19 @@ def main(argv: list[str] | None = None) -> int:
     cov = report["coverage"]
     tot = report["totals"]
     log.info(
-        "papers=%s questions=%s section=%.1f%% topic=%.1f%% difficulty=%.1f%%",
+        "papers=%s skipped=%s questions=%s section=%.1f%% topic=%.1f%% difficulty=%.1f%%",
         tot["papers"],
+        tot.get("papers_skipped", 0),
         tot["questions"],
         cov["section_pct"],
         cov["topic_pct"],
         cov["difficulty_pct"],
     )
+    if tot.get("papers_skipped"):
+        log.warning(
+            "%s paper file(s) were skipped — see classify_report.json skipped_paths",
+            tot["papers_skipped"],
+        )
     log.info("wrote %s", report_path)
     log.info("done_when %s", report["done_when"])
     return 0
