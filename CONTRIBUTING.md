@@ -83,6 +83,9 @@ it's faster than waiting.
 | Check | Run it yourself |
 |---|---|
 | Every `.py` file parses | `for f in $(git ls-files '*.py'); do python3 -m py_compile $f; done` |
+| Every module **imports** | `python3 pipeline/5-validate/check_imports.py` |
+| Lint | `ruff check --select F,E9 .` |
+| No file over 50 MB added | see `.github/workflows/ci.yml` |
 | `schema.json` is a valid schema | see `.github/workflows/ci.yml` |
 | Step examples match the schema | `python3 pipeline/5-validate/check_examples.py` |
 | No secrets committed | `git grep -nIE 'service_role\|postgres://[^ ]*:[^ @]+@'` |
@@ -91,6 +94,14 @@ it's faster than waiting.
 | The export validates, if committed | `python3 pipeline/5-validate/check_schema.py` |
 
 The two worth understanding:
+
+**Every module imports.** `py_compile` only parses — it passes a file with a
+missing import or an undefined name. That is exactly how an `import fitz`
+inherited from the PDF module left the classifier unrunnable without anything
+noticing. This check imports every module for real.
+
+Step folders (`1-extract`) are not valid Python identifiers, so **no step can
+import another**. Anything two steps both need goes in `pipeline/lib/`.
 
 **Step examples match the schema.** Each step folder has an `output.json` — the
 shape that step must produce, in schema field names. CI checks every field exists

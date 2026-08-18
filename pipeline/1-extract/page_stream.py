@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import hashlib
 import logging
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -119,7 +118,6 @@ def extract_page_stream(
     text_chunks: list[str] = []
     page_spans: list[tuple[int, int, int]] = []
     pos = 0
-    xref_page_counts: dict[int, int] = {}
     exported = 0
 
     try:

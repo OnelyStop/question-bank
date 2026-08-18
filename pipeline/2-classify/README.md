@@ -45,8 +45,11 @@ cross-section, 5,082 unlabelled.
 So the job here is less "write a classifier" than "wire up the one that exists and
 push 73% higher". Two known problems to fix:
 
-- It was importable only through the PDF module, which pulled in PyMuPDF for no
-  reason. That coupling is now gone — don't reintroduce it.
+- It used to be importable only through the PDF module, which pulled in PyMuPDF
+  for no reason, and it also imported helpers out of step 4's
+  `validate_answers.py`. Both are fixed: the shared pieces moved to
+  `pipeline/lib/corpus.py` and the classifier now imports standalone. CI checks
+  this on every PR, so don't reintroduce it.
 - Some existing `section` values are wrong. A percentage/DI question was labelled
   Reasoning. Don't trust the 17% that's already populated; recompute it.
 
