@@ -15,19 +15,21 @@ import argparse
 import json
 import logging
 import re
+import sys
 from pathlib import Path
 from typing import Any
 
 import fitz
 
+# step folders ("1-extract") are not valid module names, so shared code
+# comes through lib/ rather than from another step
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from context_completeness import (
     assess_context,
     is_decorative_image_block,
     should_synthesize_cloze_stem,
 )
-from ocr_supplement import supplement_context_ocr
 from page_stream import (
-    extract_page_stream,
     flatten_context_text,
     items_for_char_range,
 )
@@ -512,7 +514,11 @@ def parse_questions_from_text(
             if dir_text:
                 q_context.append({"type": "text", "text": dir_text, "role": "direction"})
             if stream_items is not None:
-                q_pages = (p_start or 1, p_end or p_start or 1)
+                # FIXME(1-extract): computed then discarded — the call below
+                # passes pages=None, so figure lookup is not scoped to this
+                # question's pages. Possibly why 986 questions carry
+                # has_image with no image_refs. Verify before deleting.
+                q_pages = (p_start or 1, p_end or p_start or 1)  # noqa: F841
                 q_imgs = items_for_char_range(
                     stream_items,
                     ev["start"],
@@ -829,7 +835,6 @@ def write_report(out_root: Path, results: list[dict[str, Any]]) -> dict[str, Any
         if qc > 0:
             papers_with_q += 1
 
-    converted = [r for r in results if r.get("status") in {"ok", "partial", "failed", "cached"}]
     avg_q = (total_q / papers_with_q) if papers_with_q else 0.0
 
     report = {

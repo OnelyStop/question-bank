@@ -27,6 +27,35 @@ jobs:
           done < <(git ls-files '*.py')
           exit $fail
 
+      - name: Every module imports
+        run: |
+          pip install --quiet pymupdf
+          python3 pipeline/5-validate/check_imports.py
+
+      - name: Lint
+        run: |
+          pip install --quiet ruff
+          # F = undefined names and unused imports, E9 = syntax/runtime errors.
+          # py_compile catches none of these.
+          ruff check --select F,E9 --output-format=github .
+
+      - name: No large files added
+        run: |
+          # 414 MB of PDFs are already in history; removing them needs a rewrite.
+          base='${{ github.event.pull_request.base.sha }}'
+          [ -n "$base" ] || base="$(git rev-parse HEAD^ 2>/dev/null || git rev-parse HEAD)"
+          fail=0
+          for f in $(git diff --name-only --diff-filter=A "$base"...HEAD); do
+            [ -f "$f" ] || continue
+            mb=$(( $(wc -c < "$f") / 1024 / 1024 ))
+            if [ "$mb" -gt 50 ]; then
+              echo "::error file=$f::${mb} MB exceeds the 50 MB limit"
+              fail=1
+            fi
+          done
+          [ "$fail" -eq 0 ] && echo "OK - no large additions"
+          exit $fail
+
       - name: schema.json is valid JSON Schema
         run: |
           python3 - <<'PY'

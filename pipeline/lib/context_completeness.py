@@ -238,7 +238,6 @@ def assess_context(
         if not (b.get("type") == "image" and is_decorative_image_block(b))
     ]
     ctx_text = context_blocks_to_text(clean_ctx)
-    combined = f"{dtext}\n{ctx_text}\n{stem}"
     opt_vals = list((options or {}).values())
     has_figure = has_allowlisted_figure(clean_ctx)
     text_only = is_text_only_english(direction_text, stem or "", options)

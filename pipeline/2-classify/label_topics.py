@@ -17,11 +17,20 @@ import json
 import logging
 import re
 from collections import Counter
+import sys
 from pathlib import Path
 from typing import Any
 
-from pdf_to_questions import DEFAULT_OUT, rebuild_index
-from validate_answers import iter_paper_jsons, load_paper
+# step folders ("1-extract") are not valid module names, so shared code
+# comes through lib/ rather than from another step
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+from corpus import (
+    DEFAULT_OUT,
+    iter_paper_jsons,
+    load_paper,
+    rebuild_index,
+)
+
 
 ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("label_topics")
