@@ -206,20 +206,21 @@ def extract_text_boxes(pdf_path: Path) -> tuple[str, list[tuple[int, int, int]],
             for block in _sort_blocks(blocks, page.rect.width):
                 if block.get("type") != 0:
                     continue
-                raw_bbox = block.get("bbox") or (0, 0, 0, 0)
-                bbox = (float(raw_bbox[0]), float(raw_bbox[1]), float(raw_bbox[2]), float(raw_bbox[3]))
-                lines: list[str] = []
+                # One box per LINE, not per block. PyMuPDF's blocks are coarse
+                # on these papers -- one measured block ran y428-765, holding a
+                # DI table AND the questions under it. With that granularity a
+                # direction and its questions share a box, so the band between
+                # them is unfindable and every figure crop guesses its edges.
                 for line in block.get("lines") or []:
-                    spans = "".join(s.get("text", "") for s in line.get("spans") or [])
-                    if spans.strip():
-                        lines.append(spans)
-                text = "\n".join(lines).strip()
-                if not text:
-                    continue
-                text = clean_lines(text)
-                if not text:
-                    continue
-                page_boxes.append(TextBox(page=page_num, bbox=bbox, text=text))
+                    raw = line.get("bbox") or block.get("bbox") or (0, 0, 0, 0)
+                    lbbox = (float(raw[0]), float(raw[1]), float(raw[2]), float(raw[3]))
+                    spans = "".join(sp.get("text", "") for sp in line.get("spans") or [])
+                    if not spans.strip():
+                        continue
+                    ltext = clean_lines(spans.strip())
+                    if not ltext:
+                        continue
+                    page_boxes.append(TextBox(page=page_num, bbox=lbbox, text=ltext))
 
             if not page_boxes:
                 continue
@@ -474,7 +475,7 @@ def vector_clusters(page: fitz.Page, zone: tuple[float, float, float, float]) ->
 
     # A few points of margin: without it the last row of a table loses its
     # bottom border, which reads as a truncated crop.
-    margin = 4.0
+    margin = 6.0
     out = []
     for m in rects:
         w, h = m[2] - m[0], m[3] - m[1]
@@ -522,6 +523,28 @@ def _text_coverage(page: fitz.Page, rect: tuple[float, float, float, float]) -> 
         if ix1 > ix0 and iy1 > iy0:
             covered += (ix1 - ix0) * (iy1 - iy0)
     return min(covered / area, 1.0)
+
+
+def strip_watermarks(page: fitz.Page, marks: set[tuple[int, int, int, int]]) -> None:
+    """Delete the repeating logo from the page before rendering any crop.
+
+    Skipping it as a *candidate* is not enough: it is painted on the page, so a
+    crop of a chart that overlaps it still shows the logo behind the lines.
+    """
+    for img in page.get_images(full=True):
+        xref = int(img[0])
+        try:
+            rects = page.get_image_rects(xref)
+        except Exception:
+            continue
+        for r in rects:
+            key = (round(r.x0 / 8), round(r.y0 / 8), round(r.width / 8), round(r.height / 8))
+            if key in marks:
+                try:
+                    page.delete_image(xref)
+                except Exception:
+                    pass
+                break
 
 
 def _render_crop_candidate(
@@ -594,14 +617,43 @@ def attach_figure_for_direction(
     if dir_tag in cache:
         return cache[dir_tag]
     page = doc[page_num - 1]
+    if watermarks:
+        strip_watermarks(page, watermarks)
     zone = content_bbox_for_boxes(direction_boxes + unit_boxes, page_rect)
     if not zone:
         cache[dir_tag] = None
         return None
 
-    # Vector clusters first: a chart is stroked paths, not an embedded image.
-    candidates: list[tuple[float, float, float, float]] = list(vector_clusters(page, zone))
+    # A chart is stroked paths, not an embedded image, so cluster the drawings.
+    clusters = vector_clusters(page, zone)
     gap = find_figure_gap(page, page_rect, direction_boxes, unit_boxes)
+
+    # NOTE: find_figure_gap() always returns None on these papers. It wants the
+    # band between the end of the direction text and the start of the first
+    # question, which would give exact crop edges -- but direction_boxes and
+    # unit_boxes both resolve to one coarse box spanning the whole column, so
+    # the measured "gap" comes out negative (dir y76-629 vs q y76-629). Making
+    # it work needs finer TextBox granularity, and would fix both the DI table
+    # that clips and the p37 table that is never detected.
+    # If the band exists and something is drawn in it, take the band whole. It
+    # must not compete on score: scoring rewards a small dense box, so a chart
+    # alone always beats chart-plus-the-table its question needs.
+    # The direction's own bbox IS the figure band. A chart's axis labels and a
+    # DI table's cells fall inside the direction's character range, so the
+    # direction box runs from its first line, past the figure, to just above the
+    # first question -- which is exactly the crop. find_figure_gap() looks for
+    # empty space between them and finds only 5pt, because the figure's text is
+    # on the direction's side of the line.
+    band = _union_bbox([b.bbox for b in direction_boxes if b.page == page.number + 1])
+    if band and any(bbox_overlap_ratio(c, band) > 0.5 for c in clusters):
+        if _text_coverage(page, band) <= 0.55:
+            pix, _ = _render_crop_candidate(page, band)
+            if pix is not None:
+                asset = _save_crop(pix, paper_id, assets_dir, page_num, f"{dir_tag}_band")
+                cache[dir_tag] = asset
+                return asset
+
+    candidates: list[tuple[float, float, float, float]] = list(clusters)
     if gap:
         candidates.append(gap)
     marks = watermarks or set()
