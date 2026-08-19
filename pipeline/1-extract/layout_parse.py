@@ -644,7 +644,23 @@ def attach_figure_for_direction(
     # first question -- which is exactly the crop. find_figure_gap() looks for
     # empty space between them and finds only 5pt, because the figure's text is
     # on the direction's side of the line.
-    band = _union_bbox([b.bbox for b in direction_boxes if b.page == page.number + 1])
+    dir_here = [b for b in direction_boxes if b.page == page.number + 1]
+    band = _union_bbox([b.bbox for b in dir_here])
+
+    # Drop the direction's prose from the top of the band. That text is already
+    # carried as direction_text, so leaving it in the crop renders it twice --
+    # once as selectable text and once as pixels. Prose runs the width of the
+    # column; a chart's axis labels and a table's cells do not, so the last
+    # near-full-width line marks where the words end and the figure begins.
+    if band and dir_here:
+        col_w = band[2] - band[0]
+        prose_end = None
+        for b in dir_here:
+            if (b.bbox[2] - b.bbox[0]) > 0.75 * col_w:
+                prose_end = max(prose_end or 0.0, b.bbox[3])
+        if prose_end is not None and band[3] - prose_end > 40:
+            band = (band[0], prose_end + 4, band[2], band[3])
+
     if band and any(bbox_overlap_ratio(c, band) > 0.5 for c in clusters):
         if _text_coverage(page, band) <= 0.55:
             pix, _ = _render_crop_candidate(page, band)

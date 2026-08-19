@@ -42,6 +42,40 @@ them unanswerable. For a passage set the chart belongs to the passage
 path and filename. Anything you can't determine becomes `_unknown_*` rather than
 a guess.
 
+## Scope right now: text-only questions
+
+**About 75% of questions need no figure at all** — measured on two papers, 196
+of 260. Those are complete and shippable today.
+
+The other 25% are flagged, not dropped:
+
+| Flag | Meaning |
+|---|---|
+| `has_image` | this question alone needs a figure |
+| `direction_has_image` | the passage it belongs to needs one |
+
+Filter on those two and you have the text-only set, with no code change. Nothing
+is lost — the questions are still extracted, just marked as not yet renderable.
+
+## Figures: partly done, deliberately parked
+
+Charts are now found and cropped, which they never were before — every crop used
+to be a slab of question text with the coaching-house watermark across it.
+
+What still needs deciding is what belongs *in* the image, and it is a real
+question rather than a bug:
+
+- A **chart** must be an image; there is no text form of a pie chart.
+- A **table** ought to be text, so it can reflow on a phone and be searched. It
+  is in the image today only because extracting tables as structured data is a
+  separate piece of work.
+- The **direction prose** must not be in the image at all — it is already carried
+  as `direction_text`, so a crop that includes it renders the same words twice,
+  once selectable and once as pixels.
+
+The crop currently starts just below the direction's prose and covers the chart
+and any table under it. Trimming that last prose line reliably is the open bit.
+
 ## Output
 
 [`output.json`](output.json) — one question, **17 of the 28 fields** in
