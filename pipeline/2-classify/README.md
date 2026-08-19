@@ -3,7 +3,7 @@
 Label what each question is. **Nothing here needs the PDFs**, so this step can be
 worked on and tested today.
 
-**Reads** `corpus/papers/` · **Writes** the same files, with labels added
+**Reads** `data/papers/` · **Writes** the same files, with labels added
 
 ## What it has to do
 

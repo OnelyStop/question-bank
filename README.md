@@ -5,17 +5,19 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     the source PDFs — 375 of them, 414 MB
-data/       the clean output, one gzipped file
+corpus/     the source PDFs — 375 of them, 414 MB.  INPUT, never written to
+data/       every JSON the pipeline produces.        OUTPUT
 pipeline/   the five steps, one folder each
 schema/     what one exported question looks like
 ```
 
-`corpus/` is raw and messy by design; `data/` is generated and disposable.
-Delete `data/`, re-run the pipeline, get it back.
+**`corpus/` is input, `data/` is output.** Step 1 reads `corpus/pdf/` and writes
+`data/papers/`; every later step reads and writes `data/`. Nothing writes back
+into `corpus/`.
 
-Anything a pipeline writes is gitignored and rebuilt on demand, so nothing here
-is both large and derivable.
+`data/papers/` is committed, so steps 2–5 can be worked on without re-running
+step 1 — that needs PyMuPDF and all 414 MB of PDFs. The final
+`data/questions.jsonl.gz` is derived from those papers, so it is not committed.
 
 ## The data
 
@@ -69,7 +71,7 @@ rewrite.
 
 ### 1. `1-extract/` — PDFs to questions
 
-**In** the source PDFs · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
+**In** the source PDFs · **Out** `data/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
 
 - Read each PDF page as a layout stream, not flat text — column order and
   option alignment both come from geometry.
@@ -91,7 +93,7 @@ step can run.
 
 ### 2. `2-classify/` — label what each question is
 
-**In** `corpus/papers/` (once step 1 has written it) · **Out** the same JSON, with
+**In** `data/papers/` (once step 1 has written it) · **Out** the same JSON, with
 labels added
 
 - **Strip the Hindi.** 1,350 questions across 35 papers carry the Devanagari

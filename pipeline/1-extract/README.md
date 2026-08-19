@@ -3,7 +3,7 @@
 PDFs in, one JSON file per paper out.
 
 **Reads** `corpus/pdf/{bank}/{role}/{year}/{stage}/*.pdf`
-**Writes** `corpus/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json`
+**Writes** `data/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json`
 
 This is the hardest step and everything downstream inherits its mistakes.
 
