@@ -655,7 +655,11 @@ def parse_pdf_layout(
                         p_start = pn
                         break
             p_start = p_start or 1
-            p_end = q_boxes[-1].page if q_boxes else p_start
+            # FIXME(1-extract): computed and never used, same as the q_pages
+            # case in pdf_to_questions.py — figure lookup is not scoped to a
+            # question's page range. Likely why 986 questions carry has_image
+            # with no image_refs. Verify before deleting.
+            p_end = q_boxes[-1].page if q_boxes else p_start  # noqa: F841
             page_rect = page_rects.get(p_start) or fitz.Rect(0, 0, 595, 842)
 
             dir_id = active_dir["id"] if active_dir and direction_covers(active_dir, q_num) else None

@@ -2,7 +2,6 @@
 Convert bank exam PYQ PDFs in corpus/ into structured JSON under data/papers/.
 
 Usually just run:
-  python pdf_question_pipeline.py --force --skip-answers
 
 This file still works on its own if you want:
   python pdf_to_questions.py --limit 20
@@ -34,7 +33,6 @@ from corpus import (  # noqa: F401  (re-exported for callers)
 )
 from pdf import extract_pages  # noqa: F401
 from context_completeness import (
-    assess_context,
     is_decorative_image_block,
     sanitize_question_context,
     should_synthesize_cloze_stem,
@@ -457,7 +455,10 @@ def parse_questions_from_text(
 
         p_start = page_at(ev["start"], page_spans)
         p_end = page_at(max(ev["start"], block_end - 1), page_spans)
-        section = section_at(ev["start"], section_spans)
+        # NOTE: section_at() reads real headings out of the PDF, which beats
+        # step 2's keyword guess. Question has no section field today, so this
+        # is computed and dropped — wire it through when step 2 is ready.
+        _section = section_at(ev["start"], section_spans)  # noqa: F841
         dir_id = None
         dir_text = None
         q_context: list[dict[str, Any]] = []
@@ -494,37 +495,16 @@ def parse_questions_from_text(
                 [b for b in q_context if b.get("role") != "stem"]
             ) or None
 
-        status, issues = assess_context(
-            stem=stem,
-            options=options,
-            direction_text=dir_text,
-            context=q_context,
-            q_num=q_num,
-        )
-
+        # section/topic are step 2's, answer/explanation are step 4's, and the
+        # schema has no metrics — Question carries only what step 1 can know.
         q = Question(
             q_id=make_q_id(paper_id, q_num),
             q_num=q_num,
-            section=section,
-            topic=None,
-            topic_confidence=None,
-            topic_source=None,
             direction_id=dir_id,
             direction_text=dir_text,
             stem=stem,
             options=options,
-            answer=None,
-            explanation=None,
-            metrics=QuestionMetrics(
-                has_passage=bool(dir_text or q_context),
-                option_count=len(options),
-                stem_char_len=len(stem),
-                page_start=p_start,
-                page_end=p_end,
-            ),
             context=q_context,
-            context_status=status,
-            context_issues=issues,
         )
         questions.append(q)
         seen_nums.add(q_num)
@@ -570,9 +550,6 @@ def convert_pdf(
     corpus: Path,
     out_root: Path,
     force: bool = False,
-    *,
-    taxonomy: dict[str, Any] | None = None,
-    label_questions: bool = True,
 ) -> dict[str, Any]:
     meta = load_meta(pdf_path)
     if not meta:
@@ -792,20 +769,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--limit", type=int, default=0, help="Max PDFs to process (0 = all)")
     p.add_argument("--force", action="store_true", help="Re-parse even if sha256 matches")
     p.add_argument("--pdf", action="append", default=[], help="Specific PDF path(s)")
-    p.add_argument("--skip-labels", action="store_true", help="Skip section/topic labeling")
     p.add_argument("--skip-answers", action="store_true", help="Skip answer attachment after parse")
     args = p.parse_args(argv)
 
     corpus = Path(args.corpus)
     out_root = Path(args.out)
     out_root.mkdir(parents=True, exist_ok=True)
-
-    taxonomy = None
-    if not args.skip_labels:
-        from question_pipeline import load_taxonomy_cached
-
-        taxonomy = load_taxonomy_cached()
-    label_questions = not args.skip_labels
 
     if args.pdf:
         pdfs = [Path(x) for x in args.pdf]
@@ -823,23 +792,12 @@ def main(argv: list[str] | None = None) -> int:
             corpus,
             out_root,
             force=args.force,
-            taxonomy=taxonomy,
-            label_questions=label_questions,
         )
         results.append(result)
-
-    answer_report: dict[str, Any] | None = None
-    if not args.skip_answers:
-        from question_pipeline import attach_answers_to_bank
-
-        log.info("Attaching answers…")
-        answer_report = attach_answers_to_bank(out_root, corpus, limit=args.limit or 0)
 
     index_count = rebuild_index(out_root)
     report = write_report(out_root, results)
     report["index_rows"] = index_count
-    if answer_report:
-        report["answer_attachment"] = answer_report
     (out_root / "parse_report.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False),
         encoding="utf-8",
