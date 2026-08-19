@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:5"
   ],
-  "question_count": 100,
+  "question_count": 95,
   "questions": [
     {
       "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q001",
@@ -1055,141 +1056,6 @@
       "direction_text": "Read the following passage carefully and answer the questions. Up until the 1500s, brewing was primarily women’s work—that is, until a smear campaign accused women brewers of being witches. Much of the iconography we associate with witches today, from the pointy hat to the broom, may have emerged from their connection to female brewers. Humans have been drinking beer for almost 7,000 years, and the original brewers were women. From the Vikings to the Egyptians, women brewed beer both for religious ceremonies and to make a practical, calorie-rich beverage for the home. In fact, the nun Hildegard von Bingen, who lived in modern-day Germany, famously wrote about hops in the 12th century and added the ingredient to her beer recipe. From the Stone Age to the 1700s, ale – and, later, beer – was a household staple for most families in England and other parts of Europe. The drink was an inexpensive way to consume and preserve grains. For the working class, beer provided an important source of nutrients, full of carbohydrates and proteins. Because the beverage was such a common part of the average person’s diet, fermenting was, for many women, one of their normal household tasks. Some enterprising women took this household skill to the marketplace and began selling beer. Widows or unmarried women used their fermentation prowess to earn some extra money, while married women partnered with their husbands to run their beer business. So if you traveled back in time to the Middle Ages or the Renaissance and went to a market in England, you’d probably see an oddly familiar sight: women wearing tall, pointy hats. In many instances, they’d be standing in front of big cauldrons. But these women were no witches; they were brewers. They wore the tall, pointy hats so that their customers could see them in the crowded marketplace. They transported their brew in cauldrons. And those who sold their beer out of stores had cats not as demon familiars, but to keep mice away from the grain. Some argue that iconography we associate with witches, from the pointy hat to the cauldron, originated from women working as master brewers. Just as women were establishing their foothold in the beer markets of England, Ireland and the rest of Europe, the Reformation began. The fundamentalist religious movement, which originated in the early 16th century, preached stricter gender norms and condemned witchcraft. Male brewers saw an opportunity. To reduce their competition in the beer trade, these men accused female brewers of being witches and using their cauldrons to brew up magic potions instead of booze. Unfortunately, the rumors took hold. Over time, it became more dangerous for women to practice brewing and sell beer because they could be misidentified as witches. At the time, being accused of witchcraft wasn’t just a social faux pas; it could result in prosecution or a death sentence. Women accused of witchcraft were often ostracized in their communities, imprisoned or even killed. Some men didn’t really believe that the women brewers were witches. However, many did believe that women shouldn’t be spending their time making beer. The process took time and dedication: hours to prepare the ale, sweep the floors clean and lift heavy bundles of rye and grain. If women couldn’t brew ale, they would have significantly more time at home to raise their children. In the 1500s some towns, such as Chester, England, actually made it illegal for most women to sell beer, worried that young alewives would grow up into old spinsters. The iconography of witches with their pointy hats and cauldrons has endured, as has men’s domination of the beer industry: The top 10 beer companies in the world are headed by male CEOs and have mostly male board members. Major beer companies have tended to portray beer as a drink for men. Some scholars have even gone as far as calling beer ads “manuals on masculinity.” This gender bias seems to persist in smaller craft breweries as well. A study at Stanford University found that while 17 percent of craft beer breweries have one female CEO, only 4 percent of these businesses employ a female brewmaster—the expert supervisor who oversees the brewing process. It doesn’t have to be this way. For much of history, it wasn’t.",
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q046",
-      "paper_id": "sbi_po_2020_prelims_unknown_shift_71d3da53",
-      "q_num": 46,
-      "stem": "Find the ratio of number of plain notebooks sold by seller ‘A’ to the number of ruled notebooks sold by seller ‘C’.",
-      "options": {
-        "a": "9:5",
-        "b": "25:12",
-        "c": "11:8",
-        "d": "8:15",
-        "e": "15:13"
-      },
-      "direction_id": "d003",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of notebooks (plain + ruled) sold and percentage of number of ruled notebooks sold out of total notebooks sold, by five different sellers.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2020_prelims_unknown_shift_71d3da53/p11_d003_1.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q047",
-      "paper_id": "sbi_po_2020_prelims_unknown_shift_71d3da53",
-      "q_num": 47,
-      "stem": "The number of plain notebooks sold by seller ‘D’ is how much percent more/less than total number of notebooks sold by seller ‘C’?",
-      "options": {
-        "a": "132%",
-        "b": "120%",
-        "c": "135%",
-        "d": "110%",
-        "e": "150%"
-      },
-      "direction_id": "d003",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of notebooks (plain + ruled) sold and percentage of number of ruled notebooks sold out of total notebooks sold, by five different sellers.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2020_prelims_unknown_shift_71d3da53/p11_d003_1.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q048",
-      "paper_id": "sbi_po_2020_prelims_unknown_shift_71d3da53",
-      "q_num": 48,
-      "stem": "Find the difference between total number of ruled notebooks sold by sellers ‘A’ and ‘B’, together and total number of notebooks sold by seller ‘E’.",
-      "options": {
-        "a": "380",
-        "b": "385",
-        "c": "424",
-        "d": "412",
-        "e": "None of these SBI PO PRE 2020 QUESTION PAPER"
-      },
-      "direction_id": "d003",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of notebooks (plain + ruled) sold and percentage of number of ruled notebooks sold out of total notebooks sold, by five different sellers.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2020_prelims_unknown_shift_71d3da53/p11_d003_1.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q049",
-      "paper_id": "sbi_po_2020_prelims_unknown_shift_71d3da53",
-      "q_num": 49,
-      "stem": "If seller ‘E’ sold each ruled notebook for Rs. 12 and each plain notebook for Rs. 6. Find total amount earned by him after selling all the notebooks.",
-      "options": {
-        "a": "Rs. 14000",
-        "b": "Rs. 13800",
-        "c": "Rs. 12100",
-        "d": "Rs. 13600",
-        "e": "Rs. 12600"
-      },
-      "direction_id": "d003",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of notebooks (plain + ruled) sold and percentage of number of ruled notebooks sold out of total notebooks sold, by five different sellers.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2020_prelims_unknown_shift_71d3da53/p11_d003_1.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2020_prelims_unknown_shift_71d3da53::q050",
-      "paper_id": "sbi_po_2020_prelims_unknown_shift_71d3da53",
-      "q_num": 50,
-      "stem": "Out of total number of plain notebooks sold by sellers ‘B’ and ‘C’, together 1/6th were sold to college students. Find number of plain notebooks sold by sellers ‘B’ and ‘C’ together to college students.",
-      "options": {
-        "a": "290",
-        "b": "120",
-        "c": "190",
-        "d": "200",
-        "e": "340"
-      },
-      "direction_id": "d003",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of notebooks (plain + ruled) sold and percentage of number of ruled notebooks sold out of total notebooks sold, by five different sellers.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2020_prelims_unknown_shift_71d3da53/p11_d003_1.png"
-      ],
       "bank": "SBI",
       "role": "PO",
       "exam_type": "Prelims",

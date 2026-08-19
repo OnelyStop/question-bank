@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "skip_empty_q39"
+    "skip_empty_q39",
+    "figure_questions_removed:1"
   ],
-  "question_count": 39,
+  "question_count": 38,
   "questions": [
     {
       "q_id": "sbi_po_2025_mains_unknown_shift_c93aff04::q001",
@@ -730,31 +731,6 @@
       "direction_id": "d005",
       "direction_text": "In the following question, few sentences are given with two blanks in each. Select the pair of words that best completes both blanks in all the sentences, ensuring the sentences remain grammatically correct and contextually appropriate.",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2025,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2025_mains_unknown_shift_c93aff04::q029",
-      "paper_id": "sbi_po_2025_mains_unknown_shift_c93aff04",
-      "q_num": 29,
-      "stem": "Column-I (A) Patients in India do not always carry their health records, (B) Medical professionals are better off attending to patients by saving time (C) The summer season brings with it a profusion of flowers that are not only visually Column-II (D) stunning but also have a special significance in Indian culture. (E) leaving doctors to piece the puzzle together during a visit. (F) to store transcripts locally on the devices and upload periodically.",
-      "options": {
-        "a": "A-D & B-F",
-        "b": "C-E",
-        "c": "A-E & C-D",
-        "d": "B-D",
-        "e": "None of the above"
-      },
-      "direction_id": "d007",
-      "direction_text": "In the question below, two columns are given, each containing three phrases/sentences. Choose the option that will connect the phrases to form meaningful and correct sentences.",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "PO",

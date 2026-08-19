@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:5"
   ],
-  "question_count": 100,
+  "question_count": 95,
   "questions": [
     {
       "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q001",
@@ -1511,141 +1512,6 @@
       "direction_text": "Answer the questions based on the information given below. The given pie-chart shows the percentage distribution of number of researchers (male + female) in three labs (A, B and C) out of total number of number of researchers (male + female) in the given three labs together i.e. 800. The given table shows the ratio of number of male to female researchers in each of the given labs. Number of (male:female) researchers A 3:4 B 5:3 SBI PO PRE 2019 QUESTION PAPER C 3:2",
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2019,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q061",
-      "paper_id": "sbi_po_2019_prelims_unknown_shift_57ec9383",
-      "q_num": 61,
-      "stem": "Find the average of the number of clerks in office ‘A’, ‘B’ and ‘D’ together.",
-      "options": {
-        "a": "90",
-        "b": "105",
-        "c": "100",
-        "d": "95",
-        "e": "110"
-      },
-      "direction_id": "d004",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of employees (officers + clerks) in four different offices. The given table shows the number of officers in given four offices. Number of officers A B C D",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2019_prelims_unknown_shift_57ec9383/p13_d004_0.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2019,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q062",
-      "paper_id": "sbi_po_2019_prelims_unknown_shift_57ec9383",
-      "q_num": 62,
-      "stem": "Find the ratio of number of officers in office ‘A’ to the number of clerks in office ‘C’.",
-      "options": {
-        "a": "5:2",
-        "b": "6:5",
-        "c": "2:1",
-        "d": "4:3",
-        "e": "None of these"
-      },
-      "direction_id": "d004",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of employees (officers + clerks) in four different offices. The given table shows the number of officers in given four offices. Number of officers A B C D",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2019_prelims_unknown_shift_57ec9383/p13_d004_0.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2019,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q063",
-      "paper_id": "sbi_po_2019_prelims_unknown_shift_57ec9383",
-      "q_num": 63,
-      "stem": "If 50% of officers in office ‘A’ are males, and 75% of clerks in office ‘D’ are females, then find the difference between the number of male officers in office ‘A’ and male clerks in office ‘D’.",
-      "options": {
-        "a": "25",
-        "b": "35",
-        "c": "45",
-        "d": "60 SBI PO PRE 2019 QUESTION PAPER",
-        "e": "50"
-      },
-      "direction_id": "d004",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of employees (officers + clerks) in four different offices. The given table shows the number of officers in given four offices. Number of officers A B C D",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2019_prelims_unknown_shift_57ec9383/p13_d004_0.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2019,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q064",
-      "paper_id": "sbi_po_2019_prelims_unknown_shift_57ec9383",
-      "q_num": 64,
-      "stem": "Number of officers in office ‘B’ is how much percent more/less than the number of clerks in office ‘A’?",
-      "options": {
-        "a": "15%",
-        "b": "40%",
-        "c": "35%",
-        "d": "20%",
-        "e": "25%"
-      },
-      "direction_id": "d004",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of employees (officers + clerks) in four different offices. The given table shows the number of officers in given four offices. Number of officers A B C D",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2019_prelims_unknown_shift_57ec9383/p13_d004_0.png"
-      ],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2019,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2019_prelims_unknown_shift_57ec9383::q065",
-      "paper_id": "sbi_po_2019_prelims_unknown_shift_57ec9383",
-      "q_num": 65,
-      "stem": "In office ‘E’, total number of employees (officers + clerks) is 25% more than that in office ‘C’. If the number of clerks in office ‘E’ is 120, then find the number of officers in office ‘E’.",
-      "options": {
-        "a": "200",
-        "b": "160",
-        "c": "180",
-        "d": "120",
-        "e": "150"
-      },
-      "direction_id": "d004",
-      "direction_text": "Answer the questions based on the information given below. The given bar graph shows the total number of employees (officers + clerks) in four different offices. The given table shows the number of officers in given four offices. Number of officers A B C D",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_po_2019_prelims_unknown_shift_57ec9383/p13_d004_0.png"
-      ],
       "bank": "SBI",
       "role": "PO",
       "exam_type": "Prelims",

@@ -14,8 +14,10 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [],
-  "question_count": 80,
+  "parse_notes": [
+    "figure_questions_removed:4"
+  ],
+  "question_count": 76,
   "questions": [
     {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q001",
@@ -1718,31 +1720,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q069",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 69,
-      "stem": "22 × 25 + 400 = ?",
-      "options": {
-        "a": "950",
-        "b": "960",
-        "c": "920",
-        "d": "900",
-        "e": "980"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q070",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
       "q_num": 70,
@@ -1793,56 +1770,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q072",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 72,
-      "stem": "16 × 16 ÷ 64 = ?",
-      "options": {
-        "a": "1",
-        "b": "3",
-        "c": "2",
-        "d": "4",
-        "e": "6"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q073",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 73,
-      "stem": "520 + 480 = ? × 8 + 200",
-      "options": {
-        "a": "150",
-        "b": "130",
-        "c": "120",
-        "d": "110",
-        "e": "100"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q074",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
       "q_num": 74,
@@ -1882,31 +1809,6 @@
       "direction_id": "d013",
       "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q076",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 76,
-      "stem": "4570 + 430 - ?2 = 502",
-      "options": {
-        "a": "50",
-        "b": "55",
-        "c": "52",
-        "d": "53",
-        "e": "54"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": null,

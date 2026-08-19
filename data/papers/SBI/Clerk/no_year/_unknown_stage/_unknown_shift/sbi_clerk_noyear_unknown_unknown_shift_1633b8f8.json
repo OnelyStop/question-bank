@@ -14,8 +14,10 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [],
-  "question_count": 100,
+  "parse_notes": [
+    "figure_questions_removed:3"
+  ],
+  "question_count": 97,
   "questions": [
     {
       "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q001",
@@ -793,31 +795,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q032",
-      "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
-      "q_num": 32,
-      "stem": "254 + 312 -?= 420",
-      "options": {
-        "a": "166",
-        "b": "156",
-        "c": "126",
-        "d": "136",
-        "e": "146"
-      },
-      "direction_id": "d007",
-      "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q033",
       "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
       "q_num": 33,
@@ -918,31 +895,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q037",
-      "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
-      "q_num": 37,
-      "stem": "245 + √225 × 2 - ? = 200",
-      "options": {
-        "a": "95",
-        "b": "90",
-        "c": "85",
-        "d": "80",
-        "e": "75"
-      },
-      "direction_id": "d007",
-      "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q038",
       "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
       "q_num": 38,
@@ -982,31 +934,6 @@
       "direction_id": "d007",
       "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q040",
-      "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
-      "q_num": 40,
-      "stem": "? ×4-177= 171",
-      "options": {
-        "a": "86",
-        "b": "84",
-        "c": "88",
-        "d": "85",
-        "e": "87"
-      },
-      "direction_id": "d007",
-      "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",

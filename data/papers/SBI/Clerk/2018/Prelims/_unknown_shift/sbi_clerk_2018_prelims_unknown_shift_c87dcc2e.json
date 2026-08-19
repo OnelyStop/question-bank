@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:8"
   ],
-  "question_count": 35,
+  "question_count": 27,
   "questions": [
     {
       "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q066",
@@ -146,166 +147,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q071",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 71,
-      "stem": "Total number of students who opted for Geography and Maths together is how much less than total number of students who opted for Sanskrit and Physics together?",
-      "options": {
-        "a": "24",
-        "b": "27",
-        "c": "30",
-        "d": "33",
-        "e": "36"
-      },
-      "direction_id": "d002",
-      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions Total students = 300 Hindi, Geography, 13% 18% English, Maths, 17% 12% Physics, 16% Sanskrit, 24%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e/p3_d002_band.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q072",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 72,
-      "stem": "Find the total number of students who gave exams in August 2017 if total number of students is increased by 20% in August 2017 as compared to July 2017.",
-      "options": {
-        "a": "450",
-        "b": "420",
-        "c": "390",
-        "d": "330",
-        "e": "360"
-      },
-      "direction_id": "d002",
-      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions Total students = 300 Hindi, Geography, 13% 18% English, Maths, 17% 12% Physics, 16% Sanskrit, 24%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e/p3_d002_band.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q073",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 73,
-      "stem": "Find the central angle of total number of students who opted for Physics?",
-      "options": {
-        "a": "57.6°",
-        "b": "54°",
-        "c": "50.4°",
-        "d": "43.2°",
-        "e": "64.8°"
-      },
-      "direction_id": "d002",
-      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions Total students = 300 Hindi, Geography, 13% 18% English, Maths, 17% 12% Physics, 16% Sanskrit, 24%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e/p3_d002_band.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q074",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 74,
-      "stem": "Find the average number of students who opted for Hindi, Geography and Sanskrit together?",
-      "options": {
-        "a": "54",
-        "b": "55",
-        "c": "56",
-        "d": "57",
-        "e": "58"
-      },
-      "direction_id": "d002",
-      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions Total students = 300 Hindi, Geography, 13% 18% English, Maths, 17% 12% Physics, 16% Sanskrit, 24%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e/p3_d002_band.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q075",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 75,
-      "stem": "Find the ratio between total number of students who opted for English, Physics and Geography together to total number of students who opted for Hindi, English and Sanskrit together?",
-      "options": {
-        "a": "8 : 9",
-        "b": "17 : 19",
-        "c": "15 : 16",
-        "d": "17 : 18",
-        "e": "5 : 6"
-      },
-      "direction_id": "d002",
-      "direction_text": "Pie chart given below shows total number of students who opted different subjects for exam in July 2017. Study the data carefully and answer the following questions Total students = 300 Hindi, Geography, 13% 18% English, Maths, 17% 12% Physics, 16% Sanskrit, 24%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e/p3_d002_band.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q076",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 76,
-      "stem": "? = √𝟏𝟔× 𝟏𝟓+ 𝟐𝟒× 𝟏𝟐+ 𝟗𝟕",
-      "options": {
-        "a": "25",
-        "b": "24",
-        "c": "28",
-        "d": "27",
-        "e": "35"
-      },
-      "direction_id": "d003",
-      "direction_text": "What should come in place of question mark (?) in the following questions?",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q077",
       "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
       "q_num": 77,
@@ -345,31 +186,6 @@
       "direction_id": "d003",
       "direction_text": "What should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q079",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 79,
-      "stem": "√𝟕𝟑𝟗𝟔+ √? = 𝟏𝟎𝟒",
-      "options": {
-        "a": "256",
-        "b": "400",
-        "c": "361",
-        "d": "289",
-        "e": "324"
-      },
-      "direction_id": "d003",
-      "direction_text": "What should come in place of question mark (?) in the following questions?",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
@@ -770,25 +586,6 @@
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e::q094",
-      "paper_id": "sbi_clerk_2018_prelims_unknown_shift_c87dcc2e",
-      "q_num": 94,
-      "stem": "𝟏𝟓𝟐+ 𝟑𝟔𝟐= ? × √𝟐𝟏𝟗𝟕",
-      "options": {},
-      "direction_id": "d005",
-      "direction_text": "What should come in place of question mark (?) in the following questions?",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",

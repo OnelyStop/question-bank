@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:6"
   ],
-  "question_count": 100,
+  "question_count": 94,
   "questions": [
     {
       "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q001",
@@ -1271,141 +1272,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q051",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 51,
-      "stem": "If number of items sold by A in 2018 are 40% more than number of items sold by B in 2015, then find the difference between number of items sold by A in 2018 and number of items sold by B in 2017?",
-      "options": {
-        "a": "88",
-        "b": "72",
-        "c": "84",
-        "d": "54",
-        "e": "64"
-      },
-      "direction_id": "d009",
-      "direction_text": "The bar graph given below shows number of items sold by A and B in three different years. Read the data carefully and answer the questions given below.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2024_prelims_shift_2_c147328e/p12_d009_1.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q052",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 52,
-      "stem": "Find the ratio of number of items sold by A in 2016 to total items sold by A and B together in 2015?",
-      "options": {
-        "a": "16 : 41",
-        "b": "18 : 31",
-        "c": "14 : 41",
-        "d": "18: 41",
-        "e": "18 : 43"
-      },
-      "direction_id": "d009",
-      "direction_text": "The bar graph given below shows number of items sold by A and B in three different years. Read the data carefully and answer the questions given below.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2024_prelims_shift_2_c147328e/p12_d009_1.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q053",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 53,
-      "stem": "If B sold each item for Rs. 40 in 2017, then find the total amount received by B in 2017?",
-      "options": {
-        "a": "3840 Rs.",
-        "b": "1920 Rs.",
-        "c": "2020 Rs.",
-        "d": "1840 Rs.",
-        "e": "1960 Rs."
-      },
-      "direction_id": "d009",
-      "direction_text": "The bar graph given below shows number of items sold by A and B in three different years. Read the data carefully and answer the questions given below.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2024_prelims_shift_2_c147328e/p12_d009_1.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q054",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 54,
-      "stem": "Total items sold by B in 2016 is what percent more or less than total of total items sold by A in 2017?",
-      "options": {
-        "a": "60%",
-        "b": "40%",
-        "c": "62.5%",
-        "d": "48%",
-        "e": "37.5%"
-      },
-      "direction_id": "d009",
-      "direction_text": "The bar graph given below shows number of items sold by A and B in three different years. Read the data carefully and answer the questions given below.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2024_prelims_shift_2_c147328e/p12_d009_1.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q055",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 55,
-      "stem": "Find the difference between total items sold by B in 2015 & 2016 together and total items sold by A in 2017?",
-      "options": {
-        "a": "40",
-        "b": "48",
-        "c": "54",
-        "d": "34",
-        "e": "44"
-      },
-      "direction_id": "d009",
-      "direction_text": "The bar graph given below shows number of items sold by A and B in three different years. Read the data carefully and answer the questions given below.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2024_prelims_shift_2_c147328e/p12_d009_1.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q056",
       "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
       "q_num": 56,
@@ -1520,31 +1386,6 @@
       "direction_id": "d010",
       "direction_text": "What will come in the place of question mark (?) in the following question.",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q061",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 61,
-      "stem": "16× 50 + ?2 = 281×4",
-      "options": {
-        "a": "8",
-        "b": "12",
-        "c": "16",
-        "d": "24",
-        "e": "None of these"
-      },
-      "direction_id": "d010",
-      "direction_text": "What will come in the place of question mark (?) in the following question.",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",

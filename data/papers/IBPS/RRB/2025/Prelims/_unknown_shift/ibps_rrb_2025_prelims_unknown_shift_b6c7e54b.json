@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:8"
   ],
-  "question_count": 80,
+  "question_count": 72,
   "questions": [
     {
       "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q001",
@@ -135,81 +136,6 @@
       "direction_id": "d001",
       "direction_text": "Study the following series carefully and answer the question given below: P & K * V Z L # W A % S R ! M @ X F Y ? Q + C ^ U T Z $",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q006",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 6,
-      "stem": "Who among the following persons sits 11th to the left of A?",
-      "options": {
-        "a": "K",
-        "b": "E",
-        "c": "H",
-        "d": "None of these",
-        "e": "D"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and face north. H sits third to the right of K. Five persons sit between H and D. E sits immediately left of K. Only two persons sit between D and J. A sits second to the right of J. A and D are not immediate neighbours. Number of persons sit between E and D is same as the number of persons sit to the right of D. E sits second from one the ends of the row.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q007",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 7,
-      "stem": "What is the position of J in the row?",
-      "options": {
-        "a": "Sixth from the left end",
-        "b": "Sixth from the right end",
-        "c": "Third from the right end",
-        "d": "Seventh from the right end",
-        "e": "Third from the left end"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and face north. H sits third to the right of K. Five persons sit between H and D. E sits immediately left of K. Only two persons sit between D and J. A sits second to the right of J. A and D are not immediate neighbours. Number of persons sit between E and D is same as the number of persons sit to the right of D. E sits second from one the ends of the row.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q008",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 8,
-      "stem": "How many persons sit in the row?",
-      "options": {
-        "a": "20",
-        "b": "16",
-        "c": "18",
-        "d": "19",
-        "e": "21"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and face north. H sits third to the right of K. Five persons sit between H and D. E sits immediately left of K. Only two persons sit between D and J. A sits second to the right of J. A and D are not immediate neighbours. Number of persons sit between E and D is same as the number of persons sit to the right of D. E sits second from one the ends of the row.",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
@@ -1136,141 +1062,6 @@
       "direction_text": "The table given below shows the marks scored by P, Q, R, S and T in three different subjects (i.e. English, Hindi and Maths). Read the data carefully and answer the following question. Students English Hindi Maths P Q R S T",
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q046",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 46,
-      "stem": "Find the difference between total student taking online classes and total student taking off- line classes on all the given days.",
-      "options": {
-        "a": "120",
-        "b": "150",
-        "c": "100",
-        "d": "190",
-        "e": "110"
-      },
-      "direction_id": "d011",
-      "direction_text": "The bar graph shows the number of students taking online and off-line classes on five different days. Read the data and answer the following question.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b/p10_d011_1.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q047",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 47,
-      "stem": "Find the ratio of student taking online classes on Monday and Tuesday together to students taking off-line classes on Friday.",
-      "options": {
-        "a": "7:9",
-        "b": "3:2",
-        "c": "3:1",
-        "d": "2:1",
-        "e": "7:8"
-      },
-      "direction_id": "d011",
-      "direction_text": "The bar graph shows the number of students taking online and off-line classes on five different days. Read the data and answer the following question.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b/p10_d011_1.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q048",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 48,
-      "stem": "On Saturday the number of online classes taken by students is 20% less than the off-line classes taken by students on Monday, then find the sum of online class taken by students on Saturday and Friday.",
-      "options": {
-        "a": "120",
-        "b": "150",
-        "c": "100",
-        "d": "140",
-        "e": "110"
-      },
-      "direction_id": "d011",
-      "direction_text": "The bar graph shows the number of students taking online and off-line classes on five different days. Read the data and answer the following question.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b/p10_d011_1.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q049",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 49,
-      "stem": "Online class taken by students on Monday and Friday is what percentage of total off-line classes taken by students on Wednesday.",
-      "options": {
-        "a": "120",
-        "b": "150",
-        "c": "100",
-        "d": "140",
-        "e": "110"
-      },
-      "direction_id": "d011",
-      "direction_text": "The bar graph shows the number of students taking online and off-line classes on five different days. Read the data and answer the following question.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b/p10_d011_1.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q050",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 50,
-      "stem": "If the ratio of online classes taken by students on Friday and Sunday is 5:4, then the online classes taken on Sunday is what percentage more/less than offline classes taken by students on Tuesday.",
-      "options": {
-        "a": "20",
-        "b": "50",
-        "c": "0",
-        "d": "40",
-        "e": "10"
-      },
-      "direction_id": "d011",
-      "direction_text": "The bar graph shows the number of students taking online and off-line classes on five different days. Read the data and answer the following question.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b/p10_d011_1.png"
-      ],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",

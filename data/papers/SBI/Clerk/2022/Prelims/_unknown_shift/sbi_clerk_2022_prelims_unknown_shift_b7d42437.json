@@ -16,9 +16,10 @@
   "parse_status": "ok",
   "parse_notes": [
     "figure_crops:1",
-    "assets_exported:1"
+    "assets_exported:1",
+    "figure_questions_removed:10"
   ],
-  "question_count": 99,
+  "question_count": 89,
   "questions": [
     {
       "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q001",
@@ -621,106 +622,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q025",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 25,
-      "stem": "Diya practices on which among the following days?",
-      "options": {
-        "a": "Wednesday",
-        "b": "Monday",
-        "c": "Friday",
-        "d": "Sunday",
-        "e": "None of these"
-      },
-      "direction_id": "d007",
-      "direction_text": "Read the following information carefully and answer the questions given below: Seven persons practice quizzes on different days of a week starting from Monday. Tina practices quizzes between Thursday and Sunday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q026",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 26,
-      "stem": "How many persons practice quizzes between Gola and Mona?",
-      "options": {
-        "a": "Two",
-        "b": "Five",
-        "c": "One",
-        "d": "Three",
-        "e": "Four"
-      },
-      "direction_id": "d007",
-      "direction_text": "Read the following information carefully and answer the questions given below: Seven persons practice quizzes on different days of a week starting from Monday. Tina practices quizzes between Thursday and Sunday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q027",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 27,
-      "stem": "Who among the following practice quizzes on Tuesday?",
-      "options": {
-        "a": "Rekha",
-        "b": "Roma",
-        "c": "Gola",
-        "d": "Neha",
-        "e": "None of these"
-      },
-      "direction_id": "d007",
-      "direction_text": "Read the following information carefully and answer the questions given below: Seven persons practice quizzes on different days of a week starting from Monday. Tina practices quizzes between Thursday and Sunday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q028",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 28,
-      "stem": "Which of the following combination is correct?",
-      "options": {
-        "a": "Monday- Gola",
-        "b": "Saturday- Tina",
-        "c": "Friday - Diya",
-        "d": "Tuesday- Roma",
-        "e": "All are correct"
-      },
-      "direction_id": "d007",
-      "direction_text": "Read the following information carefully and answer the questions given below: Seven persons practice quizzes on different days of a week starting from Monday. Tina practices quizzes between Thursday and Sunday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya.",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q029",
       "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
       "q_num": 29,
@@ -835,31 +736,6 @@
       "direction_id": "d008",
       "direction_text": "Read the given information carefully and answer the questions below: Six persons live on different floors in a six-floor building where ground floor is numbered as 1, just above it is numbered as 2 and so on till the topmost floor is numbered as 6. Each of them likes different flowers- tulip, daisy, dahlia, marigold, balsam and lotus but not necessarily in the same order as given. D lives on an even numbered floor. The one who likes lotus lives just above D. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. F does not like marigold.",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q034",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 34,
-      "stem": "Who among the following person likes marigold?",
-      "options": {
-        "a": "H",
-        "b": "G",
-        "c": "D",
-        "d": "Either D or H",
-        "e": "The person who lives just above N"
-      },
-      "direction_id": "d008",
-      "direction_text": "Read the given information carefully and answer the questions below: Six persons live on different floors in a six-floor building where ground floor is numbered as 1, just above it is numbered as 2 and so on till the topmost floor is numbered as 6. Each of them likes different flowers- tulip, daisy, dahlia, marigold, balsam and lotus but not necessarily in the same order as given. D lives on an even numbered floor. The one who likes lotus lives just above D. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. F does not like marigold.",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
@@ -1611,141 +1487,6 @@
       "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q066",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 66,
-      "stem": "What is the average no. of people who speak any one language in institute P?",
-      "options": {
-        "a": "52",
-        "b": "56",
-        "c": "64",
-        "d": "43",
-        "e": "38"
-      },
-      "direction_id": "d012",
-      "direction_text": "Read the following table carefully and answer the questions given below. Following the table shows the number of people who are working in two institute (P & Q) and language speak by them. Note : A person know only one language",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2022_prelims_unknown_shift_b7d42437/p13_d012_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q067",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 67,
-      "stem": "What is the difference between total no. of people who speak Guajarati and Tamil together in institute Q to total no. of people who speak Marathi and Hindi in institute P together?",
-      "options": {
-        "a": "89",
-        "b": "19",
-        "c": "49",
-        "d": "59",
-        "e": "29"
-      },
-      "direction_id": "d012",
-      "direction_text": "Read the following table carefully and answer the questions given below. Following the table shows the number of people who are working in two institute (P & Q) and language speak by them. Note : A person know only one language",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2022_prelims_unknown_shift_b7d42437/p13_d012_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q068",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 68,
-      "stem": "Find the ratio between total no of people who speak any language in institute P to institute Q respectively.",
-      "options": {
-        "a": "61:69",
-        "b": "65:69",
-        "c": "66:67",
-        "d": "67:66",
-        "e": "69:62"
-      },
-      "direction_id": "d012",
-      "direction_text": "Read the following table carefully and answer the questions given below. Following the table shows the number of people who are working in two institute (P & Q) and language speak by them. Note : A person know only one language",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2022_prelims_unknown_shift_b7d42437/p13_d012_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q069",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 69,
-      "stem": "No. of people who speak English in both institutes together is what % no. of people who speak Marathi in both institutes together (approx.) ?",
-      "options": {
-        "a": "147%",
-        "b": "67%",
-        "c": "182%",
-        "d": "224%",
-        "e": "342%"
-      },
-      "direction_id": "d012",
-      "direction_text": "Read the following table carefully and answer the questions given below. Following the table shows the number of people who are working in two institute (P & Q) and language speak by them. Note : A person know only one language",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2022_prelims_unknown_shift_b7d42437/p13_d012_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q070",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 70,
-      "stem": "If the ratio of male and female who speak Gujarati in institute P and Q is 8:5 and 6:7 respectively, then find the total no. of female in both institutes.",
-      "options": {
-        "a": "38",
-        "b": "56",
-        "c": "25",
-        "d": "41",
-        "e": "12"
-      },
-      "direction_id": "d012",
-      "direction_text": "Read the following table carefully and answer the questions given below. Following the table shows the number of people who are working in two institute (P & Q) and language speak by them. Note : A person know only one language",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2022_prelims_unknown_shift_b7d42437/p13_d012_0.png"
-      ],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",

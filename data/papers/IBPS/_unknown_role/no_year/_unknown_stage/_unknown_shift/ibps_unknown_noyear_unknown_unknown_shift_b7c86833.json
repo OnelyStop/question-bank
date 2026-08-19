@@ -14,8 +14,10 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [],
-  "question_count": 80,
+  "parse_notes": [
+    "figure_questions_removed:5"
+  ],
+  "question_count": 75,
   "questions": [
     {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q001",
@@ -1668,31 +1670,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q067",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "q_num": 67,
-      "stem": "? × 65 ÷ 72 = 195 × 352 ÷ 192",
-      "options": {
-        "a": "369",
-        "b": "396",
-        "c": "594",
-        "d": "297",
-        "e": "376"
-      },
-      "direction_id": "d013",
-      "direction_text": "निम्ननलनखत प्रश्नों म़ें प्रश्नवाचक नचह्ि (?) के स्थाि पर क्या आिा चानहए? 3 का 37 + 5",
-      "direction_has_image": true,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q068",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
       "q_num": 68,
@@ -1707,31 +1684,6 @@
       "direction_id": "d013",
       "direction_text": "निम्ननलनखत प्रश्नों म़ें प्रश्नवाचक नचह्ि (?) के स्थाि पर क्या आिा चानहए? 3 का 37 + 5",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q069",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "q_num": 69,
-      "stem": "√6.25 + 5 13 + ? = 72",
-      "options": {
-        "a": "30.5",
-        "b": "32.5",
-        "c": "31.5",
-        "d": "29.5",
-        "e": "25 ) ×"
-      },
-      "direction_id": "d013",
-      "direction_text": "निम्ननलनखत प्रश्नों म़ें प्रश्नवाचक नचह्ि (?) के स्थाि पर क्या आिा चानहए? 3 का 37 + 5",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": null,
@@ -1782,31 +1734,6 @@
       "direction_id": "d013",
       "direction_text": "निम्ननलनखत प्रश्नों म़ें प्रश्नवाचक नचह्ि (?) के स्थाि पर क्या आिा चानहए? 3 का 37 + 5",
       "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q072",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "q_num": 72,
-      "stem": "77077 ÷ 7007 × 125 ÷ 5 × 2 = ?",
-      "options": {
-        "a": "275",
-        "b": "550",
-        "c": "1100",
-        "d": "2200",
-        "e": "1650"
-      },
-      "direction_id": "d013",
-      "direction_text": "निम्ननलनखत प्रश्नों म़ें प्रश्नवाचक नचह्ि (?) के स्थाि पर क्या आिा चानहए? 3 का 37 + 5",
-      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": null,
@@ -1893,31 +1820,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q076",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "q_num": 76,
-      "stem": "√?× √3025 = 2695",
-      "options": {
-        "a": "2401",
-        "b": "2209",
-        "c": "2601",
-        "d": "2304",
-        "e": "2400"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": true,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q077",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
       "q_num": 77,
@@ -1990,31 +1892,6 @@
       "shift": null,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833::q080",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "q_num": 80,
-      "stem": "2950 ÷ 12.5 + 160 =?",
-      "options": {
-        "a": "392",
-        "b": "390",
-        "c": "396",
-        "d": "394",
-        "e": "400"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": true,
       "image_refs": []
     }
   ]

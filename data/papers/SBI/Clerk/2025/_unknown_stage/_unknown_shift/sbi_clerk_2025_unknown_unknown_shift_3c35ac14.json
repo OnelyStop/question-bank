@@ -14,8 +14,10 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [],
-  "question_count": 100,
+  "parse_notes": [
+    "figure_questions_removed:3"
+  ],
+  "question_count": 97,
   "questions": [
     {
       "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q001",
@@ -792,30 +794,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q032",
-      "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
-      "q_num": 32,
-      "stem": "254 + 312 -?= 420",
-      "options": {
-        "a": "166",
-        "b": "156 (C) 126",
-        "d": "136",
-        "e": "146"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": true,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q033",
       "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
       "q_num": 33,
@@ -914,30 +892,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q037",
-      "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
-      "q_num": 37,
-      "stem": "245 + √225 × 2 - ? = 200",
-      "options": {
-        "a": "95",
-        "b": "90 (C) 85",
-        "d": "80",
-        "e": "75"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": true,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q038",
       "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
       "q_num": 38,
@@ -985,30 +939,6 @@
       "shift": null,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14::q040",
-      "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
-      "q_num": 40,
-      "stem": "? ×4-177= 171",
-      "options": {
-        "a": "86",
-        "b": "84 (C) 88",
-        "d": "85",
-        "e": "87 దిశలు (41-45): జనవరి, ఫిబ్రవరి, మారిి నెలలో A, B మరియు C అనే మూడు మాల్స్ విక్రయించిన సినిమా టికకెటలక్ు సింబ్ింధిించిన సమాచారథనిన ఈ క రింది ప్టిిక్ చూపిస్ుిం ది."
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": true,
       "image_refs": []
     },
     {
