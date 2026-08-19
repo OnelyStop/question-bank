@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass, field
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -13,7 +14,7 @@ import fitz
 # step folders ("1-extract") are not valid module names, so shared code
 # comes through lib/ rather than from another step
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
-from context_completeness import assess_context, needs_figure_stimulus
+from context_completeness import needs_figure_stimulus
 from question_schema import Question, make_direction_id, make_q_id
 
 log = logging.getLogger("layout_parse")
