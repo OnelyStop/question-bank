@@ -1,485 +1,14 @@
 {
   "papers_seen": 375,
   "status_counts": {
-    "failed": 4,
+    "ok": 237,
     "skipped": 134,
-    "ok": 237
+    "failed": 4
   },
-  "total_questions_indexed_approx": 20971,
+  "total_questions_indexed_approx": 20972,
   "papers_with_questions": 237,
   "avg_questions_per_parsed_paper": 88.49,
   "papers": [
-    {
-      "status": "failed",
-      "pdf": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/LIC AAO pre 2023 memory based (20 Feb shift 1).pdf",
-      "paper_id": "unknown_unknown_2023_prelims_shift_1_34dba86e",
-      "question_count": 0,
-      "with_options": 0,
-      "out_path": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/unknown_unknown_2023_prelims_shift_1_34dba86e.json",
-      "reason": null,
-      "notes": [
-        "unusable_text_layer"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Maths-Memory-Based-Solutions.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_41ac99f5",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Maths-Memory-Based.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_8cf4d239",
-      "question_count": 36,
-      "with_options": 31,
-      "out_path": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/unknown_unknown_noyear_unknown_unknown_shift_8cf4d239.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/questions-bengali-with-solutions.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_9df8126d",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Reasoning-ENGLISH-1.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_8d36b7a5",
-      "question_count": 35,
-      "with_options": 32,
-      "out_path": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/unknown_unknown_noyear_unknown_unknown_shift_8d36b7a5.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/SOLUTIONS-QUANT.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_02138e95",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/SOLUTIONS-REASONING.pdf",
-      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_e5e66eec",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2020/Prelims/_unknown_shift/RRB-PO-Pre-Memory-Based-2020-1.pdf",
-      "paper_id": "unknown_rrb_2020_prelims_unknown_shift_9f2fbb87",
-      "question_count": 39,
-      "with_options": 39,
-      "out_path": "_unknown_bank/RRB/2020/Prelims/_unknown_shift/unknown_rrb_2020_prelims_unknown_shift_9f2fbb87.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-05-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_de45901a",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-05.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8e8c4bc8",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_8e8c4bc8.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-06-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_7dedb6fb",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-06.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_c30ed7b1",
-      "question_count": 80,
-      "with_options": 80,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_c30ed7b1.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-07-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_695b406d",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-07.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_a9b5b144",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_a9b5b144.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-09-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_db33bd91",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-09.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_703c9504",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_703c9504.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-10-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_5ef3df52",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-10.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_b5edfb0f",
-      "question_count": 80,
-      "with_options": 76,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_b5edfb0f.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-03-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_99f09811",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-03.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_03791f04",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_03791f04.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-04-Hindi.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8f25737c",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-04.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_54f37dc7",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_54f37dc7.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-02.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_6a4138e1",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_6a4138e1.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-03-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_fa17267e",
-      "question_count": 80,
-      "with_options": 77,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_fa17267e.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-04-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_b9ec4fb9",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_b9ec4fb9.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-05-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_86460901",
-      "question_count": 80,
-      "with_options": 76,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_86460901.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-06-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_d127eb20",
-      "question_count": 80,
-      "with_options": 76,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_d127eb20.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-english-2.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_8cdf53e4.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-hindi-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_e24b1674",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-08-2.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_86b579cb",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_86b579cb.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-08-Hindi-1.pdf",
-      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_2e169644",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2023/Mains/_unknown_shift/RRB-Clerk-Mains-2023-Memory-Based-Paper.pdf",
-      "paper_id": "unknown_rrb_2023_mains_unknown_shift_deaf21d1",
-      "question_count": 120,
-      "with_options": 120,
-      "out_path": "_unknown_bank/RRB/2023/Mains/_unknown_shift/unknown_rrb_2023_mains_unknown_shift_deaf21d1.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2024/Mains/_unknown_shift/RRB-Clerk-Mains-2024-Memory-based-Paper.pdf",
-      "paper_id": "unknown_rrb_2024_mains_unknown_shift_fdae644d",
-      "question_count": 200,
-      "with_options": 193,
-      "out_path": "_unknown_bank/RRB/2024/Mains/_unknown_shift/unknown_rrb_2024_mains_unknown_shift_fdae644d.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "_unknown_bank/RRB/2025/Mains/_unknown_shift/RRB-Clerk-Mains-2025-Memory-Based-Paper-1-Feb-2026-Hindi.pdf",
-      "paper_id": "unknown_rrb_2025_mains_unknown_shift_6921eec4",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "_unknown_bank/RRB/2025/Mains/_unknown_shift/RRB-Clerk-Mains-2025-Memory-Based-Paper-1-Feb-2026.pdf",
-      "paper_id": "unknown_rrb_2025_mains_unknown_shift_e6e7eb4f",
-      "question_count": 8,
-      "with_options": 3,
-      "out_path": "_unknown_bank/RRB/2025/Mains/_unknown_shift/unknown_rrb_2025_mains_unknown_shift_e6e7eb4f.json",
-      "reason": null,
-      "notes": []
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-2.pdf",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_02389ac7",
-      "question_count": 80,
-      "with_options": 80,
-      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_02389ac7.json",
-      "reason": null,
-      "notes": []
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-5.pdf",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377",
-      "question_count": 80,
-      "with_options": 80,
-      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_90de4377.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-6.pdf",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_84ace0f8.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-7.pdf",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
-      "question_count": 80,
-      "with_options": 80,
-      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_b7c86833.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/_unknown_role/no_year/Prelims/_unknown_shift/ibps_cler_pre_memory_based_reasoning_eng.pdf",
-      "paper_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116",
-      "question_count": 35,
-      "with_options": 35,
-      "out_path": "IBPS/_unknown_role/no_year/Prelims/_unknown_shift/ibps_unknown_noyear_prelims_unknown_shift_687be116.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
     {
       "status": "ok",
       "pdf": "IBPS/Clerk/2019/Mains/_unknown_shift/IBPS_Clerk_Mains_2019_Memory_Based_Papers_For_Pratices.pdf",
@@ -489,22 +18,21 @@
       "out_path": "IBPS/Clerk/2019/Mains/_unknown_shift/ibps_clerk_2019_mains_unknown_shift_781623cd.json",
       "reason": null,
       "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
       "status": "ok",
       "pdf": "IBPS/Clerk/2019/Prelims/_unknown_shift/IBPS_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
       "paper_id": "ibps_clerk_2019_prelims_unknown_shift_237fb266",
-      "question_count": 99,
-      "with_options": 92,
+      "question_count": 100,
+      "with_options": 96,
       "out_path": "IBPS/Clerk/2019/Prelims/_unknown_shift/ibps_clerk_2019_prelims_unknown_shift_237fb266.json",
       "reason": null,
       "notes": [
-        "skip_empty_q41",
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -515,10 +43,7 @@
       "with_options": 100,
       "out_path": "IBPS/Clerk/2020/Prelims/_unknown_shift/ibps_clerk_2020_prelims_unknown_shift_f1a8daa3.json",
       "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -542,21 +67,18 @@
     },
     {
       "status": "ok",
-      "pdf": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps-clerk-question-paper-2021.pdf",
-      "paper_id": "ibps_clerk_2021_unknown_unknown_shift_c3b9733a",
-      "question_count": 100,
-      "with_options": 100,
-      "out_path": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps_clerk_2021_unknown_unknown_shift_c3b9733a.json",
+      "pdf": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps-clerk-mains-question-paper-2021.pdf",
+      "paper_id": "ibps_clerk_2021_mains_unknown_shift_327135b6",
+      "question_count": 139,
+      "with_options": 137,
+      "out_path": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps_clerk_2021_mains_unknown_shift_327135b6.json",
       "reason": null,
-      "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
-      "pdf": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps-clerk-solution-2021.pdf",
-      "paper_id": "ibps_clerk_2021_unknown_unknown_shift_37b2938b",
+      "pdf": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps-clerk-mains-solution-2021.pdf",
+      "paper_id": "ibps_clerk_2021_mains_unknown_shift_fad70533",
       "question_count": 0,
       "with_options": null,
       "out_path": null,
@@ -565,21 +87,18 @@
     },
     {
       "status": "ok",
-      "pdf": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps-clerk-mains-question-paper-2021.pdf",
-      "paper_id": "ibps_clerk_2021_mains_unknown_shift_327135b6",
-      "question_count": 139,
-      "with_options": 137,
-      "out_path": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps_clerk_2021_mains_unknown_shift_327135b6.json",
+      "pdf": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps-clerk-question-paper-2021.pdf",
+      "paper_id": "ibps_clerk_2021_unknown_unknown_shift_c3b9733a",
+      "question_count": 100,
+      "with_options": 100,
+      "out_path": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps_clerk_2021_unknown_unknown_shift_c3b9733a.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
-      "pdf": "IBPS/Clerk/2021/Mains/_unknown_shift/ibps-clerk-mains-solution-2021.pdf",
-      "paper_id": "ibps_clerk_2021_mains_unknown_shift_fad70533",
+      "pdf": "IBPS/Clerk/2021/_unknown_stage/_unknown_shift/ibps-clerk-solution-2021.pdf",
+      "paper_id": "ibps_clerk_2021_unknown_unknown_shift_37b2938b",
       "question_count": 0,
       "with_options": null,
       "out_path": null,
@@ -594,10 +113,7 @@
       "with_options": 100,
       "out_path": "IBPS/Clerk/2022/_unknown_stage/_unknown_shift/ibps_clerk_2022_unknown_unknown_shift_e9d28f7c.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -608,8 +124,8 @@
       "out_path": "IBPS/Clerk/2023/Mains/_unknown_shift/ibps_clerk_2023_mains_unknown_shift_6d66a1eb.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -620,10 +136,7 @@
       "with_options": 99,
       "out_path": "IBPS/Clerk/2023/Prelims/_unknown_shift/ibps_clerk_2023_prelims_unknown_shift_3d393f68.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -634,8 +147,8 @@
       "out_path": "IBPS/Clerk/2024/Mains/_unknown_shift/ibps_clerk_2024_mains_unknown_shift_3d8c6008.json",
       "reason": null,
       "notes": [
-        "figure_crops:10",
-        "assets_exported:10"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -657,8 +170,8 @@
       "out_path": "IBPS/Clerk/2024/Mains/_unknown_shift/ibps_clerk_2024_mains_unknown_shift_a2bb4bde.json",
       "reason": null,
       "notes": [
-        "figure_crops:10",
-        "assets_exported:10"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -669,23 +182,7 @@
       "with_options": 92,
       "out_path": "IBPS/Clerk/2024/Prelims/Shift_1/ibps_clerk_2024_prelims_shift_1_da38d550.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/Clerk/2025/_unknown_stage/_unknown_shift/IBPS-Clerk-Paper-5-Oct-2025-S1.pdf",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "question_count": 100,
-      "with_options": 100,
-      "out_path": "IBPS/Clerk/2025/_unknown_stage/_unknown_shift/ibps_clerk_2025_unknown_unknown_shift_5d6b2988.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -706,8 +203,8 @@
       "out_path": "IBPS/Clerk/2025/Mains/Shift_1/ibps_clerk_2025_mains_shift_1_c3e1f73d.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -761,10 +258,7 @@
       "with_options": 99,
       "out_path": "IBPS/Clerk/2025/Prelims/Shift_2/ibps_clerk_2025_prelims_shift_2_8b0fdbfe.json",
       "reason": null,
-      "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -808,9 +302,19 @@
       "out_path": "IBPS/Clerk/2025/Prelims/Shift_4/ibps_clerk_2025_prelims_shift_4_759203f6.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/Clerk/2025/_unknown_stage/_unknown_shift/IBPS-Clerk-Paper-5-Oct-2025-S1.pdf",
+      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
+      "question_count": 100,
+      "with_options": 100,
+      "out_path": "IBPS/Clerk/2025/_unknown_stage/_unknown_shift/ibps_clerk_2025_unknown_unknown_shift_5d6b2988.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "skipped",
@@ -853,18 +357,6 @@
       "notes": []
     },
     {
-      "status": "failed",
-      "pdf": "IBPS/PO/2016/_unknown_stage/_unknown_shift/IBPS-PO-2016-English-Answers-1.pdf",
-      "paper_id": "ibps_po_2016_unknown_unknown_shift_dbfb6896",
-      "question_count": 0,
-      "with_options": 0,
-      "out_path": "IBPS/PO/2016/_unknown_stage/_unknown_shift/ibps_po_2016_unknown_unknown_shift_dbfb6896.json",
-      "reason": null,
-      "notes": [
-        "no_questions_parsed"
-      ]
-    },
-    {
       "status": "ok",
       "pdf": "IBPS/PO/2016/Mains/_unknown_shift/IBPS-PO-MAINS-2016-Memory-based-1.pdf",
       "paper_id": "ibps_po_2016_mains_unknown_shift_62864114",
@@ -872,10 +364,7 @@
       "with_options": 22,
       "out_path": "IBPS/PO/2016/Mains/_unknown_shift/ibps_po_2016_mains_unknown_shift_62864114.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -895,10 +384,7 @@
       "with_options": 41,
       "out_path": "IBPS/PO/2016/Mains/_unknown_shift/ibps_po_2016_mains_unknown_shift_ddd7b718.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -921,6 +407,18 @@
       "notes": []
     },
     {
+      "status": "failed",
+      "pdf": "IBPS/PO/2016/_unknown_stage/_unknown_shift/IBPS-PO-2016-English-Answers-1.pdf",
+      "paper_id": "ibps_po_2016_unknown_unknown_shift_dbfb6896",
+      "question_count": 0,
+      "with_options": 0,
+      "out_path": "IBPS/PO/2016/_unknown_stage/_unknown_shift/ibps_po_2016_unknown_unknown_shift_dbfb6896.json",
+      "reason": null,
+      "notes": [
+        "no_questions_parsed"
+      ]
+    },
+    {
       "status": "ok",
       "pdf": "IBPS/PO/2017/Mains/_unknown_shift/IBPS-PO-Mains-2017-English.pdf",
       "paper_id": "ibps_po_2017_mains_unknown_shift_760489c0",
@@ -939,8 +437,8 @@
       "out_path": "IBPS/PO/2017/Mains/_unknown_shift/ibps_po_2017_mains_unknown_shift_0a7c0e02.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1015,29 +513,6 @@
     },
     {
       "status": "ok",
-      "pdf": "IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1.pdf",
-      "paper_id": "ibps_po_2018_mains_unknown_shift_033c07c5",
-      "question_count": 20,
-      "with_options": 20,
-      "out_path": "IBPS/PO/2018/Mains/_unknown_shift/ibps_po_2018_mains_unknown_shift_033c07c5.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
-      "paper_id": "ibps_po_2018_mains_unknown_shift_2622a3a9",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
-    },
-    {
-      "status": "ok",
       "pdf": "IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_MAINS_2018_Quant_Memory_Based_Paper_QUESTIONS.pdf",
       "paper_id": "ibps_po_2018_mains_unknown_shift_92c89501",
       "question_count": 35,
@@ -1057,6 +532,26 @@
       "notes": [
         "empty_text"
       ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1.pdf",
+      "paper_id": "ibps_po_2018_mains_unknown_shift_033c07c5",
+      "question_count": 20,
+      "with_options": 20,
+      "out_path": "IBPS/PO/2018/Mains/_unknown_shift/ibps_po_2018_mains_unknown_shift_033c07c5.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "IBPS/PO/2018/Mains/_unknown_shift/IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "paper_id": "ibps_po_2018_mains_unknown_shift_2622a3a9",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
     },
     {
       "status": "skipped",
@@ -1093,12 +588,12 @@
       "pdf": "IBPS/PO/2019/Mains/_unknown_shift/ibps-po-mains-2019.pdf",
       "paper_id": "ibps_po_2019_mains_unknown_shift_7d2bd029",
       "question_count": 115,
-      "with_options": 108,
+      "with_options": 110,
       "out_path": "IBPS/PO/2019/Mains/_unknown_shift/ibps_po_2019_mains_unknown_shift_7d2bd029.json",
       "reason": null,
       "notes": [
-        "figure_crops:14",
-        "assets_exported:14"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1176,12 +671,12 @@
       "pdf": "IBPS/PO/2020/Mains/_unknown_shift/IBPS-PO-Mains-Previous-Year-Paper-2020-.pdf",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "question_count": 115,
-      "with_options": 106,
+      "with_options": 111,
       "out_path": "IBPS/PO/2020/Mains/_unknown_shift/ibps_po_2020_mains_unknown_shift_14a55cbe.json",
       "reason": null,
       "notes": [
-        "figure_crops:11",
-        "assets_exported:11"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1262,10 +757,7 @@
       "with_options": 106,
       "out_path": "IBPS/PO/2021/Mains/_unknown_shift/ibps_po_2021_mains_unknown_shift_717e6dcf.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -1276,8 +768,8 @@
       "out_path": "IBPS/PO/2021/Prelims/_unknown_shift/ibps_po_2021_prelims_unknown_shift_f5ec5a2d.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1319,8 +811,8 @@
       "out_path": "IBPS/PO/2022/Mains/_unknown_shift/ibps_po_2022_mains_unknown_shift_0fd665e7.json",
       "reason": null,
       "notes": [
-        "figure_crops:11",
-        "assets_exported:11"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -1342,8 +834,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_4734233b.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1365,8 +857,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_72560825.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1388,8 +880,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_c64ae3e3.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1401,8 +893,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_50f41d91.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1424,8 +916,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_dce967a7.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -1457,8 +949,8 @@
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_f125e774.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1478,19 +970,6 @@
       "question_count": 100,
       "with_options": 99,
       "out_path": "IBPS/PO/2022/Prelims/_unknown_shift/ibps_po_2022_prelims_unknown_shift_dc85a244.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/PO/2023/_unknown_stage/_unknown_shift/ibps-po-previous-year-paper-2023-pdf-(1).pdf",
-      "paper_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83",
-      "question_count": 35,
-      "with_options": 35,
-      "out_path": "IBPS/PO/2023/_unknown_stage/_unknown_shift/ibps_po_2023_unknown_unknown_shift_6ea70b83.json",
       "reason": null,
       "notes": [
         "figure_crops:1",
@@ -1606,8 +1085,21 @@
       "out_path": "IBPS/PO/2023/Prelims/_unknown_shift/ibps_po_2023_prelims_unknown_shift_bd2cd2c0.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:2",
+        "assets_exported:2"
+      ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/PO/2023/_unknown_stage/_unknown_shift/ibps-po-previous-year-paper-2023-pdf-(1).pdf",
+      "paper_id": "ibps_po_2023_unknown_unknown_shift_6ea70b83",
+      "question_count": 35,
+      "with_options": 35,
+      "out_path": "IBPS/PO/2023/_unknown_stage/_unknown_shift/ibps_po_2023_unknown_unknown_shift_6ea70b83.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1619,8 +1111,8 @@
       "out_path": "IBPS/PO/2024/Mains/Shift_1/ibps_po_2024_mains_shift_1_a28ce3a4.json",
       "reason": null,
       "notes": [
-        "figure_crops:12",
-        "assets_exported:12"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1632,8 +1124,8 @@
       "out_path": "IBPS/PO/2024/Prelims/_unknown_shift/ibps_po_2024_prelims_unknown_shift_5f47be6c.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1661,13 +1153,10 @@
       "pdf": "IBPS/PO/2025/Mains/_unknown_shift/IBPS-PO-Mains-2025-Memory-Based-Paper-12-Oct-2025-English.pdf",
       "paper_id": "ibps_po_2025_mains_unknown_shift_66f6566a",
       "question_count": 110,
-      "with_options": 104,
+      "with_options": 103,
       "out_path": "IBPS/PO/2025/Mains/_unknown_shift/ibps_po_2025_mains_unknown_shift_66f6566a.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -1697,10 +1186,7 @@
       "with_options": 98,
       "out_path": "IBPS/PO/2025/Prelims/Shift_1/ibps_po_2025_prelims_shift_1_f0351cbf.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -1711,8 +1197,8 @@
       "out_path": "IBPS/PO/2025/Prelims/Shift_1/ibps_po_2025_prelims_shift_1_a0b42c96.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1734,8 +1220,8 @@
       "out_path": "IBPS/PO/2025/Prelims/Shift_1/ibps_po_2025_prelims_shift_1_bb7b7f24.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1756,10 +1242,7 @@
       "with_options": 95,
       "out_path": "IBPS/PO/2025/Prelims/Shift_2/ibps_po_2025_prelims_shift_2_62c07700.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -1780,8 +1263,8 @@
       "out_path": "IBPS/PO/no_year/Prelims/_unknown_shift/ibps_po_noyear_prelims_unknown_shift_e62351f3.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1789,12 +1272,12 @@
       "pdf": "IBPS/RRB/2017/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Paper-2017-1.pdf",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "question_count": 120,
-      "with_options": 104,
+      "with_options": 107,
       "out_path": "IBPS/RRB/2017/Mains/_unknown_shift/ibps_rrb_2017_mains_unknown_shift_bfad9cea.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1806,8 +1289,8 @@
       "out_path": "IBPS/RRB/2017/Mains/_unknown_shift/ibps_rrb_2017_mains_unknown_shift_2cd6c693.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1815,13 +1298,11 @@
       "pdf": "IBPS/RRB/2017/Prelims/_unknown_shift/IBPS_RRB_Clerk_Prelims_2017_Memory_Based_Paper_For_Practice.pdf",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7a4cca02",
       "question_count": 79,
-      "with_options": 55,
+      "with_options": 75,
       "out_path": "IBPS/RRB/2017/Prelims/_unknown_shift/ibps_rrb_2017_prelims_unknown_shift_7a4cca02.json",
       "reason": null,
       "notes": [
-        "skip_empty_q73",
-        "figure_crops:2",
-        "assets_exported:2"
+        "skip_empty_q73"
       ]
     },
     {
@@ -1829,12 +1310,12 @@
       "pdf": "IBPS/RRB/2017/Prelims/_unknown_shift/IBPS_RRB_PO_Prelims_2017_Memory_Based_Paper_For_Practice-1.pdf",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "question_count": 79,
-      "with_options": 72,
+      "with_options": 75,
       "out_path": "IBPS/RRB/2017/Prelims/_unknown_shift/ibps_rrb_2017_prelims_unknown_shift_7b3ae560.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -1842,12 +1323,12 @@
       "pdf": "IBPS/RRB/2018/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Paper-2018-1.pdf",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_18e4bfd9",
       "question_count": 120,
-      "with_options": 117,
+      "with_options": 115,
       "out_path": "IBPS/RRB/2018/Mains/_unknown_shift/ibps_rrb_2018_mains_unknown_shift_18e4bfd9.json",
       "reason": null,
       "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1855,12 +1336,12 @@
       "pdf": "IBPS/RRB/2018/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Paper-2018.pdf",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
       "question_count": 120,
-      "with_options": 104,
+      "with_options": 106,
       "out_path": "IBPS/RRB/2018/Mains/_unknown_shift/ibps_rrb_2018_mains_unknown_shift_35bc7048.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1871,35 +1352,29 @@
       "with_options": 78,
       "out_path": "IBPS/RRB/2018/Prelims/_unknown_shift/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
       "pdf": "IBPS/RRB/2018/Prelims/_unknown_shift/IBPS_RRB_PO_Prelims_2018_Memory_Based_Paper_For_Practice-1.pdf",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
       "question_count": 80,
-      "with_options": 74,
+      "with_options": 75,
       "out_path": "IBPS/RRB/2018/Prelims/_unknown_shift/ibps_rrb_2018_prelims_unknown_shift_7ed35592.json",
       "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
       "pdf": "IBPS/RRB/2019/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Paper-2019-1.pdf",
       "paper_id": "ibps_rrb_2019_mains_unknown_shift_f091d98c",
       "question_count": 120,
-      "with_options": 113,
+      "with_options": 115,
       "out_path": "IBPS/RRB/2019/Mains/_unknown_shift/ibps_rrb_2019_mains_unknown_shift_f091d98c.json",
       "reason": null,
       "notes": [
-        "figure_crops:10",
-        "assets_exported:10"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1907,12 +1382,12 @@
       "pdf": "IBPS/RRB/2019/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Paper-2019.pdf",
       "paper_id": "ibps_rrb_2019_mains_unknown_shift_32db027d",
       "question_count": 120,
-      "with_options": 107,
+      "with_options": 109,
       "out_path": "IBPS/RRB/2019/Mains/_unknown_shift/ibps_rrb_2019_mains_unknown_shift_32db027d.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1920,13 +1395,13 @@
       "pdf": "IBPS/RRB/2019/Prelims/_unknown_shift/IBPS_RRB_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
       "paper_id": "ibps_rrb_2019_prelims_unknown_shift_c0605d17",
       "question_count": 79,
-      "with_options": 70,
+      "with_options": 77,
       "out_path": "IBPS/RRB/2019/Prelims/_unknown_shift/ibps_rrb_2019_prelims_unknown_shift_c0605d17.json",
       "reason": null,
       "notes": [
         "skip_empty_q76",
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -1934,12 +1409,12 @@
       "pdf": "IBPS/RRB/2019/Prelims/_unknown_shift/IBPS_RRB_PO_Prelims_2019_Memory_Based_Paper_For_Practice-1.pdf",
       "paper_id": "ibps_rrb_2019_prelims_unknown_shift_392b4a3b",
       "question_count": 80,
-      "with_options": 73,
+      "with_options": 78,
       "out_path": "IBPS/RRB/2019/Prelims/_unknown_shift/ibps_rrb_2019_prelims_unknown_shift_392b4a3b.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1947,12 +1422,12 @@
       "pdf": "IBPS/RRB/2020/Mains/_unknown_shift/IBPS-RRB-PO-Mains-2020-Memory-Based-Paper.pdf",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "question_count": 120,
-      "with_options": 115,
+      "with_options": 118,
       "out_path": "IBPS/RRB/2020/Mains/_unknown_shift/ibps_rrb_2020_mains_unknown_shift_4b76b057.json",
       "reason": null,
       "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -1960,38 +1435,12 @@
       "pdf": "IBPS/RRB/2020/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-Memory-Based-2020.pdf",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "question_count": 80,
-      "with_options": 75,
+      "with_options": 80,
       "out_path": "IBPS/RRB/2020/Prelims/_unknown_shift/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-Clerk-Previous-Year-Question-Paper-2021-Que.pdf",
-      "paper_id": "ibps_rrb_2021_unknown_unknown_shift_6825a2d3",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/ibps_rrb_2021_unknown_unknown_shift_6825a2d3.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-PO-Previous-Year-Question-Paper-2021-1.pdf",
-      "paper_id": "ibps_rrb_2021_unknown_unknown_shift_11703c49",
-      "question_count": 80,
-      "with_options": 79,
-      "out_path": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/ibps_rrb_2021_unknown_unknown_shift_11703c49.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2003,8 +1452,8 @@
       "out_path": "IBPS/RRB/2021/Mains/_unknown_shift/ibps_rrb_2021_mains_unknown_shift_5790dd1e.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -2026,9 +1475,29 @@
       "out_path": "IBPS/RRB/2021/Mains/_unknown_shift/ibps_rrb_2021_mains_unknown_shift_e31b8754.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-Clerk-Previous-Year-Question-Paper-2021-Que.pdf",
+      "paper_id": "ibps_rrb_2021_unknown_unknown_shift_6825a2d3",
+      "question_count": 80,
+      "with_options": 80,
+      "out_path": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/ibps_rrb_2021_unknown_unknown_shift_6825a2d3.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-PO-Previous-Year-Question-Paper-2021-1.pdf",
+      "paper_id": "ibps_rrb_2021_unknown_unknown_shift_11703c49",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "IBPS/RRB/2021/_unknown_stage/_unknown_shift/ibps_rrb_2021_unknown_unknown_shift_11703c49.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "ok",
@@ -2039,8 +1508,8 @@
       "out_path": "IBPS/RRB/2022/Mains/_unknown_shift/ibps_rrb_2022_mains_unknown_shift_08ca6854.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2052,8 +1521,8 @@
       "out_path": "IBPS/RRB/2022/Mains/_unknown_shift/ibps_rrb_2022_mains_unknown_shift_48596fb8.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2065,8 +1534,8 @@
       "out_path": "IBPS/RRB/2022/Prelims/_unknown_shift/ibps_rrb_2022_prelims_unknown_shift_d3c02a18.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2088,8 +1557,8 @@
       "out_path": "IBPS/RRB/2022/Prelims/_unknown_shift/ibps_rrb_2022_prelims_unknown_shift_d7a42148.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2101,8 +1570,8 @@
       "out_path": "IBPS/RRB/2022/Prelims/_unknown_shift/ibps_rrb_2022_prelims_unknown_shift_48679356.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2114,8 +1583,8 @@
       "out_path": "IBPS/RRB/2023/Mains/_unknown_shift/ibps_rrb_2023_mains_unknown_shift_15e224e5.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2127,8 +1596,8 @@
       "out_path": "IBPS/RRB/2023/Prelims/_unknown_shift/ibps_rrb_2023_prelims_unknown_shift_1289aacd.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2139,22 +1608,7 @@
       "with_options": 77,
       "out_path": "IBPS/RRB/2023/Prelims/_unknown_shift/ibps_rrb_2023_prelims_unknown_shift_5302a3ed.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "failed",
-      "pdf": "IBPS/RRB/2024/_unknown_stage/_unknown_shift/IBPS-RRB-CRP-13-Short-Notice-2024-1.pdf",
-      "paper_id": "ibps_rrb_2024_unknown_unknown_shift_5f1c603c",
-      "question_count": 0,
-      "with_options": 0,
-      "out_path": "IBPS/RRB/2024/_unknown_stage/_unknown_shift/ibps_rrb_2024_unknown_unknown_shift_5f1c603c.json",
-      "reason": null,
-      "notes": [
-        "no_questions_parsed"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2165,21 +1619,8 @@
       "out_path": "IBPS/RRB/2024/Mains/_unknown_shift/ibps_rrb_2024_mains_unknown_shift_62d426f1.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/RRB/2024/Prelims/_unknown_shift/IBPS-RRB-PO-Pre-2024-Memory-Based-Paper-4-Aug-2024.pdf",
-      "paper_id": "ibps_rrb_2024_prelims_unknown_shift_ca44b261",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "IBPS/RRB/2024/Prelims/_unknown_shift/ibps_rrb_2024_prelims_unknown_shift_ca44b261.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2201,8 +1642,8 @@
       "out_path": "IBPS/RRB/2024/Prelims/Shift_1/ibps_rrb_2024_prelims_shift_1_01eb16bf.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2213,10 +1654,7 @@
       "with_options": 78,
       "out_path": "IBPS/RRB/2024/Prelims/Shift_1/ibps_rrb_2024_prelims_shift_1_83f44b21.json",
       "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2227,8 +1665,8 @@
       "out_path": "IBPS/RRB/2024/Prelims/Shift_1/ibps_rrb_2024_prelims_shift_1_e449979b.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2250,8 +1688,8 @@
       "out_path": "IBPS/RRB/2024/Prelims/Shift_2/ibps_rrb_2024_prelims_shift_2_33292564.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -2273,8 +1711,30 @@
       "out_path": "IBPS/RRB/2024/Prelims/Shift_3/ibps_rrb_2024_prelims_shift_3_84950236.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/RRB/2024/Prelims/_unknown_shift/IBPS-RRB-PO-Pre-2024-Memory-Based-Paper-4-Aug-2024.pdf",
+      "paper_id": "ibps_rrb_2024_prelims_unknown_shift_ca44b261",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "IBPS/RRB/2024/Prelims/_unknown_shift/ibps_rrb_2024_prelims_unknown_shift_ca44b261.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "failed",
+      "pdf": "IBPS/RRB/2024/_unknown_stage/_unknown_shift/IBPS-RRB-CRP-13-Short-Notice-2024-1.pdf",
+      "paper_id": "ibps_rrb_2024_unknown_unknown_shift_5f1c603c",
+      "question_count": 0,
+      "with_options": 0,
+      "out_path": "IBPS/RRB/2024/_unknown_stage/_unknown_shift/ibps_rrb_2024_unknown_unknown_shift_5f1c603c.json",
+      "reason": null,
+      "notes": [
+        "no_questions_parsed"
       ]
     },
     {
@@ -2285,46 +1745,7 @@
       "with_options": 40,
       "out_path": "IBPS/RRB/2025/Mains/_unknown_shift/ibps_rrb_2025_mains_unknown_shift_cff0a579.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Based-on-6th-Dec-2025-S2-Hindi-1.pdf",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_f3fdb03d",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S1.pdf",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc",
-      "question_count": 80,
-      "with_options": 73,
-      "out_path": "IBPS/RRB/2025/Prelims/_unknown_shift/ibps_rrb_2025_prelims_unknown_shift_c4879dbc.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S2.pdf",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "question_count": 80,
-      "with_options": 78,
-      "out_path": "IBPS/RRB/2025/Prelims/_unknown_shift/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2334,10 +1755,7 @@
       "with_options": 78,
       "out_path": "IBPS/RRB/2025/Prelims/Shift_1/ibps_rrb_2025_prelims_shift_1_cf975819.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2357,10 +1775,7 @@
       "with_options": 77,
       "out_path": "IBPS/RRB/2025/Prelims/Shift_1/ibps_rrb_2025_prelims_shift_1_ee59c9b5.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2391,8 +1806,8 @@
       "out_path": "IBPS/RRB/2025/Prelims/Shift_1/ibps_rrb_2025_prelims_shift_1_525d6475.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2413,10 +1828,7 @@
       "with_options": 79,
       "out_path": "IBPS/RRB/2025/Prelims/Shift_2/ibps_rrb_2025_prelims_shift_2_58c60b3f.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2427,22 +1839,95 @@
       "out_path": "IBPS/RRB/2025/Prelims/Shift_2/ibps_rrb_2025_prelims_shift_2_c8ab2176.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Based-on-6th-Dec-2025-S2-Hindi-1.pdf",
+      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_f3fdb03d",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S1.pdf",
+      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_c4879dbc",
+      "question_count": 80,
+      "with_options": 73,
+      "out_path": "IBPS/RRB/2025/Prelims/_unknown_shift/ibps_rrb_2025_prelims_unknown_shift_c4879dbc.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/RRB/2025/Prelims/_unknown_shift/IBPS-RRB-Clerk-Prelims-MBT-Paper-Based-on-6th-Dec-2025-S2.pdf",
+      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "IBPS/RRB/2025/Prelims/_unknown_shift/ibps_rrb_2025_prelims_unknown_shift_b6c7e54b.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
       "status": "ok",
-      "pdf": "SBI/_unknown_role/no_year/_unknown_stage/_unknown_shift/SBI-1.pdf",
-      "paper_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3",
-      "question_count": 99,
-      "with_options": 98,
-      "out_path": "SBI/_unknown_role/no_year/_unknown_stage/_unknown_shift/sbi_unknown_noyear_unknown_unknown_shift_ca185ae3.json",
+      "pdf": "IBPS/_unknown_role/no_year/Prelims/_unknown_shift/ibps_cler_pre_memory_based_reasoning_eng.pdf",
+      "paper_id": "ibps_unknown_noyear_prelims_unknown_shift_687be116",
+      "question_count": 35,
+      "with_options": 35,
+      "out_path": "IBPS/_unknown_role/no_year/Prelims/_unknown_shift/ibps_unknown_noyear_prelims_unknown_shift_687be116.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-2.pdf",
+      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_02389ac7",
+      "question_count": 80,
+      "with_options": 80,
+      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_02389ac7.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-5.pdf",
+      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_90de4377",
+      "question_count": 80,
+      "with_options": 80,
+      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_90de4377.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-6.pdf",
+      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_84ace0f8.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/IBPS-7.pdf",
+      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_b7c86833",
+      "question_count": 80,
+      "with_options": 80,
+      "out_path": "IBPS/_unknown_role/no_year/_unknown_stage/_unknown_shift/ibps_unknown_noyear_unknown_unknown_shift_b7c86833.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2459,12 +1944,12 @@
       "pdf": "SBI/Clerk/2016/Mains/_unknown_shift/SBI-Clerk-Mains-2016.pdf",
       "paper_id": "sbi_clerk_2016_mains_unknown_shift_aa76e853",
       "question_count": 140,
-      "with_options": 125,
+      "with_options": 128,
       "out_path": "SBI/Clerk/2016/Mains/_unknown_shift/sbi_clerk_2016_mains_unknown_shift_aa76e853.json",
       "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -2512,12 +1997,12 @@
       "pdf": "SBI/Clerk/2018/Mains/_unknown_shift/SBI-Clerk-Mains-2018.pdf",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "question_count": 140,
-      "with_options": 128,
+      "with_options": 129,
       "out_path": "SBI/Clerk/2018/Mains/_unknown_shift/sbi_clerk_2018_mains_unknown_shift_afeacb05.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2549,8 +2034,8 @@
       "out_path": "SBI/Clerk/2018/Prelims/_unknown_shift/sbi_clerk_2018_prelims_unknown_shift_c87dcc2e.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2571,10 +2056,7 @@
       "with_options": 35,
       "out_path": "SBI/Clerk/2018/Prelims/_unknown_shift/sbi_clerk_2018_prelims_unknown_shift_3fd999fa.json",
       "reason": null,
-      "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2601,12 +2083,12 @@
       "pdf": "SBI/Clerk/2019/Mains/_unknown_shift/SBI-Clerk-Mains-2019.pdf",
       "paper_id": "sbi_clerk_2019_mains_unknown_shift_3778ee5c",
       "question_count": 138,
-      "with_options": 126,
+      "with_options": 133,
       "out_path": "SBI/Clerk/2019/Mains/_unknown_shift/sbi_clerk_2019_mains_unknown_shift_3778ee5c.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -2660,10 +2142,7 @@
       "with_options": 35,
       "out_path": "SBI/Clerk/2019/Prelims/_unknown_shift/sbi_clerk_2019_prelims_unknown_shift_3f68b320.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2684,8 +2163,8 @@
       "out_path": "SBI/Clerk/2020/Mains/_unknown_shift/sbi_clerk_2020_mains_unknown_shift_1e762e8e.json",
       "reason": null,
       "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -2713,13 +2192,11 @@
       "pdf": "SBI/Clerk/2020/Prelims/_unknown_shift/56.-SBI-Clerk-Prelims-2020-Quantitative-Aptitude-.pdf",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_be312f17",
       "question_count": 36,
-      "with_options": 33,
+      "with_options": 32,
       "out_path": "SBI/Clerk/2020/Prelims/_unknown_shift/sbi_clerk_2020_prelims_unknown_shift_be312f17.json",
       "reason": null,
       "notes": [
-        "skip_empty_q68",
-        "figure_crops:2",
-        "assets_exported:2"
+        "skip_empty_q68"
       ]
     },
     {
@@ -2737,13 +2214,10 @@
       "pdf": "SBI/Clerk/2020/Prelims/_unknown_shift/56.-SBI-Clerk-Prelims-2020-REASONING-ABILITY-.pdf",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "question_count": 35,
-      "with_options": 28,
+      "with_options": 32,
       "out_path": "SBI/Clerk/2020/Prelims/_unknown_shift/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2764,8 +2238,8 @@
       "out_path": "SBI/Clerk/2021/Mains/_unknown_shift/sbi_clerk_2021_mains_unknown_shift_e39202f9.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2777,8 +2251,8 @@
       "out_path": "SBI/Clerk/2021/Mains/_unknown_shift/sbi_clerk_2021_mains_unknown_shift_53f074e5.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2789,10 +2263,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/2021/Prelims/_unknown_shift/sbi_clerk_2021_prelims_unknown_shift_82295e93.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2806,29 +2277,13 @@
     },
     {
       "status": "ok",
-      "pdf": "SBI/Clerk/2022/_unknown_stage/_unknown_shift/SBI-Clerk-Previous-Year-Paper-2022.pdf",
-      "paper_id": "sbi_clerk_2022_unknown_unknown_shift_ac5ffb0a",
-      "question_count": 100,
-      "with_options": 100,
-      "out_path": "SBI/Clerk/2022/_unknown_stage/_unknown_shift/sbi_clerk_2022_unknown_unknown_shift_ac5ffb0a.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
-      ]
-    },
-    {
-      "status": "ok",
       "pdf": "SBI/Clerk/2022/Mains/_unknown_shift/SBI-Clerk-Mains-2022-Memory-Based.pdf",
       "paper_id": "sbi_clerk_2022_mains_unknown_shift_347c6512",
       "question_count": 140,
       "with_options": 138,
       "out_path": "SBI/Clerk/2022/Mains/_unknown_shift/sbi_clerk_2022_mains_unknown_shift_347c6512.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2848,10 +2303,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_227b0836.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2861,10 +2313,7 @@
       "with_options": 79,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_b56440f0.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2875,8 +2324,8 @@
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_b7d42437.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2897,10 +2346,7 @@
       "with_options": 99,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_71ea5ad9.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2920,10 +2366,7 @@
       "with_options": 76,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_cb322a6f.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -2933,10 +2376,7 @@
       "with_options": 94,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_5a0500b9.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -2957,8 +2397,8 @@
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_82e8a2db.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -2980,8 +2420,8 @@
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_2ce87e64.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3003,8 +2443,8 @@
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_712f26db.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3025,10 +2465,7 @@
       "with_options": 97,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_a2c059ce.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3068,10 +2505,7 @@
       "with_options": 99,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_1544a614.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3081,10 +2515,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_4884866d.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3094,10 +2525,37 @@
       "with_options": 99,
       "out_path": "SBI/Clerk/2022/Prelims/_unknown_shift/sbi_clerk_2022_prelims_unknown_shift_171042aa.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/Clerk/2022/_unknown_stage/_unknown_shift/SBI-Clerk-Previous-Year-Paper-2022.pdf",
+      "paper_id": "sbi_clerk_2022_unknown_unknown_shift_ac5ffb0a",
+      "question_count": 100,
+      "with_options": 100,
+      "out_path": "SBI/Clerk/2022/_unknown_stage/_unknown_shift/sbi_clerk_2022_unknown_unknown_shift_ac5ffb0a.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/Clerk/2023/Mains/_unknown_shift/SBI-Clerk-Mains-Memory-Based-2023-2024.pdf",
+      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
+      "question_count": 140,
+      "with_options": 139,
+      "out_path": "SBI/Clerk/2023/Mains/_unknown_shift/sbi_clerk_2023_mains_unknown_shift_5fa54eac.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/Clerk/2023/Prelims/_unknown_shift/SBI-Clerk-Pre-2023-Memory-Based-Mock-02.pdf",
+      "paper_id": "sbi_clerk_2023_prelims_unknown_shift_3dbdfb6c",
+      "question_count": 100,
+      "with_options": 98,
+      "out_path": "SBI/Clerk/2023/Prelims/_unknown_shift/sbi_clerk_2023_prelims_unknown_shift_3dbdfb6c.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3117,36 +2575,7 @@
       "with_options": 97,
       "out_path": "SBI/Clerk/2023/_unknown_stage/_unknown_shift/sbi_clerk_2023_unknown_unknown_shift_a6bd9cc3.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/Clerk/2023/Mains/_unknown_shift/SBI-Clerk-Mains-Memory-Based-2023-2024.pdf",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "question_count": 140,
-      "with_options": 139,
-      "out_path": "SBI/Clerk/2023/Mains/_unknown_shift/sbi_clerk_2023_mains_unknown_shift_5fa54eac.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/Clerk/2023/Prelims/_unknown_shift/SBI-Clerk-Pre-2023-Memory-Based-Mock-02.pdf",
-      "paper_id": "sbi_clerk_2023_prelims_unknown_shift_3dbdfb6c",
-      "question_count": 100,
-      "with_options": 98,
-      "out_path": "SBI/Clerk/2023/Prelims/_unknown_shift/sbi_clerk_2023_prelims_unknown_shift_3dbdfb6c.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3157,21 +2586,8 @@
       "out_path": "SBI/Clerk/2024/Mains/Shift_1/sbi_clerk_2024_mains_shift_1_40110b96.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/Clerk/2024/Prelims/_unknown_shift/SBI-Clerk-Pre-Memory-Based-Paper-Mock-03-11-Jan-2024-1.pdf",
-      "paper_id": "sbi_clerk_2024_prelims_unknown_shift_05e2787a",
-      "question_count": 100,
-      "with_options": 100,
-      "out_path": "SBI/Clerk/2024/Prelims/_unknown_shift/sbi_clerk_2024_prelims_unknown_shift_05e2787a.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
     },
     {
@@ -3192,10 +2608,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/2024/Prelims/Shift_1/sbi_clerk_2024_prelims_shift_1_9b99a1dd.json",
       "reason": null,
-      "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3206,8 +2619,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_1/sbi_clerk_2024_prelims_shift_1_3150ce84.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3239,8 +2652,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_1/sbi_clerk_2024_prelims_shift_1_953bf3a3.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3261,10 +2674,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/2024/Prelims/Shift_1/sbi_clerk_2024_prelims_shift_1_759e8a62.json",
       "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3308,8 +2718,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_2/sbi_clerk_2024_prelims_shift_2_576305f6.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3331,8 +2741,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_2/sbi_clerk_2024_prelims_shift_2_5959fae2.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3354,8 +2764,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_3/sbi_clerk_2024_prelims_shift_3_fc74a4e2.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3367,8 +2777,8 @@
       "out_path": "SBI/Clerk/2024/Prelims/Shift_4/sbi_clerk_2024_prelims_shift_4_35c88a64.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3383,11 +2793,11 @@
     },
     {
       "status": "ok",
-      "pdf": "SBI/Clerk/2025/_unknown_stage/_unknown_shift/SBI-Clerk-MBT-22-Feb-2025-Telugu-Questions-only-1.pdf",
-      "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
+      "pdf": "SBI/Clerk/2024/Prelims/_unknown_shift/SBI-Clerk-Pre-Memory-Based-Paper-Mock-03-11-Jan-2024-1.pdf",
+      "paper_id": "sbi_clerk_2024_prelims_unknown_shift_05e2787a",
       "question_count": 100,
-      "with_options": 99,
-      "out_path": "SBI/Clerk/2025/_unknown_stage/_unknown_shift/sbi_clerk_2025_unknown_unknown_shift_3c35ac14.json",
+      "with_options": 100,
+      "out_path": "SBI/Clerk/2024/Prelims/_unknown_shift/sbi_clerk_2024_prelims_unknown_shift_05e2787a.json",
       "reason": null,
       "notes": []
     },
@@ -3410,8 +2820,8 @@
       "out_path": "SBI/Clerk/2025/Mains/_unknown_shift/sbi_clerk_2025_mains_unknown_shift_850372b6.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -3422,10 +2832,7 @@
       "with_options": 10,
       "out_path": "SBI/Clerk/2025/Mains/_unknown_shift/sbi_clerk_2025_mains_unknown_shift_9401348b.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3434,6 +2841,16 @@
       "question_count": 100,
       "with_options": 95,
       "out_path": "SBI/Clerk/2025/Prelims/Shift_1/sbi_clerk_2025_prelims_shift_1_5fab46d6.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/Clerk/2025/Prelims/Shift_1/SBI-Clerk-Pre-2025-Memory-Based-Paper-Based-Tamil-Version-20th-Sep-1st-Shift.pdf",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "question_count": 100,
+      "with_options": 96,
+      "out_path": "SBI/Clerk/2025/Prelims/Shift_1/sbi_clerk_2025_prelims_shift_1_8e9b0d3f.json",
       "reason": null,
       "notes": []
     },
@@ -3466,19 +2883,6 @@
       "out_path": "SBI/Clerk/2025/Prelims/Shift_1/sbi_clerk_2025_prelims_shift_1_8b31bc1a.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/Clerk/2025/Prelims/Shift_1/SBI-Clerk-Pre-2025-Memory-Based-Paper-Based-Tamil-Version-20th-Sep-1st-Shift.pdf",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "question_count": 100,
-      "with_options": 96,
-      "out_path": "SBI/Clerk/2025/Prelims/Shift_1/sbi_clerk_2025_prelims_shift_1_8e9b0d3f.json",
-      "reason": null,
-      "notes": [
         "figure_crops:1",
         "assets_exported:1"
       ]
@@ -3502,9 +2906,19 @@
       "out_path": "SBI/Clerk/2025/Prelims/Shift_2/sbi_clerk_2025_prelims_shift_2_43fa34b9.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/Clerk/2025/_unknown_stage/_unknown_shift/SBI-Clerk-MBT-22-Feb-2025-Telugu-Questions-only-1.pdf",
+      "paper_id": "sbi_clerk_2025_unknown_unknown_shift_3c35ac14",
+      "question_count": 100,
+      "with_options": 99,
+      "out_path": "SBI/Clerk/2025/_unknown_stage/_unknown_shift/sbi_clerk_2025_unknown_unknown_shift_3c35ac14.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "ok",
@@ -3514,10 +2928,7 @@
       "with_options": 100,
       "out_path": "SBI/Clerk/no_year/_unknown_stage/_unknown_shift/sbi_clerk_noyear_unknown_unknown_shift_1633b8f8.json",
       "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3528,8 +2939,8 @@
       "out_path": "SBI/PO/2016/Mains/_unknown_shift/sbi_po_2016_mains_unknown_shift_1ad95c75.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -3537,13 +2948,13 @@
       "pdf": "SBI/PO/2017/Mains/_unknown_shift/sbi-po-mains-2017.pdf",
       "paper_id": "sbi_po_2017_mains_unknown_shift_213a5720",
       "question_count": 112,
-      "with_options": 109,
+      "with_options": 107,
       "out_path": "SBI/PO/2017/Mains/_unknown_shift/sbi_po_2017_mains_unknown_shift_213a5720.json",
       "reason": null,
       "notes": [
         "skip_empty_q70",
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3555,19 +2966,9 @@
       "out_path": "SBI/PO/2017/Prelims/_unknown_shift/sbi_po_2017_prelims_unknown_shift_f0aab19f.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "SBI/PO/2018/_unknown_stage/_unknown_shift/sbi-po-2018-quant-memory-based-solution.pdf",
-      "paper_id": "sbi_po_2018_unknown_unknown_shift_ba568171",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "solutions_pdf",
-      "notes": null
     },
     {
       "status": "ok",
@@ -3580,8 +2981,8 @@
       "notes": [
         "skip_empty_q113",
         "skip_empty_q20",
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -3602,10 +3003,7 @@
       "with_options": 35,
       "out_path": "SBI/PO/2018/Prelims/_unknown_shift/sbi_po_2018_prelims_unknown_shift_7954b56e.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -3616,14 +3014,24 @@
       "out_path": "SBI/PO/2018/Prelims/_unknown_shift/sbi_po_2018_prelims_unknown_shift_58bd6af6.json",
       "reason": null,
       "notes": [
-        "figure_crops:3",
-        "assets_exported:3"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
       "status": "skipped",
       "pdf": "SBI/PO/2018/Prelims/_unknown_shift/sbi-po-pre-memory-based-2018-reasoning-solution.pdf",
       "paper_id": "sbi_po_2018_prelims_unknown_shift_25f064c8",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
+    },
+    {
+      "status": "skipped",
+      "pdf": "SBI/PO/2018/_unknown_stage/_unknown_shift/sbi-po-2018-quant-memory-based-solution.pdf",
+      "paper_id": "sbi_po_2018_unknown_unknown_shift_ba568171",
       "question_count": 0,
       "with_options": null,
       "out_path": null,
@@ -3665,19 +3073,9 @@
       "out_path": "SBI/PO/2021/Mains/_unknown_shift/sbi_po_2021_mains_unknown_shift_4a32c76f.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:3",
+        "assets_exported:3"
       ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/PO/2021/Prelims/_unknown_shift/sbi-po-pre-2021.pdf",
-      "paper_id": "sbi_po_2021_prelims_unknown_shift_5cb01cf7",
-      "question_count": 100,
-      "with_options": 100,
-      "out_path": "SBI/PO/2021/Prelims/_unknown_shift/sbi_po_2021_prelims_unknown_shift_5cb01cf7.json",
-      "reason": null,
-      "notes": []
     },
     {
       "status": "ok",
@@ -3691,6 +3089,16 @@
     },
     {
       "status": "ok",
+      "pdf": "SBI/PO/2021/Prelims/_unknown_shift/sbi-po-pre-2021.pdf",
+      "paper_id": "sbi_po_2021_prelims_unknown_shift_5cb01cf7",
+      "question_count": 100,
+      "with_options": 100,
+      "out_path": "SBI/PO/2021/Prelims/_unknown_shift/sbi_po_2021_prelims_unknown_shift_5cb01cf7.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
       "pdf": "SBI/PO/2022/Mains/_unknown_shift/SBI-PO-Mains-Previous-Year-Paper-2022.pdf",
       "paper_id": "sbi_po_2022_mains_unknown_shift_2bbd4a3f",
       "question_count": 105,
@@ -3698,8 +3106,8 @@
       "out_path": "SBI/PO/2022/Mains/_unknown_shift/sbi_po_2022_mains_unknown_shift_2bbd4a3f.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3721,8 +3129,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_2a64d52a.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3743,23 +3151,7 @@
       "with_options": 100,
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_522357b1.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/PO/2022/Prelims/_unknown_shift/sbi-po-pre-2022-previous-year.pdf",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_ed9802ba",
-      "question_count": 35,
-      "with_options": 35,
-      "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_ed9802ba.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:1",
-        "assets_exported:1"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3779,10 +3171,7 @@
       "with_options": 100,
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_3d8d5bbd.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3803,8 +3192,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_57c8f826.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -3826,8 +3215,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_fb819c24.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -3848,10 +3237,7 @@
       "with_options": 100,
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_08dac514.json",
       "reason": null,
-      "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3872,8 +3258,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_00b907bd.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3894,10 +3280,7 @@
       "with_options": 92,
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_5ed0c217.json",
       "reason": null,
-      "notes": [
-        "figure_crops:9",
-        "assets_exported:9"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -3918,8 +3301,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_e7e5a9f8.json",
       "reason": null,
       "notes": [
-        "figure_crops:10",
-        "assets_exported:10"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3941,8 +3324,8 @@
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_eec909f1.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3963,9 +3346,19 @@
       "with_options": 100,
       "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_d9be0fd9.json",
       "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/PO/2022/Prelims/_unknown_shift/sbi-po-pre-2022-previous-year.pdf",
+      "paper_id": "sbi_po_2022_prelims_unknown_shift_ed9802ba",
+      "question_count": 35,
+      "with_options": 35,
+      "out_path": "SBI/PO/2022/Prelims/_unknown_shift/sbi_po_2022_prelims_unknown_shift_ed9802ba.json",
+      "reason": null,
       "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -3977,8 +3370,8 @@
       "out_path": "SBI/PO/2023/Mains/_unknown_shift/sbi_po_2023_mains_unknown_shift_a38a0353.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4043,6 +3436,19 @@
     },
     {
       "status": "ok",
+      "pdf": "SBI/PO/2023/Prelims/_unknown_shift/SBI-PO-Pre-Memory-Based-Paper-Mock-01-1-Nov-2023.pdf",
+      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
+      "question_count": 100,
+      "with_options": 95,
+      "out_path": "SBI/PO/2023/Prelims/_unknown_shift/sbi_po_2023_prelims_unknown_shift_4b1e2ca9.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "ok",
       "pdf": "SBI/PO/2023/Prelims/_unknown_shift/sbi-po-pre-2023-previous-year.pdf",
       "paper_id": "sbi_po_2023_prelims_unknown_shift_6109a010",
       "question_count": 35,
@@ -4053,19 +3459,6 @@
     },
     {
       "status": "ok",
-      "pdf": "SBI/PO/2023/Prelims/_unknown_shift/SBI-PO-Pre-Memory-Based-Paper-Mock-01-1-Nov-2023.pdf",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "question_count": 100,
-      "with_options": 95,
-      "out_path": "SBI/PO/2023/Prelims/_unknown_shift/sbi_po_2023_prelims_unknown_shift_4b1e2ca9.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
-    },
-    {
-      "status": "ok",
       "pdf": "SBI/PO/2024/Prelims/Shift_1/SBI-PO-Pre-2024-25-Memory-Based-Paper-16-Mar-2025-1st-shift-1.pdf",
       "paper_id": "sbi_po_2024_prelims_shift_1_f4e4c187",
       "question_count": 100,
@@ -4073,8 +3466,8 @@
       "out_path": "SBI/PO/2024/Prelims/Shift_1/sbi_po_2024_prelims_shift_1_f4e4c187.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4096,8 +3489,8 @@
       "out_path": "SBI/PO/2024/Prelims/Shift_1/sbi_po_2024_prelims_shift_1_ff8452fa.json",
       "reason": null,
       "notes": [
-        "figure_crops:8",
-        "assets_exported:8"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -4119,8 +3512,8 @@
       "out_path": "SBI/PO/2024/Prelims/Shift_1/sbi_po_2024_prelims_shift_1_20693d2f.json",
       "reason": null,
       "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4132,8 +3525,8 @@
       "out_path": "SBI/PO/2024/Prelims/Shift_2/sbi_po_2024_prelims_shift_2_8b244374.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4155,8 +3548,8 @@
       "out_path": "SBI/PO/2024/Prelims/Shift_3/sbi_po_2024_prelims_shift_3_7320ae0f.json",
       "reason": null,
       "notes": [
-        "figure_crops:6",
-        "assets_exported:6"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4177,10 +3570,7 @@
       "with_options": 100,
       "out_path": "SBI/PO/2024/Prelims/Shift_4/sbi_po_2024_prelims_shift_4_4061bfbf.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -4201,8 +3591,8 @@
       "out_path": "SBI/PO/2025/Mains/_unknown_shift/sbi_po_2025_mains_unknown_shift_cba8c243.json",
       "reason": null,
       "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
+        "figure_crops:2",
+        "assets_exported:2"
       ]
     },
     {
@@ -4236,8 +3626,8 @@
       "out_path": "SBI/PO/2025/Mains/_unknown_shift/sbi_po_2025_mains_unknown_shift_af4534b2.json",
       "reason": null,
       "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
+        "figure_crops:1",
+        "assets_exported:1"
       ]
     },
     {
@@ -4258,33 +3648,7 @@
       "with_options": 30,
       "out_path": "SBI/PO/2025/Mains/_unknown_shift/sbi_po_2025_mains_unknown_shift_41d441a2.json",
       "reason": null,
-      "notes": [
-        "figure_crops:5",
-        "assets_exported:5"
-      ]
-    },
-    {
-      "status": "skipped",
-      "pdf": "SBI/PO/2025/Prelims/_unknown_shift/SBI-PO-Pre-5th-Aug-2025-Memory-Based-Paper-Hindi.pdf",
-      "paper_id": "sbi_po_2025_prelims_unknown_shift_2ceef581",
-      "question_count": 0,
-      "with_options": null,
-      "out_path": null,
-      "reason": "hindi",
-      "notes": null
-    },
-    {
-      "status": "ok",
-      "pdf": "SBI/PO/2025/Prelims/_unknown_shift/SBI-PO-Pre-5th-Aug-2025-Memory-Based-Paper.pdf",
-      "paper_id": "sbi_po_2025_prelims_unknown_shift_8c172852",
-      "question_count": 100,
-      "with_options": 99,
-      "out_path": "SBI/PO/2025/Prelims/_unknown_shift/sbi_po_2025_prelims_unknown_shift_8c172852.json",
-      "reason": null,
-      "notes": [
-        "figure_crops:7",
-        "assets_exported:7"
-      ]
+      "notes": []
     },
     {
       "status": "ok",
@@ -4294,10 +3658,7 @@
       "with_options": 99,
       "out_path": "SBI/PO/2025/Prelims/Shift_1/sbi_po_2025_prelims_shift_1_8f4a2453.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -4317,10 +3678,7 @@
       "with_options": 99,
       "out_path": "SBI/PO/2025/Prelims/Shift_1/sbi_po_2025_prelims_shift_1_dae2802e.json",
       "reason": null,
-      "notes": [
-        "figure_crops:2",
-        "assets_exported:2"
-      ]
+      "notes": []
     },
     {
       "status": "skipped",
@@ -4340,10 +3698,27 @@
       "with_options": 98,
       "out_path": "SBI/PO/2025/Prelims/Shift_2/sbi_po_2025_prelims_shift_2_75b1b12e.json",
       "reason": null,
-      "notes": [
-        "figure_crops:4",
-        "assets_exported:4"
-      ]
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "SBI/PO/2025/Prelims/_unknown_shift/SBI-PO-Pre-5th-Aug-2025-Memory-Based-Paper-Hindi.pdf",
+      "paper_id": "sbi_po_2025_prelims_unknown_shift_2ceef581",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/PO/2025/Prelims/_unknown_shift/SBI-PO-Pre-5th-Aug-2025-Memory-Based-Paper.pdf",
+      "paper_id": "sbi_po_2025_prelims_unknown_shift_8c172852",
+      "question_count": 100,
+      "with_options": 99,
+      "out_path": "SBI/PO/2025/Prelims/_unknown_shift/sbi_po_2025_prelims_unknown_shift_8c172852.json",
+      "reason": null,
+      "notes": []
     },
     {
       "status": "ok",
@@ -4354,7 +3729,396 @@
       "out_path": "SBI/PO/no_year/Prelims/_unknown_shift/sbi_po_noyear_prelims_unknown_shift_4293d77f.json",
       "reason": null,
       "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "SBI/_unknown_role/no_year/_unknown_stage/_unknown_shift/SBI-1.pdf",
+      "paper_id": "sbi_unknown_noyear_unknown_unknown_shift_ca185ae3",
+      "question_count": 99,
+      "with_options": 98,
+      "out_path": "SBI/_unknown_role/no_year/_unknown_stage/_unknown_shift/sbi_unknown_noyear_unknown_unknown_shift_ca185ae3.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2020/Prelims/_unknown_shift/RRB-PO-Pre-Memory-Based-2020-1.pdf",
+      "paper_id": "unknown_rrb_2020_prelims_unknown_shift_9f2fbb87",
+      "question_count": 39,
+      "with_options": 39,
+      "out_path": "_unknown_bank/RRB/2020/Prelims/_unknown_shift/unknown_rrb_2020_prelims_unknown_shift_9f2fbb87.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-05-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_de45901a",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-05.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8e8c4bc8",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_8e8c4bc8.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-06-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_7dedb6fb",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-06.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_c30ed7b1",
+      "question_count": 80,
+      "with_options": 80,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_c30ed7b1.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-07-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_695b406d",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-13th-August-Shift-Wise-Previous-Year-Papers-Mock-07.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_a9b5b144",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_a9b5b144.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-09-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_db33bd91",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-09.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_703c9504",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_703c9504.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-10-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_5ef3df52",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-14th-August-Shift-Wise-Previous-Year-Papers-Mock-10.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_b5edfb0f",
+      "question_count": 80,
+      "with_options": 76,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_b5edfb0f.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:2",
+        "assets_exported:2"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-03-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_99f09811",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-03.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_03791f04",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_03791f04.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-04-Hindi.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8f25737c",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-Clerk-Pre-2022-7th-August-Shift-Wise-Previous-Year-Papers-Mock-04.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_54f37dc7",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_54f37dc7.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-02.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_6a4138e1",
+      "question_count": 80,
+      "with_options": 79,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_6a4138e1.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-03-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_fa17267e",
+      "question_count": 80,
+      "with_options": 77,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_fa17267e.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-20th-August-Shift-Wise-Previous-Year-Paper-Mock-04-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_b9ec4fb9",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_b9ec4fb9.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:3",
+        "assets_exported:3"
+      ]
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-05-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_86460901",
+      "question_count": 80,
+      "with_options": 76,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_86460901.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-06-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_d127eb20",
+      "question_count": 80,
+      "with_options": 76,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_d127eb20.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-english-2.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_8cdf53e4",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_8cdf53e4.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-07-hindi-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_e24b1674",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-08-2.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_86b579cb",
+      "question_count": 80,
+      "with_options": 78,
+      "out_path": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/unknown_rrb_2022_prelims_unknown_shift_86b579cb.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:2",
+        "assets_exported:2"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2022/Prelims/_unknown_shift/RRB-PO-Pre-2022-21st-August-Shift-Wise-Previous-Year-Paper-Mock-08-Hindi-1.pdf",
+      "paper_id": "unknown_rrb_2022_prelims_unknown_shift_2e169644",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2023/Mains/_unknown_shift/RRB-Clerk-Mains-2023-Memory-Based-Paper.pdf",
+      "paper_id": "unknown_rrb_2023_mains_unknown_shift_deaf21d1",
+      "question_count": 120,
+      "with_options": 120,
+      "out_path": "_unknown_bank/RRB/2023/Mains/_unknown_shift/unknown_rrb_2023_mains_unknown_shift_deaf21d1.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2024/Mains/_unknown_shift/RRB-Clerk-Mains-2024-Memory-based-Paper.pdf",
+      "paper_id": "unknown_rrb_2024_mains_unknown_shift_fdae644d",
+      "question_count": 200,
+      "with_options": 193,
+      "out_path": "_unknown_bank/RRB/2024/Mains/_unknown_shift/unknown_rrb_2024_mains_unknown_shift_fdae644d.json",
+      "reason": null,
+      "notes": [
+        "figure_crops:1",
+        "assets_exported:1"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/RRB/2025/Mains/_unknown_shift/RRB-Clerk-Mains-2025-Memory-Based-Paper-1-Feb-2026-Hindi.pdf",
+      "paper_id": "unknown_rrb_2025_mains_unknown_shift_6921eec4",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "hindi",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/RRB/2025/Mains/_unknown_shift/RRB-Clerk-Mains-2025-Memory-Based-Paper-1-Feb-2026.pdf",
+      "paper_id": "unknown_rrb_2025_mains_unknown_shift_e6e7eb4f",
+      "question_count": 8,
+      "with_options": 3,
+      "out_path": "_unknown_bank/RRB/2025/Mains/_unknown_shift/unknown_rrb_2025_mains_unknown_shift_e6e7eb4f.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "failed",
+      "pdf": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/LIC AAO pre 2023 memory based (20 Feb shift 1).pdf",
+      "paper_id": "unknown_unknown_2023_prelims_shift_1_34dba86e",
+      "question_count": 0,
+      "with_options": 0,
+      "out_path": "_unknown_bank/_unknown_role/2023/Prelims/Shift_1/unknown_unknown_2023_prelims_shift_1_34dba86e.json",
+      "reason": null,
+      "notes": [
+        "unusable_text_layer"
+      ]
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Maths-Memory-Based-Solutions.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_41ac99f5",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Maths-Memory-Based.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_8cf4d239",
+      "question_count": 36,
+      "with_options": 30,
+      "out_path": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/unknown_unknown_noyear_unknown_unknown_shift_8cf4d239.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "ok",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/Reasoning-ENGLISH-1.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_8d36b7a5",
+      "question_count": 35,
+      "with_options": 34,
+      "out_path": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/unknown_unknown_noyear_unknown_unknown_shift_8d36b7a5.json",
+      "reason": null,
+      "notes": []
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/SOLUTIONS-QUANT.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_02138e95",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/SOLUTIONS-REASONING.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_e5e66eec",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
+    },
+    {
+      "status": "skipped",
+      "pdf": "_unknown_bank/_unknown_role/no_year/_unknown_stage/_unknown_shift/questions-bengali-with-solutions.pdf",
+      "paper_id": "unknown_unknown_noyear_unknown_unknown_shift_9df8126d",
+      "question_count": 0,
+      "with_options": null,
+      "out_path": null,
+      "reason": "solutions_pdf",
+      "notes": null
     }
   ],
-  "index_rows": 20971
+  "index_rows": 20972
 }

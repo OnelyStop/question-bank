@@ -14,10 +14,7 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [
-    "figure_crops:1",
-    "assets_exported:1"
-  ],
+  "parse_notes": [],
   "question_count": 100,
   "questions": [
     {
@@ -1503,7 +1500,7 @@
         "b": "36",
         "c": "72",
         "d": "54",
-        "e": "27"
+        "e": "27 3 + 5 3 −3 4 = ? − 8"
       },
       "direction_id": "d008",
       "direction_text": "What will come in the place of question (?) mark in following questions.",
@@ -1522,7 +1519,7 @@
       "q_id": "ibps_clerk_2022_unknown_unknown_shift_e9d28f7c::q061",
       "paper_id": "ibps_clerk_2022_unknown_unknown_shift_e9d28f7c",
       "q_num": 61,
-      "stem": "2 3 + 5 3 −3 4 = ? − 8",
+      "stem": "2",
       "options": {
         "a": "14",
         "b": "13",
@@ -1532,7 +1529,7 @@
       },
       "direction_id": "d008",
       "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
+      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": "Clerk",
@@ -1683,9 +1680,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and all of them face towards the north. Q sits second to the right of M. Two persons sit between J and Q. W sits second to the right of J and sits third from the extreme right end. Five persons sit between W and S. The number of persons sits to the left of S is same as the number of persons sits to the right of W. K is the only neighbour of P. K sits to the right of J.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_clerk_2022_unknown_unknown_shift_e9d28f7c/p15_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "Clerk",
       "exam_type": null,
@@ -1710,9 +1705,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and all of them face towards the north. Q sits second to the right of M. Two persons sit between J and Q. W sits second to the right of J and sits third from the extreme right end. Five persons sit between W and S. The number of persons sits to the left of S is same as the number of persons sits to the right of W. K is the only neighbour of P. K sits to the right of J.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_clerk_2022_unknown_unknown_shift_e9d28f7c/p15_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "Clerk",
       "exam_type": null,
@@ -1737,9 +1730,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and all of them face towards the north. Q sits second to the right of M. Two persons sit between J and Q. W sits second to the right of J and sits third from the extreme right end. Five persons sit between W and S. The number of persons sits to the left of S is same as the number of persons sits to the right of W. K is the only neighbour of P. K sits to the right of J.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_clerk_2022_unknown_unknown_shift_e9d28f7c/p15_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "Clerk",
       "exam_type": null,
@@ -1764,9 +1755,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: A certain number of persons sit in a row and all of them face towards the north. Q sits second to the right of M. Two persons sit between J and Q. W sits second to the right of J and sits third from the extreme right end. Five persons sit between W and S. The number of persons sits to the left of S is same as the number of persons sits to the right of W. K is the only neighbour of P. K sits to the right of J.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_clerk_2022_unknown_unknown_shift_e9d28f7c/p15_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "Clerk",
       "exam_type": null,

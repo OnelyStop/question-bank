@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:8",
-    "assets_exported:8"
+    "figure_crops:1",
+    "assets_exported:1"
   ],
   "question_count": 140,
   "questions": [
@@ -24,109 +24,7 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q001",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 1,
-      "stem": "A like which of the following item? REASONING ABILITY",
-      "options": {},
-      "direction_id": "d001",
-      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d001_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q006",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 6,
-      "stem": "How many steps are required to complete the given arrangement?",
-      "options": {
-        "a": "III",
-        "b": "V",
-        "c": "IV",
-        "d": "VI",
-        "e": "None of these"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d002_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q007",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 7,
-      "stem": "How many elements are there between ‘03’ and ‘42’ in step-II?",
-      "options": {
-        "a": "Two",
-        "b": "One",
-        "c": "Three",
-        "d": "Four",
-        "e": "None of these"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d002_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q008",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 8,
-      "stem": "Which number would be at the fourth position from the left end in the last step of the output?",
-      "options": {
-        "a": "04",
-        "b": "05",
-        "c": "64",
-        "d": "02",
-        "e": "None of these"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d002_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q009",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 9,
-      "stem": "What is the sum of the third element from the left in",
+      "stem": "A like which of the following item?",
       "options": {
         "a": "Mango",
         "b": "Rose",
@@ -134,12 +32,10 @@
         "d": "Sunflower",
         "e": "None of these"
       },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -164,9 +60,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -180,47 +74,18 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q003",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 3,
-      "stem": "Which of the following is not true regarding F? step II and 2nd from the right in the last step?",
+      "stem": "Which of the following is not true regarding F?",
       "options": {
-        "a": "78",
-        "b": "76",
-        "c": "65",
-        "d": "83",
-        "e": "None of these"
+        "a": "F faces the one who likes Sunflower.",
+        "b": "F and G faces opposite direction.",
+        "c": "F sits second to the right of the who likes Orchid.",
+        "d": "F and E are immediate neighbours.",
+        "e": "All are correct"
       },
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d001_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q010",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 10,
-      "stem": "What is the difference between the third element from the right in step IV and the fourth element from the left in step III?",
-      "options": {
-        "a": "21",
-        "b": "24",
-        "c": "28",
-        "d": "19",
-        "e": "None of these"
-      },
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -245,9 +110,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -267,14 +130,12 @@
         "b": "C",
         "c": "G",
         "d": "B",
-        "e": "None of these moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V."
+        "e": "None of these REASONING ABILITY"
       },
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below. There are eight members i.e. A, B, C, D, E, F, G and H are sitting around a square table such that four of them likes flowers i.e. Lily, Rose, orchid and Sunflower and four of them likes fruits i.e. Mango, Kiwi, Apple, Banana but not necessarily in the same order. Those who likes Fruits sits at the corner and those who like flower sits at the middle of the table. Some of them face inside and some of them face outside. The one who likes Orchid sits third to the right of H. A sit second to the right of the one who likes Orchid. A is not the immediate neighbour of H. The one who likes Banana is an immediate neighbour of A. The one who likes Banana sits opposite to the one who likes Kiwi. H does not like Kiwi. The one who likes Apple sits second to the left of the one who likes Kiwi, who is not the immediate neighbour of A. B sits third to the right of the one who likes Apple. F likes Lily. Only one person sits between B and the one who likes Sunflower. F faces the one who likes Sunflower. E and G sits opposite to each other. E does not like Banana. C sits second to the right of G. C does not face Inside. C and D face same direction as G.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -285,23 +146,21 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q011",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q006",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 11,
-      "stem": "What is the shortest distance between Point V and point H?",
+      "q_num": 6,
+      "stem": "How many steps are required to complete the given arrangement?",
       "options": {
-        "a": "10m",
-        "b": "15m",
-        "c": "5m",
-        "d": "20m",
+        "a": "III",
+        "b": "V",
+        "c": "IV",
+        "d": "VI",
         "e": "None of these"
       },
-      "direction_id": "d003",
-      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after (a) F faces the one who likes Sunflower. (b) F and G faces opposite direction. (c) F sits second to the right of the who likes Orchid. (d) F and E are immediate neighbours. (e) All are correct 4. How many persons sit between A and B when counted from the left of A? (a) Three (b) One (c) Two (d) Four (e) None of these 5. Who among the following sits third to the left of D?",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -312,23 +171,21 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q012",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q007",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 12,
-      "stem": "In which direction and at what distance is point H with respect to F’s initial position?",
+      "q_num": 7,
+      "stem": "How many elements are there between ‘03’ and ‘42’ in step-II?",
       "options": {
-        "a": "20m south",
-        "b": "20m, North",
-        "c": "2m, Southeast",
-        "d": "20m, Northwest",
+        "a": "Two",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
         "e": "None of these"
       },
-      "direction_id": "d003",
-      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after (a) F faces the one who likes Sunflower. (b) F and G faces opposite direction. (c) F sits second to the right of the who likes Orchid. (d) F and E are immediate neighbours. (e) All are correct 4. How many persons sit between A and B when counted from the left of A? (a) Three (b) One (c) Two (d) Four (e) None of these 5. Who among the following sits third to the left of D?",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -339,23 +196,21 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q013",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q008",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 13,
-      "stem": "If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K?",
+      "q_num": 8,
+      "stem": "Which number would be at the fourth position from the left end in the last step of the output?",
       "options": {
-        "a": "Southeast",
-        "b": "North",
-        "c": "East",
-        "d": "West",
+        "a": "04",
+        "b": "05",
+        "c": "64",
+        "d": "02",
         "e": "None of these"
       },
-      "direction_id": "d003",
-      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after (a) F faces the one who likes Sunflower. (b) F and G faces opposite direction. (c) F sits second to the right of the who likes Orchid. (d) F and E are immediate neighbours. (e) All are correct 4. How many persons sit between A and B when counted from the left of A? (a) Three (b) One (c) Two (d) Four (e) None of these 5. Who among the following sits third to the left of D?",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -366,23 +221,21 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q014",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q009",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 14,
-      "stem": "What is the total distance between Horse E and Horse A?",
+      "q_num": 9,
+      "stem": "What is the sum of the third element from the left in step II and 2nd from the right in the last step?",
       "options": {
-        "a": "74m",
-        "b": "80m",
-        "c": "84m",
-        "d": "88m",
+        "a": "78",
+        "b": "76",
+        "c": "65",
+        "d": "83",
         "e": "None of these"
       },
-      "direction_id": "d003",
-      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after (a) F faces the one who likes Sunflower. (b) F and G faces opposite direction. (c) F sits second to the right of the who likes Orchid. (d) F and E are immediate neighbours. (e) All are correct 4. How many persons sit between A and B when counted from the left of A? (a) Three (b) One (c) Two (d) Four (e) None of these 5. Who among the following sits third to the left of D?",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -393,47 +246,20 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q015",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q010",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 15,
-      "stem": "In which direction is point T with respect to point H?",
+      "q_num": 10,
+      "stem": "What is the difference between the third element from the right in step IV and the fourth element from the left in step III?",
       "options": {
-        "a": "North",
-        "b": "Southwest",
-        "c": "South",
-        "d": "East",
-        "e": "Northwest"
-      },
-      "direction_id": "d003",
-      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after (a) F faces the one who likes Sunflower. (b) F and G faces opposite direction. (c) F sits second to the right of the who likes Orchid. (d) F and E are immediate neighbours. (e) All are correct 4. How many persons sit between A and B when counted from the left of A? (a) Three (b) One (c) Two (d) Four (e) None of these 5. Who among the following sits third to the left of D?",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p2_d003_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q016",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 16,
-      "stem": "What will possibly be the code for ‘NORMAL’?",
-      "options": {
-        "a": "‘#1$$@##2**@#",
-        "b": "‘#1$$@##1**@#",
-        "c": "‘#3$$@##1**@#",
-        "d": "‘#1$#@##1**@#",
+        "a": "21",
+        "b": "24",
+        "c": "28",
+        "d": "19",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
-      "direction_has_image": false,
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully to answer the given questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule in each step. The following is an illustration of input and rearrangement. Input: 95 11 76 21 89 42 64 31 Step I: 02 76 21 89 42 64 31 04 Step II: 03 02 76 42 64 31 04 01 Step III: 04 03 02 42 64 04 01 01 Step IV: 06 04 03 02 04 01 01 02 Step IV, is the last step. Input: 75 12 10 94 84 32 63 42 54 22",
+      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
@@ -456,8 +282,8 @@
         "d": "**@##1**@#11",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
+      "direction_id": null,
+      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -481,8 +307,8 @@
         "d": "2#1**@#2#1**",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
+      "direction_id": null,
+      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -506,8 +332,8 @@
         "d": "*2@##1$$**@#",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
+      "direction_id": null,
+      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -531,8 +357,158 @@
         "d": "6#1$$@#",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q011",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 11,
+      "stem": "What is the shortest distance between Point V and point H?",
+      "options": {
+        "a": "10m",
+        "b": "15m",
+        "c": "5m",
+        "d": "20m",
+        "e": "None of these"
+      },
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after 17. What will possibly be the code for ‘EMBARKS’? (a) **@##1**@#12 (b) **@##1**@#31 (c) **@##1**@#41 (d) **@##1**@#11 (e) None of these 18. What will possibly be the code for ‘SMITTLE’? (a) 1#1**@#2#1** (b) 1#1**@#2#11* (c) 1#1**@#2#1*1 (d) 2#1**@#2#1** (e) None of these 19. What will possibly be the code of ‘ANNUAL’? (a) **@##1$$**@# (b) *1@##1$$**@# (c) **##@1$$**@# (d) *2@##1$$**@# (e) None of these 20. What is the code for ‘PROM’?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q012",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 12,
+      "stem": "In which direction and at what distance is point H with respect to F’s initial position?",
+      "options": {
+        "a": "20m south",
+        "b": "20m, North",
+        "c": "2m, Southeast",
+        "d": "20m, Northwest",
+        "e": "None of these"
+      },
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after 17. What will possibly be the code for ‘EMBARKS’? (a) **@##1**@#12 (b) **@##1**@#31 (c) **@##1**@#41 (d) **@##1**@#11 (e) None of these 18. What will possibly be the code for ‘SMITTLE’? (a) 1#1**@#2#1** (b) 1#1**@#2#11* (c) 1#1**@#2#1*1 (d) 2#1**@#2#1** (e) None of these 19. What will possibly be the code of ‘ANNUAL’? (a) **@##1$$**@# (b) *1@##1$$**@# (c) **##@1$$**@# (d) *2@##1$$**@# (e) None of these 20. What is the code for ‘PROM’?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q013",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 13,
+      "stem": "If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K?",
+      "options": {
+        "a": "Southeast",
+        "b": "North",
+        "c": "East",
+        "d": "West",
+        "e": "None of these"
+      },
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after 17. What will possibly be the code for ‘EMBARKS’? (a) **@##1**@#12 (b) **@##1**@#31 (c) **@##1**@#41 (d) **@##1**@#11 (e) None of these 18. What will possibly be the code for ‘SMITTLE’? (a) 1#1**@#2#1** (b) 1#1**@#2#11* (c) 1#1**@#2#1*1 (d) 2#1**@#2#1** (e) None of these 19. What will possibly be the code of ‘ANNUAL’? (a) **@##1$$**@# (b) *1@##1$$**@# (c) **##@1$$**@# (d) *2@##1$$**@# (e) None of these 20. What is the code for ‘PROM’?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q014",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 14,
+      "stem": "What is the total distance between Horse E and Horse A?",
+      "options": {
+        "a": "74m",
+        "b": "80m",
+        "c": "84m",
+        "d": "88m",
+        "e": "None of these"
+      },
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after 17. What will possibly be the code for ‘EMBARKS’? (a) **@##1**@#12 (b) **@##1**@#31 (c) **@##1**@#41 (d) **@##1**@#11 (e) None of these 18. What will possibly be the code for ‘SMITTLE’? (a) 1#1**@#2#1** (b) 1#1**@#2#11* (c) 1#1**@#2#1*1 (d) 2#1**@#2#1** (e) None of these 19. What will possibly be the code of ‘ANNUAL’? (a) **@##1$$**@# (b) *1@##1$$**@# (c) **##@1$$**@# (d) *2@##1$$**@# (e) None of these 20. What is the code for ‘PROM’?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q015",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 15,
+      "stem": "In which direction is point T with respect to point H?",
+      "options": {
+        "a": "North",
+        "b": "Southwest",
+        "c": "South",
+        "d": "East",
+        "e": "Northwest"
+      },
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully answer the questions given below. Six Horses i.e. A, B, C, D, E, F are standing in a row facing north at a distance which is a successive multiple of 4 in an increasing order from the left. Horse F is second to the right of Horse C. The total distance between Horse E and D is 52m. Only one Horse stands in between Horse B and Horse E. Horse F and Horse D are Standing next to each other. Horse A and Horse F are not standing next to Horse B. Now Horse B starts moving towards north direction after moving 10m its takes a right turn and stops at point T after 17. What will possibly be the code for ‘EMBARKS’? (a) **@##1**@#12 (b) **@##1**@#31 (c) **@##1**@#41 (d) **@##1**@#11 (e) None of these 18. What will possibly be the code for ‘SMITTLE’? (a) 1#1**@#2#1** (b) 1#1**@#2#11* (c) 1#1**@#2#1*1 (d) 2#1**@#2#1** (e) None of these 19. What will possibly be the code of ‘ANNUAL’? (a) **@##1$$**@# (b) *1@##1$$**@# (c) **##@1$$**@# (d) *2@##1$$**@# (e) None of these 20. What is the code for ‘PROM’?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q016",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 16,
+      "stem": "What will possibly be the code for ‘NORMAL’?",
+      "options": {
+        "a": "‘#1$$@##2**@#",
+        "b": "‘#1$$@##1**@#",
+        "c": "‘#3$$@##1**@#",
+        "d": "‘#1$#@##1**@#",
+        "e": "None of these is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are"
+      },
+      "direction_id": "d005",
+      "direction_text": "Study the following information and answer the given questions: In alphabetical series each consonant is assigned a different number from 1-7 (for ex- B is coded as 1, C- 2……….J-7)and again those numbers get repeated(for ex- K-1, L-2…….so on). Besides the above information, following operations are to be applied for coding the words given in the questions below. Each letters of the given questions will be coded as per the given conditions: I. Vowels appearing before ‘M’ in the Alphabetical series the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another will be coded as ‘**’. II. Vowels appearing after ‘M’ in the alphabetical series is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another will be coded as ‘$$’. III. Number preceded by vowel will be coded as ‘#1’. IV. No. followed by vowel will be coded as ‘@#’.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -556,12 +532,10 @@
         "d": "Box Z",
         "e": "None of these"
       },
-      "direction_id": "d005",
-      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are--- 1. Club-Heart 2. Heart-Heart 3. Club-Diamond 4. Spade-Diamond Note- The cards will be drawn in the given serial order.",
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V. 11. What is the shortest distance between Point V and point H? (a) 10m (b) 15m (c) 5m (d) 20m (e) None of these 12. In which direction and at what distance is point H with respect to F’s initial position? (a) 20m south (b) 20m, North (c) 2m, Southeast (d) 20m, Northwest (e) None of these 13. If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K? (a) Southeast (b) North (c) East (d) West (e) None of these 14. What is the total distance between Horse E and Horse A? (a) 74m (b) 80m (c) 84m (d) 88m (e) None of these 15. In which direction is point T with respect to point H?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -583,12 +557,10 @@
         "d": "Box S",
         "e": "None of these"
       },
-      "direction_id": "d005",
-      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are--- 1. Club-Heart 2. Heart-Heart 3. Club-Diamond 4. Spade-Diamond Note- The cards will be drawn in the given serial order.",
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V. 11. What is the shortest distance between Point V and point H? (a) 10m (b) 15m (c) 5m (d) 20m (e) None of these 12. In which direction and at what distance is point H with respect to F’s initial position? (a) 20m south (b) 20m, North (c) 2m, Southeast (d) 20m, Northwest (e) None of these 13. If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K? (a) Southeast (b) North (c) East (d) West (e) None of these 14. What is the total distance between Horse E and Horse A? (a) 74m (b) 80m (c) 84m (d) 88m (e) None of these 15. In which direction is point T with respect to point H?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -610,12 +582,10 @@
         "d": "Box V",
         "e": "None of these"
       },
-      "direction_id": "d005",
-      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are--- 1. Club-Heart 2. Heart-Heart 3. Club-Diamond 4. Spade-Diamond Note- The cards will be drawn in the given serial order.",
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V. 11. What is the shortest distance between Point V and point H? (a) 10m (b) 15m (c) 5m (d) 20m (e) None of these 12. In which direction and at what distance is point H with respect to F’s initial position? (a) 20m south (b) 20m, North (c) 2m, Southeast (d) 20m, Northwest (e) None of these 13. If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K? (a) Southeast (b) North (c) East (d) West (e) None of these 14. What is the total distance between Horse E and Horse A? (a) 74m (b) 80m (c) 84m (d) 88m (e) None of these 15. In which direction is point T with respect to point H?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -637,12 +607,10 @@
         "d": "None",
         "e": "None of these"
       },
-      "direction_id": "d005",
-      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are--- 1. Club-Heart 2. Heart-Heart 3. Club-Diamond 4. Spade-Diamond Note- The cards will be drawn in the given serial order.",
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V. 11. What is the shortest distance between Point V and point H? (a) 10m (b) 15m (c) 5m (d) 20m (e) None of these 12. In which direction and at what distance is point H with respect to F’s initial position? (a) 20m south (b) 20m, North (c) 2m, Southeast (d) 20m, Northwest (e) None of these 13. If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K? (a) Southeast (b) North (c) East (d) West (e) None of these 14. What is the total distance between Horse E and Horse A? (a) 74m (b) 80m (c) 84m (d) 88m (e) None of these 15. In which direction is point T with respect to point H?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -664,12 +632,10 @@
         "d": "Box N- C",
         "e": "All are correct"
       },
-      "direction_id": "d005",
-      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at the top in compartment B will be interchanged with the box placed at the bottom of Compartment C. II. If among the card drawn one is diamond and another is spade then the box which is second from the bottom in Compartment A will be inter changed with box placed at second from the top in Compartment C. III. If among the two cards drawn one is Club and another is Heart then the box placed at top and the box placed at the bottom will be interchanged in compartment B. IV. If among the two cards drawn one is club and another is diamond then the box which is third from the bottom in compartment B is interchanged with the box which is third from the top in compartment A. The Cards Drawn are--- 1. Club-Heart 2. Heart-Heart 3. Club-Diamond 4. Spade-Diamond Note- The cards will be drawn in the given serial order.",
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions: There are three compartments A, B, C such as compartment A is in west of compartment B and compartment A and compartment B is in west of compartment C. Twelve boxes P, Q, R, S, V, X, Y, Z, K, L, M, N are placed in three different compartments such as four boxes are placed in each compartment . And these four boxes are placed one above another. Only one box is placed in between V and Z in compartment B. R is placed on top in compartment A. Box Y is in the immediate west of L. Box L is placed between box M and N. M is placed above N. Two boxes are placed between R and S in same compartment. Box Q is placed immediately above P in the same compartment. Box X is placed above box V and Z in the same compartment. Box V is placed above box Z. These boxes are shifting in other compartments as per the cards drawn and only two cards drawn at a time - I. If both the card drawn is heart then the box placed at moving 28m. Horse A starts moving in east direction and after going 12m it turns right and move 20m and then again turn right and move 72m and stops there at point H. Horse C starts moving in south direction and after moving 10m it takes a left turn and moves 20m then it again takes a left turn and moves 5m. From there it takes a right turn and moves 24m and stops at point V. 11. What is the shortest distance between Point V and point H? (a) 10m (b) 15m (c) 5m (d) 20m (e) None of these 12. In which direction and at what distance is point H with respect to F’s initial position? (a) 20m south (b) 20m, North (c) 2m, Southeast (d) 20m, Northwest (e) None of these 13. If horse D, moves 5m in the south direction and reaches point K then point V is in which direction with respect to point K? (a) Southeast (b) North (c) East (d) West (e) None of these 14. What is the total distance between Horse E and Horse A? (a) 74m (b) 80m (c) 84m (d) 88m (e) None of these 15. In which direction is point T with respect to point H?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -817,9 +783,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions. Six subjects Hindi, English, chemistry, Mathematics, Physics and Biology are taught at a coaching institute. Each subject was given a definite and continuous time slots. (i.e. there is no gap between two consecutive subjects). In a day a total 14 hours class was scheduled. A subject can start its slot from a whole hour or half hour only (i.e. a subject can start from 4 pm, 4 : 30 pm but it cannot starts from 4:13 pm, 4:03 pm) Hindi class takes place from 11 am to 12:30 pm. Only one class took place between Hindi and Mathematics. Time slot of Mathematics is twice the time slot of Hindi. Physics classes starts from 5:30 pm. Chemistry class took place between Hindi and Physics, but it did not take place immediately after or before Physics. Total slot time of English and Biology class is 4.5 hours. Number of classes that took place between Biology and Physics is same as the number of classes between chemistry and Biology. Time slot of Chemistry is 1 hour less than the time slot of Mathematics.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -844,9 +808,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions. Six subjects Hindi, English, chemistry, Mathematics, Physics and Biology are taught at a coaching institute. Each subject was given a definite and continuous time slots. (i.e. there is no gap between two consecutive subjects). In a day a total 14 hours class was scheduled. A subject can start its slot from a whole hour or half hour only (i.e. a subject can start from 4 pm, 4 : 30 pm but it cannot starts from 4:13 pm, 4:03 pm) Hindi class takes place from 11 am to 12:30 pm. Only one class took place between Hindi and Mathematics. Time slot of Mathematics is twice the time slot of Hindi. Physics classes starts from 5:30 pm. Chemistry class took place between Hindi and Physics, but it did not take place immediately after or before Physics. Total slot time of English and Biology class is 4.5 hours. Number of classes that took place between Biology and Physics is same as the number of classes between chemistry and Biology. Time slot of Chemistry is 1 hour less than the time slot of Mathematics.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -871,9 +833,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions. Six subjects Hindi, English, chemistry, Mathematics, Physics and Biology are taught at a coaching institute. Each subject was given a definite and continuous time slots. (i.e. there is no gap between two consecutive subjects). In a day a total 14 hours class was scheduled. A subject can start its slot from a whole hour or half hour only (i.e. a subject can start from 4 pm, 4 : 30 pm but it cannot starts from 4:13 pm, 4:03 pm) Hindi class takes place from 11 am to 12:30 pm. Only one class took place between Hindi and Mathematics. Time slot of Mathematics is twice the time slot of Hindi. Physics classes starts from 5:30 pm. Chemistry class took place between Hindi and Physics, but it did not take place immediately after or before Physics. Total slot time of English and Biology class is 4.5 hours. Number of classes that took place between Biology and Physics is same as the number of classes between chemistry and Biology. Time slot of Chemistry is 1 hour less than the time slot of Mathematics.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -898,9 +858,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions. Six subjects Hindi, English, chemistry, Mathematics, Physics and Biology are taught at a coaching institute. Each subject was given a definite and continuous time slots. (i.e. there is no gap between two consecutive subjects). In a day a total 14 hours class was scheduled. A subject can start its slot from a whole hour or half hour only (i.e. a subject can start from 4 pm, 4 : 30 pm but it cannot starts from 4:13 pm, 4:03 pm) Hindi class takes place from 11 am to 12:30 pm. Only one class took place between Hindi and Mathematics. Time slot of Mathematics is twice the time slot of Hindi. Physics classes starts from 5:30 pm. Chemistry class took place between Hindi and Physics, but it did not take place immediately after or before Physics. Total slot time of English and Biology class is 4.5 hours. Number of classes that took place between Biology and Physics is same as the number of classes between chemistry and Biology. Time slot of Chemistry is 1 hour less than the time slot of Mathematics.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -991,9 +949,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below. Nine persons K, L, M, N, O, P, Q, R, S are going to gym on three dates 8, 17, 25 of three different month January, March and April of same year. Also each of them is of different weight. Only three persons are heavier than S. Q is going to gym immediately after N but not in the same month as N. Only one person go to gym in between O and R and all go in the same month. K is just heavier than M but lighter than Q. L is heavier than S but lighter than N who is not the heaviest. Only three persons go to gym in between L and S but none of them go to gym in a month having 30 days. The one who go immediately after O is not lighter than O. The one who is the lightest person attend gym immediately after L. As many persons go to gym in between N and K as between K and R. P is lighter than both M and O. R is not lighter than K. The one who go to the gym last is heavier than O but lighter than S.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -1018,9 +974,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below. Nine persons K, L, M, N, O, P, Q, R, S are going to gym on three dates 8, 17, 25 of three different month January, March and April of same year. Also each of them is of different weight. Only three persons are heavier than S. Q is going to gym immediately after N but not in the same month as N. Only one person go to gym in between O and R and all go in the same month. K is just heavier than M but lighter than Q. L is heavier than S but lighter than N who is not the heaviest. Only three persons go to gym in between L and S but none of them go to gym in a month having 30 days. The one who go immediately after O is not lighter than O. The one who is the lightest person attend gym immediately after L. As many persons go to gym in between N and K as between K and R. P is lighter than both M and O. R is not lighter than K. The one who go to the gym last is heavier than O but lighter than S.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -1045,9 +999,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below. Nine persons K, L, M, N, O, P, Q, R, S are going to gym on three dates 8, 17, 25 of three different month January, March and April of same year. Also each of them is of different weight. Only three persons are heavier than S. Q is going to gym immediately after N but not in the same month as N. Only one person go to gym in between O and R and all go in the same month. K is just heavier than M but lighter than Q. L is heavier than S but lighter than N who is not the heaviest. Only three persons go to gym in between L and S but none of them go to gym in a month having 30 days. The one who go immediately after O is not lighter than O. The one who is the lightest person attend gym immediately after L. As many persons go to gym in between N and K as between K and R. P is lighter than both M and O. R is not lighter than K. The one who go to the gym last is heavier than O but lighter than S.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -1072,9 +1024,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below. Nine persons K, L, M, N, O, P, Q, R, S are going to gym on three dates 8, 17, 25 of three different month January, March and April of same year. Also each of them is of different weight. Only three persons are heavier than S. Q is going to gym immediately after N but not in the same month as N. Only one person go to gym in between O and R and all go in the same month. K is just heavier than M but lighter than Q. L is heavier than S but lighter than N who is not the heaviest. Only three persons go to gym in between L and S but none of them go to gym in a month having 30 days. The one who go immediately after O is not lighter than O. The one who is the lightest person attend gym immediately after L. As many persons go to gym in between N and K as between K and R. P is lighter than both M and O. R is not lighter than K. The one who go to the gym last is heavier than O but lighter than S.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -1182,7 +1132,7 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q050",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 50,
-      "stem": "Statement: “I would like to study the impact of pay",
+      "stem": "Statement: “I would like to study the impact of pay revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such",
       "options": {},
       "direction_id": null,
       "direction_text": null,
@@ -1210,10 +1160,10 @@
         "e": "Cannot be determined"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay",
+      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_0.png"
+        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_1.png"
       ],
       "bank": "SBI",
       "role": "Clerk",
@@ -1237,10 +1187,10 @@
         "e": "22 km/h"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay",
+      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_0.png"
+        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_1.png"
       ],
       "bank": "SBI",
       "role": "Clerk",
@@ -1264,10 +1214,10 @@
         "e": "Scooter"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay",
+      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_0.png"
+        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_1.png"
       ],
       "bank": "SBI",
       "role": "Clerk",
@@ -1282,16 +1232,16 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q048",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 48,
-      "stem": "What is the speed range of the vehicle which is placed revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such exactly between Car and Aeroplane?",
+      "stem": "What is the speed range of the vehicle which is placed exactly between Car and Aeroplane?",
       "options": {
         "a": "(125-160) km/h",
         "b": "(160-200) km/h study."
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay",
+      "direction_text": "Study the following information carefully and answer the questions given below: Ten vehicles are placed in two parallel rows, five vehicles in row 1 facing north and rest in row 2 facing south having equal distance between each other i.e. each of them faces another vehicle. These vehicles are placed according to speed which increases from West to East direction in both rows but not necessarily in the given order. Two vehicles are placed between boat and the vehicle with speed 170 km/h. Car is placed just next to the vehicle which faces Truck. Only one vehicle is placed between Car and cycle. Scooter is just next to the vehicle with speed 120 km/h, but none of them is placed at extreme end of the row. All the vehicle with speed less than 50 km/h faces South. Aeroplane is placed next to vehicle with speed 228 km/h. (c) (200-250) km/h (d) (250-275) km/h (e) None of these Directions (49): Each question given below consists of a statement, followed by two arguments numbered I and II. You have to decide which of the arguments is a ‘strong’ argument and which is a ‘weak’ argument. Give answer- (a) If only argument I is strong (b) If only argument II is strong (c) If either I or II is strong (d) If neither I nor II is strong (e) If both I and II are strong 49. Statement: Should all the unauthorized structures in the city be demolished? Arguments: I. No. Where will the people residing in such houses live? II. Yes. This will give a clear message to general public and they will refrain from constructing unauthorized buildings. Directions (50): In question below is given a statement followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. Give answer- (a) If only assumption I is implicit (b) If only assumption II is implicit (c) If either I or II is implicit (d) If neither I nor II is implicit (e) If both I and II are implicit 50. Statement: “I would like to study the impact of pay revision on job satisfaction of employees.” — A tells B. Assumptions: I. Job satisfaction can be measured. II. A has necessary competence to undertake such",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_0.png"
+        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p5_d011_1.png"
       ],
       "bank": "SBI",
       "role": "Clerk",
@@ -2340,7 +2290,7 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q093",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 93,
-      "stem": "Train A, travelling at 84 kmph, overtook train B, (d) traveling in the same direction, in 10 seconds. If train B had been traveling at twice its speed, then train A would have taken 22.5 seconds to overtake it. Find the length of train B, given that it is half the length of train A.",
+      "stem": "Train A, travelling at 84 kmph, overtook train B, traveling in the same direction, in 10 seconds. If train B had been traveling at twice its speed, then train A would have taken 22.5 seconds to overtake it. Find the length of train B, given that it is half the length of train A.",
       "options": {
         "a": "50 m",
         "b": "100 m",
@@ -2390,7 +2340,7 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q095",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 95,
-      "stem": "X and Y entered into partnership with Rs. 700 and Rs. 600 respectively. After another 3 months, X withdrew two-sevenths of his stock but after 3 months, he puts back three-fifths of what he had withdrawn. The total profit at the end of the year is Rs. 726. How much of this should X receive?",
+      "stem": "X and Y entered into partnership with Rs. 700 and Rs. 600 respectively. After another 3 months, X withdrew two-sevenths of his stock but after 3 months, he puts back three-fifths of what he had withdrawn. The total profit at the end of the year is Rs. 726. How much of this should X receive? (d)",
       "options": {
         "a": "Rs. 336",
         "b": "Rs. 366",
@@ -2412,10 +2362,85 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q096",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q097",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 96,
-      "stem": "Total man-hours on odd days of march is what % of the three months together.",
+      "q_num": 97,
+      "stem": "Total man hour of April is how much more or less than the total man hour of August?",
+      "options": {
+        "a": "80,000",
+        "b": "83,200",
+        "c": "84,800",
+        "d": "86,400",
+        "e": "88,000"
+      },
+      "direction_id": "d019",
+      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q098",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 98,
+      "stem": "Find the ratio between man-hour on even days of march to man hour on even days of August?",
+      "options": {
+        "a": "6 : 1",
+        "b": "7 : 3",
+        "c": "8 : 3",
+        "d": "3 : 7",
+        "e": "9 : 2"
+      },
+      "direction_id": "d019",
+      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q099",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 99,
+      "stem": "Man-hour on odd days of April is how much % less than the man hour on odd days of August?",
+      "options": {
+        "a": "33 Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours 3%",
+        "b": "40%",
+        "c": "37.5%",
+        "d": "62.5%",
+        "e": "60%"
+      },
+      "direction_id": "d019",
+      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q100",
+      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
+      "q_num": 100,
+      "stem": "What is the average of man hours on even days of all three months together.",
       "options": {
         "a": "88,000",
         "b": "66,000",
@@ -2424,11 +2449,9 @@
         "e": "74,000"
       },
       "direction_id": "d019",
-      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions. Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours",
+      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p10_d019_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -2442,7 +2465,7 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q101",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 101,
-      "stem": "The Indian telecom sector has witnessed a Paranoid total man-hours on even days of April? ENGLISH LANGUAGE shift—crossing the billion-user mark and rolling out new technologies along with other leading markets. Just four years ago, it faced multiple challenges— falling revenues and increasing debt were wreaking triumph. COLOUMN A (1) Paranoid (2) Rolling (3) Faced (4) Triumph COLOUMN B (5) Paradigm (6) Rolled (7) Face off (8) Havoc",
+      "stem": "The Indian telecom sector has witnessed a Paranoid shift—crossing the billion-user mark and rolling out new technologies along with other leading markets. Just four years ago, it faced multiple challenges— falling revenues and increasing debt were wreaking triumph. COLOUMN A (1) Paranoid (2) Rolling (3) Faced (4) Triumph COLOUMN B (5) Paradigm (6) Rolled (7) Face off (8) Havoc",
       "options": {
         "a": "Both (1) - (5) and (4) – (8)",
         "b": "(2) – (6)",
@@ -2469,11 +2492,7 @@
       "q_num": 102,
       "stem": "The government launched Tarang Sanchar portal to correct mislead around electromagnetic emissions from towers. It allows people to check emission (EMF) consensus status of mobile towers, giving information about any site, on request, via email.",
       "options": {
-        "a": "26 3 %",
-        "b": "18 3 %",
-        "c": "33 3 %",
-        "d": "16 3 %",
-        "e": "58 3 %"
+        "e": ".i.e. “None of the above” as your answer."
       },
       "direction_id": "d020",
       "direction_text": "In each of the following questions given below, a sentence is given with some bold words which may contain errors. Below each of the sentence, a table is given with two columns in which column ‘A’ contains the list of bold words, and in column ‘B’ the suggested corrections are listed. You have to choose the best alternate among the four given options. If no correction is required against the given bold words, mark",
@@ -2489,91 +2508,10 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q097",
+      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q096",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 97,
-      "stem": "Total man hour of April is how much more or less than the total man hour of August?",
-      "options": {
-        "a": "80,000",
-        "b": "83,200",
-        "c": "84,800",
-        "d": "86,400",
-        "e": "88,000"
-      },
-      "direction_id": "d019",
-      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions. Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p10_d019_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q098",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 98,
-      "stem": "Find the ratio between man-hour on even days of march to man hour on even days of August?",
-      "options": {
-        "a": "6 : 1",
-        "b": "7 : 3",
-        "c": "8 : 3",
-        "d": "3 : 7",
-        "e": "9 : 2"
-      },
-      "direction_id": "d019",
-      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions. Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p10_d019_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q099",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 99,
-      "stem": "Man-hour on odd days of April is how much % less than the man hour on odd days of August?",
-      "options": {
-        "a": "33 3%",
-        "b": "40%",
-        "c": "37.5%",
-        "d": "62.5%",
-        "e": "60%"
-      },
-      "direction_id": "d019",
-      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions. Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p10_d019_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q100",
-      "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
-      "q_num": 100,
-      "stem": "What is the average of man hours on even days of all COLOUMN A (1) Mislead (2) Emissions (3) Consensus (4) Information COLOUMN B (5) Misconceptions (6) Eminences (7) Compliance (8) Informed",
+      "q_num": 96,
+      "stem": "Total man-hours on odd days of march is what % of the total man-hours on even days of April? ENGLISH LANGUAGE COLOUMN A (1) Mislead (2) Emissions (3) Consensus (4) Information COLOUMN B (5) Misconceptions (6) Eminences (7) Compliance (8) Informed",
       "options": {
         "a": "(4) – (8)",
         "b": "(2) – (6)",
@@ -2582,11 +2520,9 @@
         "e": "None of the above"
       },
       "direction_id": "d019",
-      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions. Percentage of men worked on Months Total Number of Men worked odd number days March 30% April 20% August 60% Note: Each man works for 8 hours per day Total man-hours = Total man worked × Total day of work × 8 hours",
+      "direction_text": "- Table given below shows percentage of men out of total men who worked on odd days in three different months and rest of the men are working on even days of the respective month. Study the table carefully and answer the following questions.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2018_mains_unknown_shift_afeacb05/p10_d019_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Mains",
@@ -2650,9 +2586,13 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q105",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 105,
-      "stem": "It is important to measure the outstanding risk of a posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
+      "stem": "It is important to measure the outstanding risk of a company and find the best possible solution to hedge and manage it. Had locked in a major portion of the costs can give paint manufacturers a significant margin boost to achieve compete pricing and hence healthy functioning. COLOUMN A (1) Outstanding (2) Hedge (3) Had (4) Compete COLOUMN B (5) Outdated (6) Wedge (7) Having (8) Competitive",
       "options": {
-        "a": "and 21 of the Constitution and the state’s duty to promote the welfare of the disabled and unemployed. Destitution is widely considered to be a product of the processes of a country’s political economy. In the absence of immediate structural improvement, the least the state governments in India can do is decriminalize begging. The Delhi High Court’s judgment accepts that there is a problem. The solution is staring us in the face."
+        "a": "(4) – (8)",
+        "b": "(2) – (6)",
+        "c": "Both (3) - (7) and (4) – (8)",
+        "d": "(1) - (5), (2) – (6) and (3-7)",
+        "e": "None of the above"
       },
       "direction_id": "d020",
       "direction_text": "In each of the following questions given below, a sentence is given with some bold words which may contain errors. Below each of the sentence, a table is given with two columns in which column ‘A’ contains the list of bold words, and in column ‘B’ the suggested corrections are listed. You have to choose the best alternate among the four given options. If no correction is required against the given bold words, mark",
@@ -2671,16 +2611,16 @@
       "q_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05::q106",
       "paper_id": "sbi_clerk_2018_mains_unknown_shift_afeacb05",
       "q_num": 106,
-      "stem": "What are the pronouncements that allows State to company and find the best possible solution to hedge and manage it. Had locked in a major portion of the costs can give paint manufacturers a significant margin boost to achieve compete pricing and hence healthy functioning. COLOUMN A (1) Outstanding (2) Hedge (3) Had (4) Compete COLOUMN B (5) Outdated (6) Wedge (7) Having (8) Competitive",
+      "stem": "What are the pronouncements that allows State to arrest beggars without a warrant?",
       "options": {
-        "a": "(4) – (8)",
-        "b": "(2) – (6)",
-        "c": "Both (3) - (7) and (4) – (8)",
-        "d": "(1) - (5), (2) – (6) and (3-7)",
-        "e": "None of the above"
+        "a": "The beggar homes are understaffed and face a severe paucity of resources.",
+        "b": "They are socially and economically deprived.",
+        "c": "Applicability of evidences against the crime committed by those people.",
+        "d": "BPBA Act which rests on the postulation that poverty equals criminality.",
+        "e": "All of these."
       },
-      "direction_id": null,
-      "direction_text": null,
+      "direction_id": "d021",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2704,7 +2644,7 @@
         "d": "Both"
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2729,7 +2669,7 @@
         "e": "None of these."
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2754,7 +2694,7 @@
         "e": "All of these."
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2779,7 +2719,7 @@
         "e": "India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished."
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2804,7 +2744,7 @@
         "e": "All of these."
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2829,7 +2769,7 @@
         "e": "No correction required"
       },
       "direction_id": "d021",
-      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this arrest beggars without a warrant?",
+      "direction_text": "Read the following passage carefully and answer the questions given below it. Certain words are printed in bold to help you locate them while answering some of the questions. The legal position of beggars in India has always been precarious. The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze. Invariably, police raids to round up “beggars” and force them out of city limits are part of projects to “clean up” cities. India’s image, especially for the foreigner’s gaze, takes precedence over the plight of the banished. The Delhi High Court, earlier this month, has rectified this by conceding that begging is a structural problem. It argued that it is unfair of the state to add insult to injury and punish people for its own failures. The court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi. The people targeted by the anti-begging laws are not in anyone’s “constituency” given their social and economic deprivation. Under the act, beggars, peddlers, small-time hawkers, street performers, rag pickers, and “loiterers” (including migrants), can be arrested without a warrant or let off on a bond or detained in a certified institution for two to three years and, on a second conviction, for 10 years. This was true in regard to the BPBA, which also asked for the detention of the dependents of the beggars. Effectively, this posits the beggar as a legal outsider: inhabiting the same territorial space that is India, but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. Implied in this is the state’s stance that the rights that come with citizenship have to be bought with forms of privilege that lend a perception of legitimacy and “respectability” to the individual. It is enough for a person to “look like a beggar” in order to be arrested. The beggar homes are understaffed and face a severe paucity of resources; and the inmates are treated like free labor. Theoretically, the inmates are supposed to receive vocational training, but practically they come back to the same desperate situation. In 1990, following a petition before the Bombay High Court, the court ordered a committee to present its report. The committee pointed out that there is no criteria to decide who is a beggar, who is sick, physically handicapped, or simply in need of economic help. In these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable. Such a vast amount of unchecked power over certain sections of the marginalized population by means of this law gives the state machinery yet another tool to perpetuate entrenched societal biases against already vulnerable groups. Within the purview of what qualifies as “begging” come a wide variety of people who suffer from various kinds of—and often overlapping— marginalization. The suggestions made by the committee are predictably gathering dust. The recent ruling by the Delhi High Court has maintained the provisions in the act that penalize those employing or causing persons to solicit or receive alms. It has also called upon the city administration to curb any racket of forced begging after examining the sociological and economic aspects of the matter. It must be noted here that the criminal begging ring racketeers are hardly the ones who are arrested in the raids. While these persons invariably escape the law, the sentence they receive upon conviction (if at all) is three years. It has been proved that the provisions of the act go against Articles 19(1)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

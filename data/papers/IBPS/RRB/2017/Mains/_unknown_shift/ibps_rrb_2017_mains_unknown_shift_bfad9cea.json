@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:5",
-    "assets_exported:5"
+    "figure_crops:2",
+    "assets_exported:2"
   ],
   "question_count": 120,
   "questions": [
@@ -24,8 +24,14 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q001",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 1,
-      "stem": "How many mobile phones are there between mobile REASONING ABILITY",
-      "options": {},
+      "stem": "How many mobile phones are there between mobile phone D and mobile phone G?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None REASONING ABILITY"
+      },
       "direction_id": "d001",
       "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
       "direction_has_image": false,
@@ -93,13 +99,13 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q007",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 7,
-      "stem": "Statements: All doc are pdf. Some pdf are ppt. All ppt are xls. Conclusions: I. At least some xls are pdf. II. Some pdf are doc. III. All xls are doc is a possibility. (a) I and II follow (b) I and III follow (c) II and III follow (d) All follow (e) None of the above phone D and mobile phone G?",
+      "stem": "Statements: All doc are pdf. Some pdf are ppt. All ppt are xls. Conclusions: I. At least some xls are pdf. II. Some pdf are doc. III. All xls are doc is a possibility.",
       "options": {
-        "a": "One",
-        "b": "Two",
-        "c": "Three",
-        "d": "Four",
-        "e": "None"
+        "a": "I and II follow",
+        "b": "I and III follow",
+        "c": "II and III follow",
+        "d": "All follow",
+        "e": "None of the above"
       },
       "direction_id": "d002",
       "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
@@ -143,26 +149,7 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q003",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 3,
-      "stem": "Find the pair of storage space and mobile phone which",
-      "options": {},
-      "direction_id": "d001",
-      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q008",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 8,
-      "stem": "Statements: All windows are microsoft. All ios are microsoft All microsoft are android. Conclusions: I. All windows are android is a possibility. II. All ios is android. III. At least some android are microsoft. (a) I and II follow (b) I and III follow (c) II and III follow (d) All follow (e) None of the above is not correctly matched.",
+      "stem": "Find the pair of storage space and mobile phone which is not correctly matched.",
       "options": {
         "a": "B-2gb",
         "b": "F-1gb",
@@ -170,8 +157,8 @@
         "d": "G-256mb",
         "e": "None of these"
       },
-      "direction_id": "d002",
-      "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
+      "direction_id": "d001",
+      "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -189,11 +176,35 @@
       "q_num": 4,
       "stem": "Which of the following conditions is correct regarding 8gb storage space with respect to E?",
       "options": {
-        "a": "There is one mobile phone between E and 8gb storage space mobile phones.",
-        "b": "E is immediately above 8gb storage space mobile"
+        "a": "There is one mobile phone between E and 8gb"
       },
       "direction_id": "d001",
       "direction_text": "Study the given information carefully to answer the given questions. A, B, C, D, E, F and G are seven different mobile phones which has different storage spaces, ie 256mb, 500mb, 1gb, 2gb, 8gb, 16gb and 32gb but not necessarily in the same order. The mobile phone which has 256mb storage space is immediately above A. There are only two mobile phones between D and the mobile phones which have of 256mb storage space. The mobile phones which has 1gb storage space is above D but not immediately above D. Only three mobile phones are between C and the mobile phones which have 1gb storage space. The mobile phones which has 32gb storage space is immediately above C. The mobile phones which is of 2gb storage space is immediately above the mobile phones G. Only one mobile phone is there between mobile phone B and mobile phone E. Mobile phone B is above E. Neither mobile phone B nor mobile phone A is of 8gb storage space. Mobile phone A has not 500mb storage space. There is only one mobile phone between mobile phone E and G. Mobile phones G is not of 16gb or 8gb storage space. Neither mobile phone D nor G is of 500mb storage space. Mobile phone G is not below mobile phone A.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q008",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 8,
+      "stem": "Statements: All windows are microsoft. All ios are microsoft All microsoft are android. Conclusions: I. All windows are android is a possibility. II. All ios is android. III. At least some android are microsoft.",
+      "options": {
+        "a": "I and II follow",
+        "b": "I and III follow",
+        "c": "II and III follow",
+        "d": "All follow",
+        "e": "None of the above storage space mobile phones."
+      },
+      "direction_id": "d002",
+      "direction_text": "In each of the question below are given three statements followed by three conclusions numbered I, II and III. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow(s) from the given statements, disregarding commonly known facts:",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -631,9 +642,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the given questions. Five Movies- Go Goa, Chandni-Chawk to China, London Dreams, Chennai Express and Mumbai Metro are played in 5 halls-Golden, Diamond, platinum, Deluxe, and Galaxy in a PVR. These movies are rated by different stars-one, two, three, four and five. The show timing is also different for each movie, 9am, 12 noon, 3pm, 6pm, and 9pm. • Chandni-Chawk to China is not played in Diamond or Galaxy hall. • The show timing of Go Goa is not 6pm or 9pm while show timing of Chennai Express is 12 noon. • Mumbai Metro is not one or four star movie but played in Diamond hall. • London Dream and Chennai Express are neither played in Golden & Platinum hall nor two or four star movie. Five star rated movie is played at 9pm • Three star rated movie is played in Galaxy. Five star rated movie is played in Deluxe hall. • Four star rated movie is played immediate after Mumbai Metro.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -658,9 +667,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the given questions. Five Movies- Go Goa, Chandni-Chawk to China, London Dreams, Chennai Express and Mumbai Metro are played in 5 halls-Golden, Diamond, platinum, Deluxe, and Galaxy in a PVR. These movies are rated by different stars-one, two, three, four and five. The show timing is also different for each movie, 9am, 12 noon, 3pm, 6pm, and 9pm. • Chandni-Chawk to China is not played in Diamond or Galaxy hall. • The show timing of Go Goa is not 6pm or 9pm while show timing of Chennai Express is 12 noon. • Mumbai Metro is not one or four star movie but played in Diamond hall. • London Dream and Chennai Express are neither played in Golden & Platinum hall nor two or four star movie. Five star rated movie is played at 9pm • Three star rated movie is played in Galaxy. Five star rated movie is played in Deluxe hall. • Four star rated movie is played immediate after Mumbai Metro.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -685,9 +692,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the given questions. Five Movies- Go Goa, Chandni-Chawk to China, London Dreams, Chennai Express and Mumbai Metro are played in 5 halls-Golden, Diamond, platinum, Deluxe, and Galaxy in a PVR. These movies are rated by different stars-one, two, three, four and five. The show timing is also different for each movie, 9am, 12 noon, 3pm, 6pm, and 9pm. • Chandni-Chawk to China is not played in Diamond or Galaxy hall. • The show timing of Go Goa is not 6pm or 9pm while show timing of Chennai Express is 12 noon. • Mumbai Metro is not one or four star movie but played in Diamond hall. • London Dream and Chennai Express are neither played in Golden & Platinum hall nor two or four star movie. Five star rated movie is played at 9pm • Three star rated movie is played in Galaxy. Five star rated movie is played in Deluxe hall. • Four star rated movie is played immediate after Mumbai Metro.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -712,9 +717,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the given questions. Five Movies- Go Goa, Chandni-Chawk to China, London Dreams, Chennai Express and Mumbai Metro are played in 5 halls-Golden, Diamond, platinum, Deluxe, and Galaxy in a PVR. These movies are rated by different stars-one, two, three, four and five. The show timing is also different for each movie, 9am, 12 noon, 3pm, 6pm, and 9pm. • Chandni-Chawk to China is not played in Diamond or Galaxy hall. • The show timing of Go Goa is not 6pm or 9pm while show timing of Chennai Express is 12 noon. • Mumbai Metro is not one or four star movie but played in Diamond hall. • London Dream and Chennai Express are neither played in Golden & Platinum hall nor two or four star movie. Five star rated movie is played at 9pm • Three star rated movie is played in Galaxy. Five star rated movie is played in Deluxe hall. • Four star rated movie is played immediate after Mumbai Metro.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -739,9 +742,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the given questions. Five Movies- Go Goa, Chandni-Chawk to China, London Dreams, Chennai Express and Mumbai Metro are played in 5 halls-Golden, Diamond, platinum, Deluxe, and Galaxy in a PVR. These movies are rated by different stars-one, two, three, four and five. The show timing is also different for each movie, 9am, 12 noon, 3pm, 6pm, and 9pm. • Chandni-Chawk to China is not played in Diamond or Galaxy hall. • The show timing of Go Goa is not 6pm or 9pm while show timing of Chennai Express is 12 noon. • Mumbai Metro is not one or four star movie but played in Diamond hall. • London Dream and Chennai Express are neither played in Golden & Platinum hall nor two or four star movie. Five star rated movie is played at 9pm • Three star rated movie is played in Galaxy. Five star rated movie is played in Deluxe hall. • Four star rated movie is played immediate after Mumbai Metro.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -766,9 +767,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Five family members V, W, X, Y and Z are sitting in a straight line facing north. Each of them somehow has a relation with V, who sits third to the right of his daughter. There are only two females in the family. X is an immediate neighbour of his mother. Y sits third to the right of Z, who sits at one end of the line. V sits with his wife. X is brother of W, who is niece of Z.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -793,9 +792,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Five family members V, W, X, Y and Z are sitting in a straight line facing north. Each of them somehow has a relation with V, who sits third to the right of his daughter. There are only two females in the family. X is an immediate neighbour of his mother. Y sits third to the right of Z, who sits at one end of the line. V sits with his wife. X is brother of W, who is niece of Z.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -971,7 +968,7 @@
       "direction_text": "Study the pie-charts carefully and answer the following question. Distribution of Laptops (HP and Asus) sold by six sellers QUANTITATIVE APTITUDE Total number of laptops sold = 48,000 F 20% A 18% E 8% B 28% C 15% D 11%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -996,7 +993,7 @@
       "direction_text": "Study the pie-charts carefully and answer the following question. Distribution of Laptops (HP and Asus) sold by six sellers QUANTITATIVE APTITUDE Total number of laptops sold = 48,000 F 20% A 18% E 8% B 28% C 15% D 11%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1019,7 +1016,7 @@
       "direction_text": "Study the pie-charts carefully and answer the following question. Distribution of Laptops (HP and Asus) sold by six sellers QUANTITATIVE APTITUDE Total number of laptops sold = 48,000 F 20% A 18% E 8% B 28% C 15% D 11%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1046,7 +1043,7 @@
       "direction_text": "Study the pie-charts carefully and answer the following question. Distribution of Laptops (HP and Asus) sold by six sellers QUANTITATIVE APTITUDE Total number of laptops sold = 48,000 F 20% A 18% E 8% B 28% C 15% D 11%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1122,7 +1119,7 @@
       "direction_text": "Study the pie-charts carefully and answer the following question. Distribution of Laptops (HP and Asus) sold by six sellers QUANTITATIVE APTITUDE Total number of laptops sold = 48,000 F 20% A 18% E 8% B 28% C 15% D 11%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p5_d011_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1169,6 +1166,50 @@
         "c": "2909.12 cm",
         "d": "2703.56 cm (e)None of these"
       },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q056",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 56,
+      "stem": "If female teachers of school Vasant valley are 17% of total strength of school, then what is the ratio of teachers to students in that school ?",
+      "options": {
+        "a": "32 : 55",
+        "b": "5 : 11",
+        "c": "32 : 53",
+        "d": "23 : 53",
+        "e": "5 : 13"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q057",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 57,
+      "stem": "The female students of Pathways school are 15",
+      "options": {},
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
@@ -1258,179 +1299,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q051",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 51,
-      "stem": "I. 35x2−53x+20 = 0 II. 56y2−97y+42=0",
-      "options": {
-        "a": "If 𝑥< 𝑦",
-        "b": "If 𝑥≤𝑦",
-        "c": "If x> y",
-        "d": "If 𝑥≥𝑦",
-        "e": "𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established"
-      },
-      "direction_id": "d012",
-      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q052",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 52,
-      "stem": "I.18𝑥2 + 18𝑥+ 4 = 0 II.12𝑦2 + 29𝑦+ 14 = 0",
-      "options": {
-        "a": "If 𝑥< 𝑦",
-        "b": "If 𝑥≤𝑦",
-        "c": "If x> y",
-        "d": "If 𝑥≥𝑦",
-        "e": "𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established"
-      },
-      "direction_id": "d012",
-      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q053",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 53,
-      "stem": "I.8𝑥2 −78𝑥+ 169 = 0 II.20𝑦2 −117𝑦+ 169 = 0",
-      "options": {
-        "a": "If 𝑥< 𝑦",
-        "b": "If 𝑥≤𝑦",
-        "c": "If x> y",
-        "d": "If 𝑥≥𝑦",
-        "e": "𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established"
-      },
-      "direction_id": "d012",
-      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q054",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 54,
-      "stem": "I. 6x² + 13x + 5 = 0 II. 3y² + 11y + 10 = 0",
-      "options": {
-        "a": "If 𝑥< 𝑦",
-        "b": "If 𝑥≤𝑦",
-        "c": "If x> y",
-        "d": "If 𝑥≥𝑦",
-        "e": "𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established"
-      },
-      "direction_id": "d012",
-      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q055",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 55,
-      "stem": "I. 6x + 7y = 52 II. 14x + 4y = 35",
-      "options": {
-        "a": "If 𝑥< 𝑦",
-        "b": "If 𝑥≤𝑦",
-        "c": "If x> y",
-        "d": "If 𝑥≥𝑦",
-        "e": "𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established"
-      },
-      "direction_id": "d012",
-      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be established",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q056",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 56,
-      "stem": "If female teachers of school Vasant valley are 17% of total strength of school, then what is the ratio of teachers to students in that school ?",
-      "options": {
-        "a": "32 : 55",
-        "b": "5 : 11",
-        "c": "32 : 53",
-        "d": "23 : 53",
-        "e": "5 : 13"
-      },
-      "direction_id": "d013",
-      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p6_d013_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q057",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 57,
-      "stem": "The female students of Pathways school are 15 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is",
-      "options": {},
-      "direction_id": "d013",
-      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p6_d013_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q058",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 58,
@@ -1442,12 +1310,10 @@
         "d": "630",
         "e": "None of these"
       },
-      "direction_id": "d013",
-      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p6_d013_0.png"
-      ],
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1469,12 +1335,10 @@
         "d": "92%",
         "e": "None of these"
       },
-      "direction_id": "d013",
-      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p6_d013_0.png"
-      ],
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1496,12 +1360,10 @@
         "d": "can’t be determined",
         "e": "None of these"
       },
-      "direction_id": "d013",
-      "direction_text": "Study the following table carefully and answer the questions that follow. The table shows the data related top six schools of India. Some values are missing which you need to find out and answer the questions accordingly. Note: Total strength of school = Number of teachers + Number of students + Number of non-teaching staff",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p6_d013_0.png"
-      ],
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1596,10 +1458,135 @@
         "b": "12.5%",
         "c": "33.33%",
         "d": "25%",
-        "e": "None of these"
+        "e": "None of these established"
       },
       "direction_id": null,
       "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q051",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 51,
+      "stem": "I. 35x2−53x+20 = 0 II. 56y2−97y+42=0",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these established"
+      },
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is 14 : 13. Find the number of non-teaching staff of Pathways school. (a) 180 (b) 192 (c) 210 (d) 189 (e) None of these 58. If strength of all school is same, then find the number of non-teaching staff of school DAV. (a) 420 (b) 525 (c) 580 (d) 630 (e) None of these 59. If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock? (a) 80% (b) 85% (c) 72% (d) 92% (e) None of these 60. Find the difference in total strength of school Woodstock and that of Rishi valley. (a) 980 (b) 840 (c) 780 (d) can’t be determined (e) None of these 61. Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary? (a) Rs 5000 (b) Rs 15000 (c) Rs 3000 (d) Rs 10,00 (e) Rs 8000 62. Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share? (a) 800 (b) 920 (c) 864 (d) 850 (e) 795 63. A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted? (a) 8 days (b) 10 days (c) 7 days (d) 9 days (e) 6 days 64. A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q052",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 52,
+      "stem": "I.18𝑥2 + 18𝑥+ 4 = 0 II.12𝑦2 + 29𝑦+ 14 = 0",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these established"
+      },
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is 14 : 13. Find the number of non-teaching staff of Pathways school. (a) 180 (b) 192 (c) 210 (d) 189 (e) None of these 58. If strength of all school is same, then find the number of non-teaching staff of school DAV. (a) 420 (b) 525 (c) 580 (d) 630 (e) None of these 59. If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock? (a) 80% (b) 85% (c) 72% (d) 92% (e) None of these 60. Find the difference in total strength of school Woodstock and that of Rishi valley. (a) 980 (b) 840 (c) 780 (d) can’t be determined (e) None of these 61. Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary? (a) Rs 5000 (b) Rs 15000 (c) Rs 3000 (d) Rs 10,00 (e) Rs 8000 62. Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share? (a) 800 (b) 920 (c) 864 (d) 850 (e) 795 63. A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted? (a) 8 days (b) 10 days (c) 7 days (d) 9 days (e) 6 days 64. A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q053",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 53,
+      "stem": "I.8𝑥2 −78𝑥+ 169 = 0 II.20𝑦2 −117𝑦+ 169 = 0",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these established"
+      },
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is 14 : 13. Find the number of non-teaching staff of Pathways school. (a) 180 (b) 192 (c) 210 (d) 189 (e) None of these 58. If strength of all school is same, then find the number of non-teaching staff of school DAV. (a) 420 (b) 525 (c) 580 (d) 630 (e) None of these 59. If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock? (a) 80% (b) 85% (c) 72% (d) 92% (e) None of these 60. Find the difference in total strength of school Woodstock and that of Rishi valley. (a) 980 (b) 840 (c) 780 (d) can’t be determined (e) None of these 61. Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary? (a) Rs 5000 (b) Rs 15000 (c) Rs 3000 (d) Rs 10,00 (e) Rs 8000 62. Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share? (a) 800 (b) 920 (c) 864 (d) 850 (e) 795 63. A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted? (a) 8 days (b) 10 days (c) 7 days (d) 9 days (e) 6 days 64. A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q054",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 54,
+      "stem": "I. 6x² + 13x + 5 = 0 II. 3y² + 11y + 10 = 0",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these established"
+      },
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is 14 : 13. Find the number of non-teaching staff of Pathways school. (a) 180 (b) 192 (c) 210 (d) 189 (e) None of these 58. If strength of all school is same, then find the number of non-teaching staff of school DAV. (a) 420 (b) 525 (c) 580 (d) 630 (e) None of these 59. If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock? (a) 80% (b) 85% (c) 72% (d) 92% (e) None of these 60. Find the difference in total strength of school Woodstock and that of Rishi valley. (a) 980 (b) 840 (c) 780 (d) can’t be determined (e) None of these 61. Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary? (a) Rs 5000 (b) Rs 15000 (c) Rs 3000 (d) Rs 10,00 (e) Rs 8000 62. Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share? (a) 800 (b) 920 (c) 864 (d) 850 (e) 795 63. A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted? (a) 8 days (b) 10 days (c) 7 days (d) 9 days (e) 6 days 64. A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q055",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 55,
+      "stem": "I. 6x + 7y = 52 II. 14x + 4y = 35",
+      "options": {
+        "a": "37.5%",
+        "b": "12.5%",
+        "c": "33.33%",
+        "d": "25%",
+        "e": "None of these established"
+      },
+      "direction_id": "d012",
+      "direction_text": "In each of the following questions two equations are given. Solve the equations and give answer— (a) If 𝑥< 𝑦 (b) If 𝑥≤𝑦 (c) If x> y (d) If 𝑥≥𝑦 (e) 𝑥= 𝑦 or relationship between 𝑥 and 𝑦 cannot be 9 % more than male teachers of school Vasant valley while ratio of male to female students of Pathways school is 14 : 13. Find the number of non-teaching staff of Pathways school. (a) 180 (b) 192 (c) 210 (d) 189 (e) None of these 58. If strength of all school is same, then find the number of non-teaching staff of school DAV. (a) 420 (b) 525 (c) 580 (d) 630 (e) None of these 59. If total strength and number of students of schools Woodstock and DPS are same, then teachers of DPS are what percent less than students of Woodstock? (a) 80% (b) 85% (c) 72% (d) 92% (e) None of these 60. Find the difference in total strength of school Woodstock and that of Rishi valley. (a) 980 (b) 840 (c) 780 (d) can’t be determined (e) None of these 61. Anil spends 25% of his monthly salary for his household expenditure and 12% on travelling. Out of the remaining, he spends 20% on clothes and saves the rest. If he saves Rs 2520 every month, what is his monthly salary? (a) Rs 5000 (b) Rs 15000 (c) Rs 3000 (d) Rs 10,00 (e) Rs 8000 62. Raman and Nakul invested in a business. Raman invested Rs 3000 and withdraw Rs 1500 at the end of 8th month. Nakul invested Rs 1000 initially and Rs 3500 more at the end of 4th month but withdraw Rs 1500 at the end of 7th month. At the year’s end, they earned Rs 1800. What should be Raman’s share? (a) 800 (b) 920 (c) 864 (d) 850 (e) 795 63. A can do a piece of work in 10 days, B can do the same work in 12 days and C in 15 days. They all started working together, but A leaves the work after 2 days and B leaves the work 3 days before the work is completed. For how many days the work lasted? (a) 8 days (b) 10 days (c) 7 days (d) 9 days (e) 6 days 64. A shopkeeper sells shirts at the rate of Rs 400 per shirt and allows a discount of 10% to all customers buying by full cash payment. Also, for all those customers who buy 10 shirts at a time, he counts 12 shirts. If a customer is willing to take both the discounts, what net effective discount can he avail?",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1890,28 +1877,7 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q076",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 76,
-      "stem": "In June, Avanish spent 25% less amount on others as",
-      "options": {},
-      "direction_id": "d015",
-      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q078",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
-      "q_num": 78,
-      "stem": "What is the difference in amount saved and amount compared to what he spent on others in May. Find the percentage contribution of money spent on others in June in monthly salary of June.",
+      "stem": "In June, Avanish spent 25% less amount on others as compared to what he spent on others in May. Find the percentage contribution of money spent on others in June in monthly salary of June.",
       "options": {
         "a": "20.5%",
         "b": "22.5%",
@@ -1923,7 +1889,7 @@
       "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1938,7 +1904,34 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q077",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 77,
-      "stem": "Avanish invested 10% of the money spent on others in spent on education by Avanish in April?",
+      "stem": "Avanish invested 10% of the money spent on others in January in a business which gives him 10% interest per annum on amount invested. Find the interest earned by him in one year?",
+      "options": {
+        "a": "Rs. 125.5",
+        "b": "Rs. 152",
+        "c": "Rs. 150",
+        "d": "Rs. 135",
+        "e": "None of these"
+      },
+      "direction_id": "d015",
+      "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_band.png"
+      ],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q078",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
+      "q_num": 78,
+      "stem": "What is the difference in amount saved and amount spent on education by Avanish in April?",
       "options": {
         "a": "Rs. 12100",
         "b": "Rs. 8600",
@@ -1950,7 +1943,7 @@
       "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1977,7 +1970,7 @@
       "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1992,7 +1985,7 @@
       "q_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea::q080",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_bfad9cea",
       "q_num": 80,
-      "stem": "Find the ratio of money spent on Education in February January in a business which gives him 10% interest per annum on amount invested. Find the interest earned by him in one year? (a) Rs. 125.5 (b) Rs. 152 (c) Rs. 150 (d) Rs. 135 (e) None of these to monthly salary in February?",
+      "stem": "Find the ratio of money spent on Education in February to monthly salary in February?",
       "options": {
         "a": "3 : 22",
         "b": "4 : 27",
@@ -2004,7 +1997,7 @@
       "direction_text": "- Study the following line graph and answer the questions that follow. The graph shows the percentage distribution of money spent by Avanish on Education, Household and Others in five different months. He spent only 60% of his monthly salary. Others Household Education January February March April May Note: Monthly income throughout the year remains constant. MONTHLY SALARY:- 50,000",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_0.png"
+        "_assets/ibps_rrb_2017_mains_unknown_shift_bfad9cea/p8_d015_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",

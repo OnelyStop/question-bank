@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:7",
-    "assets_exported:7"
+    "figure_crops:3",
+    "assets_exported:3"
   ],
   "question_count": 79,
   "questions": [
@@ -24,26 +24,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q001",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 1,
-      "stem": "What should come in place of question mark (?) in",
-      "options": {},
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q007",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 7,
-      "stem": "Which of the following boxes is kept at the top? the following series based on the above arrangement? ZN XD UG QK ?",
+      "stem": "What should come in place of question mark (?) in the following series based on the above arrangement? ZN XD UG QK ?",
       "options": {
         "a": "LK",
         "b": "LO",
@@ -68,82 +49,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q002",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 2,
-      "stem": "How many such pair of numbers are there in the",
-      "options": {
-        "a": "B",
-        "b": "A",
-        "c": "D",
-        "d": "E",
-        "e": "None of these"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q008",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 8,
-      "stem": "Choose the odd one out?",
-      "options": {
-        "a": "B",
-        "b": "G",
-        "c": "A",
-        "d": "D",
-        "e": "E"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q009",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 9,
-      "stem": "Which of the following boxes is kept between F and A?",
-      "options": {
-        "a": "B",
-        "b": "G",
-        "c": "C",
-        "d": "H",
-        "e": "None as box F is immediately above box A"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q010",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 10,
-      "stem": "How many boxes are there between C and A given number “46579739” (Both backward and forward) same as far as according to numeric series?",
+      "stem": "How many such pair of numbers are there in the given number “46579739” (Both backward and forward) same as far as according to numeric series?",
       "options": {
         "a": "One",
         "b": "Two",
@@ -168,82 +74,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q003",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 3,
-      "stem": "If it is possible to make only one meaningful word",
-      "options": {
-        "a": "Less than 2",
-        "b": "4",
-        "c": "5",
-        "d": "6",
-        "e": "None of these"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q011",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 11,
-      "stem": "Statement: R ≥ S ≥ T > U > X; T < V < W Conclusions: I. R > X II. X < W",
-      "options": {
-        "a": "if only conclusion I follows",
-        "b": "if only conclusion II follows",
-        "c": "if either conclusion I or conclusion II follows",
-        "d": "if neither conclusion I nor conclusion II follows",
-        "e": "if both conclusions I and II follow"
-      },
-      "direction_id": "d001",
-      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q012",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 12,
-      "stem": "Statement: E = F < G < H; G ≥ I Conclusions: I. H > I II. E > I",
-      "options": {
-        "a": "if only conclusion I follows",
-        "b": "if only conclusion II follows",
-        "c": "if either conclusion I or conclusion II follows",
-        "d": "if neither conclusion I nor conclusion II follows",
-        "e": "if both conclusions I and II follow"
-      },
-      "direction_id": "d001",
-      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q013",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 13,
-      "stem": "Statement: A > B > F > C; D > E > C Conclusions: I. C < A II. B > D with the 1st ,2nd , 4th and 7th letters of the word ‘ECUADOR’ which would be the second letter of the word from the right? If more than one such word can be formed give ‘Y’ as the answer. If no such word can be formed, give ‘Z’ as your answer.",
+      "stem": "If it is possible to make only one meaningful word with the 1st ,2nd , 4th and 7th letters of the word ‘ECUADOR’ which would be the second letter of the word from the right? If more than one such word can be formed give ‘Y’ as the answer. If no such word can be formed, give ‘Z’ as your answer.",
       "options": {
         "a": "Y",
         "b": "E",
@@ -251,8 +82,8 @@
         "d": "Z",
         "e": "M"
       },
-      "direction_id": "d001",
-      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
+      "direction_id": null,
+      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -326,12 +157,185 @@
         "d": "2",
         "e": "None of these"
       },
-      "direction_id": "d002",
+      "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. Eight boxes A, B, C, D, E, F, G and H are place one above the other in any particular order. Box no. 1 is at the bottom and box no. 8 is at the top. Three boxes are placed between A and B. Box H is placed immediately below A. There are two boxes between H and G. There are as many boxes between C and D as between H and B. Box C is kept above D. Box E is kept immediately below box D. Three boxes are there between E and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q007",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 7,
+      "stem": "Which of the following boxes is kept at the top?",
+      "options": {
+        "a": "B",
+        "b": "A",
+        "c": "D",
+        "d": "E",
+        "e": "None of these"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Eight boxes A, B, C, D, E, F, G and H are place one above the other in any particular order. Box no. 1 is at the bottom and box no. 8 is at the top. Three boxes are placed between A and B. Box H is placed immediately below A. There are two boxes between H and G. There are as many boxes between C and D as between H and B. Box C is kept above D. Box E is kept immediately below box D. Three boxes are there between E and F.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q008",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 8,
+      "stem": "Choose the odd one out?",
+      "options": {
+        "a": "B",
+        "b": "G",
+        "c": "A",
+        "d": "D",
+        "e": "E"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Eight boxes A, B, C, D, E, F, G and H are place one above the other in any particular order. Box no. 1 is at the bottom and box no. 8 is at the top. Three boxes are placed between A and B. Box H is placed immediately below A. There are two boxes between H and G. There are as many boxes between C and D as between H and B. Box C is kept above D. Box E is kept immediately below box D. Three boxes are there between E and F.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q009",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 9,
+      "stem": "Which of the following boxes is kept between F and A?",
+      "options": {
+        "a": "B",
+        "b": "G",
+        "c": "C",
+        "d": "H",
+        "e": "None as box F is immediately above box A"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Eight boxes A, B, C, D, E, F, G and H are place one above the other in any particular order. Box no. 1 is at the bottom and box no. 8 is at the top. Three boxes are placed between A and B. Box H is placed immediately below A. There are two boxes between H and G. There are as many boxes between C and D as between H and B. Box C is kept above D. Box E is kept immediately below box D. Three boxes are there between E and F.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q010",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 10,
+      "stem": "How many boxes are there between C and A",
+      "options": {
+        "a": "Less than 2",
+        "b": "4",
+        "c": "5",
+        "d": "6",
+        "e": "None of these"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Eight boxes A, B, C, D, E, F, G and H are place one above the other in any particular order. Box no. 1 is at the bottom and box no. 8 is at the top. Three boxes are placed between A and B. Box H is placed immediately below A. There are two boxes between H and G. There are as many boxes between C and D as between H and B. Box C is kept above D. Box E is kept immediately below box D. Three boxes are there between E and F.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q011",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 11,
+      "stem": "Statement: R ≥ S ≥ T > U > X; T < V < W Conclusions: I. R > X II. X < W",
+      "options": {
+        "a": "if only conclusion I follows",
+        "b": "if only conclusion II follows",
+        "c": "if either conclusion I or conclusion II follows",
+        "d": "if neither conclusion I nor conclusion II follows",
+        "e": "if both conclusions I and II follow"
+      },
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q012",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 12,
+      "stem": "Statement: E = F < G < H; G ≥ I Conclusions: I. H > I II. E > I",
+      "options": {
+        "a": "if only conclusion I follows",
+        "b": "if only conclusion II follows",
+        "c": "if either conclusion I or conclusion II follows",
+        "d": "if neither conclusion I nor conclusion II follows",
+        "e": "if both conclusions I and II follow"
+      },
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q013",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 13,
+      "stem": "Statement: A > B > F > C; D > E > C Conclusions: I. C < A II. B > D",
+      "options": {
+        "a": "if only conclusion I follows",
+        "b": "if only conclusion II follows",
+        "c": "if either conclusion I or conclusion II follows",
+        "d": "if neither conclusion I nor conclusion II follows",
+        "e": "if both conclusions I and II follow"
+      },
+      "direction_id": "d002",
+      "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -353,7 +357,7 @@
         "d": "if neither conclusion I nor conclusion II follows",
         "e": "if both conclusions I and II follow"
       },
-      "direction_id": "d001",
+      "direction_id": "d002",
       "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -378,7 +382,7 @@
         "d": "if neither conclusion I nor conclusion II follows",
         "e": "if both conclusions I and II follow"
       },
-      "direction_id": "d001",
+      "direction_id": "d002",
       "direction_text": "In these questions, relationships between different elements are shown in the statements. These statements are followed by two conclusions. Give answer (a) if only conclusion I follows (b) if only conclusion II follows (c) if either conclusion I or conclusion II follows (d) if neither conclusion I nor conclusion II follows (e) if both conclusions I and II follow",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -406,9 +410,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F and G were born on different months viz. January, February, March, April, June, August and October of the same year, but not necessarily in the same order. Only three persons were born before E and D is not one of them. F was not born immediately after E. B was born after F. A was born immediately before the month in which G was born. Only two persons were born between G and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -433,9 +435,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F and G were born on different months viz. January, February, March, April, June, August and October of the same year, but not necessarily in the same order. Only three persons were born before E and D is not one of them. F was not born immediately after E. B was born after F. A was born immediately before the month in which G was born. Only two persons were born between G and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -460,9 +460,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F and G were born on different months viz. January, February, March, April, June, August and October of the same year, but not necessarily in the same order. Only three persons were born before E and D is not one of them. F was not born immediately after E. B was born after F. A was born immediately before the month in which G was born. Only two persons were born between G and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -487,9 +485,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F and G were born on different months viz. January, February, March, April, June, August and October of the same year, but not necessarily in the same order. Only three persons were born before E and D is not one of them. F was not born immediately after E. B was born after F. A was born immediately before the month in which G was born. Only two persons were born between G and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -514,9 +510,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F and G were born on different months viz. January, February, March, April, June, August and October of the same year, but not necessarily in the same order. Only three persons were born before E and D is not one of them. F was not born immediately after E. B was born after F. A was born immediately before the month in which G was born. Only two persons were born between G and F.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -541,9 +535,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the given questions: In a certain code language ‘card win team time’ is written as ‘la ta ja sa’ ‘fight game play card’ is written as ‘ja pa ra da’ ‘in win team fight’ is written as ‘da ta fa la’.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -568,9 +560,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the given questions: In a certain code language ‘card win team time’ is written as ‘la ta ja sa’ ‘fight game play card’ is written as ‘ja pa ra da’ ‘in win team fight’ is written as ‘da ta fa la’.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -595,9 +585,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the given questions: In a certain code language ‘card win team time’ is written as ‘la ta ja sa’ ‘fight game play card’ is written as ‘ja pa ra da’ ‘in win team fight’ is written as ‘da ta fa la’.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -622,9 +610,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the given questions: In a certain code language ‘card win team time’ is written as ‘la ta ja sa’ ‘fight game play card’ is written as ‘ja pa ra da’ ‘in win team fight’ is written as ‘da ta fa la’.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -649,9 +635,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the given questions: In a certain code language ‘card win team time’ is written as ‘la ta ja sa’ ‘fight game play card’ is written as ‘ja pa ra da’ ‘in win team fight’ is written as ‘da ta fa la’.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p3_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -876,9 +860,7 @@
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -903,9 +885,7 @@
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -919,7 +899,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q033",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 33,
-      "stem": "Who sits second to the right of T? red. II. Some leaves are definitely not",
+      "stem": "Who sits second to the right of T?",
       "options": {
         "a": "O",
         "b": "Q",
@@ -930,9 +910,7 @@
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -946,14 +924,43 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q034",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 34,
-      "stem": "Four of the following five are alike in a certain way roses.",
-      "options": {},
+      "stem": "Four of the following five are alike in a certain way based on the given seating arrangement and so form a group. Which is the one that does not belong to that group?",
+      "options": {
+        "a": "P",
+        "b": "O",
+        "c": "T",
+        "d": "M",
+        "e": "Q"
+      },
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q035",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 35,
+      "stem": "What is P’s position with respect to R?",
+      "options": {
+        "a": "Second to the left",
+        "b": "Third to the right",
+        "c": "Third to the left",
+        "d": "Sixth to the right",
+        "e": "Second to the right red. II. Some leaves are definitely not roses."
+      },
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
+      "direction_has_image": true,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -992,13 +999,13 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q040",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 40,
-      "stem": "Statements: Some flowers are roses. No rose is red. All red are leaves. Conclusions: I. Some flowers are not leaves. II. No leave is a red. based on the given seating arrangement and so form a group. Which is the one that does not belong to that group?",
+      "stem": "Statements: Some flowers are roses. No rose is red. All red are leaves. Conclusions: I. Some flowers are not leaves. II. No leave is a red. QUANTITATIVE APTITUDE",
       "options": {
-        "a": "P",
-        "b": "O",
-        "c": "T",
-        "d": "M",
-        "e": "Q"
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusions I and II follow."
       },
       "direction_id": "d007",
       "direction_text": "In each question below are given some statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts. Give answer",
@@ -1014,23 +1021,21 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q035",
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q041",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 35,
-      "stem": "What is P’s position with respect to R?",
+      "q_num": 41,
+      "stem": "190, 94, 46, 22, ? , 4",
       "options": {
-        "a": "Second to the left",
-        "b": "Third to the right",
-        "c": "Third to the left",
-        "d": "Sixth to the right",
-        "e": "Second to the right QUANTITATIVE APTITUDE"
+        "a": "12",
+        "b": "14",
+        "c": "10",
+        "d": "8",
+        "e": "None of these"
       },
-      "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: Eight friends M, N, O, P, Q, R, S and T are sitting around a circular table with equal distance between them but not necessarily in the same order. Some of them are facing the centre with some face outside (i.e. opposite to centre). O sits second to the right of R, R faces the centre. Only two people sit between O and N (either form O’s right or O’s left). S sits second to the right of O. T sits to the immediate right of N. S and N face opposite direction (i.e. if N faces the centre then S faces outside and vice versa). Immediate neighbor of S face the same direction (i.e. If one neighbor faces the centre then the other also faces the centre and vice-versa) Only three people sit between P and Q. Neither P nor M is an immediate neighbor of R. Q sits second to the right of M. Both T and Q face a direction opposite to that of O (i.e. if O faces the centre then both T and Q faces outside and vice-versa).",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p4_d006_0.png"
-      ],
+      "direction_id": "d008",
+      "direction_text": "What should come in place of the question mark (?) in following number series problems?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1041,11 +1046,17 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q041",
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q042",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 41,
-      "stem": "190, 94, 46, 22, ? , 4",
-      "options": {},
+      "q_num": 42,
+      "stem": "5, 28, 47, 64, 77, ?",
+      "options": {
+        "a": "84",
+        "b": "86",
+        "c": "89",
+        "d": "88",
+        "e": "None of these"
+      },
       "direction_id": "d008",
       "direction_text": "What should come in place of the question mark (?) in following number series problems?",
       "direction_has_image": false,
@@ -1088,32 +1099,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q044",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 44,
-      "stem": "6, 4, 5, 11, 39, ?",
-      "options": {
-        "a": "12",
-        "b": "14",
-        "c": "10",
-        "d": "8",
-        "e": "None of these"
-      },
-      "direction_id": "d008",
-      "direction_text": "What should come in place of the question mark (?) in following number series problems?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q042",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 42,
-      "stem": "5, 28, 47, 64, 77, ? (a)159",
+      "stem": "6, 4, 5, 11, 39, ? (a)159",
       "options": {
         "b": "169",
         "c": "189 (d)198",
@@ -1136,7 +1122,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q045",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 45,
-      "stem": "89, 88, 85, 78, 63, ? (a) 84 (b) 86 (c) 89 (d) 88 (e) None of these",
+      "stem": "89, 88, 85, 78, 63, ?",
       "options": {
         "a": "30",
         "b": "34",
@@ -1173,112 +1159,6 @@
       "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q047",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 47,
-      "stem": "A can complete a task in 15 days B is 50% more efficient than A. Both A and B started working together on the task and after few days B left task and A finished the remaining 3 of the given work. For how many days A and B worked together.",
-      "options": {
-        "a": "3",
-        "b": "5",
-        "c": "4",
-        "d": "6",
-        "e": "2"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q051",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 51,
-      "stem": "If number of female who bought the books in store E are 21 more than number of males who bought books from same store then find the number of females who bought book in store E.",
-      "options": {
-        "a": "75",
-        "b": "78",
-        "c": "71",
-        "d": "68",
-        "e": "73"
-      },
-      "direction_id": "d009",
-      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% C, 16% D, 32%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q052",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 52,
-      "stem": "Find the central angle for the book D.",
-      "options": {
-        "a": "117.5°",
-        "b": "115.2°",
-        "c": "112.8°",
-        "d": "108.5°",
-        "e": "118.8°"
-      },
-      "direction_id": "d009",
-      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% C, 16% D, 32%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q053",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 53,
-      "stem": "If total books of another publisher ‘MNP’ is 20% more than books of ‘XYZ’ publisher then what will be total books sold by store A and B for publisher ‘MNP’. Percentage-distribution for different stores for MNP remains same as for ‘XYZ’",
-      "options": {
-        "a": "200",
-        "b": "178",
-        "c": "181",
-        "d": "186",
-        "e": "198"
-      },
-      "direction_id": "d009",
-      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% C, 16% D, 32%",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_0.png"
-      ],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1348,12 +1228,64 @@
         "b": "14",
         "c": "17",
         "d": "21",
-        "e": "7 A, 18% B, 12%"
+        "e": "7"
       },
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q047",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 47,
+      "stem": "A can complete a task in 15 days B is 50% more efficient than A. Both A and B started working together on the task and after few days B left task and A finished the remaining 3 of the given work. For how many days A and B worked together.",
+      "options": {
+        "a": "3",
+        "b": "5",
+        "c": "4",
+        "d": "6",
+        "e": "2"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q051",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 51,
+      "stem": "If number of female who bought the books in store E are 21 more than number of males who bought books from same store then find the number of females who bought book in store E.",
+      "options": {
+        "a": "75",
+        "b": "78",
+        "c": "71",
+        "d": "68",
+        "e": "73"
+      },
+      "direction_id": "d009",
+      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% A, 18% B, 12% C, 16% D, 32%",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_1.png"
+      ],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1376,10 +1308,10 @@
         "e": "24 : 29"
       },
       "direction_id": "d009",
-      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% C, 16% D, 32%",
+      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% A, 18% B, 12% C, 16% D, 32%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_1.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1403,10 +1335,10 @@
         "e": "20"
       },
       "direction_id": "d009",
-      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% C, 16% D, 32%",
+      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% A, 18% B, 12% C, 16% D, 32%",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_1.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1458,6 +1390,60 @@
       "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer",
       "direction_has_image": false,
       "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q052",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 52,
+      "stem": "Find the central angle for the book D.",
+      "options": {
+        "a": "117.5°",
+        "b": "115.2°",
+        "c": "112.8°",
+        "d": "108.5°",
+        "e": "118.8°"
+      },
+      "direction_id": "d009",
+      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% A, 18% B, 12% C, 16% D, 32%",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_1.png"
+      ],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q053",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 53,
+      "stem": "If total books of another publisher ‘MNP’ is 20% more than books of ‘XYZ’ publisher then what will be total books sold by store A and B for publisher ‘MNP’. Percentage-distribution for different stores for MNP remains same as for ‘XYZ’",
+      "options": {
+        "a": "200",
+        "b": "178",
+        "c": "181",
+        "d": "186",
+        "e": "198"
+      },
+      "direction_id": "d009",
+      "direction_text": "Given below is the pie chart which shows the percentage distribution of a book ‘XYZ’ publishes in 5 different stores. Total books = 550 E, 22% A, 18% B, 12% C, 16% D, 32%",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p5_d009_1.png"
+      ],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1543,6 +1529,50 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q063",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 63,
+      "stem": "Present age of A is 3 years less than present age of B. Ratio of B’s age 5 year ago and A’s age 4 year hence is 3 : 4 then find present age (in years) of A.",
+      "options": {
+        "a": "20",
+        "b": "17",
+        "c": "23",
+        "d": "26",
+        "e": "29"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q064",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 64,
+      "stem": "A bag contains 6 Red, 5 Green and 4 Yellow coloured balls. 2 balls are drawn at random after one another without replacement then what is the probability that atleat one ball is Green. (a)",
+      "options": {},
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q061",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 61,
@@ -1571,7 +1601,28 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q062",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 62,
-      "stem": "A trader mixes 14 kg rice of variety A which costs Rs. 60/kg with 18 kg of quantity of type B rice. He sells the mixture at Rs. 65/Kg and earns a profit of sold at 10% profit and A is sold at 40% loss and selling price of A and B are in the ratio 4 : 11. If A is sold at 20% loss then what will be selling price of A.",
+      "stem": "A trader mixes 14 kg rice of variety A which costs Rs. 60/kg with 18 kg of quantity of type B rice. He sells the mixture at Rs. 65/Kg and earns a profit of",
+      "options": {
+        "d": "(e)"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2017,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q065",
+      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
+      "q_num": 65,
+      "stem": "Cost price of B is 200 more than cost price of A. B is sold at 10% profit and A is sold at 40% loss and selling price of A and B are in the ratio 4 : 11. If A is sold at 20% loss then what will be selling price of A.",
       "options": {
         "a": "320",
         "b": "400",
@@ -1691,71 +1742,6 @@
       "direction_image_refs": [
         "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p6_d011_1.png"
       ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q063",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 63,
-      "stem": "Present age of A is 3 years less than present age of B. Ratio of B’s age 5 year ago and A’s age 4 year hence is 3 : 4 then find present age (in years) of A.",
-      "options": {
-        "a": "20",
-        "b": "17",
-        "c": "23",
-        "d": "26",
-        "e": "29"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q064",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 64,
-      "stem": "A bag contains 6 Red, 5 Green and 4 Yellow coloured balls. 2 balls are drawn at random after one another without replacement then what is the probability that atleat one ball is Green.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2017,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q065",
-      "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
-      "q_num": 65,
-      "stem": "Cost price of B is 200 more than cost price of A. B is",
-      "options": {},
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1921,19 +1907,19 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q076",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 76,
-      "stem": "Find the ratio of the total number of males visited the (a) 30 (b) 60 (c) 40 (d) 50 (e) None of these place on Tuesday and Thursday together to the total number of females visited the place on Monday and Friday together?",
+      "stem": "Find the ratio of the total number of males visited the place on Tuesday and Thursday together to the total number of females visited the place on Monday and Friday together? (a) 29 : 30 (b) 30 : 29 (c) 25 : 26 (d) 26 : 25 (e) None of these",
       "options": {
-        "a": "29 : 30",
-        "b": "30 : 29",
-        "c": "25 : 26",
-        "d": "26 : 25",
+        "a": "30",
+        "b": "60",
+        "c": "40",
+        "d": "50",
         "e": "None of these"
       },
       "direction_id": "d013",
       "direction_text": "Study the following line graph carefully and answer the following questions. Number of males and number of females are given. They are visiting a place from Monday to Friday. Male Female MON TUE WED THUS FRI",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1960,7 +1946,7 @@
       "direction_text": "Study the following line graph carefully and answer the following questions. Number of males and number of females are given. They are visiting a place from Monday to Friday. Male Female MON TUE WED THUS FRI",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1983,7 +1969,7 @@
       "direction_text": "Study the following line graph carefully and answer the following questions. Number of males and number of females are given. They are visiting a place from Monday to Friday. Male Female MON TUE WED THUS FRI",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",
@@ -1998,7 +1984,7 @@
       "q_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560::q080",
       "paper_id": "ibps_rrb_2017_prelims_unknown_shift_7b3ae560",
       "q_num": 80,
-      "stem": "Total number of males and females visited the place 13 % (b) 25 13 % (c) 26 13 % (d) 25 13 % (e) None of these on Monday and Tuesday together is how much more than the total number of males and females visited the place on Thursday and Friday together?",
+      "stem": "Total number of males and females visited the place on Monday and Tuesday together is how much more than the total number of males and females visited the place on Thursday and Friday together?",
       "options": {
         "a": "175",
         "b": "125",
@@ -2009,7 +1995,7 @@
       "direction_text": "Study the following line graph carefully and answer the following questions. Number of males and number of females are given. They are visiting a place from Monday to Friday. Male Female MON TUE WED THUS FRI",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_0.png"
+        "_assets/ibps_rrb_2017_prelims_unknown_shift_7b3ae560/p7_d013_band.png"
       ],
       "bank": "IBPS",
       "role": "RRB",

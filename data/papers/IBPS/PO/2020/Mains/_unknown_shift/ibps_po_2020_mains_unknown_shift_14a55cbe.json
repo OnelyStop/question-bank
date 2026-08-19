@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:11",
-    "assets_exported:11"
+    "figure_crops:2",
+    "assets_exported:2"
   ],
   "question_count": 115,
   "questions": [
@@ -24,14 +24,68 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q001",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 1,
-      "stem": "The number of persons born between Yaati and Sriti is REASONING ABILITY",
-      "options": {},
+      "stem": "The number of persons born between Yaati and Sriti is same as persons born between ____ and ____?",
+      "options": {
+        "a": "Kunal and Swathi",
+        "b": "Kumar and Puja",
+        "c": "Pranav and Kishan",
+        "d": "Kumar and Gaurav",
+        "e": "None of these"
+      },
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "PO",
+      "exam_type": "Mains",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q002",
+      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
+      "q_num": 2,
+      "stem": "How many persons were born between Kumar and Sriti?",
+      "options": {
+        "a": "Three",
+        "b": "Four",
+        "c": "Two",
+        "d": "Six",
+        "e": "Five"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "PO",
+      "exam_type": "Mains",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q003",
+      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
+      "q_num": 3,
+      "stem": "On which date Gaurav was born?",
+      "options": {
+        "a": "7th January",
+        "b": "16th January",
+        "c": "16th March",
+        "d": "Cannot be determined",
+        "e": "None of these REASONING ABILITY"
+      },
+      "direction_id": "d001",
+      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -56,9 +110,7 @@
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -83,30 +135,7 @@
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d001_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q002",
-      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
-      "q_num": 2,
-      "stem": "How many persons were born between Kumar and eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
-      "options": {},
-      "direction_id": "d001",
-      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -129,11 +158,9 @@
         "e": "None of these"
       },
       "direction_id": "d002",
-      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu same as persons born between ____ and ____?",
+      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -147,34 +174,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q007",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 7,
-      "stem": "What will be the Step III of the given input? Sriti?",
-      "options": {
-        "a": "Three",
-        "b": "Four",
-        "c": "Two",
-        "d": "Six",
-        "e": "Five"
-      },
-      "direction_id": "d002",
-      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu same as persons born between ____ and ____?",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d002_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q003",
-      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
-      "q_num": 3,
-      "stem": "On which date Gaurav was born? (a) 7th January (b) 16th January (c) 16th March (d) Cannot be determined (e) None of these",
+      "stem": "What will be the Step III of the given input?",
       "options": {
         "a": "adegruz firtuvv eenrsu acefilptu aeegnortu adnnou",
         "b": "adegruz firtuvv denrsu acefilptu aeegnortu adnnov",
@@ -182,12 +182,10 @@
         "d": "afgilnru firtuvv denrsu acefilptu aeegnortu adnnou",
         "e": "None of these"
       },
-      "direction_id": "d001",
-      "direction_text": "Read the following information carefully and answer the following questions. Twelve persons were born on two dates either 7th or 16th of six different months of a year viz. January, March, June, July, September, and October but not necessarily in the same order. The persons whose name starts with a letter before the letter ’M’ were born in the first half of the year and the persons whose name starts with a letter after the letter ’M’ were born in the second half of the year. All letters are according to the English alphabet series. Example- If a person name is Rajesh then he will be born in the second half of the year. The person whose name consists of even number of letters after counting the number of letters is born on an odd numbered date and Vice-Versa. Example- If a person name is ‘Ramesh’ then he will be born on an odd number date (i.e 7) because the sum of number of letters is 6. Only two persons were born between Pranav and Kumar. The number of persons born before Gaurav is same as born after Yaati. Only four persons were born between Kunal and Gaurav. The number of persons born between Kunal and Sriti is one more than the persons born between Puja and Ram. Ayush was born before Kishan and Gopi. Puja was born in the month of having 31 days. Not more than two persons were born between Kishan and Ram. Swathi is one of the persons.",
+      "direction_id": "d002",
+      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -210,11 +208,9 @@
         "e": "None of these"
       },
       "direction_id": "d002",
-      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu same as persons born between ____ and ____?",
+      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -237,11 +233,9 @@
         "e": "None of these"
       },
       "direction_id": "d002",
-      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu same as persons born between ____ and ____?",
+      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -264,11 +258,9 @@
         "e": "None of these"
       },
       "direction_id": "d002",
-      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu same as persons born between ____ and ____?",
+      "direction_text": "Read the following information carefully and answer the following questions. A number arrangement machine when given an input line of numbers rearranges them following a particular rule. The following is an illustration of input and rearrangements. Input: stadium language lunatic ambition condition consonant Step I: stadium lunatic language consonant condition ambition Step II: ttadiun munatid manguagf donsonanu donditioo bmbitioo Step III: adinttu adimntu aafggmnu adnnnoosu ddiinooot bbiimoot Step IV: bejouuv bejnouv bbghhnov beooopptv eejjopppu ccjjnppu Step V: bbghhnov bejnouv bejouuv beooopptv ccjjnppu eejjopppu Step V is the last step of the rearrangements, Based on the following logic rearrange the given input. Input: dangerous duplicate murder cannot survive triangle",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -293,9 +285,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W lives in a building of eight floors such that the topmost floor is numbered as 8 and the lowermost floor is numbered as 1 but not necessarily in the same order. They shops on eight different e-commerce websites viz. Flipkart, Ajio, Myntra, Jabong, Amazon, Shopclues, Jiomart, and Tata Cliq but not necessarily in the same order. The one who shops on Flipkart lives immediately above the one who shops on Shopclues. Neither V nor P shops on Flipkart, Tata Cliq and Myntra. Three persons live between V and S, who lives below V and also does not shops on Jabong. Only three persons live between W and R, who shops on Amazon. R lives on one of the even numbered floor above W and Q, who does not shops on Flipkart and Myntra and also does not live on the second floor. Two persons live between Q and the one who shops on Jabong. Three persons live between the one who shops on Jabong and the one who shops on Ajio. The number of persons living between the one who shops on Jabong and R is same as the number of persons living between the one who shops on Ajio and P. T lives on one of the floors below U. Both W and Q live on the even numbered floor.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -320,9 +310,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W lives in a building of eight floors such that the topmost floor is numbered as 8 and the lowermost floor is numbered as 1 but not necessarily in the same order. They shops on eight different e-commerce websites viz. Flipkart, Ajio, Myntra, Jabong, Amazon, Shopclues, Jiomart, and Tata Cliq but not necessarily in the same order. The one who shops on Flipkart lives immediately above the one who shops on Shopclues. Neither V nor P shops on Flipkart, Tata Cliq and Myntra. Three persons live between V and S, who lives below V and also does not shops on Jabong. Only three persons live between W and R, who shops on Amazon. R lives on one of the even numbered floor above W and Q, who does not shops on Flipkart and Myntra and also does not live on the second floor. Two persons live between Q and the one who shops on Jabong. Three persons live between the one who shops on Jabong and the one who shops on Ajio. The number of persons living between the one who shops on Jabong and R is same as the number of persons living between the one who shops on Ajio and P. T lives on one of the floors below U. Both W and Q live on the even numbered floor.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -347,9 +335,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W lives in a building of eight floors such that the topmost floor is numbered as 8 and the lowermost floor is numbered as 1 but not necessarily in the same order. They shops on eight different e-commerce websites viz. Flipkart, Ajio, Myntra, Jabong, Amazon, Shopclues, Jiomart, and Tata Cliq but not necessarily in the same order. The one who shops on Flipkart lives immediately above the one who shops on Shopclues. Neither V nor P shops on Flipkart, Tata Cliq and Myntra. Three persons live between V and S, who lives below V and also does not shops on Jabong. Only three persons live between W and R, who shops on Amazon. R lives on one of the even numbered floor above W and Q, who does not shops on Flipkart and Myntra and also does not live on the second floor. Two persons live between Q and the one who shops on Jabong. Three persons live between the one who shops on Jabong and the one who shops on Ajio. The number of persons living between the one who shops on Jabong and R is same as the number of persons living between the one who shops on Ajio and P. T lives on one of the floors below U. Both W and Q live on the even numbered floor.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -374,9 +360,7 @@
       "direction_id": "d004",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F, and G are born on seven different dates in a year but not necessarily in the same order and they like different fruits. There is a gap of three days between the birth dates of every person. Ex- If R was born on 12th May then the person born immediately after R and immediately before R should be born a gap of 3 days. F was born on 16th June. Only two persons were born before F. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. Only one person was born between G and A, who likes Oranges. B does not like Kiwi was born one of the dates before E but after C. B was not born after A. E does not like Grapes, Peach, and Kiwi. F does not like Peach, Kiwi, and Pear.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -400,9 +384,7 @@
       "direction_id": "d004",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F, and G are born on seven different dates in a year but not necessarily in the same order and they like different fruits. There is a gap of three days between the birth dates of every person. Ex- If R was born on 12th May then the person born immediately after R and immediately before R should be born a gap of 3 days. F was born on 16th June. Only two persons were born before F. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. Only one person was born between G and A, who likes Oranges. B does not like Kiwi was born one of the dates before E but after C. B was not born after A. E does not like Grapes, Peach, and Kiwi. F does not like Peach, Kiwi, and Pear.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -427,9 +409,7 @@
       "direction_id": "d004",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F, and G are born on seven different dates in a year but not necessarily in the same order and they like different fruits. There is a gap of three days between the birth dates of every person. Ex- If R was born on 12th May then the person born immediately after R and immediately before R should be born a gap of 3 days. F was born on 16th June. Only two persons were born before F. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. Only one person was born between G and A, who likes Oranges. B does not like Kiwi was born one of the dates before E but after C. B was not born after A. E does not like Grapes, Peach, and Kiwi. F does not like Peach, Kiwi, and Pear.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -454,9 +434,7 @@
       "direction_id": "d004",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, E, F, and G are born on seven different dates in a year but not necessarily in the same order and they like different fruits. There is a gap of three days between the birth dates of every person. Ex- If R was born on 12th May then the person born immediately after R and immediately before R should be born a gap of 3 days. F was born on 16th June. Only two persons were born before F. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. Only one person was born between G and A, who likes Oranges. B does not like Kiwi was born one of the dates before E but after C. B was not born after A. E does not like Grapes, Peach, and Kiwi. F does not like Peach, Kiwi, and Pear.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -556,9 +534,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, P, R, and S are related to Q in some manner. They all are sitting around a circular table such that some of them are facing the inside and some of them are facing outside. They all have different profession viz. Banker, Writer, Singer, Doctor, Nurse, Dancer, Engineer, and Teacher but not necessarily in the same order. One person has only one profession. Not more than four persons face same direction. The singer sits second to the right of Q. Three persons sit between A, who doesn’t sit near to Banker and the one who is Nurse. D is an Engineer. P sits opposite to Q, who is a Banker. C is a female but she is not a dancer. The teacher and the writer face inside. The one who is Brother of Q sits second to the left of Banker. Two persons sit between S, who is a doctor and brother of Q. D is the mother of Q and she sits opposite to S. D’s Daughter sits third to the left of",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -583,9 +559,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, P, R, and S are related to Q in some manner. They all are sitting around a circular table such that some of them are facing the inside and some of them are facing outside. They all have different profession viz. Banker, Writer, Singer, Doctor, Nurse, Dancer, Engineer, and Teacher but not necessarily in the same order. One person has only one profession. Not more than four persons face same direction. The singer sits second to the right of Q. Three persons sit between A, who doesn’t sit near to Banker and the one who is Nurse. D is an Engineer. P sits opposite to Q, who is a Banker. C is a female but she is not a dancer. The teacher and the writer face inside. The one who is Brother of Q sits second to the left of Banker. Two persons sit between S, who is a doctor and brother of Q. D is the mother of Q and she sits opposite to S. D’s Daughter sits third to the left of",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -610,9 +584,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, P, R, and S are related to Q in some manner. They all are sitting around a circular table such that some of them are facing the inside and some of them are facing outside. They all have different profession viz. Banker, Writer, Singer, Doctor, Nurse, Dancer, Engineer, and Teacher but not necessarily in the same order. One person has only one profession. Not more than four persons face same direction. The singer sits second to the right of Q. Three persons sit between A, who doesn’t sit near to Banker and the one who is Nurse. D is an Engineer. P sits opposite to Q, who is a Banker. C is a female but she is not a dancer. The teacher and the writer face inside. The one who is Brother of Q sits second to the left of Banker. Two persons sit between S, who is a doctor and brother of Q. D is the mother of Q and she sits opposite to S. D’s Daughter sits third to the left of",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -637,9 +609,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the following questions. Seven persons A, B, C, D, P, R, and S are related to Q in some manner. They all are sitting around a circular table such that some of them are facing the inside and some of them are facing outside. They all have different profession viz. Banker, Writer, Singer, Doctor, Nurse, Dancer, Engineer, and Teacher but not necessarily in the same order. One person has only one profession. Not more than four persons face same direction. The singer sits second to the right of Q. Three persons sit between A, who doesn’t sit near to Banker and the one who is Nurse. D is an Engineer. P sits opposite to Q, who is a Banker. C is a female but she is not a dancer. The teacher and the writer face inside. The one who is Brother of Q sits second to the left of Banker. Two persons sit between S, who is a doctor and brother of Q. D is the mother of Q and she sits opposite to S. D’s Daughter sits third to the left of",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -689,9 +659,7 @@
       "direction_id": "d007",
       "direction_text": "Read the following information carefully and answer the following questions. Eleven Houses A, B, C, D, E, F, P, Q, R, S, and T are located in a straight row such that the opening gates of some of them opens in north direction and some of them opens in south direction but not necessarily in the same order. No two adjacent houses opening gates opens in the same direction. House B is not located near House A. House Q is located to the immediate left of House B. House P is located fourth to the right of House D, which is located to the immediate left of House R. Number of Houses located to the left of House P is one more than the number of Houses located between House R and House P. Only two houses are located to the left of House A. The number of houses located between House P and House A is one less than the number of Houses located between House T and House C. House T is located near House P. Only one house is located between House F and House Q and the Gates of both of the houses doesn’t open in south direction. Only one house is located between House E and House S, which is not located near House C. House D is 2nd from one of the ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -716,9 +684,7 @@
       "direction_id": "d007",
       "direction_text": "Read the following information carefully and answer the following questions. Eleven Houses A, B, C, D, E, F, P, Q, R, S, and T are located in a straight row such that the opening gates of some of them opens in north direction and some of them opens in south direction but not necessarily in the same order. No two adjacent houses opening gates opens in the same direction. House B is not located near House A. House Q is located to the immediate left of House B. House P is located fourth to the right of House D, which is located to the immediate left of House R. Number of Houses located to the left of House P is one more than the number of Houses located between House R and House P. Only two houses are located to the left of House A. The number of houses located between House P and House A is one less than the number of Houses located between House T and House C. House T is located near House P. Only one house is located between House F and House Q and the Gates of both of the houses doesn’t open in south direction. Only one house is located between House E and House S, which is not located near House C. House D is 2nd from one of the ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -743,9 +709,7 @@
       "direction_id": "d007",
       "direction_text": "Read the following information carefully and answer the following questions. Eleven Houses A, B, C, D, E, F, P, Q, R, S, and T are located in a straight row such that the opening gates of some of them opens in north direction and some of them opens in south direction but not necessarily in the same order. No two adjacent houses opening gates opens in the same direction. House B is not located near House A. House Q is located to the immediate left of House B. House P is located fourth to the right of House D, which is located to the immediate left of House R. Number of Houses located to the left of House P is one more than the number of Houses located between House R and House P. Only two houses are located to the left of House A. The number of houses located between House P and House A is one less than the number of Houses located between House T and House C. House T is located near House P. Only one house is located between House F and House Q and the Gates of both of the houses doesn’t open in south direction. Only one house is located between House E and House S, which is not located near House C. House D is 2nd from one of the ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -770,9 +734,7 @@
       "direction_id": "d007",
       "direction_text": "Read the following information carefully and answer the following questions. Eleven Houses A, B, C, D, E, F, P, Q, R, S, and T are located in a straight row such that the opening gates of some of them opens in north direction and some of them opens in south direction but not necessarily in the same order. No two adjacent houses opening gates opens in the same direction. House B is not located near House A. House Q is located to the immediate left of House B. House P is located fourth to the right of House D, which is located to the immediate left of House R. Number of Houses located to the left of House P is one more than the number of Houses located between House R and House P. Only two houses are located to the left of House A. The number of houses located between House P and House A is one less than the number of Houses located between House T and House C. House T is located near House P. Only one house is located between House F and House Q and the Gates of both of the houses doesn’t open in south direction. Only one house is located between House E and House S, which is not located near House C. House D is 2nd from one of the ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -822,9 +784,7 @@
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the following questions. If (i) P & Q means P is the brother Q. (ii) P % Q means P is the father of Q. (iii) P * Q means P is the sister of Q. (iv) P @ Q means P is the Son of Q. (v) P $ Q means P is the daughter Q. (vi) P ? Q means P is the mother of Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -849,9 +809,7 @@
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the following questions. If (i) P & Q means P is the brother Q. (ii) P % Q means P is the father of Q. (iii) P * Q means P is the sister of Q. (iv) P @ Q means P is the Son of Q. (v) P $ Q means P is the daughter Q. (vi) P ? Q means P is the mother of Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -951,9 +909,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons i.e. A, B, C, D, P, Q, R and S are sitting around two inscribed square table in such a way that four persons are seating at four corners each inner square and outer square. Persons sitting at inner square and outer square are facing to each other. C faces the one who sits 2nd to the right of S. Q is neither an immediate neighbor of S nor C. D faces to R and is an immediate neighbor of Q. A sits immediate left of R. B faces to P. Both B and C are not an immediate neighbor. Neither P nor A face outside.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -978,9 +934,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons i.e. A, B, C, D, P, Q, R and S are sitting around two inscribed square table in such a way that four persons are seating at four corners each inner square and outer square. Persons sitting at inner square and outer square are facing to each other. C faces the one who sits 2nd to the right of S. Q is neither an immediate neighbor of S nor C. D faces to R and is an immediate neighbor of Q. A sits immediate left of R. B faces to P. Both B and C are not an immediate neighbor. Neither P nor A face outside.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1005,9 +959,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons i.e. A, B, C, D, P, Q, R and S are sitting around two inscribed square table in such a way that four persons are seating at four corners each inner square and outer square. Persons sitting at inner square and outer square are facing to each other. C faces the one who sits 2nd to the right of S. Q is neither an immediate neighbor of S nor C. D faces to R and is an immediate neighbor of Q. A sits immediate left of R. B faces to P. Both B and C are not an immediate neighbor. Neither P nor A face outside.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1031,9 +983,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons i.e. A, B, C, D, P, Q, R and S are sitting around two inscribed square table in such a way that four persons are seating at four corners each inner square and outer square. Persons sitting at inner square and outer square are facing to each other. C faces the one who sits 2nd to the right of S. Q is neither an immediate neighbor of S nor C. D faces to R and is an immediate neighbor of Q. A sits immediate left of R. B faces to P. Both B and C are not an immediate neighbor. Neither P nor A face outside.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1058,9 +1008,7 @@
       "direction_id": "d010",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons A, B, C, D, E, F, G and H are working in a company in three different departments – Production, Management and Finance on two posts – Manager and General Manager but not necessarily in the same order. All they have different ages in the whole number. E’s age is twice of C’s age. A is 53 years old and working in production. The persons whose total age is 100 years are working in Finance as General Manager. F is working in Production. B is working in management but not with D and posts of B and D are different. Both H and G are working at same post but not in production department. Both H and F are working at different post. Not more than two persons working on same post in same department. Both E and A working in same department but at different post. Both A and D work in different post. Sum of the ages of C and G is 64 years. Both C and D are manager but in different departments but not in the production. E is 12 years older to F and 12 years younger to H. Difference between the age of C and D is equal to H’s age. B is 30 years old and its age is half the H’s age. out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1085,9 +1033,7 @@
       "direction_id": "d010",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons A, B, C, D, E, F, G and H are working in a company in three different departments – Production, Management and Finance on two posts – Manager and General Manager but not necessarily in the same order. All they have different ages in the whole number. E’s age is twice of C’s age. A is 53 years old and working in production. The persons whose total age is 100 years are working in Finance as General Manager. F is working in Production. B is working in management but not with D and posts of B and D are different. Both H and G are working at same post but not in production department. Both H and F are working at different post. Not more than two persons working on same post in same department. Both E and A working in same department but at different post. Both A and D work in different post. Sum of the ages of C and G is 64 years. Both C and D are manager but in different departments but not in the production. E is 12 years older to F and 12 years younger to H. Difference between the age of C and D is equal to H’s age. B is 30 years old and its age is half the H’s age. out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1126,7 +1072,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q045",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 45,
-      "stem": "Which of the followings is not in the line with the",
+      "stem": "Which of the followings is not in the line with the passage? (I) Kalanick’s resignation came under the pressure of",
       "options": {},
       "direction_id": null,
       "direction_text": null,
@@ -1151,14 +1097,12 @@
         "b": "D-84",
         "c": "G-40",
         "d": "C-36",
-        "e": "B-30 passage? (I) Kalanick’s resignation came under the pressure of"
+        "e": "B-30"
       },
       "direction_id": "d010",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons A, B, C, D, E, F, G and H are working in a company in three different departments – Production, Management and Finance on two posts – Manager and General Manager but not necessarily in the same order. All they have different ages in the whole number. E’s age is twice of C’s age. A is 53 years old and working in production. The persons whose total age is 100 years are working in Finance as General Manager. F is working in Production. B is working in management but not with D and posts of B and D are different. Both H and G are working at same post but not in production department. Both H and F are working at different post. Not more than two persons working on same post in same department. Both E and A working in same department but at different post. Both A and D work in different post. Sum of the ages of C and G is 64 years. Both C and D are manager but in different departments but not in the production. E is 12 years older to F and 12 years younger to H. Difference between the age of C and D is equal to H’s age. B is 30 years old and its age is half the H’s age. out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1183,9 +1127,7 @@
       "direction_id": "d010",
       "direction_text": "Study the following information carefully and answer the given questions. Eight persons A, B, C, D, E, F, G and H are working in a company in three different departments – Production, Management and Finance on two posts – Manager and General Manager but not necessarily in the same order. All they have different ages in the whole number. E’s age is twice of C’s age. A is 53 years old and working in production. The persons whose total age is 100 years are working in Finance as General Manager. F is working in Production. B is working in management but not with D and posts of B and D are different. Both H and G are working at same post but not in production department. Both H and F are working at different post. Not more than two persons working on same post in same department. Both E and A working in same department but at different post. Both A and D work in different post. Sum of the ages of C and G is 64 years. Both C and D are manager but in different departments but not in the production. E is 12 years older to F and 12 years younger to H. Difference between the age of C and D is equal to H’s age. B is 30 years old and its age is half the H’s age. out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "PO",
       "exam_type": "Mains",
@@ -1448,7 +1390,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q056",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 56,
-      "stem": "If wrong term in series II is ‘N’, then which statement 𝑁 30 + 1)? (i) It’s a prime number. (ii) Sum of the digits is less than 9. (iii) It’s a nearest multiple of 5 and its remainder is 4.",
+      "stem": "If wrong term in series II is ‘N’, then which statement is true about ( 𝑁 30 + 1)? (i) It’s a prime number. (ii) Sum of the digits is less than 9. (iii) It’s a nearest multiple of 5 and its remainder is 4.",
       "options": {
         "a": "Only (ii) and (iii) follow",
         "b": "Only (i) and (ii) follow",
@@ -1482,7 +1424,7 @@
         "e": "4800"
       },
       "direction_id": "d015",
-      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. is true about ( Note – ‘NA’ means some vales are missing which you have to calculate if required.",
+      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. Note – ‘NA’ means some vales are missing which you have to calculate if required.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1507,7 +1449,7 @@
         "e": "200"
       },
       "direction_id": "d015",
-      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. is true about ( Note – ‘NA’ means some vales are missing which you have to calculate if required.",
+      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. Note – ‘NA’ means some vales are missing which you have to calculate if required.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1532,7 +1474,7 @@
         "e": "4 : 1"
       },
       "direction_id": "d015",
-      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. is true about ( Note – ‘NA’ means some vales are missing which you have to calculate if required.",
+      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. Note – ‘NA’ means some vales are missing which you have to calculate if required.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1557,7 +1499,7 @@
         "e": "2500"
       },
       "direction_id": "d015",
-      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. is true about ( Note – ‘NA’ means some vales are missing which you have to calculate if required.",
+      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. Note – ‘NA’ means some vales are missing which you have to calculate if required.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1582,7 +1524,7 @@
         "e": "80"
       },
       "direction_id": "d015",
-      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. is true about ( Note – ‘NA’ means some vales are missing which you have to calculate if required.",
+      "direction_text": "Table given below shows percentage of total literate population of five (A, B, C, D & E) villages, literate male, illiterate male and total female (literate + illiterate). Read the data carefully and answer the questions. Note – ‘NA’ means some vales are missing which you have to calculate if required.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1707,7 +1649,7 @@
         "e": "18"
       },
       "direction_id": "d017",
-      "direction_text": "The distance (in km) between the home and shop in numerical value is equal to seven more than 3 𝑟𝑑 of square root of 11 𝑡ℎ of the capacity of the cylindrical jar and the speed of the man is four times of the time taken by him to reach the shop.",
+      "direction_text": "The distance (in km) between the home and shop in numerical value is equal to seven more 3 𝑟𝑑 of square root of than 11 𝑡ℎ of the capacity of the cylindrical jar and the speed of the man is four times of the time taken by him to reach the shop.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1732,7 +1674,7 @@
         "e": "4"
       },
       "direction_id": "d017",
-      "direction_text": "The distance (in km) between the home and shop in numerical value is equal to seven more than 3 𝑟𝑑 of square root of 11 𝑡ℎ of the capacity of the cylindrical jar and the speed of the man is four times of the time taken by him to reach the shop.",
+      "direction_text": "The distance (in km) between the home and shop in numerical value is equal to seven more 3 𝑟𝑑 of square root of than 11 𝑡ℎ of the capacity of the cylindrical jar and the speed of the man is four times of the time taken by him to reach the shop.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1810,7 +1752,7 @@
       "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1837,7 +1779,7 @@
       "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1864,7 +1806,7 @@
       "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1879,31 +1821,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q073",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 73,
-      "stem": "The ratio of total male managers in company F to total",
-      "options": {
-        "d": "48",
-        "e": "58"
-      },
-      "direction_id": "d019",
-      "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q075",
-      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
-      "q_num": 75,
-      "stem": "The difference between total male managers in female managers in same company is 7 : 2. Find the number of total employee (Non managers) in company F?",
+      "stem": "The ratio of total male managers in company F to total female managers in same company is 7 : 2. Find the number of total employee (Non managers) in company F?",
       "options": {
         "a": "363",
         "b": "349",
@@ -1915,7 +1833,7 @@
       "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1930,19 +1848,46 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q074",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 74,
-      "stem": "If total number of Non managers employees in company E and the total female managers in company E is 50% of total female managers in that company, then find total number of employees in company E (male mangers are more than female managers in company E)?",
+      "stem": "If total number of Non managers employees in company D is 612, then find total number of male managers in company D?",
       "options": {
-        "a": "400",
-        "b": "300",
-        "c": "500",
-        "d": "600",
-        "e": "800 company D is 612, then find total number of male managers in company D?"
+        "a": "78",
+        "b": "88",
+        "c": "68",
+        "d": "48",
+        "e": "58"
       },
       "direction_id": "d019",
       "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
+      ],
+      "bank": "IBPS",
+      "role": "PO",
+      "exam_type": "Mains",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q075",
+      "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
+      "q_num": 75,
+      "stem": "The difference between total male managers in company E and the total female managers in company E is 50% of total female managers in that company, then find total number of employees in company E (male mangers are more than female managers in company E)?",
+      "options": {
+        "a": "400",
+        "b": "300",
+        "c": "500",
+        "d": "600",
+        "e": "800"
+      },
+      "direction_id": "d019",
+      "direction_text": "Line graph given below shows percentage of managers out of total employees in six (A, B, C, D, E & F) different companies and table shows number of female managers out of total managers in these six companies. Read the data carefully and answer the questions. A B C D E F % of managers out of total employees Companies Total number of female managers A B C D E F",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p9_d019_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1957,16 +1902,19 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q076",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 76,
-      "stem": "Find total butter cookies produced by company C is",
+      "stem": "Find total butter cookies produced by company C is how much less than the total butter cookies produced by company D?",
       "options": {
-        "d": "121°",
-        "e": "95.4°"
+        "a": "40",
+        "b": "60",
+        "c": "20",
+        "d": "80",
+        "e": "100"
       },
       "direction_id": "d020",
       "direction_text": "Pie chart (i) shows distribution of total cookies (butter + chocolate) produced by four different companies and pie chart (ii) shows distribution of total chocolate cookies produced by these four companies. Read the data carefully and answer the questions. Total cookies (Butter + Chocolate) produced 2N% N +5% N% N +20% A B C D Note – Total number of butter cookies produced by A and B is 110 & 30 respectively.",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -1981,7 +1929,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q079",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 79,
-      "stem": "Find the difference between total chocolate cookies how much less than the total butter cookies produced by company D? (a) 40 (b) 60 (c) 20 (d) 80 (e) 100 produced by company B and total butter cookies produced by company D?",
+      "stem": "Find the difference between total chocolate cookies produced by company B and total butter cookies produced by company D?",
       "options": {
         "a": "50",
         "b": "40",
@@ -1993,7 +1941,7 @@
       "direction_text": "Pie chart (i) shows distribution of total cookies (butter + chocolate) produced by four different companies and pie chart (ii) shows distribution of total chocolate cookies produced by these four companies. Read the data carefully and answer the questions. Total cookies (Butter + Chocolate) produced 2N% N +5% N% N +20% A B C D Note – Total number of butter cookies produced by A and B is 110 & 30 respectively.",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -2008,13 +1956,19 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q077",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 77,
-      "stem": "Find the ratio of total butter cookies produced by all",
-      "options": {},
+      "stem": "Find the ratio of total butter cookies produced by all four companies to total chocolate cookies produced by all four companies?",
+      "options": {
+        "a": "1 : 3",
+        "b": "2 : 3",
+        "c": "4 : 5",
+        "d": "2 : 5",
+        "e": "3 : 4"
+      },
       "direction_id": "d020",
       "direction_text": "Pie chart (i) shows distribution of total cookies (butter + chocolate) produced by four different companies and pie chart (ii) shows distribution of total chocolate cookies produced by these four companies. Read the data carefully and answer the questions. Total cookies (Butter + Chocolate) produced 2N% N +5% N% N +20% A B C D Note – Total number of butter cookies produced by A and B is 110 & 30 respectively.",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -2029,7 +1983,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q080",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 80,
-      "stem": "Company C & D sold 60% & 80% of total produced four companies to total chocolate cookies produced by all four companies? (a) 1 : 3 (b) 2 : 3 (c) 4 : 5 (d) 2 : 5 (e) 3 : 4 butter cookies respectively. If company C & D sold each butter cookies at Rs. 12 & Rs. 15 respectively, then find total revenue got by company C is what percent less than total revenue got by company D by selling these butter cookies?",
+      "stem": "Company C & D sold 60% & 80% of total produced butter cookies respectively. If company C & D sold each butter cookies at Rs. 12 & Rs. 15 respectively, then find total revenue got by company C is what percent less than total revenue got by company D by selling these butter cookies?",
       "options": {
         "a": "64%",
         "b": "44%",
@@ -2041,7 +1995,7 @@
       "direction_text": "Pie chart (i) shows distribution of total cookies (butter + chocolate) produced by four different companies and pie chart (ii) shows distribution of total chocolate cookies produced by these four companies. Read the data carefully and answer the questions. Total cookies (Butter + Chocolate) produced 2N% N +5% N% N +20% A B C D Note – Total number of butter cookies produced by A and B is 110 & 30 respectively.",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -2066,7 +2020,7 @@
       "direction_text": "Pie chart (i) shows distribution of total cookies (butter + chocolate) produced by four different companies and pie chart (ii) shows distribution of total chocolate cookies produced by these four companies. Read the data carefully and answer the questions. Total cookies (Butter + Chocolate) produced 2N% N +5% N% N +20% A B C D Note – Total number of butter cookies produced by A and B is 110 & 30 respectively.",
       "direction_has_image": true,
       "direction_image_refs": [
-        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_0.png"
+        "_assets/ibps_po_2020_mains_unknown_shift_14a55cbe/p10_d020_band.png"
       ],
       "bank": "IBPS",
       "role": "PO",
@@ -2867,7 +2821,7 @@
       "q_id": "ibps_po_2020_mains_unknown_shift_14a55cbe::q113",
       "paper_id": "ibps_po_2020_mains_unknown_shift_14a55cbe",
       "q_num": 113,
-      "stem": "The internal and concurrent audit system of banks is presidency was very different from what he had promised during his run for election. (e) None of these intended to red _____________ risks in real time, but has failed and must be _____________ up.",
+      "stem": "The internal and concurrent audit system of banks is intended to red _____________ risks in real time, but has failed and must be _____________ up.",
       "options": {
         "a": "hood, kept",
         "b": "flag, shored",
@@ -2922,7 +2876,8 @@
         "a": "What the president had achieved during his presidency was a much crucial system of what he had promised during his run for election.",
         "b": "What the president had achieved during his presidency was much allied with what he had promised during his run for election.",
         "c": "What the president had achieved during his presidency was a pre-requisite for what he had promised during his run for election.",
-        "d": "What the president had achieved during his"
+        "d": "What the president had achieved during his presidency was very different from what he had promised during his run for election.",
+        "e": "None of these"
       },
       "direction_id": "d029",
       "direction_text": "In the following questions a part of the sentence is given in bold, it is then followed by four sentences which try to explain the meaning of the idiom/phrase given in bold. Choose the alternative from the four given below each question which explains the meaning of the phrase correctly without altering the meaning of the sentence given as question. If none of the sentences explain the meaning of the highlighted phrase, choose option (E) i.e.: ‘’none of these’’ as your answer choice.",

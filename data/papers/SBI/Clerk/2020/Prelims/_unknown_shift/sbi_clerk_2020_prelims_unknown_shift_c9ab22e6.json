@@ -14,10 +14,7 @@
   "memory_based": false,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [
-    "figure_crops:5",
-    "assets_exported:5"
-  ],
+  "parse_notes": [],
   "question_count": 35,
   "questions": [
     {
@@ -81,55 +78,7 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q009",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 9,
-      "stem": "What is the code for “both” in the given code There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A.",
-      "options": {},
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d002_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q001",
-      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
-      "q_num": 1,
-      "stem": "How many persons are junior to H?",
-      "options": {
-        "a": "None",
-        "b": "One",
-        "c": "More than four",
-        "d": "Four",
-        "e": "Three"
-      },
-      "direction_id": "d001",
-      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d001_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q002",
-      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
-      "q_num": 2,
-      "stem": "Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H language?",
+      "stem": "What is the code for “both” in the given code language?",
       "options": {
         "a": "ox",
         "b": "sq",
@@ -137,12 +86,10 @@
         "d": "ot",
         "e": "Either"
       },
-      "direction_id": "d001",
-      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -156,67 +103,17 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q010",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 10,
-      "stem": "What is the code for “house” in the given code",
-      "options": {},
-      "direction_id": "d002",
-      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d002_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q003",
-      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
-      "q_num": 3,
-      "stem": "How many designation gaps are between A and D?",
-      "options": {
-        "a": "More than three",
-        "b": "Two",
-        "c": "Three",
-        "d": "One",
-        "e": "None"
-      },
-      "direction_id": "d001",
-      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d001_0.png"
-      ],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q004",
-      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
-      "q_num": 4,
-      "stem": "Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these language?",
+      "stem": "What is the code for “house” in the given code language?",
       "options": {
         "a": "ol",
         "b": "ox",
         "c": "gp",
         "d": "Either"
       },
-      "direction_id": "d001",
-      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_id": "d002",
+      "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -241,9 +138,7 @@
       "direction_id": "d002",
       "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -257,14 +152,118 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q012",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 12,
-      "stem": "What may be the possible code for “both house” in the",
-      "options": {},
+      "stem": "What may be the possible code for “both house” in the given code language?",
+      "options": {
+        "a": "gp mt",
+        "b": "mt nk",
+        "c": "mt sq",
+        "d": "ox mt",
+        "e": "gp sq"
+      },
       "direction_id": "d002",
       "direction_text": "Study the following information carefully and answer the questions given below: In a certain code language: “Club house near located” is coded as “ol gp ox ot” “both club view near” is coded as “mt ox sq ot” “make located house view” is coded as “nk ol gp sq” “near club view area” is coded as “ot ox sq tm”",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q001",
+      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+      "q_num": 1,
+      "stem": "How many persons are junior to H?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "More than four",
+        "d": "Four",
+        "e": "Three"
+      },
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q002",
+      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+      "q_num": 2,
+      "stem": "Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group?",
+      "options": {
+        "a": "A-F",
+        "b": "B-A",
+        "c": "H-D",
+        "d": "G-A",
+        "e": "E-H"
+      },
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q003",
+      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+      "q_num": 3,
+      "stem": "How many designation gaps are between A and D?",
+      "options": {
+        "a": "More than three",
+        "b": "Two",
+        "c": "Three",
+        "d": "One",
+        "e": "None"
+      },
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q004",
+      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+      "q_num": 4,
+      "stem": "Who among the following is just senior to B?",
+      "options": {
+        "a": "A",
+        "b": "D",
+        "c": "C",
+        "d": "E",
+        "e": "None of these"
+      },
+      "direction_id": "d001",
+      "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -289,9 +288,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 6. Statements: Some Banana are Orange. All Orange are Apple. Conclusions: I. Some Banana are not Apple. II. Some Orange are Banana. 7. Statements: Only a few East are North. Few North are South. All South are West. Conclusions: I. All East being North is a possibility. II. Some East are West. 8. Statements: Only a few Song are Melody. Only a few Melody are Film. No Film is Award. Conclusions: I. All Song being Film is a possibility. II. Some Melody are not Award.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -305,16 +302,18 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q013",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 13,
-      "stem": "Who among the following sits to the immediate left of",
+      "stem": "Who among the following sits to the immediate left of C?",
       "options": {
-        "b": "G sits third to the left of F. A is not an immediate neighbour of F."
+        "a": "G",
+        "b": "D",
+        "c": "F",
+        "d": "H",
+        "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of",
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of B. G sits third to the left of F. A is not an immediate neighbour of F. There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A. 1. How many persons are junior to H? (a) None (b) One (c) More than four (d) Four (e) Three 2. Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H 3. How many designation gaps are between A and D? (a) More than three (b) Two (c) Three (d) One (e) None 4. Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these 5. Who among the following is AGM?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -328,7 +327,7 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q021",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 21,
-      "stem": "What is the sum of the 3rd digit of second number C? (a) G (b) D (c) F (d) H (e) None of these from left and 2nd digit of third number from right?",
+      "stem": "What is the sum of the 3rd digit of second number from left and 2nd digit of third number from right?",
       "options": {
         "a": "10",
         "b": "15",
@@ -361,12 +360,10 @@
         "d": "D",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of",
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of B. G sits third to the left of F. A is not an immediate neighbour of F. There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A. 1. How many persons are junior to H? (a) None (b) One (c) More than four (d) Four (e) Three 2. Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H 3. How many designation gaps are between A and D? (a) More than three (b) Two (c) Three (d) One (e) None 4. Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these 5. Who among the following is AGM?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -413,12 +410,10 @@
         "d": "Four",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of",
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of B. G sits third to the left of F. A is not an immediate neighbour of F. There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A. 1. How many persons are junior to H? (a) None (b) One (c) More than four (d) Four (e) Three 2. Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H 3. How many designation gaps are between A and D? (a) More than three (b) Two (c) Three (d) One (e) None 4. Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these 5. Who among the following is AGM?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -465,12 +460,10 @@
         "d": "Two",
         "e": "None of these"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of",
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of B. G sits third to the left of F. A is not an immediate neighbour of F. There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A. 1. How many persons are junior to H? (a) None (b) One (c) More than four (d) Four (e) Three 2. Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H 3. How many designation gaps are between A and D? (a) More than three (b) Two (c) Three (d) One (e) None 4. Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these 5. Who among the following is AGM?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -516,12 +509,10 @@
         "c": "Third to the right",
         "d": "Both"
       },
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of",
+      "direction_id": "d003",
+      "direction_text": "Study the following information carefully and answer the questions given below: There are eight persons A, B, C, D, E, F, G and H sitting around a circular table facing towards the centre of the table but not necessarily in the same order. B sits third to the right of A. Only one person sits between B and D. E faces C who is not an immediate neighbour of B. G sits third to the left of F. A is not an immediate neighbour of F. There are eight employees of a company and all of them are working on eight different designation of a bank viz. Chairman, CFO, GM, DGM, AGM, Manager, Junior Manager and Clerk. All the designations given are to be considered in a given order (as Chairman is considered as Senior- most and Clerk is considered as the Junior-most). Only two persons are senior to B. One designation lies between B and G. The number of persons junior to G is same as the number of persons senior to C. H is just senior to E, but junior to C. More than four designations lie between H and F. D is junior to A. 1. How many persons are junior to H? (a) None (b) One (c) More than four (d) Four (e) Three 2. Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group? (a) A-F (b) B-A (c) H-D (d) G-A (e) E-H 3. How many designation gaps are between A and D? (a) More than three (b) Two (c) Three (d) One (e) None 4. Who among the following is just senior to B? (a) A (b) D (c) C (d) E (e) None of these 5. Who among the following is AGM?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -585,20 +576,18 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q018",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 18,
-      "stem": "What is the direction of point F with respect to point",
+      "stem": "What is the direction of point F with respect to point P?",
       "options": {
-        "a": "Three",
-        "b": "Two",
-        "c": "One",
-        "d": "Four",
-        "e": "None of these Point E is in 15m north of Point D. Point F is in 20m north of Point C. Point A is in 35m east of Point F. Point P is in 25m south of Point A. Point E is in 20m east of Point P."
+        "a": "North-west",
+        "b": "North-east",
+        "c": "South-west",
+        "d": "South-east",
+        "e": "North"
       },
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: 26. How many such numerals are there in the number ‘645903287’ which will remain at the same position when arranged in ascending order from left to right?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -612,7 +601,7 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q027",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 27,
-      "stem": "If it is possible to make only one meaningful word P? (a) North-west (b) North-east (c) South-west (d) South-east (e) North with the 1st, 3rd, 5th and 11th letters of the word ‘INHERITENCE’, which would be the third letter of the word from the left? If more than one such word can be formed give ‘Y’ as the answer. If no such word can be formed, give ‘Z’ as your answer.",
+      "stem": "If it is possible to make only one meaningful word with the 1st, 3rd, 5th and 11th letters of the word ‘INHERITENCE’, which would be the third letter of the word from the left? If more than one such word can be formed give ‘Y’ as the answer. If no such word can be formed, give ‘Z’ as your answer.",
       "options": {
         "a": "Y",
         "b": "R",
@@ -648,9 +637,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: 26. How many such numerals are there in the number ‘645903287’ which will remain at the same position when arranged in ascending order from left to right?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -664,20 +651,18 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q020",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 20,
-      "stem": "If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
+      "stem": "If point X is 20m south of point C, then what is the total distance between point X and point D?",
       "options": {
         "a": "40m",
         "b": "35m",
         "c": "55m",
         "d": "65m",
-        "e": "85m"
+        "e": "85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E."
       },
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: 26. How many such numerals are there in the number ‘645903287’ which will remain at the same position when arranged in ascending order from left to right?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p2_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -700,11 +685,9 @@
         "e": "None of these"
       },
       "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
+      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the total distance between point X and point D? (a) 40m (b) 35m (c) 55m (d) 65m (e) 85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -727,11 +710,9 @@
         "e": "None of these"
       },
       "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
+      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the total distance between point X and point D? (a) 40m (b) 35m (c) 55m (d) 65m (e) 85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -745,20 +726,43 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q030",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 30,
-      "stem": "If all the persons are arranged in alphabetical order",
+      "stem": "If all the persons are arranged in alphabetical order from left to right starting from A, then find how many persons remains at the same position (excluding A)?",
       "options": {
-        "a": "40m",
-        "b": "35m",
-        "c": "55m",
-        "d": "65m",
-        "e": "85m"
+        "a": "One",
+        "b": "None",
+        "c": "Two",
+        "d": "Four",
+        "e": "More than Four"
       },
       "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
+      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the total distance between point X and point D? (a) 40m (b) 35m (c) 55m (d) 65m (e) 85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q031",
+      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
+      "q_num": 31,
+      "stem": "Who among the following is buying exactly between D and F?",
+      "options": {
+        "a": "E",
+        "b": "B",
+        "c": "A",
+        "d": "H",
+        "e": "None of these"
+      },
+      "direction_id": "d006",
+      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the total distance between point X and point D? (a) 40m (b) 35m (c) 55m (d) 65m (e) 85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E.",
+      "direction_has_image": true,
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -781,11 +785,9 @@
         "e": "Two"
       },
       "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
+      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the total distance between point X and point D? (a) 40m (b) 35m (c) 55m (d) 65m (e) 85m Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -849,45 +851,18 @@
       "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q035",
       "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
       "q_num": 35,
-      "stem": "Statements: O > P = G > B ≥ X = M ≤ H Conclusions: I. G > X II. O > M from left to right starting from A, then find how many persons remains at the same position (excluding A)?",
+      "stem": "Statements: O > P = G > B ≥ X = M ≤ H Conclusions: I. G > X II. O > M",
       "options": {
-        "a": "One",
-        "b": "None",
-        "c": "Two",
-        "d": "Four",
-        "e": "More than Four"
+        "a": "If only conclusion I follows.",
+        "b": "If only conclusion II follows.",
+        "c": "If either conclusion I or II follows.",
+        "d": "If neither conclusion I nor II follows.",
+        "e": "If both conclusion I and II follows."
       },
       "direction_id": "d008",
       "direction_text": "In each of the question, relationships between some elements are shown in the statements. These statements are followed by conclusions numbered I and II. Read the statements and give the answer. (a) If only conclusion I follows. (b) If only conclusion II follows. (c) If either conclusion I or II follows. (d) If neither conclusion I nor II follows. (e) If both conclusion I and II follows.",
       "direction_has_image": false,
       "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6::q031",
-      "paper_id": "sbi_clerk_2020_prelims_unknown_shift_c9ab22e6",
-      "q_num": 31,
-      "stem": "Who among the following is buying exactly between D and F?",
-      "options": {
-        "a": "E",
-        "b": "B",
-        "c": "A",
-        "d": "H",
-        "e": "None of these"
-      },
-      "direction_id": "d006",
-      "direction_text": "Study the following information carefully and answer the questions given below: 20. If point X is 20m south of point C, then what is the Eight persons A, B, C, D, E, F, G and H are buying some products one after another but not necessarily in the same order. At most two persons are buying products before F. Only one person is buying between D and F. C is buying just before H. One person is buying between C and D. A is buying just before E. B is buying before G and after E. total distance between point X and point D?",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2020_prelims_unknown_shift_c9ab22e6/p3_d006_0.png"
-      ],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",

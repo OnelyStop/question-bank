@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:9",
-    "assets_exported:9"
+    "figure_crops:1",
+    "assets_exported:1"
   ],
   "question_count": 120,
   "questions": [
@@ -85,9 +85,7 @@
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. REASONING ABILITY",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -112,9 +110,7 @@
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. REASONING ABILITY",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -128,14 +124,18 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q003",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 3,
-      "stem": "Four of the following five are alike in a certain way",
-      "options": {},
+      "stem": "Four of the following five are alike in a certain way based on a group, which among the following does not belong to that group?",
+      "options": {
+        "a": "R",
+        "b": "T",
+        "c": "B",
+        "d": "C",
+        "e": "A"
+      },
       "direction_id": "d001",
       "direction_text": "Read the following information carefully and answer the following questions. REASONING ABILITY",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -149,13 +149,13 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q006",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 6,
-      "stem": "Statement: O > M =T>B>S=F, F>W<Q=U>Z Conclusions: I. F < O II. O ≤B III.S < U IV.O > W (a) Only I follow (b) Only I and IV follow (c) Only III and IV follow (d) Only II follows (e) Only I and III follow based on a group, which among the following does not belong to that group?",
+      "stem": "Statement: O > M =T>B>S=F, F>W<Q=U>Z Conclusions: I. F < O II. O ≤B III.S < U IV.O > W",
       "options": {
-        "a": "R",
-        "b": "T",
-        "c": "B",
-        "d": "C",
-        "e": "A"
+        "a": "Only I follow",
+        "b": "Only I and IV follow",
+        "c": "Only III and IV follow",
+        "d": "Only II follows",
+        "e": "Only I and III follow"
       },
       "direction_id": "d002",
       "direction_text": "In these questions, relationship between different elements is shown in the statements. These statements are followed by three/four conclusions. Read the statements and then decide which of the following conclusions follow from the given statements. Twelve persons are sitting in two parallel rows containing six persons each in a way that there is an equal distance between two adjacent persons. A, B, C, D, E, F sits in row 1 and faces north, P, Q, R, S, T, U sits in row 2 and faces south but not necessarily in the same order. Therefore, in this arrangement each member seated in a row faces another member of the other row.",
@@ -324,28 +324,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q013",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 13,
-      "stem": "If F is taller than A and the sum of height of A and E is",
-      "options": {},
-      "direction_id": "d004",
-      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons A, B, C, D, E, F, G, and H have different heights. B is taller than only one person. D is taller than E but shorter than A. The second tallest person height is 175cm. C is taller than A and F. F’s height is 170cm.E is taller than G. The third shortest person height is 160cm. C is not the one who is tallest.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p4_d004_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q016",
-      "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
-      "q_num": 16,
-      "stem": "Statement: ‘Several labour and industrial courts in this State have no proper premises. Vacancies of judges and stenos are kept pending.’ – A statement of a retired judge of State X. Assumptions: I. Adequate number of staff and judges helps in the 325cm, then what can be the possible height of D?",
+      "stem": "If F is taller than A and the sum of height of A and E is 325cm, then what can be the possible height of D?",
       "options": {
         "a": "165cm",
         "b": "152cm",
@@ -353,9 +332,9 @@
         "d": "161cm",
         "e": "None of these"
       },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
+      "direction_id": "d004",
+      "direction_text": "Study the following information carefully and answer the questions given below: Eight persons A, B, C, D, E, F, G, and H have different heights. B is taller than only one person. D is taller than E but shorter than A. The second tallest person height is 175cm. C is taller than A and F. F’s height is 170cm.E is taller than G. The third shortest person height is 160cm. C is not the one who is tallest.",
+      "direction_has_image": true,
       "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
@@ -370,7 +349,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q014",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 14,
-      "stem": "If the Sum of height of C and H is 360cm and the sum of efficiency of its employees. (a) Only I and III are implicit (b) Only II is implicit (c) Only II and III are implicit (d) All I, II and III are implicit (e) None of these height of G and E is 325 cm, then what will be the sum of height of H and G?",
+      "stem": "If the Sum of height of C and H is 360cm and the sum of height of G and E is 325 cm, then what will be the sum of height of H and G?",
       "options": {
         "a": "355cm",
         "b": "350cm",
@@ -380,9 +359,7 @@
       "direction_id": "d004",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight persons A, B, C, D, E, F, G, and H have different heights. B is taller than only one person. D is taller than E but shorter than A. The second tallest person height is 175cm. C is taller than A and F. F’s height is 170cm.E is taller than G. The third shortest person height is 160cm. C is not the one who is tallest.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p4_d004_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -396,8 +373,33 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q015",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 15,
-      "stem": "Statement: “If you are intelligent, we are the right",
+      "stem": "Statement: “If you are intelligent, we are the right people for improving your performance.” – An advertisement of a coaching institute. Assumptions: I. Brilliant students prefer to join coaching classes. II. Coaching classes help the students to improve",
       "options": {},
+      "direction_id": "d005",
+      "direction_text": "In the following question a statement is given followed by three assumptions numbered as I, II and III. You have to read all the statements and decide which of the assumptions follows the mentioned in statement.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2020,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q016",
+      "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
+      "q_num": 16,
+      "stem": "Statement: ‘Several labour and industrial courts in this State have no proper premises. Vacancies of judges and stenos are kept pending.’ – A statement of a retired judge of State X. Assumptions: I. Adequate number of staff and judges helps in the efficiency of its employees.",
+      "options": {
+        "a": "Only I and III are implicit",
+        "b": "Only II is implicit",
+        "c": "Only II and III are implicit",
+        "d": "All I, II and III are implicit",
+        "e": "None of these"
+      },
       "direction_id": "d005",
       "direction_text": "In the following question a statement is given followed by three assumptions numbered as I, II and III. You have to read all the statements and decide which of the assumptions follows the mentioned in statement.",
       "direction_has_image": false,
@@ -424,7 +426,7 @@
         "e": "None of these"
       },
       "direction_id": "d006",
-      "direction_text": "Read the information carefully and answer the following questions. Seven poles namely A, B, C, D, E, F, and G are installed in a society for electric wires. Pole D is 5m to the east of Pole A. Pole F is 8m to the west of Pole B, which is 15m south of Pole D. Pole E is 3m west of Pole A. Pole C is 15m to the east of Pole G, which is 12 m north of Pole A. people for improving your performance.” – An advertisement of a coaching institute. Assumptions: I. Brilliant students prefer to join coaching classes. II. Coaching classes help the students to improve",
+      "direction_text": "Read the information carefully and answer the following questions. Seven poles namely A, B, C, D, E, F, and G are installed in a society for electric wires. Pole D is 5m to the east of Pole A. Pole F is 8m to the west of Pole B, which is 15m south of Pole D. Pole E is 3m west of Pole A. Pole C is 15m to the east of Pole G, which is 12 m north of Pole A.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -449,7 +451,7 @@
         "e": "None of the above"
       },
       "direction_id": "d006",
-      "direction_text": "Read the information carefully and answer the following questions. Seven poles namely A, B, C, D, E, F, and G are installed in a society for electric wires. Pole D is 5m to the east of Pole A. Pole F is 8m to the west of Pole B, which is 15m south of Pole D. Pole E is 3m west of Pole A. Pole C is 15m to the east of Pole G, which is 12 m north of Pole A. people for improving your performance.” – An advertisement of a coaching institute. Assumptions: I. Brilliant students prefer to join coaching classes. II. Coaching classes help the students to improve",
+      "direction_text": "Read the information carefully and answer the following questions. Seven poles namely A, B, C, D, E, F, and G are installed in a society for electric wires. Pole D is 5m to the east of Pole A. Pole F is 8m to the west of Pole B, which is 15m south of Pole D. Pole E is 3m west of Pole A. Pole C is 15m to the east of Pole G, which is 12 m north of Pole A.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -476,9 +478,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight persons A, B, C, D, E, F, G, and H are members of a family consisting of three generations and two married couples. Both H and B are male and C is the only brother of E, who is granddaughter of H. Neither A nor B is married to H, who has two children and one of them is unmarried. G is the paternal aunt of F, who is married to the mother of C.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -503,9 +503,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight persons A, B, C, D, E, F, G, and H are members of a family consisting of three generations and two married couples. Both H and B are male and C is the only brother of E, who is granddaughter of H. Neither A nor B is married to H, who has two children and one of them is unmarried. G is the paternal aunt of F, who is married to the mother of C.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p4_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -530,9 +528,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes P, Q, R, S, T, A, B, and C are kept one above another, each box contains different products viz. Shampoo, Soaps, Detergent, Oils, Creams, Spices, Biscuits and Toffees but not necessarily in the same order. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept above the box of oils. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Three boxes are kept between Box A, which doesn’t contain Spices and Creams and Box P, which doesn’t contain Biscuits and Toffee. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which doesn’t contains Soaps and Spices.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -557,9 +553,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes P, Q, R, S, T, A, B, and C are kept one above another, each box contains different products viz. Shampoo, Soaps, Detergent, Oils, Creams, Spices, Biscuits and Toffees but not necessarily in the same order. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept above the box of oils. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Three boxes are kept between Box A, which doesn’t contain Spices and Creams and Box P, which doesn’t contain Biscuits and Toffee. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which doesn’t contains Soaps and Spices.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -584,9 +578,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes P, Q, R, S, T, A, B, and C are kept one above another, each box contains different products viz. Shampoo, Soaps, Detergent, Oils, Creams, Spices, Biscuits and Toffees but not necessarily in the same order. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept above the box of oils. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Three boxes are kept between Box A, which doesn’t contain Spices and Creams and Box P, which doesn’t contain Biscuits and Toffee. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which doesn’t contains Soaps and Spices.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -611,9 +603,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes P, Q, R, S, T, A, B, and C are kept one above another, each box contains different products viz. Shampoo, Soaps, Detergent, Oils, Creams, Spices, Biscuits and Toffees but not necessarily in the same order. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept above the box of oils. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Three boxes are kept between Box A, which doesn’t contain Spices and Creams and Box P, which doesn’t contain Biscuits and Toffee. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which doesn’t contains Soaps and Spices.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -638,9 +628,7 @@
       "direction_id": "d008",
       "direction_text": "Study the following information carefully and answer the questions given below: Eight boxes P, Q, R, S, T, A, B, and C are kept one above another, each box contains different products viz. Shampoo, Soaps, Detergent, Oils, Creams, Spices, Biscuits and Toffees but not necessarily in the same order. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept above the box of oils. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Three boxes are kept between Box A, which doesn’t contain Spices and Creams and Box P, which doesn’t contain Biscuits and Toffee. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which doesn’t contains Soaps and Spices.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -665,9 +653,7 @@
       "direction_id": "d009",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. they all have different age viz.15 years, 13 years, 35 years, 36 years, 60 years, 28 years, 72 years, and 59 years but not necessarily in the same order. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sit between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -692,9 +678,7 @@
       "direction_id": "d009",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. they all have different age viz.15 years, 13 years, 35 years, 36 years, 60 years, 28 years, 72 years, and 59 years but not necessarily in the same order. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sit between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -719,9 +703,7 @@
       "direction_id": "d009",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. they all have different age viz.15 years, 13 years, 35 years, 36 years, 60 years, 28 years, 72 years, and 59 years but not necessarily in the same order. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sit between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -746,9 +728,7 @@
       "direction_id": "d009",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. they all have different age viz.15 years, 13 years, 35 years, 36 years, 60 years, 28 years, 72 years, and 59 years but not necessarily in the same order. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sit between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -773,9 +753,7 @@
       "direction_id": "d009",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. they all have different age viz.15 years, 13 years, 35 years, 36 years, 60 years, 28 years, 72 years, and 59 years but not necessarily in the same order. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sit between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -825,9 +803,7 @@
       "direction_id": "d010",
       "direction_text": "Read the following information carefully and answer the following questions. Nine persons A, B, C, D, E, F, G, H, and I are born in nine different year viz. 1976, 1978, 1980, 1984, 1988, 1991, 1995, 2001, 2004 but not necessarily in the same order. (The age of persons will be calculated with respect to the year 2021.) They all have different occupation viz. Driver, Plumber, Carpenter, Painter, Singer, Nurse, Banker, Doctor, and Engineer but not necessarily in the same order. F is younger than G but older than H, who is not a nurse. The one whose age is 41 years is not a singer. The sum of age the plumber and C is 62 years. Only three persons are younger to B, who is a driver. The one who is the second oldest is Carpenter. D’s age is not 26 years. E was born in a year after B, but he was not born in a leap year. Only two persons was born between E and A. The sum of age of D and the one who is Doctor is 67 years. The difference between the age of Nurse and the carpenter is 6 years. A is not a Nurse. I was not born in 1984 and he is neither a plumber nor a carpenter. D is neither an Engineer nor a Banker. The sum of age of Painter and Singer is 61 years. A is not an Engineer.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -852,9 +828,7 @@
       "direction_id": "d010",
       "direction_text": "Read the following information carefully and answer the following questions. Nine persons A, B, C, D, E, F, G, H, and I are born in nine different year viz. 1976, 1978, 1980, 1984, 1988, 1991, 1995, 2001, 2004 but not necessarily in the same order. (The age of persons will be calculated with respect to the year 2021.) They all have different occupation viz. Driver, Plumber, Carpenter, Painter, Singer, Nurse, Banker, Doctor, and Engineer but not necessarily in the same order. F is younger than G but older than H, who is not a nurse. The one whose age is 41 years is not a singer. The sum of age the plumber and C is 62 years. Only three persons are younger to B, who is a driver. The one who is the second oldest is Carpenter. D’s age is not 26 years. E was born in a year after B, but he was not born in a leap year. Only two persons was born between E and A. The sum of age of D and the one who is Doctor is 67 years. The difference between the age of Nurse and the carpenter is 6 years. A is not a Nurse. I was not born in 1984 and he is neither a plumber nor a carpenter. D is neither an Engineer nor a Banker. The sum of age of Painter and Singer is 61 years. A is not an Engineer.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -879,9 +853,7 @@
       "direction_id": "d010",
       "direction_text": "Read the following information carefully and answer the following questions. Nine persons A, B, C, D, E, F, G, H, and I are born in nine different year viz. 1976, 1978, 1980, 1984, 1988, 1991, 1995, 2001, 2004 but not necessarily in the same order. (The age of persons will be calculated with respect to the year 2021.) They all have different occupation viz. Driver, Plumber, Carpenter, Painter, Singer, Nurse, Banker, Doctor, and Engineer but not necessarily in the same order. F is younger than G but older than H, who is not a nurse. The one whose age is 41 years is not a singer. The sum of age the plumber and C is 62 years. Only three persons are younger to B, who is a driver. The one who is the second oldest is Carpenter. D’s age is not 26 years. E was born in a year after B, but he was not born in a leap year. Only two persons was born between E and A. The sum of age of D and the one who is Doctor is 67 years. The difference between the age of Nurse and the carpenter is 6 years. A is not a Nurse. I was not born in 1984 and he is neither a plumber nor a carpenter. D is neither an Engineer nor a Banker. The sum of age of Painter and Singer is 61 years. A is not an Engineer.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -906,9 +878,7 @@
       "direction_id": "d010",
       "direction_text": "Read the following information carefully and answer the following questions. Nine persons A, B, C, D, E, F, G, H, and I are born in nine different year viz. 1976, 1978, 1980, 1984, 1988, 1991, 1995, 2001, 2004 but not necessarily in the same order. (The age of persons will be calculated with respect to the year 2021.) They all have different occupation viz. Driver, Plumber, Carpenter, Painter, Singer, Nurse, Banker, Doctor, and Engineer but not necessarily in the same order. F is younger than G but older than H, who is not a nurse. The one whose age is 41 years is not a singer. The sum of age the plumber and C is 62 years. Only three persons are younger to B, who is a driver. The one who is the second oldest is Carpenter. D’s age is not 26 years. E was born in a year after B, but he was not born in a leap year. Only two persons was born between E and A. The sum of age of D and the one who is Doctor is 67 years. The difference between the age of Nurse and the carpenter is 6 years. A is not a Nurse. I was not born in 1984 and he is neither a plumber nor a carpenter. D is neither an Engineer nor a Banker. The sum of age of Painter and Singer is 61 years. A is not an Engineer.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d010_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -933,9 +903,7 @@
       "direction_id": "d011",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, V, X, Y, and Z are sitting in a straight row such that some of them are facing north and some of them are facing south direction but not necessarily in the same order. They all have different amount of money with them viz. Rs29, Rs49, Rs64, Rs36, Rs71, Rs67, Rs.32, and Rs43 but not necessarily in the same order. Y and X faces the opposite direction as Z, who has 43 rupee. R has more money than P, who sits near to Q. X has less money than P. Immediate neighbor of X faces the same direction. Y does not sit near to V. The one who has the highest amount of money sits third to the left of V. Neither V nor the one who has highest amount of money sits at the corner. The immediate neighbor of the one who has highest money faces south direction. Three persons sits between the one who has Rs67 and the one who has the least amount of money and one of them sits at the right corner of the row. The one who has the least amount of money is not an immediate neighbor of the one who has the highest amount of money. V has 36ruppes. Q neither have the highest nor the lowest amount money. Z sits third to the right of Q. Y and X are immediate neighbors of Z. The number of persons sitting between Y and V is same as the number of persons sitting between V and S, who does not face south. The number of persons sitting to the left of V is same as the number of persons siting to the right of Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d011_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -959,9 +927,7 @@
       "direction_id": "d011",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, V, X, Y, and Z are sitting in a straight row such that some of them are facing north and some of them are facing south direction but not necessarily in the same order. They all have different amount of money with them viz. Rs29, Rs49, Rs64, Rs36, Rs71, Rs67, Rs.32, and Rs43 but not necessarily in the same order. Y and X faces the opposite direction as Z, who has 43 rupee. R has more money than P, who sits near to Q. X has less money than P. Immediate neighbor of X faces the same direction. Y does not sit near to V. The one who has the highest amount of money sits third to the left of V. Neither V nor the one who has highest amount of money sits at the corner. The immediate neighbor of the one who has highest money faces south direction. Three persons sits between the one who has Rs67 and the one who has the least amount of money and one of them sits at the right corner of the row. The one who has the least amount of money is not an immediate neighbor of the one who has the highest amount of money. V has 36ruppes. Q neither have the highest nor the lowest amount money. Z sits third to the right of Q. Y and X are immediate neighbors of Z. The number of persons sitting between Y and V is same as the number of persons sitting between V and S, who does not face south. The number of persons sitting to the left of V is same as the number of persons siting to the right of Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d011_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -986,9 +952,7 @@
       "direction_id": "d011",
       "direction_text": "Read the following information carefully and answer the following questions. Eight persons P, Q, R, S, V, X, Y, and Z are sitting in a straight row such that some of them are facing north and some of them are facing south direction but not necessarily in the same order. They all have different amount of money with them viz. Rs29, Rs49, Rs64, Rs36, Rs71, Rs67, Rs.32, and Rs43 but not necessarily in the same order. Y and X faces the opposite direction as Z, who has 43 rupee. R has more money than P, who sits near to Q. X has less money than P. Immediate neighbor of X faces the same direction. Y does not sit near to V. The one who has the highest amount of money sits third to the left of V. Neither V nor the one who has highest amount of money sits at the corner. The immediate neighbor of the one who has highest money faces south direction. Three persons sits between the one who has Rs67 and the one who has the least amount of money and one of them sits at the right corner of the row. The one who has the least amount of money is not an immediate neighbor of the one who has the highest amount of money. V has 36ruppes. Q neither have the highest nor the lowest amount money. Z sits third to the right of Q. Y and X are immediate neighbors of Z. The number of persons sitting between Y and V is same as the number of persons sitting between V and S, who does not face south. The number of persons sitting to the left of V is same as the number of persons siting to the right of Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p6_d011_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1027,13 +991,13 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q040",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 40,
-      "stem": "The argument about whether demonetization was of direct tax with respect to indirect tax.",
+      "stem": "The argument about whether demonetization was good or bad for the economy refuses to die down even a year after the event. While one can endlessly debate, with very little data, on whether the ban on high-value of direct tax with respect to indirect tax.",
       "options": {
         "a": "Only III",
         "b": "Both I and III",
         "c": "Both II and III",
         "d": "Only II",
-        "e": "None of these good or bad for the economy refuses to die down even a year after the event. While one can endlessly debate, with very little data, on whether the ban on high-value QUANTITATIVE APTITUDE"
+        "e": "None of these QUANTITATIVE APTITUDE"
       },
       "direction_id": null,
       "direction_text": null,
@@ -1376,7 +1340,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q054",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 54,
-      "stem": "The investment of A is 48% less than that of B. After 13 𝑡ℎ of the initial investment, B withdraws 50% of the initial investment and C makes an investment. If at the end of the year profit share of C is twice of the difference between profit share of A and B, then find investment of C is what percent of initial investment of B?",
+      "stem": "The investment of A is 48% less than that of B. After four months, A increases his investment by 13 𝑡ℎ of the initial investment, B withdraws 50% of the initial investment and C makes an investment. If at the end of the year profit share of C is twice of the difference between profit share of A and B, then find investment of C is what percent of initial investment of B?",
       "options": {
         "a": "24.5%",
         "b": "21%",
@@ -1401,7 +1365,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q055",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 55,
-      "stem": "A bag contains 18 number of balls out of which ____ are four months, A increases his investment by plastic balls and rest are leather balls. If the two balls are drawn from the bag at random, then the probability of getting a plastic and leather ball is ____. I.10, 80/153 II. 8, 40/153 III. 6, 8/17",
+      "stem": "A bag contains 18 number of balls out of which ____ are plastic balls and rest are leather balls. If the two balls are drawn from the bag at random, then the probability of getting a plastic and leather ball is ____. I.10, 80/153 II. 8, 40/153 III. 6, 8/17",
       "options": {
         "a": "All I, II and III",
         "b": "Only I and III",
@@ -1426,7 +1390,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q056",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 56,
-      "stem": "Find ratio of total people who have under graduate (in %) degree from C & D together to total illiterate people from A & E together?",
+      "stem": "Find ratio of total people who have under graduate degree from C & D together to total illiterate people from A & E together?",
       "options": {
         "a": "40 : 43",
         "b": "40 : 41",
@@ -1513,7 +1477,7 @@
         "b": "640",
         "c": "520",
         "d": "360",
-        "e": "480 Visit: adda247.com"
+        "e": "480 (in %) Visit: adda247.com"
       },
       "direction_id": "d014",
       "direction_text": "Given below pie chart shows percentage distribution of total literate people in five different villages and table shows percentage of literacy rate in these five villages out of total population and number of people who have post graduate degree. Read the data carefully and answer the questions. Total literate population = 6000 12% 20% 15% 28% 25% A B C D E Number of people Villages literacy rate who have post graduate degree A 60% B 75% C 80% D 60% E 50% Note: People who have under graduate degree in any village = (Total literate people – Number of people who have post graduate degree)",
@@ -1816,9 +1780,7 @@
       "direction_id": "d015",
       "direction_text": "The bar graph shows the number of students (in %) enrolled in two different courses out of three different courses in four different years of a coaching institution. Study the graph carefully to answer the following questions. Note - Total number of Student enrolled in all three-video course in any year = Students enrolled for (SSC + Banking + Railway) video course Banking has only two son and no daughter) and average age of family is 26.5 year, then find the age of wife. (a) 24 (b) 36 (c) 40 (d) 38 (e) 28 65. A mixture contains liquids P and Q in which Q is 125% more than P. If 52 liters of the mixture is taken out and replaced with another liquid R, concentration of liquid P in the final mixture becomes 20%. What is the quantity of liquid Q in the final mixture?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p10_d015_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1843,9 +1805,7 @@
       "direction_id": "d015",
       "direction_text": "The bar graph shows the number of students (in %) enrolled in two different courses out of three different courses in four different years of a coaching institution. Study the graph carefully to answer the following questions. Note - Total number of Student enrolled in all three-video course in any year = Students enrolled for (SSC + Banking + Railway) video course Banking has only two son and no daughter) and average age of family is 26.5 year, then find the age of wife. (a) 24 (b) 36 (c) 40 (d) 38 (e) 28 65. A mixture contains liquids P and Q in which Q is 125% more than P. If 52 liters of the mixture is taken out and replaced with another liquid R, concentration of liquid P in the final mixture becomes 20%. What is the quantity of liquid Q in the final mixture?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p10_d015_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1870,9 +1830,7 @@
       "direction_id": "d015",
       "direction_text": "The bar graph shows the number of students (in %) enrolled in two different courses out of three different courses in four different years of a coaching institution. Study the graph carefully to answer the following questions. Note - Total number of Student enrolled in all three-video course in any year = Students enrolled for (SSC + Banking + Railway) video course Banking has only two son and no daughter) and average age of family is 26.5 year, then find the age of wife. (a) 24 (b) 36 (c) 40 (d) 38 (e) 28 65. A mixture contains liquids P and Q in which Q is 125% more than P. If 52 liters of the mixture is taken out and replaced with another liquid R, concentration of liquid P in the final mixture becomes 20%. What is the quantity of liquid Q in the final mixture?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p10_d015_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1897,9 +1855,7 @@
       "direction_id": "d015",
       "direction_text": "The bar graph shows the number of students (in %) enrolled in two different courses out of three different courses in four different years of a coaching institution. Study the graph carefully to answer the following questions. Note - Total number of Student enrolled in all three-video course in any year = Students enrolled for (SSC + Banking + Railway) video course Banking has only two son and no daughter) and average age of family is 26.5 year, then find the age of wife. (a) 24 (b) 36 (c) 40 (d) 38 (e) 28 65. A mixture contains liquids P and Q in which Q is 125% more than P. If 52 liters of the mixture is taken out and replaced with another liquid R, concentration of liquid P in the final mixture becomes 20%. What is the quantity of liquid Q in the final mixture?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p10_d015_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1924,9 +1880,7 @@
       "direction_id": "d015",
       "direction_text": "The bar graph shows the number of students (in %) enrolled in two different courses out of three different courses in four different years of a coaching institution. Study the graph carefully to answer the following questions. Note - Total number of Student enrolled in all three-video course in any year = Students enrolled for (SSC + Banking + Railway) video course Banking has only two son and no daughter) and average age of family is 26.5 year, then find the age of wife. (a) 24 (b) 36 (c) 40 (d) 38 (e) 28 65. A mixture contains liquids P and Q in which Q is 125% more than P. If 52 liters of the mixture is taken out and replaced with another liquid R, concentration of liquid P in the final mixture becomes 20%. What is the quantity of liquid Q in the final mixture?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_mains_unknown_shift_4b76b057/p10_d015_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Mains",
@@ -1949,7 +1903,7 @@
         "e": "84"
       },
       "direction_id": "d017",
-      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio ENGLISH LANGUAGE",
+      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1974,7 +1928,7 @@
         "e": "185"
       },
       "direction_id": "d017",
-      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio ENGLISH LANGUAGE",
+      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1999,7 +1953,7 @@
         "e": "8 : 7"
       },
       "direction_id": "d017",
-      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio ENGLISH LANGUAGE",
+      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2024,7 +1978,7 @@
         "e": "290"
       },
       "direction_id": "d017",
-      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio ENGLISH LANGUAGE",
+      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2046,10 +2000,10 @@
         "b": "4 3 %",
         "c": "2 3 %",
         "d": "1 3 %",
-        "e": "8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work."
+        "e": "8 3 % ENGLISH LANGUAGE"
       },
       "direction_id": "d017",
-      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio ENGLISH LANGUAGE",
+      "direction_text": "Read the data carefully and answer the questions. In a college ‘A’ there is six streams i.e., Mechanical, CS, IT, Electronic, Electrical and Civil. Total number of students in IT is two times of that of total students in Civil, while ratio of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2074,7 +2028,7 @@
         "e": "Lack of white-collar jobs."
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2099,7 +2053,7 @@
         "e": "All of these."
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2124,7 +2078,7 @@
         "e": "Vocational and technical training, life skills and financial literacy programmes for women can be undertaken in a meaningful way without the involvement of industry."
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2149,7 +2103,7 @@
         "e": "Providing equal opportunities, education, and work, salary to both women & men will help to boost the economy. Visit: adda247.com"
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2165,16 +2119,16 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q085",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 85,
-      "stem": "As per the Economic Survey what are the various Results indicated that microfinance institutions were still sorely focusing on providing credit and credit facilities, which meant that it had positive effects on capital assets but not the overall welfare of entrepreneurs. The behaviours that programs influenced were also in relation to credit, and no other aspects of entrepreneurship like innovation and technology. reforms & programmes that can uplift women & thus help to boost GDP?",
+      "stem": "As per the Economic Survey what are the various reforms & programmes that can uplift women & thus help to boost GDP?",
       "options": {
-        "a": "Conducting vocational and technical training, life skills and financial literacy programmes for women.",
+        "a": "Conducting vocational and technical training, life Results indicated that microfinance institutions were still sorely focusing on providing credit and credit facilities, which meant that it had positive effects on capital assets but not the overall welfare of entrepreneurs. The behaviours that programs influenced were also in relation to credit, and no other aspects of entrepreneurship like innovation and technology. skills and financial literacy programmes for women.",
         "b": "Promote women entrepreneurs through microfinance, and bring their goods and services into supply chains.",
         "c": "Both a & b",
         "d": "Increase in maternity leave to 26 weeks, Therefore, it is important that Microfinance institutions focus on the primary objective of developmental finance. Financial institutions can invest in financial education programs across the globe. Educational Institutes promoting financial education can be sponsored and encouraged to increase the number of students. compulsory day care centres for children, equal wage policy for women.",
         "e": "All of these Financial education can help individuals everywhere take control of their financial situation, and improved spending habits, increased savings, investments for future requirements, children’s higher education, wise use of credit facilities, can all contribute towards growth and stability of the economy."
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2199,7 +2153,7 @@
         "e": "Sentiment"
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2224,7 +2178,7 @@
         "e": "Discouragement The role of financial institutions in providing financial education, not only to clients but also to their own staff, needs to be better defined and further promoted. More information is needed at both international and national levels on good programmes and practices and on ways to promote access to financial services. Sharing information on successful experiences can be helpful to all. Financial institutions as both beneficiaries of a financial literate society and custodians of various financial products have a role to play in the whole matrix of financial literacy."
       },
       "direction_id": "d018",
-      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% of total number of students in Mechanical to total students in IT is 2 : 3. The ratio of total number of students in CS to total number of students in civil is 8 : 9. Total students in Electrical is 120 more than total students in CS and total students in Electrical is 60 more than total students in electronic. Total number of students in Civil and Electronic is 400. 76. Find difference between total students in IT and total students in Electrical stream? (a) 64 (b) 56 (c) 52 (d) 80 (e) 84 77. In college ‘B’ there is only three streams i.e., CS, IT, Electronic. If total students in college ‘B’ is 720 and students in IT & Electronic is 20% and 25% more than that of total students in Mechanical & Civil stream of college ‘A’ respectively, then find total number of students in CS of college ‘B’? (a) 189 (b) 207 (c) 197 (d) 191 (e) 185 78. Find ratio between total students in CS to total students in electronic? (a) 8 : 13 (b) 8 : 15 (c) 8 : 11 (d) 8 : 9 (e) 8 : 7 79. Find the average numbers of students in Mechanical, Civil & IT stream? (a) 260 (b) 280 (c) 240 (d) 250 (e) 290 80. Total numbers of electronic students are what percent less than total Mechanical students? (a) 6 3 % (b) 4 3 % (c) 2 3 % (d) 1 3 % (e) 8 3 % respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
+      "direction_text": "Read the following passage carefully and answer the questions given below them. India has reached the Moon but it has failed to get its women out of homes. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. Inclusive growth and gender equality are important for any country to reach its full potential and achieve faster economic growth. India has been working towards becoming a $5- trillion economy, but it seems to do that minus its female population. According to the data released by the World Bank in June 2020, India’s female labour force participation (FLFP) is the lowest in South Asia. From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020, falling behind Pakistan and Afghanistan, which were at 22.2% and 21.8% respectively. In 1990, the FLFP in Pakistan and Afghanistan stood at 14% and 15% respectively. Visit: adda247.com The Economic Survey cites several reasons for the declining women workforce. One is that more women are going for higher education, delaying their entry into the labour market. Another is with rising wages in rural areas, women who were forced to contribute to household income to make ends meet are no longer expected to go out. Lack of job opportunities, gender pay parity, education, access to finance, and pressures from society are the major stumbling blocks for women. To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks, compulsory day care centres for children, equal wage policy amongst others. The private sector and business community will be crucial in helping bridge the gap between skills and jobs and enable access to decent work for women. Vocational and technical training, life skills and financial literacy programmes for women to help them develop marketable skills and better decision-making abilities cannot be undertaken in a meaningful way without the involvement of industry. Companies can also invest in women entrepreneurs through microfinance, and bring their goods and services into supply chains. Enhancing women’s access to the internet and ICT can create a merging market of connected women who can be linked to business opportunities. In addition, as employers, the private sector can invest in women’s security against violence at home and in public spaces, and take steps to ensure their mobility through inclusive transport. Giving women and girls the opportunity to succeed is not only the right thing to do but can also transform societies and economies. \"The economic facts speak for themselves: raising women's labour force participation to that of men can boost GDP, for example, by as much as 9 per cent in Japan and 27 per cent in India,\" as per the paper published by the World Economic Forum (WEF). Reducing gender gaps in employment as well as in education can help economies diversify their exports, while appointing more women onto banking supervision boards can challenge cosy group-think, thereby supporting greater bank stability and financial sector resilience. Yet, policy and legislative reforms can only do much. What is required is a change in mindset and cultural ethos that enable and empower women rather than bind them in the burden of household work.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2961,32 +2915,7 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q117",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 117,
-      "stem": "Amit Shah was scheduled (A)to take part via video",
-      "options": {
-        "a": "A-B",
-        "b": "Both A-B & C-D",
-        "c": "A-D",
-        "d": "Both A-C & B-D",
-        "e": "The sentence is correct"
-      },
-      "direction_id": "d025",
-      "direction_text": "In each of the questions given below four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is then select option",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q119",
-      "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
-      "q_num": 119,
-      "stem": "Heavy rise (A) on crude oil combined with a recent (B)uptick in international crude prices is responsible for this significant(C)price taxation(D). (a) A-B (b) B-C (c) Both A-D & B-C (d) C-D (e) The sentence is correct conferencing in the beneficiaries (B)for the programme (C)of over one lakh houses constructed(D) in Madhya Pradesh under the Pradhan Mantri Awas Yojana.",
+      "stem": "Amit Shah was scheduled (A)to take part via video conferencing in the beneficiaries (B)for the programme (C)of over one lakh houses constructed(D) in Madhya Pradesh under the Pradhan Mantri Awas Yojana.",
       "options": {
         "a": "A-B",
         "b": "B-C",
@@ -3011,9 +2940,38 @@
       "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q118",
       "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
       "q_num": 118,
-      "stem": "The map diverted (A) the total forest area shows (B)",
+      "stem": "The map diverted (A) the total forest area shows (B) for projects (C) and defence development (D)between 1991 and 2021.",
       "options": {
-        "e": "as your choice."
+        "a": "A-B",
+        "b": "Both A-B & C-D",
+        "c": "A-D",
+        "d": "Both A-C & B-D",
+        "e": "The sentence is correct"
+      },
+      "direction_id": "d025",
+      "direction_text": "In each of the questions given below four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is then select option",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2020,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057::q119",
+      "paper_id": "ibps_rrb_2020_mains_unknown_shift_4b76b057",
+      "q_num": 119,
+      "stem": "Heavy rise (A) on crude oil combined with a recent (B)uptick in international crude prices is responsible for this significant(C)price taxation(D).",
+      "options": {
+        "a": "A-B",
+        "b": "B-C",
+        "c": "Both A-D & B-C",
+        "d": "C-D",
+        "e": "The sentence is correct"
       },
       "direction_id": "d025",
       "direction_text": "In each of the questions given below four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is then select option",
@@ -3038,7 +2996,7 @@
         "b": "B-D",
         "c": "A-D",
         "d": "Both A-C & B-D",
-        "e": "The sentence is correct for projects (C) and defence development (D)between 1991 and 2021."
+        "e": "The sentence is correct"
       },
       "direction_id": "d025",
       "direction_text": "In each of the questions given below four words are given in bold. These four words may or may not be in their correct position. The sentence is then followed by options with the correct combination of words that should replace each other in order to make the sentence grammatically and contextually correct. Find the correct combination of the words that replace each other. If the sentence is correct as it is then select option",

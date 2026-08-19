@@ -15,8 +15,8 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_crops:7",
-    "assets_exported:7"
+    "figure_crops:1",
+    "assets_exported:1"
   ],
   "question_count": 80,
   "questions": [
@@ -110,9 +110,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 7. If all the numbers are removed from the given series, then which among the following element is seventh from the right end? (a) E (b) O (c) F (d) R (e) None of these Eight persons i.e. D, Q, G, H, K, S, E and W are sitting around a square table in such a way that four persons sit at the corner side of the table and other four persons sit in the middle side of the table. The persons who sit at the corner side are facing away from the center and the persons who sit in the middle side are facing towards the center. D sits at the corner side of the table. One person sits between D and G. Q sits third to the right of G. Three persons sit between Q and E. W sits second to the right of E. W is not an immediate neighbour of D. H sits second to the right of K. 8. If all the consonants are removed from the given series, then which among the following element is ninth from the left end? (a) 2 (b) O (c) 3 (d) 7 (e) None of these 9. Which among the following element is fifth to the left of twelfth element from the left end?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -126,14 +124,18 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q010",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 10,
-      "stem": "If the height of shortest person is 68 cm, then what may",
-      "options": {},
+      "stem": "If the height of shortest person is 68 cm, then what may be the height of B?",
+      "options": {
+        "a": "69 cm",
+        "b": "81 cm",
+        "c": "78 cm",
+        "d": "All the given heights",
+        "e": "None of these"
+      },
       "direction_id": "d002",
       "direction_text": "Study the following information carefully and answer the questions given below: Five persons A, B, C, D and E have different heights. Less than two persons are shorter than D. As many persons are taller than D as shorter than C. A is taller than B but shorter than E. B is not the shortest person. The height of third tallest person is 86 cm.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -158,9 +160,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 7. If all the numbers are removed from the given series, then which among the following element is seventh from the right end? (a) E (b) O (c) F (d) R (e) None of these Eight persons i.e. D, Q, G, H, K, S, E and W are sitting around a square table in such a way that four persons sit at the corner side of the table and other four persons sit in the middle side of the table. The persons who sit at the corner side are facing away from the center and the persons who sit in the middle side are facing towards the center. D sits at the corner side of the table. One person sits between D and G. Q sits third to the right of G. Three persons sit between Q and E. W sits second to the right of E. W is not an immediate neighbour of D. H sits second to the right of K. 8. If all the consonants are removed from the given series, then which among the following element is ninth from the left end? (a) 2 (b) O (c) 3 (d) 7 (e) None of these 9. Which among the following element is fifth to the left of twelfth element from the left end?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -174,20 +174,18 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q003",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 3,
-      "stem": "Who among the following sits second to the left of G? (a) D (b) K (c) H (d) S (e) None of these be the height of B?",
+      "stem": "Who among the following sits second to the left of G?",
       "options": {
-        "a": "69 cm",
-        "b": "81 cm",
-        "c": "78 cm",
-        "d": "All the given heights",
+        "a": "D",
+        "b": "K",
+        "c": "H",
+        "d": "S",
         "e": "None of these"
       },
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 7. If all the numbers are removed from the given series, then which among the following element is seventh from the right end? (a) E (b) O (c) F (d) R (e) None of these Eight persons i.e. D, Q, G, H, K, S, E and W are sitting around a square table in such a way that four persons sit at the corner side of the table and other four persons sit in the middle side of the table. The persons who sit at the corner side are facing away from the center and the persons who sit in the middle side are facing towards the center. D sits at the corner side of the table. One person sits between D and G. Q sits third to the right of G. Three persons sit between Q and E. W sits second to the right of E. W is not an immediate neighbour of D. H sits second to the right of K. 8. If all the consonants are removed from the given series, then which among the following element is ninth from the left end? (a) 2 (b) O (c) 3 (d) 7 (e) None of these 9. Which among the following element is fifth to the left of twelfth element from the left end?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -212,9 +210,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 7. If all the numbers are removed from the given series, then which among the following element is seventh from the right end? (a) E (b) O (c) F (d) R (e) None of these Eight persons i.e. D, Q, G, H, K, S, E and W are sitting around a square table in such a way that four persons sit at the corner side of the table and other four persons sit in the middle side of the table. The persons who sit at the corner side are facing away from the center and the persons who sit in the middle side are facing towards the center. D sits at the corner side of the table. One person sits between D and G. Q sits third to the right of G. Three persons sit between Q and E. W sits second to the right of E. W is not an immediate neighbour of D. H sits second to the right of K. 8. If all the consonants are removed from the given series, then which among the following element is ninth from the left end? (a) 2 (b) O (c) 3 (d) 7 (e) None of these 9. Which among the following element is fifth to the left of twelfth element from the left end?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -239,9 +235,7 @@
       "direction_id": "d002",
       "direction_text": "Study the following information carefully and answer the questions given below: Five persons A, B, C, D and E have different heights. Less than two persons are shorter than D. As many persons are taller than D as shorter than C. A is taller than B but shorter than E. B is not the shortest person. The height of third tallest person is 86 cm.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -266,9 +260,7 @@
       "direction_id": "d001",
       "direction_text": "Study the following information carefully and answer the questions given below: 7. If all the numbers are removed from the given series, then which among the following element is seventh from the right end? (a) E (b) O (c) F (d) R (e) None of these Eight persons i.e. D, Q, G, H, K, S, E and W are sitting around a square table in such a way that four persons sit at the corner side of the table and other four persons sit in the middle side of the table. The persons who sit at the corner side are facing away from the center and the persons who sit in the middle side are facing towards the center. D sits at the corner side of the table. One person sits between D and G. Q sits third to the right of G. Three persons sit between Q and E. W sits second to the right of E. W is not an immediate neighbour of D. H sits second to the right of K. 8. If all the consonants are removed from the given series, then which among the following element is ninth from the left end? (a) 2 (b) O (c) 3 (d) 7 (e) None of these 9. Which among the following element is fifth to the left of twelfth element from the left end?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d001_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -293,9 +285,7 @@
       "direction_id": "d002",
       "direction_text": "Study the following information carefully and answer the questions given below: Five persons A, B, C, D and E have different heights. Less than two persons are shorter than D. As many persons are taller than D as shorter than C. A is taller than B but shorter than E. B is not the shortest person. The height of third tallest person is 86 cm.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p1_d002_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -445,9 +435,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: Seven persons A, B, C, D, E, F and G are sitting in row and all are facing towards north but not necessarily in the same order. B sits second from one of the extreme ends. Three persons sit between D and B. Two persons sit between D and A. C sits to the immediate left of A. F sits to left of C but is not an immediate neighbour of C. More than two persons sit between F and E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -472,9 +460,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: Seven persons A, B, C, D, E, F and G are sitting in row and all are facing towards north but not necessarily in the same order. B sits second from one of the extreme ends. Three persons sit between D and B. Two persons sit between D and A. C sits to the immediate left of A. F sits to left of C but is not an immediate neighbour of C. More than two persons sit between F and E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -499,9 +485,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: Seven persons A, B, C, D, E, F and G are sitting in row and all are facing towards north but not necessarily in the same order. B sits second from one of the extreme ends. Three persons sit between D and B. Two persons sit between D and A. C sits to the immediate left of A. F sits to left of C but is not an immediate neighbour of C. More than two persons sit between F and E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -526,9 +510,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: Seven persons A, B, C, D, E, F and G are sitting in row and all are facing towards north but not necessarily in the same order. B sits second from one of the extreme ends. Three persons sit between D and B. Two persons sit between D and A. C sits to the immediate left of A. F sits to left of C but is not an immediate neighbour of C. More than two persons sit between F and E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -553,9 +535,7 @@
       "direction_id": "d005",
       "direction_text": "Study the following information carefully and answer the questions given below: Seven persons A, B, C, D, E, F and G are sitting in row and all are facing towards north but not necessarily in the same order. B sits second from one of the extreme ends. Three persons sit between D and B. Two persons sit between D and A. C sits to the immediate left of A. F sits to left of C but is not an immediate neighbour of C. More than two persons sit between F and E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -580,9 +560,7 @@
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Point D is 10m north of point P. Point Y is 14m east of point",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -607,9 +585,7 @@
       "direction_id": "d006",
       "direction_text": "Study the following information carefully and answer the questions given below: Point D is 10m north of point P. Point Y is 14m east of point",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -634,9 +610,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: There are certain number of persons sitting in a row facing towards north direction. A sits fifth to the right of B. Two persons sit between C and B. D sits fourth to the left of C. Four persons sit to the left of D. The number of persons sit between D and B is same as the number of persons sit between B and F. F sits at fourth position from one of the extreme ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -661,9 +635,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: There are certain number of persons sitting in a row facing towards north direction. A sits fifth to the right of B. Two persons sit between C and B. D sits fourth to the left of C. Four persons sit to the left of D. The number of persons sit between D and B is same as the number of persons sit between B and F. F sits at fourth position from one of the extreme ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -688,9 +660,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: There are certain number of persons sitting in a row facing towards north direction. A sits fifth to the right of B. Two persons sit between C and B. D sits fourth to the left of C. Four persons sit to the left of D. The number of persons sit between D and B is same as the number of persons sit between B and F. F sits at fourth position from one of the extreme ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -715,9 +685,7 @@
       "direction_id": "d007",
       "direction_text": "Study the following information carefully and answer the questions given below: There are certain number of persons sitting in a row facing towards north direction. A sits fifth to the right of B. Two persons sit between C and B. D sits fourth to the left of C. Four persons sit to the left of D. The number of persons sit between D and B is same as the number of persons sit between B and F. F sits at fourth position from one of the extreme ends.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p3_d007_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -917,9 +885,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: Six people P, Q, R, S, T and U have events on different dates 7th and 12th of different months i.e. January, February and March. D has event on even numbered date in the month having 31 days. The number of persons have event before D is same as the number of persons have event after A. One person has event between A and C. F has event before C. B has event just before E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -944,9 +910,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: Six people P, Q, R, S, T and U have events on different dates 7th and 12th of different months i.e. January, February and March. D has event on even numbered date in the month having 31 days. The number of persons have event before D is same as the number of persons have event after A. One person has event between A and C. F has event before C. B has event just before E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -971,9 +935,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: Six people P, Q, R, S, T and U have events on different dates 7th and 12th of different months i.e. January, February and March. D has event on even numbered date in the month having 31 days. The number of persons have event before D is same as the number of persons have event after A. One person has event between A and C. F has event before C. B has event just before E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -998,9 +960,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: Six people P, Q, R, S, T and U have events on different dates 7th and 12th of different months i.e. January, February and March. D has event on even numbered date in the month having 31 days. The number of persons have event before D is same as the number of persons have event after A. One person has event between A and C. F has event before C. B has event just before E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1025,9 +985,7 @@
       "direction_id": "d009",
       "direction_text": "Study the following information carefully and answer the questions given below: Six people P, Q, R, S, T and U have events on different dates 7th and 12th of different months i.e. January, February and March. D has event on even numbered date in the month having 31 days. The number of persons have event before D is same as the number of persons have event after A. One person has event between A and C. F has event before C. B has event just before E.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p4_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1066,28 +1024,7 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q041",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 41,
-      "stem": "Total passengers in E are what percent less than total",
-      "options": {},
-      "direction_id": "d010",
-      "direction_text": "Line graph given below shows number of passengers travelling in five (A, B, C, D & E) different compartment of a trains. Read the data carefully and answer the questions.",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p5_d010_1.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2020,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q048",
-      "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
-      "q_num": 48,
-      "stem": "12, 7, 8, 13, ?, 68.5 (a) 28 (b) 27 (c) 26 (d) 27.5 (e) 26.5 passengers in A?",
+      "stem": "Total passengers in E are what percent less than total passengers in A?",
       "options": {
         "a": "6 ¼ %",
         "b": "8 ⅓%",
@@ -1095,10 +1032,12 @@
         "d": "6 ⅔%",
         "e": "5%"
       },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
+      "direction_id": "d010",
+      "direction_text": "Line graph given below shows number of passengers travelling in five (A, B, C, D & E) different compartment of a trains. Read the data carefully and answer the questions.",
+      "direction_has_image": true,
+      "direction_image_refs": [
+        "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p5_d010_1.png"
+      ],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1126,6 +1065,31 @@
       "direction_image_refs": [
         "_assets/ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6/p5_d010_1.png"
       ],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2020,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q048",
+      "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
+      "q_num": 48,
+      "stem": "12, 7, 8, 13, ?, 68.5",
+      "options": {
+        "a": "28",
+        "b": "27",
+        "c": "26",
+        "d": "27.5",
+        "e": "26.5"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1189,8 +1153,14 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q051",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 51,
-      "stem": "If the difference between the present age of P and Q is",
-      "options": {},
+      "stem": "If the difference between the present age of P and Q is three years and the ratio between the age of P and Q after two years will be 5 : 4, then find the age of P after two years (in years)?",
+      "options": {
+        "a": "15",
+        "b": "13",
+        "c": "18",
+        "d": "16",
+        "e": "14"
+      },
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
@@ -1235,7 +1205,7 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q044",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 44,
-      "stem": "Total passenger in C and E together are what percent three years and the ratio between the age of P and Q after two years will be 5 : 4, then find the age of P after two years (in years)? (a) 15 (b) 13 (c) 18 (d) 16 (e) 14 more than total passenger in A?",
+      "stem": "Total passenger in C and E together are what percent more than total passenger in A?",
       "options": {
         "a": "33 ⅓%",
         "b": "66 ⅔%",
@@ -1262,8 +1232,14 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q045",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 45,
-      "stem": "Find total number of passengers traveling in B, C & D",
-      "options": {},
+      "stem": "Find total number of passengers traveling in B, C & D together?",
+      "options": {
+        "a": "69",
+        "b": "65",
+        "c": "67",
+        "d": "63",
+        "e": "71"
+      },
       "direction_id": "d010",
       "direction_text": "Line graph given below shows number of passengers travelling in five (A, B, C, D & E) different compartment of a trains. Read the data carefully and answer the questions.",
       "direction_has_image": true,
@@ -1283,13 +1259,13 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q052",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 52,
-      "stem": "A and B both spend 30% of their income together together?",
+      "stem": "A and B both spend 30% of their income together which is equal to Rs. 26400. If income of A is 20% more than that of B, then find the income of B (in Rs.)?",
       "options": {
-        "a": "69",
-        "b": "65",
-        "c": "67",
-        "d": "63",
-        "e": "71"
+        "a": "52000",
+        "b": "48000",
+        "c": "40000",
+        "d": "36000",
+        "e": "30000"
       },
       "direction_id": null,
       "direction_text": null,
@@ -1308,8 +1284,14 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q053",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 53,
-      "stem": "If a man invests equal sum at the same rate of interest",
-      "options": {},
+      "stem": "If a man invests equal sum at the same rate of interest on simple interest for T and T+4 years and the respective ratio of interest gets by man is 1:2 respectively, then find ‘T’?",
+      "options": {
+        "a": "6",
+        "b": "2",
+        "c": "5",
+        "d": "3",
+        "e": "4"
+      },
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
@@ -1327,16 +1309,16 @@
       "q_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6::q046",
       "paper_id": "ibps_rrb_2020_prelims_unknown_shift_f2ca0dc6",
       "q_num": 46,
-      "stem": "12, 12, 24, 72, ?, 1440 (a) 256 (b) 288 (c) 284 (d) 296 (e) 316 on simple interest for T and T+4 years and the respective ratio of interest gets by man is 1:2 respectively, then find ‘T’?",
+      "stem": "12, 12, 24, 72, ?, 1440",
       "options": {
-        "a": "6",
-        "b": "2",
-        "c": "5",
-        "d": "3",
-        "e": "4"
+        "a": "256",
+        "b": "288",
+        "c": "284",
+        "d": "296",
+        "e": "316"
       },
       "direction_id": "d011",
-      "direction_text": "What will come in the place of question (?) mark in following questions. which is equal to Rs. 26400. If income of A is 20% more than that of B, then find the income of B (in Rs.)?",
+      "direction_text": "What will come in the place of question (?) mark in following questions. 52. A and B both spend 30% of their income together which is equal to Rs. 26400. If income of A is 20% more than that of B, then find the income of B (in Rs.)? (a) 52000 (b) 48000 (c) 40000 (d) 36000 (e) 30000 53. If a man invests equal sum at the same rate of interest on simple interest for T and T+4 years and the respective ratio of interest gets by man is 1:2 respectively, then find ‘T’?",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1361,7 +1343,7 @@
         "e": "71.8 Visit: adda247.com"
       },
       "direction_id": "d011",
-      "direction_text": "What will come in the place of question (?) mark in following questions. which is equal to Rs. 26400. If income of A is 20% more than that of B, then find the income of B (in Rs.)?",
+      "direction_text": "What will come in the place of question (?) mark in following questions. 52. A and B both spend 30% of their income together which is equal to Rs. 26400. If income of A is 20% more than that of B, then find the income of B (in Rs.)? (a) 52000 (b) 48000 (c) 40000 (d) 36000 (e) 30000 53. If a man invests equal sum at the same rate of interest on simple interest for T and T+4 years and the respective ratio of interest gets by man is 1:2 respectively, then find ‘T’?",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",

@@ -14,10 +14,7 @@
   "memory_based": true,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [
-    "figure_crops:1",
-    "assets_exported:1"
-  ],
+  "parse_notes": [],
   "question_count": 100,
   "questions": [
     {
@@ -1454,9 +1451,7 @@
       "direction_id": "d009",
       "direction_text": "பகள்விக்குறியின் இடத்தில் என்ை மதிப்பு வர பவண்டும்?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2025_prelims_shift_1_8e9b0d3f/p8_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -1481,9 +1476,7 @@
       "direction_id": "d009",
       "direction_text": "பகள்விக்குறியின் இடத்தில் என்ை மதிப்பு வர பவண்டும்?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2025_prelims_shift_1_8e9b0d3f/p8_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -1508,9 +1501,7 @@
       "direction_id": "d009",
       "direction_text": "பகள்விக்குறியின் இடத்தில் என்ை மதிப்பு வர பவண்டும்?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2025_prelims_shift_1_8e9b0d3f/p8_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -1530,14 +1521,12 @@
         "b": "2235",
         "c": "2275",
         "d": "2200",
-        "e": "2250"
+        "e": "2250 7 இன்"
       },
       "direction_id": "d009",
       "direction_text": "பகள்விக்குறியின் இடத்தில் என்ை மதிப்பு வர பவண்டும்?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/sbi_clerk_2025_prelims_shift_1_8e9b0d3f/p8_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "SBI",
       "role": "Clerk",
       "exam_type": "Prelims",
@@ -1551,7 +1540,7 @@
       "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q062",
       "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
       "q_num": 62,
-      "stem": "1715 இன் 4 இன் ? = 735 7 இன்",
+      "stem": "1715 இன் 4 இன் ? = 735",
       "options": {
         "d": "(e)"
       },
@@ -1603,7 +1592,7 @@
         "b": "108",
         "c": "104",
         "d": "112",
-        "e": "102"
+        "e": "102 A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல."
       },
       "direction_id": "d009",
       "direction_text": "பகள்விக்குறியின் இடத்தில் என்ை மதிப்பு வர பவண்டும்?",
@@ -1619,10 +1608,135 @@
       "image_refs": []
     },
     {
+      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q069",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "q_num": 69,
+      "stem": "கீழ்க்கண்டவர்களில் யொர் ஆறொவது தளத்தில் வசிக்கிறொர்கள்?",
+      "options": {
+        "a": "H",
+        "b": "E",
+        "c": "C",
+        "d": "F",
+        "e": "இெற்றில் யொரும் இல்ரல"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2025,
+      "shift": "Shift_1",
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q070",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "q_num": 70,
+      "stem": "பின்வரும் எந்த ந ர்களுக்கு இலடபய ஒரு மொடி இலடபவளி உள்ளது?",
+      "options": {
+        "a": "C மற்றும் E",
+        "b": "A மற்றும் G",
+        "c": "F மற்றும் D",
+        "d": "H மற்றும் B",
+        "e": "E மற்றும் F"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2025,
+      "shift": "Shift_1",
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q071",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "q_num": 71,
+      "stem": "H இன் தளத்திற்கும் F இன் தளத்திற்கும் இலடயில் எத்தலை தளங்கள் உள்ளை?",
+      "options": {
+        "a": "ஐந்து",
+        "b": "நொன்கு",
+        "c": "மூன்று",
+        "d": "இரண்டு",
+        "e": "ஒன்று"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2025,
+      "shift": "Shift_1",
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q072",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "q_num": 72,
+      "stem": "பின்வரும் கூற்றுகளில் எது/எலவ தவறொைது? I. H என்பெர் E இன் தளத்திற்கு ழமல் ஒரு தளத்தில் ெசிக்கிறொர். II. D கீழ் தளத்தில் ெசிக்கிறொர். III. F நொன்கொெது தளத்தில் ெசிக்கிறொர்.",
+      "options": {
+        "a": "I மட்டும்",
+        "b": "II மற்றும் III இரண்டும்",
+        "c": "III மட்டும்",
+        "d": "I மற்றும் III இரண்டும்",
+        "e": "II மட்டும்"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2025,
+      "shift": "Shift_1",
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q073",
+      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
+      "q_num": 73,
+      "stem": "பின்வரும் ஐந்தில் நொன்கு ஒரு குறிப்பிட்ட வழியில் ஒபர மொதிரியொைலவ, இதைொல் ஒரு குழுலவ உருவொக்குகிறது. குழுவில் பெரொத ஒன்லறக் கண்டுபிடிக்கவும்?",
+      "options": {
+        "a": "H",
+        "b": "D",
+        "c": "E",
+        "d": "C",
+        "e": "B 3 இல் 4 7 இல் 2"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "Clerk",
+      "exam_type": "Prelims",
+      "year": 2025,
+      "shift": "Shift_1",
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q065",
       "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
       "q_num": 65,
-      "stem": "81 இல் 3 3 =? 3 இல் 4 7 இல் 2",
+      "stem": "81 இல் 3 3 =?",
       "options": {
         "a": "2900",
         "b": "2500",
@@ -1707,131 +1821,6 @@
       },
       "direction_id": "d010",
       "direction_text": "இந்தக் பகள்விகளில், பவவ்பவறு கூறுகளுக்கு இலடயிைொை உறவு கூற்றுகளில் கொட்டப் ட்டுள்ளது. கூற்றுகளுக்குப் பிறகு இரண்டு முடிவுகள் உள்ளை. பகொடுக்கப் ட்ட கூற்றுகளின் அடிப் லடயில் முடிவுகலளப் டித்து, ப ொருத்தமொை திலைத் பதர்ந்பதடுக்கவும்:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q069",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "q_num": 69,
-      "stem": "கீழ்க்கண்டவர்களில் யொர் ஆறொவது தளத்தில் வசிக்கிறொர்கள்?",
-      "options": {
-        "a": "H",
-        "b": "E",
-        "c": "C",
-        "d": "F",
-        "e": "இெற்றில் யொரும் இல்ரல"
-      },
-      "direction_id": "d011",
-      "direction_text": "பின்வரும் தகவல்கலளக் கவைமொகப் டித்து, கீபழ பகொடுக்கப் ட்டுள்ள பகள்விகளுக்குப் திைளிக்கவும்: A, B, C, D, E, F, G மற்றும் H ஆகிய எட்டு நபர்கள் எட்டு மொடி கட்டிடத்தின் கெவ்ழெறு தளங்களில் ெசிக்கின்றனர், ஆனொல் இழத ெரிரசயில் இருக்க ழெண்டிய அெசியமில்ரல. கீழ் தளம் 1 எனவும், அதற்கு ழமல் உள்ள தளம் 2 எனவும், கரடசி ழமல் தளம் 8 எனவும் எண்ணிடப்பட்டுள்ளது. A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q070",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "q_num": 70,
-      "stem": "பின்வரும் எந்த ந ர்களுக்கு இலடபய ஒரு மொடி இலடபவளி உள்ளது?",
-      "options": {
-        "a": "C மற்றும் E",
-        "b": "A மற்றும் G",
-        "c": "F மற்றும் D",
-        "d": "H மற்றும் B",
-        "e": "E மற்றும் F"
-      },
-      "direction_id": "d011",
-      "direction_text": "பின்வரும் தகவல்கலளக் கவைமொகப் டித்து, கீபழ பகொடுக்கப் ட்டுள்ள பகள்விகளுக்குப் திைளிக்கவும்: A, B, C, D, E, F, G மற்றும் H ஆகிய எட்டு நபர்கள் எட்டு மொடி கட்டிடத்தின் கெவ்ழெறு தளங்களில் ெசிக்கின்றனர், ஆனொல் இழத ெரிரசயில் இருக்க ழெண்டிய அெசியமில்ரல. கீழ் தளம் 1 எனவும், அதற்கு ழமல் உள்ள தளம் 2 எனவும், கரடசி ழமல் தளம் 8 எனவும் எண்ணிடப்பட்டுள்ளது. A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q071",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "q_num": 71,
-      "stem": "H இன் தளத்திற்கும் F இன் தளத்திற்கும் இலடயில் எத்தலை தளங்கள் உள்ளை?",
-      "options": {
-        "a": "ஐந்து",
-        "b": "நொன்கு",
-        "c": "மூன்று",
-        "d": "இரண்டு",
-        "e": "ஒன்று"
-      },
-      "direction_id": "d011",
-      "direction_text": "பின்வரும் தகவல்கலளக் கவைமொகப் டித்து, கீபழ பகொடுக்கப் ட்டுள்ள பகள்விகளுக்குப் திைளிக்கவும்: A, B, C, D, E, F, G மற்றும் H ஆகிய எட்டு நபர்கள் எட்டு மொடி கட்டிடத்தின் கெவ்ழெறு தளங்களில் ெசிக்கின்றனர், ஆனொல் இழத ெரிரசயில் இருக்க ழெண்டிய அெசியமில்ரல. கீழ் தளம் 1 எனவும், அதற்கு ழமல் உள்ள தளம் 2 எனவும், கரடசி ழமல் தளம் 8 எனவும் எண்ணிடப்பட்டுள்ளது. A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q072",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "q_num": 72,
-      "stem": "பின்வரும் கூற்றுகளில் எது/எலவ தவறொைது? I. H என்பெர் E இன் தளத்திற்கு ழமல் ஒரு தளத்தில் ெசிக்கிறொர். II. D கீழ் தளத்தில் ெசிக்கிறொர். III. F நொன்கொெது தளத்தில் ெசிக்கிறொர்.",
-      "options": {
-        "a": "I மட்டும்",
-        "b": "II மற்றும் III இரண்டும்",
-        "c": "III மட்டும்",
-        "d": "I மற்றும் III இரண்டும்",
-        "e": "II மட்டும்"
-      },
-      "direction_id": "d011",
-      "direction_text": "பின்வரும் தகவல்கலளக் கவைமொகப் டித்து, கீபழ பகொடுக்கப் ட்டுள்ள பகள்விகளுக்குப் திைளிக்கவும்: A, B, C, D, E, F, G மற்றும் H ஆகிய எட்டு நபர்கள் எட்டு மொடி கட்டிடத்தின் கெவ்ழெறு தளங்களில் ெசிக்கின்றனர், ஆனொல் இழத ெரிரசயில் இருக்க ழெண்டிய அெசியமில்ரல. கீழ் தளம் 1 எனவும், அதற்கு ழமல் உள்ள தளம் 2 எனவும், கரடசி ழமல் தளம் 8 எனவும் எண்ணிடப்பட்டுள்ளது. A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f::q073",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_8e9b0d3f",
-      "q_num": 73,
-      "stem": "பின்வரும் ஐந்தில் நொன்கு ஒரு குறிப்பிட்ட வழியில் ஒபர மொதிரியொைலவ, இதைொல் ஒரு குழுலவ உருவொக்குகிறது. குழுவில் பெரொத ஒன்லறக் கண்டுபிடிக்கவும்?",
-      "options": {
-        "a": "H",
-        "b": "D",
-        "c": "E",
-        "d": "C",
-        "e": "B"
-      },
-      "direction_id": "d011",
-      "direction_text": "பின்வரும் தகவல்கலளக் கவைமொகப் டித்து, கீபழ பகொடுக்கப் ட்டுள்ள பகள்விகளுக்குப் திைளிக்கவும்: A, B, C, D, E, F, G மற்றும் H ஆகிய எட்டு நபர்கள் எட்டு மொடி கட்டிடத்தின் கெவ்ழெறு தளங்களில் ெசிக்கின்றனர், ஆனொல் இழத ெரிரசயில் இருக்க ழெண்டிய அெசியமில்ரல. கீழ் தளம் 1 எனவும், அதற்கு ழமல் உள்ள தளம் 2 எனவும், கரடசி ழமல் தளம் 8 எனவும் எண்ணிடப்பட்டுள்ளது. A க்கு ழமழல இரண்டு தளங்கள் ழமழல பகொ எண் ககொண்ட தளத்தில் G ெசிக்கிறொர். A மற்றும் E தளங்களுக்கு இரடயில் நொன்கு தளங்கள் உள்ளன. A க்கு ழமழலயும் H க்கு கீழேயும் ஒழர எண்ணிரகயிலொன தளங்கள் உள்ளன. H மற்றும் D தளங்களுக்கு இரடயில் மூன்று தளங்களுக்கு ழமல் உள்ளன. F என்பெர் B இன் தளத்திற்கு ழமழலயும் C இன் தளத்திற்கு கீழேயும் ெசிக்கிறொர். B என்பெர் D க்கு ழமழல ஒட்டி ெசிக்கவில்ரல.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

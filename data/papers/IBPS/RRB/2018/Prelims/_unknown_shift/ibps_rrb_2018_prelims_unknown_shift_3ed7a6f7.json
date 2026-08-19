@@ -14,10 +14,7 @@
   "memory_based": true,
   "language": "english",
   "parse_status": "ok",
-  "parse_notes": [
-    "figure_crops:6",
-    "assets_exported:6"
-  ],
+  "parse_notes": [],
   "question_count": 80,
   "questions": [
     {
@@ -68,7 +65,7 @@
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q001",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
       "q_num": 1,
-      "stem": "Four of the following five are alike in a certain way, possibility.",
+      "stem": "Four of the following five are alike in a certain way, and so form a group. Which of the following does not belong to the group? (a) R, V (b) V, P (c) J, P (d) V, Q (e) J, R possibility.",
       "options": {
         "a": "Only I follows",
         "b": "Only II follows",
@@ -118,14 +115,8 @@
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q008",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
       "q_num": 8,
-      "stem": "Statement: All numbers are digits. Some numbers are points. Some points are marks. Conclusions: I. Some points are digits. II. All marks being numbers is a and so form a group. Which of the following does not belong to the group?",
-      "options": {
-        "a": "R, V",
-        "b": "V, P",
-        "c": "J, P",
-        "d": "V, Q",
-        "e": "J, R"
-      },
+      "stem": "Statement: All numbers are digits. Some numbers are points. Some points are marks. Conclusions: I. Some points are digits. II. All marks being numbers is a",
+      "options": {},
       "direction_id": "d002",
       "direction_text": "Some statements are given followed by two conclusions. You have to consider the statements to be true even if they seem to be at variance from commonly known facts. You have to decide which of the following conclusions follow from the given statements:",
       "direction_has_image": false,
@@ -229,9 +220,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the questions given below. Seven boxes M, N, O, P, Q, R, S are arranged one above another. Only two boxes are placed above box P. Only one box is placed between box S and P. As many as boxes are placed between box S and Q as between box Q and M. Three boxes are placed between box N and O. N is placed above O.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -256,9 +245,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the questions given below. Seven boxes M, N, O, P, Q, R, S are arranged one above another. Only two boxes are placed above box P. Only one box is placed between box S and P. As many as boxes are placed between box S and Q as between box Q and M. Three boxes are placed between box N and O. N is placed above O.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -283,9 +270,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the questions given below. Seven boxes M, N, O, P, Q, R, S are arranged one above another. Only two boxes are placed above box P. Only one box is placed between box S and P. As many as boxes are placed between box S and Q as between box Q and M. Three boxes are placed between box N and O. N is placed above O.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -310,9 +295,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the questions given below. Seven boxes M, N, O, P, Q, R, S are arranged one above another. Only two boxes are placed above box P. Only one box is placed between box S and P. As many as boxes are placed between box S and Q as between box Q and M. Three boxes are placed between box N and O. N is placed above O.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -337,9 +320,7 @@
       "direction_id": "d003",
       "direction_text": "Read the following information carefully and answer the questions given below. Seven boxes M, N, O, P, Q, R, S are arranged one above another. Only two boxes are placed above box P. Only one box is placed between box S and P. As many as boxes are placed between box S and Q as between box Q and M. Three boxes are placed between box N and O. N is placed above O.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d003_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -487,9 +468,7 @@
       "direction_id": "d005",
       "direction_text": "Read the following information carefully and answer the questions given below. Six persons A, C, Q, R, T, Y were born in six different months January, April, May, August, September, December of a year. Three persons were born in between A and Y. A was born before Y. No one was born in between C and A. Two persons were born in between C and R. T was born before Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -514,9 +493,7 @@
       "direction_id": "d005",
       "direction_text": "Read the following information carefully and answer the questions given below. Six persons A, C, Q, R, T, Y were born in six different months January, April, May, August, September, December of a year. Three persons were born in between A and Y. A was born before Y. No one was born in between C and A. Two persons were born in between C and R. T was born before Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -541,9 +518,7 @@
       "direction_id": "d005",
       "direction_text": "Read the following information carefully and answer the questions given below. Six persons A, C, Q, R, T, Y were born in six different months January, April, May, August, September, December of a year. Three persons were born in between A and Y. A was born before Y. No one was born in between C and A. Two persons were born in between C and R. T was born before Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -568,9 +543,7 @@
       "direction_id": "d005",
       "direction_text": "Read the following information carefully and answer the questions given below. Six persons A, C, Q, R, T, Y were born in six different months January, April, May, August, September, December of a year. Three persons were born in between A and Y. A was born before Y. No one was born in between C and A. Two persons were born in between C and R. T was born before Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -595,9 +568,7 @@
       "direction_id": "d005",
       "direction_text": "Read the following information carefully and answer the questions given below. Six persons A, C, Q, R, T, Y were born in six different months January, April, May, August, September, December of a year. Three persons were born in between A and Y. A was born before Y. No one was born in between C and A. Two persons were born in between C and R. T was born before Q.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p3_d005_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -697,9 +668,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the questions given below. Point E is 15m east of point B. Point G is 20m north of point E. Point K is 10m east of point G. Point M is 30m south of point K. Point P is 20m west of point M. Point L is 10m north of point P.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -724,9 +693,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the questions given below. Point E is 15m east of point B. Point G is 20m north of point E. Point K is 10m east of point G. Point M is 30m south of point K. Point P is 20m west of point M. Point L is 10m north of point P.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -751,9 +718,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the questions given below. Point E is 15m east of point B. Point G is 20m north of point E. Point K is 10m east of point G. Point M is 30m south of point K. Point P is 20m west of point M. Point L is 10m north of point P.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -778,9 +743,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the questions given below. Point E is 15m east of point B. Point G is 20m north of point E. Point K is 10m east of point G. Point M is 30m south of point K. Point P is 20m west of point M. Point L is 10m north of point P.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -805,9 +768,7 @@
       "direction_id": "d006",
       "direction_text": "Read the following information carefully and answer the questions given below. Point E is 15m east of point B. Point G is 20m north of point E. Point K is 10m east of point G. Point M is 30m south of point K. Point P is 20m west of point M. Point L is 10m north of point P.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d006_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -871,51 +832,7 @@
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q034",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
       "q_num": 34,
-      "stem": "How many perfect cubes are there in the above arrangement, each of which is immediately preceded by an odd number and immediately followed by an even number? QUANTITATIVE APTITUDE",
-      "options": {},
-      "direction_id": "d007",
-      "direction_text": "These questions are based on the following arrangement. Study it carefully and answer the questions below it. 1 3 5 3 4 5 9 2 8 7 2 3 6 5 2 7 3 8 1 2 1 8 4 9 8 1 2 4 7 3 5 2 4 8 9 8 2 4",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q041",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 41,
-      "stem": "The upstream speed of a boat is 18 km/hr which is 500% more than the speed of stream. Find how much distance boat will cover in 3 hours while travelling in downstream.",
-      "options": {
-        "a": "66 km",
-        "b": "63 km",
-        "c": "72 km",
-        "d": "75 km",
-        "e": "78 km"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q042",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 42,
-      "stem": "If 𝐴2– 𝐵2 = 252 and 𝐴+ 𝐵= 42 then find the value of ‘B’? (a) 18 (b) 16 (c) 14 (d) 20 (e) 22",
+      "stem": "How many perfect cubes are there in the above arrangement, each of which is immediately preceded by an odd number and immediately followed by an even number?",
       "options": {
         "a": "None",
         "b": "Three",
@@ -923,8 +840,8 @@
         "d": "One",
         "e": "More than three"
       },
-      "direction_id": null,
-      "direction_text": null,
+      "direction_id": "d007",
+      "direction_text": "These questions are based on the following arrangement. Study it carefully and answer the questions below it. 1 3 5 3 4 5 9 2 8 7 2 3 6 5 2 7 3 8 1 2 1 8 4 9 8 1 2 4 7 3 5 2 4 8 9 8 2 4",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1001,9 +918,7 @@
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the questions given below. There are six wallets A, B, C, P, Q and R, each containing different amount of money in it. Wallet B has more money than wallet Q but less than wallet P. Only wallet R has more money than wallet C. Wallet Q does not has the least amount of money. The wallet containing 3rd highest amount of money has Rs. 3000, which is Rs.1000 more than the wallet which has 2nd lowest amount of money.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1028,9 +943,7 @@
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the questions given below. There are six wallets A, B, C, P, Q and R, each containing different amount of money in it. Wallet B has more money than wallet Q but less than wallet P. Only wallet R has more money than wallet C. Wallet Q does not has the least amount of money. The wallet containing 3rd highest amount of money has Rs. 3000, which is Rs.1000 more than the wallet which has 2nd lowest amount of money.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1055,9 +968,7 @@
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the questions given below. There are six wallets A, B, C, P, Q and R, each containing different amount of money in it. Wallet B has more money than wallet Q but less than wallet P. Only wallet R has more money than wallet C. Wallet Q does not has the least amount of money. The wallet containing 3rd highest amount of money has Rs. 3000, which is Rs.1000 more than the wallet which has 2nd lowest amount of money.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1077,14 +988,37 @@
         "b": "Wallet B has more money than wallet P",
         "c": "Wallet P has 3rd highest amount of money",
         "d": "Wallet Q has more amount of money than P",
-        "e": "none of these"
+        "e": "none of these QUANTITATIVE APTITUDE"
       },
       "direction_id": "d008",
       "direction_text": "Read the following information carefully and answer the questions given below. There are six wallets A, B, C, P, Q and R, each containing different amount of money in it. Wallet B has more money than wallet Q but less than wallet P. Only wallet R has more money than wallet C. Wallet Q does not has the least amount of money. The wallet containing 3rd highest amount of money has Rs. 3000, which is Rs.1000 more than the wallet which has 2nd lowest amount of money.",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p4_d008_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q041",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 41,
+      "stem": "The upstream speed of a boat is 18 km/hr which is 500% more than the speed of stream. Find how much distance boat will cover in 3 hours while travelling in downstream.",
+      "options": {
+        "a": "66 km",
+        "b": "63 km",
+        "c": "72 km",
+        "d": "75 km",
+        "e": "78 km"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1145,6 +1079,31 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q042",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 42,
+      "stem": "If 𝐴2– 𝐵2 = 252 and 𝐴+ 𝐵= 42 then find the value of ‘B’?",
+      "options": {
+        "a": "18",
+        "b": "16",
+        "c": "14",
+        "d": "20",
+        "e": "22"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q045",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
       "q_num": 45,
@@ -1184,9 +1143,207 @@
       "direction_id": "d009",
       "direction_text": "What approximate value should come in place of question mark (?) in the following questions?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q056",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 56,
+      "stem": "Find number of employees working in HR department is what percent more than number of employees working in Security department?",
+      "options": {
+        "a": "250%",
+        "b": "200%",
+        "c": "150%",
+        "d": "100%",
+        "e": "50%"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q057",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 57,
+      "stem": "Find the average number of employees working in Sales, Finance and Housing department?",
+      "options": {
+        "a": "60",
+        "b": "70",
+        "c": "80",
+        "d": "90",
+        "e": "100"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q058",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 58,
+      "stem": "Number of employees in Housing department is how much more than number of employees in Security department?",
+      "options": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "40",
+        "e": "50"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q059",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 59,
+      "stem": "In Security department, 40% are female employees then find total male employees working in Security department?",
+      "options": {
+        "a": "16",
+        "b": "40",
+        "c": "32",
+        "d": "8",
+        "e": "24"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q060",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 60,
+      "stem": "Ratio between total number of male and female employees in HR department is 2 : 3. Find total number of female employees working in HR department?",
+      "options": {
+        "a": "32",
+        "b": "48",
+        "c": "64",
+        "d": "40",
+        "e": "56"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q061",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 61,
+      "stem": "?2 = 42 + 82 −31",
+      "options": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9",
+        "e": "10"
+      },
+      "direction_id": "d010",
+      "direction_text": "What value should come in place of question mark (?) in the following questions?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q062",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 62,
+      "stem": "13 × 6 +? × 4 = 18 × 7",
+      "options": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12",
+        "e": "14"
+      },
+      "direction_id": "d010",
+      "direction_text": "What value should come in place of question mark (?) in the following questions?",
+      "direction_has_image": true,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q063",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
+      "q_num": 63,
+      "stem": "40% of ? = 25% of 320 + 75% of 160",
+      "options": {
+        "a": "500",
+        "b": "400",
+        "c": "300",
+        "d": "200",
+        "e": "100"
+      },
+      "direction_id": "d010",
+      "direction_text": "What value should come in place of question mark (?) in the following questions?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1261,9 +1418,7 @@
       "direction_id": "d009",
       "direction_text": "What approximate value should come in place of question mark (?) in the following questions?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d009_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1310,7 +1465,7 @@
         "d": "118",
         "e": "136"
       },
-      "direction_id": "d010",
+      "direction_id": "d011",
       "direction_text": "-Find the wrong number in the given number series questions.",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1335,7 +1490,7 @@
         "d": "3036",
         "e": "2.5"
       },
-      "direction_id": "d010",
+      "direction_id": "d011",
       "direction_text": "-Find the wrong number in the given number series questions.",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1360,7 +1515,7 @@
         "d": "900",
         "e": "600"
       },
-      "direction_id": "d010",
+      "direction_id": "d011",
       "direction_text": "-Find the wrong number in the given number series questions.",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1385,7 +1540,7 @@
         "d": "1",
         "e": "42"
       },
-      "direction_id": "d010",
+      "direction_id": "d011",
       "direction_text": "-Find the wrong number in the given number series questions.",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1410,210 +1565,8 @@
         "d": "929",
         "e": "26"
       },
-      "direction_id": "d010",
+      "direction_id": "d011",
       "direction_text": "-Find the wrong number in the given number series questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q056",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 56,
-      "stem": "Find number of employees working in HR department is what percent more than number of employees working in Security department?",
-      "options": {
-        "a": "250%",
-        "b": "200%",
-        "c": "150%",
-        "d": "100%",
-        "e": "50%"
-      },
-      "direction_id": "d011",
-      "direction_text": "There are total five departments in a company. There are total 90 employees in Finance department which is 25% of total employees in the company. 2/9 of the total employees of the company are working in HR department. Employees working in Sales department is 25% more than that in HR department. Ratio between employees working in Security and Housing department is 4 : 5.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q057",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 57,
-      "stem": "Find the average number of employees working in Sales, Finance and Housing department?",
-      "options": {
-        "a": "60",
-        "b": "70",
-        "c": "80",
-        "d": "90",
-        "e": "100"
-      },
-      "direction_id": "d011",
-      "direction_text": "There are total five departments in a company. There are total 90 employees in Finance department which is 25% of total employees in the company. 2/9 of the total employees of the company are working in HR department. Employees working in Sales department is 25% more than that in HR department. Ratio between employees working in Security and Housing department is 4 : 5.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q058",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 58,
-      "stem": "Number of employees in Housing department is how much more than number of employees in Security department?",
-      "options": {
-        "a": "10",
-        "b": "20",
-        "c": "30",
-        "d": "40",
-        "e": "50"
-      },
-      "direction_id": "d011",
-      "direction_text": "There are total five departments in a company. There are total 90 employees in Finance department which is 25% of total employees in the company. 2/9 of the total employees of the company are working in HR department. Employees working in Sales department is 25% more than that in HR department. Ratio between employees working in Security and Housing department is 4 : 5.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q059",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 59,
-      "stem": "In Security department, 40% are female employees then find total male employees working in Security department?",
-      "options": {
-        "a": "16",
-        "b": "40",
-        "c": "32",
-        "d": "8",
-        "e": "24"
-      },
-      "direction_id": "d011",
-      "direction_text": "There are total five departments in a company. There are total 90 employees in Finance department which is 25% of total employees in the company. 2/9 of the total employees of the company are working in HR department. Employees working in Sales department is 25% more than that in HR department. Ratio between employees working in Security and Housing department is 4 : 5.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q060",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 60,
-      "stem": "Ratio between total number of male and female employees in HR department is 2 : 3. Find total number of female employees working in HR department?",
-      "options": {
-        "a": "32",
-        "b": "48",
-        "c": "64",
-        "d": "40",
-        "e": "56"
-      },
-      "direction_id": "d011",
-      "direction_text": "There are total five departments in a company. There are total 90 employees in Finance department which is 25% of total employees in the company. 2/9 of the total employees of the company are working in HR department. Employees working in Sales department is 25% more than that in HR department. Ratio between employees working in Security and Housing department is 4 : 5.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q061",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 61,
-      "stem": "?2 = 42 + 82 −31",
-      "options": {
-        "a": "6",
-        "b": "7",
-        "c": "8",
-        "d": "9",
-        "e": "10"
-      },
-      "direction_id": "d012",
-      "direction_text": "What value should come in place of question mark (?) in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q062",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 62,
-      "stem": "13 × 6 +? × 4 = 18 × 7",
-      "options": {
-        "a": "6",
-        "b": "8",
-        "c": "10",
-        "d": "12",
-        "e": "14"
-      },
-      "direction_id": "d012",
-      "direction_text": "What value should come in place of question mark (?) in the following questions?",
-      "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d012_0.png"
-      ],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7::q063",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7",
-      "q_num": 63,
-      "stem": "40% of ? = 25% of 320 + 75% of 160",
-      "options": {
-        "a": "500",
-        "b": "400",
-        "c": "300",
-        "d": "200",
-        "e": "100"
-      },
-      "direction_id": "d012",
-      "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1637,12 +1590,10 @@
         "d": "140",
         "e": "150"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d012_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1664,7 +1615,7 @@
         "d": "7",
         "e": "8"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1689,12 +1640,10 @@
         "d": "6",
         "e": "8"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d012_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1716,7 +1665,7 @@
         "d": "192",
         "e": "96"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1740,12 +1689,10 @@
         "d": "24",
         "e": "16"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": true,
-      "direction_image_refs": [
-        "_assets/ibps_rrb_2018_prelims_unknown_shift_3ed7a6f7/p5_d012_0.png"
-      ],
+      "direction_image_refs": [],
       "bank": "IBPS",
       "role": "RRB",
       "exam_type": "Prelims",
@@ -1767,7 +1714,7 @@
         "d": "10",
         "e": "20"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
       "direction_image_refs": [],
@@ -1792,7 +1739,7 @@
         "d": "9",
         "e": "54"
       },
-      "direction_id": "d012",
+      "direction_id": "d010",
       "direction_text": "What value should come in place of question mark (?) in the following questions?",
       "direction_has_image": false,
       "direction_image_refs": [],
