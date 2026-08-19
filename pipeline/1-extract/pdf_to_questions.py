@@ -621,6 +621,12 @@ def convert_pdf(
         # derive direction_image_refs, and copy the paper-level fields the
         # schema wants duplicated onto every question so it filters without a
         # join (see schema/schema.json).
+        # Store in question order, not the order the page happened to yield them.
+        # 49 of 237 papers came out unsorted -- a two-column page can hand back
+        # q75 after q79 -- which reads wrongly and would break anything joining
+        # answer keys by position rather than by q_num.
+        questions.sort(key=lambda q: q.q_num)
+
         for q in questions:
             q.context = sanitize_question_context(
                 direction_text=q.direction_text,

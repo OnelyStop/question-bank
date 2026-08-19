@@ -134,6 +134,28 @@
       "image_refs": []
     },
     {
+      "q_id": "sbi_po_2023_prelims_unknown_shift_6109a010::q007",
+      "paper_id": "sbi_po_2023_prelims_unknown_shift_6109a010",
+      "q_num": 7,
+      "stem": "M works in____. A) Dell B) HP C) Nokia D) Either",
+      "options": {
+        "a": "or",
+        "b": "or (c)"
+      },
+      "direction_id": "d002",
+      "direction_text": "Answer the questions based on the information given below. Eight persons J, K, L, M, N, O, P and Q live on different floors of an eight-floor building such that the bottommost floor is numbered as 1 and the topmost floor is numbered as 8 but not necessarily in the same order. They work in eight different companies viz. HTC, Nike, Adidas, Spice, Dell, Nokia, HP, and Fila. One person works in only one company. Q lives on an even numbered floor below the 6th floor. O lives three floors above Q. P works in Fila and lives on a floor above O. Three persons live between N and M. K and L works in Nike and Adidas respectively. Three persons live between P and J. N works in HTC and lives on an even numbered floor below P. K lives on one of the floors below L. J does not work in Spice, Dell or HP. Neither Q nor M works in Spice. M lives on an even numbered floor. Common Solution: Starting Point: Start with placing Q and O. Clues: 1. Q lives on an even numbered floor below the 6th floor. 2. O live three floors above Q. 3. P works in Fila and lives on a floor above O.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "SBI",
+      "role": "PO",
+      "exam_type": "Prelims",
+      "year": 2023,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "sbi_po_2023_prelims_unknown_shift_6109a010::q008",
       "paper_id": "sbi_po_2023_prelims_unknown_shift_6109a010",
       "q_num": 8,
@@ -198,28 +220,6 @@
       "options": {},
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_6109a010::q007",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_6109a010",
-      "q_num": 7,
-      "stem": "M works in____. A) Dell B) HP C) Nokia D) Either",
-      "options": {
-        "a": "or",
-        "b": "or (c)"
-      },
-      "direction_id": "d002",
-      "direction_text": "Answer the questions based on the information given below. Eight persons J, K, L, M, N, O, P and Q live on different floors of an eight-floor building such that the bottommost floor is numbered as 1 and the topmost floor is numbered as 8 but not necessarily in the same order. They work in eight different companies viz. HTC, Nike, Adidas, Spice, Dell, Nokia, HP, and Fila. One person works in only one company. Q lives on an even numbered floor below the 6th floor. O lives three floors above Q. P works in Fila and lives on a floor above O. Three persons live between N and M. K and L works in Nike and Adidas respectively. Three persons live between P and J. N works in HTC and lives on an even numbered floor below P. K lives on one of the floors below L. J does not work in Spice, Dell or HP. Neither Q nor M works in Spice. M lives on an even numbered floor. Common Solution: Starting Point: Start with placing Q and O. Clues: 1. Q lives on an even numbered floor below the 6th floor. 2. O live three floors above Q. 3. P works in Fila and lives on a floor above O.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

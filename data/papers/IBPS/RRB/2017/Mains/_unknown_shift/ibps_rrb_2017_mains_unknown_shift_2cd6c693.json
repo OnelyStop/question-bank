@@ -22,25 +22,6 @@
   "question_count": 79,
   "questions": [
     {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q051",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
-      "q_num": 51,
-      "stem": "Age of R is greater than 20. Age of R is 24 years more than X. Age of X is 3 years more than age of P.",
-      "options": {},
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q006",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
       "q_num": 6,
@@ -508,6 +489,25 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q051",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
+      "q_num": 51,
+      "stem": "Age of R is greater than 20. Age of R is 24 years more than X. Age of X is 3 years more than age of P.",
+      "options": {},
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q052",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
       "q_num": 52,
@@ -852,31 +852,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q080",
-      "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
-      "q_num": 80,
-      "stem": "Find the number of wardrobes sold by B in October.",
-      "options": {
-        "a": "80",
-        "b": "120",
-        "c": "115",
-        "d": "95",
-        "e": "125"
-      },
-      "direction_id": "d013",
-      "direction_text": "Study the following data to answer the questions that follow. There are two companies namely A and B, which sell chairs, tables and wardrobes in 3 months August,",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2017,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q076",
       "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
       "q_num": 76,
@@ -962,6 +937,31 @@
         "c": "12 : 13",
         "d": "11 : 12",
         "e": "6 :11 ITeS fell from 20.8 per cent in 2012-13 to 14.9 per cent in 2014-15 and to a low of 7.3 per cent in 2015-16. Global circumstances combined with the specific nature of India’s IT prowess seem to be responsible for this fall. India’s IT industry recorded remarkable growth over a long period because it exploited an outsourcing opportunity by perfecting a global delivery model for software and ITeS based on cheap skilled labour. That opportunity was offered by the cost-cutting imperatives facing the corporate sector in the United States and elsewhere. As a result, IT industry revenues grew in double digits, with export earnings accounting for a large share of those revenues. Employment grew rapidly, albeit from a low base and at a lower pace than revenues. And a service industry to support the IT sector’s growth grew around the principal centres of its activity, suggesting that despite the absence of physical production the sector had backward linkages through which it delivered some economy-wide benefits. This combination of the characteristics of India’s IT success not only gave the industry a position of privilege in the economy but made it the symbol of India’s ostensible post-globalisation success. However, there were a number of features of that model that made it vulnerable to changes in circumstances. To start with, it had a high degree of dependence on exports for growth, with the U.S. accounting for a very large share of those exports, followed by the European Union (E.U.) at a distant second. At the turn of the century, the U.S. market accounted for close to two-thirds of India’s IT exports and the E.U. for about a quarter, and even in 2015-16, the U.S. was first with 62 per cent and Europe second with 24 per cent. Little had changed for the industry. Secondly, software services (or code writing and customisation of different levels of sophistication) and ITeS, rather than IT products, accounted for an overwhelming share of revenues. To garner those revenues, a workforce with essential IT skills and familiarity with English, communication infrastructure, and the requisite organisation were the necessary ingredients. But sustaining those revenues required constant attention to cost competitiveness, which encouraged automation of the routine activities that constitute an important part of the industry’s operations. Thirdly, this output composition required combining offshore delivery with local services provision to understand client requirements and customize services and even run operations. So, on-site work remained an important component of the industry’s activity. In 2002- 03, 48 per cent of India’s exports of IT services was through the medium of a commercial presence on foreign soil and another 13.5 per cent through the presence of natural persons. By 2015-16 those figures had come down to 18.9 per cent and 16.1 per cent respectively. But the local presence, which ensured provision of 35 per cent of the value services that had risen in value from Rs.31,100 crore to Rs.5,76,310 crore between 2002-03 and 2015-16, was undoubtedly large and crucial to the industry’s performance. Finally, a few firms (such as Tata Consultancy Services (TCS), Infosys and Wipro) account for a very large share of the industry’s revenues, drawing attention to their operations and brand as happened in the U.S. recently."
+      },
+      "direction_id": "d013",
+      "direction_text": "Study the following data to answer the questions that follow. There are two companies namely A and B, which sell chairs, tables and wardrobes in 3 months August,",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2017,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693::q080",
+      "paper_id": "ibps_rrb_2017_mains_unknown_shift_2cd6c693",
+      "q_num": 80,
+      "stem": "Find the number of wardrobes sold by B in October.",
+      "options": {
+        "a": "80",
+        "b": "120",
+        "c": "115",
+        "d": "95",
+        "e": "125"
       },
       "direction_id": "d013",
       "direction_text": "Study the following data to answer the questions that follow. There are two companies namely A and B, which sell chairs, tables and wardrobes in 3 months August,",

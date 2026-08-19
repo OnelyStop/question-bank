@@ -95,16 +95,16 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q020",
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q019",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 20,
-      "stem": "How many pair of digits have same number of digits between them in the number “573814269” as in the numeric series?",
+      "q_num": 19,
+      "stem": "If the second, forth, seventh and eighth letter of the word “FRACTION” are combined to form a meaningful word, then what will be the 3rd letter from the left in the so formed word. If more than one meaningful word is formed then the answer is X, if no such word is formed then answer is Z?",
       "options": {
-        "a": "five",
-        "b": "four",
-        "c": "six",
-        "d": "three",
-        "e": "more than six"
+        "a": "O",
+        "b": "X",
+        "c": "R",
+        "d": "Z",
+        "e": "C"
       },
       "direction_id": null,
       "direction_text": null,
@@ -120,16 +120,16 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q019",
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q020",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 19,
-      "stem": "If the second, forth, seventh and eighth letter of the word “FRACTION” are combined to form a meaningful word, then what will be the 3rd letter from the left in the so formed word. If more than one meaningful word is formed then the answer is X, if no such word is formed then answer is Z?",
+      "q_num": 20,
+      "stem": "How many pair of digits have same number of digits between them in the number “573814269” as in the numeric series?",
       "options": {
-        "a": "O",
-        "b": "X",
-        "c": "R",
-        "d": "Z",
-        "e": "C"
+        "a": "five",
+        "b": "four",
+        "c": "six",
+        "d": "three",
+        "e": "more than six"
       },
       "direction_id": null,
       "direction_text": null,
@@ -245,6 +245,56 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q041",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
+      "q_num": 41,
+      "stem": "1, 3, 7, 15, 31, 64, 127",
+      "options": {
+        "a": "1",
+        "b": "3",
+        "c": "15",
+        "d": "64",
+        "e": "127"
+      },
+      "direction_id": "d010",
+      "direction_text": "Find the wrong number in the following number series ?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q042",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
+      "q_num": 42,
+      "stem": "1, 15, 119, 475, 949, 947, 473",
+      "options": {
+        "a": "947",
+        "b": "475",
+        "c": "15",
+        "d": "473",
+        "e": "1 Store P Store Q No. of product"
+      },
+      "direction_id": "d010",
+      "direction_text": "Find the wrong number in the following number series ?",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q043",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
       "q_num": 43,
@@ -305,56 +355,6 @@
         "c": "2",
         "d": "6827",
         "e": "7"
-      },
-      "direction_id": "d010",
-      "direction_text": "Find the wrong number in the following number series ?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q041",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 41,
-      "stem": "1, 3, 7, 15, 31, 64, 127",
-      "options": {
-        "a": "1",
-        "b": "3",
-        "c": "15",
-        "d": "64",
-        "e": "127"
-      },
-      "direction_id": "d010",
-      "direction_text": "Find the wrong number in the following number series ?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q042",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 42,
-      "stem": "1, 15, 119, 475, 949, 947, 473",
-      "options": {
-        "a": "947",
-        "b": "475",
-        "c": "15",
-        "d": "473",
-        "e": "1 Store P Store Q No. of product"
       },
       "direction_id": "d010",
       "direction_text": "Find the wrong number in the following number series ?",
@@ -1118,31 +1118,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q079",
-      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 79,
-      "stem": "Efficiency of B is two times more than efficiency of A. Both started working alternatively, starting with B and completed the work in total 37 days. If C alone complete the same work in 50 days then find in how many days A and C together will complete the work?",
-      "options": {
-        "a": "24 days",
-        "b": "30 days",
-        "c": "36 days",
-        "d": "48 days",
-        "e": "18 days"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2018,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q076",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
       "q_num": 76,
@@ -1187,16 +1162,35 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q080",
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q078",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 80,
-      "stem": "7 men and 6 women together can complete a piece of work in 8 days and work done by a women in one day is half the work done by a man in one day. If 8 men and 4 women started working and after 3 days 4 men left the work and 4 new women joined then, in how many more days will the work be completed",
+      "q_num": 78,
+      "stem": "A train of some length passes the platform of length 524 m in 55 seconds. Find the length of train if the speed of train is 72 km/hr.",
+      "options": {},
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Prelims",
+      "year": 2018,
+      "shift": null,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q079",
+      "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
+      "q_num": 79,
+      "stem": "Efficiency of B is two times more than efficiency of A. Both started working alternatively, starting with B and completed the work in total 37 days. If C alone complete the same work in 50 days then find in how many days A and C together will complete the work?",
       "options": {
-        "a": "7 days",
-        "b": "6 days",
-        "c": "5.25 days",
-        "d": "6.25 days",
-        "e": "8.14 days 2 cm"
+        "a": "24 days",
+        "b": "30 days",
+        "c": "36 days",
+        "d": "48 days",
+        "e": "18 days"
       },
       "direction_id": null,
       "direction_text": null,
@@ -1212,11 +1206,17 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q078",
+      "q_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592::q080",
       "paper_id": "ibps_rrb_2018_prelims_unknown_shift_7ed35592",
-      "q_num": 78,
-      "stem": "A train of some length passes the platform of length 524 m in 55 seconds. Find the length of train if the speed of train is 72 km/hr.",
-      "options": {},
+      "q_num": 80,
+      "stem": "7 men and 6 women together can complete a piece of work in 8 days and work done by a women in one day is half the work done by a man in one day. If 8 men and 4 women started working and after 3 days 4 men left the work and 4 new women joined then, in how many more days will the work be completed",
+      "options": {
+        "a": "7 days",
+        "b": "6 days",
+        "c": "5.25 days",
+        "d": "6.25 days",
+        "e": "8.14 days 2 cm"
+      },
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,

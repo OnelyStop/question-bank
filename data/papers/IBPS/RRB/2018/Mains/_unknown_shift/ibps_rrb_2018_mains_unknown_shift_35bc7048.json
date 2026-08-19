@@ -120,6 +120,31 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q005",
+      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
+      "q_num": 5,
+      "stem": "How many persons were born between A and E?",
+      "options": {
+        "a": "Two",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "None R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black."
+      },
+      "direction_id": "d001",
+      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q006",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
       "q_num": 6,
@@ -158,31 +183,6 @@
       },
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q005",
-      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 5,
-      "stem": "How many persons were born between A and E?",
-      "options": {
-        "a": "Two",
-        "b": "One",
-        "c": "Three",
-        "d": "Four",
-        "e": "None R sits second from one of the ends. The one who sits immediate right of R faces C. P sits right to T but not immediate right. The number of persons sitting to the left of C is same as the number of persons sitting to the right of T. D faces the one who likes yellow. The one who likes pink in row 1 faces the one who sits 2nd to the left of the one who likes pink in row 2. Only one person sit between S and the one who likes orange. The one who likes black sits 3rd to the left of the one who likes pink in row 2. More than two person sits between D and A. E does not like pink. C likes yellow. R does not like orange and pink. S faces the one who likes blue. The one who likes yellow sits immediate left to R. P does not like black."
-      },
-      "direction_id": "d001",
-      "direction_text": "Study the information carefully and answer the questions given below. Seven persons A, B, C, D, E, F and G are born in different years 1950, 1953, 1961, 1968, 1972, 1985, 1996 but not necessarily in the same order. They are born on same date of the same month in different years. (All the calculations of ages are done by considering 2018 as the base year) They like different fruits i.e. grapes, litchi, fig, mango, guava, apple, pomegranate. The sum of the present age of B and E is 90 years. The person who is 2nd eldest likes mango. C is younger to F. The sum of the present age of G and the one who likes guava is 103 years. Neither C nor A likes grapes and fig. The difference between the present ages of the one who likes guava and the one who likes fig is 11 years. The number of persons born before A is same as the number of persons born after the one who likes apple. The youngest person likes pomegranate. The sum of the present age of D and A is 115 years. A is younger to D. The one who likes litchi is older to the one who likes grapes. The number of persons born between the one who likes guava and grapes is more than the persons born between the ones who like grapes and litchi. G does not like fig and B is younger to E.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -719,28 +719,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q041",
-      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 41,
-      "stem": "In a bag, there are 8 black balls and 12 yellow and green balls. If the probability of choosing a green ball from the bag is 0.35 then, find the probability of choosing two yellow balls from the bag if the ball chosen is not replaced.",
-      "options": {
-        "a": "QUANTITATIVE APTITUDE",
-        "e": "None of these"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q039",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
       "q_num": 39,
@@ -779,6 +757,28 @@
       },
       "direction_id": "d009",
       "direction_text": "Statement- The CMC products are quite popular and has been commonly used by the people of city X, as it became so popular among the people who are getting health benefits from it. But recently we have seen a sudden decline in the demand of the products.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q041",
+      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
+      "q_num": 41,
+      "stem": "In a bag, there are 8 black balls and 12 yellow and green balls. If the probability of choosing a green ball from the bag is 0.35 then, find the probability of choosing two yellow balls from the bag if the ball chosen is not replaced.",
+      "options": {
+        "a": "QUANTITATIVE APTITUDE",
+        "e": "None of these"
+      },
+      "direction_id": null,
+      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1435,12 +1435,16 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q074",
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q073",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 74,
-      "stem": "Find time taken by A to cross B, if B has a head start of 30m and they run in same direction at same time? I . Speed of B is twice of relative speed of A and B. II . If B started 2 seconds earlier, then A took 16 sufficient to answer the question.",
+      "q_num": 73,
+      "stem": "Find the rate of interest p.c.p.a (take rate of interest same for Simple interest and Compound interest)? I. When Rs. 25,000 invested for 2 years at that rate of interest, then compound interest is Rs.250 more than simple interest. II. After 10 years amount will be double if invested at Simple interest.",
       "options": {
-        "e": "Statements I and II taken together are not seconds to cross B."
+        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
+        "b": "Statement II alone is sufficient to answer the sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement I or statement II by itself is question but statement II alone is not sufficient to answer the question.",
+        "e": "Statements I and II taken together are not question but statement I alone is not sufficient to answer the question. sufficient to answer the question."
       },
       "direction_id": "d014",
       "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
@@ -1456,16 +1460,12 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q073",
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q074",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 73,
-      "stem": "Find the rate of interest p.c.p.a (take rate of interest same for Simple interest and Compound interest)? I. When Rs. 25,000 invested for 2 years at that rate of interest, then compound interest is Rs.250 more than simple interest. II. After 10 years amount will be double if invested at Simple interest.",
+      "q_num": 74,
+      "stem": "Find time taken by A to cross B, if B has a head start of 30m and they run in same direction at same time? I . Speed of B is twice of relative speed of A and B. II . If B started 2 seconds earlier, then A took 16 sufficient to answer the question.",
       "options": {
-        "a": "Statement I alone is sufficient to answer the question but statement II alone is not sufficient to answer the question.",
-        "b": "Statement II alone is sufficient to answer the sufficient to answer the question.",
-        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
-        "d": "Either statement I or statement II by itself is question but statement II alone is not sufficient to answer the question.",
-        "e": "Statements I and II taken together are not question but statement I alone is not sufficient to answer the question. sufficient to answer the question."
+        "e": "Statements I and II taken together are not seconds to cross B."
       },
       "direction_id": "d014",
       "direction_text": "The following questions are accompanied by two statements I and II. You have to determine which statements (s) is / are sufficient / necessary to answer the questions.",
@@ -2121,50 +2121,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q115",
-      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 115,
-      "stem": "Governments in India seem to delight in arbitrary censorship under the ________ of _________ the public.",
-      "options": {
-        "a": "garb, upholding",
-        "b": "pretext, protecting",
-        "c": "context, strengthening",
-        "d": "command, authorising",
-        "e": "guise, winning"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q116",
-      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 116,
-      "stem": "(A) This is primarily because of restrictive export policies (minimum export prices, export bans or export duties) and domestic marketing policies (due to the Essential Commodities Act, APMC, etc). (B) The Producer Support Estimate (PSE) for India",
-      "options": {},
-      "direction_id": "d022",
-      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2018,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q106",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
       "q_num": 106,
@@ -2360,6 +2316,50 @@
       "image_refs": []
     },
     {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q115",
+      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
+      "q_num": 115,
+      "stem": "Governments in India seem to delight in arbitrary censorship under the ________ of _________ the public.",
+      "options": {
+        "a": "garb, upholding",
+        "b": "pretext, protecting",
+        "c": "context, strengthening",
+        "d": "command, authorising",
+        "e": "guise, winning"
+      },
+      "direction_id": null,
+      "direction_text": null,
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q116",
+      "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
+      "q_num": 116,
+      "stem": "(A) This is primarily because of restrictive export policies (minimum export prices, export bans or export duties) and domestic marketing policies (due to the Essential Commodities Act, APMC, etc). (B) The Producer Support Estimate (PSE) for India",
+      "options": {},
+      "direction_id": "d022",
+      "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2018,
+      "shift": null,
+      "memory_based": false,
+      "has_image": false,
+      "image_refs": []
+    },
+    {
       "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q117",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
       "q_num": 117,
@@ -2410,16 +2410,16 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q120",
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q119",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 120,
-      "stem": "(A) In fact, what’s worrying is that some of these expensive plants may end up being liquidated because lenders would resist selling them at big haircuts, fearful of being questioned by the investigative agencies. (B) What is more important, however, is that it won’t piloted by the Union government to address the winter haze. (E) States have got nearly Rs.650 crore to help really solve the issues faced by these plants and will, at most, help postpone the day of reckoning. (C) Which is why union power minister RK Singh is farmers buy subsidised equipment such as Happy Seeder, paddy straw choppers and Zero Till Drill. (F) The onset of the winter season has come to be trying to convince RBI it should provide lenders some forbearance for these assets. (D) Whether the central bank will make exceptions associated with toxic atmospheric pollution in north India.",
+      "q_num": 119,
+      "stem": "(A) The aim of the NHPS is to cover 10 crore families with medical insurance of Rs 5 lakh per household per year. (B) The country’s average out-of-pocket expenditure on healthcare is one of the highest globally, at 68%, and this means that of every Rs 100 spent by the public on healthcare, Rs 68 comes from their pocket. for one sector is not clear. (E) With over 40,000 MW of power plants already unviable for want of fuel or power purchase agreements (PPAs), and likely to be sold for a song if they turn into non-performing assets on banks’ books and end up in the NCLT, it is understandable the government is seriously concerned.",
       "options": {
-        "a": "DEFACB",
-        "b": "FDACBE",
-        "c": "CABEDF",
-        "d": "ABCFDE",
-        "e": "DFECBA"
+        "a": "CAEBD",
+        "b": "EACDB",
+        "c": "AEBCD",
+        "d": "DAEBC",
+        "e": "BCEDA"
       },
       "direction_id": "d022",
       "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
@@ -2435,16 +2435,16 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q119",
+      "q_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048::q120",
       "paper_id": "ibps_rrb_2018_mains_unknown_shift_35bc7048",
-      "q_num": 119,
-      "stem": "(A) The aim of the NHPS is to cover 10 crore families with medical insurance of Rs 5 lakh per household per year. (B) The country’s average out-of-pocket expenditure on healthcare is one of the highest globally, at 68%, and this means that of every Rs 100 spent by the public on healthcare, Rs 68 comes from their pocket. for one sector is not clear. (E) With over 40,000 MW of power plants already unviable for want of fuel or power purchase agreements (PPAs), and likely to be sold for a song if they turn into non-performing assets on banks’ books and end up in the NCLT, it is understandable the government is seriously concerned.",
+      "q_num": 120,
+      "stem": "(A) In fact, what’s worrying is that some of these expensive plants may end up being liquidated because lenders would resist selling them at big haircuts, fearful of being questioned by the investigative agencies. (B) What is more important, however, is that it won’t piloted by the Union government to address the winter haze. (E) States have got nearly Rs.650 crore to help really solve the issues faced by these plants and will, at most, help postpone the day of reckoning. (C) Which is why union power minister RK Singh is farmers buy subsidised equipment such as Happy Seeder, paddy straw choppers and Zero Till Drill. (F) The onset of the winter season has come to be trying to convince RBI it should provide lenders some forbearance for these assets. (D) Whether the central bank will make exceptions associated with toxic atmospheric pollution in north India.",
       "options": {
-        "a": "CAEBD",
-        "b": "EACDB",
-        "c": "AEBCD",
-        "d": "DAEBC",
-        "e": "BCEDA"
+        "a": "DEFACB",
+        "b": "FDACBE",
+        "c": "CABEDF",
+        "d": "ABCFDE",
+        "e": "DFECBA"
       },
       "direction_id": "d022",
       "direction_text": "In the following questions rearrange the sentences given to form a meaningful paragraph and choose the appropriate sequence of the coherent paragraph.",
