@@ -368,6 +368,63 @@ def propagate_direction_sections(paper: dict[str, Any], *, unify: bool = False) 
     return filled
 
 
+def fill_neighbour_sections(paper: dict[str, Any]) -> int:
+    """
+    Fill missing section when both immediate neighbours agree.
+
+    Banking papers run in section blocks (e.g. Q1–30 English). If Q45 is
+    unlabelled and Q44/Q46 both say Reasoning, Q45 is Reasoning. Boundary
+    questions (neighbours disagree or only one side labelled) stay empty.
+    """
+    qs = paper.get("questions") or []
+    filled = 0
+    for i, q in enumerate(qs):
+        if q.get("section"):
+            continue
+        left = qs[i - 1] if i > 0 else None
+        right = qs[i + 1] if i + 1 < len(qs) else None
+        if not left or not right:
+            continue
+        left_sec = left.get("section")
+        right_sec = right.get("section")
+        if left_sec and right_sec and left_sec == right_sec:
+            q["section"] = left_sec
+            q["section_source"] = "neighbour"
+            filled += 1
+    return filled
+
+
+def fill_neighbour_topics(paper: dict[str, Any], allowed_topics: set[str] | None = None) -> int:
+    """Fill missing topic when both immediate neighbours share the same topic id."""
+    qs = paper.get("questions") or []
+    filled = 0
+    for i, q in enumerate(qs):
+        if q.get("topic"):
+            continue
+        left = qs[i - 1] if i > 0 else None
+        right = qs[i + 1] if i + 1 < len(qs) else None
+        if not left or not right:
+            continue
+        left_topic = left.get("topic")
+        right_topic = right.get("topic")
+        if not left_topic or left_topic != right_topic:
+            continue
+        if allowed_topics is not None and left_topic not in allowed_topics:
+            continue
+        # Prefer not to cross a section boundary even if topics match oddly
+        left_sec = left.get("section")
+        right_sec = right.get("section")
+        if left_sec and right_sec and left_sec != right_sec:
+            continue
+        q["topic"] = left_topic
+        q["topic_source"] = "neighbour"
+        if not q.get("section") and left_sec and left_sec == right_sec:
+            q["section"] = left_sec
+            q["section_source"] = "neighbour"
+        filled += 1
+    return filled
+
+
 def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
     sources: Counter[str] = Counter()
     sections: Counter[str] = Counter()
@@ -412,6 +469,16 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
             sources["unlabelled"] = max(0, sources["unlabelled"] - prop)
             for q in paper.get("questions") or []:
                 if q.get("section_source") == "direction_propagate":
+                    sections[str(q["section"])] += 1
+
+        n_sec = fill_neighbour_sections(paper)
+        if n_sec:
+            dirty = True
+            sources["neighbour"] += n_sec
+            labelled += n_sec
+            sources["unlabelled"] = max(0, sources["unlabelled"] - n_sec)
+            for q in paper.get("questions") or []:
+                if q.get("section_source") == "neighbour":
                     sections[str(q["section"])] += 1
 
         if dirty:

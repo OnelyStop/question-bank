@@ -37,7 +37,12 @@ from corpus import DEFAULT_OUT, iter_paper_jsons, load_paper  # noqa: E402
 
 from classify import classify_question  # noqa: E402
 from difficulty import infer_difficulty  # noqa: E402
-from label_sections import infer_section, propagate_direction_sections  # noqa: E402
+from label_sections import (  # noqa: E402
+    fill_neighbour_sections,
+    fill_neighbour_topics,
+    infer_section,
+    propagate_direction_sections,
+)
 from label_topics import TOPIC_RULES, FALLBACK_BY_SECTION, infer_labels, load_taxonomy  # noqa: E402
 from patterns import PRIMARY_SKILLS, SECONDARY_SKILLS  # noqa: E402
 from strip_bilingual import strip_question_fields  # noqa: E402
@@ -182,7 +187,21 @@ def classify_paper(
     # 4) Propagate / unify section across direction sets
     propagate_direction_sections(paper, unify=True)
 
-    # 5) Pattern + difficulty + pattern→topic hints
+    # 5) Neighbour fill — both immediate neighbours must agree (safe block fill)
+    n_sec = fill_neighbour_sections(paper)
+    if n_sec:
+        stats["section_sources"]["neighbour"] += n_sec
+        stats["section_sources"]["unlabelled"] = max(
+            0, stats["section_sources"]["unlabelled"] - n_sec
+        )
+    n_topic = fill_neighbour_topics(paper, allowed_topics)
+    if n_topic:
+        stats["topic_sources"]["neighbour"] += n_topic
+        stats["topic_sources"]["unlabelled"] = max(
+            0, stats["topic_sources"]["unlabelled"] - n_topic
+        )
+
+    # 6) Pattern + difficulty + pattern→topic hints
     for q in paper.get("questions") or []:
         primary, match, _secondary = classify_question(q, paper)
         pattern = primary.id
@@ -211,7 +230,7 @@ def classify_paper(
         if q.get("difficulty") is not None:
             stats["difficulty_filled"] += 1
 
-        # Schema: audit fields stay in the report only
+        # Schema: audit fields stay in the report only (additionalProperties: false)
         scrub_audit_fields(q)
 
     return stats
