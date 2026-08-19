@@ -14,7 +14,7 @@ import fitz
 # comes through lib/ rather than from another step
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from context_completeness import assess_context, needs_figure_stimulus
-from question_schema import Question, QuestionMetrics, make_direction_id, make_q_id
+from question_schema import Question, make_direction_id, make_q_id
 
 log = logging.getLogger("layout_parse")
 

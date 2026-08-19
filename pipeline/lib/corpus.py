@@ -22,7 +22,7 @@ log = logging.getLogger("corpus")
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS = REPO_ROOT / "corpus" / "pdf"
-DEFAULT_OUT = REPO_ROOT / "corpus" / "papers"
+DEFAULT_OUT = REPO_ROOT / "data" / "papers"
 
 SKIP_JSON = {
     "parse_report.json",
