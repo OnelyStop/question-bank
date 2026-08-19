@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:3",
     "assets_exported:3",
-    "figure_questions_removed:43"
+    "figure_questions_removed:43",
+    "placeholder_stems_removed:2"
   ],
-  "question_count": 97,
+  "question_count": 95,
   "questions": [
     {
       "q_id": "sbi_clerk_2020_mains_unknown_shift_1e762e8e::q006",
@@ -1826,56 +1827,6 @@
       },
       "direction_id": "d021",
       "direction_text": "Read each sentence to find out which part doesn’t have any grammatical or idiomatic error in it. The correct, if any, will be one part of the sentence. The number of that part is the answer. If all the given parts are erroneous then mark the answer ‘e’). (Ignore errors of punctuation, if any.) very common problem amongst the masses.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_mains_unknown_shift_1e762e8e::q122",
-      "paper_id": "sbi_clerk_2020_mains_unknown_shift_1e762e8e",
-      "q_num": 122,
-      "stem": "Question 122.",
-      "options": {
-        "a": "equipped",
-        "b": "existing",
-        "c": "discourage",
-        "d": "satisfactory",
-        "e": "respectively"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2020,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2020_mains_unknown_shift_1e762e8e::q123",
-      "paper_id": "sbi_clerk_2020_mains_unknown_shift_1e762e8e",
-      "q_num": 123,
-      "stem": "Question 123.",
-      "options": {
-        "a": "misappropriate",
-        "b": "agree",
-        "c": "tender",
-        "d": "hoping",
-        "e": "revised"
-      },
-      "direction_id": null,
-      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

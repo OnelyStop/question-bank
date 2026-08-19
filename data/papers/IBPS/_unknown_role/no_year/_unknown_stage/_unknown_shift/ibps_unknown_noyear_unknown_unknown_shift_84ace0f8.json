@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:4"
+    "figure_questions_removed:4",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 76,
+  "question_count": 71,
   "questions": [
     {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q001",
@@ -1670,31 +1671,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q067",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 67,
-      "stem": "Question 67.",
-      "options": {
-        "a": "4",
-        "b": "8",
-        "c": "6",
-        "d": "1",
-        "e": "7"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q068",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
       "q_num": 68,
@@ -1730,31 +1706,6 @@
         "c": "125",
         "d": "120",
         "e": "110"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q071",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 71,
-      "stem": "Question 71.",
-      "options": {
-        "a": "190",
-        "b": "230",
-        "c": "250",
-        "d": "200",
-        "e": "240"
       },
       "direction_id": "d013",
       "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
@@ -1820,31 +1771,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q077",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 77,
-      "stem": "Question 77.",
-      "options": {
-        "a": "4",
-        "b": "5",
-        "c": "8",
-        "d": "3",
-        "e": "9"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q078",
       "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
       "q_num": 78,
@@ -1855,52 +1781,6 @@
         "c": "1280",
         "d": "1200",
         "e": "1210"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q079",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 79,
-      "stem": "Question 79.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d013",
-      "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": null,
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8::q080",
-      "paper_id": "ibps_unknown_noyear_unknown_unknown_shift_84ace0f8",
-      "q_num": 80,
-      "stem": "Question 80.",
-      "options": {
-        "a": "5",
-        "b": "3",
-        "c": "8",
-        "d": "1",
-        "e": "4"
       },
       "direction_id": "d013",
       "direction_text": "धनम्नधलधखत प्रश्न म़ें प्रश्नवाचक धचन्ह (?) के स्थान पर क्या आएगा?",

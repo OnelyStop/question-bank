@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:20"
+    "figure_questions_removed:20",
+    "placeholder_stems_removed:6"
   ],
-  "question_count": 120,
+  "question_count": 114,
   "questions": [
     {
       "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q001",
@@ -306,81 +307,6 @@
       },
       "direction_id": "d004",
       "direction_text": "A word arrangement machine when given an input line of words rearranges them following a particular rule in each step. The example of input and its rearrangement is given below: Input: Gold Plus Era Rain Hat Ask Row Bank Bay Join Step I: Gold Plus Era Rain aks abkn Hat Row Bay Join Step II: PlusEra Rain aks aby dglo abkn Hat Row Join Step III: Plus Rain aks aby aer ijno dglo abkn Hat Row Step IV: Rain aks aby aer aht lpsu ijno dglo abkn Row Step V: aks aby aer aht orw ainr lpsu ijno dglo abkn Step V is the last step of the given example. Illustrate the above input arrangement and obtain the steps for the asked input given below: Input: Ten Only Car Must Land Yen Away Next End Ink",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q018",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 18,
-      "stem": "Question 18.",
-      "options": {
-        "a": "If both conclusions I and II are true.",
-        "b": "None is true",
-        "c": "If only conclusion III is true.",
-        "d": "If both conclusions II and III are true.",
-        "e": "If both conclusions I and III are true."
-      },
-      "direction_id": "d005",
-      "direction_text": "In these questions, relationship between different elements is shown in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q019",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 19,
-      "stem": "Question 19.",
-      "options": {
-        "a": "If both conclusions I and II are true.",
-        "b": "If only conclusion I is true.",
-        "c": "If only conclusion III is true.",
-        "d": "If both conclusions II and III are true.",
-        "e": "If both conclusions I and III are true."
-      },
-      "direction_id": "d005",
-      "direction_text": "In these questions, relationship between different elements is shown in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q020",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 20,
-      "stem": "Question 20.",
-      "options": {
-        "a": "If All I, II and III are true",
-        "b": "If both conclusions II and III are true.",
-        "c": "If only conclusion II is true.",
-        "d": "If both conclusions I and II are true.",
-        "e": "If both conclusions I and III are true."
-      },
-      "direction_id": "d005",
-      "direction_text": "In these questions, relationship between different elements is shown in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -2366,56 +2292,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q110",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 110,
-      "stem": "Question 110.",
-      "options": {
-        "a": "500",
-        "b": "600",
-        "c": "550",
-        "d": "510",
-        "e": "660"
-      },
-      "direction_id": "d025",
-      "direction_text": "Find the approximate value of question mark (?) in the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q111",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 111,
-      "stem": "Question 111.",
-      "options": {
-        "a": "8",
-        "b": "12",
-        "c": "10",
-        "d": "9",
-        "e": "14"
-      },
-      "direction_id": "d025",
-      "direction_text": "Find the approximate value of question mark (?) in the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q112",
       "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
       "q_num": 112,
@@ -2570,31 +2446,6 @@
       "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
       "q_num": 118,
       "stem": "An article is marked up by Rs 1225 above its cost price which is ‘x’. It sold at a discount of 0.27x and the profit earned by the shopkeeper is 8%. Quantity I: Find the value of Rs (x - 2500). Quantity II: If cost price of the article is increase by 14.28% and sell at a profit of 25%, then find the profit (in Rs).",
-      "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I ≥ Quantity II",
-        "d": "Quantity I ≤ Quantity II",
-        "e": "Quantity I = Quantity II or no relation"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac::q119",
-      "paper_id": "sbi_clerk_2023_mains_unknown_shift_5fa54eac",
-      "q_num": 119,
-      "stem": "Question 119.",
       "options": {
         "a": "Quantity I > Quantity II",
         "b": "Quantity I < Quantity II",

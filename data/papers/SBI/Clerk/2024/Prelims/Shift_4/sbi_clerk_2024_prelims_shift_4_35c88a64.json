@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:27"
+    "figure_questions_removed:27",
+    "placeholder_stems_removed:2"
   ],
-  "question_count": 73,
+  "question_count": 71,
   "questions": [
     {
       "q_id": "sbi_clerk_2024_prelims_shift_4_35c88a64::q001",
@@ -947,31 +948,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2024_prelims_shift_4_35c88a64::q038",
-      "paper_id": "sbi_clerk_2024_prelims_shift_4_35c88a64",
-      "q_num": 38,
-      "stem": "Question 38.",
-      "options": {
-        "a": "236",
-        "b": "256",
-        "c": "248",
-        "d": "242",
-        "e": "246"
-      },
-      "direction_id": "d004",
-      "direction_text": "What will come in the place of question mark (?) in the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_4",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2024_prelims_shift_4_35c88a64::q039",
       "paper_id": "sbi_clerk_2024_prelims_shift_4_35c88a64",
       "q_num": 39,
@@ -982,31 +958,6 @@
         "c": "14",
         "d": "8",
         "e": "12"
-      },
-      "direction_id": "d004",
-      "direction_text": "What will come in the place of question mark (?) in the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_4",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_4_35c88a64::q040",
-      "paper_id": "sbi_clerk_2024_prelims_shift_4_35c88a64",
-      "q_num": 40,
-      "stem": "Question 40.",
-      "options": {
-        "a": "2 25/54",
-        "b": "4 25/54",
-        "c": "3 25/54",
-        "d": "1 25/54",
-        "e": "3 23/54"
       },
       "direction_id": "d004",
       "direction_text": "What will come in the place of question mark (?) in the following questions.",

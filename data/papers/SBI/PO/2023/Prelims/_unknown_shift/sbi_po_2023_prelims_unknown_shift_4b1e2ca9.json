@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:19"
+    "figure_questions_removed:19",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 81,
+  "question_count": 76,
   "questions": [
     {
       "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q001",
@@ -885,111 +886,6 @@
       },
       "direction_id": "d009",
       "direction_text": "The table given below shows the average number of articles (A, B and C) sold by Pesto company in three different months. It also shows the percentage of article A sold by Pesto company out of the total number of articles sold in these months. Table also reflects the total number of article C sold in these months. Read the table carefully and answer the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q042",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "q_num": 42,
-      "stem": "Question 42.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d010",
-      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answers.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q043",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "q_num": 43,
-      "stem": "Question 43.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d010",
-      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answers.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q044",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "q_num": 44,
-      "stem": "Question 44.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d010",
-      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answers.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q045",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "q_num": 45,
-      "stem": "Question 45.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d010",
-      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answers.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9::q046",
-      "paper_id": "sbi_po_2023_prelims_unknown_shift_4b1e2ca9",
-      "q_num": 46,
-      "stem": "Question 46.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d010",
-      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answers.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

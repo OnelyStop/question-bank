@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:2",
     "assets_exported:2",
-    "figure_questions_removed:34"
+    "figure_questions_removed:34",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 106,
+  "question_count": 101,
   "questions": [
     {
       "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q006",
@@ -2016,30 +2017,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q095",
-      "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
-      "q_num": 95,
-      "stem": "Question 95.",
-      "options": {
-        "a": "6.5",
-        "b": "71.5",
-        "c": "5.5",
-        "e": "82.2"
-      },
-      "direction_id": "d022",
-      "direction_text": "Find the wrong number in the given series.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q112",
       "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
       "q_num": 112,
@@ -2278,106 +2255,6 @@
       },
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q122",
-      "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
-      "q_num": 122,
-      "stem": "Question 122.",
-      "options": {
-        "a": "2",
-        "b": "4",
-        "c": "6",
-        "d": "8",
-        "e": "10"
-      },
-      "direction_id": "d026",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions (You are not expected to calculate the exact value).",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q123",
-      "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
-      "q_num": 123,
-      "stem": "Question 123.",
-      "options": {
-        "a": "4020",
-        "b": "4250",
-        "c": "4550",
-        "d": "4025",
-        "e": "4225"
-      },
-      "direction_id": "d026",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions (You are not expected to calculate the exact value).",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q124",
-      "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
-      "q_num": 124,
-      "stem": "Question 124.",
-      "options": {
-        "a": "65",
-        "b": "61",
-        "c": "67",
-        "d": "63",
-        "e": "68"
-      },
-      "direction_id": "d026",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions (You are not expected to calculate the exact value).",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb::q125",
-      "paper_id": "ibps_clerk_2023_mains_unknown_shift_6d66a1eb",
-      "q_num": 125,
-      "stem": "Question 125.",
-      "options": {
-        "a": "1154",
-        "b": "1143",
-        "c": "1122",
-        "d": "1139",
-        "e": "1165"
-      },
-      "direction_id": "d026",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions (You are not expected to calculate the exact value).",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",

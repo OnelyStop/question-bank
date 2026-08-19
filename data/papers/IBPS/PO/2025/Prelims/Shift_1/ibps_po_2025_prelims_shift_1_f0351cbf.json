@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:23"
+    "figure_questions_removed:23",
+    "placeholder_stems_removed:8"
   ],
-  "question_count": 77,
+  "question_count": 69,
   "questions": [
     {
       "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q001",
@@ -1539,131 +1540,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q085",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 85,
-      "stem": "Question 85.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x≥y",
-        "e": "x=y or no relation."
-      },
-      "direction_id": "d014",
-      "direction_text": "Solve the given equation and mark appropriate option.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q086",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 86,
-      "stem": "Question 86.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x≥y",
-        "e": "x=y or no relation."
-      },
-      "direction_id": "d014",
-      "direction_text": "Solve the given equation and mark appropriate option.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q087",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 87,
-      "stem": "Question 87.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x≥y",
-        "e": "x=y or no relation."
-      },
-      "direction_id": "d014",
-      "direction_text": "Solve the given equation and mark appropriate option.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q088",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 88,
-      "stem": "Question 88.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x≥y",
-        "e": "x=y or no relation."
-      },
-      "direction_id": "d014",
-      "direction_text": "Solve the given equation and mark appropriate option.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q089",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 89,
-      "stem": "Question 89.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x≥y",
-        "e": "x=y or no relation."
-      },
-      "direction_id": "d014",
-      "direction_text": "Solve the given equation and mark appropriate option.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q090",
       "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
       "q_num": 90,
@@ -1689,31 +1565,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q091",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 91,
-      "stem": "Question 91.",
-      "options": {
-        "a": "48",
-        "b": "12",
-        "c": "24",
-        "d": "18",
-        "e": "6"
-      },
-      "direction_id": "d015",
-      "direction_text": "What approximate value will come in the place of question (?) marks:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q092",
       "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
       "q_num": 92,
@@ -1724,56 +1575,6 @@
         "c": "20",
         "d": "25",
         "e": "50"
-      },
-      "direction_id": "d015",
-      "direction_text": "What approximate value will come in the place of question (?) marks:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q093",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 93,
-      "stem": "Question 93.",
-      "options": {
-        "a": "3",
-        "b": "4",
-        "c": "5",
-        "d": "6",
-        "e": "8"
-      },
-      "direction_id": "d015",
-      "direction_text": "What approximate value will come in the place of question (?) marks:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_1_f0351cbf::q094",
-      "paper_id": "ibps_po_2025_prelims_shift_1_f0351cbf",
-      "q_num": 94,
-      "stem": "Question 94.",
-      "options": {
-        "a": "4",
-        "b": "16",
-        "c": "30",
-        "d": "8",
-        "e": "24"
       },
       "direction_id": "d015",
       "direction_text": "What approximate value will come in the place of question (?) marks:",

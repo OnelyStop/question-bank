@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:24"
+    "figure_questions_removed:24",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 76,
+  "question_count": 75,
   "questions": [
     {
       "q_id": "ibps_po_2025_prelims_shift_2_62c07700::q001",
@@ -1505,31 +1506,6 @@
         "c": "41",
         "d": "47",
         "e": "43"
-      },
-      "direction_id": "d018",
-      "direction_text": "What approximate value should come in place of (?) in the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2025_prelims_shift_2_62c07700::q085",
-      "paper_id": "ibps_po_2025_prelims_shift_2_62c07700",
-      "q_num": 85,
-      "stem": "Question 85.",
-      "options": {
-        "a": "662",
-        "b": "735",
-        "c": "679",
-        "d": "701",
-        "e": "726"
       },
       "direction_id": "d018",
       "direction_text": "What approximate value should come in place of (?) in the following questions.",

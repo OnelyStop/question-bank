@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:3"
+    "figure_questions_removed:3",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 97,
+  "question_count": 96,
   "questions": [
     {
       "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q001",
@@ -830,31 +831,6 @@
         "c": "200",
         "d": "300",
         "e": "500"
-      },
-      "direction_id": "d007",
-      "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8::q035",
-      "paper_id": "sbi_clerk_noyear_unknown_unknown_shift_1633b8f8",
-      "q_num": 35,
-      "stem": "Question 35.",
-      "options": {
-        "a": "10",
-        "b": "16",
-        "c": "8",
-        "d": "12",
-        "e": "14"
       },
       "direction_id": "d007",
       "direction_text": "பின்வரும் கேள்விேளில் கேள்விே்குறியின் (?) இடத்தில் என்ன வரும்.",

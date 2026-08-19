@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:15"
+    "figure_questions_removed:15",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 85,
+  "question_count": 84,
   "questions": [
     {
       "q_id": "sbi_po_2024_prelims_shift_2_8b244374::q001",
@@ -1382,31 +1383,6 @@
         "c": "72",
         "d": "81",
         "e": "78"
-      },
-      "direction_id": "d011",
-      "direction_text": "What should come in place of the question mark (?) in the following questions. Find the approximate value?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2024_prelims_shift_2_8b244374::q061",
-      "paper_id": "sbi_po_2024_prelims_shift_2_8b244374",
-      "q_num": 61,
-      "stem": "Question 61.",
-      "options": {
-        "a": "1894",
-        "b": "1681",
-        "c": "1764",
-        "d": "2025",
-        "e": "1849"
       },
       "direction_id": "d011",
       "direction_text": "What should come in place of the question mark (?) in the following questions. Find the approximate value?",

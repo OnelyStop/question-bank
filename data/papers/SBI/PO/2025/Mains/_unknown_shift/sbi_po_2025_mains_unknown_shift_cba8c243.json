@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:2",
     "assets_exported:2",
-    "figure_questions_removed:14"
+    "figure_questions_removed:14",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 17,
+  "question_count": 16,
   "questions": [
     {
       "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q001",
@@ -285,31 +286,6 @@
       },
       "direction_id": "d002",
       "direction_text": "Read the information carefully and answer the questions given below. There are three Sets A, B, and C, which contain a total of 13 unique integers. Total of ‘n’ prime numbers is distributed among them. Set A has four numbers. The product of the smallest and largest number in Set A is 26. Set B has five numbers, but only two of them are prime numbers (others are composite). Set C has four numbers. The product of the smallest and largest number in Set C is 23, which is the highest number in all three sets.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2025,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2025_mains_unknown_shift_cba8c243::q035",
-      "paper_id": "sbi_po_2025_mains_unknown_shift_cba8c243",
-      "q_num": 35,
-      "stem": "Question 35.",
-      "options": {
-        "a": "Only I",
-        "b": "Only II",
-        "c": "Only III",
-        "d": "Both I & II",
-        "e": "Both II & III"
-      },
-      "direction_id": null,
-      "direction_text": null,
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

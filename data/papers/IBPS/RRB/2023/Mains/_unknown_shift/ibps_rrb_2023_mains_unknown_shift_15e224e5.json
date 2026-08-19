@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:19"
+    "figure_questions_removed:19",
+    "placeholder_stems_removed:7"
   ],
-  "question_count": 101,
+  "question_count": 94,
   "questions": [
     {
       "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q001",
@@ -1944,106 +1945,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q097",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 97,
-      "stem": "Question 97.",
-      "options": {
-        "a": "If x>y",
-        "b": "If x≥y",
-        "c": "If x<y",
-        "d": "If x≤y",
-        "e": "If x = y or no relation can be established between x and y."
-      },
-      "direction_id": "d022",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q098",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 98,
-      "stem": "Question 98.",
-      "options": {
-        "a": "If x>y",
-        "b": "If x≥y",
-        "c": "If x<y",
-        "d": "If x≤y",
-        "e": "If x = y or no relation can be established between x and y."
-      },
-      "direction_id": "d022",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q099",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 99,
-      "stem": "Question 99.",
-      "options": {
-        "a": "If x>y",
-        "b": "If x≥y",
-        "c": "If x<y",
-        "d": "If x≤y",
-        "e": "If x = y or no relation can be established between x and y."
-      },
-      "direction_id": "d022",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q100",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 100,
-      "stem": "Question 100.",
-      "options": {
-        "a": "If x>y",
-        "b": "If x≥y",
-        "c": "If x<y",
-        "d": "If x≤y",
-        "e": "If x = y or no relation can be established between x and y."
-      },
-      "direction_id": "d022",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q101",
       "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
       "q_num": 101,
@@ -2263,85 +2164,10 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q110",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 110,
-      "stem": "Question 110.",
-      "options": {
-        "a": "I>II",
-        "b": "II>I",
-        "c": "No relation or equal.",
-        "d": "I≥II",
-        "e": "II≥I"
-      },
-      "direction_id": "d024",
-      "direction_text": "Given below are two quantities named I and II. Based on the given information, you have to determine the relation between the two quantities.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q111",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 111,
-      "stem": "Question 111.",
-      "options": {
-        "a": "I>II",
-        "b": "II>I",
-        "c": "No relation or equal.",
-        "d": "I≥II",
-        "e": "II≥I"
-      },
-      "direction_id": "d024",
-      "direction_text": "Given below are two quantities named I and II. Based on the given information, you have to determine the relation between the two quantities.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q112",
       "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
       "q_num": 112,
       "stem": "LCM of a and b is 88 and HCF of b and a is 1, such that a < b.",
-      "options": {
-        "a": "I>II",
-        "b": "II>I",
-        "c": "No relation or equal.",
-        "d": "I≥II",
-        "e": "II≥I"
-      },
-      "direction_id": "d024",
-      "direction_text": "Given below are two quantities named I and II. Based on the given information, you have to determine the relation between the two quantities.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2023,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5::q113",
-      "paper_id": "ibps_rrb_2023_mains_unknown_shift_15e224e5",
-      "q_num": 113,
-      "stem": "Question 113.",
       "options": {
         "a": "I>II",
         "b": "II>I",

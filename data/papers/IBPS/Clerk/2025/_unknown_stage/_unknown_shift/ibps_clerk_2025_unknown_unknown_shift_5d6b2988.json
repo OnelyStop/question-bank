@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:3"
+    "figure_questions_removed:3",
+    "placeholder_stems_removed:6"
   ],
-  "question_count": 97,
+  "question_count": 91,
   "questions": [
     {
       "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q001",
@@ -319,106 +320,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q013",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 13,
-      "stem": "Question 13.",
-      "options": {
-        "a": "900",
-        "b": "950",
-        "c": "850",
-        "d": "800",
-        "e": "750"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q015",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 15,
-      "stem": "Question 15.",
-      "options": {
-        "a": "5",
-        "b": "8",
-        "c": "10",
-        "d": "15",
-        "e": "11"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q016",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 16,
-      "stem": "Question 16.",
-      "options": {
-        "a": "4",
-        "b": "11",
-        "c": "6",
-        "d": "15",
-        "e": "7"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q018",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 18,
-      "stem": "Question 18.",
-      "options": {
-        "a": "34",
-        "b": "6",
-        "c": "28",
-        "d": "12",
-        "e": "20"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q019",
       "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
       "q_num": 19,
@@ -429,56 +330,6 @@
         "c": "340",
         "d": "200",
         "e": "240"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q020",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 20,
-      "stem": "Question 20.",
-      "options": {
-        "a": "12",
-        "b": "4",
-        "c": "6",
-        "d": "8",
-        "e": "10"
-      },
-      "direction_id": "d003",
-      "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": null,
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988::q021",
-      "paper_id": "ibps_clerk_2025_unknown_unknown_shift_5d6b2988",
-      "q_num": 21,
-      "stem": "Question 21.",
-      "options": {
-        "a": "60",
-        "b": "25",
-        "c": "62",
-        "d": "50",
-        "e": "30"
       },
       "direction_id": "d003",
       "direction_text": "लनम्नलिलित प्रश्न में प्रश्नवाचक लचन्ह (?) के स्र्ान पर क्या आएगा?",

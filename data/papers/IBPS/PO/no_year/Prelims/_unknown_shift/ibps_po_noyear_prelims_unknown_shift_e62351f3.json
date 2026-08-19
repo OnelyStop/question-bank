@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:13"
+    "figure_questions_removed:13",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 22,
+  "question_count": 21,
   "questions": [
     {
       "q_id": "ibps_po_noyear_prelims_unknown_shift_e62351f3::q041",
@@ -444,31 +445,6 @@
         "c": "0.91",
         "d": "0.20",
         "e": "0.62"
-      },
-      "direction_id": "d005",
-      "direction_text": "What approximate value should come in the place of question mark (?) in the questions given below ?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": null,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_noyear_prelims_unknown_shift_e62351f3::q068",
-      "paper_id": "ibps_po_noyear_prelims_unknown_shift_e62351f3",
-      "q_num": 68,
-      "stem": "Question 68.",
-      "options": {
-        "a": "404",
-        "b": "408",
-        "c": "410",
-        "d": "414",
-        "e": "416"
       },
       "direction_id": "d005",
       "direction_text": "What approximate value should come in the place of question mark (?) in the questions given below ?",

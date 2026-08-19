@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:8"
+    "figure_questions_removed:8",
+    "placeholder_stems_removed:7"
   ],
-  "question_count": 72,
+  "question_count": 65,
   "questions": [
     {
       "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q001",
@@ -1537,31 +1538,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q070",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 70,
-      "stem": "Question 70.",
-      "options": {
-        "a": "29",
-        "b": "31",
-        "c": "27",
-        "d": "39",
-        "e": "19"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q071",
       "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
       "q_num": 71,
@@ -1587,106 +1563,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q072",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 72,
-      "stem": "Question 72.",
-      "options": {
-        "a": "120",
-        "b": "140",
-        "c": "160",
-        "d": "100",
-        "e": "180"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q073",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 73,
-      "stem": "Question 73.",
-      "options": {
-        "a": "9",
-        "b": "19",
-        "c": "27",
-        "d": "7",
-        "e": "17"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q074",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 74,
-      "stem": "Question 74.",
-      "options": {
-        "a": "24",
-        "b": "14",
-        "c": "12",
-        "d": "22",
-        "e": "None of the above."
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q075",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 75,
-      "stem": "Question 75.",
-      "options": {
-        "a": "5",
-        "b": "4",
-        "c": "3",
-        "d": "2",
-        "e": "1"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q076",
       "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
       "q_num": 76,
@@ -1697,56 +1573,6 @@
         "c": "10",
         "d": "20",
         "e": "30"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q077",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 77,
-      "stem": "Question 77.",
-      "options": {
-        "a": "7",
-        "b": "5",
-        "c": "4",
-        "d": "2",
-        "e": "3"
-      },
-      "direction_id": "d013",
-      "direction_text": "What will come in the place of question (?) mark in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b::q078",
-      "paper_id": "ibps_rrb_2025_prelims_unknown_shift_b6c7e54b",
-      "q_num": 78,
-      "stem": "Question 78.",
-      "options": {
-        "a": "81",
-        "b": "9",
-        "c": "1",
-        "d": "25",
-        "e": "49"
       },
       "direction_id": "d013",
       "direction_text": "What will come in the place of question (?) mark in the following questions?",

@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:40"
+    "figure_questions_removed:40",
+    "placeholder_stems_removed:7"
   ],
-  "question_count": 60,
+  "question_count": 53,
   "questions": [
     {
       "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q001",
@@ -1016,56 +1017,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q053",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 53,
-      "stem": "Question 53.",
-      "options": {
-        "a": "12",
-        "b": "16",
-        "c": "14",
-        "d": "18",
-        "e": "8"
-      },
-      "direction_id": "d010",
-      "direction_text": "What approximate value will come in place of question mark (?) in the given questions (You are not expected to calculate the exact value.)",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q054",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 54,
-      "stem": "Question 54.",
-      "options": {
-        "a": "42",
-        "b": "21",
-        "c": "12",
-        "d": "14",
-        "e": "4"
-      },
-      "direction_id": "d010",
-      "direction_text": "What approximate value will come in place of question mark (?) in the given questions (You are not expected to calculate the exact value.)",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q055",
       "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
       "q_num": 55,
@@ -1116,135 +1067,10 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q057",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 57,
-      "stem": "Question 57.",
-      "options": {
-        "a": "1250",
-        "b": "1050",
-        "c": "750",
-        "d": "1750",
-        "e": "500"
-      },
-      "direction_id": "d010",
-      "direction_text": "What approximate value will come in place of question mark (?) in the given questions (You are not expected to calculate the exact value.)",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q061",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 61,
-      "stem": "Question 61.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x=y or no relation between x & y.",
-        "e": "x≥y"
-      },
-      "direction_id": "d012",
-      "direction_text": "In the following questions, two equations (I) and (II) are given. You have to solve both the equations and answer the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q062",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 62,
-      "stem": "Question 62.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x=y or no relation between x & y.",
-        "e": "x≥y"
-      },
-      "direction_id": "d012",
-      "direction_text": "In the following questions, two equations (I) and (II) are given. You have to solve both the equations and answer the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q063",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 63,
-      "stem": "Question 63.",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x=y or no relation between x & y.",
-        "e": "x≥y"
-      },
-      "direction_id": "d012",
-      "direction_text": "In the following questions, two equations (I) and (II) are given. You have to solve both the equations and answer the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q064",
       "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
       "q_num": 64,
       "stem": "I. 3x + 2y = 7 II. 2x + 5y = 12",
-      "options": {
-        "a": "x<y",
-        "b": "x>y",
-        "c": "x≤y",
-        "d": "x=y or no relation between x & y.",
-        "e": "x≥y"
-      },
-      "direction_id": "d012",
-      "direction_text": "In the following questions, two equations (I) and (II) are given. You have to solve both the equations and answer the following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8::q065",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_e7e5a9f8",
-      "q_num": 65,
-      "stem": "Question 65.",
       "options": {
         "a": "x<y",
         "b": "x>y",

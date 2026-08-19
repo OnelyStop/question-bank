@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:3",
     "assets_exported:3",
-    "figure_questions_removed:43"
+    "figure_questions_removed:43",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 147,
+  "question_count": 142,
   "questions": [
     {
       "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q001",
@@ -3303,56 +3304,6 @@
       "image_refs": []
     },
     {
-      "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q160",
-      "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
-      "q_num": 160,
-      "stem": "Question 160.",
-      "options": {
-        "a": "If x > y",
-        "b": "If x ≥ y",
-        "c": "If x < y",
-        "d": "If x ≤ y",
-        "e": "If x = y or no relation can be established between x and y"
-      },
-      "direction_id": "d021",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2024,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q161",
-      "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
-      "q_num": 161,
-      "stem": "Question 161.",
-      "options": {
-        "a": "If x > y",
-        "b": "If x ≥ y",
-        "c": "If x < y",
-        "d": "If x ≤ y",
-        "e": "If x = y or no relation can be established between x and y"
-      },
-      "direction_id": "d021",
-      "direction_text": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and give answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2024,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q162",
       "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
       "q_num": 162,
@@ -3516,81 +3467,6 @@
       },
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2024,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q170",
-      "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
-      "q_num": 170,
-      "stem": "Question 170.",
-      "options": {
-        "a": "67",
-        "b": "98",
-        "c": "88",
-        "d": "73",
-        "e": "54"
-      },
-      "direction_id": "d022",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions? (You are not expected to calculate the exact value)",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2024,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q171",
-      "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
-      "q_num": 171,
-      "stem": "Question 171.",
-      "options": {
-        "a": "59",
-        "b": "19",
-        "c": "23",
-        "d": "41",
-        "e": "46"
-      },
-      "direction_id": "d022",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions? (You are not expected to calculate the exact value)",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Mains",
-      "year": 2024,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde::q172",
-      "paper_id": "ibps_clerk_2024_mains_unknown_shift_a2bb4bde",
-      "q_num": 172,
-      "stem": "Question 172.",
-      "options": {
-        "a": "109",
-        "b": "29",
-        "c": "43",
-        "d": "66",
-        "e": "88"
-      },
-      "direction_id": "d022",
-      "direction_text": "What approximate value will come in place of question mark (?) in the following questions? (You are not expected to calculate the exact value)",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",

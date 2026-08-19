@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:6"
+    "figure_questions_removed:6",
+    "placeholder_stems_removed:3"
   ],
-  "question_count": 94,
+  "question_count": 91,
   "questions": [
     {
       "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q001",
@@ -1322,31 +1323,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q058",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 58,
-      "stem": "Question 58.",
-      "options": {
-        "a": "102",
-        "b": "118",
-        "c": "108",
-        "d": "98",
-        "e": "128"
-      },
-      "direction_id": "d010",
-      "direction_text": "What will come in the place of question mark (?) in the following question.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q059",
       "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
       "q_num": 59,
@@ -1397,31 +1373,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q062",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 62,
-      "stem": "Question 62.",
-      "options": {
-        "a": "12",
-        "b": "4",
-        "c": "6",
-        "d": "8",
-        "e": "16"
-      },
-      "direction_id": "d010",
-      "direction_text": "What will come in the place of question mark (?) in the following question.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q063",
       "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
       "q_num": 63,
@@ -1457,31 +1408,6 @@
         "c": "1628",
         "d": "1630",
         "e": "1638"
-      },
-      "direction_id": "d010",
-      "direction_text": "What will come in the place of question mark (?) in the following question.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_c147328e::q065",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_c147328e",
-      "q_num": 65,
-      "stem": "Question 65.",
-      "options": {
-        "a": "1005",
-        "b": "1205",
-        "c": "1150",
-        "d": "1105",
-        "e": "1050"
       },
       "direction_id": "d010",
       "direction_text": "What will come in the place of question mark (?) in the following question.",

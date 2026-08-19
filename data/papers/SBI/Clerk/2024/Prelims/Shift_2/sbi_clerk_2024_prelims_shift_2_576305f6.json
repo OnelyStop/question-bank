@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:21"
+    "figure_questions_removed:21",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 79,
+  "question_count": 74,
   "questions": [
     {
       "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q001",
@@ -797,81 +798,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q042",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
-      "q_num": 42,
-      "stem": "Question 42.",
-      "options": {
-        "a": "4",
-        "b": "2",
-        "c": "1",
-        "d": "5",
-        "e": "10"
-      },
-      "direction_id": "d005",
-      "direction_text": "What will come in place of question mark (?) in the given questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q043",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
-      "q_num": 43,
-      "stem": "Question 43.",
-      "options": {
-        "a": "14",
-        "b": "20",
-        "c": "11",
-        "d": "15",
-        "e": "10"
-      },
-      "direction_id": "d005",
-      "direction_text": "What will come in place of question mark (?) in the given questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q044",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
-      "q_num": 44,
-      "stem": "Question 44.",
-      "options": {
-        "a": "213/15",
-        "b": "4/13",
-        "c": "411/15",
-        "d": "37/15",
-        "e": "262/15"
-      },
-      "direction_id": "d005",
-      "direction_text": "What will come in place of question mark (?) in the given questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q045",
       "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
       "q_num": 45,
@@ -882,56 +808,6 @@
         "c": "205",
         "d": "135",
         "e": "250"
-      },
-      "direction_id": "d005",
-      "direction_text": "What will come in place of question mark (?) in the given questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q046",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
-      "q_num": 46,
-      "stem": "Question 46.",
-      "options": {
-        "a": "3",
-        "b": "8",
-        "c": "10",
-        "d": "15",
-        "e": "4"
-      },
-      "direction_id": "d005",
-      "direction_text": "What will come in place of question mark (?) in the given questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_2",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_2_576305f6::q047",
-      "paper_id": "sbi_clerk_2024_prelims_shift_2_576305f6",
-      "q_num": 47,
-      "stem": "Question 47.",
-      "options": {
-        "a": "30",
-        "b": "50",
-        "c": "16",
-        "d": "10",
-        "e": "20"
       },
       "direction_id": "d005",
       "direction_text": "What will come in place of question mark (?) in the given questions?",

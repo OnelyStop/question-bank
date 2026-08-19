@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:7"
+    "figure_questions_removed:7",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 93,
+  "question_count": 92,
   "questions": [
     {
       "q_id": "ibps_clerk_2025_prelims_shift_1_3e06dc26::q001",
@@ -232,31 +233,6 @@
         "c": "15",
         "d": "9",
         "e": "16 3 of (729) 3 = ? + 5 of √1225 ÷"
-      },
-      "direction_id": "d003",
-      "direction_text": "What should come in place of question mark (?) in the following questions?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_clerk_2025_prelims_shift_1_3e06dc26::q017",
-      "paper_id": "ibps_clerk_2025_prelims_shift_1_3e06dc26",
-      "q_num": 17,
-      "stem": "Question 17.",
-      "options": {
-        "a": "10",
-        "b": "18",
-        "c": "15",
-        "d": "9",
-        "e": "3"
       },
       "direction_id": "d003",
       "direction_text": "What should come in place of question mark (?) in the following questions?",

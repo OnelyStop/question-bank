@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:38"
+    "figure_questions_removed:38",
+    "placeholder_stems_removed:5"
   ],
-  "question_count": 62,
+  "question_count": 57,
   "questions": [
     {
       "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q001",
@@ -1028,111 +1029,6 @@
       },
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q042",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217",
-      "q_num": 42,
-      "stem": "Question 42.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d006",
-      "direction_text": "In each question two equations numbered (I) and (II) are given. You have to solve both the equations and mark appropriate answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q043",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217",
-      "q_num": 43,
-      "stem": "Question 43.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d006",
-      "direction_text": "In each question two equations numbered (I) and (II) are given. You have to solve both the equations and mark appropriate answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q044",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217",
-      "q_num": 44,
-      "stem": "Question 44.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d006",
-      "direction_text": "In each question two equations numbered (I) and (II) are given. You have to solve both the equations and mark appropriate answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q045",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217",
-      "q_num": 45,
-      "stem": "Question 45.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d006",
-      "direction_text": "In each question two equations numbered (I) and (II) are given. You have to solve both the equations and mark appropriate answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217::q046",
-      "paper_id": "sbi_po_2022_prelims_unknown_shift_5ed0c217",
-      "q_num": 46,
-      "stem": "Question 46.",
-      "options": {
-        "d": "(e)"
-      },
-      "direction_id": "d006",
-      "direction_text": "In each question two equations numbered (I) and (II) are given. You have to solve both the equations and mark appropriate answer.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

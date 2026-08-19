@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:3"
+    "figure_questions_removed:3",
+    "placeholder_stems_removed:2"
   ],
-  "question_count": 97,
+  "question_count": 95,
   "questions": [
     {
       "q_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6::q001",
@@ -1588,31 +1589,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6::q063",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6",
-      "q_num": 63,
-      "stem": "Question 63.",
-      "options": {
-        "a": "13345",
-        "b": "12323",
-        "c": "19093",
-        "d": "18118",
-        "e": "15121"
-      },
-      "direction_id": "d010",
-      "direction_text": "What value should come in place of question mark?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6::q064",
       "paper_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6",
       "q_num": 64,
@@ -1623,31 +1599,6 @@
         "c": "4056",
         "d": "5423",
         "e": "3434"
-      },
-      "direction_id": "d010",
-      "direction_text": "What value should come in place of question mark?",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6::q065",
-      "paper_id": "sbi_clerk_2025_prelims_shift_1_5fab46d6",
-      "q_num": 65,
-      "stem": "Question 65.",
-      "options": {
-        "a": "184",
-        "b": "136",
-        "c": "58",
-        "d": "124",
-        "e": "256"
       },
       "direction_id": "d010",
       "direction_text": "What value should come in place of question mark?",

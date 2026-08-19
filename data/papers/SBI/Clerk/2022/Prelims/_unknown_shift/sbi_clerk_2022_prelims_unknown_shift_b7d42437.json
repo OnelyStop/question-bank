@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:1",
     "assets_exported:1",
-    "figure_questions_removed:10"
+    "figure_questions_removed:10",
+    "placeholder_stems_removed:6"
   ],
-  "question_count": 89,
+  "question_count": 83,
   "questions": [
     {
       "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q001",
@@ -772,81 +773,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q036",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 36,
-      "stem": "Question 36.",
-      "options": {
-        "a": "14",
-        "b": "11",
-        "c": "9",
-        "d": "3",
-        "e": "12"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q037",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 37,
-      "stem": "Question 37.",
-      "options": {
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "0",
-        "e": "5"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q038",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 38,
-      "stem": "Question 38.",
-      "options": {
-        "a": "2",
-        "b": "1",
-        "c": "3",
-        "d": "4",
-        "e": "0"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q039",
       "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
       "q_num": 39,
@@ -882,56 +808,6 @@
         "c": "8",
         "d": "10",
         "e": "15"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q041",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 41,
-      "stem": "Question 41.",
-      "options": {
-        "a": "1",
-        "b": "3",
-        "c": "4",
-        "d": "2",
-        "e": "5"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q042",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 42,
-      "stem": "Question 42.",
-      "options": {
-        "a": "0",
-        "b": "1.5",
-        "c": "2",
-        "d": "3",
-        "e": "1"
       },
       "direction_id": "d009",
       "direction_text": "What will come in the place of question (?) mark in following questions.",
@@ -1007,31 +883,6 @@
         "c": "35",
         "d": "3",
         "e": "12"
-      },
-      "direction_id": "d009",
-      "direction_text": "What will come in the place of question (?) mark in following questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2022,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437::q047",
-      "paper_id": "sbi_clerk_2022_prelims_unknown_shift_b7d42437",
-      "q_num": 47,
-      "stem": "Question 47.",
-      "options": {
-        "a": "51",
-        "b": "42",
-        "c": "68",
-        "d": "19",
-        "e": "70"
       },
       "direction_id": "d009",
       "direction_text": "What will come in the place of question (?) mark in following questions.",

@@ -17,9 +17,10 @@
   "parse_notes": [
     "figure_crops:3",
     "assets_exported:3",
-    "figure_questions_removed:17"
+    "figure_questions_removed:17",
+    "placeholder_stems_removed:2"
   ],
-  "question_count": 98,
+  "question_count": 96,
   "questions": [
     {
       "q_id": "sbi_po_2021_mains_unknown_shift_4a32c76f::q001",
@@ -1037,31 +1038,6 @@
       "image_refs": []
     },
     {
-      "q_id": "sbi_po_2021_mains_unknown_shift_4a32c76f::q053",
-      "paper_id": "sbi_po_2021_mains_unknown_shift_4a32c76f",
-      "q_num": 53,
-      "stem": "Question 53.",
-      "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I ≥ Quantity II",
-        "d": "Quantity I ≤ Quantity II",
-        "e": "Quantity I = Quantity II or no relation"
-      },
-      "direction_id": "d016",
-      "direction_text": "Each equation below contains a statement followed by Quantity I and Quantity II. You have to study the information along with question and compare the value derived from Quantity I and Quantity II, give the answer.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2021,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
       "q_id": "sbi_po_2021_mains_unknown_shift_4a32c76f::q054",
       "paper_id": "sbi_po_2021_mains_unknown_shift_4a32c76f",
       "q_num": 54,
@@ -1323,31 +1299,6 @@
       },
       "direction_id": "d020",
       "direction_text": "Table given below about work done by three people (A, B & C). Read the table carefully and answer the questions.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2021,
-      "shift": null,
-      "memory_based": false,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2021_mains_unknown_shift_4a32c76f::q071",
-      "paper_id": "sbi_po_2021_mains_unknown_shift_4a32c76f",
-      "q_num": 71,
-      "stem": "Question 71.",
-      "options": {
-        "a": "98 + 5⁵",
-        "b": "99 + 5⁵",
-        "c": "100 + 5⁵",
-        "d": "101 + 5⁵",
-        "e": "None of these"
-      },
-      "direction_id": "d021",
-      "direction_text": "Calculate the value of (a) and (b) and answer the questions given below:",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

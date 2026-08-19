@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:38"
+    "figure_questions_removed:38",
+    "placeholder_stems_removed:3"
   ],
-  "question_count": 62,
+  "question_count": 59,
   "questions": [
     {
       "q_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd::q001",
@@ -904,81 +905,6 @@
         "c": "4500",
         "d": "4000",
         "e": "3000"
-      },
-      "direction_id": "d007",
-      "direction_text": "What will come in the place of question (?) mark in following the question:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd::q048",
-      "paper_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd",
-      "q_num": 48,
-      "stem": "Question 48.",
-      "options": {
-        "a": "41",
-        "b": "43",
-        "c": "42",
-        "d": "45",
-        "e": "49"
-      },
-      "direction_id": "d007",
-      "direction_text": "What will come in the place of question (?) mark in following the question:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd::q049",
-      "paper_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd",
-      "q_num": 49,
-      "stem": "Question 49.",
-      "options": {
-        "a": "967",
-        "b": "987",
-        "c": "958",
-        "d": "978",
-        "e": "968"
-      },
-      "direction_id": "d007",
-      "direction_text": "What will come in the place of question (?) mark in following the question:",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "Clerk",
-      "exam_type": "Prelims",
-      "year": 2024,
-      "shift": "Shift_1",
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd::q050",
-      "paper_id": "sbi_clerk_2024_prelims_shift_1_9b99a1dd",
-      "q_num": 50,
-      "stem": "Question 50.",
-      "options": {
-        "a": "42",
-        "b": "40",
-        "c": "35",
-        "d": "43",
-        "e": "39"
       },
       "direction_id": "d007",
       "direction_text": "What will come in the place of question (?) mark in following the question:",

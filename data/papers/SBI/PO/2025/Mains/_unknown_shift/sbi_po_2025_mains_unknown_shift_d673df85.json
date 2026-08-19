@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:0"
+    "figure_questions_removed:0",
+    "placeholder_stems_removed:3"
   ],
-  "question_count": 40,
+  "question_count": 37,
   "questions": [
     {
       "q_id": "sbi_po_2025_mains_unknown_shift_d673df85::q001",
@@ -633,81 +634,6 @@
       },
       "direction_id": null,
       "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2025,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2025_mains_unknown_shift_d673df85::q026",
-      "paper_id": "sbi_po_2025_mains_unknown_shift_d673df85",
-      "q_num": 26,
-      "stem": "Question 26.",
-      "options": {
-        "a": "A-D",
-        "b": "B-D, A-E, B - reluctant",
-        "c": "A-E, B-F, A- had done",
-        "d": "C-F",
-        "e": "B-D, C-F, C- went"
-      },
-      "direction_id": "d004",
-      "direction_text": "Given below are two columns with phrases. A part of each phrase in column I is highlighted in bold and may be grammatically or contextually incorrect. Select the appropriate combination to form a correct sentence, and also identify the correct replacement for the incorrect phrase, if any.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2025,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2025_mains_unknown_shift_d673df85::q027",
-      "paper_id": "sbi_po_2025_mains_unknown_shift_d673df85",
-      "q_num": 27,
-      "stem": "Question 27.",
-      "options": {
-        "a": "A-D",
-        "b": "B-D, A-E,",
-        "c": "A-E, B-F,",
-        "d": "C-E, A-F, C- quietly",
-        "e": "B-D, C-F, B-explains"
-      },
-      "direction_id": "d004",
-      "direction_text": "Given below are two columns with phrases. A part of each phrase in column I is highlighted in bold and may be grammatically or contextually incorrect. Select the appropriate combination to form a correct sentence, and also identify the correct replacement for the incorrect phrase, if any.",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "SBI",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2025,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "sbi_po_2025_mains_unknown_shift_d673df85::q028",
-      "paper_id": "sbi_po_2025_mains_unknown_shift_d673df85",
-      "q_num": 28,
-      "stem": "Question 28.",
-      "options": {
-        "a": "A-D, A- noisily",
-        "b": "B-D, A-E,",
-        "c": "C-E, B-F, C- soundly",
-        "d": "C-E, C-peacefully",
-        "e": "B-D, C-F,"
-      },
-      "direction_id": "d004",
-      "direction_text": "Given below are two columns with phrases. A part of each phrase in column I is highlighted in bold and may be grammatically or contextually incorrect. Select the appropriate combination to form a correct sentence, and also identify the correct replacement for the incorrect phrase, if any.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",

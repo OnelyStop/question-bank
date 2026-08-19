@@ -15,9 +15,10 @@
   "language": "english",
   "parse_status": "ok",
   "parse_notes": [
-    "figure_questions_removed:40"
+    "figure_questions_removed:40",
+    "placeholder_stems_removed:1"
   ],
-  "question_count": 75,
+  "question_count": 74,
   "questions": [
     {
       "q_id": "ibps_po_2022_mains_unknown_shift_7c2e48cb::q010",
@@ -401,31 +402,6 @@
       "stem": "Cost price of an article is Rs. A. and a shopkeeper marked that article B% above its cost price. He allows 25% discount on marked price and earned profit of Rs. (B+20). If the same article is marked up by (B+5) % and allows same discount and earned profit of Rs. (B+65), then which of the following is/are correct.",
       "options": {
         "d": "(e)"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "PO",
-      "exam_type": "Mains",
-      "year": 2022,
-      "shift": null,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_po_2022_mains_unknown_shift_7c2e48cb::q049",
-      "paper_id": "ibps_po_2022_mains_unknown_shift_7c2e48cb",
-      "q_num": 49,
-      "stem": "Question 49.",
-      "options": {
-        "a": "Only (B)",
-        "b": "Both (B) & (C)",
-        "c": "Only (C)",
-        "d": "Both (A) & (B)",
-        "e": "Only (A)"
       },
       "direction_id": null,
       "direction_text": null,
