@@ -405,6 +405,125 @@ def embedded_images_in_zone(
     return out
 
 
+def vector_clusters(page: fitz.Page, zone: tuple[float, float, float, float]) -> list[tuple[float, float, float, float]]:
+    """Boxes around clusters of vector drawings — where charts actually live.
+
+    A line chart is not an embedded image; it is a few hundred stroked paths.
+    page.get_images() cannot see it at all, which is why figure detection kept
+    returning slabs of question text instead.
+    """
+    rects = []
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if r is None or r.is_empty:
+            continue
+        # Drop hairlines and page borders BEFORE clustering. Table rules and
+        # underlines are 1pt tall and run the width of a column; leaving them in
+        # bridges every shape on the page into one blob covering everything.
+        if min(r.width, r.height) < 3:
+            continue
+        if r.width > 0.9 * page.rect.width:
+            continue
+        if bbox_overlap_ratio((r.x0, r.y0, r.x1, r.y1), zone) < 0.5:
+            continue
+        rects.append([r.x0, r.y0, r.x1, r.y1])
+    if not rects:
+        return []
+
+    # merge overlapping/near boxes until stable — a chart is one connected blob
+    pad = 5.0
+    changed = True
+    while changed:
+        changed = False
+        merged: list[list[float]] = []
+        for r in rects:
+            for m in merged:
+                if (r[0] - pad < m[2] and m[0] - pad < r[2]
+                        and r[1] - pad < m[3] and m[1] - pad < r[3]):
+                    m[0], m[1] = min(m[0], r[0]), min(m[1], r[1])
+                    m[2], m[3] = max(m[2], r[2]), max(m[3], r[3])
+                    changed = True
+                    break
+            else:
+                merged.append(list(r))
+        rects = merged
+
+    # Grow each cluster over the hairlines dropped above. Table borders ARE
+    # hairlines, so excluding them stops the bridging but clips tables mid-row;
+    # adding them back after merging gives extent without re-connecting the page.
+    thin = []
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if r is None or r.is_empty or min(r.width, r.height) >= 3:
+            continue
+        if r.width > 0.9 * page.rect.width:
+            continue
+        thin.append((r.x0, r.y0, r.x1, r.y1))
+
+    for m in rects:
+        grew = True
+        while grew:
+            grew = False
+            for t in thin:
+                if t[0] - pad < m[2] and m[0] - pad < t[2] and t[1] - pad < m[3] and m[1] - pad < t[3]:
+                    nx0, ny0 = min(m[0], t[0]), min(m[1], t[1])
+                    nx1, ny1 = max(m[2], t[2]), max(m[3], t[3])
+                    if (nx0, ny0, nx1, ny1) != (m[0], m[1], m[2], m[3]):
+                        m[0], m[1], m[2], m[3] = nx0, ny0, nx1, ny1
+                        grew = True
+
+    # A few points of margin: without it the last row of a table loses its
+    # bottom border, which reads as a truncated crop.
+    margin = 4.0
+    out = []
+    for m in rects:
+        w, h = m[2] - m[0], m[3] - m[1]
+        if w < 60 or h < 40 or w * h < MIN_CROP_AREA:
+            continue
+        out.append((
+            max(m[0] - margin, 0.0),
+            max(m[1] - margin, 0.0),
+            min(m[2] + margin, page.rect.width),
+            min(m[3] + margin, page.rect.height),
+        ))
+    return out
+
+
+def watermark_bboxes(doc: fitz.Document) -> set[tuple[int, int, int, int]]:
+    """Image boxes that repeat on most pages — the coaching-house watermark.
+
+    Cheaper and steadier than an ink threshold: the "adda" logo sits in the same
+    place on every page at 11% of the area, which slipped under the old 25% rule.
+    """
+    seen: dict[tuple[int, int, int, int], int] = {}
+    pages = max(len(doc), 1)
+    for page in doc:
+        for img in page.get_images(full=True):
+            try:
+                rects = page.get_image_rects(int(img[0]))
+            except Exception:
+                continue
+            for r in rects:
+                key = (round(r.x0 / 8), round(r.y0 / 8), round(r.width / 8), round(r.height / 8))
+                seen[key] = seen.get(key, 0) + 1
+    return {k for k, n in seen.items() if n >= max(3, pages // 3)}
+
+
+def _text_coverage(page: fitz.Page, rect: tuple[float, float, float, float]) -> float:
+    """Fraction of a box covered by text blocks. A chart is mostly not text."""
+    area = (rect[2] - rect[0]) * (rect[3] - rect[1])
+    if area <= 0:
+        return 1.0
+    covered = 0.0
+    for b in page.get_text("blocks"):
+        x0, y0, x1, y1 = b[:4]
+        ix0, iy0 = max(x0, rect[0]), max(y0, rect[1])
+        ix1, iy1 = min(x1, rect[2]), min(y1, rect[3])
+        if ix1 > ix0 and iy1 > iy0:
+            covered += (ix1 - ix0) * (iy1 - iy0)
+    return min(covered / area, 1.0)
+
+
 def _render_crop_candidate(
     page: fitz.Page,
     clip: tuple[float, float, float, float],
@@ -469,6 +588,7 @@ def attach_figure_for_direction(
     page_rect: fitz.Rect,
     dir_tag: str,
     cache: dict[str, str | None],
+    watermarks: set[tuple[int, int, int, int]] | None = None,
 ) -> str | None:
     """At most one figure crop per direction set."""
     if dir_tag in cache:
@@ -479,28 +599,37 @@ def attach_figure_for_direction(
         cache[dir_tag] = None
         return None
 
-    # Prefer gap between direction and questions (classic DI layout)
+    # Vector clusters first: a chart is stroked paths, not an embedded image.
+    candidates: list[tuple[float, float, float, float]] = list(vector_clusters(page, zone))
     gap = find_figure_gap(page, page_rect, direction_boxes, unit_boxes)
-    candidates: list[tuple[float, float, float, float]] = []
     if gap:
         candidates.append(gap)
-    # Embedded images inside zone
-    candidates.extend(embedded_images_in_zone(page, zone, page_rect))
-    # Fallback: direction-only expanded zone (excluding question stem text height somewhat)
-    if direction_boxes:
-        dir_zone = content_bbox_for_boxes(direction_boxes, page_rect)
-        if dir_zone and dir_zone[3] - dir_zone[1] > 60:
-            candidates.append(dir_zone)
+    marks = watermarks or set()
+    for bbox in embedded_images_in_zone(page, zone, page_rect):
+        key = (round(bbox[0] / 8), round(bbox[1] / 8),
+               round((bbox[2] - bbox[0]) / 8), round((bbox[3] - bbox[1]) / 8))
+        if key in marks:
+            continue          # the coaching-house logo, on every page
+        candidates.append(bbox)
 
+    # Rank by how little text is in the box, not by ink density. Ink density
+    # picks text every time — a paragraph is far darker than a line chart, which
+    # is why every crop came back as a slab of questions.
     best_pix: fitz.Pixmap | None = None
-    best_ink = 0.0
+    best_score = 0.0
     best_tag = ""
     for i, clip in enumerate(candidates):
         if is_header_footer_band(clip, page_rect):
             continue
+        text_frac = _text_coverage(page, clip)
+        if text_frac > 0.45:
+            continue          # mostly words: not a figure
         pix, ink = _render_crop_candidate(page, clip)
-        if pix is not None and ink > best_ink:
-            best_pix, best_ink, best_tag = pix, ink, f"{dir_tag}_{i}"
+        if pix is None:
+            continue
+        score = (1.0 - text_frac) * min(ink / MIN_FIGURE_INK, 3.0)
+        if score > best_score:
+            best_pix, best_score, best_tag = pix, score, f"{dir_tag}_{i}"
 
     # Only the winner ever gets written -- the runner-up candidates rendered
     # above are discarded in memory, never touching disk.
@@ -560,6 +689,8 @@ def parse_pdf_layout(
     seen_nums: set[int] = set()
 
     doc = fitz.open(pdf_path)
+    # one pass over the doc: image boxes that repeat on most pages are the watermark
+    watermarks = watermark_bboxes(doc)
     try:
         i = 0
         while i < len(events):
@@ -684,6 +815,7 @@ def parse_pdf_layout(
                     page_rect=page_rect,
                     dir_tag=dir_id,
                     cache=figure_cache,
+                    watermarks=watermarks,
                 )
                 if figure_asset and before is None:
                     assets_exported += 1
