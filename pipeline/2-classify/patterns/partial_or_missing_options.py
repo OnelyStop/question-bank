@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .base import MatchResult, PatternSkill, has_shared_directions, option_count
+from .base import MatchResult, PatternSkill, option_count
 
 
 class PartialOrMissingOptionsSkill(PatternSkill):

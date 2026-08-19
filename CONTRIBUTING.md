@@ -46,15 +46,32 @@ rather than sitting on it.
 
 ## Review
 
-Every PR gets two reviews.
+Every PR gets an automated first pass and a human approval.
 
-**CodeRabbit** runs automatically when the PR opens and again on each push. It's
-free on public repos. `.coderabbit.yaml` carries the rules it can't infer from
-the code — no fuzzy matching in dedupe, `corpus/` is never modified in place,
+**Claude** reviews on open and on each push, via
+`.github/workflows/claude-review.yml`. It runs on a Claude Max subscription
+rather than API credits, so it costs nothing beyond quota — roughly 0.1–0.2% of
+the weekly Opus budget per review, about 1–2% at ten PRs a week.
+
+One-time setup, by whoever's subscription it runs on. **Both steps are
+required** — the token alone gives `401 Claude Code is not installed on this
+repository`:
+
+1. Install the Claude GitHub App: https://github.com/apps/claude
+2. Generate and store the token:
+
+```bash
+claude setup-token                      # prints a long-lived token
+gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo OnelyStop/question-bank
+```
+
+The prompt in that workflow carries the rules Claude can't infer from the code — no fuzzy matching in dedupe, `corpus/` is never modified in place,
 answers must be a key that exists in that question's options, and each step's
 output must stay a superset of the previous step's. Every one of those came from
 something that actually went wrong here, so **update the config when you learn a
 new rule** — that's what makes it improve.
+
+Drafts are skipped, so iterate in draft and mark ready when you want the review.
 
 It's a first pass, not the approval. A human still has to approve.
 
@@ -66,6 +83,9 @@ it's faster than waiting.
 | Check | Run it yourself |
 |---|---|
 | Every `.py` file parses | `for f in $(git ls-files '*.py'); do python3 -m py_compile $f; done` |
+| Every module **imports** | `python3 pipeline/5-validate/check_imports.py` |
+| Lint | `ruff check --select F,E9 .` |
+| No file over 50 MB added | see `.github/workflows/ci.yml` |
 | `schema.json` is a valid schema | see `.github/workflows/ci.yml` |
 | Step examples match the schema | `python3 pipeline/5-validate/check_examples.py` |
 | No secrets committed | `git grep -nIE 'service_role\|postgres://[^ ]*:[^ @]+@'` |
@@ -74,6 +94,14 @@ it's faster than waiting.
 | The export validates, if committed | `python3 pipeline/5-validate/check_schema.py` |
 
 The two worth understanding:
+
+**Every module imports.** `py_compile` only parses — it passes a file with a
+missing import or an undefined name. That is exactly how an `import fitz`
+inherited from the PDF module left the classifier unrunnable without anything
+noticing. This check imports every module for real.
+
+Step folders (`1-extract`) are not valid Python identifiers, so **no step can
+import another**. Anything two steps both need goes in `pipeline/lib/`.
 
 **Step examples match the schema.** Each step folder has an `output.json` — the
 shape that step must produce, in schema field names. CI checks every field exists

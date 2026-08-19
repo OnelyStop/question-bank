@@ -16,20 +16,26 @@ import argparse
 import json
 import logging
 import re
+import sys
 from pathlib import Path
 from typing import Any
 
-from pdf_to_questions import (
+# step folders ("1-extract") are not valid module names, so shared code
+# comes through lib/ rather than from another step
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+from corpus import (
     DEFAULT_CORPUS,
     DEFAULT_OUT,
-    SOLUTION_NAME_RE,
     HINDI_NAME_RE,
+    SOLUTION_NAME_RE,
     build_full_text,
-    extract_pages,
+    iter_paper_jsons,
     load_meta,
+    load_paper,
     meta_from_path,
     rebuild_index,
 )
+from pdf import extract_pages
 
 ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("attach_answers")
@@ -225,26 +231,8 @@ def apply_map_to_paper(
     return {"filled": filled, "explanations": explanations, "conflicts": conflicts}
 
 
-def iter_paper_jsons(out_root: Path) -> list[Path]:
-    skip = {"parse_report.json", "answer_attach_report.json", "question_bank.schema.json"}
-    paths = []
-    for path in sorted(out_root.rglob("*.json")):
-        if path.name in skip or path.name.endswith(".meta.json"):
-            continue
-        if path.name == "SCHEMA.md":
-            continue
-        paths.append(path)
-    return paths
 
 
-def load_paper(path: Path) -> dict[str, Any] | None:
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return None
-    if "questions" not in data or "paper_id" not in data:
-        return None
-    return data
 
 
 def section_cue_from_name(name: str) -> str | None:

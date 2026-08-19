@@ -14,40 +14,27 @@ import json
 import logging
 import random
 from collections import Counter
+import sys
 from pathlib import Path
 from typing import Any
 
-from pdf_to_questions import DEFAULT_OUT, rebuild_index
+# step folders ("1-extract") are not valid module names, so shared code
+# comes through lib/ rather than from another step
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+from corpus import (
+    DEFAULT_OUT,
+    iter_paper_jsons,
+    load_paper,
+    rebuild_index,
+)
 
 ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("validate_answers")
 
-SKIP_JSON = {
-    "parse_report.json",
-    "answer_attach_report.json",
-    "answer_validation_report.json",
-    "question_bank.schema.json",
-    "section_label_report.json",
-    "topic_label_report.json",
-}
 
 
-def iter_paper_jsons(out_root: Path) -> list[Path]:
-    return sorted(
-        p
-        for p in out_root.rglob("*.json")
-        if p.name not in SKIP_JSON and not p.name.endswith(".meta.json")
-    )
 
 
-def load_paper(path: Path) -> dict[str, Any] | None:
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return None
-    if "questions" not in data or "paper_id" not in data:
-        return None
-    return data
 
 
 def option_count(q: dict[str, Any]) -> int:

@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.ruff_cache/
 .DS_Store
 _pipeline_test_out/
 

@@ -1,0 +1,111 @@
+name: Claude review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    # a review costs ~6 min of Opus; these can't carry the bugs it looks for
+    paths-ignore:
+      - "**/*.md"
+      - "LICENSE"
+      - ".gitignore"
+      - ".githooks/**"
+
+# a new push supersedes the review still running on the old commit
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  id-token: write
+
+jobs:
+  review:
+    # drafts are for iterating; review when it's ready
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # shallow: corpus/pdf/ is 414 MB and full history would be far worse
+          fetch-depth: 1
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ github.event.pull_request.number }}
+
+            Review this pull request. The branch is checked out already.
+
+            EVENT: ${{ github.event.action }}
+            If that is "synchronize", earlier commits on this PR were already
+            reviewed. Focus on what changed since — `git diff HEAD~1` — and only
+            revisit older code if the new commits interact with it. Do not
+            re-review the whole PR from scratch on every push.
+
+            NEVER read anything under corpus/pdf/ — 414 MB of exam PDFs. Nothing
+            there is reviewable and opening one wastes the whole run.
+
+            This repo turns exam PDFs into one flat questions export, in five
+            steps: 1-extract, 2-classify, 3-dedupe, 4-answer, 5-validate. Read
+            CONTRIBUTING.md and the README of any step the PR touches — each says
+            what that step must produce and how to tell it worked.
+
+            Weight the review toward what has actually broken this project:
+
+            1. SILENT FAILURE. Code that finds no input and reports success
+               instead of erroring. This has happened twice: a path resolving to
+               a deleted directory printed "papers=0" and exited 0. Anything that
+               can produce an empty result without erroring is a finding.
+
+            2. FUZZY MATCHING IN DEDUPE. Dedupe is sha256 over the normalised
+               stem plus sorted options, and digits are NEVER normalised. Reject
+               any similarity threshold, edit distance, embedding comparison or
+               digit-stripping. Evidence: 105 of 287 look-alike question pairs
+               differ only in their numbers and have different answers; and a
+               "same first 3000 characters" heuristic flagged 47 PDF pairs of
+               which 46 were false positives. For quantitative questions the
+               numbers ARE the question.
+
+            3. WRONG ANSWERS. Worse than no answer. Every answer must be a key
+               that exists in that question's own options — "e" on a four-option
+               question is a parse error. Answer keys join on (paper_id, q_num),
+               never on text. Flag any join that drops the paper scope, and any
+               answer carried between questions whose numbers differ.
+
+            4. LOST PROVENANCE. Step 3 writes dedupe_report.json mapping each
+               surviving content_hash to every (paper_id, q_num) it absorbed.
+               Step 4 needs it to find an answer in any paper the question
+               appeared in. Dropping it silently costs answer coverage.
+
+            5. CROSS-STEP IMPORTS. Step folders ("1-extract") are not valid
+               Python identifiers, so no step can import another. Shared code
+               goes in pipeline/lib/. An import of one step from another is a
+               bug that CI will catch, but say so in review.
+
+            6. SCHEMA DRIFT. schema/schema.json is the contract with the app.
+               Every field in a step's output.json must exist there with the
+               right type, and each step's output must stay a SUPERSET of the
+               previous step's.
+
+            7. DESTRUCTIVE CHANGES TO corpus/. It is input, never modified in
+               place, and parts of it have been the only copy of an extraction.
+               Flag deletions, in-place edits, and .gitignore rules broad enough
+               to untrack tracked files — "corpus/*" once nearly untracked 93 MB
+               and "*.pdf" once matched 20 tracked files.
+
+            Be specific and brief. Point at the line, say what breaks, say what
+            to do instead. If the PR is fine, say so in one sentence — do not
+            invent findings to look useful.
+
+            Use `gh pr comment` for the overall verdict.
+            Use `mcp__github_inline_comment__create_inline_comment` (with
+            `confirmed: true`) for specific lines.
+            Only post GitHub comments — do not reply as chat messages.
+
+          claude_args: |
+            --model claude-opus-4-8
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(git log:*),Bash(git diff:*)"
