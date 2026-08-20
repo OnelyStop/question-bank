@@ -44,7 +44,7 @@ several paragraphs with sub-headings, RC ones are a single sentence.
 
 **3. Separate solution PDFs** — `*-Solutions.pdf`, `*_SOL.pdf`, `*-Answers-1.pdf`
 hold answers with no questions. Pair them to their question paper by exam, year
-and shift before the `q_num` join works.
+before the `q_num` join works.
 
 **4. Use the provenance map.** A merged question lists every `(paper_id, q_num)`
 it came from. If the first paper has no key, try the others — that's what

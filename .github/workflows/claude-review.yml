@@ -98,14 +98,37 @@ jobs:
                and "*.pdf" once matched 20 tracked files.
 
             Be specific and brief. Point at the line, say what breaks, say what
-            to do instead. If the PR is fine, say so in one sentence — do not
-            invent findings to look useful.
+            to do instead. Do not invent findings to look useful.
 
-            Use `gh pr comment` for the overall verdict.
-            Use `mcp__github_inline_comment__create_inline_comment` (with
-            `confirmed: true`) for specific lines.
-            Only post GitHub comments — do not reply as chat messages.
+            THEN SUBMIT A REVIEW. This is a review, not a comment — the verdict
+            decides whether the PR can merge.
+
+            Post specific lines with
+            `mcp__github_inline_comment__create_inline_comment` (with
+            `confirmed: true`), then submit exactly one of:
+
+              gh pr review $PR --request-changes --body "<what is wrong>"
+              gh pr review $PR --approve --body "<one sentence>"
+
+            Request changes if you found anything in categories 1-7 above, or
+            anything else that would break a run or ship wrong data.
+
+            Approve ONLY when all of these hold. If you cannot check one of
+            them, request changes instead — never approve on the assumption that
+            something is probably fine:
+
+              - You found nothing this run.
+              - Nothing raised on an EARLIER run of this PR is still open. Check
+                with `gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/comments`
+                and read the code at each one. On a "synchronize" event you only
+                read the latest diff, so an approval based on that alone would
+                approve a PR whose earlier findings were never fixed.
+              - The change is actually verifiable from the diff. A claim in the
+                PR body is not evidence.
+
+            Style nits, naming preferences and "consider also doing X" are NOT
+            grounds to request changes. Say them in the body and approve.
 
           claude_args: |
             --model claude-opus-4-8
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(git log:*),Bash(git diff:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr review:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh api:*),Bash(git log:*),Bash(git diff:*)"

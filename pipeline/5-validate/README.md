@@ -40,7 +40,7 @@ These are all real, from the last export:
 |---|---|
 | `answer` 0% | should fail the build outright — the export is unusable |
 | `image_refs` empty on 986 questions flagged `has_image` | unanswerable questions |
-| `section` 17%, `shift` 20% | too sparse to expose as a filter |
+| `section` 17% | too sparse to expose as a filter |
 
 Decide which of these are hard failures and which are warnings, and write the
 threshold down. A check whose threshold lives in someone's head gets argued with

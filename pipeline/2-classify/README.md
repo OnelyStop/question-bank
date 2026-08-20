@@ -3,30 +3,7 @@
 Label what each question is. **Nothing here needs the PDFs**, so this step can be
 worked on and tested today.
 
-## Pipeline handoff
-
-```
-1-extract  -->  corpus/papers/**/*.json  -->  2-classify  -->  same files, labels added
-```
-
-**Input = step 1's output.** Classify does not read PDFs and does not invent papers.
-It walks whatever `1-extract` wrote under `corpus/papers/` and fills four fields on
-each question:
-
-```
-section   topic   difficulty   question_pattern
-```
-
-Same path layout step 1 uses:
-
-```
-corpus/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json
-```
-
-If `corpus/papers/` is empty, run step 1 first (or restore a prior extract). Do not
-point classify at `corpus/pdf/` — that is step 1 only.
-
-**Reads** `corpus/papers/` · **Writes** the same files, with labels added
+**Reads** `data/papers/` · **Writes** the same files, with labels added
 
 ## What it has to do
 

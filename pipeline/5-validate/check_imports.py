@@ -48,11 +48,20 @@ else:
 
 
 def tracked_modules() -> list[Path]:
+    """Every pipeline module, tracked or not.
+
+    `git ls-files` alone misses a file until it is committed -- which is exactly
+    when a broken import is easiest to introduce. research.py went on importing
+    a module that had just been deleted, and this check reported OK.
+    """
     out = subprocess.run(
         ["git", "ls-files", "pipeline/**/*.py"],
         cwd=REPO, capture_output=True, text=True, check=True,
     ).stdout.split()
-    return [REPO / p for p in out]
+    found = {REPO / p for p in out}
+    found.update(p for p in (REPO / "pipeline").rglob("*.py")
+                 if "__pycache__" not in p.parts)
+    return sorted(found)
 
 
 def imports_ok(path: Path) -> tuple[bool, str]:
