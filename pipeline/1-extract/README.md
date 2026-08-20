@@ -1,85 +1,113 @@
 # 1 — extract
 
-PDFs in, one JSON file per paper out.
+PDFs in, questions out.
 
-**Reads** `corpus/pdf/{bank}/{role}/{year}/{stage}/*.pdf`
-**Writes** `corpus/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json`
+**Reads** `corpus/remaining/` · **Writes** `data/batch{n}/{1..10}.json` + a
+matching `.pdf` of each paper, and `index.json` mapping the numbers to sources.
+Parsed PDFs move to `corpus/done/`, so `remaining/` is always the work left.
 
-This is the hardest step and everything downstream inherits its mistakes.
+## Running it
 
-## What it has to do
+Ten papers at a time, so a batch can be read before the next one starts. No
+arguments — it takes the next ten from `corpus/remaining/`:
 
-**Read layout, not text.** Exam PDFs are two-column with options in a grid.
-Flat text extraction interleaves the columns and scrambles option order. Work
-from character positions.
+```bash
+python3 pipeline/1-extract/parser.py                          # next 10
+python3 pipeline/1-extract/check_gaps.py --root data/batch1   # what is missing
+python3 pipeline/1-extract/research.py  --root data/batch1    # search for it
+```
 
-**OCR only where needed.** Some pages have no text layer, or a broken one. Detect
-that per page rather than OCR-ing everything — OCR is slow and worse than a good
-text layer.
+Only what parsed is moved — a PDF that raised stays in `remaining/` for the next
+run rather than being quietly filed as done. `--keep` parses without moving
+anything, for re-running a batch.
 
-**Find direction blocks.** "Directions (11–15): Study the following…" applies to
-questions 11 through 15. Emit one `direction_id` per block and attach every
-question in its range. 71% of questions belong to one, so getting the ranges
-wrong breaks most of the bank.
+Solutions-only PDFs and Hindi editions of papers already held in English are
+moved straight to `done/` without parsing: they yield 0-1 questions and would
+otherwise burn a slot in every batch. 136 of the 365 files were these.
 
-**Drop the Hindi.** Bilingual papers put the Devanagari immediately after the
-English, in the same block. The first attempt appended it to the English stem —
-1,350 questions came out that way, and **95 of the 134 PDFs that produced nothing
-were Hindi editions.** The export is English-only, so detect the Devanagari and
-cut it rather than concatenating it into `stem`.
+Every paper is also rendered back to a readable PDF beside its JSON. Extraction
+defects are obvious on a page and invisible in JSON — a stem that lost its
+middle, options that ran together, a passage glued to the wrong question.
 
-**Options as an object**, keyed `a`–`e`, not an array. Watch for stacked
-fractions: `87 3/7 %` arriving as `87 3 %` is a question that no longer means
-what it meant. Better to flag it than to emit it looking fine.
+## What the parser handles
 
-**Crop the figures.** Set `has_image`, and write the image to a file that
-`image_refs` or `direction_image_refs` can point at. **This was never done** —
-986 questions are flagged as needing a figure with no file behind it, which makes
-them unanswerable. For a passage set the chart belongs to the passage
-(`direction_image_refs`), not to each question.
+Each rule below is here because a real paper needed it. They are not
+hypothetical, and removing one costs the questions named.
 
-**Derive the metadata** — `bank`, `role`, `exam_type`, `year`, `shift` — from the
-path and filename. Anything you can't determine becomes `_unknown_*` rather than
-a guess.
+**Two-column pages.** The gutter is found from **text blocks only**: a centred
+watermark straddling it makes it undetectable, and with no gutter the page falls
+back to top-to-bottom order, which interleaves the columns and severs stems from
+their options.
+
+**Stacked fractions.** `15/100 × 200/700 × ? = 240` prints as separate boxes —
+numerators at half height, denominators below, often in different blocks. They
+are rejoined using the **fraction bar**, an actual vector line in the PDF. That
+signal is what distinguishes a numerator from a question number sitting above a
+maths stem; without it, `Q54.` merges into the line below and the question
+disappears.
+
+**Directions, in three layouts.** Numbered (`Directions (11–15):`), unnumbered
+(`Read the given passage…`, covering questions by position), and — in two of ten
+papers — printed *after* their question and repeated for every question in the
+set. That last one is why directions are taken from inside the question's own
+block where one appears there: matched by document position they land one
+question late, and the passage stays glued to the previous stem.
+
+**Options in four shapes.** The usual `(a) … (e)` list; `A.` line-start; error
+spotting, where the options are the sentence's own `(a)/ (b)/` segments; and
+sets that state the five choices **once in the direction** (`give answer (a) if
+x > y`) and print only equations under each number.
+
+**Cloze blanks.** The stem is a blank inside the passage — `____(18)___` or a
+bare `(15)` — so it is taken as the sentence containing that blank.
+
+**Bilingual papers.** The Devanagari is removed run by run, keeping the English
+wherever it sits. Cutting at the first Devanagari character instead wiped
+directions whose prose is Hindi but whose `(a)…(e)` labels are Latin. Where a
+question is Hindi-only, the Hindi is kept — it is still the question.
+
+**Numbering style per paper.** Where `Q41.` is the house style, a bare `1.` is a
+list item inside a stem or a table row, not a question. Requiring the dominant
+style only where one clearly dominates leaves bare-numbered papers alone.
 
 ## Output
 
-[`output.json`](output.json) — one question, **17 of the 28 fields** in
-[`schema/schema.json`](../../schema/README.md).
+```json
+{
+  "q_num": 78,
+  "stem": "\\frac{32}{35} \\div \\frac{1}{5} \\times \\frac{7}{8} \\div \\frac{2}{35} = ?",
+  "options": {"a": "60", "b": "80", "c": "75", "d": "90", "e": "70"},
+  "direction_text": "What should come in place of the question mark?"
+}
+```
 
-Every field name here is a schema field. There is no separate paper shape and no
-intermediate format: each step fills more of the same object.
+Four fields, no more. Maths goes into `stem` as LaTeX in place -- a parallel
+`stem_latex` would be a second version to keep in step. Prose stems are
+untouched; the conversion only fires on text that is actually maths. The LaTeX
+carries no `$...$` delimiters, so a maths stem is entirely LaTeX and a prose
+stem entirely plain.
 
-The passage travels on the question — `direction_text`, `direction_has_image`,
-`direction_image_refs` — so a question is self-contained from the start. Note the
-chart belongs to the **passage**, not the question: 902 of 986 figure questions
-are in a passage set.
+Paper-level: `bank`, `role`, `exam_type`, `year`, `memory_based`,
+`question_count`. There is no `shift` — it is unknowable for most of these
+papers, which are practice compilations rather than one sitting, and an
+`unknown_shift` placeholder was only ever noise.
 
-`answer`, `section`, `topic`, `difficulty`, `question_pattern`, `content_hash`,
-`direction_hash` and `is_active` are absent on purpose. Later steps add them.
+## Where it stands
 
-Also write `parse_report.json`: per-PDF status, question count, and what couldn't
-be read. The previous run's report is what told us 134 of 379 PDFs produced
-nothing, so make this honest.
+| Batch | Questions | Complete |
+|---|---|---|
+| 1 — the ten easiest IBPS papers | 928 | 924 (99.6%) |
+| 2 | 1,222 | 1,169 (95.7%) |
 
-## Done when
+156 PDFs in `corpus/done/`, 219 left in `corpus/remaining/`.
 
-- Every PDF in the manifest either produces a paper or appears in the report
-  with a reason.
-- Question counts are plausible — a prelims paper is 100 questions, mains 155.
-- Spot-check ten papers against the PDF by eye. Option order and direction ranges
-  are what break silently.
+What is not complete has no text to extract: options rendered as images, so the
+PDF holds `(a) (b) (c) (d) (e)` with nothing behind them, and Hindi-only stems.
 
-## What's here
+## Not handled
 
-| | |
-|---|---|
-| `pdf_to_questions.py` | 939 lines, the main pass |
-| `layout_parse.py` | 578 lines, column and block geometry |
-| `page_stream.py` | 291 lines, character positions from PyMuPDF |
-| `ocr_supplement.py` | the OCR fallback |
-| `filename_parser.py` | filename → exam metadata |
-
-The previous run produced 243 papers and 21,044 questions from these PDFs.
-Recover it with `git checkout c73426f -- corpus/papers` and diff against it — if a
-rewrite produces materially fewer questions, that's a regression, not progress.
+- **Scanned pages.** No text layer, no OCR. One paper in the corpus is affected.
+- **Section-split PDFs.** `… – Quantitative` / `… – Reasoning` are fragments of
+  one sitting; each parses as a whole paper of 10–24 questions.
+- **Superscripts.** `2x2` in the JSON is 2x² in the paper. Recoverable from span
+  baseline-shift the same way fractions were, if it turns out to matter.

@@ -13,19 +13,26 @@ SOLUTIONS_MARKERS = re.compile(
 )
 OPTION_BLEED = re.compile(r"Directions?\s*\(|\bQ\d+\.|Copyright\s*©", re.I)
 MATH_BROKEN = re.compile(r"^[√×÷+\-=\s\d.?]+$|√\s*\+\s*\d+\s*=\s*√")
+# "Question 66." / "Q66." / "" -- a stem that is only its own number, or nothing
+BODYLESS_STEM_RE = re.compile(r"^(?:(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*)?$", re.IGNORECASE)
 MULTI_Q_MARKER = re.compile(r"\bQ(\d+)\b", re.I)
 PERM_OPTION_RE = re.compile(r"^[A-E]{3,5}$", re.I)
 NO_REARRANGEMENT_RE = re.compile(r"(?i)no\s+rearrangement\s+required")
 SLASH_PARTS_RE = re.compile(r"\([A-E]\)\s*/.*\([B-E]\)\s*/")
 
-# Directions that require a visual figure / table crop
+# Directions that require a visual figure / table crop. Every pattern names an
+# actual visual object.
+#
+# "Study the following information carefully", "puzzle", "arrangement carefully"
+# and "who among the following persons" were here and are NOT figure signals --
+# they are the standard opener for seating and puzzle sets, where the whole
+# arrangement is given in words. They flagged 30 of 100 questions in one paper
+# as needing a figure that does not exist, and the renderer then printed
+# "[figure referenced by this direction]" under a text puzzle.
 NEEDS_FIGURE_RE = re.compile(
     r"(?i)\bstudy\s+the\s+(?:following\s+)?(?:table|chart|graph|figure|diagram|bar|pie)|"
     r"\bpie\s+chart|\bbar\s+(?:graph|diagram)|\bline\s+graph|"
-    r"\bdata\s+interpretation|\bfollowing\s+(?:table|chart|graph|figure)|"
-    r"\barrangement\s+carefully|\bpuzzle\b|"
-    r"\bwho\s+among\s+the\s+following\s+(?:persons?|people)|"
-    r"\bfollowing\s+information\s+carefully"
+    r"\bdata\s+interpretation|\bfollowing\s+(?:table|chart|graph|figure)"
 )
 
 # Text-only English patterns that must NOT require images
@@ -143,6 +150,13 @@ def needs_figure_stimulus(
     options: dict[str, str] | None = None,
 ) -> bool:
     """True only when a visual figure/table is required for the question to be solvable."""
+    # A stem that is nothing but its own number never reached the text layer, so
+    # whatever poses the question is a picture -- a rendered fraction, a quantity
+    # pair, a number series. 8 of these in SBI Clerk Mains 2021 passed the
+    # text-only filter and would have shipped as "Question 66." with five bare
+    # numbers. Tested before is_text_only_english, which lets them through.
+    if BODYLESS_STEM_RE.match((stem or "").strip()):
+        return True
     if is_text_only_english(direction_text, stem, options):
         return False
     blob = f"{direction_text or ''}\n{stem or ''}"

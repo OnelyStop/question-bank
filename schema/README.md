@@ -16,8 +16,8 @@ see the whole shape:
 
 ```json
 {
-  "q_id": "ibps_clerk_2019_mains_unknown_shift_781623cd::q095",
-  "paper_id": "ibps_clerk_2019_mains_unknown_shift_781623cd",
+  "q_id": "ibps_clerk_2019_mains_781623cd::q095",
+  "paper_id": "ibps_clerk_2019_mains_781623cd",
   "q_num": 95,
   "content_hash": "d758775a0377eafe",
 
@@ -36,7 +36,6 @@ see the whole shape:
   "role": "Clerk",
   "exam_type": "Mains",
   "year": 2019,
-  "shift": null,
   "memory_based": true,
 
   "section": "Quantitative",
@@ -96,7 +95,6 @@ see the whole shape:
 | `role` | string | 97% | `Clerk`, `PO`, `SO` |
 | `exam_type` | string | 93% | `Prelims`, `Mains` |
 | `year` | integer | 96% | 2015–2024 |
-| `shift` | string | 20% | Which shift of the day |
 | `memory_based` | boolean | 100% | Recalled by candidates, not an official paper |
 
 **Filter by content**
@@ -286,13 +284,12 @@ group by p.direction_hash, p.body;
 |---|---|
 | `answer` `explanation` `topic` `difficulty` `image_refs` | **0%** |
 | `section` | 17% |
-| `shift` | 20% |
 | `bank` · `exam_type` · `year` · `role` | 92–97% |
 
 Three that will bite:
 
 - **`answer` is 0%.** No practice, scoring or marking works until it's filled.
-- **`section` 17% and `shift` 20% are filter fields.** As facets they'd hide 83%
+- **`section` at 17% is a filter field.** As a facet it would hide 83%
   and 80% of the bank — that reads as broken UI, not missing data. Hold them
   back until the classifier runs — it exists and would take `section` to 73%,
   see the [pipeline steps](../README.md#the-pipeline).

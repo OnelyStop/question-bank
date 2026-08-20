@@ -14,6 +14,15 @@ from pathlib import Path
 import fitz
 
 
+def first_page_text(pdf_path: Path) -> str:
+    """Page 1's text, for reading the exam title these papers print at the top."""
+    doc = fitz.open(pdf_path)
+    try:
+        return doc[0].get_text() or "" if doc.page_count else ""
+    finally:
+        doc.close()
+
+
 def extract_pages(pdf_path: Path) -> list[tuple[int, str]]:
     doc = fitz.open(pdf_path)
     pages: list[tuple[int, str]] = []

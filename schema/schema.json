@@ -157,14 +157,6 @@
       "description": "Copied from the paper so questions filter without a join.",
       "x-fill": 96.1
     },
-    "shift": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "Copied from the paper so questions filter without a join.",
-      "x-fill": 19.8
-    },
     "memory_based": {
       "type": [
         "boolean",

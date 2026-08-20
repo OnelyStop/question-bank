@@ -2,7 +2,7 @@
 
 Keep one copy of each question, then write the export.
 
-**Reads** `corpus/papers/` · **Writes** `data/questions.jsonl.gz`
+**Reads** `data/papers/` · **Writes** `data/questions.jsonl.gz`
 
 Nothing here is written yet. Many overlapping folders will land in `corpus/` —
 memory-based papers repeat questions, and the same paper arrives from several
@@ -92,7 +92,7 @@ Flatten to one line per question, per
 [`schema/schema.json`](../../schema/README.md):
 
 - Copy the paper's identity onto every question — `bank`, `role`, `exam_type`,
-  `year`, `shift`, `memory_based` — so the app filters without a join.
+  `year`, `memory_based` — so the app filters without a join.
 - Compute `direction_hash` from the passage text; inline `direction_text` and
   `direction_image_refs`.
 - Omit nulls. Omit `marks` / `negative_marks` when they equal the default
