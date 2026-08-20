@@ -56,7 +56,13 @@ OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
-    r"(?is)\s*(?:Directions?\s*\(|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # "Directions (32-34):" and "Directions 32-34:" are the same header;
+    # requiring the paren let the unparenthesised form bleed into option (e).
+    r"(?is)\s*(?:Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # "Ans.(b)" printed after each question's options is an inline answer key,
+    # not part of option (e). It bled into the last option of all 100 questions
+    # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
+    r"Ans\s*\.\s*\(?\s*[a-e]\s*\)?|"
     r"Answer\s*:|Solution\s*:).*$"
 )
 SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUTIONS?)\s*$")
@@ -64,6 +70,44 @@ SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUT
 # a paper already held in English. Parsed anyway they yield 0-1 questions and
 # burn a slot in the batch.
 SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hindi|hn)(?:[-_ .]|$)")
+
+# PyMuPDF sets bit 0 of a span's flags for superscript text. Without this an
+# exponent arrives flat -- "2x2 - 3x + 1 = 0" -- where the trailing 2 reads as
+# multiplication rather than a square, and nothing downstream can tell them
+# apart.
+SUPERSCRIPT_FLAG = 1
+SUPERSCRIPT_MAP = str.maketrans("0123456789+-=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ")
+
+
+def line_text(line: dict) -> str:
+    """A line's text, with superscript spans raised.
+
+    The flag alone is not trusted: on stacked-fraction lines PyMuPDF marks the
+    WHOLE following run (" × 4 + ? = 35", full body size) as superscript, and
+    raising it garbled ~14 stems into "⁺ ? ⁼ ³⁵". A real exponent also prints
+    small -- measured 8pt against 11-12pt body -- so both signals are required,
+    plus a length cap: an exponent is a couple of characters, not a clause.
+    """
+    spans = line.get("spans") or []
+    body = max((s.get("size", 0) for s in spans), default=0)
+    out = []
+    for span in spans:
+        text = span.get("text", "")
+        is_sup = (text.strip()
+                  and span.get("flags", 0) & SUPERSCRIPT_FLAG
+                  and span.get("size", body) <= 0.85 * body)
+        if not is_sup:
+            out.append(text)
+            continue
+        # Short exponents become glyphs; anything longer becomes "^(...)"
+        # whole. A real expression exponent exists -- "(?)^(4×16÷32+1)" -- and
+        # translating it char-by-char would emit mixed garbage.
+        raised = text.translate(SUPERSCRIPT_MAP)
+        if len(text.strip()) <= 3 and raised != text:
+            out.append(raised)
+        else:
+            out.append(f"^({text.strip().strip('()')})")
+    return "".join(out)
 
 
 def find_gutter(blocks: list[dict], width: float) -> float | None:
@@ -117,7 +161,7 @@ def page_lines(page: fitz.Page, bars=()):
     lines = []
     for block in blocks:
         for line in block.get("lines") or []:
-            text = "".join(s.get("text", "") for s in line.get("spans") or []).strip()
+            text = line_text(line).strip()
             if not text or NOISE_RE.match(text):
                 continue
             bbox = tuple(float(v) for v in line["bbox"])
@@ -618,6 +662,14 @@ def parse(pdf: Path) -> dict:
             stem = stem_from_blank(d_text or "", num)
         # Maths goes into `stem` in LaTeX, in place. One field per thing: a
         # parallel *_latex field means two versions to keep in step.
+        # Options arrive by four routes -- the plain list, error-spotting
+        # segments, a set's shared options, and a direction split -- and only
+        # one of them passed through the block-level bleed cut. Cutting here
+        # covers all of them: the next set's "Directions (76-81):" was riding
+        # along on option (e), and "Ans.(b)" on 100 of 100 in another paper.
+        opts = {k: BLEED_RE.sub("", v).strip() for k, v in opts.items()}
+        opts = {k: v for k, v in opts.items() if v}
+
         stem = to_latex(stem) or stem
         opts = {k: (to_latex(v) or v) for k, v in opts.items()}
         questions.append({
@@ -712,7 +764,10 @@ class Sheet:
         # Helvetica keeps a real bold face, which Arial Unicode does not, so
         # plain-Latin text stays on it and only text that needs the wider
         # coverage pays for losing bold.
-        if UNI_FONT and any(ord(c) > 255 for c in text):
+        # Above ASCII, not above Latin-1: × (0xD7) and ÷ (0xF7) sit inside
+        # Latin-1, so they took the fallback path and were folded to "x" and
+        # "/" even with the real font available.
+        if UNI_FONT and any(ord(c) > 127 for c in text):
             font = "uni"
         else:
             text = flatten(text)
@@ -759,6 +814,30 @@ def label(paper: dict) -> str:
     return " ".join(b for b in bits if b) or paper.get("source", "")
 
 
+SUPER_BACK = {"0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵",
+              "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "n": "ⁿ"}
+DISPLAY_MAP = [(r"\\times", "×"), (r"\\div", "÷"), (r"\\geq", "≥"), (r"\\leq", "≤")]
+
+
+def display(text: str) -> str:
+    """LaTeX in `stem` back to readable glyphs, for the review PDF only.
+
+    The JSON deliberately stores maths as LaTeX; printing that verbatim put
+    literal "\\times" and "\\frac{15}{100}" on the page. The JSON is not
+    touched -- this is display, not storage.
+    """
+    if "\\" not in text and "^{" not in text:
+        return text
+    out = re.sub(r"\\frac\{([^{}]+)\}\{([^{}]+)\}", r"\1/\2", text)
+    out = re.sub(r"\\sqrt\{([^{}]+)\}", r"√\1", out)
+    for pat, glyph in DISPLAY_MAP:
+        out = re.sub(pat + r"\s*", glyph + " ", out)
+    out = re.sub(r"\^\{([0-9n])\}",
+                 lambda m: SUPER_BACK.get(m.group(1), "^" + m.group(1)), out)
+    out = re.sub(r"\^\{([^{}]+)\}", r"^(\1)", out)
+    return " ".join(out.split())
+
+
 def render(paper: dict, out: Path) -> int:
     name = label(paper)
     sheet = Sheet(name)
@@ -771,16 +850,24 @@ def render(paper: dict, out: Path) -> int:
     for q in paper["questions"]:
         d = q.get("direction_text")
         if d and d != seen:
-            sheet.write(d, size=9, bold=True, colour=(0.15, 0.15, 0.45), gap=9)
+            sheet.write(display(d), size=9, bold=True, colour=(0.15, 0.15, 0.45), gap=9)
             seen = d
-        sheet.write(f"{q['q_num']}. {q['stem'] or '(no stem)'}", gap=5)
+        sheet.write(f"{q['q_num']}. {display(q['stem']) if q['stem'] else '(no stem)'}", gap=5)
         if not q["options"]:
             sheet.write("(no options)", size=8.5, indent=16, colour=(0.7, 0.2, 0.2))
         for k in sorted(q["options"]):
-            sheet.write(f"({k}) {q['options'][k]}", size=9, indent=16, gap=2.5)
+            sheet.write(f"({k}) {display(q['options'][k])}", size=9, indent=16, gap=2.5)
         sheet.rule()
 
-    sheet.doc.save(str(out), deflate=True)
+    # Subset before saving. Arial Unicode is a 22 MB font and PyMuPDF embeds all
+    # of it, so a 38-page paper of plain text came out at 14.8 MB -- larger than
+    # the source PDF it was extracted from. Only the glyphs actually used are
+    # needed, and a review artefact nobody can open is no use.
+    try:
+        sheet.doc.subset_fonts()
+    except Exception:
+        pass          # older PyMuPDF: a fat file still beats no file
+    sheet.doc.save(str(out), deflate=True, garbage=4)
     pages = sheet.doc.page_count
     sheet.doc.close()
     return pages

@@ -967,7 +967,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q041",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 41,
-      "stem": "I. 𝑥2 + 3𝑥−40 = 0 II. 𝑦2 −11𝑦 + 30 = 0",
+      "stem": "I. 𝑥^{2} + 3𝑥−40 = 0 II. 𝑦^{2} −11𝑦 + 30 = 0",
       "options": {
         "a": "if x > y",
         "b": "if x < y",
@@ -991,7 +991,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q042",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 42,
-      "stem": "I. 2𝑥2 + 7𝑥−15 = 0 II. 3𝑦2 + 5𝑦−12 = 0",
+      "stem": "I. 2𝑥^{2} + 7𝑥−15 = 0 II. 3𝑦^{2} + 5𝑦−12 = 0",
       "options": {
         "a": "if x > y",
         "b": "if x < y",
@@ -1015,7 +1015,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q043",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 43,
-      "stem": "I. 2𝑥2 + 26𝑥 + 84 = 0 II. 𝑦2 + 15𝑦 + 56 = 0",
+      "stem": "I. 2𝑥^{2} + 26𝑥 + 84 = 0 II. 𝑦^{2} + 15𝑦 + 56 = 0",
       "options": {
         "a": "if x > y",
         "b": "if x < y",
@@ -1039,7 +1039,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q044",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 44,
-      "stem": "I. 𝑥2 −4𝑥−221 = 0 II. 𝑦2 −𝑦−132 = 0",
+      "stem": "I. 𝑥^{2} −4𝑥−221 = 0 II. 𝑦^{2} −𝑦−132 = 0",
       "options": {
         "a": "if x > y",
         "b": "if x < y",
@@ -1063,7 +1063,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q045",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 45,
-      "stem": "I. 𝑥2 −13𝑥 + 42 = 0 II. 𝑦2 −17𝑦 + 72 = 0",
+      "stem": "I. 𝑥^{2} −13𝑥 + 42 = 0 II. 𝑦^{2} −17𝑦 + 72 = 0",
       "options": {
         "a": "if x > y",
         "b": "if x < y",
@@ -1111,13 +1111,13 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q047",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 47,
-      "stem": "If ratio of radius to height of a cylinder in 7 : 6 and curved surface area of cylinder is 1056 cm2 , then find the total surface area of cylinder?",
+      "stem": "If ratio of radius to height of a cylinder in 7 : 6 and curved surface area of cylinder is 1056 cm² , then find the total surface area of cylinder?",
       "options": {
-        "a": "2218 cm2",
-        "b": "2228 cm2",
-        "c": "2248 cm2",
-        "d": "2288 cm2",
-        "e": "2268 cm2"
+        "a": "2218 cm²",
+        "b": "2228 cm²",
+        "c": "2248 cm²",
+        "d": "2288 cm²",
+        "e": "2268 cm²"
       },
       "direction_id": null,
       "direction_text": null,
@@ -1336,7 +1336,7 @@
         "e": "12.5%"
       },
       "direction_id": "d010",
-      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12th class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
+      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12^(th) class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1360,7 +1360,7 @@
         "e": "690"
       },
       "direction_id": "d010",
-      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12th class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
+      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12^(th) class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1384,7 +1384,7 @@
         "e": "Rs.63000"
       },
       "direction_id": "d010",
-      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12th class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
+      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12^(th) class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1408,7 +1408,7 @@
         "e": "1690"
       },
       "direction_id": "d010",
-      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12th class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
+      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12^(th) class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1432,7 +1432,7 @@
         "e": "25 : 3"
       },
       "direction_id": "d010",
-      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12th class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
+      "direction_text": "Study the charts given below carefully and answer the following questions. Pie chart shows the percentage distribution of total students (Science +Commerce) in 12^(th) class of five different Zones and table shows the number of students in same class in science of same zones. Total students (Science + Commerce) = 4000 Northern Western Zone Zone 25% 30% Easter Central Zone Zone 10% Southern 20% Zone 15% Zone Students in Science Northern Zone 400 Eastern Zone 310 Southern Zone 430 Central Zone 600 Western Zone 750",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2070,7 +2070,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q087",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 87,
-      "stem": "Which of the following statement is true? I. U lives on the 3rd floor II. T does not like Kosovo III. R lives in the odd number floor.",
+      "stem": "Which of the following statement is true? I. U lives on the 3^(rd) floor II. T does not like Kosovo III. R lives in the odd number floor.",
       "options": {
         "a": "Both I and III",
         "b": "Only I",
@@ -2094,7 +2094,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q088",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 88,
-      "stem": "Who lives in Flat B of 2nd floor?",
+      "stem": "Who lives in Flat B of 2ⁿd floor?",
       "options": {
         "a": "P",
         "b": "S",
@@ -2166,7 +2166,7 @@
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q091",
       "paper_id": "ibps_po_2021_prelims_f5ec5a2d",
       "q_num": 91,
-      "stem": "In the given word “LAVISHLY” if all the consonants replaced with its previous letter and all the vowels replaced with its next letter after that remove all the repeated letter and arranged them in alphabetical order then, which of the following letters is 3rd from the left end?",
+      "stem": "In the given word “LAVISHLY” if all the consonants replaced with its previous letter and all the vowels replaced with its next letter after that remove all the repeated letter and arranged them in alphabetical order then, which of the following letters is 3^(rd) from the left end?",
       "options": {
         "a": "J",
         "b": "R",
