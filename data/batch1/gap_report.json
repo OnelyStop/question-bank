@@ -2,13 +2,13 @@
   "papers_scanned": 10,
   "questions_scanned": 928,
   "totals": {
-    "no_options": 3,
+    "no_options": 4,
     "empty_stem": 1
   },
-  "parser_gaps": 4,
+  "parser_gaps": 5,
   "research_gaps": 0,
   "web_fillable": 0,
-  "needs_parser_fix": 4,
+  "needs_parser_fix": 5,
   "papers": [
     {
       "paper_id": "ibps_clerk_2022_mains_7c2e48cb",
@@ -30,6 +30,20 @@
         61,
         63,
         71
+      ]
+    },
+    {
+      "paper_id": "ibps_clerk_2025_prelims_8b0fdbfe",
+      "path": "data/batch1/6.json",
+      "source_pdf": "../frontend/sample/pdfs/easy/IBPS-Clerk-Pre-2025-Memory-Based-Paper-4-Oct-2025-2nd-shift.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          24
+        ]
+      },
+      "unanchored_q_nums": [
+        24
       ]
     }
   ]
