@@ -163,6 +163,14 @@ def main(argv: list[str] | None = None) -> int:
                 "unanchored_q_nums": sorted(unanchored),
             })
 
+    # Zero papers is a broken path, not a clean bill of health. Without this a
+    # root that does not exist writes a report full of zeros, prints
+    # "0 questions in 0 papers" and exits 0 -- and --fail-on-parser reports green
+    # having checked nothing.
+    if total_papers == 0:
+        print(f"  no papers under {rel(args.root)} -- nothing was checked", file=sys.stderr)
+        return 1
+
     parser_total = sum(n for gap, n in tally.items() if gap in PARSER_CLASS)
     research_total = sum(n for gap, n in tally.items() if gap not in PARSER_CLASS)
 
