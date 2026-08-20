@@ -76,12 +76,38 @@ schema fields; the app has no use for them.
 - Spot-check: pull 20 questions per topic and read them. A misfiled topic is
   invisible in aggregate and obvious on the page.
 
+## How to run
+
+```bash
+# 1) produce input (step 1), then 2) classify
+python pipeline/1-extract/pdf_to_questions.py   # writes corpus/papers/
+python pipeline/2-classify/run_classify.py --force
+
+# smoke test
+python pipeline/2-classify/run_classify.py --force --limit-papers 5
+
+# dry run (no writes)
+python pipeline/2-classify/run_classify.py --force --dry-run
+```
+
+If `corpus/papers/` is empty and you are not ready to re-run extract, restore a prior extract:
+
+```bash
+git checkout ae12d7b -- corpus/papers
+```
+
+Report: `corpus/papers/classify_report.json`
+
 ## What's here
 
 | | |
 |---|---|
-| `label_topics.py` | 439 lines — `infer_labels(section, direction, stem, options)` |
-| `label_sections.py` | 444 lines, plus `propagate_direction_sections()` |
+| `run_classify.py` | **entrypoint** — strip → section → topic → pattern → difficulty |
+| `strip_bilingual.py` | remove Devanagari / non-Latin from stem, options, directions |
+| `difficulty.py` | v1 difficulty 1–5 |
+| `naming_conventions.json` | topic + pattern naming notes for classifiers |
+| `label_topics.py` | `infer_labels(section, direction, stem, options)` |
+| `label_sections.py` | section inference + `propagate_direction_sections()` |
 | `topic_taxonomy.json` | the topic vocabulary |
 | `patterns/` | 14 detectors + `base.py`, one file per pattern |
 | `classify.py` | dispatches a question through the detectors |

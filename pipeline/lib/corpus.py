@@ -38,6 +38,7 @@ SKIP_JSON = {
     "question_bank.schema.json",
     "section_label_report.json",
     "topic_label_report.json",
+    "classify_report.json",
 }
 
 def rebuild_index(out_root: Path) -> int:

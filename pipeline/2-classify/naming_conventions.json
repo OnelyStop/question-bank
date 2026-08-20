@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "purpose": "Canonical naming for step 2 classify: topic ids + 14 structural question_pattern detectors.",
+  "conventions": {
+    "section": "PascalCase English labels used in schema (Quantitative, Reasoning, English, GA, Computer).",
+    "topic": "Snake_Case_Pascal tokens matching topic_taxonomy.json — this is the exact string written on the question.",
+    "question_pattern": "snake_case ids matching schema/schema.json enum and patterns/<id>.py skill modules.",
+    "skill_module": "pipeline/2-classify/patterns/<question_pattern>.py",
+    "skill_class": "<PatternName>Skill (e.g. TableDiSetSkill)"
+  },
+  "sections": {
+    "Reasoning": {
+      "topics": [
+        { "id": "Puzzle", "name": "Puzzle" },
+        { "id": "Seating_Arrangement", "name": "Seating Arrangement" },
+        { "id": "Floor_Puzzle", "name": "Floor / Building Puzzle" },
+        { "id": "Blood_Relation", "name": "Blood Relation" },
+        { "id": "Syllogism", "name": "Syllogism" },
+        { "id": "Inequality", "name": "Inequality / Coded Inequality" },
+        { "id": "Coding_Decoding", "name": "Coding–Decoding" },
+        { "id": "Input_Output", "name": "Input–Output / Machine Input" },
+        { "id": "Direction_Sense", "name": "Direction Sense" },
+        { "id": "Order_Ranking", "name": "Order & Ranking" },
+        { "id": "Alphanumeric", "name": "Alphanumeric / Symbol Series" },
+        { "id": "Miscellaneous_Reasoning", "name": "Miscellaneous Reasoning" }
+      ]
+    },
+    "Quantitative": {
+      "topics": [
+        { "id": "Data_Interpretation", "name": "Data Interpretation" },
+        { "id": "Simplification", "name": "Simplification" },
+        { "id": "Approximation", "name": "Approximation" },
+        { "id": "Number_Series", "name": "Number Series" },
+        { "id": "Quadratic_Equation", "name": "Quadratic Equation" },
+        { "id": "Arithmetic", "name": "Arithmetic (word problems)" },
+        { "id": "Data_Sufficiency_Quant", "name": "Data Sufficiency (Quant)" },
+        { "id": "Miscellaneous_Quant", "name": "Miscellaneous Quantitative" }
+      ],
+      "arithmetic_subtopics_reference_only": [
+        "Percentage",
+        "Profit_and_Loss",
+        "Simple_Interest_Compound_Interest",
+        "Ratio_Proportion",
+        "Average",
+        "Time_Work",
+        "Time_Speed_Distance",
+        "Mixture_Alligation",
+        "Partnership",
+        "Ages",
+        "Boats_Streams",
+        "Pipes_Cisterns",
+        "Mensuration",
+        "Permutation_Combination",
+        "Probability"
+      ]
+    },
+    "English": {
+      "topics": [
+        { "id": "Reading_Comprehension", "name": "Reading Comprehension" },
+        { "id": "Cloze_Test", "name": "Cloze Test" },
+        { "id": "Error_Spotting", "name": "Error Spotting" },
+        { "id": "Sentence_Improvement", "name": "Sentence Improvement / Phrase Replacement" },
+        { "id": "Para_Jumble", "name": "Para Jumble / Sentence Rearrangement" },
+        { "id": "Fill_in_the_Blanks", "name": "Fill in the Blanks" },
+        { "id": "Vocabulary", "name": "Vocabulary (Synonym / Antonym / Usage)" },
+        { "id": "Miscellaneous_English", "name": "Miscellaneous English" }
+      ]
+    },
+    "GA": {
+      "topics": [
+        { "id": "Current_Affairs", "name": "Current Affairs" },
+        { "id": "Banking_Awareness", "name": "Banking Awareness" },
+        { "id": "Static_GK", "name": "Static GK" },
+        { "id": "Miscellaneous_GA", "name": "Miscellaneous GA" }
+      ]
+    },
+    "Computer": {
+      "topics": [
+        { "id": "Computer_Basics", "name": "Computer Basics" },
+        { "id": "Miscellaneous_Computer", "name": "Miscellaneous Computer" }
+      ]
+    }
+  },
+  "question_patterns": [
+    {
+      "id": "standalone_mcq",
+      "name": "Standalone MCQ",
+      "skill_module": "patterns/standalone_mcq.py",
+      "skill_class": "StandaloneMcqSkill",
+      "role": "primary",
+      "priority": 190
+    },
+    {
+      "id": "shared_directions_set",
+      "name": "Shared-directions / set-based MCQ",
+      "skill_module": "patterns/shared_directions_set.py",
+      "skill_class": "SharedDirectionsSetSkill",
+      "role": "primary",
+      "priority": 180
+    },
+    {
+      "id": "reading_comprehension_set",
+      "name": "Reading comprehension (passage) set",
+      "skill_module": "patterns/reading_comprehension_set.py",
+      "skill_class": "ReadingComprehensionSetSkill",
+      "role": "primary",
+      "priority": 60
+    },
+    {
+      "id": "cloze_passage_set",
+      "name": "Cloze / fill-in-the-blank passage",
+      "skill_module": "patterns/cloze_passage_set.py",
+      "skill_class": "ClozePassageSetSkill",
+      "role": "primary",
+      "priority": 50
+    },
+    {
+      "id": "image_figure_based",
+      "name": "Image / figure / diagram based",
+      "skill_module": "patterns/image_figure_based.py",
+      "skill_class": "ImageFigureBasedSkill",
+      "role": "primary",
+      "priority": 20
+    },
+    {
+      "id": "visual_chart_graph_di",
+      "name": "Visual chart / graph DI",
+      "skill_module": "patterns/visual_chart_graph_di.py",
+      "skill_class": "VisualChartGraphDiSkill",
+      "role": "primary",
+      "priority": 30
+    },
+    {
+      "id": "table_di_set",
+      "name": "Table DI set",
+      "skill_module": "patterns/table_di_set.py",
+      "skill_class": "TableDiSetSkill",
+      "role": "primary",
+      "priority": 40
+    },
+    {
+      "id": "caselet_di_set",
+      "name": "Caselet DI set",
+      "skill_module": "patterns/caselet_di_set.py",
+      "skill_class": "CaseletDiSetSkill",
+      "role": "primary",
+      "priority": 110
+    },
+    {
+      "id": "data_sufficiency",
+      "name": "Data sufficiency",
+      "skill_module": "patterns/data_sufficiency.py",
+      "skill_class": "DataSufficiencySkill",
+      "role": "primary",
+      "priority": 70
+    },
+    {
+      "id": "quantity_comparison",
+      "name": "Quantity comparison (Quantity I vs II)",
+      "skill_module": "patterns/quantity_comparison.py",
+      "skill_class": "QuantityComparisonSkill",
+      "role": "primary",
+      "priority": 80
+    },
+    {
+      "id": "quadratic_comparison",
+      "name": "Quadratic / two-equation comparison",
+      "skill_module": "patterns/quadratic_comparison.py",
+      "skill_class": "QuadraticComparisonSkill",
+      "role": "primary",
+      "priority": 90
+    },
+    {
+      "id": "match_the_columns",
+      "name": "Match the columns / lists",
+      "skill_module": "patterns/match_the_columns.py",
+      "skill_class": "MatchTheColumnsSkill",
+      "role": "primary",
+      "priority": 100
+    },
+    {
+      "id": "partial_or_missing_options",
+      "name": "Partial / missing options",
+      "skill_module": "patterns/partial_or_missing_options.py",
+      "skill_class": "PartialOrMissingOptionsSkill",
+      "role": "primary",
+      "priority": 10
+    },
+    {
+      "id": "bilingual_stem_directions",
+      "name": "Bilingual stem / directions",
+      "skill_module": "patterns/bilingual_stem_directions.py",
+      "skill_class": "BilingualStemDirectionsSkill",
+      "role": "secondary",
+      "priority": 5,
+      "notes": "Strip Hindi first in classify; do not use as the normal primary pattern."
+    }
+  ],
+  "detector_priority_order": [
+    "partial_or_missing_options",
+    "image_figure_based",
+    "visual_chart_graph_di",
+    "table_di_set",
+    "cloze_passage_set",
+    "reading_comprehension_set",
+    "data_sufficiency",
+    "quantity_comparison",
+    "quadratic_comparison",
+    "match_the_columns",
+    "caselet_di_set",
+    "shared_directions_set",
+    "standalone_mcq"
+  ],
+  "pattern_to_topic_hints": {
+    "reading_comprehension_set": { "section": "English", "topic": "Reading_Comprehension" },
+    "cloze_passage_set": { "section": "English", "topic": "Cloze_Test" },
+    "table_di_set": { "section": "Quantitative", "topic": "Data_Interpretation" },
+    "visual_chart_graph_di": { "section": "Quantitative", "topic": "Data_Interpretation" },
+    "caselet_di_set": { "section": "Quantitative", "topic": "Data_Interpretation" },
+    "data_sufficiency": { "section": "Quantitative", "topic": "Data_Sufficiency_Quant" },
+    "quantity_comparison": { "section": "Quantitative", "topic": "Arithmetic" },
+    "quadratic_comparison": { "section": "Quantitative", "topic": "Quadratic_Equation" },
+    "match_the_columns": { "section": "English", "topic": "Miscellaneous_English" }
+  },
+  "sources": {
+    "topics": "pipeline/2-classify/topic_taxonomy.json",
+    "patterns_enum": "schema/schema.json → properties.question_pattern.enum",
+    "pattern_skills": "pipeline/2-classify/patterns/"
+  }
+}

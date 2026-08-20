@@ -24,16 +24,19 @@ from corpus import (
     DEFAULT_OUT,
     iter_paper_jsons,
     load_paper,
-    rebuild_index,
 )
-
 
 try:
     from label_topics import topic_implied_section
 except ImportError:
     topic_implied_section = None  # type: ignore[assignment,misc]
 
+ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("label_sections")
+
+
+def save_paper(path: Path, paper: dict[str, Any]) -> None:
+    path.write_text(json.dumps(paper, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 PATH_CUES: list[tuple[str, re.Pattern[str]]] = [
     ("Quantitative", re.compile(r"\b(?:quant|quantitative|numerical|maths?|di)\b", re.I)),
@@ -334,8 +337,13 @@ def infer_section(paper: dict[str, Any], q: dict[str, Any]) -> tuple[str | None,
     return None, None
 
 
-def propagate_direction_sections(paper: dict[str, Any]) -> int:
-    """If any question in a direction group has a section, copy to siblings missing one."""
+def propagate_direction_sections(paper: dict[str, Any], *, unify: bool = False) -> int:
+    """
+    Copy section across a direction group.
+
+    Default: fill siblings that are missing a section.
+    unify=True: force every sibling to the majority section (fixes mixed sets).
+    """
     by_dir: dict[str, list[dict[str, Any]]] = {}
     for q in paper.get("questions") or []:
         did = q.get("direction_id")
@@ -353,6 +361,75 @@ def propagate_direction_sections(paper: dict[str, Any]) -> int:
                 q["section"] = sec
                 q["section_source"] = "direction_propagate"
                 filled += 1
+            elif unify and q.get("section") != sec:
+                q["section"] = sec
+                q["section_source"] = "direction_unify"
+                filled += 1
+    return filled
+
+
+def fill_neighbour_sections(paper: dict[str, Any]) -> int:
+    """
+    Fill missing section when both immediate neighbours agree.
+
+    Banking papers run in section blocks (e.g. Q1–30 English). If Q45 is
+    unlabelled and Q44/Q46 both say Reasoning, Q45 is Reasoning. Boundary
+    questions (neighbours disagree or only one side labelled) stay empty.
+    """
+    qs = paper.get("questions") or []
+    filled = 0
+    for i, q in enumerate(qs):
+        if q.get("section"):
+            continue
+        left = qs[i - 1] if i > 0 else None
+        right = qs[i + 1] if i + 1 < len(qs) else None
+        if not left or not right:
+            continue
+        left_sec = left.get("section")
+        right_sec = right.get("section")
+        if left_sec and right_sec and left_sec == right_sec:
+            q["section"] = left_sec
+            q["section_source"] = "neighbour"
+            filled += 1
+    return filled
+
+
+def fill_neighbour_topics(paper: dict[str, Any], allowed_topics: set[str] | None = None) -> int:
+    """Fill missing topic when both immediate neighbours share the same topic id."""
+    qs = paper.get("questions") or []
+    filled = 0
+    for i, q in enumerate(qs):
+        if q.get("topic"):
+            continue
+        left = qs[i - 1] if i > 0 else None
+        right = qs[i + 1] if i + 1 < len(qs) else None
+        if not left or not right:
+            continue
+        left_topic = left.get("topic")
+        right_topic = right.get("topic")
+        if not left_topic or left_topic != right_topic:
+            continue
+        if allowed_topics is not None and left_topic not in allowed_topics:
+            continue
+        # Prefer not to cross a section boundary even if topics match oddly
+        left_sec = left.get("section")
+        right_sec = right.get("section")
+        if left_sec and right_sec and left_sec != right_sec:
+            continue
+        # ...and not across q's OWN section either. Comparing only the two
+        # neighbours lets a question that already has section="Quantitative",
+        # bracketed by two English questions sharing a topic, be stamped with
+        # that English topic -- a topic that does not belong to the section it
+        # ships under.
+        own_sec = q.get("section")
+        if own_sec and left_sec and own_sec != left_sec:
+            continue
+        q["topic"] = left_topic
+        q["topic_source"] = "neighbour"
+        if not q.get("section") and left_sec and left_sec == right_sec:
+            q["section"] = left_sec
+            q["section_source"] = "neighbour"
+        filled += 1
     return filled
 
 
@@ -402,9 +479,19 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
                 if q.get("section_source") == "direction_propagate":
                     sections[str(q["section"])] += 1
 
+        n_sec = fill_neighbour_sections(paper)
+        if n_sec:
+            dirty = True
+            sources["neighbour"] += n_sec
+            labelled += n_sec
+            sources["unlabelled"] = max(0, sources["unlabelled"] - n_sec)
+            for q in paper.get("questions") or []:
+                if q.get("section_source") == "neighbour":
+                    sections[str(q["section"])] += 1
+
         if dirty:
             papers_touched += 1
-            path.write_text(json.dumps(paper, indent=2, ensure_ascii=False), encoding="utf-8")
+            save_paper(path, paper)
 
     # Recount labelled accurately
     labelled = 0
@@ -420,7 +507,6 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
                 labelled += 1
                 sections[str(q["section"])] += 1
 
-    index_rows = rebuild_index(out_root)
     return {
         "questions": total,
         "labelled": labelled,
@@ -428,7 +514,6 @@ def label_sections(out_root: Path, *, force: bool = False) -> dict[str, Any]:
         "papers_touched": papers_touched,
         "by_source": dict(sources),
         "by_section": dict(sections),
-        "index_rows": index_rows,
     }
 
 
