@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from parser import meta_from_text
 
 REPO = Path(__file__).resolve().parents[2]
-DEFAULT_ROOT = REPO / "data" / "papers"
+DATA = REPO / "data"
 CORPUS = REPO / "corpus" / "pdf"
 SERPER_URL = "https://google.serper.dev/search"
 # What the parser records. No shift: it is not part of the output.
@@ -54,6 +54,18 @@ MIN_AGREEMENT = 3
 # 2019 the vote was 2021:4 vs 2019:3 -- a plain "most votes" rule would have
 # written the wrong year; the margin rejects it and leaves the field null.
 MIN_MARGIN = 2.0
+
+
+def latest_batch(data_root: Path) -> Path | None:
+    """The newest data/batch{n}, or None when nothing has been parsed.
+
+    There is no fixed default to point at: parser.py writes data/batch{n}, and a
+    default of data/papers -- which nothing creates -- made a no-argument run
+    scan an empty directory and report zero gaps as though all were clean.
+    """
+    batches = [(int(p.name[5:]), p) for p in data_root.glob("batch*")
+               if p.is_dir() and p.name[5:].isdigit()]
+    return max(batches)[1] if batches else None
 
 
 def search(query: str, key: str, timeout: float = 20.0) -> list[dict]:
@@ -120,10 +132,16 @@ def sidecar_for(pdf_rel: str) -> Path | None:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--root", type=Path, default=DEFAULT_ROOT)
+    ap.add_argument("--root", type=Path, default=None,
+                    help="a data/batch{n} folder (default: the newest)")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
+    if args.root is None:
+        args.root = latest_batch(DATA)
+        if args.root is None:
+            print(f"  no batches under {DATA} -- run parser.py first", file=sys.stderr)
+            return 1
 
     report_path = args.root / "gap_report.json"
     if not report_path.is_file():

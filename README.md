@@ -5,10 +5,11 @@ Exam questions for Indian competitive exams, cleaned up and made usable.
 Right now that means **banking** — IBPS, SBI and RRB.
 
 ```
-corpus/     the source PDFs — 375 of them, 414 MB
-data/       the clean output, one gzipped file
-pipeline/   the five steps, one folder each
-schema/     what one exported question looks like
+corpus/done/       PDFs already extracted
+corpus/remaining/  PDFs still to do
+data/batch{n}/     ten papers per batch, JSON + a readable PDF of each
+pipeline/          the five steps, one folder each
+schema/            what one exported question looks like
 ```
 
 `corpus/` is raw and messy by design; `data/` is generated and disposable.
@@ -19,9 +20,9 @@ is both large and derivable.
 
 ## The data
 
-`corpus/pdf/` holds **375 of the 379 source PDFs**, each with a `.meta.json`
-sidecar, laid out `{bank}/{role}/{year}/{stage}/`. That's the input to step 1, so
-**nothing is blocked** — the whole pipeline can run.
+**375 of the 379 source PDFs** are here, each with a `.meta.json` sidecar. Step 1
+takes the next ten from `corpus/remaining/` and moves them to `corpus/done/` when
+they parse, so `remaining/` is always the work left.
 
 Earlier extractions are in git history if you want to compare against them:
 
@@ -60,7 +61,7 @@ re-run alone.
 | 4. answer | yes, for the answer keys |
 | 5. validate | no |
 
-The PDFs are in `corpus/pdf/`, so all five can run. Steps 2, 4 and 5 need only
+The PDFs are in `corpus/`, so all five can run. Steps 2, 4 and 5 need only
 step 1's JSON, which means they can be developed against the previous
 extraction (`git checkout c73426f -- corpus/papers`) without waiting for a step 1
 rewrite.
@@ -69,15 +70,14 @@ rewrite.
 
 ### 1. `1-extract/` — PDFs to questions
 
-**In** the source PDFs · **Out** `data/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json`
+**In** `corpus/remaining/` · **Out** `data/batch{n}/{1..10}.json`, and the PDFs move to `corpus/done/`
 
-Four commands, in order — [details](pipeline/1-extract/README.md):
+One command per batch — [details](pipeline/1-extract/README.md):
 
 ```bash
-python3 pipeline/1-extract/pdf_to_questions.py   # PDFs -> paper JSON
-python3 pipeline/1-extract/render_paper.py       # JSON -> a PDF you can read
-python3 pipeline/1-extract/check_gaps.py         # what is still missing
-#                                                  then research those gaps
+python3 pipeline/1-extract/parser.py                          # next 10 papers
+python3 pipeline/1-extract/check_gaps.py --root data/batch1   # what is missing
+python3 pipeline/1-extract/research.py  --root data/batch1    # search for it
 ```
 
 - Read each page as a layout stream, not flat text — column order and option
@@ -89,8 +89,9 @@ python3 pipeline/1-extract/check_gaps.py         # what is still missing
   error-spotting, where the options are the sentence's own `(a)/ (b)/` segments.
 - Flag figures: set `has_image`, and crop the chart to a file that
   `image_refs` / `direction_image_refs` can point at.
-- Derive `bank`, `role`, `year`, `stage`, `shift` from the path, then from the
-  title line the PDF prints on page 1.
+- Derive `bank`, `role`, `year`, `exam_type` from the filename and the title
+  line the PDF prints on page 1. There is no `shift`: it is unknowable for
+  papers that are practice compilations rather than one sitting.
 - Write `parse_report.json` and `gap_report.json`.
 
 `check_gaps.py` splits what's left into **parser** gaps (missing options, cut
@@ -101,14 +102,15 @@ invents question content; don't.
 
 No OCR yet — a page with no text layer is skipped silently.
 
-Needs `pip install pymupdf`. The 375 source PDFs are in `corpus/pdf/`, so this
-step can run.
+Needs `pip install pymupdf`.
+
+Batch 1, the ten easiest IBPS papers: **928 questions, 924 complete (99.6%)**.
 
 ---
 
 ### 2. `2-classify/` — label what each question is
 
-**In** `data/papers/` (once step 1 has written it) · **Out** the same JSON, with
+**In** `data/batch*/` (once step 1 has written it) · **Out** the same JSON, with
 labels added
 
 - **Strip the Hindi.** 1,350 questions across 35 papers carry the Devanagari

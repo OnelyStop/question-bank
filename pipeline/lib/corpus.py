@@ -24,6 +24,13 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS = REPO_ROOT / "corpus" / "pdf"
 DEFAULT_OUT = REPO_ROOT / "data" / "papers"
 
+# What step 1 writes on every question -- see pipeline/1-extract/output.json.
+INDEX_FIELDS = (
+    "q_id", "paper_id", "q_num", "stem", "options",
+    "direction_id", "direction_has_image",
+    "bank", "role", "exam_type", "year", "memory_based", "has_image",
+)
+
 SKIP_JSON = {
     "parse_report.json",
     "answer_attach_report.json",
@@ -46,41 +53,21 @@ def rebuild_index(out_root: Path) -> int:
                 data = json.loads(path.read_text(encoding="utf-8"))
             except json.JSONDecodeError:
                 continue
+            if not isinstance(data, dict):
+                continue
             if "questions" not in data or "paper_id" not in data:
                 continue
-            # Rebuild Paper-like index rows without full dataclass
+            # One row per question, flat. Fields come off the question itself:
+            # step 1 copies the paper's identity onto every question, so a row
+            # needs no join. Reading `metrics`, `context`, `context_status` and
+            # `shift` off it silently produced a column of nulls once those left
+            # the question shape.
             for q in data.get("questions") or []:
-                row = {
-                    "q_id": q.get("q_id"),
-                    "paper_id": data.get("paper_id"),
-                    "bank": data.get("bank"),
-                    "role": data.get("role"),
-                    "exam_type": data.get("exam_type"),
-                    "year": data.get("year"),
-                    "shift": data.get("shift"),
-                    "memory_based": data.get("memory_based"),
-                    "language": data.get("language"),
-                    "q_num": q.get("q_num"),
-                    "section": q.get("section"),
-                    "topic": q.get("topic"),
-                    "direction_id": q.get("direction_id"),
-                    "has_passage": (q.get("metrics") or {}).get("has_passage"),
-                    "option_count": (q.get("metrics") or {}).get("option_count"),
-                    "stem": q.get("stem"),
-                    "options": q.get("options"),
-                    "answer": q.get("answer"),
-                    "answer_confidence": q.get("answer_confidence"),
-                    "answer_source": q.get("answer_source"),
-                    "pdf_path": (data.get("source") or {}).get("pdf_path"),
-                    "context_status": q.get("context_status"),
-                    "context_issues": q.get("context_issues"),
-                    "has_context_images": any(
-                        b.get("type") == "image"
-                        and b.get("asset")
-                        and b.get("role") == "figure"
-                        for b in (q.get("context") or [])
-                    ),
-                }
+                row = {k: q.get(k) for k in INDEX_FIELDS}
+                row["topic"] = q.get("topic")          # added by 2-classify
+                row["section"] = q.get("section")      # added by 2-classify
+                row["answer"] = q.get("answer")        # added by 4-answer
+                row["pdf_path"] = data.get("source_pdf")
                 fh.write(json.dumps(row, ensure_ascii=False) + "\n")
                 count += 1
     return count

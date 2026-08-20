@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Report which of step 1's 17 fields are still empty, and who can fill them.
+"""Report which of step 1's fields are still empty, and who can fill them.
 
 Scope is step 1's own output contract (pipeline/1-extract/output.json). `answer`
 is not checked here -- it belongs to nobody until step 4.
@@ -7,7 +7,7 @@ is not checked here -- it belongs to nobody until step 4.
   parser    a question the parse damaged: options dropped, stem cut, stem never
             found. The text is in the PDF, so a code fix repairs every paper
             with the same defect at once.
-  research  which exam the paper is -- bank, role, year, stage, shift. Not in
+  research  which exam the paper is -- bank, role, year, exam_type. Not in
             the PDF or its filename, so a web search is the only source.
             Findings go in the .meta.json sidecar, which load_meta() prefers.
 
@@ -29,8 +29,9 @@ from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-DEFAULT_ROOT = REPO / "data" / "papers"
-SKIP = {"parse_report.json", "index.jsonl", "gap_report.json", "review_queue.json"}
+DATA = REPO / "data"
+SKIP = {"parse_report.json", "index.json", "index.jsonl",
+        "gap_report.json", "review_queue.json"}
 
 # A trailing comma is deliberately NOT a signal: para-jumble stems end on a
 # fragment ("(E) on agri-business scenarios,") and flagging those buried the
@@ -39,10 +40,22 @@ TRUNCATED_RE = re.compile(r"[(\[{+\-×÷=∶/]\s*$")
 PLACEHOLDER_RE = re.compile(r"^(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*$", re.IGNORECASE)
 
 # The paper-identity fields step 1 must fill, all copied onto every question.
-META_FIELDS = ("bank", "role", "year", "exam_type", "shift")
+META_FIELDS = ("bank", "role", "year", "exam_type")
 PARSER_CLASS = {"no_options", "empty_stem", "placeholder_stem",
                 "truncated_stem", "duplicate_q_num"}
 MIN_ANCHOR_CHARS = 25
+
+
+def latest_batch(data_root: Path) -> Path | None:
+    """The newest data/batch{n}, or None when nothing has been parsed.
+
+    There is no fixed default to point at: parser.py writes data/batch{n}, and a
+    default of data/papers -- which nothing creates -- made a no-argument run
+    scan an empty directory and report zero gaps as though all were clean.
+    """
+    batches = [(int(p.name[5:]), p) for p in data_root.glob("batch*")
+               if p.is_dir() and p.name[5:].isdigit()]
+    return max(batches)[1] if batches else None
 
 
 def rel(path: Path) -> str:
@@ -81,16 +94,6 @@ def question_gaps(q: dict) -> list[str]:
 
 def paper_gaps(paper: dict) -> list[str]:
     found = [f"no_{f}" for f in META_FIELDS if not paper.get(f)]
-
-    # Prelims runs four shifts a day, so a missing one is a real unknown worth
-    # researching. Mains is a single session -- there is no shift to find, and
-    # reporting it sends someone searching for something that does not exist.
-    # High volume can split a Mains into two (SBI Clerk Mains 2021 did), so a
-    # shift IS recorded when the paper states one; this only stops the absence
-    # being called a gap.
-    if paper.get("exam_type") == "Mains" and "no_shift" in found:
-        found.remove("no_shift")
-
     nums = [q.get("q_num") for q in paper.get("questions") or []]
     if len(nums) != len(set(nums)):
         found.append("duplicate_q_num")
@@ -99,10 +102,16 @@ def paper_gaps(paper: dict) -> list[str]:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--root", type=Path, default=DEFAULT_ROOT)
+    ap.add_argument("--root", type=Path, default=None,
+                    help="a data/batch{n} folder (default: the newest)")
     ap.add_argument("--fail-on-parser", action="store_true",
                     help="exit 1 if any parser-class gap remains")
     args = ap.parse_args(argv)
+    if args.root is None:
+        args.root = latest_batch(DATA)
+        if args.root is None:
+            print(f"  no batches under {DATA} -- run parser.py first", file=sys.stderr)
+            return 1
 
     tally: Counter[str] = Counter()
     anchoring: Counter[str] = Counter()
@@ -116,6 +125,9 @@ def main(argv: list[str] | None = None) -> int:
             paper = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError) as exc:
             print(f"  skip {path.name}: {exc}", file=sys.stderr)
+            continue
+        # A report or index file sitting in the same folder is not a paper.
+        if not isinstance(paper, dict):
             continue
         qs = paper.get("questions") or []
         if not qs:
@@ -145,7 +157,7 @@ def main(argv: list[str] | None = None) -> int:
             papers.append({
                 "paper_id": paper.get("paper_id"),
                 "path": rel(path),
-                "source_pdf": (paper.get("source") or {}).get("pdf_path"),
+                "source_pdf": paper.get("source_pdf"),
                 "paper_gaps": meta,
                 "question_gaps": {k: sorted(v) for k, v in per_q.items()},
                 "unanchored_q_nums": sorted(unanchored),

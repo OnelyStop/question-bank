@@ -12,8 +12,10 @@ awkward cases live in `medium`/`hard` and are deliberately out of scope.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -477,6 +479,46 @@ def stem_from_blank(direction: str, num: int) -> str:
     return " ".join(direction[start:stop].split())
 
 
+def make_paper_id(meta: dict, pdf: Path) -> str:
+    """Stable id for the paper: what it is, plus a hash of the file it came from.
+
+    The hash is what keeps two papers of the same exam apart -- three IBPS Clerk
+    Prelims 2025 files sit in this corpus.
+    """
+    bits = [str(meta.get(k) or "unknown").lower().replace(" ", "_")
+            for k in ("bank", "role", "year", "exam_type")]
+    digest = hashlib.sha256(pdf.read_bytes()).hexdigest()[:8]
+    return "_".join(bits + [digest])
+
+
+def full_question(q: dict, paper_id: str, meta: dict) -> dict:
+    """One question with every field step 1 owns, in contract order.
+
+    Written out in full rather than left to the reader to join against the
+    paper: a question is self-contained, so nothing downstream needs a lookup to
+    filter by bank or year. `shift` is deliberately absent -- it is unknowable
+    for these papers, which are practice compilations rather than one sitting.
+    """
+    return {
+        "q_id": f"{paper_id}::q{q['q_num']:03d}",
+        "paper_id": paper_id,
+        "q_num": q["q_num"],
+        "stem": q["stem"],
+        "options": q["options"],
+        "direction_id": q.get("direction_id"),
+        "direction_text": q.get("direction_text"),
+        "direction_has_image": False,
+        "direction_image_refs": [],
+        "bank": meta.get("bank"),
+        "role": meta.get("role"),
+        "exam_type": meta.get("exam_type"),
+        "year": meta.get("year"),
+        "memory_based": meta.get("memory_based", False),
+        "has_image": False,
+        "image_refs": [],
+    }
+
+
 def parse(pdf: Path) -> dict:
     text = read_text(pdf)
 
@@ -516,6 +558,9 @@ def parse(pdf: Path) -> dict:
         directions.append((lo, hi, body))
 
     questions = []
+    # One id per distinct direction, so the questions of a set can be grouped
+    # without comparing passages that run to 2,000 characters.
+    direction_ids: dict[str, str] = {}
     for i, (num, _start, end) in enumerate(anchors):
         stop = anchors[i + 1][1] if i + 1 < len(anchors) else len(text)
         block = text[end:stop]
@@ -580,6 +625,8 @@ def parse(pdf: Path) -> dict:
             "stem": stem,
             "options": opts,
             "direction_text": d_text,
+            "direction_id": direction_ids.setdefault(
+                d_text, f"d{len(direction_ids) + 1:03d}") if d_text else None,
         })
 
     # A number can be anchored more than once -- a table row reading "1. 3 60 C"
@@ -592,11 +639,21 @@ def parse(pdf: Path) -> dict:
         rank = (len(q["options"]), len(q["stem"]))
         if prev is None or rank > (len(prev["options"]), len(prev["stem"])):
             dedup[q["q_num"]] = q
+    meta = paper_meta(pdf, text)
+    paper_id = make_paper_id(meta, pdf)
+    try:
+        source_pdf = str(pdf.resolve().relative_to(REPO))
+    except ValueError:
+        source_pdf = str(pdf)
     return {
         "source": pdf.name,
-        **paper_meta(pdf, text),
+        # Repo-relative, so research.py can find the file again. The bare name
+        # is not enough: the corpus is nested several folders deep.
+        "source_pdf": source_pdf,
+        "paper_id": paper_id,
+        **meta,
         "question_count": len(dedup),
-        "questions": [dedup[k] for k in sorted(dedup)],
+        "questions": [full_question(dedup[k], paper_id, meta) for k in sorted(dedup)],
     }
 
 
@@ -746,6 +803,12 @@ def main(argv: list[str] | None = None) -> int:
                     help="do not move the PDFs into corpus/done afterwards")
     args = ap.parse_args(argv)
 
+    # A path that does not exist is not a PDF. Without this check `is_dir()` is
+    # False for a typo, the run treats it as a single file, and it ends with a
+    # new empty batch folder and a cheerful "0 questions".
+    if not args.src.exists():
+        print(f"  no such path: {args.src}", file=sys.stderr)
+        return 1
     found = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
     pdfs = [p for p in found if not SKIP_NAME_RE.search(p.stem)]
     skipped = [p for p in found if SKIP_NAME_RE.search(p.stem)]
