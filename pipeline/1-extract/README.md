@@ -2,19 +2,28 @@
 
 PDFs in, questions out.
 
-**Reads** `corpus/pdf/{bank}/…/*.pdf` · **Writes** `data/batch{n}/{1..10}.json` + a
+**Reads** `corpus/remaining/` · **Writes** `data/batch{n}/{1..10}.json` + a
 matching `.pdf` of each paper, and `index.json` mapping the numbers to sources.
+Parsed PDFs move to `corpus/done/`, so `remaining/` is always the work left.
 
 ## Running it
 
-Ten PDFs at a time, so a batch can be read before the next one starts:
+Ten papers at a time, so a batch can be read before the next one starts. No
+arguments — it takes the next ten from `corpus/remaining/`:
 
 ```bash
-python3 pipeline/1-extract/parser.py corpus/pdf/IBPS               # batch 1
-python3 pipeline/1-extract/parser.py corpus/pdf/IBPS --batch 2     # the next 10
-python3 pipeline/1-extract/check_gaps.py --root data/batch1        # what is missing
-python3 pipeline/1-extract/research.py  --root data/batch1         # search for it
+python3 pipeline/1-extract/parser.py                          # next 10
+python3 pipeline/1-extract/check_gaps.py --root data/batch1   # what is missing
+python3 pipeline/1-extract/research.py  --root data/batch1    # search for it
 ```
+
+Only what parsed is moved — a PDF that raised stays in `remaining/` for the next
+run rather than being quietly filed as done. `--keep` parses without moving
+anything, for re-running a batch.
+
+Solutions-only PDFs and Hindi editions of papers already held in English are
+moved straight to `done/` without parsing: they yield 0-1 questions and would
+otherwise burn a slot in every batch. 136 of the 365 files were these.
 
 Every paper is also rendered back to a readable PDF beside its JSON. Extraction
 defects are obvious on a page and invisible in JSON — a stem that lost its
@@ -66,16 +75,17 @@ style only where one clearly dominates leaves bare-numbered papers alone.
 ```json
 {
   "q_num": 78,
-  "stem": "32/35 ÷ 1/5 × 7/8 ÷ 2/35 = ?",
-  "stem_latex": "\\frac{32}{35} \\div \\frac{1}{5} \\times \\frac{7}{8} = ?",
+  "stem": "\\frac{32}{35} \\div \\frac{1}{5} \\times \\frac{7}{8} \\div \\frac{2}{35} = ?",
   "options": {"a": "60", "b": "80", "c": "75", "d": "90", "e": "70"},
   "direction_text": "What should come in place of the question mark?"
 }
 ```
 
-`stem_latex` and `options_latex` appear **only** where the text is genuinely
-maths, so a reader can tell which questions need a maths renderer. The plain
-text is always present and always readable.
+Four fields, no more. Maths goes into `stem` as LaTeX in place -- a parallel
+`stem_latex` would be a second version to keep in step. Prose stems are
+untouched; the conversion only fires on text that is actually maths. The LaTeX
+carries no `$...$` delimiters, so a maths stem is entirely LaTeX and a prose
+stem entirely plain.
 
 Paper-level: `bank`, `role`, `exam_type`, `year`, `memory_based`,
 `question_count`. There is no `shift` — it is unknowable for most of these
@@ -84,11 +94,15 @@ papers, which are practice compilations rather than one sitting, and an
 
 ## Where it stands
 
-Batch 1, the ten easiest IBPS papers: **928 questions, 924 complete (99.6%)**.
+| Batch | Questions | Complete |
+|---|---|---|
+| 1 — the ten easiest IBPS papers | 928 | 924 (99.6%) |
+| 2 | 1,222 | 1,169 (95.7%) |
 
-The four that are not complete have no text to extract — their options are
-rendered as images, so the PDF holds `(a) (b) (c) (d) (e)` with nothing behind
-them.
+156 PDFs in `corpus/done/`, 219 left in `corpus/remaining/`.
+
+What is not complete has no text to extract: options rendered as images, so the
+PDF holds `(a) (b) (c) (d) (e)` with nothing behind them, and Hindi-only stems.
 
 ## Not handled
 

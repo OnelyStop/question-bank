@@ -20,6 +20,8 @@ from pathlib import Path
 import fitz
 
 REPO = Path(__file__).resolve().parents[2]
+REMAINING = REPO / "corpus" / "remaining"
+DONE = REPO / "corpus" / "done"
 
 HEADER_FRAC = 0.12
 FOOTER_FRAC = 0.08
@@ -56,6 +58,10 @@ BLEED_RE = re.compile(
     r"Answer\s*:|Solution\s*:).*$"
 )
 SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUTIONS?)\s*$")
+# Files with no questions to take: a solutions-only PDF, or the Hindi edition of
+# a paper already held in English. Parsed anyway they yield 0-1 questions and
+# burn a slot in the batch.
+SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hindi|hn)(?:[-_ .]|$)")
 
 
 def find_gutter(blocks: list[dict], width: float) -> float | None:
@@ -723,34 +729,48 @@ def render(paper: dict, out: Path) -> int:
     return pages
 
 
+def next_batch_number(out_root: Path) -> int:
+    used = [int(p.name[5:]) for p in out_root.glob("batch*") if p.name[5:].isdigit()]
+    return max(used, default=0) + 1
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("src", type=Path, help="a PDF, or a folder of them")
+    ap.add_argument("src", type=Path, nargs="?", default=REMAINING,
+                    help="a PDF, or a folder of them (default: corpus/remaining)")
     ap.add_argument("--out", type=Path, default=REPO / "data")
-    ap.add_argument("--batch", type=int, default=1, help="which batch of --size")
     ap.add_argument("--size", type=int, default=10)
+    ap.add_argument("--batch", type=int, default=0,
+                    help="output folder number (default: next unused)")
+    ap.add_argument("--keep", action="store_true",
+                    help="do not move the PDFs into corpus/done afterwards")
     args = ap.parse_args(argv)
 
-    pdfs = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
-    total_batches = (len(pdfs) + args.size - 1) // args.size
-    lo = (args.batch - 1) * args.size
-    batch = pdfs[lo: lo + args.size]
+    found = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
+    pdfs = [p for p in found if not SKIP_NAME_RE.search(p.stem)]
+    skipped = [p for p in found if SKIP_NAME_RE.search(p.stem)]
+    batch = pdfs[: args.size]
     if not batch:
-        print(f"  batch {args.batch} is empty ({len(pdfs)} PDFs, {total_batches} batches)")
+        print(f"  nothing to do -- {args.src} holds no PDFs")
         return 1
 
-    out = args.out / f"batch{args.batch}"
+    args.out.mkdir(parents=True, exist_ok=True)
+    number = args.batch or next_batch_number(args.out)
+    out = args.out / f"batch{number}"
     out.mkdir(parents=True, exist_ok=True)
-    print(f"  batch {args.batch} of {total_batches}  ({len(batch)} PDFs)\n")
+    left = len(pdfs) - len(batch)
+    print(f"  batch {number}: {len(batch)} PDFs, {left} left in {args.src}\n")
 
     total_q = clean = 0
     index = []
+    parsed_pdfs = []
     for n, pdf in enumerate(batch, 1):
         try:
             paper = parse(pdf)
         except Exception as exc:
             print(f"  {n:2d}. FAIL  {pdf.name[:52]:54} {exc}")
             continue
+        parsed_pdfs.append(pdf)
         qs = paper["questions"]
         no_opts = sum(1 for q in qs if not q["options"])
         no_stem = sum(1 for q in qs if not q["stem"])
@@ -772,8 +792,32 @@ def main(argv: list[str] | None = None) -> int:
     (out / "index.json").write_text(json.dumps(index, indent=2), encoding="utf-8")
     pct = 100 * clean / total_q if total_q else 0
     print(f"\n  {total_q} questions, {clean} complete ({pct:.1f}%)  ->  {out}")
-    if args.batch < total_batches:
-        print(f"  next:  --batch {args.batch + 1}")
+
+    # Move only what parsed. A PDF that raised is left in remaining/ so the next
+    # run picks it up again rather than it being quietly filed as done.
+    if not args.keep and args.src.is_dir() and args.src.resolve() == REMAINING.resolve():
+        for pdf in parsed_pdfs:
+            for f in (pdf, pdf.with_suffix(pdf.suffix + ".meta.json")):
+                if not f.exists():
+                    continue
+                dest = DONE / f.relative_to(REMAINING)
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                f.replace(dest)
+        # Skipped files are dealt with too -- leaving them in remaining/ means
+        # re-examining them on every run.
+        for pdf in skipped:
+            for f in (pdf, pdf.with_suffix(pdf.suffix + ".meta.json")):
+                if not f.exists():
+                    continue
+                dest = DONE / f.relative_to(REMAINING)
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                f.replace(dest)
+        for folder in sorted(REMAINING.rglob("*"), reverse=True):
+            if folder.is_dir() and not any(folder.iterdir()):
+                folder.rmdir()
+        note = f", {len(skipped)} skipped (solutions/Hindi)" if skipped else ""
+        print(f"  moved {len(parsed_pdfs)} PDFs to {DONE.relative_to(REPO)}{note}, "
+              f"{left} remaining")
     return 0
 
 
