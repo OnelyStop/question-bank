@@ -80,17 +80,33 @@ SUPERSCRIPT_MAP = str.maketrans("0123456789+-=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹
 
 
 def line_text(line: dict) -> str:
-    """A line's text, with superscript spans raised."""
+    """A line's text, with superscript spans raised.
+
+    The flag alone is not trusted: on stacked-fraction lines PyMuPDF marks the
+    WHOLE following run (" × 4 + ? = 35", full body size) as superscript, and
+    raising it garbled ~14 stems into "⁺ ? ⁼ ³⁵". A real exponent also prints
+    small -- measured 8pt against 11-12pt body -- so both signals are required,
+    plus a length cap: an exponent is a couple of characters, not a clause.
+    """
+    spans = line.get("spans") or []
+    body = max((s.get("size", 0) for s in spans), default=0)
     out = []
-    for span in line.get("spans") or []:
+    for span in spans:
         text = span.get("text", "")
-        if not text.strip() or not (span.get("flags", 0) & SUPERSCRIPT_FLAG):
+        is_sup = (text.strip()
+                  and span.get("flags", 0) & SUPERSCRIPT_FLAG
+                  and span.get("size", body) <= 0.85 * body)
+        if not is_sup:
             out.append(text)
             continue
+        # Short exponents become glyphs; anything longer becomes "^(...)"
+        # whole. A real expression exponent exists -- "(?)^(4×16÷32+1)" -- and
+        # translating it char-by-char would emit mixed garbage.
         raised = text.translate(SUPERSCRIPT_MAP)
-        # An exponent with no superscript glyph (a variable, more than one
-        # character) is written "^(...)" rather than silently flattened.
-        out.append(raised if raised != text else f"^({text.strip()})")
+        if len(text.strip()) <= 3 and raised != text:
+            out.append(raised)
+        else:
+            out.append(f"^({text.strip().strip('()')})")
     return "".join(out)
 
 
