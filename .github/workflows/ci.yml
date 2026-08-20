@@ -74,6 +74,12 @@ jobs:
           print(f"OK - {len(s['properties'])} fields, {len(s.get('required', []))} required")
           PY
 
+      - name: Parser regression cases
+        run: python3 tests/test_parser.py
+
+      - name: Committed questions carry no known defect
+        run: python3 pipeline/5-validate/check_questions.py
+
       - name: Step examples match the schema
         run: python3 pipeline/5-validate/check_examples.py
 

@@ -87,6 +87,8 @@ it's faster than waiting.
 | Lint | `ruff check --select F,E9 .` |
 | No file over 50 MB added | see `.github/workflows/ci.yml` |
 | `schema.json` is a valid schema | see `.github/workflows/ci.yml` |
+| Parser regressions stay fixed | `python3 tests/test_parser.py` |
+| Committed questions carry no known defect | `python3 pipeline/5-validate/check_questions.py` |
 | Step examples match the schema | `python3 pipeline/5-validate/check_examples.py` |
 | No secrets committed | `git grep -nIE 'service_role\|postgres://[^ ]*:[^ @]+@'` |
 | No links to missing files | see `.github/workflows/ci.yml` |
