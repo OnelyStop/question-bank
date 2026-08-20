@@ -1,0 +1,971 @@
+{
+  "source": "IBPS-2.pdf",
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "memory_based": true,
+  "question_count": 80,
+  "questions": [
+    {
+      "q_num": 1,
+      "stem": "‘Joy comes adventurous’ ?",
+      "options": {
+        "a": "vb rn sk",
+        "b": "ts kv rn",
+        "c": "vb ed rn",
+        "d": "ut rn vb",
+        "e": "os vb rn"
+      },
+      "direction_text": "“True wishes brings joy” “os ut yn kf” “Aim true adventurous path” “kf rn sk ed” “Strong aim brings courage” “ed ts yn kv” “Path wishes comes true” “kf sk vb os”"
+    },
+    {
+      "q_num": 2,
+      "stem": "दकस शब्ि को 'os sk' के रूप में कूटबद्ध दकया जाता है?",
+      "options": {
+        "a": "Aim wishes",
+        "b": "True wishes",
+        "c": "Aim true",
+        "d": "Strong Path",
+        "e": "Wishes Path"
+      },
+      "direction_text": "“True wishes brings joy” “os ut yn kf” “Aim true adventurous path” “kf rn sk ed” “Strong aim brings courage” “ed ts yn kv” “Path wishes comes true” “kf sk vb os”"
+    },
+    {
+      "q_num": 3,
+      "stem": "कौि-सा/से कथि निनित रूप से सही है/हैं?",
+      "options": {
+        "a": "Brings - ut",
+        "b": "Comes - vb",
+        "c": "Courage - kv",
+        "d": "Strong – ts",
+        "e": "None is correct"
+      },
+      "direction_text": "“True wishes brings joy” “os ut yn kf” “Aim true adventurous path” “kf rn sk ed” “Strong aim brings courage” “ed ts yn kv” “Path wishes comes true” “kf sk vb os”"
+    },
+    {
+      "q_num": 4,
+      "stem": "‘strong aim’ ?",
+      "options": {
+        "a": "kv ed",
+        "b": "sk kv",
+        "c": "ts ed",
+        "d": "vb kb",
+        "e": "“kv ed” “ts ed”"
+      },
+      "direction_text": "“True wishes brings joy” “os ut yn kf” “Aim true adventurous path” “kf rn sk ed” “Strong aim brings courage” “ed ts yn kv” “Path wishes comes true” “kf sk vb os”"
+    },
+    {
+      "q_num": 5,
+      "stem": "? I. Joy \"ut\" II. Adventurous \"rn\" III. True courage \"ts kf\"",
+      "options": {
+        "a": "II",
+        "b": "II III",
+        "c": "I III",
+        "d": "I",
+        "e": "I, II III"
+      },
+      "direction_text": "“True wishes brings joy” “os ut yn kf” “Aim true adventurous path” “kf rn sk ed” “Strong aim brings courage” “ed ts yn kv” “Path wishes comes true” “kf sk vb os”"
+    },
+    {
+      "q_num": 6,
+      "stem": "H के सापेक्ष F की नस्थनत क्या है?",
+      "options": {
+        "a": "बाएं से िूसरा",
+        "b": "बाएं से तीसरा",
+        "c": "ठीक िाएं",
+        "d": "िाएं से चौथा",
+        "e": "ठीक बाएं"
+      },
+      "direction_text": ": A, B, C, D, E, F, G, H I G, B G E H, E H A D, F F, C"
+    },
+    {
+      "q_num": 7,
+      "stem": "निम्ननिनित पााँच में से चार एक निनित तरीके से समाि हैं और एक समूह से संबंनित हैं। निम्ननिनित में से कौि समूह से संबंनित िहीं है?",
+      "options": {
+        "a": "B - F",
+        "b": "D - H",
+        "c": "I - C",
+        "d": "G - I",
+        "e": "A - E"
+      },
+      "direction_text": ": A, B, C, D, E, F, G, H I G, B G E H, E H A D, F F, C"
+    },
+    {
+      "q_num": 8,
+      "stem": "निम्ननिनित में से कौि उस व्यनि के बाएं से िूसरे स्थाि पर बैठा है जो D के िाएं से पांचर्ें स्थाि पर बैठा है?",
+      "options": {
+        "a": "G",
+        "b": "H",
+        "c": "I",
+        "d": "A",
+        "e": "E"
+      },
+      "direction_text": ": A, B, C, D, E, F, G, H I G, B G E H, E H A D, F F, C"
+    },
+    {
+      "q_num": 9,
+      "stem": "F के बाएं से नगििे पर F और A के बीच दकतिे व्यनि बैठे हैं?",
+      "options": {
+        "a": "पााँच",
+        "b": "िो",
+        "c": "चार",
+        "d": "तीि",
+        "e": "एक"
+      },
+      "direction_text": ": A, B, C, D, E, F, G, H I G, B G E H, E H A D, F F, C"
+    },
+    {
+      "q_num": 10,
+      "stem": "निम्ननिनित में से कौि E के ठीक बाएं बैठा है?",
+      "options": {
+        "a": "A",
+        "b": "I",
+        "c": "F",
+        "d": "C",
+        "e": "B"
+      },
+      "direction_text": ": A, B, C, D, E, F, G, H I G, B G E H, E H A D, F F, C"
+    },
+    {
+      "q_num": 11,
+      "stem": "कथि: केर्ि कुछ गैजेट गुड हैं कुछ मैिुअि मेमोरी हैं कोई मेमोरी गैजेट िहीं है निष्कर्व: I. सभी गुड के मैिुअि होिे की संभार्िा है II. कोई गैजेट मैिुअि िहीं है",
+      "options": {
+        "a": "I",
+        "b": "II",
+        "c": "I II",
+        "d": "I II",
+        "e": "I II"
+      },
+      "direction_text": "I II"
+    },
+    {
+      "q_num": 12,
+      "stem": "कथि: केर्ि स्टेनडयम एरीिा हैं कुछ मैच स्टेनडयम हैं सभी मैच स्पोटव हैं निष्कर्व: I. दकसी एरीिा के स्पोटव िहीं होिे की संभार्िा है II. कुछ एरीिा मैच िहीं हैं",
+      "options": {
+        "a": "I",
+        "b": "II",
+        "c": "I II",
+        "d": "I II",
+        "e": "I II"
+      },
+      "direction_text": "I II"
+    },
+    {
+      "q_num": 13,
+      "stem": "कथि: केर्ि कुछ शहर बाज़ार हैं सभी बाज़ार व्यापार हैं कुछ व्यापार शहरी िहीं हैं निष्कर्व: I. कुछ शहर व्यापार हैं II. सभी शहरी के व्यापार होिे की संभार्िा है",
+      "options": {
+        "a": "I",
+        "b": "II",
+        "c": "I II",
+        "d": "I II",
+        "e": "I II"
+      },
+      "direction_text": "I II"
+    },
+    {
+      "q_num": 14,
+      "stem": "कथि: केर्ि कुछ नबल्डंग टार्र हैं सभी फ्िोर नबल्डंग हैं कोई टार्र गाडवि िहीं है निष्कर्व: I. सभी फ्िोर गाडवि हैं II. कुछ फ्िोर गाडवि िहीं हैं",
+      "options": {
+        "a": "I",
+        "b": "II",
+        "c": "I II",
+        "d": "I II",
+        "e": "I II"
+      },
+      "direction_text": "I II"
+    },
+    {
+      "q_num": 15,
+      "stem": "E, F से दकस प्रकार संबंनित है?",
+      "options": {
+        "a": "अंकि",
+        "b": "भाई",
+        "c": "पुत्र",
+        "d": "िािा/िािा",
+        "e": "िामाि"
+      },
+      "direction_text": "A, B C, F G, H B, F - - H B D E"
+    },
+    {
+      "q_num": 16,
+      "stem": "S, G , S, H ?",
+      "options": {
+        "a": "बहि",
+        "b": "पुत्री",
+        "c": "भाई",
+        "d": "नसस्टर-इि-िॉ",
+        "e": "नििावररत िहीं दकया जा सकता"
+      },
+      "direction_text": "A, B C, F G, H B, F - - H B D E"
+    },
+    {
+      "q_num": 17,
+      "stem": "पररर्ार में दकतिी मनहिा सिस्य हैं?",
+      "options": {
+        "a": "छह",
+        "b": "चार",
+        "c": "तीि",
+        "d": "पांच",
+        "e": "नििावररत िहीं दकया जा सकता"
+      },
+      "direction_text": "A, B C, F G, H B, F - - H B D E"
+    },
+    {
+      "q_num": 18,
+      "stem": "“ERUPTION” , ( ) , , ?",
+      "options": {
+        "a": "एक",
+        "b": "तीि",
+        "c": "िो",
+        "d": "कोई िहीं",
+        "e": "चार"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 19,
+      "stem": "G की परीक्षा और F की परीक्षा के बीच दकतिे दििों का अंतर है?",
+      "options": {
+        "a": "एक",
+        "b": "िो",
+        "c": "कोई िहीं",
+        "d": "तीि",
+        "e": "चार"
+      },
+      "direction_text": ": A, B, C, D, E, F G - : , , , , , F F C C B , B B , A A D E"
+    },
+    {
+      "q_num": 20,
+      "stem": "निम्ननिनित में से कौि शुक्रर्ार को परीक्षा िेता है?",
+      "options": {
+        "a": "A",
+        "b": "D",
+        "c": "F",
+        "d": "G",
+        "e": "C"
+      },
+      "direction_text": ": A, B, C, D, E, F G - : , , , , , F F C C B , B B , A A D E"
+    },
+    {
+      "q_num": 21,
+      "stem": "यदि D गनर्त से संबंनित है, उसी प्रकार E ऑपरेशि से संबंनित है, तो G दकस नर्र्य से संबंनित है?",
+      "options": {
+        "a": "भौनतकी",
+        "b": "समाजशास्त्र",
+        "c": "उिूव",
+        "d": "इनतहास",
+        "e": "प्रानर् नर्ज्ञाि"
+      },
+      "direction_text": ": A, B, C, D, E, F G - : , , , , , F F C C B , B B , A A D E"
+    },
+    {
+      "q_num": 22,
+      "stem": "निम्ननिनित में से कौि भौनतकी की परीक्षा िेता है?",
+      "options": {
+        "a": "E",
+        "b": "B",
+        "c": "F",
+        "d": "र्ह व्यनि जो रनर्र्ार को परीक्षा िेता है",
+        "e": "इिमे से कोई िहीं"
+      },
+      "direction_text": ": A, B, C, D, E, F G - : , , , , , F F C C B , B B , A A D E"
+    },
+    {
+      "q_num": 23,
+      "stem": "निम्ननिनित में से कौि सा युग्म सही है?",
+      "options": {
+        "a": "– D",
+        "b": "– A –",
+        "c": "– C –",
+        "d": "– E –",
+        "e": "– G"
+      },
+      "direction_text": ": A, B, C, D, E, F G - : , , , , , F F C C B , B B , A A D E"
+    },
+    {
+      "q_num": 24,
+      "stem": "648319572’",
+      "options": {
+        "a": "15",
+        "b": "21",
+        "c": "14",
+        "d": "18",
+        "e": "24"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 25,
+      "stem": "\"NEAT\" \"VPGC\" \"CORN\" \"LEMT\" , \"SALT\" , ?",
+      "options": {
+        "a": "UGNZ",
+        "b": "CUNV",
+        "c": "CMOZ",
+        "d": "ZUGN",
+        "e": "इिमें से कोई िहीं"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 26,
+      "stem": "तीसरा सबसे ह्का व्यनि कौि है?",
+      "options": {
+        "a": "C",
+        "b": "A",
+        "c": "E",
+        "d": "D",
+        "e": "इिमें से कोई िहीं"
+      },
+      "direction_text": ": —A, B, C, D, E, F— - , 13 C, E A, F B, C A"
+    },
+    {
+      "q_num": 27,
+      "stem": "D 25 , C ?",
+      "options": {
+        "a": "28",
+        "b": "55",
+        "c": "36",
+        "d": "19",
+        "e": "27"
+      },
+      "direction_text": ": —A, B, C, D, E, F— - , 13 C, E A, F B, C A"
+    },
+    {
+      "q_num": 28,
+      "stem": "C से ठीक भारी कौि है?",
+      "options": {
+        "a": "D",
+        "b": "B",
+        "c": "E",
+        "d": "F",
+        "e": "इिमें से कोई िहीं"
+      },
+      "direction_text": ": —A, B, C, D, E, F— - , 13 C, E A, F B, C A"
+    },
+    {
+      "q_num": 29,
+      "stem": "C के संबंि में B की नस्थनत क्या है?",
+      "options": {
+        "a": "िाएं से िूसरा",
+        "b": "ठीक बाएं",
+        "c": "िाएं से चौथा",
+        "d": "बाएं से तीसरा",
+        "e": "िाएं से पााँचर्ां"
+      },
+      "direction_text": ": A, B, C, D, E, F, G H A, F B F - A B , A D H - G, D C C"
+    },
+    {
+      "q_num": 30,
+      "stem": "निम्ननिनित पााँच में से चार एक निनित तरीके से समाि हैं और एक समूह से संबंनित हैं। निम्ननिनित में से कौि समूह से संबंनित िहीं है?",
+      "options": {
+        "a": "A",
+        "b": "H",
+        "c": "E",
+        "d": "G",
+        "e": "D"
+      },
+      "direction_text": ": A, B, C, D, E, F, G H A, F B F - A B , A D H - G, D C C"
+    },
+    {
+      "q_num": 31,
+      "stem": "E के बाएं दकतिे व्यनि बैठे हैं?",
+      "options": {
+        "a": "कोई िहीं",
+        "b": "एक",
+        "c": "िो",
+        "d": "तीि से अनिक",
+        "e": "तीि"
+      },
+      "direction_text": ": A, B, C, D, E, F, G H A, F B F - A B , A D H - G, D C C"
+    },
+    {
+      "q_num": 32,
+      "stem": "? I. G II. A E C III. F H",
+      "options": {
+        "a": "I",
+        "b": "II",
+        "c": "III",
+        "d": "I II",
+        "e": "II III"
+      },
+      "direction_text": ": A, B, C, D, E, F, G H A, F B F - A B , A D H - G, D C C"
+    },
+    {
+      "q_num": 33,
+      "stem": "निम्ननिनित में से कौि E के ठीक बाएं बैठा है?",
+      "options": {
+        "a": "D",
+        "b": "B",
+        "c": "H",
+        "d": "A",
+        "e": "C"
+      },
+      "direction_text": ": A, B, C, D, E, F, G H A, F B F - A B , A D H - G, D C C"
+    },
+    {
+      "q_num": 34,
+      "stem": "‘MAGNITUDE’ ( ) ?",
+      "options": {
+        "a": "एक",
+        "b": "कोई िहीं",
+        "c": "चार से अनिक",
+        "d": "तीि",
+        "e": "िो"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 35,
+      "stem": "नर्र्म ज्ञात कीनजए।",
+      "options": {
+        "a": "MPS",
+        "b": "BDF",
+        "c": "TWZ",
+        "d": "RUX",
+        "e": "GJM"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 36,
+      "stem": "1985 ?",
+      "options": {
+        "a": "Q",
+        "b": "S",
+        "c": "P",
+        "d": "U",
+        "e": "V"
+      },
+      "direction_text": ": - P, Q, R, S, T, U, V W - : 1957, 1963, 1970, 1976, 1985, 1991, 2000 2010 , ( : 2025) V, P 9 P Q Q, S S W R, T U U"
+    },
+    {
+      "q_num": 37,
+      "stem": "W और R के बीच दकतिे व्यनियों का जन्म हुआ था?",
+      "options": {
+        "a": "एक",
+        "b": "िो",
+        "c": "तीि",
+        "d": "चार",
+        "e": "पााँच"
+      },
+      "direction_text": ": - P, Q, R, S, T, U, V W - : 1957, 1963, 1970, 1976, 1985, 1991, 2000 2010 , ( : 2025) V, P 9 P Q Q, S S W R, T U U"
+    },
+    {
+      "q_num": 38,
+      "stem": "Q और T की आयु में क्या दकतिा है?",
+      "options": {
+        "a": "23",
+        "b": "32",
+        "c": "11",
+        "d": "34",
+        "e": "9"
+      },
+      "direction_text": ": - P, Q, R, S, T, U, V W - : 1957, 1963, 1970, 1976, 1985, 1991, 2000 2010 , ( : 2025) V, P 9 P Q Q, S S W R, T U U"
+    },
+    {
+      "q_num": 39,
+      "stem": "इिमें से सबसे सबसे बडा व्यनि कौि है?",
+      "options": {
+        "a": "V",
+        "b": "Q",
+        "c": "P",
+        "d": "S",
+        "e": "W"
+      },
+      "direction_text": ": - P, Q, R, S, T, U, V W - : 1957, 1963, 1970, 1976, 1985, 1991, 2000 2010 , ( : 2025) V, P 9 P Q Q, S S W R, T U U"
+    },
+    {
+      "q_num": 40,
+      "stem": "T की आयु क्या है?",
+      "options": {
+        "a": "25",
+        "b": "15",
+        "c": "62",
+        "d": "34",
+        "e": "55"
+      },
+      "direction_text": ": - P, Q, R, S, T, U, V W - : 1957, 1963, 1970, 1976, 1985, 1991, 2000 2010 , ( : 2025) V, P 9 P Q Q, S S W R, T U U"
+    },
+    {
+      "q_num": 41,
+      "stem": "F , , A 20% , 20% F E",
+      "options": {
+        "a": "56",
+        "b": "48",
+        "c": "29",
+        "d": "40",
+        "e": "57"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 42,
+      "stem": "D और B में पुरुर्ों की औसत संख्या ज्ञात कीनजए।",
+      "options": {
+        "a": "39",
+        "b": "38",
+        "c": "35",
+        "d": "40",
+        "e": "37"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 43,
+      "stem": "D - 2:3 D 25 D , D - ?",
+      "options": {
+        "a": "11.11",
+        "b": "22.22",
+        "c": "33.33",
+        "d": "44.44",
+        "e": "55.55"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 44,
+      "stem": "A में कुि कमवचाररयों का एकसाथ B और D में कुि पुरुर्ों से अिुपात ज्ञात कीनजए।",
+      "options": {
+        "a": "5:6",
+        "b": "4:9",
+        "c": "10:13",
+        "d": "14:13",
+        "e": "5:7"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 45,
+      "stem": "सभी कंपनियों में कुि पुरुर्ों और मनहिाओं के बीच अंतर ज्ञात कीनजए।",
+      "options": {
+        "a": "102",
+        "b": "108",
+        "c": "109",
+        "d": "106",
+        "e": "100"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 46,
+      "stem": "C 1:1 25 C",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5"
+      },
+      "direction_text": ": A 7:5 25 B 3:4 64 C 6:11 88 D 3:7 70 E 9:13 65"
+    },
+    {
+      "q_num": 47,
+      "stem": "A , B C ( + )",
+      "options": {
+        "a": "200",
+        "b": "100",
+        "c": "135",
+        "d": "140",
+        "e": "150"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 48,
+      "stem": "A में (कपबोडव और डैशबोडव) का एकसाथ B और C में डैशबोडव से अिुपात ज्ञात कीनजए।",
+      "options": {
+        "a": "6:5",
+        "b": "13:15",
+        "c": "3:5",
+        "d": "14:15",
+        "e": "15:16"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 49,
+      "stem": "सभी िुकािों में कपबोडव की संख्या, A और B में नमिाकर डैशबोडव की संख्या से दकतिी ज़्यािा है?",
+      "options": {
+        "a": "60",
+        "b": "30",
+        "c": "25",
+        "d": "40",
+        "e": "50"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 50,
+      "stem": "A 20% B 45 , B A",
+      "options": {
+        "a": "260",
+        "b": "230",
+        "c": "245",
+        "d": "240",
+        "e": "235"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 51,
+      "stem": "C 3:2 , C , B / ?",
+      "options": {
+        "a": "60",
+        "b": "50",
+        "c": "55",
+        "d": "75",
+        "e": "100"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 52,
+      "stem": "ज्ञात कीनजए दक B में कपबोडव D में डैशबोडव का दकतिा प्रनतशत है?",
+      "options": {
+        "a": "60",
+        "b": "30",
+        "c": "35",
+        "d": "40",
+        "e": "50"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 53,
+      "stem": "40 X 10 18 7: 9 , ( )",
+      "options": {
+        "a": "18",
+        "b": "12",
+        "c": "20",
+        "d": "14",
+        "e": "15"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 54,
+      "stem": "A 33 \\frac{𝟏}{𝟑}% 𝟏𝟒 \\frac{𝟐}{𝟕}% 9000 , A ( )",
+      "options": {
+        "a": "21000",
+        "b": "72000",
+        "c": "18000",
+        "d": "81000",
+        "e": "66000"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 55,
+      "stem": "12 'y' 72 𝒚 𝟏𝟔 y - 24",
+      "options": {
+        "a": "10",
+        "b": "4",
+        "c": "12",
+        "d": "8",
+        "e": "6"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 56,
+      "stem": "80% 30% 20% , 108",
+      "options": {
+        "a": "900",
+        "b": "700",
+        "c": "800",
+        "d": "500",
+        "e": "600"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 57,
+      "stem": "A B 9:7 C , A \\frac{𝟏𝟎𝟎}{𝟗}% A, B C 22 8 , C",
+      "options": {
+        "a": "8",
+        "b": "1",
+        "c": "7",
+        "d": "4",
+        "e": "5"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 58,
+      "stem": "24% , X 3600 X , 10%",
+      "options": {
+        "a": "7200",
+        "b": "7400",
+        "c": "7700",
+        "d": "6050",
+        "e": "7550"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 59,
+      "stem": "P Q P, \\frac{3}{8} Q, \\frac{2}{5} , Q , P ?",
+      "options": {
+        "a": "90.25%",
+        "b": "94.50%",
+        "c": "92.75%",
+        "d": "98.50%",
+        "e": "93.75%"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 60,
+      "stem": "A B 25% , C A 20% A, B C 12 , B ?",
+      "options": {
+        "a": "40",
+        "b": "45",
+        "c": "35",
+        "d": "30",
+        "e": "50"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 61,
+      "stem": "A, B C A B 4:5 C, B 5 A, B C 89 , C",
+      "options": {
+        "a": "30",
+        "b": "24",
+        "c": "35",
+        "d": "36",
+        "e": "40"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 62,
+      "stem": "40 , 60 2 / , ( / )",
+      "options": {
+        "a": "8",
+        "b": "10",
+        "c": "12",
+        "d": "14",
+        "e": "18"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 63,
+      "stem": "A B 5200 8000 , A 800 B 33.33% A B",
+      "options": {
+        "a": "132:137",
+        "b": "135:139",
+        "c": "133:140",
+        "d": "131:140",
+        "e": "129:140"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 64,
+      "stem": "A 15 B 72 A 570 B 26 / B ( )",
+      "options": {
+        "a": "294",
+        "b": "280",
+        "c": "288",
+        "d": "274",
+        "e": "262"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 65,
+      "stem": "58 3 ( ² )",
+      "options": {
+        "a": "210",
+        "b": "208",
+        "c": "224",
+        "d": "215",
+        "e": "228"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 66,
+      "stem": "8 , 17.5, 35, 105, 420, 2100, 12600",
+      "options": {
+        "a": "17.5",
+        "b": "8",
+        "c": "105",
+        "d": "420",
+        "e": "2100"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 67,
+      "stem": "201, 205, 214, 230, 255, 290, 340",
+      "options": {
+        "a": "201",
+        "b": "290",
+        "c": "214",
+        "d": "230",
+        "e": "255"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 68,
+      "stem": "24, 13, 14, 22, 45, 113, 341.5",
+      "options": {
+        "a": "45",
+        "b": "14",
+        "c": "13",
+        "d": "24",
+        "e": "113"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 69,
+      "stem": "117, 136, 159, 188, 219, 256, 296",
+      "options": {
+        "a": "256",
+        "b": "219",
+        "c": "296",
+        "d": "117",
+        "e": "136"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 70,
+      "stem": "28.5, 30, 63, 191, 766, 3832, 22994",
+      "options": {
+        "a": "30",
+        "b": "28.5",
+        "c": "63",
+        "d": "191",
+        "e": "766"
+      },
+      "direction_text": ""
+    },
+    {
+      "q_num": 71,
+      "stem": "I. 3x2 – x – 4 = 0 II. 3y2 + 16y + 13 = 0",
+      "options": {
+        "a": "x >y",
+        "b": "x \\geq y",
+        "c": "x <y",
+        "d": "x \\leq y",
+        "e": "x = y x y"
+      },
+      "direction_text": "(a) x >y (b) x ≥y (c) x <y (d) x ≤y (e) x = y x y"
+    },
+    {
+      "q_num": 72,
+      "stem": "I. 2x2 - x -45 = 0 II. 3y2 + 16𝑦 + 21 = 0",
+      "options": {
+        "a": "x >y",
+        "b": "x \\geq y",
+        "c": "x <y",
+        "d": "x \\leq y",
+        "e": "x = y x y"
+      },
+      "direction_text": "(a) x >y (b) x ≥y (c) x <y (d) x ≤y (e) x = y x y"
+    },
+    {
+      "q_num": 73,
+      "stem": "I. 2x2 + 20𝑥 + 32 = 0 II. 3y2 + 7y + 4 = 0",
+      "options": {
+        "a": "x >y",
+        "b": "x \\geq y",
+        "c": "x <y",
+        "d": "x \\leq y",
+        "e": "x = y x y"
+      },
+      "direction_text": "(a) x >y (b) x ≥y (c) x <y (d) x ≤y (e) x = y x y"
+    },
+    {
+      "q_num": 74,
+      "stem": "I. 2x2 - 28x + 90 = 0 II. 3y2 + 8𝑦 + 4 = 0",
+      "options": {
+        "a": "x >y",
+        "b": "x \\geq y",
+        "c": "x <y",
+        "d": "x \\leq y",
+        "e": "x = y x y"
+      },
+      "direction_text": "(a) x >y (b) x ≥y (c) x <y (d) x ≤y (e) x = y x y"
+    },
+    {
+      "q_num": 75,
+      "stem": "I. x2 + 31x + 108 = 0 II. y2 – 21y + 98 = 0",
+      "options": {
+        "a": "x >y",
+        "b": "x \\geq y",
+        "c": "x <y",
+        "d": "x \\leq y",
+        "e": "x = y x y"
+      },
+      "direction_text": "(a) x >y (b) x ≥y (c) x <y (d) x ≤y (e) x = y x y"
+    },
+    {
+      "q_num": 76,
+      "stem": "399 129% + \\sqrt{1150} \\frac{9}{17} = ?",
+      "options": {
+        "a": "538",
+        "b": "545",
+        "c": "529",
+        "d": "516",
+        "e": "588"
+      },
+      "direction_text": "(?) - ? ( )"
+    },
+    {
+      "q_num": 77,
+      "stem": "(501 + 98) \\div 8 = ? \\times \\sqrt{122} 3",
+      "options": {
+        "a": "30",
+        "b": "25",
+        "c": "20",
+        "d": "15",
+        "e": "5"
+      },
+      "direction_text": "(?) - ? ( )"
+    },
+    {
+      "q_num": 78,
+      "stem": "(309 \\times 89) \\div 31 + 59 = ?2",
+      "options": {
+        "a": "19",
+        "b": "33",
+        "c": "25",
+        "d": "23",
+        "e": "31"
+      },
+      "direction_text": "(?) - ? ( )"
+    },
+    {
+      "q_num": 79,
+      "stem": "122 + 8 + 90 59% = 40 ? % + 5",
+      "options": {
+        "a": "500",
+        "b": "450",
+        "c": "598",
+        "d": "657",
+        "e": "980"
+      },
+      "direction_text": "(?) - ? ( )"
+    },
+    {
+      "q_num": 80,
+      "stem": "\\sqrt{670} −20 \\frac{5}{7} + (24 −5) = √?",
+      "options": {
+        "a": "961",
+        "b": "900",
+        "c": "676",
+        "d": "625",
+        "e": "729"
+      },
+      "direction_text": "(?) - ? ( )"
+    }
+  ]
+}

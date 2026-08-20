@@ -57,7 +57,12 @@ class Question:
         # active direction (see layout_parse.py) -- a standalone question that
         # needs one is flagged here with no file behind it, same as the
         # existing direction case; nothing here builds a new crop path.
-        wants_figure = needs_figure_stimulus(self.direction_text, self.stem, self.options)
+        # A crop that actually exists outranks the wording test: the regex can
+        # only guess from prose, while an exported file is proof there was a
+        # figure on the page.
+        wants_figure = bool(direction_image_refs) or needs_figure_stimulus(
+            self.direction_text, self.stem, self.options
+        )
 
         return {
             "q_id": self.q_id,

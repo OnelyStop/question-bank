@@ -1,0 +1,191 @@
+#!/usr/bin/env python3
+"""Report which of step 1's 17 fields are still empty, and who can fill them.
+
+Scope is step 1's own output contract (pipeline/1-extract/output.json). `answer`
+is not checked here -- it belongs to nobody until step 4.
+
+  parser    a question the parse damaged: options dropped, stem cut, stem never
+            found. The text is in the PDF, so a code fix repairs every paper
+            with the same defect at once.
+  research  which exam the paper is -- bank, role, year, stage, shift. Not in
+            the PDF or its filename, so a web search is the only source.
+            Findings go in the .meta.json sidecar, which load_meta() prefers.
+
+Either may be filled from the web, but only with an anchor: enough of the
+question left to confirm the match. A stem cut mid-sentence still has its
+options to match on; a stem that is only "Question 66." does not.
+
+    python3 pipeline/1-extract/check_gaps.py
+    python3 pipeline/1-extract/check_gaps.py --fail-on-parser
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[2]
+DEFAULT_ROOT = REPO / "data" / "papers"
+SKIP = {"parse_report.json", "index.jsonl", "gap_report.json", "review_queue.json"}
+
+# A trailing comma is deliberately NOT a signal: para-jumble stems end on a
+# fragment ("(E) on agri-business scenarios,") and flagging those buried the
+# real truncations under false positives.
+TRUNCATED_RE = re.compile(r"[(\[{+\-×÷=∶/]\s*$")
+PLACEHOLDER_RE = re.compile(r"^(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*$", re.IGNORECASE)
+
+# The paper-identity fields step 1 must fill, all copied onto every question.
+META_FIELDS = ("bank", "role", "year", "exam_type", "shift")
+PARSER_CLASS = {"no_options", "empty_stem", "placeholder_stem",
+                "truncated_stem", "duplicate_q_num"}
+MIN_ANCHOR_CHARS = 25
+
+
+def rel(path: Path) -> str:
+    """Repo-relative inside the repo, absolute when run against a temp dir."""
+    try:
+        return str(path.relative_to(REPO))
+    except ValueError:
+        return str(path)
+
+
+def is_anchored(q: dict) -> bool:
+    """Enough of the question survived to confirm a web result is the right one.
+
+    Two independent handles are needed, because either alone matches too much:
+    a distinctive run of stem text, and the option set.
+    """
+    stem = (q.get("stem") or "").strip()
+    return (len(stem) >= MIN_ANCHOR_CHARS
+            and not PLACEHOLDER_RE.match(stem)
+            and len(q.get("options") or {}) >= 2)
+
+
+def question_gaps(q: dict) -> list[str]:
+    found = []
+    stem = (q.get("stem") or "").strip()
+    if not q.get("options"):
+        found.append("no_options")
+    if not stem:
+        found.append("empty_stem")
+    elif PLACEHOLDER_RE.match(stem):
+        found.append("placeholder_stem")
+    elif TRUNCATED_RE.search(stem) or stem.count("(") > stem.count(")"):
+        found.append("truncated_stem")
+    return found
+
+
+def paper_gaps(paper: dict) -> list[str]:
+    found = [f"no_{f}" for f in META_FIELDS if not paper.get(f)]
+
+    # Prelims runs four shifts a day, so a missing one is a real unknown worth
+    # researching. Mains is a single session -- there is no shift to find, and
+    # reporting it sends someone searching for something that does not exist.
+    # High volume can split a Mains into two (SBI Clerk Mains 2021 did), so a
+    # shift IS recorded when the paper states one; this only stops the absence
+    # being called a gap.
+    if paper.get("exam_type") == "Mains" and "no_shift" in found:
+        found.remove("no_shift")
+
+    nums = [q.get("q_num") for q in paper.get("questions") or []]
+    if len(nums) != len(set(nums)):
+        found.append("duplicate_q_num")
+    return found
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--root", type=Path, default=DEFAULT_ROOT)
+    ap.add_argument("--fail-on-parser", action="store_true",
+                    help="exit 1 if any parser-class gap remains")
+    args = ap.parse_args(argv)
+
+    tally: Counter[str] = Counter()
+    anchoring: Counter[str] = Counter()
+    papers: list[dict] = []
+    total_q = total_papers = 0
+
+    for path in sorted(args.root.rglob("*.json")):
+        if path.name in SKIP:
+            continue
+        try:
+            paper = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"  skip {path.name}: {exc}", file=sys.stderr)
+            continue
+        qs = paper.get("questions") or []
+        if not qs:
+            continue
+        total_papers += 1
+        total_q += len(qs)
+
+        per_q: dict[str, list[int]] = {}
+        unanchored: list[int] = []
+        for q in qs:
+            gaps = question_gaps(q)
+            if not gaps:
+                continue
+            for gap in gaps:
+                per_q.setdefault(gap, []).append(q.get("q_num"))
+                tally[gap] += 1
+            if is_anchored(q):
+                anchoring["anchored"] += 1
+            else:
+                unanchored.append(q.get("q_num"))
+                anchoring["unanchored"] += 1
+
+        meta = paper_gaps(paper)
+        for gap in meta:
+            tally[gap] += 1
+        if per_q or meta:
+            papers.append({
+                "paper_id": paper.get("paper_id"),
+                "path": rel(path),
+                "source_pdf": (paper.get("source") or {}).get("pdf_path"),
+                "paper_gaps": meta,
+                "question_gaps": {k: sorted(v) for k, v in per_q.items()},
+                "unanchored_q_nums": sorted(unanchored),
+            })
+
+    parser_total = sum(n for gap, n in tally.items() if gap in PARSER_CLASS)
+    research_total = sum(n for gap, n in tally.items() if gap not in PARSER_CLASS)
+
+    report = {
+        "papers_scanned": total_papers,
+        "questions_scanned": total_q,
+        "totals": dict(tally.most_common()),
+        "parser_gaps": parser_total,
+        "research_gaps": research_total,
+        "web_fillable": anchoring["anchored"],
+        "needs_parser_fix": anchoring["unanchored"],
+        "papers": papers,
+    }
+    out = args.root / "gap_report.json"
+    out.write_text(json.dumps(report, indent=2), encoding="utf-8")
+
+    print(f"  {total_q} questions in {total_papers} papers\n")
+    print(f"  parser gaps    {parser_total:6d}   in the PDF, parsed wrong")
+    for gap in sorted(PARSER_CLASS):
+        if tally[gap]:
+            print(f"      {gap:20} {tally[gap]:6d}")
+    print(f"\n  research gaps  {research_total:6d}   not in the PDF -- web search")
+    for gap, n in sorted(tally.items()):
+        if gap not in PARSER_CLASS:
+            print(f"      {gap:20} {n:6d}")
+    print("\n  of the damaged questions:")
+    print(f"      {anchoring['anchored']:6d} anchored     enough left to match a web result against")
+    print(f"      {anchoring['unanchored']:6d} unanchored   nothing to match on -- fix the parser")
+    print(f"\n  wrote {rel(out)}")
+
+    if args.fail_on_parser and parser_total:
+        print(f"\n::error::{parser_total} parser-class gaps remain", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -2,7 +2,7 @@
 
 Keep one copy of each question, then write the export.
 
-**Reads** `corpus/papers/` · **Writes** `data/questions.jsonl.gz`
+**Reads** `data/papers/` · **Writes** `data/questions.jsonl.gz`
 
 Nothing here is written yet. Many overlapping folders will land in `corpus/` —
 memory-based papers repeat questions, and the same paper arrives from several

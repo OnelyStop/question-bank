@@ -69,20 +69,37 @@ rewrite.
 
 ### 1. `1-extract/` — PDFs to questions
 
-**In** the source PDFs · **Out** `corpus/papers/{bank}/{role}/{year}/{stage}/{paper_id}.json`
+**In** the source PDFs · **Out** `data/papers/{bank}/{role}/{year}/{stage}/{shift}/{paper_id}.json`
 
-- Read each PDF page as a layout stream, not flat text — column order and
-  option alignment both come from geometry.
-- OCR only the pages where the text layer is missing or garbage.
+Four commands, in order — [details](pipeline/1-extract/README.md):
+
+```bash
+python3 pipeline/1-extract/pdf_to_questions.py   # PDFs -> paper JSON
+python3 pipeline/1-extract/render_paper.py       # JSON -> a PDF you can read
+python3 pipeline/1-extract/check_gaps.py         # what is still missing
+#                                                  then research those gaps
+```
+
+- Read each page as a layout stream, not flat text — column order and option
+  alignment both come from geometry, and the gutter must be found from **text
+  blocks only** or a centred watermark hides it.
 - Detect direction blocks ("Directions (11–15): …") and attach every question in
   the range to one `direction_id`.
-- Parse options into `{a: …, b: …}`, keyed not indexed.
+- Parse options into `{a: …, b: …}`, keyed not indexed — including
+  error-spotting, where the options are the sentence's own `(a)/ (b)/` segments.
 - Flag figures: set `has_image`, and crop the chart to a file that
-  `image_refs` / `direction_image_refs` can point at. **This is the part that
-  was never done** — 986 questions are flagged with no file.
-- Derive `bank`, `role`, `year`, `stage`, `shift` from the path and filename.
-- Write `parse_report.json`: per-PDF status, question counts, what it couldn't
-  read.
+  `image_refs` / `direction_image_refs` can point at.
+- Derive `bank`, `role`, `year`, `stage`, `shift` from the path, then from the
+  title line the PDF prints on page 1.
+- Write `parse_report.json` and `gap_report.json`.
+
+`check_gaps.py` splits what's left into **parser** gaps (missing options, cut
+stems — the text is in the PDF, so fix the code) and **research** gaps (which
+exam it is, the answer key — not in the PDF, so search the web and write the
+answer into that PDF's `.meta.json` sidecar). Filling a parser gap from the web
+invents question content; don't.
+
+No OCR yet — a page with no text layer is skipped silently.
 
 Needs `pip install pymupdf`. The 375 source PDFs are in `corpus/pdf/`, so this
 step can run.
@@ -91,7 +108,7 @@ step can run.
 
 ### 2. `2-classify/` — label what each question is
 
-**In** `corpus/papers/` (once step 1 has written it) · **Out** the same JSON, with
+**In** `data/papers/` (once step 1 has written it) · **Out** the same JSON, with
 labels added
 
 - **Strip the Hindi.** 1,350 questions across 35 papers carry the Devanagari

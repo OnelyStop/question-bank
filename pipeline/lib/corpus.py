@@ -152,12 +152,45 @@ def meta_from_path(pdf_path: Path, corpus: Path) -> dict[str, Any]:
     return out
 
 
-def clean_lines(text: str) -> str:
+DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+
+
+def strip_devanagari(text: str | None) -> str | None:
+    """Cut the Hindi translation these papers append to the English.
+
+    Bilingual papers print the English question, then the same question in
+    Devanagari, in one block -- "…difference between present age of A & B?
+    यदि A और B की…" -- and options as "14 years 14 वर्त". The English never
+    resumes afterwards, checked across the bilingual papers here, so cutting at
+    the first Devanagari character is enough.
+
+    A Hindi-first paper would be left almost empty by this; that is the right
+    outcome for an English-only bank, and check_gaps reports the empty stems.
+    """
+    if not text:
+        return text
+    m = DEVANAGARI_RE.search(text)
+    if not m:
+        return text
+    return text[: m.start()].strip(" \t\n-/|,;")
+
+
+def clean_lines(text: str, drop_bare_numbers: bool = True) -> str:
+    """Strip coaching-house boilerplate lines.
+
+    Pass `drop_bare_numbers=False` when working from page geometry. A stacked
+    fraction prints its numerator on a line of its own, and the page-number rule
+    ate it: "33 1/3 %" came out as "33 3 %" -- a wrong option that looks real.
+    Those callers drop page numbers by header/footer band instead.
+    """
     kept: list[str] = []
     for raw in text.splitlines():
         line = raw.strip()
         if not line:
             kept.append("")
+            continue
+        if not drop_bare_numbers and line.isdigit():
+            kept.append(line)
             continue
         if NOISE_LINE_RE.match(line):
             continue

@@ -1,0 +1,971 @@
+{
+  "source": "IBPS-5.pdf",
+  "bank": "IBPS",
+  "role": "RRB",
+  "exam_type": "Prelims",
+  "year": 2025,
+  "memory_based": true,
+  "question_count": 80,
+  "questions": [
+    {
+      "q_num": 1,
+      "stem": "What is the position of C with respect to F?",
+      "options": {
+        "a": "Fourth to the left",
+        "b": "Second to the left",
+        "c": "Third to the left",
+        "d": "Immediate right",
+        "e": "Third to the right"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H."
+    },
+    {
+      "q_num": 2,
+      "stem": "How many persons sit between E and H (when counted from the right of H)?",
+      "options": {
+        "a": "Three",
+        "b": "None",
+        "c": "Two",
+        "d": "Four",
+        "e": "One"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H."
+    },
+    {
+      "q_num": 3,
+      "stem": "Who among the following sits immediate left of G?",
+      "options": {
+        "a": "A",
+        "b": "F",
+        "c": "B",
+        "d": "H",
+        "e": "C"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H."
+    },
+    {
+      "q_num": 4,
+      "stem": "Four of the following five are similar in a certain manner and form a group, who among the following is not related to the group?",
+      "options": {
+        "a": "E",
+        "b": "B",
+        "c": "G",
+        "d": "D",
+        "e": "F"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H."
+    },
+    {
+      "q_num": 5,
+      "stem": "If all the persons are asked to sit in alphabetical order, starting from A, in clockwise direction, then how many persons will remain same on their position (excluding A)?",
+      "options": {
+        "a": "Two",
+        "b": "None",
+        "c": "Three",
+        "d": "One",
+        "e": "Four"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Eight persons A, B, C, D, E, F, G and H sit around a square table but not in same order as given. Four persons sit at corner of the table facing inside and three sits at the middle of each side facing outside. Two persons sit between A and B. B faces inside. F sits immediate right of A. D sits adjacent to F and G. C sits second to the right of H."
+    },
+    {
+      "q_num": 6,
+      "stem": "What is the code for ‘sell’?",
+      "options": {
+        "a": "tx",
+        "b": "kl",
+        "c": "ab",
+        "d": "zu",
+        "e": "ne"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’"
+    },
+    {
+      "q_num": 7,
+      "stem": "What will be the code for ‘fruits supply’?",
+      "options": {
+        "a": "mw ab",
+        "b": "ds tx",
+        "c": "mw rt",
+        "d": "jy rt",
+        "e": "ne tx"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’"
+    },
+    {
+      "q_num": 8,
+      "stem": "Which of the following word is coded as ‘kl’?",
+      "options": {
+        "a": "Sell",
+        "b": "Today",
+        "c": "Farmers",
+        "d": "Apple",
+        "e": "Can’t be determined"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’"
+    },
+    {
+      "q_num": 9,
+      "stem": "If ‘sweet corn’ is coded as ‘jy hm’, then what will be the code for ‘Taste’?",
+      "options": {
+        "a": "st",
+        "b": "mw",
+        "c": "ds",
+        "d": "ab",
+        "e": "Can’t be determined"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’"
+    },
+    {
+      "q_num": 10,
+      "stem": "What may be the code for ‘mango juice today’?",
+      "options": {
+        "a": "ds jy ne",
+        "b": "ds op ne",
+        "c": "rt op ne",
+        "d": "ds op pq",
+        "e": "mw tx ab"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: In a certain code language: “Apple farmers supply fruits” is coded as ‘kl zu rt mw’ “Fresh mango supply today” is coded as ‘rt ds pq ne’ “Farmers sell apple today” is coded as ‘zu kl ne tx’ “Mango fruits taste sweet” is coded as ‘ds mw jy ab’"
+    },
+    {
+      "q_num": 11,
+      "stem": "Statements: K > R \\geq T = W < J \\leq B = F Conclusions: I. R < J II. T \\geq F",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement. (a) If only conclusion I is true (b) If only conclusion II is true (c) If either conclusion I or II is true (d) If both conclusion I and II are true (e) If neither conclusion I nor II is true"
+    },
+    {
+      "q_num": 12,
+      "stem": "Statements: Z \\geq K < P = V \\leq R \\leq T < Y Conclusions: I. K < Y II. Z > R",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement. (a) If only conclusion I is true (b) If only conclusion II is true (c) If either conclusion I or II is true (d) If both conclusion I and II are true (e) If neither conclusion I nor II is true"
+    },
+    {
+      "q_num": 13,
+      "stem": "Statements: H = X \\leq L \\leq D < U = S < N Conclusions: I. L < N II. D \\geq H",
+      "options": {
+        "a": "If only conclusion I is true",
+        "b": "If only conclusion II is true",
+        "c": "If either conclusion I or II is true",
+        "d": "If both conclusion I and II are true",
+        "e": "If neither conclusion I nor II is true"
+      },
+      "direction_text": "In the question below, relation between some elements is shown in the statements, followed by two conclusions. Read it carefully and choose which conclusion is true as per the statement. (a) If only conclusion I is true (b) If only conclusion II is true (c) If either conclusion I or II is true (d) If both conclusion I and II are true (e) If neither conclusion I nor II is true"
+    },
+    {
+      "q_num": 14,
+      "stem": "How many pairs of letters are in the word ‘MISTAKE’, each of which have as many letters between them as they have between them according to English alphabetical order? (both forward and backward direction)",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "None"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 15,
+      "stem": "Which box is placed third from the topmost position?",
+      "options": {
+        "a": "Box F",
+        "b": "Box C",
+        "c": "Box D",
+        "d": "Box E",
+        "e": "Box A"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F."
+    },
+    {
+      "q_num": 16,
+      "stem": "How many boxes are placed below box D?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four",
+        "e": "Five"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F."
+    },
+    {
+      "q_num": 17,
+      "stem": "If all the boxes are rearranged in alphabetical order from bottom to top, then how many boxes will remain same at their position?",
+      "options": {
+        "a": "One",
+        "b": "Four",
+        "c": "Three",
+        "d": "Two",
+        "e": "None"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F."
+    },
+    {
+      "q_num": 18,
+      "stem": "If box C is related to box G, in the similar way box F is related to box E, then which box is related to box B?",
+      "options": {
+        "a": "Box C",
+        "b": "Box D",
+        "c": "Box A",
+        "d": "Box F",
+        "e": "Box E"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F."
+    },
+    {
+      "q_num": 19,
+      "stem": "Which box is placed immediately below box E?",
+      "options": {
+        "a": "Box A",
+        "b": "Box G",
+        "c": "Box B",
+        "d": "Box D",
+        "e": "Box F"
+      },
+      "direction_text": "Read the given information carefully and answer the related question: Seven boxes A, B, C, D, E, F and G are placed one above the other in a stack, but not in same order as given. Four boxes are placed between box G and box B. Box D is placed two boxes above box B. Box A is placed immediately below box D. Box C is placed two boxes above box F."
+    },
+    {
+      "q_num": 20,
+      "stem": "Find the odd one out.",
+      "options": {
+        "a": "PSV",
+        "b": "EHK",
+        "c": "ILN",
+        "d": "MPS",
+        "e": "RUX"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 21,
+      "stem": "Four of the following five are alike in a certain way and thus form a group. Find the one pair of points which does NOT belong to the group?",
+      "options": {
+        "a": "K-O",
+        "b": "B-S",
+        "c": "D-C",
+        "d": "K-H",
+        "e": "D-O"
+      },
+      "direction_text": "Study the following information carefully and answer the questions given below: Point K is 11m north of point B, which is 12m east of point O. Point C is 13m south of point B. Point H is 24m south of point D. Point C is 11m west of point H and 5m east of point S. Point D is 2m east of Point A."
+    },
+    {
+      "q_num": 22,
+      "stem": "In which direction is point K with respect to point A?",
+      "options": {
+        "a": "North-west",
+        "b": "South-east",
+        "c": "West",
+        "d": "North-east",
+        "e": "East"
+      },
+      "direction_text": "Study the following information carefully and answer the questions given below: Point K is 11m north of point B, which is 12m east of point O. Point C is 13m south of point B. Point H is 24m south of point D. Point C is 11m west of point H and 5m east of point S. Point D is 2m east of Point A."
+    },
+    {
+      "q_num": 23,
+      "stem": "Statements: Some play are games Only a few games are indoor Conclusions: I. Some games are not indoor II. All play is indoor",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows. (a) Only conclusion I follows (b) Only conclusion II follows (c) Either conclusion I or II follows (d) Neither conclusion I nor II follows (e) Both conclusions I and II follow"
+    },
+    {
+      "q_num": 24,
+      "stem": "Statements: All apple are fruits Some fruits are not banana Conclusions: I. Some banana is definitely not apples II. No fruits are banana",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows. (a) Only conclusion I follows (b) Only conclusion II follows (c) Either conclusion I or II follows (d) Neither conclusion I nor II follows (e) Both conclusions I and II follow"
+    },
+    {
+      "q_num": 25,
+      "stem": "Statements: No pattern is visual Only a few cluster is visual Conclusions: I. Some pattern is cluster II. No pattern is cluster",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows. (a) Only conclusion I follows (b) Only conclusion II follows (c) Either conclusion I or II follows (d) Neither conclusion I nor II follows (e) Both conclusions I and II follow"
+    },
+    {
+      "q_num": 26,
+      "stem": "Statements: Only a few river is blue Some blue is ocean No ocean is pond Conclusions: I. Some blue is not pond II. No river being pond is a possibility",
+      "options": {
+        "a": "Only conclusion I follows",
+        "b": "Only conclusion II follows",
+        "c": "Either conclusion I or II follows",
+        "d": "Neither conclusion I nor II follows",
+        "e": "Both conclusions I and II follow"
+      },
+      "direction_text": "In each question below, some statements are given followed by two conclusions numbered I and II. Assume the statements are true even if they contradict commonly known facts. Decide which conclusion logically follows. (a) Only conclusion I follows (b) Only conclusion II follows (c) Either conclusion I or II follows (d) Neither conclusion I nor II follows (e) Both conclusions I and II follow"
+    },
+    {
+      "q_num": 27,
+      "stem": "Which of the following pencil is 2nd shortest?",
+      "options": {
+        "a": "C",
+        "b": "F",
+        "c": "E",
+        "d": "D",
+        "e": "A"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm."
+    },
+    {
+      "q_num": 28,
+      "stem": "How many pencils are longer than A?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "None"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm."
+    },
+    {
+      "q_num": 29,
+      "stem": "If total length of pencil D and B is 16 cm, then what will be the possible height of pencil F?",
+      "options": {
+        "a": "11 cm",
+        "b": "10 cm",
+        "c": "9 cm",
+        "d": "8 cm",
+        "e": "None of the above"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six pencils A, B, C, D, E and F are of different length (in cm). Two pencils are longer than B. One pencil is in between B and C. E is just shorter than C which is not the longest pencil. F is longer than A but shorter than D. The third longest pencil is of 7cm."
+    },
+    {
+      "q_num": 30,
+      "stem": "If it is possible to make a four-letter meaningful word with the 2nd, 4th, 7th and 8th letter (from left) of the word ‘ALTERNATES’, which would be the second letter of the word from left? If more than one such meaningful word can be formed then give ‘Z’ as your answer. If no such meaningful word can be formed, give ‘Y’ as your answer.",
+      "options": {
+        "a": "E",
+        "b": "T",
+        "c": "L",
+        "d": "Z",
+        "e": "Y"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 31,
+      "stem": "If all the words are arranged in dictionary order from left, then which word will become 3rd from the right end?",
+      "options": {
+        "a": "KEY",
+        "b": "LOG",
+        "c": "CAT",
+        "d": "WIN",
+        "e": "JAM"
+      },
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT"
+    },
+    {
+      "q_num": 32,
+      "stem": "If 3rd letter is changed to its next letter as per alphabetical series, then how many words will have more than one vowel?",
+      "options": {
+        "a": "None",
+        "b": "One",
+        "c": "Three",
+        "d": "Four",
+        "e": "Two"
+      },
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT"
+    },
+    {
+      "q_num": 33,
+      "stem": "If letter ‘D’ is added at the end of each word, then how many meaningful words will be formed?",
+      "options": {
+        "a": "Two",
+        "b": "None",
+        "c": "One",
+        "d": "Four",
+        "e": "Three"
+      },
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT"
+    },
+    {
+      "q_num": 34,
+      "stem": "How many letters are between ‘first letter of second word from left end’ and ‘third letter of third word from right end’, as per English alphabet?",
+      "options": {
+        "a": "Seven",
+        "b": "One",
+        "c": "Two",
+        "d": "Ten",
+        "e": "Three"
+      },
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT"
+    },
+    {
+      "q_num": 35,
+      "stem": "If all letters are arranged in dictionary order from left within each word, then how many words will start with vowel?",
+      "options": {
+        "a": "One",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five",
+        "e": "Two"
+      },
+      "direction_text": "Read the given word-series carefully and answer the related question: WIN KEY JAM LOG CAT"
+    },
+    {
+      "q_num": 36,
+      "stem": "G was born on which of the following day?",
+      "options": {
+        "a": "Friday",
+        "b": "Wednesday",
+        "c": "Monday",
+        "d": "Tuesday",
+        "e": "Thursday"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E."
+    },
+    {
+      "q_num": 37,
+      "stem": "Who among the following was born on Saturday?",
+      "options": {
+        "a": "F",
+        "b": "D",
+        "c": "E",
+        "d": "B",
+        "e": "C"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E."
+    },
+    {
+      "q_num": 38,
+      "stem": "Which of the following combination is correct?",
+      "options": {
+        "a": "B – Saturday",
+        "b": "D - Thursday",
+        "c": "C - Friday",
+        "d": "F – Monday",
+        "e": "G - Tuesday"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E."
+    },
+    {
+      "q_num": 39,
+      "stem": "How many persons were born before E?",
+      "options": {
+        "a": "Four",
+        "b": "None",
+        "c": "Three",
+        "d": "One",
+        "e": "Two"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E."
+    },
+    {
+      "q_num": 40,
+      "stem": "Which of the following statement is correct? I. One person was born between F and G II. E was born on Thursday III. D was born before F",
+      "options": {
+        "a": "Only II",
+        "b": "Only I and II",
+        "c": "Only I and III",
+        "d": "Only I",
+        "e": "Only III"
+      },
+      "direction_text": "Read the given information carefully and answer the related questions: Six persons B, C, D, E, F and G were born (but not in same order as given) on different days of a week starting from Monday to Saturday. B was born after Thursday. Three persons were born between B and F. Number of persons born before F is same as the number of persons born after C. One person was born between D and E. G was born immediately before E."
+    },
+    {
+      "q_num": 41,
+      "stem": "A mixture contains milk and water in the ratio 2 : 1. The total quantity of the mixture is 30 liters. If x liters of water are added to the mixture, the ratio of milk to water becomes 2 : 3. Find the value of x.",
+      "options": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "15",
+        "e": "5"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 42,
+      "stem": "P and Q started a business by investing Rs. 8,000 and Rs. 6,000 respectively. After x months, Q withdrew his investment. At the end of the year, Q’s share of profit was Rs. 2,000 out of a total profit of Rs. 6,000. Find the value of x.",
+      "options": {
+        "a": "8",
+        "b": "9",
+        "c": "6",
+        "d": "4",
+        "e": "5"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 43,
+      "stem": "The present ages of A and B are in the ratio 4 : 3 respectively. Three years ago, the ratio of their ages was 7 : 5. Find the age of A after 4 years from now (in years).",
+      "options": {
+        "a": "20",
+        "b": "25",
+        "c": "32",
+        "d": "24",
+        "e": "28"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 44,
+      "stem": "The principal amount is Rs. 8,000, and the rate of interest is 10% per annum. If the simple interest earned is Rs. 2,000, find the time period (in years).",
+      "options": {
+        "a": "4.5",
+        "b": "4",
+        "c": "2",
+        "d": "2.5",
+        "e": "3"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 45,
+      "stem": "The downstream speed of a boat is 18 km/h, and the speed of the stream is 3 km/h. Find the time taken (in hours) by the boat to cover a distance of 30 km upstream.",
+      "options": {
+        "a": "3.5",
+        "b": "2",
+        "c": "2.5",
+        "d": "4.5",
+        "e": "4"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 46,
+      "stem": "A train of length 180 meters crosses a pole in 9 seconds. Find the time taken (in seconds) by the train to cross a bridge of length 270 meters.",
+      "options": {
+        "a": "18.5",
+        "b": "20",
+        "c": "22.5",
+        "d": "14.5",
+        "e": "15.5"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 47,
+      "stem": "A man spends 25% of his monthly salary on rent. Out of the remaining amount, he spends 15% on clothes, and after that, he spends 20% on travelling. He saves the rest. If his savings amount to Rs. 6,120, find his monthly salary (in Rs).",
+      "options": {
+        "a": "17500",
+        "b": "10000",
+        "c": "11500",
+        "d": "14000",
+        "e": "12000"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 48,
+      "stem": "A man invested Rs. P at a rate of 20% per annum compounded annually for 2 years. If the amount at the end of 2 years is Rs. 10,800, find the amount he invested (in Rs).",
+      "options": {
+        "a": "7500",
+        "b": "8000",
+        "c": "8500",
+        "d": "9000",
+        "e": "45000"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 49,
+      "stem": "A shopkeeper marks up the price of an article by 40% above its cost price and allows a 10% discount on the marked price. If he earns a profit of Rs. 104 on the article, find the cost price of the article (in Rs).",
+      "options": {
+        "a": "100",
+        "b": "200",
+        "c": "400",
+        "d": "600",
+        "e": "500"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 50,
+      "stem": "A and B together can complete a piece of work in 12 days, and A alone can complete it in 20 days. Find the time taken (in days) by B alone to complete 60% of the work.",
+      "options": {
+        "a": "15",
+        "b": "14",
+        "c": "18",
+        "d": "16",
+        "e": "20"
+      },
+      "direction_text": null
+    },
+    {
+      "q_num": 51,
+      "stem": "34, 15, 15, 22.5, 45, 112.5, 337.5",
+      "options": {
+        "a": "34",
+        "b": "15",
+        "c": "22.5",
+        "d": "45",
+        "e": "112.5"
+      },
+      "direction_text": "Find out the wrong number."
+    },
+    {
+      "q_num": 52,
+      "stem": "56, 60, 71, 91, 131, 211, 371",
+      "options": {
+        "a": "56",
+        "b": "60",
+        "c": "71",
+        "d": "91",
+        "e": "211"
+      },
+      "direction_text": "Find out the wrong number."
+    },
+    {
+      "q_num": 53,
+      "stem": "105, 108, 111, 114, 117, 120, 122",
+      "options": {
+        "a": "105",
+        "b": "114",
+        "c": "122",
+        "d": "111",
+        "e": "117"
+      },
+      "direction_text": "Find out the wrong number."
+    },
+    {
+      "q_num": 54,
+      "stem": "201, 199, 206, 190, 215, 179, 228",
+      "options": {
+        "a": "228",
+        "b": "215",
+        "c": "199",
+        "d": "201",
+        "e": "190"
+      },
+      "direction_text": "Find out the wrong number."
+    },
+    {
+      "q_num": 55,
+      "stem": "6, 12, 28, 59, 120, 241",
+      "options": {
+        "a": "120",
+        "b": "241",
+        "c": "12",
+        "d": "6",
+        "e": "28"
+      },
+      "direction_text": "Find out the wrong number."
+    },
+    {
+      "q_num": 56,
+      "stem": "Find the average number of cars sold in these five months.",
+      "options": {
+        "a": "110",
+        "b": "150",
+        "c": "130",
+        "d": "120",
+        "e": "140"
+      },
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months. 250 200 150 100 50 0 January February March April May Total cars sold"
+    },
+    {
+      "q_num": 57,
+      "stem": "The number of cars sold in February is what percent of the total cars sold in April?",
+      "options": {
+        "a": "75%",
+        "b": "60%",
+        "c": "25%",
+        "d": "55%",
+        "e": "87.5%"
+      },
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months. 250 200 150 100 50 0 January February March April May Total cars sold"
+    },
+    {
+      "q_num": 58,
+      "stem": "Find the difference between the total cars sold in January and that of March.",
+      "options": {
+        "a": "60",
+        "b": "90",
+        "c": "70",
+        "d": "50",
+        "e": "100"
+      },
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months. 250 200 150 100 50 0 January February March April May Total cars sold"
+    },
+    {
+      "q_num": 59,
+      "stem": "What is the ratio of total cars sold in January and March together to the cars sold in February and May together?",
+      "options": {
+        "a": "3:1",
+        "b": "2:3",
+        "c": "3:2",
+        "d": "1:3",
+        "e": "4:3"
+      },
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months. 250 200 150 100 50 0 January February March April May Total cars sold"
+    },
+    {
+      "q_num": 60,
+      "stem": "Find the sum of the total cars sold in May and February together.",
+      "options": {
+        "a": "300",
+        "b": "330",
+        "c": "200",
+        "d": "380",
+        "e": "370"
+      },
+      "direction_text": "Read the following line graph carefully and answer the questions given below. The line graph shows the total number of cars sold by a company in five different months. 250 200 150 100 50 0 January February March April May Total cars sold"
+    },
+    {
+      "q_num": 61,
+      "stem": "Find the total number of blue balls in all the bags together.",
+      "options": {
+        "a": "1870",
+        "b": "1630",
+        "c": "1240",
+        "d": "1390",
+        "e": "1550"
+      },
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A 210 170 B 520 330 C 480 260 D 360 650 E 300 260"
+    },
+    {
+      "q_num": 62,
+      "stem": "What is the average number of green balls in all five bags?",
+      "options": {
+        "a": "334",
+        "b": "338",
+        "c": "342",
+        "d": "346",
+        "e": "362"
+      },
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A 210 170 B 520 330 C 480 260 D 360 650 E 300 260"
+    },
+    {
+      "q_num": 63,
+      "stem": "The number of blue balls in Bag A is what percent of the total blue balls in Bag B (approx.)?",
+      "options": {
+        "a": "20%",
+        "b": "35%",
+        "c": "45%",
+        "d": "40%",
+        "e": "25%"
+      },
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A 210 170 B 520 330 C 480 260 D 360 650 E 300 260"
+    },
+    {
+      "q_num": 64,
+      "stem": "Find the difference between the total number of green balls in Bag D and Bag A together and the total number of blue balls in Bag C and E together.",
+      "options": {
+        "a": "60",
+        "b": "20",
+        "c": "30",
+        "d": "50",
+        "e": "40"
+      },
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A 210 170 B 520 330 C 480 260 D 360 650 E 300 260"
+    },
+    {
+      "q_num": 65,
+      "stem": "If the total number of pink balls in bag C is 20% less than the total number of green balls in bag D, then find the total number of pink balls in bag C.",
+      "options": {
+        "a": "480",
+        "b": "520",
+        "c": "500",
+        "d": "570",
+        "e": "410"
+      },
+      "direction_text": "Read the following table carefully and answer the questions given below. The table shows the total number of blue balls and total number of green balls in five different bags. Bags Blue balls Green balls A 210 170 B 520 330 C 480 260 D 360 650 E 300 260"
+    },
+    {
+      "q_num": 66,
+      "stem": "4769 – (3267 + 2425 – 961) = ?",
+      "options": {
+        "a": "35",
+        "b": "48",
+        "c": "43",
+        "d": "38",
+        "e": "47"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 67,
+      "stem": "1217 + 841 – 724 + 819 = ? + 1843",
+      "options": {
+        "a": "210",
+        "b": "310",
+        "c": "360",
+        "d": "270",
+        "e": "410"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 68,
+      "stem": "0.06 \\times 0.84 = ? \\times 1.2 \\times 0.015",
+      "options": {
+        "a": "8.2",
+        "b": "6.4",
+        "c": "2.6",
+        "d": "3.8",
+        "e": "2.8"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 69,
+      "stem": "8.41 + 6.25 + 0.79 = ? – 0.55",
+      "options": {
+        "a": "17",
+        "b": "14.9",
+        "c": "13.9",
+        "d": "16",
+        "e": "14.7"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 70,
+      "stem": "616 + 472 – 811 + 317 = ? + 576",
+      "options": {
+        "a": "28",
+        "b": "16",
+        "c": "24",
+        "d": "18",
+        "e": "14"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 71,
+      "stem": "12.5 \\times 80 + 37.5 \\times 16 – 6.25 \\times 112 = ?",
+      "options": {
+        "a": "1000",
+        "b": "900",
+        "c": "2300",
+        "d": "600",
+        "e": "1300"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 72,
+      "stem": "\\sqrt{3025} - \\sqrt{2116} = ?^{2}",
+      "options": {
+        "a": "81",
+        "b": "9",
+        "c": "3",
+        "d": "27",
+        "e": "729 1"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 73,
+      "stem": "√? + \\sqrt{324} + \\sqrt{361} = 5 th of 290",
+      "options": {
+        "a": "400",
+        "b": "441",
+        "c": "361",
+        "d": "484",
+        "e": "289"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 74,
+      "stem": "1674 \\div 27 \\times 9 + 18 = ?^{2}",
+      "options": {
+        "a": "26",
+        "b": "23",
+        "c": "24",
+        "d": "35",
+        "e": "18"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 75,
+      "stem": "(1.2)2 + (1.5)2 + (2.1)2 −(1.9)2 = ?",
+      "options": {
+        "a": "4.99",
+        "b": "5.69",
+        "c": "3.69",
+        "d": "6.79",
+        "e": "4.49"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 76,
+      "stem": "\\sqrt{484} \\div \\frac{112}{8} + ? = \\frac{38}{11}",
+      "options": {
+        "a": "22",
+        "b": "2",
+        "c": "1",
+        "d": "11",
+        "e": "4 (12 + 44)"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 77,
+      "stem": "8 \\times 28 = ? ^{2}",
+      "options": {
+        "a": "13",
+        "b": "16",
+        "c": "17",
+        "d": "14",
+        "e": "19"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 78,
+      "stem": "\\frac{32}{35} \\div \\frac{1}{5} \\times \\frac{7}{8} \\div \\frac{2}{35} = ?",
+      "options": {
+        "a": "60",
+        "b": "80",
+        "c": "75",
+        "d": "90",
+        "e": "70"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 79,
+      "stem": "\\frac{15}{100} \\times \\frac{200}{700} \\times ? = 240",
+      "options": {
+        "a": "5800",
+        "b": "6300",
+        "c": "6100",
+        "d": "5600",
+        "e": "5300"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    },
+    {
+      "q_num": 80,
+      "stem": "23 \\div 48 \\times 576 = ? \\times \\frac{3}{2}",
+      "options": {
+        "a": "148",
+        "b": "194",
+        "c": "176",
+        "d": "154",
+        "e": "184"
+      },
+      "direction_text": "What should come in place of question mark (?) in the following questions?"
+    }
+  ]
+}
