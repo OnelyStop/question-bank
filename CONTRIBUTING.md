@@ -89,6 +89,7 @@ it's faster than waiting.
 | `schema.json` is a valid schema | see `.github/workflows/ci.yml` |
 | Parser regressions stay fixed | `python3 tests/test_parser.py` |
 | Committed questions carry no known defect | `python3 pipeline/5-validate/check_questions.py` |
+| Every file sits in the folder that owns it | `python3 pipeline/5-validate/check_layout.py` |
 | Step examples match the schema | `python3 pipeline/5-validate/check_examples.py` |
 | No secrets committed | `git grep -nIE 'service_role\|postgres://[^ ]*:[^ @]+@'` |
 | No links to missing files | see `.github/workflows/ci.yml` |
