@@ -416,6 +416,14 @@ def fill_neighbour_topics(paper: dict[str, Any], allowed_topics: set[str] | None
         right_sec = right.get("section")
         if left_sec and right_sec and left_sec != right_sec:
             continue
+        # ...and not across q's OWN section either. Comparing only the two
+        # neighbours lets a question that already has section="Quantitative",
+        # bracketed by two English questions sharing a topic, be stamped with
+        # that English topic -- a topic that does not belong to the section it
+        # ships under.
+        own_sec = q.get("section")
+        if own_sec and left_sec and own_sec != left_sec:
+            continue
         q["topic"] = left_topic
         q["topic_source"] = "neighbour"
         if not q.get("section") and left_sec and left_sec == right_sec:
