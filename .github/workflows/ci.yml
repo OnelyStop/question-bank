@@ -80,6 +80,9 @@ jobs:
       - name: Committed questions carry no known defect
         run: python3 pipeline/5-validate/check_questions.py
 
+      - name: Every file sits in the folder that owns it
+        run: python3 pipeline/5-validate/check_layout.py
+
       - name: Step examples match the schema
         run: python3 pipeline/5-validate/check_examples.py
 
