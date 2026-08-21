@@ -1233,6 +1233,18 @@ VULGAR = {("1", "2"): "½", ("1", "3"): "⅓", ("2", "3"): "⅔", ("1", "4"): "�
           ("1", "9"): "⅑", ("1", "10"): "⅒"}
 
 
+ATOMIC_RE = re.compile(r"^[\w.?]+$")
+
+
+def group_part(part: str) -> str:
+    """Bracket a fraction half unless it is a single value already.
+
+    "15" and "0.2" need nothing. "?-0.5" does, or the slash binds tighter than
+    the minus when the page is read.
+    """
+    return part if ATOMIC_RE.match(part.strip()) else f"({part.strip()})"
+
+
 def display(text: str) -> str:
     """LaTeX in `stem` back to readable glyphs, for the review PDF only.
 
@@ -1247,7 +1259,11 @@ def display(text: str) -> str:
     out = MIXED_DISPLAY_RE.sub(
         lambda m: m.group(1) + VULGAR.get((m.group(2), m.group(3)),
                                           f" {m.group(2)}/{m.group(3)}"), text)
-    out = re.sub(r"\\frac\{(.+?)\}\{([^{}]+)\}", r"\1/\2", out)
+    # "a/b" only reads right when both halves are single values. A numerator
+    # like "?-0.5" flattened to "?-0.5/0.2", which a reader takes as
+    # ? - (0.5/0.2): the JSON was right and the review page said otherwise.
+    out = re.sub(r"\\frac\{(.+?)\}\{([^{}]+)\}",
+                 lambda m: f"{group_part(m.group(1))}/{group_part(m.group(2))}", out)
     out = out.replace("\\%", "%")
     out = re.sub(r"\\sqrt\[(\d)\]\{([^{}]+)\}",
                  lambda m: {"3": "∛", "4": "∜"}.get(m.group(1), "√") + m.group(2), out)
