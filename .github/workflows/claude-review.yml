@@ -139,12 +139,28 @@ jobs:
       # `gh pr review` -- no verdict, no comment, check green. The verdict has to
       # exist, and it has to belong to the commit that was reviewed: an approval
       # left on an earlier push says nothing about this one.
+      #
+      # One case cannot produce a verdict however long it runs. The action
+      # refuses to start on a PR that edits .github/workflows -- otherwise a PR
+      # could rewrite this file to read the secrets it is handed -- and logs
+      # "Action skipped due to workflow validation error" while still exiting 0.
+      # Demanding a verdict there makes every workflow change unmergeable, so
+      # this says so loudly instead and leaves the review to a human.
       - name: A verdict was actually submitted
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
           SHA: ${{ github.event.pull_request.head.sha }}
         run: |
+          # The files API, not `gh pr diff --name-only`: a batch PR is tens of
+          # thousands of lines and the diff endpoint answers 406 above 20,000,
+          # which would silently stop this from spotting a workflow change.
+          if gh api "repos/${{ github.repository }}/pulls/$PR/files" --paginate \
+               --jq '.[].filename' | grep -q '^\.github/workflows/'; then
+            echo "::warning::this PR edits .github/workflows, so the review agent" \
+                 "refuses to run on it by design — no automated verdict, needs a human read"
+            exit 0
+          fi
           verdicts=$(gh api "repos/${{ github.repository }}/pulls/$PR/reviews" --paginate \
             --jq "[.[] | select(.commit_id == \"$SHA\")
                        | select(.state == \"APPROVED\" or .state == \"CHANGES_REQUESTED\")] | length")
