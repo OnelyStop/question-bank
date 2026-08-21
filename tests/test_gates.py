@@ -23,6 +23,7 @@ from harness import QUESTION_FIELDS, check, check_in, check_not_in, paper, quest
 
 gate = step("5-validate", "check_questions")
 layout = step("5-validate", "check_layout")
+gaps = step("1-extract", "check_gaps")
 
 HERE = Path("data/batch5/1.json")
 
@@ -118,6 +119,30 @@ def test_empty_scan_is_a_failure():
         code = gate.main(["data/does-not-exist"])
     check("no papers -> exit 1", code, 1)
     check_in("says why", "no papers found", noise.getvalue())
+
+
+# --- what is missing --------------------------------------------------------
+def test_gap_classes():
+    # A question with no options is unanswerable however it got that way.
+    check_in("no options is a gap", "no_options",
+             gaps.question_gaps({"stem": "What is 2 + 2?", "options": {}}))
+    # An error-spotting set puts its task in the direction and prints only the
+    # five candidates, so a blank stem there is the paper's shape, not a gap.
+    check("direction-supplied stem is not a gap",
+          gaps.question_gaps({"stem": "", "options": {"a": "1", "b": "2"},
+                              "direction_text": "Choose the sentence with an error."}),
+          [])
+    check_in("blank stem with no direction is a gap", "empty_stem",
+             gaps.question_gaps({"stem": "", "options": {"a": "1"}, "direction_text": ""}))
+    check_in("a stem that is only its number", "placeholder_stem",
+             gaps.question_gaps({"stem": "Question 66.", "options": {"a": "1"}}))
+    # Which exam a paper is cannot be read off the page -- that is research.
+    check_in("missing exam_type is a paper gap", "no_exam_type",
+             gaps.paper_gaps({"bank": "IBPS", "role": "RRB", "year": 2021,
+                              "exam_type": None, "questions": []}))
+    check("a complete paper has no gaps",
+          gaps.paper_gaps({"bank": "IBPS", "role": "RRB", "year": 2021,
+                           "exam_type": "Prelims", "questions": []}), [])
 
 
 # --- folder ownership -------------------------------------------------------

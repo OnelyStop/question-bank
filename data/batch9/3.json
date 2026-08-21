@@ -1068,30 +1068,13 @@
       "q_id": "ibps_rrb_2020_mains_4b76b057::q046",
       "paper_id": "ibps_rrb_2020_mains_4b76b057",
       "q_num": 46,
-      "stem": "The length of a rectangle is 14",
-      "options": {},
-      "direction_id": "d013",
-      "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Mains",
-      "year": 2020,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2020_mains_4b76b057::q047",
-      "paper_id": "ibps_rrb_2020_mains_4b76b057",
-      "q_num": 47,
-      "stem": "What is the maximum marks in an exam? I. Veer scored 25\\% more than the minimum passing \\frac{1}{7} \\%",
+      "stem": "The length of a rectangle is 14\\frac{2}{7} \\% more than that of breadth of Rectangle. find the area of rectangle? I. Perimeter of rectangle is equal to perimeter of an Equilateral Triangle whose area is 25\\sqrt{3} cm^{2}. II. length of rectangle is 2 times the side of a Square whose perimeter is 16 cm.",
       "options": {
-        "b": "42\\frac{1}{7}\\%",
-        "c": "32\\frac{1}{7}\\%",
-        "d": "37\\frac{1}{7} \\%",
-        "e": "35\\frac{1}{7}\\% 6 concern for Government of India. II. Many economists has termed it wrong as it has impact badly on the weaker section of the society. III. There has been revamp in the percentage increase to answer the question. \\frac{2}{7} \\% more than that of breadth of Rectangle. find the area of rectangle? I. Perimeter of rectangle is equal to perimeter of an Equilateral Triangle whose area is 25\\sqrt{3} cm^{2}. II. length of rectangle is 2 times the side of a Square whose perimeter is 16 cm. marks but he scored only 50\\% marks in the exam. II. Aayush scored only 60 marks in the exam which is 50\\% more than the passing marks."
+        "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
+        "b": "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement (I) or statement (II) by itself is sufficient to answer the question.",
+        "e": "Statements (I) and (II) taken together are not sufficient to answer the question."
       },
       "direction_id": "d013",
       "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
@@ -1103,14 +1086,52 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options",
+        "stem"
+      ]
+    },
+    {
+      "q_id": "ibps_rrb_2020_mains_4b76b057::q047",
+      "paper_id": "ibps_rrb_2020_mains_4b76b057",
+      "q_num": 47,
+      "stem": "What is the maximum marks in an exam? I. Veer scored 25\\% more than the minimum passing marks but he scored only 50\\% marks in the exam. II. Aayush scored only 60 marks in the exam which is 50\\% more than the passing marks.",
+      "options": {
+        "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
+        "b": "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement (I) or statement (II) by itself is sufficient to answer the question.",
+        "e": "Statements (I) and (II) taken together are not sufficient to answer the question."
+      },
+      "direction_id": "d013",
+      "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
+      "direction_has_image": false,
+      "direction_image_refs": [],
+      "bank": "IBPS",
+      "role": "RRB",
+      "exam_type": "Mains",
+      "year": 2020,
+      "memory_based": true,
+      "has_image": false,
+      "image_refs": [],
+      "corrected": [
+        "options",
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q048",
       "paper_id": "ibps_rrb_2020_mains_4b76b057",
       "q_num": 48,
       "stem": "A seller marked up the price of an article 50% above cost price and give two successive discounts. Find the aggregate percentage of discount. I. Seller make the Aggregate profit of 14.75% II. M.R.P. of the Article is Rs. 750 and it sold in Rs. 73.75 more than the cost price.",
-      "options": {},
+      "options": {
+        "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
+        "b": "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement (I) or statement (II) by itself is sufficient to answer the question.",
+        "e": "Statements (I) and (II) taken together are not sufficient to answer the question."
+      },
       "direction_id": "d013",
       "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
       "direction_has_image": false,
@@ -1121,14 +1142,23 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q049",
       "paper_id": "ibps_rrb_2020_mains_4b76b057",
       "q_num": 49,
       "stem": "What is the value of (2^(x) + y^{2}) I. x + y = 7 II. the difference between x and y is 1.",
-      "options": {},
+      "options": {
+        "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
+        "b": "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement (I) or statement (II) by itself is sufficient to answer the question.",
+        "e": "Statements (I) and (II) taken together are not sufficient to answer the question."
+      },
       "direction_id": "d013",
       "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
       "direction_has_image": false,
@@ -1139,14 +1169,23 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q050",
       "paper_id": "ibps_rrb_2020_mains_4b76b057",
       "q_num": 50,
       "stem": "What will be profit share of Ankit? I. Ankit Invest Rs. 1600 for 8 months and Satish joined him after three months from start of the business months with capital of Rs. 1200. II. Satish got Rs. 630 as profit share.",
-      "options": {},
+      "options": {
+        "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
+        "b": "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to answer the question.",
+        "c": "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question.",
+        "d": "Either statement (I) or statement (II) by itself is sufficient to answer the question.",
+        "e": "Statements (I) and (II) taken together are not sufficient to answer the question."
+      },
       "direction_id": "d013",
       "direction_text": "The following questions are accompanied by two statements (I) and (II). You have to determine which statements(s) is/are sufficient/necessary to answer the questions. (a) Statement (I) alone is sufficient to answer the question",
       "direction_has_image": false,
@@ -1157,7 +1196,10 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q051",

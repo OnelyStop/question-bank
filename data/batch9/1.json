@@ -1192,8 +1192,14 @@
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q051",
       "paper_id": "ibps_rrb_2019_prelims_c0605d17",
       "q_num": 51,
-      "stem": "What is the average number of X type buses from",
-      "options": {},
+      "stem": "What is the average number of X type buses from school B and school C together?",
+      "options": {
+        "a": "40",
+        "b": "70",
+        "c": "30",
+        "d": "59",
+        "e": "54"
+      },
       "direction_id": "d010",
       "direction_text": "Given bar graph shows the data of two types of school buses X and Y for three schools A, B and C. Study the chart carefully and answer the following questions. Bus Type X 60 50 Number of buses 40 30 20 10 0 A B C Schools",
       "direction_has_image": false,
@@ -1204,7 +1210,11 @@
       "year": 2019,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options",
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q052",

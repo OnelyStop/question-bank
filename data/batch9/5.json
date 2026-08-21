@@ -1598,7 +1598,7 @@
       "q_id": "ibps_rrb_2021_mains_5790dd1e::q067",
       "paper_id": "ibps_rrb_2021_mains_5790dd1e",
       "q_num": 67,
-      "stem": "I. 4/x 20/x^{2} = 3 + II. 12/y 32/y^{2} + 1 =",
+      "stem": "I. \\frac{20}{x^{2}} = 3 + \\frac{4}{x} II. \\frac{32}{y^{2}} + 1 = \\frac{12}{y}",
       "options": {
         "a": "x > y",
         "b": "No relation can be established between x and y.",
@@ -1616,7 +1616,10 @@
       "year": 2021,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2021_mains_5790dd1e::q068",
@@ -1646,7 +1649,7 @@
       "q_id": "ibps_rrb_2021_mains_5790dd1e::q069",
       "paper_id": "ibps_rrb_2021_mains_5790dd1e",
       "q_num": 69,
-      "stem": "I. \\frac{1}{2} 5/x– x^(\\frac{12}{2}) = II. 2 + 13/y y^(\\frac{20}{2}) =",
+      "stem": "I. \\frac{5}{x} - \\frac{12}{x^{2}} = \\frac{1}{2} II. 2 + \\frac{20}{y^{2}} = \\frac{13}{y}",
       "options": {
         "a": "x > y",
         "b": "x \\geq y",
@@ -1664,7 +1667,10 @@
       "year": 2021,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2021_mains_5790dd1e::q070",

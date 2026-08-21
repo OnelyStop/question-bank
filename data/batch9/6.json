@@ -1819,7 +1819,7 @@
       "q_id": "ibps_rrb_2021_mains_e31b8754::q080",
       "paper_id": "ibps_rrb_2021_mains_e31b8754",
       "q_num": 80,
-      "stem": "I. x + 75/4x = \\frac{35}{4} II.1 + 34/3y y^(\\frac{32}{2}) =",
+      "stem": "I. x + \\frac{75}{4x} = \\frac{35}{4} II. 1 + \\frac{32}{y^{2}} = \\frac{34}{3y}",
       "options": {
         "a": "x = y or no relation.",
         "b": "x < y",
@@ -1837,7 +1837,10 @@
       "year": 2021,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q081",

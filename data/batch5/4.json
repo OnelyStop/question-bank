@@ -1044,7 +1044,7 @@
       "q_id": "ibps_po_2020_mains_44093f2d::q044",
       "paper_id": "ibps_po_2020_mains_44093f2d",
       "q_num": 44,
-      "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III Holder released a report against firm’s management culture that was condemnatory.",
+      "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "options": {
         "a": "Only II",
         "b": "Only I and III",
@@ -1062,13 +1062,16 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_po_2020_mains_44093f2d::q045",
       "paper_id": "ibps_po_2020_mains_44093f2d",
       "q_num": 45,
-      "stem": "Which of the followings is not in the line with the passage? (I) Kalanick’s resignation came under the pressure of damning report which is released by the Shareholders on management’s culture, this one of the reason of resignation of Chief executive of Uber. (II) Travis Kalanick stepped down as chief executive of Uber, because endless series of scandals raised doubts over his leadership as well as he was caught on video chewing out an Uber driver and shareholder’s report was not in a favour of management. (III) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III Holder released a report against firm’s management culture that was condemnatory.",
+      "stem": "Which of the followings is not in the line with the passage? (I) Kalanick’s resignation came under the pressure of damning report which is released by the Shareholders on management’s culture, this one of the reason of resignation of Chief executive of Uber. (II) Travis Kalanick stepped down as chief executive of Uber, because endless series of scandals raised doubts over his leadership as well as he was caught on video chewing out an Uber driver and shareholder’s report was not in a favour of management. (III) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "options": {
         "a": "Only II",
         "b": "Only I and III",
@@ -1086,7 +1089,10 @@
       "year": 2020,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     }
   ]
 }
