@@ -18,6 +18,7 @@ from harness import check, step  # noqa: E402
 
 parser = step("1-extract", "parser")
 collect_pdfs = parser.collect_pdfs
+SKIP_NAME_RE = parser.SKIP_NAME_RE
 
 
 def test_order_is_case_sensitive_posix_not_native_path_sort():
@@ -43,6 +44,36 @@ def test_order_is_case_sensitive_posix_not_native_path_sort():
             got,
             ["IBPS/Clerk/a.pdf", "IBPS/PO/b.pdf", "_unknown_bank/x.pdf"],
         )
+
+
+def test_answers_pdf_without_the_word_key_is_skipped():
+    # A real one from corpus/remaining/: "IBPS-PO-2016-English-Answers-1.pdf"
+    # is a solutions PDF ("S101. (c); Sol. ...") same as any "...Answer-Key.pdf",
+    # but the old pattern required a literal "key" and let this one through --
+    # it parsed to a correct-but-useless 0 questions, burning a batch slot.
+    check(
+        "bare 'Answers' is a solutions filename",
+        bool(SKIP_NAME_RE.search("IBPS-PO-2016-English-Answers-1")),
+        True,
+    )
+
+
+def test_existing_answer_key_naming_still_skips():
+    check(
+        "'Answer-Key' still skips (regression)",
+        bool(SKIP_NAME_RE.search("SBI-Clerk-MBT-22nd-Feb-Tamil-File-with-answer-key")),
+        True,
+    )
+
+
+def test_a_real_paper_named_answer_is_not_skipped():
+    # The heuristic is a filename token, not a substring: a paper about
+    # "General Awareness" must not be caught by "answer".
+    check(
+        "'Awareness' does not contain the 'answer' token",
+        bool(SKIP_NAME_RE.search("IBPS-Clerk-General-Awareness-2023")),
+        False,
+    )
 
 
 def test_single_file_is_returned_as_is():
