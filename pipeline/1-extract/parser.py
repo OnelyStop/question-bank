@@ -64,7 +64,11 @@ UNNUMBERED_DIRECTION_RE = re.compile(
     r"(?im)^\s*(?:Directions?\s*:|"
     r"Read the (?:given|following)|Study the following|"
     r"In (?:the|each of the) following|What should come|"
-    r"Find the wrong|Answer the following|Solve the following)"
+    # "Answer the questions based on..." opens a DI table set (5/246
+    # papers, 15 headers) same as "Answer the following" already did --
+    # missing it glued the table into the PREVIOUS question's stem
+    # instead of starting a new direction.
+    r"Find the wrong|Answer the following|Answer the questions|Solve the following)"
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
