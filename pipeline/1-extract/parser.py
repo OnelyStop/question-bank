@@ -39,7 +39,8 @@ NOISE_RE = re.compile(
     r"(?i)^(?:\d{1,3}\s+)?"
     r"(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
     r"careerpower\.in.*|store\.adda247\.com.*|(?:web)?site\s*:.*|visit\s*:.*|"
-    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
+    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*|"
+    r"sbi po pre \d{4} question paper.*)$"
 )
 
 # The `(?!\d)` guard applies only to the bare form -- with an explicit "Q" there
@@ -61,6 +62,12 @@ UNNUMBERED_DIRECTION_RE = re.compile(
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
+# Adda247 SBI PO memory papers print "A) 12  B) 15" -- letter + close paren,
+# no open paren. `(?<!\()` keeps cloze blanks "(A)" and roman "(I)" from being
+# read as the option list; `(?<![A-Za-z])` keeps "area)" out.
+BARE_UPPER_OPTION_RE = re.compile(r"(?<!\()(?<![A-Za-z])([A-E])\)\s+")
+# Watermark that lands in the body, not on its own footer line.
+PAPER_MARK_RE = re.compile(r"\bSBI PO PRE \d{4} QUESTION PAPER\b", re.I)
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
@@ -599,46 +606,13 @@ def read_text(pdf: Path) -> str:
     return body[: m.start()] if m else body
 
 
-def split_options(block: str) -> tuple[str, dict[str, str]]:
-    block = BLEED_RE.sub("", block).strip()
+def _complete_opts(opts: dict) -> bool:
+    keys = list(opts)
+    return keys == list("abcde") or keys == list("abcd")
 
-    # Error spotting first: its "(a)/ meet to discuss" has no space after the
-    # label, so the ordinary option split matches nothing.
-    parts = list(SEGMENT_RE.finditer(block))
-    if [p.group(1).lower() for p in parts] in (list("abcde"), list("abcd")):
-        opts, ok = {}, True
-        for idx, mm in enumerate(parts):
-            start = parts[idx - 1].end() if idx else 0
-            seg = " ".join(block[start: mm.start()].split()).strip(" /;-")
-            if not seg:
-                ok = False
-                break
-            opts[mm.group(1).lower()] = seg
-        if ok:
-            return " ".join(block.split()), opts
 
-    matches = list(OPTION_RE.finditer(block))
-    if not matches:
-        # "STARTERS" connector questions print three UPPERCASE options,
-        # "(A) Because… (B) Considering… (C) Even though…". Uppercase is
-        # normally a stimulus label, so this runs only when no lowercase run
-        # exists at all -- a para-jumble has both and keeps its (a)-(e).
-        upper = list(UPPER_OPTION_RE.finditer(block))
-        labels = [m.group(1) for m in upper]
-        if labels[:3] == ["A", "B", "C"]:
-            opts, stem = {}, " ".join(block[: upper[0].start()].split())
-            run = upper[: 5 if labels[:5] == list("ABCDE") else
-                          4 if labels[:4] == list("ABCD") else 3]
-            for i, m in enumerate(run):
-                end = run[i + 1].start() if i + 1 < len(run) else len(block)
-                value = " ".join(block[m.end(): end].split()).strip(" ;-")
-                if value:
-                    opts[m.group(1).lower()] = value
-            if len(opts) == len(run):
-                return stem, opts
-        return " ".join(block.split()), {}
-
-    # Last full a-e run wins: an earlier "(a)" may belong to the stem.
+def _extract_option_run(block: str, matches) -> tuple[str, dict[str, str]]:
+    """Stem + options from a sequence of labelled matches in `block`."""
     start_at = 0
     for i in range(len(matches)):
         run, expect = [], "a"
@@ -677,6 +651,72 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
         if label == "e":
             break
     return stem, opts
+
+
+def _uppercase_starters(block: str) -> tuple[str, dict[str, str]] | None:
+    # "STARTERS" connector questions print three UPPERCASE options,
+    # "(A) Because… (B) Considering… (C) Even though…". Uppercase is
+    # normally a stimulus label, so this runs only when no lowercase run
+    # exists at all -- a para-jumble has both and keeps its (a)-(e).
+    upper = list(UPPER_OPTION_RE.finditer(block))
+    labels = [m.group(1) for m in upper]
+    if labels[:3] != ["A", "B", "C"]:
+        return None
+    opts, stem = {}, " ".join(block[: upper[0].start()].split())
+    run = upper[: 5 if labels[:5] == list("ABCDE") else
+                  4 if labels[:4] == list("ABCD") else 3]
+    for i, m in enumerate(run):
+        end = run[i + 1].start() if i + 1 < len(run) else len(block)
+        value = " ".join(block[m.end(): end].split()).strip(" ;-")
+        if value:
+            opts[m.group(1).lower()] = value
+    if len(opts) == len(run):
+        return stem, opts
+    return None
+
+
+def split_options(block: str) -> tuple[str, dict[str, str]]:
+    block = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", block)).strip()
+
+    # Error spotting first: its "(a)/ meet to discuss" has no space after the
+    # label, so the ordinary option split matches nothing.
+    parts = list(SEGMENT_RE.finditer(block))
+    if [p.group(1).lower() for p in parts] in (list("abcde"), list("abcd")):
+        opts, ok = {}, True
+        for idx, mm in enumerate(parts):
+            start = parts[idx - 1].end() if idx else 0
+            seg = " ".join(block[start: mm.start()].split()).strip(" /;-")
+            if not seg:
+                ok = False
+                break
+            opts[mm.group(1).lower()] = seg
+        if ok:
+            return " ".join(block.split()), opts
+
+    matches = list(OPTION_RE.finditer(block))
+    paren_stem, paren_opts = (
+        _extract_option_run(block, matches) if matches
+        else (" ".join(block.split()), {}))
+    # A complete (a)-(e) wins. An incomplete one -- often a stray "(e)" in
+    # "choose option (e)" -- is held back so A) B) C) D) E) can be tried.
+    if _complete_opts(paren_opts):
+        return paren_stem, paren_opts
+
+    # A) B) C) D) E) before "(A) Because": a cloze blank "(A)" plus a real
+    # A)-E) list must keep the list, not treat the blank as a starter option.
+    bare = list(BARE_UPPER_OPTION_RE.finditer(block))
+    if bare:
+        stem, opts = _extract_option_run(block, bare)
+        if _complete_opts(opts):
+            return stem, opts
+
+    upper = _uppercase_starters(block)
+    if upper:
+        return upper
+
+    if paren_opts:
+        return paren_stem, paren_opts
+    return " ".join(block.split()), {}
 
 
 BANKS = [("NABARD", r"\bnabard\b"), ("SIDBI", r"\bsidbi\b"), ("IBPS", r"\bibps\b"),
@@ -946,6 +986,22 @@ def full_question(q: dict, paper_id: str, meta: dict) -> dict:
     }
 
 
+def question_style(found: list) -> bool:
+    """Does this paper number questions as 'Q41.' / 'Question 14:'?
+
+    Bare '1.' is then a list item, not a question. The share of prefixed hits
+    is the usual signal, but phrase-replacement lists ('1. Have grown  2. Are
+    on the rise  3. …') inflate the bare count and can drop a 100-question
+    'Question N:' paper under 60%. Unique prefixed numbers recover that.
+    """
+    if not found:
+        return False
+    prefixed = [m for m in found if m.group(1)]
+    if len(prefixed) >= 0.6 * len(found):
+        return True
+    return len({int(m.group(1)) for m in prefixed}) >= 40
+
+
 def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     """Where each question starts, minus the bare numbers that only look like one.
 
@@ -1010,8 +1066,7 @@ def parse(pdf: Path) -> dict:
     # options. Requiring the dominant style only where one clearly dominates
     # leaves bare-numbered papers alone -- forcing it cost 3 real questions.
     found = list(QUESTION_RE.finditer(text))
-    prefixed = sum(1 for m in found if m.group(1))
-    q_style = prefixed >= 0.6 * len(found) if found else False
+    q_style = question_style(found)
     anchors = question_anchors(found, q_style)
 
     # The direction's body is everything between its header and the first
@@ -1079,6 +1134,17 @@ def parse(pdf: Path) -> dict:
                 # the stem and leaves nothing.
                 raw_stem = " ".join(prefix.split())
                 own_direction, raw_opts = split_options(block[head.start():])
+                # The next set's "Direction:" can sit after this question's
+                # A) B) C) D) E). Those labels stay in the prefix, which was
+                # kept whole so a para-jumble's (a)/(B) parts are not eaten.
+                # Recover only the bare A) run -- the jumble form uses parens.
+                if not _complete_opts(raw_opts):
+                    cleaned = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", prefix)).strip()
+                    bare = list(BARE_UPPER_OPTION_RE.finditer(cleaned))
+                    if bare:
+                        pstem, popts = _extract_option_run(cleaned, bare)
+                        if _complete_opts(popts):
+                            raw_stem, raw_opts = pstem, popts
             else:
                 # Direction, then the question. The instruction is one sentence,
                 # ending at the colon these papers use; the rest is the stem.

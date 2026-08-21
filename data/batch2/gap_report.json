@@ -1,0 +1,53 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 1180,
+  "totals": {
+    "no_options": 6,
+    "truncated_stem": 1
+  },
+  "parser_gaps": 7,
+  "research_gaps": 0,
+  "web_fillable": 1,
+  "needs_parser_fix": 6,
+  "papers": [
+    {
+      "paper_id": "ibps_clerk_2019_mains_781623cd",
+      "path": "data\\batch2\\1.json",
+      "source_pdf": "corpus\\remaining\\IBPS\\Clerk\\2019\\Mains\\_unknown_shift\\IBPS_Clerk_Mains_2019_Memory_Based_Papers_For_Pratices.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          40,
+          50
+        ]
+      },
+      "unanchored_q_nums": [
+        40,
+        50
+      ]
+    },
+    {
+      "paper_id": "ibps_clerk_2019_prelims_237fb266",
+      "path": "data\\batch2\\2.json",
+      "source_pdf": "corpus\\remaining\\IBPS\\Clerk\\2019\\Prelims\\_unknown_shift\\IBPS_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          24,
+          29,
+          41,
+          70
+        ],
+        "truncated_stem": [
+          81
+        ]
+      },
+      "unanchored_q_nums": [
+        24,
+        29,
+        41,
+        70
+      ]
+    }
+  ]
+}

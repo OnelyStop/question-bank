@@ -1,0 +1,109 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 916,
+  "totals": {
+    "no_options": 10,
+    "truncated_stem": 2
+  },
+  "parser_gaps": 12,
+  "research_gaps": 0,
+  "web_fillable": 2,
+  "needs_parser_fix": 10,
+  "papers": [
+    {
+      "paper_id": "sbi_po_2016_mains_1ad95c75",
+      "path": "data\\batch18\\1.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2016\\Mains\\_unknown_shift\\sbi-po-mains-2016.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          38,
+          39,
+          49,
+          56,
+          66
+        ]
+      },
+      "unanchored_q_nums": [
+        38,
+        39,
+        49,
+        56,
+        66
+      ]
+    },
+    {
+      "paper_id": "sbi_po_2017_mains_213a5720",
+      "path": "data\\batch18\\2.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2017\\Mains\\_unknown_shift\\sbi-po-mains-2017.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          49
+        ],
+        "no_options": [
+          66,
+          714
+        ]
+      },
+      "unanchored_q_nums": [
+        66,
+        714
+      ]
+    },
+    {
+      "paper_id": "sbi_po_2017_prelims_f0aab19f",
+      "path": "data\\batch18\\3.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2017\\Prelims\\_unknown_shift\\sbi-po-prelims-2017.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          36
+        ]
+      },
+      "unanchored_q_nums": [
+        36
+      ]
+    },
+    {
+      "paper_id": "sbi_po_2018_mains_8b024b5b",
+      "path": "data\\batch18\\4.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2018\\Mains\\_unknown_shift\\sbi-po-mains-2018.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          20
+        ]
+      },
+      "unanchored_q_nums": [
+        20
+      ]
+    },
+    {
+      "paper_id": "sbi_po_2020_prelims_71d3da53",
+      "path": "data\\batch18\\8.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2020\\Prelims\\_unknown_shift\\sbi-po-pre-2020.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          23
+        ]
+      },
+      "unanchored_q_nums": [
+        23
+      ]
+    },
+    {
+      "paper_id": "sbi_po_2021_mains_4a32c76f",
+      "path": "data\\batch18\\9.json",
+      "source_pdf": "corpus\\done\\SBI\\PO\\2021\\Mains\\_unknown_shift\\SBI-PO-Mains-Previous-Year-Paper-2021.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          78
+        ]
+      },
+      "unanchored_q_nums": []
+    }
+  ]
+}

@@ -80,6 +80,36 @@ def test_error_spotting_segments():
           ["Why we do not", "meet to discuss", "this matter", "on Friday?", "No error."])
 
 
+def test_bare_uppercase_adda247():
+    # SBI PO Pre 2019/2020 print "A) 12" with no opening paren.
+    stem, opts = split_options(
+        "Find D.\nA) 180 B) 320 C) 260 D) 240 E) 300")
+    check("stem kept", stem, "Find D.")
+    check("five bare options", list(opts), ["a", "b", "c", "d", "e"])
+    check("values kept", list(opts.values()),
+          ["180", "320", "260", "240", "300"])
+
+
+def test_bare_uppercase_beats_stray_paren_e():
+    # "choose option (e)" is an instruction, not option e of a five-set.
+    stem, opts = split_options(
+        "If already correct, choose option (e) i.e. No correction required "
+        "as your answer. The ban has been a failure as there has been no "
+        "reducing in usage.\nA) is no reduce B) has been no reduction "
+        "C) have been no reduced D) is not any reduced E) No correction required")
+    check("sentence stayed in the stem", "failure" in stem, True)
+    check("real A)-E) list", list(opts.values())[1], "has been no reduction")
+    check("five options", len(opts), 5)
+
+
+def test_cloze_blank_then_bare_options():
+    stem, opts = split_options(
+        "(A) A) Traded B) Invaded C) Segregated D) Daunted E) Halted")
+    check("blank is the stem", stem, "(A)")
+    check("options from A)", list(opts), ["a", "b", "c", "d", "e"])
+    check("first option", opts["a"], "Traded")
+
+
 def test_options_stated_once_in_the_direction():
     # Quadratic-comparison sets print the five choices in the direction and then
     # only the equations under each number, so the questions carry no options.
