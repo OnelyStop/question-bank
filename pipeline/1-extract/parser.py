@@ -611,7 +611,7 @@ def _complete_opts(opts: dict) -> bool:
     return keys == list("abcde") or keys == list("abcd")
 
 
-def _extract_option_run(block: str, matches) -> tuple[str, dict[str, str]]:
+def _extract_option_run(block: str, matches, *, first_complete: bool = False) -> tuple[str, dict[str, str]]:
     """Stem + options from a sequence of labelled matches in `block`."""
     start_at = 0
     for i in range(len(matches)):
@@ -623,6 +623,8 @@ def _extract_option_run(block: str, matches) -> tuple[str, dict[str, str]]:
             j += 1
         if run in (list("abcde"), list("abcd")):
             start_at = i
+            if first_complete:
+                break
 
     stem = " ".join(block[: matches[start_at].start()].split())
     opts = {}
@@ -671,7 +673,32 @@ def _uppercase_starters(block: str) -> tuple[str, dict[str, str]] | None:
         if value:
             opts[m.group(1).lower()] = value
     if len(opts) == len(run):
+        # Cloze passages print blanks as ___(A)___ … (B) …, which looks like a
+        # complete (A)-(E) starter list. Those values are passage fragments,
+        # not options.
+        if any(v.lstrip().startswith("_") for v in opts.values()):
+            return None
         return stem, opts
+    return None
+
+
+def _opts_from_prefix_if_bare(prefix: str) -> tuple[str, dict[str, str]] | None:
+    """Complete A) B) C) D) E) sitting in the text before a following direction.
+
+    Kept whole so a para-jumble's (a)/(B) parts are not eaten; recover only the
+    bare A) run -- the jumble form uses parens.
+    """
+    cleaned = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", prefix)).strip()
+    bare = list(BARE_UPPER_OPTION_RE.finditer(cleaned))
+    if not bare:
+        return None
+    pstem, popts = _extract_option_run(cleaned, bare, first_complete=True)
+    if _complete_opts(popts):
+        popts = {k: re.sub(r"\s+\d+:\s*None\s*$", "", v).strip()
+                 for k, v in popts.items()}
+        popts = {k: v for k, v in popts.items() if v}
+        if _complete_opts(popts):
+            return pstem, popts
     return None
 
 
@@ -1134,17 +1161,16 @@ def parse(pdf: Path) -> dict:
                 # the stem and leaves nothing.
                 raw_stem = " ".join(prefix.split())
                 own_direction, raw_opts = split_options(block[head.start():])
-                # The next set's "Direction:" can sit after this question's
-                # A) B) C) D) E). Those labels stay in the prefix, which was
-                # kept whole so a para-jumble's (a)/(B) parts are not eaten.
-                # Recover only the bare A) run -- the jumble form uses parens.
-                if not _complete_opts(raw_opts):
-                    cleaned = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", prefix)).strip()
-                    bare = list(BARE_UPPER_OPTION_RE.finditer(cleaned))
-                    if bare:
-                        pstem, popts = _extract_option_run(cleaned, bare)
-                        if _complete_opts(popts):
-                            raw_stem, raw_opts = pstem, popts
+                # Prefer a complete bare A)–E) run in the prefix over options
+                # taken from the following direction. A cloze passage prints
+                # blanks as ___(A)___ … (B) …, so split_options can return a
+                # "complete" fragment set and the real A) B) C) D) E) list
+                # would stay stuck in the stem. That list belongs to this
+                # question; the Direction after it belongs to the next set.
+                recovered = _opts_from_prefix_if_bare(prefix)
+                if recovered:
+                    raw_stem, raw_opts = recovered
+                    own_direction = None
             else:
                 # Direction, then the question. The instruction is one sentence,
                 # ending at the colon these papers use; the rest is the stem.

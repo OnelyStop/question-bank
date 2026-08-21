@@ -110,6 +110,49 @@ def test_cloze_blank_then_bare_options():
     check("first option", opts["a"], "Traded")
 
 
+def test_cloze_passage_is_not_an_option_list():
+    # Blank markers ___(A)___ … (E) are not a starter option set.
+    stem, opts = split_options(
+        "On October 29 investors ___ some 16 million shares (A) ___ out "
+        "thousands of investors (B) ___ downward (C) ____ in history (D) "
+        "____ of debt (E) ____ the market by buying stock.")
+    check("blank markers are not options", opts, {})
+    check("passage stayed in the stem", "16 million" in stem, True)
+
+
+def test_prefix_bare_options_win_over_cloze_direction():
+    prefix = (
+        'Which of the following words is most similar in meaning to '
+        '"plummets"? A) Intensify B) Escalate C) Callous D) Slump E) Reminiscent'
+    )
+    direction = (
+        "Direction: fill the blanks. On Tuesday investors ___ some 16 million "
+        "shares (A) ___ out thousands (B) ___ downward (C) ____ in history (D) "
+        "____ of debt (E) ____ the market."
+    )
+    _, direction_opts = split_options(direction)
+    recovered = parser._opts_from_prefix_if_bare(prefix)
+    check("cloze did not yield a complete set", parser._complete_opts(direction_opts), False)
+    check("prefix recovered five options", recovered is not None, True)
+    stem, opts = recovered
+    check("stem lost the A) run", "Intensify" in stem, False)
+    check("real options", list(opts.values()),
+          ["Intensify", "Escalate", "Callous", "Slump", "Reminiscent"])
+
+
+def test_prefix_keeps_first_bare_run():
+    prefix = (
+        "Who lives between E and G? I. A II. F III. B "
+        "A) Only I and II B) Only II and III C) Only III D) Only I and III E) Only II "
+        "1: None A) inexpensive B) ability C) moniter D) record E) All are correct"
+    )
+    stem, opts = parser._opts_from_prefix_if_bare(prefix)
+    check("first list used", opts["a"], "Only I and II")
+    check("e not swallowing leftover", opts["e"], "Only II")
+    check("later list ignored", "inexpensive" in opts.values(), False)
+    check("stem is the question", "Who lives between E and G?" in stem, True)
+
+
 def test_options_stated_once_in_the_direction():
     # Quadratic-comparison sets print the five choices in the direction and then
     # only the equations under each number, so the questions carry no options.
