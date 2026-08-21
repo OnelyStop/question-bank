@@ -131,4 +131,28 @@ jobs:
 
           claude_args: |
             --model claude-opus-4-8
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr review:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh api:*),Bash(git log:*),Bash(git diff:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Grep,Glob,Bash(gh pr comment:*),Bash(gh pr review:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh api:*),Bash(git log:*),Bash(git diff:*),Bash(git show:*)"
+
+      # A review that reviews nothing and reports green is the silent failure the
+      # prompt above spends its first rule on. On PR #35 the action exited 0
+      # after 34 turns and 14 permission denials without ever calling
+      # `gh pr review` -- no verdict, no comment, check green. The verdict has to
+      # exist, and it has to belong to the commit that was reviewed: an approval
+      # left on an earlier push says nothing about this one.
+      - name: A verdict was actually submitted
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          verdicts=$(gh api "repos/${{ github.repository }}/pulls/$PR/reviews" --paginate \
+            --jq "[.[] | select(.commit_id == \"$SHA\")
+                       | select(.state == \"APPROVED\" or .state == \"CHANGES_REQUESTED\")] | length")
+          if [ "${verdicts:-0}" -eq 0 ]; then
+            echo "::error::no APPROVED or CHANGES_REQUESTED review for $SHA"
+            echo "The agent ran but submitted no verdict. Check the run log for"
+            echo "permission_denials_count -- a denied tool it needed will end the"
+            echo "run early, and the action still exits 0."
+            exit 1
+          fi
+          echo "OK - $verdicts verdict(s) on $SHA"
