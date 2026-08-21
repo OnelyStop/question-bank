@@ -1,0 +1,25 @@
+{
+  "papers_scanned": 9,
+  "questions_scanned": 640,
+  "totals": {
+    "truncated_stem": 1
+  },
+  "parser_gaps": 1,
+  "research_gaps": 0,
+  "web_fillable": 1,
+  "needs_parser_fix": 0,
+  "papers": [
+    {
+      "paper_id": "ibps_rrb_2025_prelims_cf975819",
+      "path": "data\\batch11\\6.json",
+      "source_pdf": "corpus/done/IBPS/RRB/2025/Prelims/Shift_1/IBPS-RRB-Clerk-Pre-2025-Memory-Based-Paper-Based-on-13th-December-1st-Shift.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          70
+        ]
+      },
+      "unanchored_q_nums": []
+    }
+  ]
+}
