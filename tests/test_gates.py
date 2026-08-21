@@ -45,6 +45,24 @@ def test_required_fields():
     check_in("missing field caught", "missing fields", defects(q))
 
 
+def test_schema_drift():
+    # schema.json is additionalProperties:false, so a field the parser writes
+    # and the schema does not declare is rejected at import -- after the batch
+    # has merged. `corrected` reached 18 questions across 10 files that way:
+    # REQUIRED only asks what must be PRESENT, and check_examples validates the
+    # per-step examples rather than the committed data.
+    declared = gate.schema_fields()
+    check_in("undeclared field caught", "not in schema.json",
+             gate.check_paper(HERE, paper(question(confidence=0.97)), declared))
+    check("a clean question passes",
+          gate.check_paper(HERE, paper(question()), declared), [])
+    # The field this PR adds has to be declared, or every corrected question
+    # trips the rule above.
+    check("corrected is declared", "corrected" in declared, True)
+    check("the step-1 contract is a subset of the schema",
+          sorted(set(QUESTION_FIELDS) - declared), [])
+
+
 def test_answer_key_bleed():
     q = question(options={"a": "1", "b": "2", "c": "3", "d": "4", "e": "155.56% Ans.(b)"})
     check_in("Ans.(b) caught", "answer_key_bleed", defects(q))
