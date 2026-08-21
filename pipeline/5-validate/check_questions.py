@@ -35,6 +35,10 @@ RULES = [
      re.compile(r"(?i)adda247|bankersadda|careerpower|www\.[a-z0-9-]+\.")),
     # superscript garbling: a raised operator never appears in real content
     ("raised_operator", "any", re.compile("[⁺⁻⁼⁽⁾]")),
+    # "28^(th) June" -- a date's suffix is set raised and small, so it reads as
+    # an exponent. It is prose, and 141 dates across two batches came out this
+    # way before the parser stopped raising it.
+    ("raised_ordinal", "any", re.compile(r"(?i)\d\s*\^\(\s*(?:st|nd|rd|th)\s*\)")),
     # a stem that is only its own number is a parse failure, not a question
     ("placeholder_stem", "stem",
      re.compile(r"^(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*$", re.I)),
