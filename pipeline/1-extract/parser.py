@@ -1376,6 +1376,22 @@ def next_batch_number(out_root: Path) -> int:
     return max(used, default=0) + 1
 
 
+def collect_pdfs(src: Path) -> list[Path]:
+    """PDFs under `src`, in a fixed, OS-independent order.
+
+    Sorted by POSIX string, not by Path object: Path comparison sorts case-
+    insensitively and by native separator on Windows but case-sensitively by
+    "/" on Linux, so the same corpus/remaining/ produced two different
+    "next 10" on the two OSes -- a Windows run started with `_unknown_bank/`
+    while Linux started with `IBPS/`, zero overlap in the first ten. The batch
+    number is meaningless if it is not the same ten PDFs on every machine, so
+    this is always case-sensitive POSIX order, matching Linux's default.
+    """
+    if not src.is_dir():
+        return [src]
+    return sorted(src.rglob("*.pdf"), key=lambda p: p.as_posix())
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("src", type=Path, nargs="?", default=REMAINING,
@@ -1394,7 +1410,7 @@ def main(argv: list[str] | None = None) -> int:
     if not args.src.exists():
         print(f"  no such path: {args.src}", file=sys.stderr)
         return 1
-    found = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
+    found = collect_pdfs(args.src)
     pdfs = [p for p in found if not SKIP_NAME_RE.search(p.stem)]
     skipped = [p for p in found if SKIP_NAME_RE.search(p.stem)]
     batch = pdfs[: args.size]
