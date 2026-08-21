@@ -163,6 +163,16 @@ def test_gap_classes():
                            "exam_type": "Prelims", "questions": []}), [])
 
 
+def test_rel_uses_forward_slashes_on_any_os():
+    # str(Path) serializes with the native separator -- Windows wrote
+    # "data\batch3\1.json" into gap_report.json's "path" field while every
+    # Linux-run batch has "data/batch3/1.json". Same as the source_pdf bug
+    # in parser.py, just a separate copy of the mistake in this file.
+    check("repo-relative path uses forward slashes",
+          gaps.rel(gaps.REPO / "data" / "batch3" / "1.json"),
+          "data/batch3/1.json")
+
+
 # --- folder ownership -------------------------------------------------------
 def test_layout_allows_what_belongs():
     for path in ("tests/test_parser.py", "tests/harness.py",
