@@ -68,6 +68,10 @@ UNNUMBERED_DIRECTION_RE = re.compile(
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
+# Same uppercase-option idea, no parens: "A) existence" not "(A) existence".
+# Line-anchored, because a bare "A)" is common inside prose ("part A) of the
+# report") and only a run of these at line starts is safe to read as options.
+BARE_UPPER_OPTION_RE = re.compile(r"(?m)^\s*([A-E])\)\s+")
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
@@ -640,6 +644,20 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
             opts, stem = {}, " ".join(block[: upper[0].start()].split())
             run = upper[: 5 if labels[:5] == list("ABCDE") else
                           4 if labels[:4] == list("ABCD") else 3]
+            for i, m in enumerate(run):
+                end = run[i + 1].start() if i + 1 < len(run) else len(block)
+                value = " ".join(block[m.end(): end].split()).strip(" ;-")
+                if value:
+                    opts[m.group(1).lower()] = value
+            if len(opts) == len(run):
+                return stem, opts
+
+        bare = list(BARE_UPPER_OPTION_RE.finditer(block))
+        bare_labels = [m.group(1) for m in bare]
+        if bare_labels[:3] == ["A", "B", "C"]:
+            opts, stem = {}, " ".join(block[: bare[0].start()].split())
+            run = bare[: 5 if bare_labels[:5] == list("ABCDE") else
+                        4 if bare_labels[:4] == list("ABCD") else 3]
             for i, m in enumerate(run):
                 end = run[i + 1].start() if i + 1 < len(run) else len(block)
                 value = " ".join(block[m.end(): end].split()).strip(" ;-")

@@ -64,6 +64,35 @@ def test_uppercase_starters():
     check("stem kept", stem, "Select the connector.")
 
 
+def test_bare_uppercase_no_parens():
+    # ibps-po-previous-year-paper-2023-pdf-(1).pdf prints "A) existence" not
+    # "(A) existence" -- UPPER_OPTION_RE needs the parens and matched nothing,
+    # so this whole question (and 17 others like it in the same paper) came
+    # out with a real stem and zero options.
+    block = (
+        "Find the wrongly spelled word.\n"
+        "Though the existence of dinosaurs.\n"
+        "A) existence\n"
+        "B) definitive\n"
+        "C) inhibited\n"
+        "D) prolonged\n"
+        "E) No improvement"
+    )
+    stem, opts = split_options(block)
+    check("five bare-uppercase options", opts,
+          {"a": "existence", "b": "definitive", "c": "inhibited",
+           "d": "prolonged", "e": "No improvement"})
+    check("stem kept", stem,
+          "Find the wrongly spelled word. Though the existence of dinosaurs.")
+
+
+def test_bare_uppercase_needs_a_real_run():
+    # "A)" turning up once in prose ("see part A) of the report") must not be
+    # read as the start of an option list.
+    stem, opts = split_options("See part A) of the report for details.")
+    check("no options invented from a stray 'A)'", opts, {})
+
+
 def test_lowercase_wins_over_uppercase():
     # A para-jumble has both: (A)-(D) sentence parts and (a)-(e) real options.
     _, opts = split_options(
