@@ -1,0 +1,112 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 965,
+  "totals": {
+    "no_options": 5,
+    "truncated_stem": 5,
+    "no_exam_type": 2
+  },
+  "parser_gaps": 10,
+  "research_gaps": 2,
+  "web_fillable": 4,
+  "needs_parser_fix": 6,
+  "papers": [
+    {
+      "paper_id": "ibps_rrb_2019_prelims_c0605d17",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/1.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2019/Prelims/_unknown_shift/IBPS_RRB_Clerk_Prelims_2019_Memory_Based_Paper_For_Practice.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          51
+        ]
+      },
+      "unanchored_q_nums": [
+        51
+      ]
+    },
+    {
+      "paper_id": "ibps_rrb_2022_mains_48596fb8",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/10.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2022/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Previous-Year-Paper-2022.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          80
+        ]
+      },
+      "unanchored_q_nums": []
+    },
+    {
+      "paper_id": "ibps_rrb_2020_mains_4b76b057",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/3.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2020/Mains/_unknown_shift/IBPS-RRB-PO-Mains-2020-Memory-Based-Paper.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          46,
+          48,
+          49,
+          50
+        ]
+      },
+      "unanchored_q_nums": [
+        46,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "paper_id": "ibps_rrb_2021_mains_5790dd1e",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/5.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2021/Mains/_unknown_shift/IBPS-RRB-Clerk-Mains-Previous-Year-Paper-2021-Questions-2.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          67,
+          69
+        ]
+      },
+      "unanchored_q_nums": []
+    },
+    {
+      "paper_id": "ibps_rrb_2021_mains_e31b8754",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/6.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2021/Mains/_unknown_shift/IBPS-RRB-PO-Mains-Previous-Year-Paper-2021.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          80
+        ]
+      },
+      "unanchored_q_nums": []
+    },
+    {
+      "paper_id": "ibps_rrb_2021_unknown_6825a2d3",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/7.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-Clerk-Previous-Year-Question-Paper-2021-Que.pdf",
+      "paper_gaps": [
+        "no_exam_type"
+      ],
+      "question_gaps": {
+        "truncated_stem": [
+          43
+        ]
+      },
+      "unanchored_q_nums": [
+        43
+      ]
+    },
+    {
+      "paper_id": "ibps_rrb_2021_unknown_11703c49",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch9/8.json",
+      "source_pdf": "corpus/remaining/IBPS/RRB/2021/_unknown_stage/_unknown_shift/IBPS-RRB-PO-Previous-Year-Question-Paper-2021-1.pdf",
+      "paper_gaps": [
+        "no_exam_type"
+      ],
+      "question_gaps": {},
+      "unanchored_q_nums": []
+    }
+  ]
+}

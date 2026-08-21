@@ -1,0 +1,26 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 810,
+  "totals": {
+    "truncated_stem": 2
+  },
+  "parser_gaps": 2,
+  "research_gaps": 0,
+  "web_fillable": 2,
+  "needs_parser_fix": 0,
+  "papers": [
+    {
+      "paper_id": "ibps_po_2020_mains_44093f2d",
+      "path": "/Users/tusharbanik/Development/onelystop/frontend/parser/out/batch5/4.json",
+      "source_pdf": "corpus/remaining/IBPS/PO/2020/Mains/_unknown_shift/IBPS-PO-Mains-Reasoning-2020-Memory-Based-Paper.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "truncated_stem": [
+          44,
+          45
+        ]
+      },
+      "unanchored_q_nums": []
+    }
+  ]
+}
