@@ -1,0 +1,27 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 943,
+  "totals": {
+    "no_options": 1
+  },
+  "parser_gaps": 1,
+  "research_gaps": 0,
+  "web_fillable": 0,
+  "needs_parser_fix": 1,
+  "papers": [
+    {
+      "paper_id": "sbi_po_2021_prelims_5cb01cf7",
+      "path": "data\\batch19\\1.json",
+      "source_pdf": "corpus/done/SBI/PO/2021/Prelims/_unknown_shift/sbi-po-pre-2021.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          30
+        ]
+      },
+      "unanchored_q_nums": [
+        30
+      ]
+    }
+  ]
+}
