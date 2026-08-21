@@ -1,12 +1,23 @@
 {
   "_note": "Transcription only. Every value here is visible in the source PDF and was read off its span geometry -- numerator, denominator and the bar between them. Where the question is arithmetic, the transcription is checked by solving it: the result must be one of the printed options, which is recorded in each note. Nothing here is inferred content.",
   "questions": {
+    "ibps_clerk_2020_prelims_9868e39d::q050": {
+      "stem": "x \\times 3 \\div 8 = \\sqrt[3]{512} \\times \\sqrt{12^2}",
+      "options": {
+        "a": "256",
+        "b": "512",
+        "c": "64",
+        "d": "128",
+        "e": "320"
+      },
+      "note": "Two-column page: the cube root's index '3' and the second radical '\\sqrt{12^2}' extracted as a floating fragment that landed between Q49 and Q51 with no question number, while 'Q50.' stayed attached to the truncated 'x \\times 3 \\div 8 = \\sqrt{512}' left behind -- reading order tore one stem into two disconnected pieces. Checked by solving: cbrt(512)=8, sqrt(12^2)=12, 8*12=96, x=96*8/3=256, which is option (a)."
+    },
     "ibps_po_2020_mains_44093f2d::q044": {
-      "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
+      "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick\u2019s resignation doesn\u2019t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company\u2019s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm\u2019s management culture that was condemnatory.",
       "note": "The source prints '(III' with no closing paren -- a typo in the paper, not a parse failure. Restored so the label matches (I) and (II) beside it; nothing else in the stem is changed."
     },
     "ibps_po_2020_mains_44093f2d::q045": {
-      "stem": "Which of the followings is not in the line with the passage? (I) Kalanick’s resignation came under the pressure of damning report which is released by the Shareholders on management’s culture, this one of the reason of resignation of Chief executive of Uber. (II) Travis Kalanick stepped down as chief executive of Uber, because endless series of scandals raised doubts over his leadership as well as he was caught on video chewing out an Uber driver and shareholder’s report was not in a favour of management. (III) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
+      "stem": "Which of the followings is not in the line with the passage? (I) Kalanick\u2019s resignation came under the pressure of damning report which is released by the Shareholders on management\u2019s culture, this one of the reason of resignation of Chief executive of Uber. (II) Travis Kalanick stepped down as chief executive of Uber, because endless series of scandals raised doubts over his leadership as well as he was caught on video chewing out an Uber driver and shareholder\u2019s report was not in a favour of management. (III) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick\u2019s resignation doesn\u2019t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company\u2019s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm\u2019s management culture that was condemnatory.",
       "note": "Same '(III' typo as q044; the two questions share the passage."
     },
     "ibps_rrb_2019_prelims_c0605d17::q051": {
@@ -149,6 +160,56 @@
         "e": "B-D (into); A-F (for)"
       },
       "note": "Two questions share page 9 side by side: q39 runs down the left column at x 36-166 and q40 down the right at x 306-544. q40's Column II item F (x 437.2, y 210.6) and all five of its options (x 306.8, y 248.7-298.9) sit below q39's grid, so reading order put them after q39 and q40 ended with neither. q38 and q39 parsed correctly, which is how the column split is confirmed -- their options are the x 36 set, q40's are the x 306.8 set."
+    },
+    "sbi_po_2021_prelims_5cb01cf7::q030": {
+      "stem": "In the following sentence, fill in the blanks using the correct combination of words from the options given below. There is little evidence to __________ or to support the __________ that there is a direct relationship between open shelf-life dating and the actual freshness of food.",
+      "options": {
+        "a": "disown, contend",
+        "b": "contradict, astute",
+        "c": "repudiating, argument",
+        "d": "deny, speculate",
+        "e": "negate, contention"
+      },
+      "direction_text": "",
+      "note": "q30 is its own fill-in-the-blank question (same shape as q26-29), not the first question of the DI set that follows it. The DI set's own unnumbered direction ('Directions [Set of 5 Questions]: Answer the questions based on...') sits between q30's anchor and q31's, so it landed inside q30's block -- the block-boundary cut only strips a trailing *numbered* 'Directions (32-34):' header, not this unnumbered style. Stem left as printed with blanks unfilled ('_______') since q26-29 keep theirs the same way; direction_text cleared of the bled-in q29 instruction fragment."
+    },
+    "sbi_clerk_2022_prelims_ac5ffb0a::q066": {
+      "stem": "2\\frac{4}{7} + 4\\frac{1}{3} - 3\\frac{2}{3} + \\frac{16}{21} = ?",
+      "note": "Mixed-fraction stem extracted with its pieces out of order. Options were already correct (4/5/3/7/6). Confirmed against the paper's own answer key on a later page: 'S66. Ans.(a) Sol. ? = (2 + 4 - 3) + (4/7 + 1/3 - 2/3 + 16/21); ? = 3 + 1; ? = 4' -- matches the rendered page exactly."
+    },
+    "sbi_clerk_2022_prelims_a2c059ce::q036": {
+      "options": {
+        "a": "\\frac{29}{7} days",
+        "b": "\\frac{24}{7} days",
+        "c": "\\frac{48}{7} days",
+        "d": "\\frac{54}{7} days",
+        "e": "\\frac{40}{7} days"
+      },
+      "note": "Stacked-fraction options that never merged, same as batch 7 q41. Checked by solving: A+B=1/8, B+C=1/6, C+A=1/4/day; sum=13/24 so A+B+C=13/48; C alone = 13/48 - 1/8 = 7/48, i.e. 48/7 days, option (c)."
+    },
+    "ibps_rrb_2025_prelims_cf975819::q070": {
+      "stem": "(\\sqrt{7921} - \\sqrt[3]{2197}) \\times \\frac{1}{4} = ?",
+      "note": "Options already extracted correctly (20/19/18/17/16); only the stem was garbled -- the cube root's index and the closing structure of the expression didn't merge in extraction, options survived independently this time. Checked by solving: sqrt(7921)=89, cbrt(2197)=13, (89-13)*1/4=19, option (b)."
+    },
+    "ibps_po_2010_prelims_e62351f3::q041": {
+      "options": {
+        "a": "\\frac{37}{75}",
+        "b": "\\frac{32}{75}",
+        "c": "\\frac{36}{75}",
+        "d": "\\frac{28}{75}",
+        "e": "\\frac{26}{75}"
+      },
+      "note": "Stacked fractions: the parser kept the (a)-(e) labels but the numerator/denominator glyphs never merged, leaving five empty options. Checked by solving: numbers 1-300 divisible by 3 or 7 = 100 + 42 - 14 (inclusion-exclusion, 21 = lcm) = 128; 128/300 = 32/75, option (b)."
+    },
+    "ibps_po_2010_prelims_e62351f3::q070": {
+      "options": {
+        "a": "295",
+        "b": "330",
+        "c": "270",
+        "d": "375",
+        "e": "220"
+      },
+      "note": "Last question on its page; the options line extracted no text at all (nothing after the stem in read_text()'s output), though the page image shows plain '(a) 295 (b) 330 (c) 270 (d) 375 (e) 220'. Checked by solving: 15.5% of 849 + 24.8% of 651 = 131.595 + 161.448 = 293.04, approx. 295, option (a) -- the direction says 'approximate value'."
     }
   }
 }
