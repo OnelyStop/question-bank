@@ -1,28 +1,29 @@
 {
   "_note": "Transcription only. Every value here is visible in the source PDF and was read off its span geometry -- numerator, denominator and the bar between them. Where the question is arithmetic, the transcription is checked by solving it: the result must be one of the printed options, which is recorded in each note. Nothing here is inferred content.",
-
   "questions": {
     "ibps_po_2020_mains_44093f2d::q044": {
       "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "note": "The source prints '(III' with no closing paren -- a typo in the paper, not a parse failure. Restored so the label matches (I) and (II) beside it; nothing else in the stem is changed."
     },
-
     "ibps_po_2020_mains_44093f2d::q045": {
       "stem": "Which of the followings is not in the line with the passage? (I) Kalanick’s resignation came under the pressure of damning report which is released by the Shareholders on management’s culture, this one of the reason of resignation of Chief executive of Uber. (II) Travis Kalanick stepped down as chief executive of Uber, because endless series of scandals raised doubts over his leadership as well as he was caught on video chewing out an Uber driver and shareholder’s report was not in a favour of management. (III) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "note": "Same '(III' typo as q044; the two questions share the passage."
     },
-
     "ibps_rrb_2019_prelims_c0605d17::q051": {
       "stem": "What is the average number of X type buses from school B and school C together?",
-      "options": {"a": "40", "b": "70", "c": "30", "d": "59", "e": "54"},
+      "options": {
+        "a": "40",
+        "b": "70",
+        "c": "30",
+        "d": "59",
+        "e": "54"
+      },
       "note": "Two-column page: the stem's second line and all five options sit in the left column at x 54-245, but reading order interleaved them with question 52 in the right column and the question came out with a cut stem and no options."
     },
-
     "ibps_rrb_2019_prelims_c0605d17::q073": {
       "stem": "(\\frac{?-0.5}{0.2}) = \\frac{120}{2}",
       "note": "Stacked fraction with an expression numerator. The bar is drawn (y=286.8, x 59.3-78.3) directly under '?-0.5', but a numerator is only merged when it is a plain number, so the two halves ran together as '( ?-0.5 0.2 ) ='. Solving: (12.5-0.5)/0.2 = 60 = 120/2, and 12.5 is option (b) -- the only option that satisfies it."
     },
-
     "ibps_rrb_2020_mains_4b76b057::q046": {
       "stem": "The length of a rectangle is 14\\frac{2}{7} \\% more than that of breadth of Rectangle. find the area of rectangle? I. Perimeter of rectangle is equal to perimeter of an Equilateral Triangle whose area is 25\\sqrt{3} cm^{2}. II. length of rectangle is 2 times the side of a Square whose perimeter is 16 cm.",
       "options": {
@@ -34,7 +35,6 @@
       },
       "note": "Data-sufficiency set (46-50): the five options are printed once in the direction, in the right column, while questions 41-45 run down the left. Reading order cut the direction body at question 41's number, keeping only option (a), so all five questions came out with no options at all."
     },
-
     "ibps_rrb_2020_mains_4b76b057::q047": {
       "stem": "What is the maximum marks in an exam? I. Veer scored 25\\% more than the minimum passing marks but he scored only 50\\% marks in the exam. II. Aayush scored only 60 marks in the exam which is 50\\% more than the passing marks.",
       "options": {
@@ -46,7 +46,6 @@
       },
       "note": "Worse than its neighbours and invisible to the gate: it had five NON-empty options, so nothing flagged it, but they were fragments of question 43's options glued to passage text and to question 46's stem. Both stem and options are restored from the right column."
     },
-
     "ibps_rrb_2020_mains_4b76b057::q048": {
       "options": {
         "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
@@ -57,7 +56,6 @@
       },
       "note": "Same direction (46-50); the stem parsed correctly."
     },
-
     "ibps_rrb_2020_mains_4b76b057::q049": {
       "options": {
         "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
@@ -68,7 +66,6 @@
       },
       "note": "Same direction (46-50); the stem parsed correctly."
     },
-
     "ibps_rrb_2020_mains_4b76b057::q050": {
       "options": {
         "a": "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to answer the questions.",
@@ -79,32 +76,26 @@
       },
       "note": "Same direction (46-50); the stem parsed correctly."
     },
-
     "ibps_rrb_2021_mains_5790dd1e::q067": {
       "stem": "I. \\frac{20}{x^{2}} = 3 + \\frac{4}{x} II. \\frac{32}{y^{2}} + 1 = \\frac{12}{y}",
       "note": "Read off the bars: the operators sit between the stacked fractions, and flattening the row dropped them to the end as '20/x^2 = 3 + ... 4/x'. Solving: 3x^2+4x-20=0 gives x = 2 or -10/3; y^2-12y+32=0 gives y = 4 or 8. Every x is below every y, so x < y -- option (d), a definite relation, which is what this question type always has."
     },
-
     "ibps_rrb_2021_mains_5790dd1e::q069": {
       "stem": "I. \\frac{5}{x} - \\frac{12}{x^{2}} = \\frac{1}{2} II. 2 + \\frac{20}{y^{2}} = \\frac{13}{y}",
       "note": "Three bars on row I (x 351.2-356.5, 366.6-376.5, 392.1-396.9) give 5/x, 12/x^2 and 1/2, with the minus and equals between them. Solving: x^2-10x+24=0 gives x = 4 or 6; 2y^2-13y+20=0 gives y = 2.5 or 4. x >= y throughout -- option (b)."
     },
-
     "ibps_rrb_2021_mains_e31b8754::q080": {
       "stem": "I. x + \\frac{75}{4x} = \\frac{35}{4} II. 1 + \\frac{32}{y^{2}} = \\frac{34}{3y}",
       "note": "Bars at y=242.7 give 32/y^2 and 34/3y. Solving: 4x^2-35x+75=0 gives x = 5 or 3.75; 3y^2-34y+96=0 gives y = 6 or 16/3. Every x is below every y, so x < y -- option (b)."
     },
-
     "ibps_rrb_2022_mains_48596fb8::q080": {
       "stem": "I. x + \\frac{75}{4x} = \\frac{35}{4} II. 1 + \\frac{32}{y^{2}} = \\frac{34}{3y}",
       "note": "The 2022 paper reprints the 2021 question; same reading and same working as ibps_rrb_2021_mains_e31b8754::q080."
     },
-
     "ibps_rrb_2021_prelims_6825a2d3::q043": {
       "stem": "(\\frac{3}{4})^{3} \\times (\\frac{2}{3})^{4} \\div ? = \\frac{1}{624}",
       "note": "Three bars at y=190.2 pair 3 over 4, 2 over 3, and 1 over 624; the 3 and 4 at y=176.7 are exponents, not numerators. Solving: (27/64)(16/81) = 1/12, so ? = 624/12 = 52 -- option (e)."
     },
-
     "sbi_clerk_2019_mains_3778ee5c::q047": {
       "stem": "Statement: Start to think of travelling by train for a holiday. A train journey can give one a better view of places on the way which an air journey cannot give. You can walk around whenever you want, meet other travelers and locals, relax and watch the landscape go peacefully by. Train travel is both a beautiful and affordable way to see the country, and no trip is more scenic than the trip by trains. Conclusions: I. While going for a holiday, people want to enjoy the view of the places on the way. II. People should not travel by air when they are going for a holiday. Which of the following can be concluded from the given statement?",
       "options": {
@@ -116,7 +107,6 @@
       },
       "note": "Statement-and-conclusions question: the conclusions, the ask and all five options sit below the statement in the same right-hand column, but the block was cut at the statement's end."
     },
-
     "sbi_clerk_2019_mains_3778ee5c::q058": {
       "options": {
         "a": "2\\frac{1}{2} days",
@@ -127,17 +117,38 @@
       },
       "note": "Options are at y 572-591 of the same right-hand column; reading order jumped to question 54 in the left column instead. Solving: A is 1/33, C four times as efficient (33 days -> 3 days for the three together), B:C = 3:2, total 1/3 -- 3 days, option (c). The stem parsed correctly."
     },
-
     "sbi_clerk_2020_mains_1e762e8e::q058": {
       "stem": "The certain number of men can do a work in some days. When eight more men would join them, then work would be finished in 40\\% less time. If 33\\frac{1}{3} \\% less men can do the same work in 30 more days, then find 12 men can finish half of the same work in how many days?",
-      "options": {"a": "20", "b": "40", "c": "36", "d": "24", "e": "30"},
+      "options": {
+        "a": "20",
+        "b": "40",
+        "c": "36",
+        "d": "24",
+        "e": "30"
+      },
       "note": "Cut mid-sentence at 'If 33', where a stacked 1/3 sits beside the number; the rest of the stem and all five options continue down the same right-hand column to y 600."
     },
-
     "sbi_clerk_2020_prelims_be312f17::q068": {
       "stem": "\\frac{510}{?} = \\sqrt{324} + 3.25",
-      "options": {"a": "12", "b": "48", "c": "24", "d": "6", "e": "18"},
+      "options": {
+        "a": "12",
+        "b": "48",
+        "c": "24",
+        "d": "6",
+        "e": "18"
+      },
       "note": "Nothing but '68.' survived: the whole equation is a stacked fraction (bar y=399.4, x 333.1-346.0, 510 over ?) beside a radical whose overbar sits at y=393.5. Solving: sqrt(324) = 18, 18 + 3.25 = 21.25, and 510/21.25 = 24 -- option (c)."
+    },
+    "sbi_po_2025_mains_c93aff04::q040": {
+      "stem": "Column I Column II A. She kept working late into the night, D. ____ flooding nearby fields and creating an unexpected spectacle B. The concert was postponed because of unexpected weather changes; E. ____ she wanted to complete the project before the approaching deadline C. Despite his busy schedule, he always found time F. ____ many visitors had to cancel their travel plans immediately",
+      "options": {
+        "a": "A-F (so)",
+        "b": "B-E (and); C-F (however)",
+        "c": "A-E (for); B-F (consequently)",
+        "d": "C-F (for)",
+        "e": "B-D (into); A-F (for)"
+      },
+      "note": "Two questions share page 9 side by side: q39 runs down the left column at x 36-166 and q40 down the right at x 306-544. q40's Column II item F (x 437.2, y 210.6) and all five of its options (x 306.8, y 248.7-298.9) sit below q39's grid, so reading order put them after q39 and q40 ended with neither. q38 and q39 parsed correctly, which is how the column split is confirmed -- their options are the x 36 set, q40's are the x 306.8 set."
     }
   }
 }
