@@ -79,7 +79,11 @@ SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUT
 # Files with no questions to take: a solutions-only PDF, or the Hindi edition of
 # a paper already held in English. Parsed anyway they yield 0-1 questions and
 # burn a slot in the batch.
-SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hindi|hn)(?:[-_ .]|$)")
+# `answers?` alone, not just `answer[-_ ]?key`: "...-Answers-1.pdf" is a
+# solutions PDF ("S101. (c); Sol. ...") same as any "-Answer-Key-" file, but
+# without the trailing "key" it slipped the old pattern, burned a batch slot,
+# and parsed to a correct-but-useless 0 questions.
+SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answers?(?:[-_ ]?key)?|hindi|hn)(?:[-_ .]|$)")
 
 # PyMuPDF sets bit 0 of a span's flags for superscript text. Without this an
 # exponent arrives flat -- "2x2 - 3x + 1 = 0" -- where the trailing 2 reads as
