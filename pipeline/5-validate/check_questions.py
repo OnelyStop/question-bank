@@ -46,8 +46,11 @@ RULES = [
      re.compile(r"(?i)\bans\s*\.\s*\(?\s*[a-e]\s*\)?\s*$|\bans\s*\.\s*$")),
     ("direction_bleed", "options",
      re.compile(r"(?i)Directions?\s*[\(\d]|Q\s*\d+\s*\.")),
+    # Site footers only. "visit the ADDA247 office" is puzzle content in
+    # SBI Clerk 2022 papers, not a coaching-house URL glued to the stem.
     ("boilerplate", "any",
-     re.compile(r"(?i)adda247|bankersadda|careerpower|www\.[a-z0-9-]+\.")),
+     re.compile(r"(?i)(?:www\.)?(?:adda247|bankersadda|careerpower)\.com|"
+                r"\bwww\.[a-z0-9-]+\.")),
     # superscript garbling: a raised operator never appears in real content
     ("raised_operator", "any", re.compile("[⁺⁻⁼⁽⁾]")),
     # "28^(th) June" -- a date's suffix is set raised and small, so it reads as

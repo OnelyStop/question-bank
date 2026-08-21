@@ -1,27 +1,10 @@
 {
   "papers_scanned": 10,
-  "questions_scanned": 965,
-  "totals": {
-    "no_options": 1
-  },
-  "parser_gaps": 1,
+  "questions_scanned": 964,
+  "totals": {},
+  "parser_gaps": 0,
   "research_gaps": 0,
   "web_fillable": 0,
-  "needs_parser_fix": 1,
-  "papers": [
-    {
-      "paper_id": "ibps_po_2022_prelims_dc85a244",
-      "path": "data\\batch6\\4.json",
-      "source_pdf": "corpus\\remaining\\IBPS\\PO\\2022\\Prelims\\_unknown_shift\\IBPS-PO-Pre-2022-16th-October-Shift-Wise-Previous-Year-Papers-Mock-08.pdf",
-      "paper_gaps": [],
-      "question_gaps": {
-        "no_options": [
-          50
-        ]
-      },
-      "unanchored_q_nums": [
-        50
-      ]
-    }
-  ]
+  "needs_parser_fix": 0,
+  "papers": []
 }

@@ -1,29 +1,10 @@
 {
   "papers_scanned": 10,
-  "questions_scanned": 879,
-  "totals": {
-    "no_options": 2
-  },
-  "parser_gaps": 2,
+  "questions_scanned": 877,
+  "totals": {},
+  "parser_gaps": 0,
   "research_gaps": 0,
   "web_fillable": 0,
-  "needs_parser_fix": 2,
-  "papers": [
-    {
-      "paper_id": "ibps_rrb_2024_mains_62d426f1",
-      "path": "data\\batch10\\7.json",
-      "source_pdf": "corpus\\remaining\\IBPS\\RRB\\2024\\Mains\\_unknown_shift\\IBPS-RRB-PO-Mains-Previous-Year-Paper-2024-English-File.pdf",
-      "paper_gaps": [],
-      "question_gaps": {
-        "no_options": [
-          20,
-          21
-        ]
-      },
-      "unanchored_q_nums": [
-        20,
-        21
-      ]
-    }
-  ]
+  "needs_parser_fix": 0,
+  "papers": []
 }

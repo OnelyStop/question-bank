@@ -101,6 +101,8 @@ def test_placeholder_stem():
 def test_boilerplate():
     check_in("coaching-house footer", "boilerplate",
              defects(question(stem="Visit www.bankersadda.com for more")))
+    check_not_in("puzzle that names Adda247 as a place", "boilerplate",
+                 defects(question(stem="Who visits the ADDA247 office last?")))
 
 
 def test_solution_bleed():
