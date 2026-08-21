@@ -1003,6 +1003,23 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     return kept
 
 
+
+def pdf_source_ref(pdf: Path) -> str:
+    """Repo-relative path to `pdf`, for research.py to find the file again.
+
+    .as_posix(), not str(): str(Path) uses the native separator, so this
+    committed a Windows-style path while every Linux-generated batch has
+    "corpus/done/...". Same field,
+    different bytes depending who ran the parser -- as_posix() is the one
+    value that is the same on every machine. The bare name alone is not
+    enough: the corpus is nested several folders deep.
+    """
+    try:
+        return pdf.resolve().relative_to(REPO).as_posix()
+    except ValueError:
+        return pdf.as_posix()
+
+
 def parse(pdf: Path) -> dict:
     text = read_text(pdf)
     has_image_at = image_regions(pdf)
@@ -1153,10 +1170,7 @@ def parse(pdf: Path) -> dict:
     meta = paper_meta(pdf, text)
     paper_id = make_paper_id(meta, pdf)
     fixes = load_corrections()
-    try:
-        source_pdf = str(pdf.resolve().relative_to(REPO))
-    except ValueError:
-        source_pdf = str(pdf)
+    source_pdf = pdf_source_ref(pdf)
 
     # A question is only marked has_image when its stem or its options are
     # missing AND the page holds an image region -- the text is a picture, so

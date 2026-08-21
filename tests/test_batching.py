@@ -19,6 +19,7 @@ from harness import check, step  # noqa: E402
 parser = step("1-extract", "parser")
 collect_pdfs = parser.collect_pdfs
 SKIP_NAME_RE = parser.SKIP_NAME_RE
+pdf_source_ref = parser.pdf_source_ref
 
 
 def test_order_is_case_sensitive_posix_not_native_path_sort():
@@ -81,6 +82,30 @@ def test_single_file_is_returned_as_is():
         f = Path(tmp) / "one.pdf"
         f.write_bytes(b"")
         check("a single PDF path passes through unchanged", collect_pdfs(f), [f])
+
+
+def test_source_ref_uses_forward_slashes_on_any_os():
+    # str(Path) serializes with the native separator. On Windows that wrote
+    # "corpus\done\..." into a committed JSON while every batch generated on
+    # Linux has "corpus/done/..." -- the same field, two different values
+    # depending on who ran the parser.
+    check(
+        "repo-relative path uses forward slashes",
+        pdf_source_ref(parser.REPO / "corpus" / "done" / "IBPS" / "a.pdf"),
+        "corpus/done/IBPS/a.pdf",
+    )
+
+
+def test_source_ref_outside_repo_falls_back_to_posix_too():
+    with tempfile.TemporaryDirectory() as tmp:
+        f = Path(tmp) / "sub" / "b.pdf"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_bytes(b"")
+        check(
+            "path outside REPO also comes back forward-slashed",
+            pdf_source_ref(f),
+            f.as_posix(),
+        )
 
 
 if __name__ == "__main__":
