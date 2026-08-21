@@ -19,6 +19,7 @@ QUESTION_RE = parser.QUESTION_RE
 line_text, join_fractions = parser.line_text, parser.join_fractions
 question_anchors, strip_hindi = parser.question_anchors, parser.strip_hindi
 DIRECTION_RE = parser.DIRECTION_RE
+UNNUMBERED_DIRECTION_RE = parser.UNNUMBERED_DIRECTION_RE
 
 
 # --- Q-prefixed direction ranges ---------------------------------------------
@@ -29,6 +30,23 @@ DIRECTION_RE = parser.DIRECTION_RE
 def direction_range(text):
     m = DIRECTION_RE.search(text)
     return m.groups() if m else None
+
+
+def test_answer_the_questions_opens_a_di_set():
+    # sbi-po-pre-2021.pdf: "Answer the questions based on the information
+    # given below" opens a DI table, but only "Answer the following" was
+    # recognized -- the table glued onto the previous question's stem
+    # instead of becoming its own direction.
+    check("recognized as a direction header",
+          bool(UNNUMBERED_DIRECTION_RE.match(
+              "Answer the questions based on the information given below.")),
+          True)
+    check("existing 'Answer the following' still works (regression)",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer the following questions.")),
+          True)
+    check("plain prose containing neither phrase is not a direction",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer wisely and carefully.")),
+          False)
 
 
 def test_q_prefixed_range_is_read_same_as_bare():
