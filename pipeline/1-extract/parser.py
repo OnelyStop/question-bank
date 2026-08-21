@@ -28,7 +28,10 @@ DONE = REPO / "corpus" / "done"
 HEADER_FRAC = 0.12
 FOOTER_FRAC = 0.08
 
-DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+# Bengali only. Devanagari is deliberately NOT here: a Hindi-only stem with
+# English options is a question this bank keeps, and treating the two scripts
+# alike dropped 40 of batch 1.
+BENGALI_RE = re.compile(r"[ঀ-৿]")
 NOISE_RE = re.compile(
     # The page number often shares the footer line -- "11 Visit: adda247.com" --
     # so anchoring on the domain alone left the whole footer in the text, where
@@ -459,7 +462,11 @@ def join_fractions(lines, bars=()):
     return kept, flags
 
 
-DEV_RUN_RE = re.compile(r"[ऀ-ॿ][ऀ-ॿ\s।]*")
+# Devanagari and Bengali. A bilingual paper appends the translation to the
+# English, and only Devanagari was cut -- an SBI Clerk paper printed its
+# Bengali in ShonarBangla, a legacy font whose text layer does not even
+# decode to real words, and 63 of its 98 questions carried the mojibake.
+DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -761,6 +768,42 @@ def options_from_direction(direction: str) -> dict[str, str]:
     return opts
 
 
+def unreadable(stem: str, opts: dict | None = None,
+               bengali_paper: bool = False) -> bool:
+    """Left in a script this bank cannot use, after the strip already ran.
+
+    strip_hindi takes the translation off a bilingual question and keeps the
+    English. A stem still holding Devanagari or Bengali afterwards had no
+    English to keep -- the fallbacks around it deliberately restore the raw text
+    rather than ship an empty stem, so it arrives here intact.
+
+    One SBI Clerk paper prints 31 of its 98 questions in Bengali only, set in
+    ShonarBangla, whose text layer decodes only in part: "শুধুমাত্র" survives,
+    but "যদি" comes out as "যশি" and "বিবৃতি" as "শব্ব্তশি". Those are not the
+    words on the page, and 29 of the 31 carry a full option set -- so every gate
+    passes them and the defect ships looking complete.
+
+    The options count too: where stripping an option would empty it the raw text
+    is kept deliberately, so a question can read as English and still offer five
+    Bengali answers. And what the strip leaves behind is sometimes only
+    punctuation -- ": : I. , II." is the whole of one syllogism stem -- so a
+    non-empty stem with no word and no number in it is unreadable as well. A
+    blank stem is not: an error-spotting set states its task in the direction.
+    """
+    blob = (stem or "") + " " + " ".join((opts or {}).values())
+    if BENGALI_RE.search(blob):
+        return True
+    # What the strip leaves of a Bengali-only question is sometimes punctuation
+    # alone -- ": : I. , II." is one whole syllogism stem. Short, wordless and
+    # numberless together; a long stem in another script is a real question and
+    # stays. A blank stem is not caught either: an error-spotting set states its
+    # task in the direction and prints nothing but its five candidates.
+    stem = (stem or "").strip()
+    if not bengali_paper or not stem or len(stem) > 24:
+        return False
+    return not (re.search(r"[A-Za-z]{3,}", stem) or re.search(r"\d", stem))
+
+
 def not_supplied(stem: str, opts: dict, direction: str | None) -> bool:
     """Is something missing that the paper actually printed somewhere?
 
@@ -919,17 +962,27 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     questions to that column interleave, and rejecting them outright cost 3 more
     in an earlier batch.
 
-    A section restart -- 1-35 Reasoning, then 1-35 English -- reuses every
-    number legitimately, so it needs the escape hatch: it keeps counting where a
-    sentence label stands alone. A reused number that opens a run of three
-    starts a new section, and the numbers seen so far are released.
+    Reuse is not the only tell. A section paper numbered 36-90 never uses the
+    low numbers at all, so "5 : 3 respectively" inside a ratio was a free number
+    and started question 5 -- cutting the real question after its first line and
+    losing all five options. A bare number far below where the paper has got to
+    is not a question either, whether or not it has been used.
+
+    A section restart -- 1-35 Reasoning, then 1-35 English -- goes far backwards
+    legitimately, so both rules need the same escape hatch: it keeps counting
+    where a ratio or a sentence label stands alone. A rejected number that opens
+    a run of three starts a new section, and the numbers seen so far are
+    released.
     """
     seen = [(int(m.group(1) or m.group(2)), m.start(), m.end(), m.group(1) is None)
             for m in found if not q_style or m.group(1)]
     kept: list[tuple[int, int, int]] = []
     used: set[int] = set()
+    highest = 0
     for i, (num, start, end, bare) in enumerate(seen):
-        if bare and num in used:
+        # 20 is wider than any column interleave seen here (41 44 45 42 43 46
+        # is off by 3) and far below a section restart, which lands near 1.
+        if bare and (num in used or num < highest - 20):
             run, prev = 1, num
             for nxt in seen[i + 1:]:
                 if not 1 <= nxt[0] - prev <= 2:
@@ -939,8 +992,10 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
             if run < 3:
                 continue
             used.clear()
+            highest = num
         kept.append((num, start, end))
         used.add(num)
+        highest = max(highest, num)
     return kept
 
 
@@ -1106,8 +1161,12 @@ def parse(pdf: Path) -> dict:
     resolve_image_bodied([dedup[k] for k in sorted(dedup)])
     built = [apply_correction(full_question(dedup[k], paper_id, meta), fixes)
              for k in sorted(dedup)]
-    kept = [q for q in built if not q["has_image"]]
+    bengali_paper = bool(BENGALI_RE.search(text))
+    kept = [q for q in built
+            if not q["has_image"] and not unreadable(q["stem"], q["options"], bengali_paper)]
     image_only = [q["q_num"] for q in built if q["has_image"]]
+    script_only = [q["q_num"] for q in built if not q["has_image"]
+                   and unreadable(q["stem"], q["options"], bengali_paper)]
     return {
         "source": pdf.name,
         # Repo-relative, so research.py can find the file again. The bare name
@@ -1120,6 +1179,7 @@ def parse(pdf: Path) -> dict:
         # reads as five questions that were pictures, not five that went
         # missing. Step 4 needs to know they existed.
         "image_only_q_nums": image_only,
+        "script_only_q_nums": script_only,
         "questions": kept,
     }
 
@@ -1349,7 +1409,7 @@ def main(argv: list[str] | None = None) -> int:
     left = len(pdfs) - len(batch)
     print(f"  batch {number}: {len(batch)} PDFs, {left} left in {args.src}\n")
 
-    total_q = clean = total_img = 0
+    total_q = clean = total_img = total_script = 0
     index = []
     parsed_pdfs = []
     for n, pdf in enumerate(batch, 1):
@@ -1364,14 +1424,16 @@ def main(argv: list[str] | None = None) -> int:
         # take. parse() leaves those out, so they are counted from the numbers
         # it recorded and the rate below measures only the parser.
         imaged = len(paper["image_only_q_nums"])
+        scripted = len(paper["script_only_q_nums"])
         no_opts = sum(1 for q in qs if not q["options"])
         # A stem the direction supplies is not missing -- same test parse() used
         # to decide the question was worth keeping.
         no_stem = sum(1 for q in qs
                       if not_supplied(q["stem"], q["options"], q["direction_text"])
                       and q["options"])
-        total_q += len(qs) + imaged
+        total_q += len(qs) + imaged + scripted
         total_img += imaged
+        total_script += scripted
         clean += len(qs) - sum(1 for q in qs
                                if not_supplied(q["stem"], q["options"], q["direction_text"]))
 
@@ -1383,12 +1445,16 @@ def main(argv: list[str] | None = None) -> int:
                       "year": paper["year"], "questions": len(qs),
                       "image_bodied": imaged,
                       "image_only_q_nums": paper["image_only_q_nums"],
+                      "script_only": scripted,
+                      "script_only_q_nums": paper["script_only_q_nums"],
                       "no_options": no_opts, "no_stem": no_stem})
         label = " ".join(str(v) for v in (paper["bank"], paper["role"],
                                           paper["exam_type"], paper["year"]) if v)
         bits = []
         if imaged:
             bits.append(f"image={imaged}")
+        if scripted:
+            bits.append(f"script={scripted}")
         if no_opts:
             bits.append(f"no_opts={no_opts}")
         if no_stem:
@@ -1396,9 +1462,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"  {n:2d}. {len(qs):4d} q   {label:32}   {' '.join(bits)}")
 
     (out / "index.json").write_text(json.dumps(index, indent=2), encoding="utf-8")
-    text_q = total_q - total_img
+    text_q = total_q - total_img - total_script
     pct = 100 * clean / text_q if text_q else 0
-    print(f"\n  {total_q} questions: {total_img} image-bodied, {text_q} text"
+    print(f"\n  {total_q} questions: {total_img} image-bodied, "
+          f"{total_script} script-only, {text_q} text"
           f" -> {clean} complete ({pct:.1f}% of text)  ->  {out}")
 
     # Move only what parsed. A PDF that raised is left in remaining/ so the next

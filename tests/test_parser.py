@@ -162,6 +162,33 @@ def test_math_alphanumerics_are_folded():
           line_text(line(("Find the value of x.", 12.0, 4))), "Find the value of x.")
 
 
+# --- scripts ----------------------------------------------------------------
+def test_bengali_only_question_is_dropped():
+    # One SBI paper prints 31 of 98 questions in Bengali only, in a font whose
+    # text layer decodes wrongly -- "যদি" comes out "যশি". 29 of them carry a
+    # full option set, so every gate passes them.
+    check("bengali stem", parser.unreadable("শব্ব্তশি: শকেু আযপল্", {"a": "1"}), True)
+    check("bengali options", parser.unreadable("Which follows?", {"a": "যশি"}), True)
+
+
+def test_hindi_only_question_is_kept():
+    # A Hindi stem with English options is a question this bank keeps. Treating
+    # the two scripts alike took 40 questions out of batch 1.
+    check("hindi stem stays",
+          parser.unreadable("C से ठीक भारी कौि है?", {"a": "B", "b": "D"}), False)
+
+
+def test_strip_leftovers_only_in_a_bengali_paper():
+    # ": : I. , II." is the whole of one syllogism stem after its Bengali was
+    # removed -- short, wordless, numberless.
+    check("residue in a bengali paper", parser.unreadable(": : I. , II.", {}, True), True)
+    check("same stem elsewhere is left alone",
+          parser.unreadable(": : I. , II.", {}, False), False)
+    check("a blank stem is not unreadable", parser.unreadable("", {"a": "1"}, True), False)
+    check("a real short stem survives",
+          parser.unreadable("Find the value of 2 + 2", {"a": "4"}, True), False)
+
+
 # --- picture, or parse failure? ---------------------------------------------
 # Per question the two look identical: no stem, five options, a direction. What
 # separates them is how much of the SET sits on an image.

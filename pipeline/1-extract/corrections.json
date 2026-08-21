@@ -103,6 +103,41 @@
     "ibps_rrb_2021_prelims_6825a2d3::q043": {
       "stem": "(\\frac{3}{4})^{3} \\times (\\frac{2}{3})^{4} \\div ? = \\frac{1}{624}",
       "note": "Three bars at y=190.2 pair 3 over 4, 2 over 3, and 1 over 624; the 3 and 4 at y=176.7 are exponents, not numerators. Solving: (27/64)(16/81) = 1/12, so ? = 624/12 = 52 -- option (e)."
+    },
+
+    "sbi_clerk_2019_mains_3778ee5c::q047": {
+      "stem": "Statement: Start to think of travelling by train for a holiday. A train journey can give one a better view of places on the way which an air journey cannot give. You can walk around whenever you want, meet other travelers and locals, relax and watch the landscape go peacefully by. Train travel is both a beautiful and affordable way to see the country, and no trip is more scenic than the trip by trains. Conclusions: I. While going for a holiday, people want to enjoy the view of the places on the way. II. People should not travel by air when they are going for a holiday. Which of the following can be concluded from the given statement?",
+      "options": {
+        "a": "Only I follows",
+        "b": "Only II follows",
+        "c": "Both I and II follow",
+        "d": "None follows",
+        "e": "Either I or II follows"
+      },
+      "note": "Statement-and-conclusions question: the conclusions, the ask and all five options sit below the statement in the same right-hand column, but the block was cut at the statement's end."
+    },
+
+    "sbi_clerk_2019_mains_3778ee5c::q058": {
+      "options": {
+        "a": "2\\frac{1}{2} days",
+        "b": "5 days",
+        "c": "3 days",
+        "d": "4 days",
+        "e": "4\\frac{1}{2} days"
+      },
+      "note": "Options are at y 572-591 of the same right-hand column; reading order jumped to question 54 in the left column instead. Solving: A is 1/33, C four times as efficient (33 days -> 3 days for the three together), B:C = 3:2, total 1/3 -- 3 days, option (c). The stem parsed correctly."
+    },
+
+    "sbi_clerk_2020_mains_1e762e8e::q058": {
+      "stem": "The certain number of men can do a work in some days. When eight more men would join them, then work would be finished in 40\\% less time. If 33\\frac{1}{3} \\% less men can do the same work in 30 more days, then find 12 men can finish half of the same work in how many days?",
+      "options": {"a": "20", "b": "40", "c": "36", "d": "24", "e": "30"},
+      "note": "Cut mid-sentence at 'If 33', where a stacked 1/3 sits beside the number; the rest of the stem and all five options continue down the same right-hand column to y 600."
+    },
+
+    "sbi_clerk_2020_prelims_be312f17::q068": {
+      "stem": "\\frac{510}{?} = \\sqrt{324} + 3.25",
+      "options": {"a": "12", "b": "48", "c": "24", "d": "6", "e": "18"},
+      "note": "Nothing but '68.' survived: the whole equation is a stacked fraction (bar y=399.4, x 333.1-346.0, 510 over ?) beside a radical whose overbar sits at y=393.5. Solving: sqrt(324) = 18, 18 + 3.25 = 21.25, and 510/21.25 = 24 -- option (c)."
     }
   }
 }
