@@ -1,0 +1,53 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 906,
+  "totals": {
+    "no_exam_type": 2,
+    "no_options": 1,
+    "truncated_stem": 1
+  },
+  "parser_gaps": 2,
+  "research_gaps": 2,
+  "web_fillable": 1,
+  "needs_parser_fix": 1,
+  "papers": [
+    {
+      "paper_id": "sbi_clerk_2023_unknown_a6bd9cc3",
+      "path": "data\\batch15\\10.json",
+      "source_pdf": "corpus/done/SBI/Clerk/2023/_unknown_stage/_unknown_shift/SBI-Clerk-Previous-Year-Paper-2023.pdf",
+      "paper_gaps": [
+        "no_exam_type"
+      ],
+      "question_gaps": {},
+      "unanchored_q_nums": []
+    },
+    {
+      "paper_id": "sbi_clerk_2022_prelims_a2c059ce",
+      "path": "data\\batch15\\3.json",
+      "source_pdf": "corpus/done/SBI/Clerk/2022/Prelims/_unknown_shift/SBI-Clerk-Prelims-2022-25th-Nov-Shift-wise-PYP-Mock-03.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          36
+        ]
+      },
+      "unanchored_q_nums": [
+        36
+      ]
+    },
+    {
+      "paper_id": "sbi_clerk_2022_unknown_ac5ffb0a",
+      "path": "data\\batch15\\7.json",
+      "source_pdf": "corpus/done/SBI/Clerk/2022/_unknown_stage/_unknown_shift/SBI-Clerk-Previous-Year-Paper-2022.pdf",
+      "paper_gaps": [
+        "no_exam_type"
+      ],
+      "question_gaps": {
+        "truncated_stem": [
+          66
+        ]
+      },
+      "unanchored_q_nums": []
+    }
+  ]
+}
