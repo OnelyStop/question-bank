@@ -1,0 +1,47 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 858,
+  "totals": {
+    "no_options": 5
+  },
+  "parser_gaps": 5,
+  "research_gaps": 0,
+  "web_fillable": 0,
+  "needs_parser_fix": 5,
+  "papers": [
+    {
+      "paper_id": "ibps_po_2010_prelims_e62351f3",
+      "path": "data\\batch7\\10.json",
+      "source_pdf": "corpus/done/IBPS/PO/no_year/Prelims/_unknown_shift/IBPS-PO-PRE-QUANTITATIVE-APPTITUDEMEMORY-BASED.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          41,
+          70
+        ]
+      },
+      "unanchored_q_nums": [
+        41,
+        70
+      ]
+    },
+    {
+      "paper_id": "ibps_po_2025_mains_66f6566a",
+      "path": "data\\batch7\\5.json",
+      "source_pdf": "corpus/done/IBPS/PO/2025/Mains/_unknown_shift/IBPS-PO-Mains-2025-Memory-Based-Paper-12-Oct-2025-English.pdf",
+      "paper_gaps": [],
+      "question_gaps": {
+        "no_options": [
+          86,
+          87,
+          89
+        ]
+      },
+      "unanchored_q_nums": [
+        86,
+        87,
+        89
+      ]
+    }
+  ]
+}
