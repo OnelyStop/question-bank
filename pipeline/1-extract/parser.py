@@ -49,7 +49,14 @@ QUESTION_RE = re.compile(
     r"(?im)^\s*(?:(?:Question\s+|Q\s*\.?\s*)([1-9]\d{0,2})\s*[.):]"
     r"|([1-9]\d{0,2})\s*[.):](?!\d))\s*"
 )
-DIRECTION_RE = re.compile(r"(?is)Directions?\s*\(\s*(\d+)\s*[-–—to]+\s*(\d+)\s*\)\s*:?\s*")
+# The optional "Q" is a filename-numbering habit some papers carry into
+# their direction headers too -- "Directions (Q131-135)", "(Q.13-20)" -- as
+# well as "(101-105)". Skipping it here is not the same as making it
+# optional in QUESTION_RE: this only fires between "(" and the digits, so
+# it cannot swallow an actual question anchor.
+DIRECTION_RE = re.compile(
+    r"(?is)Directions?\s*\(\s*(?:Q\.?\s*)?(\d+)\s*[-–—to]+\s*(?:Q\.?\s*)?(\d+)\s*\)\s*:?\s*"
+)
 # Some papers never number their directions -- one paper writes 50 of these and
 # not a single "Directions (111-115):" -- so the questions they cover have to be
 # taken from position instead of from a stated range.
