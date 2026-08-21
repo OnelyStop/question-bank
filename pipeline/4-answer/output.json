@@ -31,5 +31,6 @@
   "question_pattern": "shared_directions_set",
   "has_image": false,
   "image_refs": [],
+  "corrected": ["stem", "options"],
   "is_active": true
 }

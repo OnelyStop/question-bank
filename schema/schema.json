@@ -228,6 +228,14 @@
       },
       "x-fill": 0.0
     },
+    "corrected": {
+      "type": "array",
+      "description": "Step 1. Field names on this question whose value was transcribed by hand from the source PDF rather than parsed, set from pipeline/1-extract/corrections.json. Present only on a corrected question, so its absence means the parse stands on its own.",
+      "items": {
+        "type": "string"
+      },
+      "x-fill": 0.4
+    },
     "is_active": {
       "type": "boolean",
       "description": "Import. false if options missing/empty.",

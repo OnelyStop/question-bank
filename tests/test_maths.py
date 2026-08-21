@@ -79,6 +79,19 @@ def test_display_round_trip():
         check(f"display {latex}", display(latex), want)
 
 
+def test_display_brackets_compound_fraction_halves():
+    # "a/b" only reads right when both halves are single values. Flattening
+    # \frac{?-0.5}{0.2} to "?-0.5/0.2" is read as ? - (0.5/0.2): the JSON was
+    # right and the review page said otherwise.
+    check("expression numerator bracketed",
+          display(r"(\frac{?-0.5}{0.2}) = \frac{120}{2}"), "((?-0.5)/0.2) = 120/2")
+    check("root numerator bracketed",
+          display(r"\frac{\sqrt{16}}{2} = ?"), "(√16)/2 = ?")
+    # Plain numbers stay bare, or every fraction in the bank gains noise.
+    check("plain halves untouched",
+          display(r"\frac{15}{100} \times ? = 240"), "15/100 × ? = 240")
+
+
 def test_latex_braces_balance():
     # An unbalanced brace renders as garbage downstream, so check_questions
     # rejects it -- the parser must never emit one.
