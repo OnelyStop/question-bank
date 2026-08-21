@@ -149,6 +149,59 @@ def test_no_bar_no_merge():
     check("left apart without a bar", [t for _, t in merged], ["1", "3 %"])
 
 
+def test_math_alphanumerics_are_folded():
+    # Equation-set papers use "𝑥" and "𝟏" — U+1D465 and U+1D7CF. The bold digit
+    # is not matched by \d, so to_latex silently declined to convert anything
+    # containing one, and 49 questions across three batches carried them into
+    # the JSON. Folding belongs at extraction, not only in the review PDF.
+    check("italic x folded",
+          line_text(line(("I. 4/\U0001d465 = 3", 12.0, 4))), "I. 4/x = 3")
+    check("bold digit folded",
+          line_text(line(("\U0001d7cf\U0001d7d0 apples", 12.0, 4))), "12 apples")
+    check("ordinary text untouched",
+          line_text(line(("Find the value of x.", 12.0, 4))), "Find the value of x.")
+
+
+# --- picture, or parse failure? ---------------------------------------------
+# Per question the two look identical: no stem, five options, a direction. What
+# separates them is how much of the SET sits on an image.
+def stemless(n, on_image, direction="d1", options=None):
+    return {"q_num": n, "stem": "", "direction_id": direction,
+            "options": options if options is not None else {"a": "1", "b": "2"},
+            "on_image": on_image}
+
+
+def test_stemless_set_mostly_on_images_is_a_picture():
+    # A symbol set prints its statements as graphics: every question is on one.
+    qs = [stemless(n, True) for n in (43, 44, 45)]
+    parser.resolve_image_bodied(qs)
+    check("whole set marked", [q["has_image"] for q in qs], [True, True, True])
+
+
+def test_stemless_set_with_one_stray_image_is_not():
+    # An error-spotting set states the task in its direction and prints only the
+    # five candidate sentences. One chart elsewhere on a page is not the
+    # question -- dropping q93 on that evidence lost five good options.
+    qs = [stemless(n, n == 93) for n in range(89, 96)]
+    parser.resolve_image_bodied(qs)
+    check("none marked", [q["has_image"] for q in qs], [False] * 7)
+
+
+def test_missing_options_is_always_a_picture():
+    # "(a) (b) (c) (d) (e)" with nothing after them: the values were drawn.
+    qs = [{"q_num": 63, "stem": "In tank R, pipe A was opened for 9 hours.",
+           "options": {}, "direction_id": "d2", "on_image": True}]
+    parser.resolve_image_bodied(qs)
+    check("no options and on an image", qs[0]["has_image"], True)
+
+
+def test_complete_question_is_never_a_picture():
+    qs = [{"q_num": 1, "stem": "What is 2 + 2?", "options": {"a": "3", "b": "4"},
+           "direction_id": None, "on_image": True}]
+    parser.resolve_image_bodied(qs)
+    check("stem and options present", qs[0]["has_image"], False)
+
+
 # --- bilingual papers -------------------------------------------------------
 # Removing Devanagari runs (not truncating at the first one) keeps the Latin
 # labels inside a Hindi direction; truncation wiped them to "".

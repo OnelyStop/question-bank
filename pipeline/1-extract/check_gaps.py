@@ -83,7 +83,11 @@ def question_gaps(q: dict) -> list[str]:
     stem = (q.get("stem") or "").strip()
     if not q.get("options"):
         found.append("no_options")
-    if not stem:
+    # An error-spotting set states its task in the direction and prints nothing
+    # but the five candidate sentences, so a blank stem there is the paper's
+    # shape, not a gap. parse() keeps those questions on the same test; without
+    # it this report contradicts the batch it just scored.
+    if not stem and not (q.get("direction_text") or "").strip():
         found.append("empty_stem")
     elif PLACEHOLDER_RE.match(stem):
         found.append("placeholder_stem")

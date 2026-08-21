@@ -30,9 +30,13 @@ FOOTER_FRAC = 0.08
 
 DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
 NOISE_RE = re.compile(
-    r"(?i)^(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
-    r"careerpower\.in.*|store\.adda247\.com.*|website:.*|email:.*|"
-    r"info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
+    # The page number often shares the footer line -- "11 Visit: adda247.com" --
+    # so anchoring on the domain alone left the whole footer in the text, where
+    # it ran on into a passage's direction and into option (e).
+    r"(?i)^(?:\d{1,3}\s+)?"
+    r"(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
+    r"careerpower\.in.*|store\.adda247\.com.*|(?:web)?site\s*:.*|visit\s*:.*|"
+    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
 )
 
 # The `(?!\d)` guard applies only to the bare form -- with an explicit "Q" there
@@ -83,6 +87,14 @@ SUPERSCRIPT_FLAG = 1
 NUMERATOR_RE = re.compile(r"[√∛]?\s*\d{1,4}\s*%?")
 SUPERSCRIPT_MAP = str.maketrans("0123456789+-=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ")
 ORDINAL_RE = re.compile(r"(?i)st|nd|rd|th")
+# Mathematical alphanumerics: "𝑥", and "𝟏" which is a digit no \d matches. They
+# arrive from equation-set papers, so fold them before anything reads the text
+# -- to_latex works in \d, and a bold 1 left it silently declining to convert.
+MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
+
+
+def normalise(text: str) -> str:
+    return MATH_ALNUM.sub(lambda m: unicodedata.normalize("NFKC", m.group(0)), text)
 # What an ordinal suffix may follow: "28th June", and "IVth term of the series".
 ORDINAL_STEM_RE = re.compile(r"(?:\d|\b[IVXLCDM]+)$")
 
@@ -139,7 +151,7 @@ def line_text(line: dict) -> str:
             out.append(raised)
         else:
             out.append(f"^({text.strip('()')})")
-    return "".join(out)
+    return normalise("".join(out))
 
 
 def find_gutter(blocks: list[dict], width: float) -> float | None:
@@ -749,6 +761,55 @@ def options_from_direction(direction: str) -> dict[str, str]:
     return opts
 
 
+def not_supplied(stem: str, opts: dict, direction: str | None) -> bool:
+    """Is something missing that the paper actually printed somewhere?
+
+    Not the same as "has an empty field". Options are never optional -- a
+    question with none is unanswerable. A stem is, when a direction carries the
+    task for the whole set: error-spotting sets print "choose the sentence with
+    a grammatical error" once and then nothing but the five candidates under
+    each number.
+
+    Used both by resolve_image_bodied and to score a batch, so the two can
+    never disagree about what "complete" means.
+    """
+    return not opts or not (stem or direction)
+
+
+def resolve_image_bodied(questions) -> None:
+    """Mark the questions that are a picture rather than a parse failure.
+
+    No options always means the values were drawn instead of typed -- the page
+    reads "(a) (b) (c) (d) (e)" with nothing after them.
+
+    A missing stem is the ambiguous one, and the two cases look identical per
+    question: both have five options and a direction. What separates them is how
+    much of the SET sits on an image. Where every stem-less question in a
+    direction group is on one, the stems are pictures -- symbol sets and
+    "what value should come in place of (?)" print their statements as
+    graphics. Where one of seven is, that image is something else on the page,
+    and dropping the question throws away five good options with it: q93 of two
+    RRB papers went that way, and 34 more across one batch.
+    """
+    groups: dict[object, list[dict]] = {}
+    for q in questions:
+        if not q["stem"] and q["options"]:
+            groups.setdefault(q["direction_id"], []).append(q)
+    # Majority, not all: one undetected image region in a set of five should not
+    # hand back the whole set.
+    drawn = {did: sum(1 for q in qs if q["on_image"]) * 2 > len(qs)
+             for did, qs in groups.items()}
+
+    for q in questions:
+        if not q["options"]:
+            q["has_image"] = q["on_image"]
+        elif not q["stem"]:
+            q["has_image"] = q["on_image"] and drawn.get(q["direction_id"], False)
+        else:
+            q["has_image"] = False
+        del q["on_image"]
+
+
 def stem_from_blank(direction: str, num: int) -> str:
     """For cloze sets, the sentence around this question's blank in the passage.
 
@@ -909,6 +970,12 @@ def parse(pdf: Path) -> dict:
     directions = []
     for i, (start, end, lo, hi) in enumerate(heads):
         nxt_head = heads[i + 1][0] if i + 1 < len(heads) else len(text)
+        # Cut at the nearest anchor, not at the first question this direction
+        # covers. Running to its own `lo` sounds more correct and on a
+        # two-column page it swallows the questions printed beside the header --
+        # 1,300 characters of questions 41-45 landed inside direction (46-50),
+        # and their options stayed unrecoverable anyway because the labels
+        # interleave.
         first_q = next((s for _, s, _ in anchors if s >= end), None)
         stop = min(first_q if first_q is not None else len(text), nxt_head)
         body = " ".join(text[end:stop].split())
@@ -1005,7 +1072,10 @@ def parse(pdf: Path) -> dict:
             "q_num": num,
             "stem": stem,
             "options": opts,
-            "has_image": bool((not stem or not opts) and has_image_at.get(num)),
+            # Provisional: whether a picture sits where this question is.
+            # Whether that picture IS the question is decided per direction set
+            # once they are all built -- see resolve_image_bodied.
+            "on_image": bool(has_image_at.get(num)),
             "direction_text": d_text,
             "direction_id": direction_ids.setdefault(
                 d_text, f"d{len(direction_ids) + 1:03d}") if d_text else None,
@@ -1033,6 +1103,7 @@ def parse(pdf: Path) -> dict:
     # missing AND the page holds an image region -- the text is a picture, so
     # there is nothing to take. Keeping it would file a stem-less, option-less
     # row in the bank; a question you cannot read is not a question.
+    resolve_image_bodied([dedup[k] for k in sorted(dedup)])
     built = [apply_correction(full_question(dedup[k], paper_id, meta), fixes)
              for k in sorted(dedup)]
     kept = [q for q in built if not q["has_image"]]
@@ -1073,13 +1144,6 @@ ASCII_FOLD = str.maketrans({
 # Mathematical alphanumerics (𝑥, 𝟔) have no glyph in any font here; NFKC maps
 # them back to the plain letters they stand for. Applied only to that block, so
 # it cannot also flatten x² into x2.
-MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
-
-
-def normalise(text: str) -> str:
-    return MATH_ALNUM.sub(lambda m: unicodedata.normalize("NFKC", m.group(0)), text)
-
-
 def flatten(text: str) -> str:
     """Latin-1 fallback. Anything unmapped becomes <U+XXXX>, not a silent "?"."""
     return "".join(c if ord(c) < 256 else f"<U+{ord(c):04X}>"
@@ -1285,11 +1349,15 @@ def main(argv: list[str] | None = None) -> int:
         # it recorded and the rate below measures only the parser.
         imaged = len(paper["image_only_q_nums"])
         no_opts = sum(1 for q in qs if not q["options"])
-        no_stem = sum(1 for q in qs if not q["stem"])
+        # A stem the direction supplies is not missing -- same test parse() used
+        # to decide the question was worth keeping.
+        no_stem = sum(1 for q in qs
+                      if not_supplied(q["stem"], q["options"], q["direction_text"])
+                      and q["options"])
         total_q += len(qs) + imaged
         total_img += imaged
-        clean += len(qs) - len({q["q_num"] for q in qs
-                                if not q["options"] or not q["stem"]})
+        clean += len(qs) - sum(1 for q in qs
+                               if not_supplied(q["stem"], q["options"], q["direction_text"]))
 
         (out / f"{n}.json").write_text(
             json.dumps(paper, indent=2, ensure_ascii=False), encoding="utf-8")
