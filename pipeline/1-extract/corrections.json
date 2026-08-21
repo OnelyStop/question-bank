@@ -1,6 +1,26 @@
 {
   "_note": "Transcription only. Every value here is visible in the source PDF and was read off its span geometry -- numerator, denominator and the bar between them. Where the question is arithmetic, the transcription is checked by solving it: the result must be one of the printed options, which is recorded in each note. Nothing here is inferred content.",
   "questions": {
+    "ibps_po_2010_prelims_e62351f3::q041": {
+      "options": {
+        "a": "\\frac{37}{75}",
+        "b": "\\frac{32}{75}",
+        "c": "\\frac{36}{75}",
+        "d": "\\frac{28}{75}",
+        "e": "\\frac{26}{75}"
+      },
+      "note": "Stacked fractions: the parser kept the (a)-(e) labels but the numerator/denominator glyphs never merged, leaving five empty options. Checked by solving: numbers 1-300 divisible by 3 or 7 = 100 + 42 - 14 (inclusion-exclusion, 21 = lcm) = 128; 128/300 = 32/75, option (b)."
+    },
+    "ibps_po_2010_prelims_e62351f3::q070": {
+      "options": {
+        "a": "295",
+        "b": "330",
+        "c": "270",
+        "d": "375",
+        "e": "220"
+      },
+      "note": "Last question on its page; the options line extracted no text at all (nothing after the stem in read_text()'s output), though the page image shows plain '(a) 295 (b) 330 (c) 270 (d) 375 (e) 220'. Checked by solving: 15.5% of 849 + 24.8% of 651 = 131.595 + 161.448 = 293.04, approx. 295, option (a) -- the direction says 'approximate value'."
+    },
     "ibps_po_2020_mains_44093f2d::q044": {
       "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "note": "The source prints '(III' with no closing paren -- a typo in the paper, not a parse failure. Restored so the label matches (I) and (II) beside it; nothing else in the stem is changed."

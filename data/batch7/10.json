@@ -136,7 +136,13 @@
       "paper_id": "ibps_po_2010_prelims_e62351f3",
       "q_num": 41,
       "stem": "Find the probability that a number from 1 to 300 is divisible by 3 or 7 ?",
-      "options": {},
+      "options": {
+        "a": "\\frac{37}{75}",
+        "b": "\\frac{32}{75}",
+        "c": "\\frac{36}{75}",
+        "d": "\\frac{28}{75}",
+        "e": "\\frac{26}{75}"
+      },
       "direction_id": null,
       "direction_text": null,
       "direction_has_image": false,
@@ -147,7 +153,10 @@
       "year": 2010,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q042",
@@ -822,7 +831,13 @@
       "paper_id": "ibps_po_2010_prelims_e62351f3",
       "q_num": 70,
       "stem": "15.5\\% of 849 + 24.8\\% of 651 = ?",
-      "options": {},
+      "options": {
+        "a": "295",
+        "b": "330",
+        "c": "270",
+        "d": "375",
+        "e": "220"
+      },
       "direction_id": "d005",
       "direction_text": "What approximate value should come in the place of question mark (?) in the questions given below ?",
       "direction_has_image": false,
@@ -833,7 +848,10 @@
       "year": 2010,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     }
   ]
 }

@@ -66,14 +66,12 @@
     "role": "PO",
     "exam_type": "Mains",
     "year": 2025,
-    "questions": 109,
-    "image_bodied": 1,
-    "image_only_q_nums": [
-      90
-    ],
+    "questions": 110,
+    "image_bodied": 0,
+    "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 3,
+    "no_options": 0,
     "no_stem": 0
   },
   {
@@ -159,7 +157,7 @@
     "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 2,
+    "no_options": 0,
     "no_stem": 0
   }
 ]

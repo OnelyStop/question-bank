@@ -78,17 +78,22 @@ UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
 BARE_UPPER_OPTION_RE = re.compile(r"(?m)^\s*([A-E])\)\s+")
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
+# Lookbehind for a preceding \n or string start: a real question anchor or
+# direction header only ever opens its own line, by the same convention
+# QUESTION_START_RE itself requires.
+_LINE_START = r"(?:(?<=\n)|(?<=\A))"
 BLEED_RE = re.compile(
     # "Directions (32-34):" and "Directions 32-34:" are the same header;
     # requiring the paren let the unparenthesised form bleed into option (e).
-    # Line-anchored (lookbehind for a preceding \n or string start), unlike
-    # the other branches here: without it, "Directions?" also matched the
-    # ordinary word "direction(" turning up mid-sentence inside a
-    # seating-puzzle's own restated direction -- "...faces opposite
-    # direction( Opposite direction means..." -- and because this whole
-    # pattern is .*$ under DOTALL, that one false match deleted everything
-    # after it, options included, from five straight questions in one paper.
-    r"(?is)\s*(?:(?:(?<=\n)|(?<=\A))\s*Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # Both this and "Q\d+." below are line-anchored: without it, "Directions?"
+    # also matched the ordinary word "direction(" mid-sentence -- "...faces
+    # opposite direction( Opposite direction means..." -- and "Q\d+\."
+    # matched a DI table's own "Q2." abbreviation ending a sentence --
+    # "...total project handle by Q2." Because this whole pattern is .*$
+    # under DOTALL, either false match deleted everything after it, options
+    # included.
+    r"(?is)\s*(?:" + _LINE_START + r"\s*Directions?\s*[\(\d]|"
+    + _LINE_START + r"\s*Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
     # "Ans.(b)" printed after each question's options is an inline answer key,
     # not part of option (e). It bled into the last option of all 100 questions
     # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
