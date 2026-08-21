@@ -691,10 +691,16 @@
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q030",
       "paper_id": "sbi_po_2021_prelims_5cb01cf7",
       "q_num": 30,
-      "stem": "Answer the questions based on the information given below. The table given below shows the sum of number of packets of baked goods i.e. bread (brown + white) and biscuit sold, percentage of number of biscuit packets sold out of total number of packets of baked goods sold and ratio of number of brown bread packets sold to that of white bread packets sold, by 4 different bakeries. Number of biscuit packets sold as percentage of total number of packets of baked goods sold Ratio of number of brown bread packets sold to that of white bread packets sold Total number of packets of baked goods sold Bakery SBI PO PRE 2021 QUESTION PAPER A 40% 5:4 B 35% 7:3 C 48% 6:7 D 600 45% 3:8",
-      "options": {},
+      "stem": "In the following sentence, fill in the blanks using the correct combination of words from the options given below. There is little evidence to __________ or to support the __________ that there is a direct relationship between open shelf-life dating and the actual freshness of food.",
+      "options": {
+        "a": "disown, contend",
+        "b": "contradict, astute",
+        "c": "repudiating, argument",
+        "d": "deny, speculate",
+        "e": "negate, contention"
+      },
       "direction_id": "d004",
-      "direction_text": "In the following sentence, fill in the blanks using the correct combination of words from the options given below. There is little evidence to __________ or to support the __________ that there is a direct relationship between open shelf-life dating and the actual freshness of food. A) disown, contend B) contradict, astute C) repudiating, argument D) deny, speculate E) negate, contention Directions [Set of 5 Questions]:",
+      "direction_text": "",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "SBI",
@@ -703,7 +709,12 @@
       "year": 2021,
       "memory_based": false,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "direction_text",
+        "options",
+        "stem"
+      ]
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q031",

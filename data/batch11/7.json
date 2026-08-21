@@ -925,7 +925,11 @@
       "q_num": 39,
       "stem": "Which of the following statement is/are correct?",
       "options": {
-        "a": "H and C face the same"
+        "a": "H and C face the same direction",
+        "b": "D face inside",
+        "c": "All options are correct",
+        "d": "F sits opposite to B",
+        "e": "E sits immediate right of C"
       },
       "direction_id": "d009",
       "direction_text": "Read the given information carefully and answer the related questions: Eight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some of them face inside and some face outside. One person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits immediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit between G and E. G and B face same direction but they do not sit adjacent to each other. Less than three persons face outside.",

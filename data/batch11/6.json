@@ -1671,7 +1671,7 @@
       "q_id": "ibps_rrb_2025_prelims_cf975819::q070",
       "paper_id": "ibps_rrb_2025_prelims_cf975819",
       "q_num": 70,
-      "stem": "(\\sqrt{7921} − \\sqrt{2197} \\frac{1}{4} = ?",
+      "stem": "(\\sqrt{7921} - \\sqrt[3]{2197}) \\times \\frac{1}{4} = ?",
       "options": {
         "a": "20",
         "b": "19",
@@ -1689,7 +1689,10 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_rrb_2025_prelims_cf975819::q071",
