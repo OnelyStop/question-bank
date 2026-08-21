@@ -59,11 +59,17 @@ def latest_batch(data_root: Path) -> Path | None:
 
 
 def rel(path: Path) -> str:
-    """Repo-relative inside the repo, absolute when run against a temp dir."""
+    """Repo-relative inside the repo, absolute when run against a temp dir.
+
+    .as_posix(), not str(): the paths this feeds into (gap_report.json's
+    "path"/"source_pdf" fields, and this script's own error line) need to
+    read the same on Windows and Linux -- the parser fixed this same bug in
+    source_pdf, but this rel() was a separate copy of the same mistake.
+    """
     try:
-        return str(path.relative_to(REPO))
+        return path.relative_to(REPO).as_posix()
     except ValueError:
-        return str(path)
+        return path.as_posix()
 
 
 def is_anchored(q: dict) -> bool:

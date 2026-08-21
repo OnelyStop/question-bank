@@ -81,7 +81,14 @@ SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
     # "Directions (32-34):" and "Directions 32-34:" are the same header;
     # requiring the paren let the unparenthesised form bleed into option (e).
-    r"(?is)\s*(?:Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # Line-anchored (lookbehind for a preceding \n or string start), unlike
+    # the other branches here: without it, "Directions?" also matched the
+    # ordinary word "direction(" turning up mid-sentence inside a
+    # seating-puzzle's own restated direction -- "...faces opposite
+    # direction( Opposite direction means..." -- and because this whole
+    # pattern is .*$ under DOTALL, that one false match deleted everything
+    # after it, options included, from five straight questions in one paper.
+    r"(?is)\s*(?:(?:(?<=\n)|(?<=\A))\s*Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
     # "Ans.(b)" printed after each question's options is an inline answer key,
     # not part of option (e). It bled into the last option of all 100 questions
     # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
