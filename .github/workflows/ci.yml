@@ -74,8 +74,9 @@ jobs:
           print(f"OK - {len(s['properties'])} fields, {len(s.get('required', []))} required")
           PY
 
-      - name: Parser regression cases
-        run: python3 tests/test_parser.py
+      - name: Unit tests
+        # Discovers every tests/test_*.py -- adding a module needs no edit here.
+        run: python3 tests/run_tests.py
 
       - name: Committed questions carry no known defect
         run: python3 pipeline/5-validate/check_questions.py
