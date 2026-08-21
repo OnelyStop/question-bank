@@ -2,6 +2,17 @@
   "_note": "Transcription only. Every value here is visible in the source PDF and was read off its span geometry -- numerator, denominator and the bar between them. Where the question is arithmetic, the transcription is checked by solving it: the result must be one of the printed options, which is recorded in each note. Nothing here is inferred content.",
 
   "questions": {
+    "ibps_clerk_unknown_prelims_9868e39d::q050": {
+      "stem": "x \\times 3 \\div 8 = \\sqrt[3]{512} \\times \\sqrt{12^2}",
+      "options": {
+        "a": "256",
+        "b": "512",
+        "c": "64",
+        "d": "128",
+        "e": "320"
+      },
+      "note": "Two-column page: the cube root's index '3' and the second radical '\\sqrt{12^2}' extracted as a floating fragment that landed between Q49 and Q51 with no question number, while 'Q50.' stayed attached to the truncated 'x \\times 3 \\div 8 = \\sqrt{512}' left behind -- reading order tore one stem into two disconnected pieces. Checked by solving: cbrt(512)=8, sqrt(12^2)=12, 8*12=96, x=96*8/3=256, which is option (a)."
+    },
     "ibps_po_2020_mains_44093f2d::q044": {
       "stem": "Which of the following can be hypothesized from the above passage? (1 Mark) Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Uber is ride-hailing service that he helped found in 2009 and built into a transportation colossus. Travis Kalanick stepped down Tuesday as chief executive of Uber, after a seemingly endless series of scandals raised doubts over his leadership. Kalanick’s resignation doesn’t come as a surprise -- after he was caught on video chewing out an Uber driver who questioned the company’s compensation policies in February. Meanwhile, Shareholders released a damning report on the firm's management culture. (I) Uber is a riding service that Chief Executive of Uber helped built into transportation prodigious. (II) Shareholders ordered Travis Kalanick to relinquish position of chief executive of Uber. (III) Holder released a report against firm’s management culture that was condemnatory.",
       "note": "The source prints '(III' with no closing paren -- a typo in the paper, not a parse failure. Restored so the label matches (I) and (II) beside it; nothing else in the stem is changed."

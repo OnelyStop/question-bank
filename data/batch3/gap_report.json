@@ -1,34 +1,17 @@
 {
   "papers_scanned": 10,
-  "questions_scanned": 620,
+  "questions_scanned": 623,
   "totals": {
-    "no_options": 3,
     "no_year": 2
   },
-  "parser_gaps": 3,
+  "parser_gaps": 0,
   "research_gaps": 2,
   "web_fillable": 0,
-  "needs_parser_fix": 3,
+  "needs_parser_fix": 0,
   "papers": [
     {
-      "paper_id": "ibps_po_2017_prelims_1078480f",
-      "path": "data\\batch3\\10.json",
-      "source_pdf": "corpus/done/IBPS/PO/2017/Prelims/_unknown_shift/IBPS-PO-Pre-Memory-Based-2017-Mock-01.pdf",
-      "paper_gaps": [],
-      "question_gaps": {
-        "no_options": [
-          12,
-          15
-        ]
-      },
-      "unanchored_q_nums": [
-        12,
-        15
-      ]
-    },
-    {
       "paper_id": "ibps_clerk_unknown_prelims_340cc53d",
-      "path": "data\\batch3\\4.json",
+      "path": "data/batch3/4.json",
       "source_pdf": "corpus/done/IBPS/Clerk/no_year/Prelims/_unknown_shift/IBPS_Clerk_Prelims_Memory_Based_English_Questions.pdf",
       "paper_gaps": [
         "no_year"
@@ -38,19 +21,13 @@
     },
     {
       "paper_id": "ibps_clerk_unknown_prelims_9868e39d",
-      "path": "data\\batch3\\5.json",
+      "path": "data/batch3/5.json",
       "source_pdf": "corpus/done/IBPS/Clerk/no_year/Prelims/_unknown_shift/IBPS_Clerk_Prelims_Memory_Based_Quant.pdf",
       "paper_gaps": [
         "no_year"
       ],
-      "question_gaps": {
-        "no_options": [
-          50
-        ]
-      },
-      "unanchored_q_nums": [
-        50
-      ]
+      "question_gaps": {},
+      "unanchored_q_nums": []
     }
   ]
 }

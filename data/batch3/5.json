@@ -351,8 +351,14 @@
       "q_id": "ibps_clerk_unknown_prelims_9868e39d::q050",
       "paper_id": "ibps_clerk_unknown_prelims_9868e39d",
       "q_num": 50,
-      "stem": "x \\times 3 \\div 8 = \\sqrt{512}",
-      "options": {},
+      "stem": "x \\times 3 \\div 8 = \\sqrt[3]{512} \\times \\sqrt{12^2}",
+      "options": {
+        "a": "256",
+        "b": "512",
+        "c": "64",
+        "d": "128",
+        "e": "320"
+      },
       "direction_id": "d002",
       "direction_text": "Calculate the exact value of the ‘x’ in the given following questions.",
       "direction_has_image": false,
@@ -363,7 +369,11 @@
       "year": null,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options",
+        "stem"
+      ]
     },
     {
       "q_id": "ibps_clerk_unknown_prelims_9868e39d::q051",
