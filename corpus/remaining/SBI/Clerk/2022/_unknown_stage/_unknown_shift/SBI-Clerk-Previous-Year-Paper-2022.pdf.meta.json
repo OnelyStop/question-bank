@@ -2,12 +2,16 @@
   "year": "2022",
   "bank": "SBI",
   "role": "Clerk",
-  "stage": null,
+  "stage": "Prelims",
   "shift": null,
   "memory_based": false,
   "language": null,
   "skip_reason": null,
   "source_url": "https://www.adda247.com/jobs/wp-content/uploads/2024/11/19182634/SBI-Clerk-Previous-Year-Paper-2022.pdf",
   "sha256": "ac5ffb0a650595c63da9e0ec9ae0528ba6b40cbd5acc05b2f305b4fab590e242",
-  "source_filename": "SBI-Clerk-Previous-Year-Paper-2022.pdf"
+  "source_filename": "SBI-Clerk-Previous-Year-Paper-2022.pdf",
+  "research": {
+    "method": "exam-pattern-check",
+    "note": "100 Qs total, no General/Financial Awareness or Computer Aptitude section -- matches SBI Clerk Prelims pattern (100 Q: 30 English + 35 Quant + 35 Reasoning). Mains is 190 Qs across 4 sections incl. GA/FA and Computer Aptitude, neither present. Verified against extracted PDF text, not web search."
+  }
 }
