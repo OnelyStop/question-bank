@@ -65,6 +65,16 @@ BLEED_RE = re.compile(
     r"Ans\s*\.\s*\(?\s*[a-e]\s*\)?|"
     r"Answer\s*:|Solution\s*:).*$"
 )
+# "Visit: adda247.com" (no "www.", so BLEED_RE's www\. branch misses it) shows
+# up inline -- sometimes trailing the last option, sometimes stitched into the
+# MIDDLE of a passage between two real sentences ("...equal in each city.
+# Visit: adda247.com Note- Married couples..."). BLEED_RE cuts everything after
+# its match, so adding it there truncated two questions' options entirely when
+# the ad text landed before the option list in the raw block. This removes just
+# the phrase itself, wherever it sits, and leaves the rest of the text intact.
+AD_CREDIT_RE = re.compile(
+    r"(?i)\s*(?:Visit\s*:?\s*)?(?:www\.)?(?:adda247|bankersadda|sscadda|careerpower)\.(?:com|in)\s*"
+)
 SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUTIONS?)\s*$")
 # Files with no questions to take: a solutions-only PDF, or the Hindi edition of
 # a paper already held in English. Parsed anyway they yield 0-1 questions and
@@ -564,7 +574,7 @@ def full_question(q: dict, paper_id: str, meta: dict) -> dict:
 
 
 def parse(pdf: Path) -> dict:
-    text = read_text(pdf)
+    text = AD_CREDIT_RE.sub(" ", read_text(pdf))
 
     # A paper numbers its questions one way throughout. Where "Q41." is the
     # house style, a bare "1." is a list item inside a stem ("1. Revenue from

@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline" / "1-extract"))
 from parser import (  # noqa: E402
+    AD_CREDIT_RE,
     QUESTION_RE,
     display,
     join_fractions,
@@ -79,6 +80,23 @@ def test_option_bleed():
     check("Ans.(x) cut from last option", opts.get("e"), "155.56%")
     _, opts = split_options("Pick. (a) A (b) B (c) C (d) D (e) No combination fits\nDirections 32-34: Given below")
     check("unparenthesised Directions cut", opts.get("e"), "No combination fits")
+
+
+# "Visit: adda247.com" has no "www." so it slipped past the option-bleed cut,
+# and it isn't always trailing -- it showed up stitched into the MIDDLE of a
+# passage in one 2019 IBPS PO Mains paper: "...equal in each city. Visit:
+# adda247.com Note- Married couples...". Cutting-to-end-of-string (BLEED_RE's
+# approach) would have deleted "Note- Married couples..." along with it, so
+# this is a plain removal instead, applied to the whole document text before
+# anchors are found.
+def test_ad_credit_removed_inline():
+    check("trailing credit, no www.",
+          AD_CREDIT_RE.sub(" ", "4080 Visit: adda247.com").strip(), "4080")
+    check("mid-passage credit leaves what follows",
+          " ".join(AD_CREDIT_RE.sub(
+              " ", "equal in each city. Visit: adda247.com Note- Married couples."
+          ).split()),
+          "equal in each city. Note- Married couples.")
 
 
 def test_error_spotting_segments():
