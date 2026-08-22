@@ -247,9 +247,16 @@ def test_render_detects_folded_maths():
     check("so are the inequalities",
           all(w in render.FOLDED for w in (">=", "<=", "cbrt")), True)
     # The parser stores LaTeX and display() makes glyphs, so the folded spelling
-    # can only mean the font was gone.
+    # means the font was gone -- but only when the JSON actually held that LaTeX.
+    # A paper that printed ASCII ">=" itself has none, and no font can change how
+    # it looks, so each entry carries the LaTeX its folded form should have come
+    # from and the gate checks the paper's own JSON for it.
     check("glyphs are what a good render holds",
-          sorted(render.FOLDED.values()), sorted(["√", "∛", "≥", "≤", "≠"]))
+          sorted(glyph for glyph, _ in render.FOLDED.values()),
+          sorted(["√", "∛", "≥", "≤", "≠"]))
+    check("each folded form knows the LaTeX it should have rendered from",
+          sorted(src for _, src in render.FOLDED.values()),
+          sorted([r"\sqrt", r"\sqrt[", r"\geq", r"\leq", r"\neq"]))
 
 
 def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
@@ -270,6 +277,26 @@ def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
         # guard swallowed this case and reported a bad path instead.
         check_in("says which", "no review PDF", noise.getvalue())
         check_not_in("not reported as an empty scan", "no papers found", noise.getvalue())
+
+
+def test_render_folded_maths_needs_the_latex_in_the_json():
+    # ibps_clerk_2020_prelims_9868e39d prints its comparison options as literal
+    # ">=" / "<=" -- confirmed against the source PDF (U+003E U+003D, no glyph).
+    # The parser transcribed ASCII because ASCII is what the paper printed, so
+    # there was no \geq for display() to convert and no font can change how the
+    # page looks. Flagging it is a false positive that a re-render cannot clear,
+    # so the folded spelling only counts when the paper's JSON holds the LaTeX.
+    render = step("5-validate", "check_render")
+    page = "answer (a) if x > y (b) if x>=y (c) if x < y (d) if x<=y"
+
+    def folded_for(latex):
+        return {w: page.count(w) for w, (_, src) in render.FOLDED.items()
+                if w in page and src in latex}
+
+    check("JSON holds the LaTeX -> the font really was missing",
+          bool(folded_for(r"statements: B \geq O > M")), True)
+    check("paper printed ASCII itself -> not a render defect",
+          folded_for("If x>=y"), {})
 
 
 def test_render_gate_empty_scan_is_a_failure():
