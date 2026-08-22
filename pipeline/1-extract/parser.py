@@ -1350,6 +1350,10 @@ def display(text: str) -> str:
 
 
 def render(paper: dict, out: Path) -> int:
+    # Per paper, not per process: rerender.py and a batch run both call this in
+    # a loop, and a module global left set would fail every later paper for a
+    # character that appeared in an earlier one.
+    UNRENDERABLE.clear()
     name = label(paper)
     sheet = Sheet(name)
     sheet.write(name, size=13, bold=True, gap=3)
@@ -1378,16 +1382,12 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.subset_fonts()
     except Exception:
         pass          # older PyMuPDF: a fat file still beats no file
-    sheet.doc.save(str(out), deflate=True, garbage=4)
-    pages = sheet.doc.page_count
-    sheet.doc.close()
-
-    # Refuse to hand back a PDF we know is unreadable. The point of this file is
-    # that a person opens it to check the parse, and "<U+20B9>" tells them
-    # nothing about whether the price is right. The JSON is unaffected, so the
-    # fix is a font plus rerender.py, never a re-parse.
+    # Refuse BEFORE writing. Raising after save() leaves the unreadable PDF on
+    # disk, which is the state this whole change exists to prevent -- and on a
+    # re-run the stale file is what a reviewer opens.
     if UNRENDERABLE:
         missing = " ".join(sorted(UNRENDERABLE)[:12])
+        sheet.doc.close()
         raise RuntimeError(
             f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
             f"  No Unicode font found. Looked in:\n"
@@ -1395,6 +1395,10 @@ def render(paper: dict, out: Path) -> int:
             + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
               "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
         )
+
+    sheet.doc.save(str(out), deflate=True, garbage=4)
+    pages = sheet.doc.page_count
+    sheet.doc.close()
     return pages
 
 

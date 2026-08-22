@@ -70,11 +70,13 @@ def main(argv: list[str] | None = None) -> int:
     args = argv if argv is not None else sys.argv[1:]
     roots = [Path(a) for a in args] or sorted((REPO / "data").glob("batch*"))
 
+    papers = 0
     checked = 0
     failures: list[str] = []
 
     for root in roots:
         for jsonp in sorted(root.glob("[0-9]*.json")):
+            papers += 1
             pdf = jsonp.with_suffix(".pdf")
             rel = pdf.relative_to(REPO) if pdf.is_relative_to(REPO) else pdf
 
@@ -88,9 +90,11 @@ def main(argv: list[str] | None = None) -> int:
                 failures.append(f"{rel}: {err}")
 
     # Scanning nothing is a broken path, not a clean bill of health -- the same
-    # failure this repo has shipped twice.
-    if checked == 0:
-        print(f"::error::no review PDFs found under {[str(r) for r in roots]}",
+    # failure this repo has shipped twice. Counted on the JSONs, not the PDFs:
+    # keyed on PDFs, a batch whose papers ALL lack one reported "no review PDFs
+    # found", which reads as a bad path rather than as ten missing files.
+    if papers == 0:
+        print(f"::error::no papers found under {[str(r) for r in roots]}",
               file=sys.stderr)
         return 1
 

@@ -224,7 +224,10 @@ def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
         with contextlib.redirect_stderr(noise):
             code = render.main([str(root)])
         check("a paper with no PDF fails", code, 1)
+        # Must fail as a MISSING PDF, not as an empty scan. Keyed on PDFs the
+        # guard swallowed this case and reported a bad path instead.
         check_in("says which", "no review PDF", noise.getvalue())
+        check_not_in("not reported as an empty scan", "no papers found", noise.getvalue())
 
 
 def test_render_gate_empty_scan_is_a_failure():
@@ -233,4 +236,4 @@ def test_render_gate_empty_scan_is_a_failure():
     with contextlib.redirect_stderr(noise):
         code = render.main(["data/does-not-exist"])
     check("nothing scanned -> exit 1", code, 1)
-    check_in("says why", "no review PDFs found", noise.getvalue())
+    check_in("says why", "no papers found", noise.getvalue())
