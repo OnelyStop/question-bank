@@ -49,7 +49,14 @@ QUESTION_RE = re.compile(
     r"(?im)^\s*(?:(?:Question\s+|Q\s*\.?\s*)([1-9]\d{0,2})\s*[.):]"
     r"|([1-9]\d{0,2})\s*[.):](?!\d))\s*"
 )
-DIRECTION_RE = re.compile(r"(?is)Directions?\s*\(\s*(\d+)\s*[-–—to]+\s*(\d+)\s*\)\s*:?\s*")
+# The optional "Q" is a filename-numbering habit some papers carry into
+# their direction headers too -- "Directions (Q131-135)", "(Q.13-20)" -- as
+# well as "(101-105)". Skipping it here is not the same as making it
+# optional in QUESTION_RE: this only fires between "(" and the digits, so
+# it cannot swallow an actual question anchor.
+DIRECTION_RE = re.compile(
+    r"(?is)Directions?\s*\(\s*(?:Q\.?\s*)?(\d+)\s*[-–—to]+\s*(?:Q\.?\s*)?(\d+)\s*\)\s*:?\s*"
+)
 # Some papers never number their directions -- one paper writes 50 of these and
 # not a single "Directions (111-115):" -- so the questions they cover have to be
 # taken from position instead of from a stated range.
@@ -57,16 +64,31 @@ UNNUMBERED_DIRECTION_RE = re.compile(
     r"(?im)^\s*(?:Directions?\s*:|"
     r"Read the (?:given|following)|Study the following|"
     r"In (?:the|each of the) following|What should come|"
-    r"Find the wrong|Answer the following|Solve the following)"
+    # "Answer the questions based on..." opens a DI table set (5/246
+    # papers, 15 headers) same as "Answer the following" already did --
+    # missing it glued the table into the PREVIOUS question's stem
+    # instead of starting a new direction.
+    r"Find the wrong|Answer the following|Answer the questions|Solve the following)"
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
+# Same uppercase-option idea, no parens: "A) existence" not "(A) existence".
+# Line-anchored, because a bare "A)" is common inside prose ("part A) of the
+# report") and only a run of these at line starts is safe to read as options.
+BARE_UPPER_OPTION_RE = re.compile(r"(?m)^\s*([A-E])\)\s+")
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
     # "Directions (32-34):" and "Directions 32-34:" are the same header;
     # requiring the paren let the unparenthesised form bleed into option (e).
-    r"(?is)\s*(?:Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # Line-anchored (lookbehind for a preceding \n or string start), unlike
+    # the other branches here: without it, "Directions?" also matched the
+    # ordinary word "direction(" turning up mid-sentence inside a
+    # seating-puzzle's own restated direction -- "...faces opposite
+    # direction( Opposite direction means..." -- and because this whole
+    # pattern is .*$ under DOTALL, that one false match deleted everything
+    # after it, options included, from five straight questions in one paper.
+    r"(?is)\s*(?:(?:(?<=\n)|(?<=\A))\s*Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
     # "Ans.(b)" printed after each question's options is an inline answer key,
     # not part of option (e). It bled into the last option of all 100 questions
     # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
@@ -79,7 +101,11 @@ SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUT
 # Files with no questions to take: a solutions-only PDF, or the Hindi edition of
 # a paper already held in English. Parsed anyway they yield 0-1 questions and
 # burn a slot in the batch.
-SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hindi|hn)(?:[-_ .]|$)")
+# `answers?` alone, not just `answer[-_ ]?key`: "...-Answers-1.pdf" is a
+# solutions PDF ("S101. (c); Sol. ...") same as any "-Answer-Key-" file, but
+# without the trailing "key" it slipped the old pattern, burned a batch slot,
+# and parsed to a correct-but-useless 0 questions.
+SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answers?(?:[-_ ]?key)?|hindi|hn)(?:[-_ .]|$)")
 
 # PyMuPDF sets bit 0 of a span's flags for superscript text. Without this an
 # exponent arrives flat -- "2x2 - 3x + 1 = 0" -- where the trailing 2 reads as
@@ -648,6 +674,20 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
                     opts[m.group(1).lower()] = value
             if len(opts) == len(run):
                 return stem, opts
+
+        bare = list(BARE_UPPER_OPTION_RE.finditer(block))
+        bare_labels = [m.group(1) for m in bare]
+        if bare_labels[:3] == ["A", "B", "C"]:
+            opts, stem = {}, " ".join(block[: bare[0].start()].split())
+            run = bare[: 5 if bare_labels[:5] == list("ABCDE") else
+                        4 if bare_labels[:4] == list("ABCD") else 3]
+            for i, m in enumerate(run):
+                end = run[i + 1].start() if i + 1 < len(run) else len(block)
+                value = " ".join(block[m.end(): end].split()).strip(" ;-")
+                if value:
+                    opts[m.group(1).lower()] = value
+            if len(opts) == len(run):
+                return stem, opts
         return " ".join(block.split()), {}
 
     # Last full a-e run wins: an earlier "(a)" may belong to the stem.
@@ -1011,6 +1051,23 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     return kept
 
 
+
+def pdf_source_ref(pdf: Path) -> str:
+    """Repo-relative path to `pdf`, for research.py to find the file again.
+
+    .as_posix(), not str(): str(Path) uses the native separator, so this
+    committed a Windows-style path while every Linux-generated batch has
+    "corpus/done/...". Same field,
+    different bytes depending who ran the parser -- as_posix() is the one
+    value that is the same on every machine. The bare name alone is not
+    enough: the corpus is nested several folders deep.
+    """
+    try:
+        return pdf.resolve().relative_to(REPO).as_posix()
+    except ValueError:
+        return pdf.as_posix()
+
+
 def parse(pdf: Path) -> dict:
     text = read_text(pdf)
     has_image_at = image_regions(pdf)
@@ -1161,10 +1218,7 @@ def parse(pdf: Path) -> dict:
     meta = paper_meta(pdf, text)
     paper_id = make_paper_id(meta, pdf)
     fixes = load_corrections()
-    try:
-        source_pdf = str(pdf.resolve().relative_to(REPO))
-    except ValueError:
-        source_pdf = str(pdf)
+    source_pdf = pdf_source_ref(pdf)
 
     # A question is only marked has_image when its stem or its options are
     # missing AND the page holds an image region -- the text is a picture, so
@@ -1199,14 +1253,57 @@ def parse(pdf: Path) -> dict:
 PAGE = fitz.paper_rect("a4")
 MARGIN = 48.0
 LEAD = 1.35
+FONT_DIR = Path(__file__).resolve().parent / "fonts"
 # Helvetica is Latin-1: it cannot draw √, ≥ or Devanagari, and PyMuPDF
-# substitutes "?". Arial Unicode covers all three, so it is used when present
-# and the ASCII fold below is only the fallback.
-UNICODE_FONTS = [
-    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+# substitutes "?". Arial Unicode used to cover all of this corpus's scripts in
+# one file, but it is a proprietary Microsoft font with no legal free-download
+# source, so a machine without it already installed (every CI runner, most
+# contributors) silently fell back to ASCII -- see check_render.py. No single
+# freely redistributable font covers Latin/math *and* shapes Devanagari, Tamil
+# and Telugu correctly (tried GNU FreeSerif: covers the codepoints but draws
+# Devanagari matras in the wrong position -- a script-specialist font is not
+# optional, it's what "correctly shaped" means), so this is one general font
+# plus one specialist per script, chosen per text block: nothing in this
+# corpus's PR-scoped batches mixes two scripts in the same stem/option
+# (verified against every committed batch), so a block never needs two fonts
+# at once. SCRIPTS lists specialists in priority order; the general font
+# covers everything else (Latin, maths, card-suit/misc symbols).
+LATIN_FONTS = [
+    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",  # macOS, if present
     "/Library/Fonts/Arial Unicode.ttf",
+    str(FONT_DIR / "DejaVuSans.ttf"),  # bundled fallback: covers math/symbols
 ]
-UNI_FONT = next((f for f in UNICODE_FONTS if Path(f).is_file()), None)
+SCRIPTS = [
+    # (fontname, unicode range, bundled font file)
+    ("deva",   (0x0900, 0x097F), str(FONT_DIR / "NotoSansDevanagari.ttf")),
+    ("tamil",  (0x0B80, 0x0BFF), str(FONT_DIR / "NotoSansTamil.ttf")),
+    ("telugu", (0x0C00, 0x0C7F), str(FONT_DIR / "NotoSansTelugu.ttf")),
+]
+UNI_FONT = next((f for f in LATIN_FONTS if Path(f).is_file()), None)
+SCRIPT_FONTS = {name: path for name, _, path in SCRIPTS if Path(path).is_file()}
+# fitz.Font objects, built once and reused for glyph-coverage checks only (not
+# for drawing -- insert_font still takes the fontfile path). A script's
+# specialist font is not guaranteed to cover every symbol that shares a stem
+# with it (Telugu inequality questions print ≥/≤, which NotoSansTelugu lacks),
+# so a block that doesn't fully fit its chosen font must not draw silently --
+# see the coverage check in Sheet.write().
+_COVERAGE_FONTS = {name: fitz.Font(fontfile=path) for name, path in SCRIPT_FONTS.items()}
+if UNI_FONT:
+    _COVERAGE_FONTS["uni"] = fitz.Font(fontfile=UNI_FONT)
+
+
+def detect_script(text: str) -> str | None:
+    for name, (lo, hi), _ in SCRIPTS:
+        if name in SCRIPT_FONTS and any(lo <= ord(c) <= hi for c in text):
+            return name
+    return None
+
+
+def font_covers(fontname: str, text: str) -> bool:
+    font = _COVERAGE_FONTS.get(fontname)
+    if font is None:
+        return False
+    return all(font.has_glyph(ord(c)) for c in text if ord(c) > 127)
 
 ASCII_FOLD = str.maketrans({
     "‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "--", "…": "...",
@@ -1245,6 +1342,8 @@ class Sheet:
         self.page = self.doc.new_page(width=PAGE.width, height=PAGE.height)
         if UNI_FONT:
             self.page.insert_font(fontname="uni", fontfile=UNI_FONT)
+        for name, path in SCRIPT_FONTS.items():
+            self.page.insert_font(fontname=name, fontfile=path)
         self.y = MARGIN
         self.page.insert_text((MARGIN, PAGE.height - 28),
                               f"{self.title}  ·  page {self.doc.page_count}",
@@ -1254,13 +1353,24 @@ class Sheet:
         if not text:
             return
         text = normalise(str(text))
-        # Helvetica keeps a real bold face, which Arial Unicode does not, so
+        # Helvetica keeps a real bold face, which the Unicode fonts do not, so
         # plain-Latin text stays on it and only text that needs the wider
         # coverage pays for losing bold.
         # Above ASCII, not above Latin-1: × (0xD7) and ÷ (0xF7) sit inside
         # Latin-1, so they took the fallback path and were folded to "x" and
         # "/" even with the real font available.
-        if UNI_FONT and any(ord(c) > 127 for c in text):
+        # A script's specialist font is picked first, but only trusted if it
+        # actually covers the whole block -- a Telugu inequality question
+        # prints ≥/≤ that NotoSansTelugu doesn't have, and drawing anyway
+        # produces an invisible .notdef with no gate able to catch it (nothing
+        # reads glyph coverage; check_render.py only reads extracted text,
+        # which comes back with the right codepoints regardless of whether
+        # they drew). Falling through to flatten() below is what makes a
+        # coverage gap a loud build failure instead of a blank page in CI.
+        script = detect_script(text)
+        if script and font_covers(script, text):
+            font = script
+        elif UNI_FONT and any(ord(c) > 127 for c in text) and font_covers("uni", text):
             font = "uni"
         else:
             text = flatten(text)
@@ -1402,10 +1512,14 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.close()
         raise RuntimeError(
             f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
-            f"  No Unicode font found. Looked in:\n"
-            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
-            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
-              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+            f"  No font covers these. Looked in:\n"
+            + "".join(f"    {f}\n" for f in LATIN_FONTS + list(SCRIPT_FONTS.values()))
+            + "  Either the general font (LATIN_FONTS) lacks the glyph, or the text\n"
+              "  mixes a script with a symbol its specialist font doesn't have (e.g.\n"
+              "  a Telugu inequality question printing ≥/≤). Add or fix the font, or\n"
+              "  add a corrections.json entry if the source PDF used a broken\n"
+              "  private-use codepoint. The JSON is fine; only the review PDF is\n"
+              "  affected."
         )
 
     sheet.doc.save(str(out), deflate=True, garbage=4)
@@ -1417,6 +1531,22 @@ def render(paper: dict, out: Path) -> int:
 def next_batch_number(out_root: Path) -> int:
     used = [int(p.name[5:]) for p in out_root.glob("batch*") if p.name[5:].isdigit()]
     return max(used, default=0) + 1
+
+
+def collect_pdfs(src: Path) -> list[Path]:
+    """PDFs under `src`, in a fixed, OS-independent order.
+
+    Sorted by POSIX string, not by Path object: Path comparison sorts case-
+    insensitively and by native separator on Windows but case-sensitively by
+    "/" on Linux, so the same corpus/remaining/ produced two different
+    "next 10" on the two OSes -- a Windows run started with `_unknown_bank/`
+    while Linux started with `IBPS/`, zero overlap in the first ten. The batch
+    number is meaningless if it is not the same ten PDFs on every machine, so
+    this is always case-sensitive POSIX order, matching Linux's default.
+    """
+    if not src.is_dir():
+        return [src]
+    return sorted(src.rglob("*.pdf"), key=lambda p: p.as_posix())
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -1437,7 +1567,7 @@ def main(argv: list[str] | None = None) -> int:
     if not args.src.exists():
         print(f"  no such path: {args.src}", file=sys.stderr)
         return 1
-    found = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
+    found = collect_pdfs(args.src)
     pdfs = [p for p in found if not SKIP_NAME_RE.search(p.stem)]
     skipped = [p for p in found if SKIP_NAME_RE.search(p.stem)]
     batch = pdfs[: args.size]

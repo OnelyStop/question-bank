@@ -18,6 +18,51 @@ parser = step("1-extract", "parser")
 QUESTION_RE = parser.QUESTION_RE
 line_text, join_fractions = parser.line_text, parser.join_fractions
 question_anchors, strip_hindi = parser.question_anchors, parser.strip_hindi
+DIRECTION_RE = parser.DIRECTION_RE
+UNNUMBERED_DIRECTION_RE = parser.UNNUMBERED_DIRECTION_RE
+
+
+# --- Q-prefixed direction ranges ---------------------------------------------
+# "Directions (Q131-135)", "(Q.13-20)" -- three real papers carry a filename
+# numbering habit ("Q41.") into their direction headers too, on top of the
+# plain "(101-105)" style. Missing this drops the whole direction (a
+# para-jumble's task, a cloze passage's blanks) for every question it covers.
+def direction_range(text):
+    m = DIRECTION_RE.search(text)
+    return m.groups() if m else None
+
+
+def test_answer_the_questions_opens_a_di_set():
+    # sbi-po-pre-2021.pdf: "Answer the questions based on the information
+    # given below" opens a DI table, but only "Answer the following" was
+    # recognized -- the table glued onto the previous question's stem
+    # instead of becoming its own direction.
+    check("recognized as a direction header",
+          bool(UNNUMBERED_DIRECTION_RE.match(
+              "Answer the questions based on the information given below.")),
+          True)
+    check("existing 'Answer the following' still works (regression)",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer the following questions.")),
+          True)
+    check("plain prose containing neither phrase is not a direction",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer wisely and carefully.")),
+          False)
+
+
+def test_q_prefixed_range_is_read_same_as_bare():
+    check("Q-prefixed with a period and space",
+          direction_range("Directions (Q. 101-105) : Read the following passage"),
+          ("101", "105"))
+    check("Q-prefixed with no space, no period",
+          direction_range("Directions (Q131-135) Five statements are given below"),
+          ("131", "135"))
+    check("Q-prefixed with period, no space",
+          direction_range("Directions (Q.13-20): In the following passage"),
+          ("13", "20"))
+    check("bare numbers still work (regression)",
+          direction_range("Directions (116-120):"), ("116", "120"))
+    check("singular 'Direction', no colon (regression)",
+          direction_range("Direction (126-130)"), ("126", "130"))
 
 
 # --- what counts as a question number ---------------------------------------
