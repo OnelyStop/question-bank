@@ -93,6 +93,24 @@ def test_raised_ordinal():
                  defects(question(stem="Who was born on 28th June?")))
 
 
+def test_doubled_question_mark():
+    # A bilingual paper prints the question twice; removing the Hindi strands
+    # its ASCII "?" after the English one. 11 of 4,778 merged questions had it.
+    check_in("trailing '? ?' caught", "doubled_question_mark",
+             defects(question(stem="Which box is at the topmost position? ?")))
+    check_in("no space either", "doubled_question_mark",
+             defects(question(stem="…with respect to the passage given??")))
+    # 97 maths stems hold two "?" legitimately. A rule that flagged those would
+    # be switched off within a week.
+    check_not_in("two '?' mid-stem is fine", "doubled_question_mark",
+                 defects(question(
+                     stem="What should come in place of (?) in the following questions? 150\\%")))
+    check_not_in("ending in a single '?' is fine", "doubled_question_mark",
+                 defects(question(stem="Who lives on the 6th floor?")))
+    check_not_in("maths ending in '= ?' is fine", "doubled_question_mark",
+                 defects(question(stem="510/? = \\sqrt{324}")))
+
+
 def test_placeholder_stem():
     check_in("stem that is only its number", "placeholder_stem",
              defects(question(stem="Question 66.")))
@@ -193,3 +211,63 @@ if __name__ == "__main__":
     from run_tests import run_module  # noqa: E402
 
     sys.exit(run_module(sys.modules[__name__]))
+
+
+# --- can the review PDF be read? --------------------------------------------
+# The JSON gates say nothing about the PDFs, and the PDF is what a person opens
+# to decide whether a parse is right. A batch reached review with 43 "<U+20B9>"
+# escapes in one paper and correct JSON underneath, with every check green.
+def test_render_escape_detection():
+    render = step("5-validate", "check_render")
+    check("plain text is fine", render.ESCAPE_RE.findall("Rs 10,000 for UPI Lite"), [])
+    check("an escape is caught",
+          render.ESCAPE_RE.findall("<U+20B9>10,000 and <U+2192> x"),
+          ["<U+20B9>", "<U+2192>"])
+    # Lower case too: the escape is written upper case, but a check that only
+    # matched one case would pass a file it should reject.
+    check("case does not matter", render.ESCAPE_RE.findall("<U+20b9>"), ["<U+20b9>"])
+    check("a lone angle bracket is not an escape",
+          render.ESCAPE_RE.findall("x < U + 1 > y"), [])
+
+
+def test_render_detects_folded_maths():
+    # The half an escape-only check misses. ASCII_FOLD maps rather than escapes,
+    # so a paper of roots and inequalities renders "sqrt324" and ">=" with not
+    # one <U+...> in it and would otherwise pass clean.
+    render = step("5-validate", "check_render")
+    check("sqrt is not a real spelling", "sqrt" in render.FOLDED, True)
+    check("so are the inequalities",
+          all(w in render.FOLDED for w in (">=", "<=", "cbrt")), True)
+    # The parser stores LaTeX and display() makes glyphs, so the folded spelling
+    # can only mean the font was gone.
+    check("glyphs are what a good render holds",
+          sorted(render.FOLDED.values()), sorted(["√", "∛", "≥", "≤", "≠"]))
+
+
+def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
+    import json as _json
+    import tempfile
+    from pathlib import Path as _Path
+
+    render = step("5-validate", "check_render")
+    with tempfile.TemporaryDirectory() as d:
+        root = _Path(d) / "batch99"
+        root.mkdir()
+        (root / "1.json").write_text(_json.dumps(paper(question())))
+        noise = io.StringIO()
+        with contextlib.redirect_stderr(noise):
+            code = render.main([str(root)])
+        check("a paper with no PDF fails", code, 1)
+        # Must fail as a MISSING PDF, not as an empty scan. Keyed on PDFs the
+        # guard swallowed this case and reported a bad path instead.
+        check_in("says which", "no review PDF", noise.getvalue())
+        check_not_in("not reported as an empty scan", "no papers found", noise.getvalue())
+
+
+def test_render_gate_empty_scan_is_a_failure():
+    render = step("5-validate", "check_render")
+    noise = io.StringIO()
+    with contextlib.redirect_stderr(noise):
+        code = render.main(["data/does-not-exist"])
+    check("nothing scanned -> exit 1", code, 1)
+    check_in("says why", "no papers found", noise.getvalue())

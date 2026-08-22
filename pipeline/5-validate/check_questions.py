@@ -61,6 +61,12 @@ RULES = [
     ("placeholder_stem", "stem",
      re.compile(r"^(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*$", re.I)),
     ("solution_bleed", "any", re.compile(r"(?i)\bsol\s*\.\s|\bsolution\s*:")),
+    # "…topmost position? ?" -- a bilingual paper prints the question twice and
+    # the Hindi sentence's ASCII "?" outlives the Devanagari run it sat in. Only
+    # at the END: 97 maths stems legitimately hold two ("What should come in
+    # place of (?) …? 150%"), and none of 4,778 merged questions ends in a run
+    # of them for a good reason.
+    ("doubled_question_mark", "stem", re.compile(r"\?(?:\s*\?)+\s*$")),
 ]
 
 
