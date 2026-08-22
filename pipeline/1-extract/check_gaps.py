@@ -83,7 +83,11 @@ def question_gaps(q: dict) -> list[str]:
     stem = (q.get("stem") or "").strip()
     if not q.get("options"):
         found.append("no_options")
-    if not stem:
+    # An error-spotting set states its task in the direction and prints nothing
+    # but the five candidate sentences, so a blank stem there is the paper's
+    # shape, not a gap. parse() keeps those questions on the same test; without
+    # it this report contradicts the batch it just scored.
+    if not stem and not (q.get("direction_text") or "").strip():
         found.append("empty_stem")
     elif PLACEHOLDER_RE.match(stem):
         found.append("placeholder_stem")
@@ -106,6 +110,8 @@ def main(argv: list[str] | None = None) -> int:
                     help="a data/batch{n} folder (default: the newest)")
     ap.add_argument("--fail-on-parser", action="store_true",
                     help="exit 1 if any parser-class gap remains")
+    ap.add_argument("--strict", action="store_true",
+                    help="exit 1 if ANY gap remains, research included")
     args = ap.parse_args(argv)
     if args.root is None:
         args.root = latest_batch(DATA)
@@ -201,6 +207,15 @@ def main(argv: list[str] | None = None) -> int:
     print(f"      {anchoring['unanchored']:6d} unanchored   nothing to match on -- fix the parser")
     print(f"\n  wrote {rel(out)}")
 
+    # What CI runs. check_questions asks whether what is here is wrong; nothing
+    # asked whether anything was MISSING, so a batch could merge at 90% complete
+    # with a green build. A gap that is genuinely unfixable belongs in
+    # corrections.json or a .meta.json sidecar, where it is reviewable -- not
+    # silently carried in the batch.
+    if args.strict and (parser_total or research_total):
+        print(f"\n::error::{parser_total} parser and {research_total} research "
+              f"gaps remain in {rel(args.root)}", file=sys.stderr)
+        return 1
     if args.fail_on_parser and parser_total:
         print(f"\n::error::{parser_total} parser-class gaps remain", file=sys.stderr)
         return 1

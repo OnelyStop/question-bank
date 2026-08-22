@@ -74,11 +74,33 @@ jobs:
           print(f"OK - {len(s['properties'])} fields, {len(s.get('required', []))} required")
           PY
 
-      - name: Parser regression cases
-        run: python3 tests/test_parser.py
+      - name: Unit tests
+        # Discovers every tests/test_*.py -- adding a module needs no edit here.
+        run: python3 tests/run_tests.py
 
       - name: Committed questions carry no known defect
         run: python3 pipeline/5-validate/check_questions.py
+
+      - name: No batch is missing anything
+        # check_questions asks whether what is here is wrong. This asks whether
+        # anything is missing -- without it a batch merges at 90% complete and
+        # the build is still green.
+        run: |
+          pip install --quiet pymupdf
+          fail=0
+          for d in data/batch*/; do
+            echo "-- $d"
+            python3 pipeline/1-extract/check_gaps.py --root "$d" --strict || fail=1
+          done
+          exit $fail
+
+      - name: Review PDFs are readable
+        # check_questions reads the JSON. This reads the PDFs, which are what a
+        # person actually opens to judge a parse -- one batch reached review
+        # with 43 "<U+20B9>" in it and every gate stayed green.
+        run: |
+          pip install --quiet pymupdf
+          python3 pipeline/5-validate/check_render.py
 
       - name: Every file sits in the folder that owns it
         run: python3 pipeline/5-validate/check_layout.py

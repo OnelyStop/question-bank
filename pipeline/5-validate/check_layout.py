@@ -76,8 +76,14 @@ def violation(path: str) -> str | None:
             return f"not a pipeline step ({', '.join(sorted(STEP_DIRS))})"
 
     elif top == "tests":
-        if len(parts) != 2 or not (parts[1].startswith("test_") and parts[1].endswith(".py")):
-            return "tests/ holds only test_*.py files"
+        # Cases plus the two modules they share: harness.py (fixtures and the
+        # step importer) and run_tests.py (the single entry point CI calls).
+        # Python only -- fixtures belong in the case that uses them, not in
+        # loose data files nothing points at.
+        if len(parts) != 2 or not parts[1].endswith(".py"):
+            return "tests/ holds only Python modules"
+        if not (parts[1].startswith("test_") or parts[1] in {"harness.py", "run_tests.py"}):
+            return "a test module is named test_*.py"
 
     return None
 

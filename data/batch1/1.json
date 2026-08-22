@@ -1,6 +1,6 @@
 {
   "source": "Formatted-IBPS-Clerk-Prelims-2020-Memory-Based-Mock-Paper-Based-on-5th-December-Questions--1.pdf",
-  "source_pdf": "../frontend/sample/pdfs/easy/Formatted-IBPS-Clerk-Prelims-2020-Memory-Based-Mock-Paper-Based-on-5th-December-Questions--1.pdf",
+  "source_pdf": "corpus/done/IBPS/Clerk/2020/Prelims/_unknown_shift/Formatted-IBPS-Clerk-Prelims-2020-Memory-Based-Mock-Paper-Based-on-5th-December-Questions--1.pdf",
   "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
   "bank": "IBPS",
   "role": "Clerk",
@@ -8,6 +8,7 @@
   "year": 2020,
   "memory_based": true,
   "question_count": 100,
+  "image_only_q_nums": [],
   "questions": [
     {
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q001",
@@ -996,7 +997,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q042",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 42,
-      "stem": "A shopkeeper marked up a shirt 50% above the cost price and allows successive discounts of \\frac{111}{9}% and 10% on it. If the difference between profit earned and discount given is Rs. 200 then find the marked price of the shirt?",
+      "stem": "A shopkeeper marked up a shirt 50\\% above the cost price and allows successive discounts of \\frac{111}{9}\\% and 10\\% on it. If the difference between profit earned and discount given is Rs. 200 then find the marked price of the shirt?",
       "options": {
         "a": "Rs. 2100",
         "b": "Rs. 3000",
@@ -1260,7 +1261,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q053",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 53,
-      "stem": "50% of 128 + √^{1}⁶ 2 \\times 4 = ? + 10",
+      "stem": "50\\% of 128 + \\frac{\\sqrt{16}}{2} \\times 4 = ? + 10",
       "options": {
         "a": "64",
         "b": "62",
@@ -1284,7 +1285,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q054",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 54,
-      "stem": "^(\\sqrt{1331}) 3 11 + \\sqrt{81} + ? = 27",
+      "stem": "\\frac{\\sqrt[3]{1331}}{11} + \\sqrt{81} + ? = 27",
       "options": {
         "a": "19",
         "b": "18",
@@ -1404,7 +1405,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q059",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 59,
-      "stem": "80% of ? = \\sqrt{250} \\times 44 + 40% of 8500",
+      "stem": "80\\% of ? = \\sqrt{250} \\times 44 + 40\\% of 8500",
       "options": {
         "a": "80",
         "b": "120",
@@ -1452,7 +1453,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q061",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 61,
-      "stem": "? + 13 \\times 50 = 420 + 45% of 800 + 220",
+      "stem": "? + 13 \\times 50 = 420 + 45\\% of 800 + 220",
       "options": {
         "a": "300",
         "b": "350",
@@ -1476,7 +1477,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q062",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 62,
-      "stem": "12 % of ? + 12.5% of 960 = 16 \\times 12",
+      "stem": "12 \\% of ? + 12.5\\% of 960 = 16 \\times 12",
       "options": {
         "a": "840",
         "b": "960",
@@ -1500,7 +1501,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q063",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 63,
-      "stem": "15 \\times ? + 20% of 450 = 360",
+      "stem": "15 \\times ? + 20\\% of 450 = 360",
       "options": {
         "a": "12",
         "b": "20",
@@ -1524,7 +1525,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q064",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 64,
-      "stem": "75% of \\frac{3}{4} \\times \\frac{8}{9} \\times 1800 = ? + 600",
+      "stem": "75\\% of \\frac{3}{4} \\times \\frac{8}{9} \\times 1800 = ? + 600",
       "options": {
         "a": "300",
         "b": "400",
@@ -1548,7 +1549,7 @@
       "q_id": "ibps_clerk_2020_prelims_f1a8daa3::q065",
       "paper_id": "ibps_clerk_2020_prelims_f1a8daa3",
       "q_num": 65,
-      "stem": "? % of 900 + 500 = 4 \\times 197",
+      "stem": "? \\% of 900 + 500 = 4 \\times 197",
       "options": {
         "a": "28",
         "b": "25",
@@ -1725,7 +1726,7 @@
         "e": "None of these"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3^(rd) heaviest among all. Weight of the 2ⁿd lightest person is 17kg. Total weight of B and C is 44kg. 2ⁿd heaviest person is twice heavy to the one who is 2ⁿd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
+      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3rd heaviest among all. Weight of the 2nd lightest person is 17kg. Total weight of B and C is 44kg. 2nd heaviest person is twice heavy to the one who is 2nd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1749,7 +1750,7 @@
         "e": "None of these"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3^(rd) heaviest among all. Weight of the 2ⁿd lightest person is 17kg. Total weight of B and C is 44kg. 2ⁿd heaviest person is twice heavy to the one who is 2ⁿd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
+      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3rd heaviest among all. Weight of the 2nd lightest person is 17kg. Total weight of B and C is 44kg. 2nd heaviest person is twice heavy to the one who is 2nd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1773,7 +1774,7 @@
         "e": "None of these"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3^(rd) heaviest among all. Weight of the 2ⁿd lightest person is 17kg. Total weight of B and C is 44kg. 2ⁿd heaviest person is twice heavy to the one who is 2ⁿd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
+      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3rd heaviest among all. Weight of the 2nd lightest person is 17kg. Total weight of B and C is 44kg. 2nd heaviest person is twice heavy to the one who is 2nd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1797,7 +1798,7 @@
         "e": "F-B"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3^(rd) heaviest among all. Weight of the 2ⁿd lightest person is 17kg. Total weight of B and C is 44kg. 2ⁿd heaviest person is twice heavy to the one who is 2ⁿd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
+      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3rd heaviest among all. Weight of the 2nd lightest person is 17kg. Total weight of B and C is 44kg. 2nd heaviest person is twice heavy to the one who is 2nd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1821,7 +1822,7 @@
         "e": "None is true"
       },
       "direction_id": "d011",
-      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3^(rd) heaviest among all. Weight of the 2ⁿd lightest person is 17kg. Total weight of B and C is 44kg. 2ⁿd heaviest person is twice heavy to the one who is 2ⁿd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
+      "direction_text": "Study the following information carefully and answer the question given below- Six persons are arranged according to their weight in descending order from left to right. E is not the heaviest among all. A is heavier than F and C. F is heavier than B and D but not heavier than E. B and C are not the lightest among all. A is not just heavier than F. E is heavier than C, who is not the 3rd heaviest among all. Weight of the 2nd lightest person is 17kg. Total weight of B and C is 44kg. 2nd heaviest person is twice heavy to the one who is 2nd lightest. C is just lighter than F. Total weight of all the persons are 150kg.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1965,7 +1966,7 @@
         "e": "Four"
       },
       "direction_id": "d013",
-      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14^(th) or 23^(rd)but not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
+      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14th or 23rdbut not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -1989,7 +1990,7 @@
         "e": "1958"
       },
       "direction_id": "d013",
-      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14^(th) or 23^(rd)but not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
+      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14th or 23rdbut not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2013,7 +2014,7 @@
         "e": "None of these"
       },
       "direction_id": "d013",
-      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14^(th) or 23^(rd)but not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
+      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14th or 23rdbut not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2037,7 +2038,7 @@
         "e": "H"
       },
       "direction_id": "d013",
-      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14^(th) or 23^(rd)but not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
+      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14th or 23rdbut not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",
@@ -2061,7 +2062,7 @@
         "e": "None of these"
       },
       "direction_id": "d013",
-      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14^(th) or 23^(rd)but not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
+      "direction_text": "Study the following information carefully and answer the question given below- Eight persons A, B, C, D, E, F, G and H were born in the month of December of 4 different years i.e. 1956, 1957, 1958 and 1959 either on 14th or 23rdbut not necessarily in the same order. E was born in the even numbered year but not the eldest among all. More than two persons were born between E and D. H was born just after D. There are as many persons born before H as same as born after B. G was born before F and after A and they all were born on the same date.",
       "direction_has_image": false,
       "direction_image_refs": [],
       "bank": "IBPS",

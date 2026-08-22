@@ -26,5 +26,6 @@
   "difficulty": 3,
   "question_pattern": "shared_directions_set",
   "has_image": false,
-  "image_refs": []
+  "image_refs": [],
+  "corrected": ["stem", "options"]
 }

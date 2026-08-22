@@ -28,11 +28,18 @@ DONE = REPO / "corpus" / "done"
 HEADER_FRAC = 0.12
 FOOTER_FRAC = 0.08
 
-DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+# Bengali only. Devanagari is deliberately NOT here: a Hindi-only stem with
+# English options is a question this bank keeps, and treating the two scripts
+# alike dropped 40 of batch 1.
+BENGALI_RE = re.compile(r"[ঀ-৿]")
 NOISE_RE = re.compile(
-    r"(?i)^(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
-    r"careerpower\.in.*|store\.adda247\.com.*|website:.*|email:.*|"
-    r"info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
+    # The page number often shares the footer line -- "11 Visit: adda247.com" --
+    # so anchoring on the domain alone left the whole footer in the text, where
+    # it ran on into a passage's direction and into option (e).
+    r"(?i)^(?:\d{1,3}\s+)?"
+    r"(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
+    r"careerpower\.in.*|store\.adda247\.com.*|(?:web)?site\s*:.*|visit\s*:.*|"
+    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
 )
 
 # The `(?!\d)` guard applies only to the bare form -- with an explicit "Q" there
@@ -53,6 +60,7 @@ UNNUMBERED_DIRECTION_RE = re.compile(
     r"Find the wrong|Answer the following|Solve the following)"
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
+UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
@@ -62,7 +70,9 @@ BLEED_RE = re.compile(
     # "Ans.(b)" printed after each question's options is an inline answer key,
     # not part of option (e). It bled into the last option of all 100 questions
     # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
-    r"Ans\s*\.\s*\(?\s*[a-e]\s*\)?|"
+    # \b matters: case-insensitive "ans." also matched inside "plans. (a)",
+    # cutting a stem at "improvement pl" and dropping all five options.
+    r"\bAns\s*\.\s*\(?\s*[a-e]\s*\)?|"
     r"Answer\s*:|Solution\s*:).*$"
 )
 # "Visit: adda247.com" (no "www.", so BLEED_RE's www\. branch misses it) shows
@@ -86,7 +96,20 @@ SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hin
 # multiplication rather than a square, and nothing downstream can tell them
 # apart.
 SUPERSCRIPT_FLAG = 1
+# What may sit above a fraction bar: a number, or a radical like "√16".
+NUMERATOR_RE = re.compile(r"[√∛]?\s*\d{1,4}\s*%?")
 SUPERSCRIPT_MAP = str.maketrans("0123456789+-=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ")
+ORDINAL_RE = re.compile(r"(?i)st|nd|rd|th")
+# Mathematical alphanumerics: "𝑥", and "𝟏" which is a digit no \d matches. They
+# arrive from equation-set papers, so fold them before anything reads the text
+# -- to_latex works in \d, and a bold 1 left it silently declining to convert.
+MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
+
+
+def normalise(text: str) -> str:
+    return MATH_ALNUM.sub(lambda m: unicodedata.normalize("NFKC", m.group(0)), text)
+# What an ordinal suffix may follow: "28th June", and "IVth term of the series".
+ORDINAL_STEM_RE = re.compile(r"(?:\d|\b[IVXLCDM]+)$")
 
 
 def line_text(line: dict) -> str:
@@ -100,24 +123,48 @@ def line_text(line: dict) -> str:
     """
     spans = line.get("spans") or []
     body = max((s.get("size", 0) for s in spans), default=0)
-    out = []
-    for span in spans:
+
+    def is_sup(span):
         text = span.get("text", "")
-        is_sup = (text.strip()
-                  and span.get("flags", 0) & SUPERSCRIPT_FLAG
-                  and span.get("size", body) <= 0.85 * body)
-        if not is_sup:
+        # A radicand prints small and carries the superscript flag too --
+        # "√16" became "^{1}⁶" and "√1331" became "^(\sqrt{1331})". A span
+        # holding a radical sign is never an exponent.
+        if "√" in text or "∛" in text:
+            return False
+        return (text.strip()
+                and span.get("flags", 0) & SUPERSCRIPT_FLAG
+                and span.get("size", body) <= 0.85 * body)
+
+    # Adjacent superscript spans are ONE exponent. "2x+3y" arrives as four
+    # spans, and judged one at a time each is short enough for the glyph path,
+    # giving "^{2}x⁺^{3}y". Merge the run first, then choose the form once.
+    out, i = [], 0
+    while i < len(spans):
+        if not is_sup(spans[i]):
+            out.append(spans[i].get("text", ""))
+            i += 1
+            continue
+        j = i
+        while j < len(spans) and is_sup(spans[j]):
+            j += 1
+        text = "".join(s.get("text", "") for s in spans[i:j]).strip()
+        i = j
+        # An ordinal suffix is typography, not an exponent. These papers set the
+        # "th" of "28th June" raised and small, so it passed both signals and
+        # came out "28^(th) June" -- 141 dates across two batches against 2 real
+        # exponents. A date is prose and has to read as written.
+        if ORDINAL_RE.fullmatch(text) and ORDINAL_STEM_RE.search("".join(out).rstrip()):
             out.append(text)
             continue
         # Short exponents become glyphs; anything longer becomes "^(...)"
         # whole. A real expression exponent exists -- "(?)^(4×16÷32+1)" -- and
         # translating it char-by-char would emit mixed garbage.
         raised = text.translate(SUPERSCRIPT_MAP)
-        if len(text.strip()) <= 3 and raised != text:
+        if len(text) <= 3 and raised != text:
             out.append(raised)
         else:
-            out.append(f"^({text.strip().strip('()')})")
-    return "".join(out)
+            out.append(f"^({text.strip('()')})")
+    return normalise("".join(out))
 
 
 def find_gutter(blocks: list[dict], width: float) -> float | None:
@@ -150,6 +197,109 @@ def find_gutter(blocks: list[dict], width: float) -> float | None:
     return best[1] if best else None
 
 
+ROOT_INDEX = {"2": "√", "3": "∛", "4": "∜"}
+
+
+def merge_span_fractions(blocks: list[dict], bars) -> None:
+    """Join a stacked fraction whose numerator sits mid-line, in place.
+
+    join_fractions works on whole lines, which covers a numerator printed on a
+    line of its own. It cannot reach "50% of 128 + √16" over "2", where the
+    numerator is the last SPAN of a line and the denominator the first span of
+    the next -- that came out as "\\sqrt{16} 2 \\times 4", where the division
+    is simply missing and the stem reads as a different sum.
+
+    Mutates the span dicts: the numerator gains "num/den", the denominator is
+    blanked. Runs before lines are built, so the line-level pass then sees an
+    already-merged span and does nothing.
+    """
+    spans = []
+    for block in blocks:
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines") or []:
+            for span in line.get("spans") or []:
+                if span.get("text", "").strip():
+                    spans.append(span)
+    if not spans:
+        return
+    body = max(s.get("size", 0) for s in spans)
+
+    def centre(s):
+        return (s["bbox"][1] + s["bbox"][3]) / 2
+
+    used: set[int] = set()
+    for i, num in enumerate(spans):
+        text = num["text"].strip()
+        if id(num) in used or not NUMERATOR_RE.fullmatch(text):
+            continue
+        if num.get("size", body) > 0.9 * body:
+            continue
+        best, best_gap = None, 1e9
+        for den in spans:
+            if den is num or id(den) in used:
+                continue
+            gap = centre(den) - centre(num)
+            if not (0 < gap < 20):
+                continue
+            nb, db = num["bbox"], den["bbox"]
+            if min(nb[2], db[2]) - max(nb[0], db[0]) < 0.4 * min(nb[2] - nb[0], db[2] - db[0]):
+                continue
+            # A radical's overbar sits on the radicand's own top edge and is
+            # not a division; without this the cube-root index "3" merges onto
+            # "√1331" as "3/√1331".
+            radical = "√" in den["text"] or "∛" in den["text"]
+            if not any(centre(num) < by < centre(den)
+                       and not (radical and abs(by - db[1]) <= 3.0)
+                       and min(nb[2], bx1) - max(nb[0], bx0) > 1.0
+                       for by, bx0, bx1 in bars):
+                continue
+            if gap < best_gap:
+                best, best_gap = den, gap
+        if best is None:
+            continue
+        used.add(id(num))
+        used.add(id(best))
+        # The joined fraction goes where the DENOMINATOR sits, not the
+        # numerator. The numerator prints on the row above, outside the reading
+        # flow: "(b) 87 1/3 %" has its 87 and % on the denominator's line, and
+        # emitting at the numerator put the fraction before the previous option
+        # -- "(b) 87 1/3 1/3 %" beside "(c) 83 % 2/3".
+        best["text"] = f"{text}/{best['text'].strip()}"
+        num["text"] = ""
+
+
+def apply_root_index(blocks: list[dict], bars) -> None:
+    """Fold a root index printed above the radical into one glyph.
+
+    "∛1331" prints as a small "3" above "√1331"; left alone the 3 drifts into
+    the stem as a loose number ("\\sqrt{1331} 3 11 + ...").
+    """
+    spans = []
+    for block in blocks:
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines") or []:
+            for span in line.get("spans") or []:
+                if span.get("text", "").strip():
+                    spans.append(span)
+    for idx in spans:
+        text = idx["text"].strip()
+        if text not in ROOT_INDEX:
+            continue
+        for rad in spans:
+            if rad is idx or not rad["text"].lstrip().startswith("√"):
+                continue
+            ib, rb = idx["bbox"], rad["bbox"]
+            if not (0 < (rb[1] + rb[3]) / 2 - (ib[1] + ib[3]) / 2 < 14):
+                continue
+            if min(ib[2], rb[2]) - max(ib[0], rb[0]) < -6:
+                continue
+            rad["text"] = rad["text"].replace("√", ROOT_INDEX[text], 1)
+            idx["text"] = ""
+            break
+
+
 def page_lines(page: fitz.Page, bars=()):
     """The page's text as lines, in reading order, boilerplate removed.
 
@@ -158,6 +308,8 @@ def page_lines(page: fitz.Page, bars=()):
     cost 56 questions when it was applied globally.
     """
     blocks = [b for b in page.get_text("dict").get("blocks") or [] if b.get("type") == 0]
+    apply_root_index(blocks, bars)
+    merge_span_fractions(blocks, bars)
     gutter = find_gutter(blocks, page.rect.width)
     top = page.rect.y0 + HEADER_FRAC * page.rect.height
     bottom = page.rect.y1 - FOOTER_FRAC * page.rect.height
@@ -280,7 +432,10 @@ def join_fractions(lines, bars=()):
         return (b[1] + b[3]) / 2
 
     for i, (bi, ti) in enumerate(lines):
-        if not (ti.strip().isdigit() and (bi[3] - bi[1]) < 0.8 * body):
+        # A numerator is a short maths token, not only digits: "√16" over "2"
+        # and "∛1331" over "11" are both real fractions in these papers.
+        token = ti.strip()
+        if not (NUMERATOR_RE.fullmatch(token) and (bi[3] - bi[1]) < 0.8 * body):
             continue
         best, best_gap = None, 1e9
         for j, (bj, _) in enumerate(lines):
@@ -295,7 +450,13 @@ def join_fractions(lines, bars=()):
             # A bar between the two is what makes it a fraction. Without this a
             # question number sitting above a maths line ("54." over the stem)
             # merges into it and the question disappears.
+            # A radical's overbar sits ON the radicand's top edge, and would
+            # otherwise read as a fraction bar -- merging a cube-root index "3"
+            # onto "√1331" as "3/√1331". Only radicals draw one, so the guard
+            # is scoped to them and ordinary fractions are untouched.
+            radical = "√" in text[j] or "∛" in text[j]
             if not any(centre(bi) < by < centre(bj)
+                       and not (radical and abs(by - bj[1]) <= 3.0)
                        and min(bi[2], bx1) - max(bi[0], bx0) > 1.0
                        for by, bx0, bx1 in bars):
                 continue
@@ -311,7 +472,13 @@ def join_fractions(lines, bars=()):
     return kept, flags
 
 
-DEV_RUN_RE = re.compile(r"[ऀ-ॿ][ऀ-ॿ\s।]*")
+# Devanagari and Bengali. A bilingual paper appends the translation to the
+# English, and only Devanagari was cut -- an SBI Clerk paper printed its
+# Bengali in ShonarBangla, a legacy font whose text layer does not even
+# decode to real words, and 63 of its 98 questions carried the mojibake.
+DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
+# A trailing run of "?" left behind once the Hindi between them is gone.
+ORPHAN_QUESTION_RE = re.compile(r"\?(?:\s*\?)+\s*$")
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -328,9 +495,16 @@ def space_maths(text: str) -> str:
     return " ".join(OPERATOR_SPACE_RE.sub(r" \1 ", text).split())
 
 
-MATHY_RE = re.compile(r"[=×÷√≥≤]|\d+\s*/\s*\d+|\b\d+\s*\^")
-FRACTION_RE = re.compile(r"(?<![\w/])(\d+)\s*/\s*(\d+)(?![\w/])")
-ROOT_RE = re.compile(r"√\s*([A-Za-z0-9]+)")
+MATHY_RE = re.compile(r"[=×÷√∛∜≥≤]|\d+\s*/\s*\d+|\b\d+\s*\^")
+# Roots are converted BEFORE fractions, and a converted root may then be a
+# numerator. Doing fractions first turned "√16/2" into "√\frac{16}{2}" -- that
+# is sqrt(16/2) = 2.83, not sqrt(16)/2 = 2. A silently different sum.
+ROOT_RE = re.compile(r"([√∛∜])\s*([A-Za-z0-9]+)")
+ROOT_ORDER = {"√": "", "∛": "[3]", "∜": "[4]"}
+MIXED_RE = re.compile(r"(\d+)\s+(\\frac\{\d+\}\{\d+\})")
+FRACTION_RE = re.compile(
+    r"(?<![\w/])(\\sqrt(?:\[\d\])?\{[^{}]+\}|\d+)\s*/\s*"
+    r"(\\sqrt(?:\[\d\])?\{[^{}]+\}|\d+)(?![\w/])")
 SUPER = {"²": "2", "³": "3", "⁴": "4", "¹": "1", "⁰": "0"}
 SUPER_RE = re.compile(r"([²³⁴¹⁰])")
 
@@ -344,12 +518,20 @@ def to_latex(text: str) -> str | None:
     """
     if not text or not MATHY_RE.search(text):
         return None
-    out = FRACTION_RE.sub(r"\\frac{\1}{\2}", text)
-    out = ROOT_RE.sub(r"\\sqrt{\1}", out)
+    out = ROOT_RE.sub(lambda m: f"\\sqrt{ROOT_ORDER[m.group(1)]}{{{m.group(2)}}}", text)
+    out = FRACTION_RE.sub(r"\\frac{\1}{\2}", out)
     out = SUPER_RE.sub(lambda m: f"^{{{SUPER[m.group(1)]}}}", out)
     out = out.replace("×", r"\times ").replace("÷", r"\div ")
     out = out.replace("≥", r"\geq ").replace("≤", r"\leq ")
-    return " ".join(out.split()) if out != text else None
+    out = " ".join(out.split())
+    # "87 \frac{1}{3} %" is a MIXED number, 87 and a third, not 87 times a
+    # third -- the space reads as ambiguous to anyone looking at the JSON.
+    # Closing it up is the standard mixed-number form.
+    out = MIXED_RE.sub(r"\1\2", out)
+    # A bare % is LaTeX's comment character: everything after it on the line
+    # disappears when rendered. 55 values carried one.
+    out = re.sub(r"(?<!\\)%", r"\\%", out)
+    return out if out != text else None
 
 
 def strip_hindi(text: str) -> str:
@@ -363,7 +545,65 @@ def strip_hindi(text: str) -> str:
     if not text:
         return text
     out = DEV_RUN_RE.sub(" ", text)
-    return " ".join(out.split()).strip(" \t\n-/|,;")
+    out = " ".join(out.split()).strip(" \t\n-/|,;")
+    # A bilingual paper prints the question twice, and the Hindi sentence ends
+    # in an ASCII "?" that the Devanagari run does not cover -- so removing the
+    # Hindi strands its question mark after the English one: "…at the topmost
+    # position? ?". Not only that path, though: one stem reached "given??" from
+    # a source printing a single "?", so the collapse is unconditional.
+    #
+    # Only at the END. 97 maths stems legitimately carry two "?" ("What should
+    # come in place of (?) in the following questions? 150%") and none of the
+    # 4,778 merged questions ends in a "?" run for a good reason.
+    return ORPHAN_QUESTION_RE.sub("?", out)
+
+
+def image_regions(pdf: Path) -> dict[int, bool]:
+    """Question numbers whose block on the page contains an embedded image.
+
+    Simplification sets print the equation as a small inline picture beside
+    "Q56." and only the options as text; some print the option VALUES as
+    pictures, leaving "(a) (b) (c) (d) (e)" with nothing behind them. 45 of 54
+    incomplete questions in one batch were this. There is no text to recover --
+    the honest output is has_image, so the text-only filter drops them instead
+    of the parse being blamed.
+
+    A question's region runs from its anchor line to the next anchor in the
+    same column. Only a region with an image qualifies, and the caller applies
+    it only where text is actually missing -- a DI chart sits in the region of
+    the question *before* the set, and must not flag a complete one.
+    """
+    found: dict[int, bool] = {}
+    doc = fitz.open(pdf)
+    try:
+        for page in doc:
+            blocks = page.get_text("dict").get("blocks") or []
+            images = [b["bbox"] for b in blocks if b.get("type") == 1]
+            if not images:
+                continue
+            gutter = find_gutter(blocks, page.rect.width)
+            anchors = []
+            for b in blocks:
+                if b.get("type") != 0:
+                    continue
+                for line in b.get("lines") or []:
+                    text = "".join(s.get("text", "") for s in line.get("spans") or [])
+                    m = QUESTION_RE.match(text)
+                    if m:
+                        x0, y0, x1, y1 = line["bbox"]
+                        col = 0 if gutter is None or x0 < gutter else 1
+                        anchors.append((col, y0, int(m.group(1) or m.group(2))))
+            anchors.sort()
+            for i, (col, y0, num) in enumerate(anchors):
+                nxt = next((y for c, y, _ in anchors[i + 1:] if c == col), page.rect.y1)
+                for ix0, iy0, ix1, iy1 in images:
+                    icol = 0 if gutter is None or ix0 < gutter else 1
+                    if icol == col and y0 - 4 <= (iy0 + iy1) / 2 <= nxt:
+                        found[num] = True
+                        break
+    finally:
+        doc.close()
+    return found
 
 
 def read_text(pdf: Path) -> str:
@@ -401,6 +641,23 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
 
     matches = list(OPTION_RE.finditer(block))
     if not matches:
+        # "STARTERS" connector questions print three UPPERCASE options,
+        # "(A) Because… (B) Considering… (C) Even though…". Uppercase is
+        # normally a stimulus label, so this runs only when no lowercase run
+        # exists at all -- a para-jumble has both and keeps its (a)-(e).
+        upper = list(UPPER_OPTION_RE.finditer(block))
+        labels = [m.group(1) for m in upper]
+        if labels[:3] == ["A", "B", "C"]:
+            opts, stem = {}, " ".join(block[: upper[0].start()].split())
+            run = upper[: 5 if labels[:5] == list("ABCDE") else
+                          4 if labels[:4] == list("ABCD") else 3]
+            for i, m in enumerate(run):
+                end = run[i + 1].start() if i + 1 < len(run) else len(block)
+                value = " ".join(block[m.end(): end].split()).strip(" ;-")
+                if value:
+                    opts[m.group(1).lower()] = value
+            if len(opts) == len(run):
+                return stem, opts
         return " ".join(block.split()), {}
 
     # Last full a-e run wins: an earlier "(a)" may belong to the stem.
@@ -418,12 +675,25 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
     stem = " ".join(block[: matches[start_at].start()].split())
     opts = {}
     run = matches[start_at:]
+    # Is this a run of short, single-line options? Judged from all but the
+    # last, because the last is the one that collects stray text.
+    heads = [block[run[i].end(): run[i + 1].start()] for i in range(len(run) - 1)]
+    single_line_run = bool(heads) and all(
+        h.strip() and "\n" not in h.strip() and len(h.split()) <= 6 for h in heads)
+
     for idx, mm in enumerate(run):
         label = mm.group(1).lower()
         if label == "a" and opts:
             break
         end = run[idx + 1].start() if idx + 1 < len(run) else len(block)
-        value = " ".join(block[mm.end(): end].split()).strip(" ;-")
+        raw = block[mm.end(): end]
+        # Unrelated text can land after the LAST option when columns interleave
+        # -- a DI direction's tail rode along on "(e) 9.09%" with no header for
+        # BLEED_RE to match. Where every earlier option is one short line, this
+        # one is too, so cut at the first break.
+        if single_line_run and idx == len(run) - 1 and "\n" in raw.strip():
+            raw = raw.strip().split("\n", 1)[0]
+        value = " ".join(raw.split()).strip(" ;-")
         if value:
             opts[label] = value
         if label == "e":
@@ -474,7 +744,16 @@ def paper_meta(pdf: Path, text: str) -> dict:
     research.py writes what it found, and without this the search results would
     have nowhere to land.
     """
-    meta = meta_from_text(f'{re.sub(r"[\s._\-]+", " ", pdf.stem)} {text[:400]}')
+    name = re.sub(r"[\s._\-]+", " ", pdf.stem)
+    meta = meta_from_text(name)
+    # Page 1 fills only what the filename left empty. That text is question
+    # content as often as it is a title: one PO paper opens on an arrangement
+    # set over "CEO, MD, DGM, AGM, Manager and Clerk", and the role came out
+    # Clerk on all 115 of its questions.
+    body = meta_from_text(f"{name} {text[:400]}")
+    for key, value in body.items():
+        if not meta.get(key):
+            meta[key] = value
     side = pdf.with_suffix(pdf.suffix + ".meta.json")
     if side.is_file():
         try:
@@ -511,6 +790,91 @@ def options_from_direction(direction: str) -> dict[str, str]:
     return opts
 
 
+def unreadable(stem: str, opts: dict | None = None,
+               bengali_paper: bool = False) -> bool:
+    """Left in a script this bank cannot use, after the strip already ran.
+
+    strip_hindi takes the translation off a bilingual question and keeps the
+    English. A stem still holding Devanagari or Bengali afterwards had no
+    English to keep -- the fallbacks around it deliberately restore the raw text
+    rather than ship an empty stem, so it arrives here intact.
+
+    One SBI Clerk paper prints 31 of its 98 questions in Bengali only, set in
+    ShonarBangla, whose text layer decodes only in part: "শুধুমাত্র" survives,
+    but "যদি" comes out as "যশি" and "বিবৃতি" as "শব্ব্তশি". Those are not the
+    words on the page, and 29 of the 31 carry a full option set -- so every gate
+    passes them and the defect ships looking complete.
+
+    The options count too: where stripping an option would empty it the raw text
+    is kept deliberately, so a question can read as English and still offer five
+    Bengali answers. And what the strip leaves behind is sometimes only
+    punctuation -- ": : I. , II." is the whole of one syllogism stem -- so a
+    non-empty stem with no word and no number in it is unreadable as well. A
+    blank stem is not: an error-spotting set states its task in the direction.
+    """
+    blob = (stem or "") + " " + " ".join((opts or {}).values())
+    if BENGALI_RE.search(blob):
+        return True
+    # What the strip leaves of a Bengali-only question is sometimes punctuation
+    # alone -- ": : I. , II." is one whole syllogism stem. Short, wordless and
+    # numberless together; a long stem in another script is a real question and
+    # stays. A blank stem is not caught either: an error-spotting set states its
+    # task in the direction and prints nothing but its five candidates.
+    stem = (stem or "").strip()
+    if not bengali_paper or not stem or len(stem) > 24:
+        return False
+    return not (re.search(r"[A-Za-z]{3,}", stem) or re.search(r"\d", stem))
+
+
+def not_supplied(stem: str, opts: dict, direction: str | None) -> bool:
+    """Is something missing that the paper actually printed somewhere?
+
+    Not the same as "has an empty field". Options are never optional -- a
+    question with none is unanswerable. A stem is, when a direction carries the
+    task for the whole set: error-spotting sets print "choose the sentence with
+    a grammatical error" once and then nothing but the five candidates under
+    each number.
+
+    Used both by resolve_image_bodied and to score a batch, so the two can
+    never disagree about what "complete" means.
+    """
+    return not opts or not (stem or direction)
+
+
+def resolve_image_bodied(questions) -> None:
+    """Mark the questions that are a picture rather than a parse failure.
+
+    No options always means the values were drawn instead of typed -- the page
+    reads "(a) (b) (c) (d) (e)" with nothing after them.
+
+    A missing stem is the ambiguous one, and the two cases look identical per
+    question: both have five options and a direction. What separates them is how
+    much of the SET sits on an image. Where every stem-less question in a
+    direction group is on one, the stems are pictures -- symbol sets and
+    "what value should come in place of (?)" print their statements as
+    graphics. Where one of seven is, that image is something else on the page,
+    and dropping the question throws away five good options with it: q93 of two
+    RRB papers went that way, and 34 more across one batch.
+    """
+    groups: dict[object, list[dict]] = {}
+    for q in questions:
+        if not q["stem"] and q["options"]:
+            groups.setdefault(q["direction_id"], []).append(q)
+    # Majority, not all: one undetected image region in a set of five should not
+    # hand back the whole set.
+    drawn = {did: sum(1 for q in qs if q["on_image"]) * 2 > len(qs)
+             for did, qs in groups.items()}
+
+    for q in questions:
+        if not q["options"]:
+            q["has_image"] = q["on_image"]
+        elif not q["stem"]:
+            q["has_image"] = q["on_image"] and drawn.get(q["direction_id"], False)
+        else:
+            q["has_image"] = False
+        del q["on_image"]
+
+
 def stem_from_blank(direction: str, num: int) -> str:
     """For cloze sets, the sentence around this question's blank in the passage.
 
@@ -531,6 +895,37 @@ def stem_from_blank(direction: str, num: int) -> str:
     start = left + 1 if left != -1 else max(0, m.start() - 160)
     stop = right + 1 if right != -1 else min(len(direction), m.end() + 160)
     return " ".join(direction[start:stop].split())
+
+
+CORRECTIONS = Path(__file__).resolve().parent / "corrections.json"
+
+
+def load_corrections() -> dict:
+    """Hand-transcribed fixes, keyed by q_id.
+
+    A question the parser mangles can be corrected by reading the PDF and
+    writing the right value here -- editing the batch JSON directly does not
+    survive the next run, which overwrites it.
+
+    Transcription only. Every value must be visible in the source PDF; this is
+    not a place to invent an option the paper never printed.
+    """
+    if not CORRECTIONS.is_file():
+        return {}
+    try:
+        return json.loads(CORRECTIONS.read_text(encoding="utf-8")).get("questions", {})
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def apply_correction(q: dict, fixes: dict) -> dict:
+    fix = fixes.get(q.get("q_id"))
+    if not fix:
+        return q
+    q = dict(q)
+    q.update({k: v for k, v in fix.items() if k != "note"})
+    q["corrected"] = sorted(k for k in fix if k != "note")
+    return q
 
 
 def make_paper_id(meta: dict, pdf: Path) -> str:
@@ -568,13 +963,67 @@ def full_question(q: dict, paper_id: str, meta: dict) -> dict:
         "exam_type": meta.get("exam_type"),
         "year": meta.get("year"),
         "memory_based": meta.get("memory_based", False),
-        "has_image": False,
+        "has_image": bool(q.get("has_image")),
         "image_refs": [],
     }
 
 
+def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
+    """Where each question starts, minus the bare numbers that only look like one.
+
+    A para-jumble set prints two of its sentences already placed, numbered by
+    their position in the paragraph: "104. P. Above 500 falls... 2. An AQI
+    between 0-50... Q. The air quality index...". That "2." read as the start of
+    question 2, so 104's block ended there and the options it never reached --
+    (a) P (b) Q (c) R (d) S (e) T -- were dropped with the rest of the body.
+
+    Going backwards is not the signal -- a two-column paper reads out of order
+    all by itself ("41 44 45 42 43 46" is every one of those questions, once).
+    Reusing a number already taken is: the paragraph's own "2." arrives long
+    after question 2 was parsed. Rejecting backward numbers instead cost 4 real
+    questions to that column interleave, and rejecting them outright cost 3 more
+    in an earlier batch.
+
+    Reuse is not the only tell. A section paper numbered 36-90 never uses the
+    low numbers at all, so "5 : 3 respectively" inside a ratio was a free number
+    and started question 5 -- cutting the real question after its first line and
+    losing all five options. A bare number far below where the paper has got to
+    is not a question either, whether or not it has been used.
+
+    A section restart -- 1-35 Reasoning, then 1-35 English -- goes far backwards
+    legitimately, so both rules need the same escape hatch: it keeps counting
+    where a ratio or a sentence label stands alone. A rejected number that opens
+    a run of three starts a new section, and the numbers seen so far are
+    released.
+    """
+    seen = [(int(m.group(1) or m.group(2)), m.start(), m.end(), m.group(1) is None)
+            for m in found if not q_style or m.group(1)]
+    kept: list[tuple[int, int, int]] = []
+    used: set[int] = set()
+    highest = 0
+    for i, (num, start, end, bare) in enumerate(seen):
+        # 20 is wider than any column interleave seen here (41 44 45 42 43 46
+        # is off by 3) and far below a section restart, which lands near 1.
+        if bare and (num in used or num < highest - 20):
+            run, prev = 1, num
+            for nxt in seen[i + 1:]:
+                if not 1 <= nxt[0] - prev <= 2:
+                    break
+                run += 1
+                prev = nxt[0]
+            if run < 3:
+                continue
+            used.clear()
+            highest = num
+        kept.append((num, start, end))
+        used.add(num)
+        highest = max(highest, num)
+    return kept
+
+
 def parse(pdf: Path) -> dict:
-    text = AD_CREDIT_RE.sub(" ", read_text(pdf))
+    text = read_text(pdf)
+    has_image_at = image_regions(pdf)
 
     # A paper numbers its questions one way throughout. Where "Q41." is the
     # house style, a bare "1." is a list item inside a stem ("1. Revenue from
@@ -585,8 +1034,7 @@ def parse(pdf: Path) -> dict:
     found = list(QUESTION_RE.finditer(text))
     prefixed = sum(1 for m in found if m.group(1))
     q_style = prefixed >= 0.6 * len(found) if found else False
-    anchors = [(int(m.group(1) or m.group(2)), m.start(), m.end())
-               for m in found if not q_style or m.group(1)]
+    anchors = question_anchors(found, q_style)
 
     # The direction's body is everything between its header and the first
     # question it covers -- the passage, the table, the arrangement. Capturing
@@ -599,6 +1047,12 @@ def parse(pdf: Path) -> dict:
     directions = []
     for i, (start, end, lo, hi) in enumerate(heads):
         nxt_head = heads[i + 1][0] if i + 1 < len(heads) else len(text)
+        # Cut at the nearest anchor, not at the first question this direction
+        # covers. Running to its own `lo` sounds more correct and on a
+        # two-column page it swallows the questions printed beside the header --
+        # 1,300 characters of questions 41-45 landed inside direction (46-50),
+        # and their options stayed unrecoverable anyway because the labels
+        # interleave.
         first_q = next((s for _, s, _ in anchors if s >= end), None)
         stop = min(first_q if first_q is not None else len(text), nxt_head)
         body = " ".join(text[end:stop].split())
@@ -626,6 +1080,15 @@ def parse(pdf: Path) -> dict:
         # stays glued to this stem, which is how one paper ended up with all 115
         # stems polluted and every direction off by one. Split before
         # split_options: this pattern is line-anchored and that collapses lines.
+        # A numbered "Directions (112-117):" inside this block belongs to the
+        # NEXT set -- it sits before its first question's anchor, so it lands
+        # at the tail of the question before it. Cut it first: otherwise the
+        # "Read the following…" it opens with trips the own-direction detector
+        # below, which then files this question's stem and options as a prefix
+        # and returns no options at all. All five misses in one batch.
+        nxt = DIRECTION_RE.search(block)
+        if nxt and nxt.start() > 0:
+            block = block[: nxt.start()]
         own_direction = None
         head = UNNUMBERED_DIRECTION_RE.search(block)
         prefix = block[: head.start()].strip() if head else ""
@@ -686,6 +1149,10 @@ def parse(pdf: Path) -> dict:
             "q_num": num,
             "stem": stem,
             "options": opts,
+            # Provisional: whether a picture sits where this question is.
+            # Whether that picture IS the question is decided per direction set
+            # once they are all built -- see resolve_image_bodied.
+            "on_image": bool(has_image_at.get(num)),
             "direction_text": d_text,
             "direction_id": direction_ids.setdefault(
                 d_text, f"d{len(direction_ids) + 1:03d}") if d_text else None,
@@ -703,10 +1170,25 @@ def parse(pdf: Path) -> dict:
             dedup[q["q_num"]] = q
     meta = paper_meta(pdf, text)
     paper_id = make_paper_id(meta, pdf)
+    fixes = load_corrections()
     try:
         source_pdf = str(pdf.resolve().relative_to(REPO))
     except ValueError:
         source_pdf = str(pdf)
+
+    # A question is only marked has_image when its stem or its options are
+    # missing AND the page holds an image region -- the text is a picture, so
+    # there is nothing to take. Keeping it would file a stem-less, option-less
+    # row in the bank; a question you cannot read is not a question.
+    resolve_image_bodied([dedup[k] for k in sorted(dedup)])
+    built = [apply_correction(full_question(dedup[k], paper_id, meta), fixes)
+             for k in sorted(dedup)]
+    bengali_paper = bool(BENGALI_RE.search(text))
+    kept = [q for q in built
+            if not q["has_image"] and not unreadable(q["stem"], q["options"], bengali_paper)]
+    image_only = [q["q_num"] for q in built if q["has_image"]]
+    script_only = [q["q_num"] for q in built if not q["has_image"]
+                   and unreadable(q["stem"], q["options"], bengali_paper)]
     return {
         "source": pdf.name,
         # Repo-relative, so research.py can find the file again. The bare name
@@ -714,8 +1196,13 @@ def parse(pdf: Path) -> dict:
         "source_pdf": source_pdf,
         "paper_id": paper_id,
         **meta,
-        "question_count": len(dedup),
-        "questions": [full_question(dedup[k], paper_id, meta) for k in sorted(dedup)],
+        "question_count": len(kept),
+        # Dropped, not lost: the numbers stay so a paper that jumps 42 -> 46
+        # reads as five questions that were pictures, not five that went
+        # missing. Step 4 needs to know they existed.
+        "image_only_q_nums": image_only,
+        "script_only_q_nums": script_only,
+        "questions": kept,
     }
 
 
@@ -739,17 +1226,23 @@ ASCII_FOLD = str.maketrans({
 # Mathematical alphanumerics (𝑥, 𝟔) have no glyph in any font here; NFKC maps
 # them back to the plain letters they stand for. Applied only to that block, so
 # it cannot also flatten x² into x2.
-MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
-
-
-def normalise(text: str) -> str:
-    return MATH_ALNUM.sub(lambda m: unicodedata.normalize("NFKC", m.group(0)), text)
+# Set by flatten() when it has to escape a character, and read by render()
+# before it writes the file. Without this the fallback is silent: a machine
+# without the font produces a PDF full of "<U+20B9>" and says nothing, and the
+# batch reaches review looking finished. One paper shipped 43 of them.
+UNRENDERABLE: set[str] = set()
 
 
 def flatten(text: str) -> str:
     """Latin-1 fallback. Anything unmapped becomes <U+XXXX>, not a silent "?"."""
-    return "".join(c if ord(c) < 256 else f"<U+{ord(c):04X}>"
-                   for c in text.translate(ASCII_FOLD))
+    out = []
+    for c in text.translate(ASCII_FOLD):
+        if ord(c) < 256:
+            out.append(c)
+        else:
+            UNRENDERABLE.add(c)
+            out.append(f"<U+{ord(c):04X}>")
+    return "".join(out)
 
 
 class Sheet:
@@ -827,6 +1320,24 @@ def label(paper: dict) -> str:
 SUPER_BACK = {"0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵",
               "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "n": "ⁿ"}
 DISPLAY_MAP = [(r"\\times", "×"), (r"\\div", "÷"), (r"\\geq", "≥"), (r"\\leq", "≤")]
+MIXED_DISPLAY_RE = re.compile(r"(\d+)\\frac\{(\d+)\}\{(\d+)\}")
+VULGAR = {("1", "2"): "½", ("1", "3"): "⅓", ("2", "3"): "⅔", ("1", "4"): "¼",
+          ("3", "4"): "¾", ("1", "5"): "⅕", ("2", "5"): "⅖", ("3", "5"): "⅗",
+          ("4", "5"): "⅘", ("1", "6"): "⅙", ("5", "6"): "⅚", ("1", "8"): "⅛",
+          ("3", "8"): "⅜", ("5", "8"): "⅝", ("7", "8"): "⅞", ("1", "7"): "⅐",
+          ("1", "9"): "⅑", ("1", "10"): "⅒"}
+
+
+ATOMIC_RE = re.compile(r"^[\w.?]+$")
+
+
+def group_part(part: str) -> str:
+    """Bracket a fraction half unless it is a single value already.
+
+    "15" and "0.2" need nothing. "?-0.5" does, or the slash binds tighter than
+    the minus when the page is read.
+    """
+    return part if ATOMIC_RE.match(part.strip()) else f"({part.strip()})"
 
 
 def display(text: str) -> str:
@@ -838,7 +1349,19 @@ def display(text: str) -> str:
     """
     if "\\" not in text and "^{" not in text:
         return text
-    out = re.sub(r"\\frac\{([^{}]+)\}\{([^{}]+)\}", r"\1/\2", text)
+    # A mixed number shows as one glyph where Unicode has it -- "87⅓ %" is
+    # unambiguous where "87 1/3 %" is not.
+    out = MIXED_DISPLAY_RE.sub(
+        lambda m: m.group(1) + VULGAR.get((m.group(2), m.group(3)),
+                                          f" {m.group(2)}/{m.group(3)}"), text)
+    # "a/b" only reads right when both halves are single values. A numerator
+    # like "?-0.5" flattened to "?-0.5/0.2", which a reader takes as
+    # ? - (0.5/0.2): the JSON was right and the review page said otherwise.
+    out = re.sub(r"\\frac\{(.+?)\}\{([^{}]+)\}",
+                 lambda m: f"{group_part(m.group(1))}/{group_part(m.group(2))}", out)
+    out = out.replace("\\%", "%")
+    out = re.sub(r"\\sqrt\[(\d)\]\{([^{}]+)\}",
+                 lambda m: {"3": "∛", "4": "∜"}.get(m.group(1), "√") + m.group(2), out)
     out = re.sub(r"\\sqrt\{([^{}]+)\}", r"√\1", out)
     for pat, glyph in DISPLAY_MAP:
         out = re.sub(pat + r"\s*", glyph + " ", out)
@@ -849,6 +1372,10 @@ def display(text: str) -> str:
 
 
 def render(paper: dict, out: Path) -> int:
+    # Per paper, not per process: rerender.py and a batch run both call this in
+    # a loop, and a module global left set would fail every later paper for a
+    # character that appeared in an earlier one.
+    UNRENDERABLE.clear()
     name = label(paper)
     sheet = Sheet(name)
     sheet.write(name, size=13, bold=True, gap=3)
@@ -877,6 +1404,20 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.subset_fonts()
     except Exception:
         pass          # older PyMuPDF: a fat file still beats no file
+    # Refuse BEFORE writing. Raising after save() leaves the unreadable PDF on
+    # disk, which is the state this whole change exists to prevent -- and on a
+    # re-run the stale file is what a reviewer opens.
+    if UNRENDERABLE:
+        missing = " ".join(sorted(UNRENDERABLE)[:12])
+        sheet.doc.close()
+        raise RuntimeError(
+            f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
+            f"  No Unicode font found. Looked in:\n"
+            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
+            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
+              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+        )
+
     sheet.doc.save(str(out), deflate=True, garbage=4)
     pages = sheet.doc.page_count
     sheet.doc.close()
@@ -921,7 +1462,7 @@ def main(argv: list[str] | None = None) -> int:
     left = len(pdfs) - len(batch)
     print(f"  batch {number}: {len(batch)} PDFs, {left} left in {args.src}\n")
 
-    total_q = clean = 0
+    total_q = clean = total_img = total_script = 0
     index = []
     parsed_pdfs = []
     for n, pdf in enumerate(batch, 1):
@@ -932,10 +1473,22 @@ def main(argv: list[str] | None = None) -> int:
             continue
         parsed_pdfs.append(pdf)
         qs = paper["questions"]
+        # An image-bodied question is not a parse failure: there is no text to
+        # take. parse() leaves those out, so they are counted from the numbers
+        # it recorded and the rate below measures only the parser.
+        imaged = len(paper["image_only_q_nums"])
+        scripted = len(paper["script_only_q_nums"])
         no_opts = sum(1 for q in qs if not q["options"])
-        no_stem = sum(1 for q in qs if not q["stem"])
-        total_q += len(qs)
-        clean += len(qs) - no_opts - no_stem
+        # A stem the direction supplies is not missing -- same test parse() used
+        # to decide the question was worth keeping.
+        no_stem = sum(1 for q in qs
+                      if not_supplied(q["stem"], q["options"], q["direction_text"])
+                      and q["options"])
+        total_q += len(qs) + imaged + scripted
+        total_img += imaged
+        total_script += scripted
+        clean += len(qs) - sum(1 for q in qs
+                               if not_supplied(q["stem"], q["options"], q["direction_text"]))
 
         (out / f"{n}.json").write_text(
             json.dumps(paper, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -943,15 +1496,30 @@ def main(argv: list[str] | None = None) -> int:
         index.append({"n": n, "source": pdf.name, "bank": paper["bank"],
                       "role": paper["role"], "exam_type": paper["exam_type"],
                       "year": paper["year"], "questions": len(qs),
+                      "image_bodied": imaged,
+                      "image_only_q_nums": paper["image_only_q_nums"],
+                      "script_only": scripted,
+                      "script_only_q_nums": paper["script_only_q_nums"],
                       "no_options": no_opts, "no_stem": no_stem})
         label = " ".join(str(v) for v in (paper["bank"], paper["role"],
                                           paper["exam_type"], paper["year"]) if v)
-        flag = "" if not (no_opts or no_stem) else f"   no_opts={no_opts} no_stem={no_stem}"
-        print(f"  {n:2d}. {len(qs):4d} q   {label:32}{flag}")
+        bits = []
+        if imaged:
+            bits.append(f"image={imaged}")
+        if scripted:
+            bits.append(f"script={scripted}")
+        if no_opts:
+            bits.append(f"no_opts={no_opts}")
+        if no_stem:
+            bits.append(f"no_stem={no_stem}")
+        print(f"  {n:2d}. {len(qs):4d} q   {label:32}   {' '.join(bits)}")
 
     (out / "index.json").write_text(json.dumps(index, indent=2), encoding="utf-8")
-    pct = 100 * clean / total_q if total_q else 0
-    print(f"\n  {total_q} questions, {clean} complete ({pct:.1f}%)  ->  {out}")
+    text_q = total_q - total_img - total_script
+    pct = 100 * clean / text_q if text_q else 0
+    print(f"\n  {total_q} questions: {total_img} image-bodied, "
+          f"{total_script} script-only, {text_q} text"
+          f" -> {clean} complete ({pct:.1f}% of text)  ->  {out}")
 
     # Move only what parsed. A PDF that raised is left in remaining/ so the next
     # run picks it up again rather than it being quietly filed as done.
