@@ -1204,10 +1204,23 @@ ASCII_FOLD = str.maketrans({
 # Mathematical alphanumerics (𝑥, 𝟔) have no glyph in any font here; NFKC maps
 # them back to the plain letters they stand for. Applied only to that block, so
 # it cannot also flatten x² into x2.
+# Set by flatten() when it has to escape a character, and read by render()
+# before it writes the file. Without this the fallback is silent: a machine
+# without the font produces a PDF full of "<U+20B9>" and says nothing, and the
+# batch reaches review looking finished. One paper shipped 43 of them.
+UNRENDERABLE: set[str] = set()
+
+
 def flatten(text: str) -> str:
     """Latin-1 fallback. Anything unmapped becomes <U+XXXX>, not a silent "?"."""
-    return "".join(c if ord(c) < 256 else f"<U+{ord(c):04X}>"
-                   for c in text.translate(ASCII_FOLD))
+    out = []
+    for c in text.translate(ASCII_FOLD):
+        if ord(c) < 256:
+            out.append(c)
+        else:
+            UNRENDERABLE.add(c)
+            out.append(f"<U+{ord(c):04X}>")
+    return "".join(out)
 
 
 class Sheet:
@@ -1368,6 +1381,20 @@ def render(paper: dict, out: Path) -> int:
     sheet.doc.save(str(out), deflate=True, garbage=4)
     pages = sheet.doc.page_count
     sheet.doc.close()
+
+    # Refuse to hand back a PDF we know is unreadable. The point of this file is
+    # that a person opens it to check the parse, and "<U+20B9>" tells them
+    # nothing about whether the price is right. The JSON is unaffected, so the
+    # fix is a font plus rerender.py, never a re-parse.
+    if UNRENDERABLE:
+        missing = " ".join(sorted(UNRENDERABLE)[:12])
+        raise RuntimeError(
+            f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
+            f"  No Unicode font found. Looked in:\n"
+            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
+            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
+              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+        )
     return pages
 
 

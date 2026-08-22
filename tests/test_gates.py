@@ -191,3 +191,46 @@ if __name__ == "__main__":
     from run_tests import run_module  # noqa: E402
 
     sys.exit(run_module(sys.modules[__name__]))
+
+
+# --- can the review PDF be read? --------------------------------------------
+# The JSON gates say nothing about the PDFs, and the PDF is what a person opens
+# to decide whether a parse is right. A batch reached review with 43 "<U+20B9>"
+# escapes in one paper and correct JSON underneath, with every check green.
+def test_render_escape_detection():
+    render = step("5-validate", "check_render")
+    check("plain text is fine", render.ESCAPE_RE.findall("Rs 10,000 for UPI Lite"), [])
+    check("an escape is caught",
+          render.ESCAPE_RE.findall("<U+20B9>10,000 and <U+2192> x"),
+          ["<U+20B9>", "<U+2192>"])
+    # Lower case too: the escape is written upper case, but a check that only
+    # matched one case would pass a file it should reject.
+    check("case does not matter", render.ESCAPE_RE.findall("<U+20b9>"), ["<U+20b9>"])
+    check("a lone angle bracket is not an escape",
+          render.ESCAPE_RE.findall("x < U + 1 > y"), [])
+
+
+def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
+    import json as _json
+    import tempfile
+    from pathlib import Path as _Path
+
+    render = step("5-validate", "check_render")
+    with tempfile.TemporaryDirectory() as d:
+        root = _Path(d) / "batch99"
+        root.mkdir()
+        (root / "1.json").write_text(_json.dumps(paper(question())))
+        noise = io.StringIO()
+        with contextlib.redirect_stderr(noise):
+            code = render.main([str(root)])
+        check("a paper with no PDF fails", code, 1)
+        check_in("says which", "no review PDF", noise.getvalue())
+
+
+def test_render_gate_empty_scan_is_a_failure():
+    render = step("5-validate", "check_render")
+    noise = io.StringIO()
+    with contextlib.redirect_stderr(noise):
+        code = render.main(["data/does-not-exist"])
+    check("nothing scanned -> exit 1", code, 1)
+    check_in("says why", "no review PDFs found", noise.getvalue())
