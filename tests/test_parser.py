@@ -229,6 +229,23 @@ def test_complete_question_is_never_a_picture():
     check("stem and options present", qs[0]["has_image"], False)
 
 
+# --- inline ad credit lines ---------------------------------------------------
+# "Visit: adda247.com" has no "www.", so BLEED_RE's www\. branch misses it, and
+# NOISE_RE only strips it when it sits alone on its own line. It also showed up
+# stitched into the MIDDLE of a passage in one 2019 IBPS PO Mains paper:
+# "...equal in each city. Visit: adda247.com Note- Married couples...". Cutting
+# to end of string (BLEED_RE's approach) would have deleted "Note- Married
+# couples..." along with it, so this is a plain removal instead.
+def test_ad_credit_removed_inline():
+    check("trailing credit, no www.",
+          parser.AD_CREDIT_RE.sub(" ", "4080 Visit: adda247.com").strip(), "4080")
+    check("mid-passage credit leaves what follows",
+          " ".join(parser.AD_CREDIT_RE.sub(
+              " ", "equal in each city. Visit: adda247.com Note- Married couples."
+          ).split()),
+          "equal in each city. Note- Married couples.")
+
+
 # --- bilingual papers -------------------------------------------------------
 # Removing Devanagari runs (not truncating at the first one) keeps the Latin
 # labels inside a Hindi direction; truncation wiped them to "".

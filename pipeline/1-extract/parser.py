@@ -1022,7 +1022,7 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
 
 
 def parse(pdf: Path) -> dict:
-    text = read_text(pdf)
+    text = AD_CREDIT_RE.sub(" ", read_text(pdf))
     has_image_at = image_regions(pdf)
 
     # A paper numbers its questions one way throughout. Where "Q41." is the
