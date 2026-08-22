@@ -1297,6 +1297,9 @@ LEAD = 1.35
 UNICODE_FONTS = [
     "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
     "/Library/Fonts/Arial Unicode.ttf",
+    r"C:\Windows\Fonts\arial.ttf",
+    "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
 ]
 UNI_FONT = next((f for f in UNICODE_FONTS if Path(f).is_file()), None)
 
@@ -1430,7 +1433,7 @@ def display(text: str) -> str:
     touched -- this is display, not storage.
     """
     if "\\" not in text and "^{" not in text:
-        return text
+        return text.replace("∜", "4th-root").replace("🟻", "[symbol]")
     # A mixed number shows as one glyph where Unicode has it -- "87⅓ %" is
     # unambiguous where "87 1/3 %" is not.
     out = MIXED_DISPLAY_RE.sub(
@@ -1450,7 +1453,7 @@ def display(text: str) -> str:
     out = re.sub(r"\^\{([0-9n])\}",
                  lambda m: SUPER_BACK.get(m.group(1), "^" + m.group(1)), out)
     out = re.sub(r"\^\{([^{}]+)\}", r"^(\1)", out)
-    return " ".join(out.split())
+    return " ".join(out.split()).replace("∜", "4th-root").replace("🟻", "[symbol]")
 
 
 def render(paper: dict, out: Path) -> int:
