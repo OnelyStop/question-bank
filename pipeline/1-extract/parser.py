@@ -493,6 +493,8 @@ def join_fractions(lines, bars=()):
 # Bengali in ShonarBangla, a legacy font whose text layer does not even
 # decode to real words, and 63 of its 98 questions carried the mojibake.
 DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
+# A trailing run of "?" left behind once the Hindi between them is gone.
+ORPHAN_QUESTION_RE = re.compile(r"\?(?:\s*\?)+\s*$")
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -559,7 +561,17 @@ def strip_hindi(text: str) -> str:
     if not text:
         return text
     out = DEV_RUN_RE.sub(" ", text)
-    return " ".join(out.split()).strip(" \t\n-/|,;")
+    out = " ".join(out.split()).strip(" \t\n-/|,;")
+    # A bilingual paper prints the question twice, and the Hindi sentence ends
+    # in an ASCII "?" that the Devanagari run does not cover -- so removing the
+    # Hindi strands its question mark after the English one: "…at the topmost
+    # position? ?". Not only that path, though: one stem reached "given??" from
+    # a source printing a single "?", so the collapse is unconditional.
+    #
+    # Only at the END. 97 maths stems legitimately carry two "?" ("What should
+    # come in place of (?) in the following questions? 150%") and none of the
+    # 4,778 merged questions ends in a "?" run for a good reason.
+    return ORPHAN_QUESTION_RE.sub("?", out)
 
 
 def image_regions(pdf: Path) -> dict[int, bool]:
@@ -1258,10 +1270,23 @@ ASCII_FOLD = str.maketrans({
 # Mathematical alphanumerics (𝑥, 𝟔) have no glyph in any font here; NFKC maps
 # them back to the plain letters they stand for. Applied only to that block, so
 # it cannot also flatten x² into x2.
+# Set by flatten() when it has to escape a character, and read by render()
+# before it writes the file. Without this the fallback is silent: a machine
+# without the font produces a PDF full of "<U+20B9>" and says nothing, and the
+# batch reaches review looking finished. One paper shipped 43 of them.
+UNRENDERABLE: set[str] = set()
+
+
 def flatten(text: str) -> str:
     """Latin-1 fallback. Anything unmapped becomes <U+XXXX>, not a silent "?"."""
-    return "".join(c if ord(c) < 256 else f"<U+{ord(c):04X}>"
-                   for c in text.translate(ASCII_FOLD))
+    out = []
+    for c in text.translate(ASCII_FOLD):
+        if ord(c) < 256:
+            out.append(c)
+        else:
+            UNRENDERABLE.add(c)
+            out.append(f"<U+{ord(c):04X}>")
+    return "".join(out)
 
 
 class Sheet:
@@ -1391,6 +1416,10 @@ def display(text: str) -> str:
 
 
 def render(paper: dict, out: Path) -> int:
+    # Per paper, not per process: rerender.py and a batch run both call this in
+    # a loop, and a module global left set would fail every later paper for a
+    # character that appeared in an earlier one.
+    UNRENDERABLE.clear()
     name = label(paper)
     sheet = Sheet(name)
     sheet.write(name, size=13, bold=True, gap=3)
@@ -1419,6 +1448,20 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.subset_fonts()
     except Exception:
         pass          # older PyMuPDF: a fat file still beats no file
+    # Refuse BEFORE writing. Raising after save() leaves the unreadable PDF on
+    # disk, which is the state this whole change exists to prevent -- and on a
+    # re-run the stale file is what a reviewer opens.
+    if UNRENDERABLE:
+        missing = " ".join(sorted(UNRENDERABLE)[:12])
+        sheet.doc.close()
+        raise RuntimeError(
+            f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
+            f"  No Unicode font found. Looked in:\n"
+            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
+            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
+              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+        )
+
     sheet.doc.save(str(out), deflate=True, garbage=4)
     pages = sheet.doc.page_count
     sheet.doc.close()
