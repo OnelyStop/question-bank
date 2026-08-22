@@ -733,11 +733,7 @@
       "q_num": 81,
       "stem": "Quantity I: x° Quantity II: 55°",
       "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I  Quantity II",
-        "d": "Quantity I = Quantity II",
-        "e": "No relation"
+        "c": "Quantity I ≥ Quantity II"
       },
       "direction_id": null,
       "direction_text": null,
@@ -749,7 +745,10 @@
       "year": 2016,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q082",
@@ -757,11 +756,7 @@
       "q_num": 82,
       "stem": "( ) ( ) ( ) ( ) Quantity I = b Quantity II = d",
       "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I  Quantity II",
-        "d": "Quantity I = Quantity II",
-        "e": "No relation"
+        "c": "Quantity I ≥ Quantity II"
       },
       "direction_id": null,
       "direction_text": null,
@@ -773,7 +768,10 @@
       "year": 2016,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q083",
@@ -781,11 +779,7 @@
       "q_num": 83,
       "stem": "a > 0 < b For all the integer value of a and b ( ) ( ) Quantity I: x Quantity II: 1.5",
       "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I  Quantity II",
-        "d": "Quantity I = Quantity II",
-        "e": "No relation"
+        "c": "Quantity I ≥ Quantity II"
       },
       "direction_id": null,
       "direction_text": null,
@@ -797,7 +791,10 @@
       "year": 2016,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q084",
@@ -805,11 +802,7 @@
       "q_num": 84,
       "stem": "A box contains 4 Red balls, 6 white balls, 2 orange balls and 8 black balls. Quantity I: Two balls are drawn at random probability that both balls are either red or white. Quantity II: Three balls are drawn. The probability that all are different.",
       "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I  Quantity II",
-        "d": "Quantity I = Quantity II",
-        "e": "No relation"
+        "c": "Quantity I ≥ Quantity II"
       },
       "direction_id": null,
       "direction_text": null,
@@ -821,7 +814,10 @@
       "year": 2016,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q085",
@@ -829,11 +825,7 @@
       "q_num": 85,
       "stem": "The cost price of 2 items A and B is same. The shopkeeper decided to mark the price 40% more than the CP of each item. A discount of 25% was given an item A and discount of 20% was given on item B. total profit earn on both item was Rs.34 Quantity I: CP of the items Quantity II: CP of any item which was sold at 12.5% profit and profit earned on it was sold for Rs. 50",
       "options": {
-        "a": "Quantity I > Quantity II",
-        "b": "Quantity I < Quantity II",
-        "c": "Quantity I  Quantity II",
-        "d": "Quantity I = Quantity II",
-        "e": "No relation"
+        "c": "Quantity I ≥ Quantity II"
       },
       "direction_id": null,
       "direction_text": null,
@@ -845,7 +837,10 @@
       "year": 2016,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "corrected": [
+        "options"
+      ]
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q086",

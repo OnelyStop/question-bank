@@ -1,6 +1,72 @@
 {
   "_note": "Transcription only. Every value here is visible in the source PDF and was read off its span geometry -- numerator, denominator and the bar between them. Where the question is arithmetic, the transcription is checked by solving it: the result must be one of the printed options, which is recorded in each note. Nothing here is inferred content.",
   "questions": {
+    "ibps_po_2016_mains_ddd7b718::q081": {
+      "options": {"c": "Quantity I ≥ Quantity II"},
+      "note": "Source PDF sets this comparator in a Symbol-encoded font; the extractor took the raw codepoint (U+F0B3, Symbol charset 0xB3 = greaterequal) instead of mapping it through that font's encoding, so it came out as an unrenderable private-use character. Same fix as q082-q085 in this paper -- all five share the identical 'Quantity I [?] Quantity II' option."
+    },
+    "ibps_po_2016_mains_ddd7b718::q082": {
+      "options": {"c": "Quantity I ≥ Quantity II"},
+      "note": "See q081 -- same Symbol-font codepoint, same fix."
+    },
+    "ibps_po_2016_mains_ddd7b718::q083": {
+      "options": {"c": "Quantity I ≥ Quantity II"},
+      "note": "See q081 -- same Symbol-font codepoint, same fix."
+    },
+    "ibps_po_2016_mains_ddd7b718::q084": {
+      "options": {"c": "Quantity I ≥ Quantity II"},
+      "note": "See q081 -- same Symbol-font codepoint, same fix."
+    },
+    "ibps_po_2016_mains_ddd7b718::q085": {
+      "options": {"c": "Quantity I ≥ Quantity II"},
+      "note": "See q081 -- same Symbol-font codepoint, same fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q036": {
+      "stem": "What is the average invalid votes for village A for the Total Votes Valid votes Total Votes Valid votes Total Votes → given years(approximate)?",
+      "direction_text": "Study the following table and answer the questions that follow. Village→ A B C Year Valid votes 2000 2500 2250 8000 7600 4400 4250 2005 3800 3250 6250 5800 5000 4600 2010 3400 3000 5900 5400 6720 6750",
+      "note": "Symbol-font codepoints only (U+F0AF/U+F0AE, Symbol charset 0xAF/0xAE = arrowright), swapped for the real arrow they stand for. The rest of this stem is a separate, pre-existing table-bleed problem (a DI table's own header text ran into the question stem) -- not touched here since fixing that needs the source PDF re-read, and this correction is scoped to the unrenderable-glyph bug only."
+    },
+    "ibps_po_2010_prelims_e62351f3::q037": {
+      "direction_text": "Study the following table and answer the questions that follow. Village→ A B C Year Valid votes 2000 2500 2250 8000 7600 4400 4250 2005 3800 3250 6250 5800 5000 4600 2010 3400 3000 5900 5400 6720 6750",
+      "note": "Same shared direction as q036 -- same Symbol-font codepoint fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q038": {
+      "direction_text": "Study the following table and answer the questions that follow. Village→ A B C Year Valid votes 2000 2500 2250 8000 7600 4400 4250 2005 3800 3250 6250 5800 5000 4600 2010 3400 3000 5900 5400 6720 6750",
+      "note": "Same shared direction as q036 -- same Symbol-font codepoint fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q039": {
+      "direction_text": "Study the following table and answer the questions that follow. Village→ A B C Year Valid votes 2000 2500 2250 8000 7600 4400 4250 2005 3800 3250 6250 5800 5000 4600 2010 3400 3000 5900 5400 6720 6750",
+      "note": "Same shared direction as q036 -- same Symbol-font codepoint fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q040": {
+      "direction_text": "Study the following table and answer the questions that follow. Village→ A B C Year Valid votes 2000 2500 2250 8000 7600 4400 4250 2005 3800 3250 6250 5800 5000 4600 2010 3400 3000 5900 5400 6720 6750",
+      "note": "Same shared direction as q036 -- q040 belongs to the same DI table, one anchor group over. Same Symbol-font codepoint fix (U+F0AE -> arrowright)."
+    },
+    "ibps_po_2010_prelims_e62351f3::q056": {
+      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer (a) if x > y (b) if x ≥ y (c) if x < y (d) if x ≤ y (e) if x = y or relationship between x and y cannot be established.",
+      "options": {"b": "if x ≥ y", "d": "if x ≤ y"},
+      "note": "Same Symbol-font codepoints as the ibps_po_2016_mains_ddd7b718 Quantity-comparison entries above (U+F0B3 -> greaterequal, U+F0A3 -> lessequal), different paper. Shared by q057-q060, all five with the identical boilerplate direction and options."
+    },
+    "ibps_po_2010_prelims_e62351f3::q057": {
+      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer (a) if x > y (b) if x ≥ y (c) if x < y (d) if x ≤ y (e) if x = y or relationship between x and y cannot be established.",
+      "options": {"b": "if x ≥ y", "d": "if x ≤ y"},
+      "note": "See q056 -- same Symbol-font codepoints, same fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q058": {
+      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer (a) if x > y (b) if x ≥ y (c) if x < y (d) if x ≤ y (e) if x = y or relationship between x and y cannot be established.",
+      "options": {"b": "if x ≥ y", "d": "if x ≤ y"},
+      "note": "See q056 -- same Symbol-font codepoints, same fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q059": {
+      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer (a) if x > y (b) if x ≥ y (c) if x < y (d) if x ≤ y (e) if x = y or relationship between x and y cannot be established.",
+      "options": {"b": "if x ≥ y", "d": "if x ≤ y"},
+      "note": "See q056 -- same Symbol-font codepoints, same fix."
+    },
+    "ibps_po_2010_prelims_e62351f3::q060": {
+      "direction_text": "In each of these questions, two equations (I) and (II) are given. You have to solve both the equations and give answer (a) if x > y (b) if x ≥ y (c) if x < y (d) if x ≤ y (e) if x = y or relationship between x and y cannot be established.",
+      "options": {"b": "if x ≥ y", "d": "if x ≤ y"},
+      "note": "See q056 -- same Symbol-font codepoints, same fix."
+    },
     "ibps_clerk_2020_prelims_9868e39d::q050": {
       "stem": "x \\times 3 \\div 8 = \\sqrt[3]{512} \\times \\sqrt{12^2}",
       "options": {

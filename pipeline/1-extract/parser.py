@@ -1253,14 +1253,57 @@ def parse(pdf: Path) -> dict:
 PAGE = fitz.paper_rect("a4")
 MARGIN = 48.0
 LEAD = 1.35
+FONT_DIR = Path(__file__).resolve().parent / "fonts"
 # Helvetica is Latin-1: it cannot draw √, ≥ or Devanagari, and PyMuPDF
-# substitutes "?". Arial Unicode covers all three, so it is used when present
-# and the ASCII fold below is only the fallback.
-UNICODE_FONTS = [
-    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+# substitutes "?". Arial Unicode used to cover all of this corpus's scripts in
+# one file, but it is a proprietary Microsoft font with no legal free-download
+# source, so a machine without it already installed (every CI runner, most
+# contributors) silently fell back to ASCII -- see check_render.py. No single
+# freely redistributable font covers Latin/math *and* shapes Devanagari, Tamil
+# and Telugu correctly (tried GNU FreeSerif: covers the codepoints but draws
+# Devanagari matras in the wrong position -- a script-specialist font is not
+# optional, it's what "correctly shaped" means), so this is one general font
+# plus one specialist per script, chosen per text block: nothing in this
+# corpus's PR-scoped batches mixes two scripts in the same stem/option
+# (verified against every committed batch), so a block never needs two fonts
+# at once. SCRIPTS lists specialists in priority order; the general font
+# covers everything else (Latin, maths, card-suit/misc symbols).
+LATIN_FONTS = [
+    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",  # macOS, if present
     "/Library/Fonts/Arial Unicode.ttf",
+    str(FONT_DIR / "DejaVuSans.ttf"),  # bundled fallback: covers math/symbols
 ]
-UNI_FONT = next((f for f in UNICODE_FONTS if Path(f).is_file()), None)
+SCRIPTS = [
+    # (fontname, unicode range, bundled font file)
+    ("deva",   (0x0900, 0x097F), str(FONT_DIR / "NotoSansDevanagari.ttf")),
+    ("tamil",  (0x0B80, 0x0BFF), str(FONT_DIR / "NotoSansTamil.ttf")),
+    ("telugu", (0x0C00, 0x0C7F), str(FONT_DIR / "NotoSansTelugu.ttf")),
+]
+UNI_FONT = next((f for f in LATIN_FONTS if Path(f).is_file()), None)
+SCRIPT_FONTS = {name: path for name, _, path in SCRIPTS if Path(path).is_file()}
+# fitz.Font objects, built once and reused for glyph-coverage checks only (not
+# for drawing -- insert_font still takes the fontfile path). A script's
+# specialist font is not guaranteed to cover every symbol that shares a stem
+# with it (Telugu inequality questions print ≥/≤, which NotoSansTelugu lacks),
+# so a block that doesn't fully fit its chosen font must not draw silently --
+# see the coverage check in Sheet.write().
+_COVERAGE_FONTS = {name: fitz.Font(fontfile=path) for name, path in SCRIPT_FONTS.items()}
+if UNI_FONT:
+    _COVERAGE_FONTS["uni"] = fitz.Font(fontfile=UNI_FONT)
+
+
+def detect_script(text: str) -> str | None:
+    for name, (lo, hi), _ in SCRIPTS:
+        if name in SCRIPT_FONTS and any(lo <= ord(c) <= hi for c in text):
+            return name
+    return None
+
+
+def font_covers(fontname: str, text: str) -> bool:
+    font = _COVERAGE_FONTS.get(fontname)
+    if font is None:
+        return False
+    return all(font.has_glyph(ord(c)) for c in text if ord(c) > 127)
 
 ASCII_FOLD = str.maketrans({
     "‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "--", "…": "...",
@@ -1299,6 +1342,8 @@ class Sheet:
         self.page = self.doc.new_page(width=PAGE.width, height=PAGE.height)
         if UNI_FONT:
             self.page.insert_font(fontname="uni", fontfile=UNI_FONT)
+        for name, path in SCRIPT_FONTS.items():
+            self.page.insert_font(fontname=name, fontfile=path)
         self.y = MARGIN
         self.page.insert_text((MARGIN, PAGE.height - 28),
                               f"{self.title}  ·  page {self.doc.page_count}",
@@ -1308,13 +1353,24 @@ class Sheet:
         if not text:
             return
         text = normalise(str(text))
-        # Helvetica keeps a real bold face, which Arial Unicode does not, so
+        # Helvetica keeps a real bold face, which the Unicode fonts do not, so
         # plain-Latin text stays on it and only text that needs the wider
         # coverage pays for losing bold.
         # Above ASCII, not above Latin-1: × (0xD7) and ÷ (0xF7) sit inside
         # Latin-1, so they took the fallback path and were folded to "x" and
         # "/" even with the real font available.
-        if UNI_FONT and any(ord(c) > 127 for c in text):
+        # A script's specialist font is picked first, but only trusted if it
+        # actually covers the whole block -- a Telugu inequality question
+        # prints ≥/≤ that NotoSansTelugu doesn't have, and drawing anyway
+        # produces an invisible .notdef with no gate able to catch it (nothing
+        # reads glyph coverage; check_render.py only reads extracted text,
+        # which comes back with the right codepoints regardless of whether
+        # they drew). Falling through to flatten() below is what makes a
+        # coverage gap a loud build failure instead of a blank page in CI.
+        script = detect_script(text)
+        if script and font_covers(script, text):
+            font = script
+        elif UNI_FONT and any(ord(c) > 127 for c in text) and font_covers("uni", text):
             font = "uni"
         else:
             text = flatten(text)
@@ -1456,10 +1512,14 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.close()
         raise RuntimeError(
             f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
-            f"  No Unicode font found. Looked in:\n"
-            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
-            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
-              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+            f"  No font covers these. Looked in:\n"
+            + "".join(f"    {f}\n" for f in LATIN_FONTS + list(SCRIPT_FONTS.values()))
+            + "  Either the general font (LATIN_FONTS) lacks the glyph, or the text\n"
+              "  mixes a script with a symbol its specialist font doesn't have (e.g.\n"
+              "  a Telugu inequality question printing ≥/≤). Add or fix the font, or\n"
+              "  add a corrections.json entry if the source PDF used a broken\n"
+              "  private-use codepoint. The JSON is fine; only the review PDF is\n"
+              "  affected."
         )
 
     sheet.doc.save(str(out), deflate=True, garbage=4)
