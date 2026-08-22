@@ -157,7 +157,7 @@
       "q_id": "ibps_po_2018_mains_92c89501::q052",
       "paper_id": "ibps_po_2018_mains_92c89501",
       "q_num": 52,
-      "stem": "Two numbers A and B are given (2 MARKS) What is A + B ? (i) LCM of A and B is 44 times their HCF (ii) The sum of LCM of A & B and their HCF is 540. 10 + 𝐵 𝐴 (iii) 10 is an integer. (iv) A + B > 150 Which of the given statements are redundant to find the answer of the question.",
+      "stem": "Two numbers A and B are given (2 MARKS) What is A + B ? (i) LCM of A and B is 44 times their HCF (ii) The sum of LCM of A & B and their HCF is 540. (iii) \\frac{A}{10} + \\frac{B}{10} is an integer. (iv) A + B > 150 Which of the given statements are redundant to find the answer of the question.",
       "options": {
         "a": "statement (ii)",
         "b": "statement (iii)",
@@ -377,8 +377,8 @@
       "options": {
         "a": "25 \\frac{7}{13} %",
         "b": "23 \\frac{21}{273} %",
-        "c": "13 \\frac{12}{13} % \\frac{5}{13} %",
-        "d": "22",
+        "c": "13 \\frac{12}{13} %",
+        "d": "22 \\frac{5}{13} %",
         "e": "24 \\frac{5}{13} %"
       },
       "direction_id": "d003",
@@ -421,7 +421,7 @@
       "q_id": "ibps_po_2018_mains_92c89501::q063",
       "paper_id": "ibps_po_2018_mains_92c89501",
       "q_num": 63,
-      "stem": "Quantity I: 360 m⁷n⁹ \\div 120 m¯^{2} n^{3} \\times 24m¯^{4} n^{4}; m > 0, n < 0 (2 MARKS) Quantity II: 240 x⁹y⁷ \\div 60x^{4}y^{3} \\div 3x¯^{2}y^{3}; x < 0, y < 0 Quantity III: 48 a⁸b^{1}^{2} \\times 5 a^{3} b¯^{4} \\div 6a⁶b, a > 0, b < 0",
+      "stem": "Quantity I: 360 m^{7}n^{9} \\div 120 m^{-2} n^{3} \\times 24m^{-4} n^{4}; m > 0, n < 0 (2 MARKS) Quantity II: 240 x^{9}y^{7} \\div 60x^{4}y^{3} \\div 3x^{-2}y^{3}; x < 0, y < 0 Quantity III: 48 a^{8}b^{12} \\times 5 a^{3} b^{-4} \\div 6a^{6}b, a > 0, b < 0",
       "options": {
         "a": "(@, &)",
         "b": "(#, @)",
@@ -445,7 +445,7 @@
       "q_id": "ibps_po_2018_mains_92c89501::q064",
       "paper_id": "ibps_po_2018_mains_92c89501",
       "q_num": 64,
-      "stem": "‘p’, ‘q’,’r’ and ‘n’ are positive integers. (2 MARKS) (𝑝 + 𝑛)^{2}–(𝑝–𝑛)^{2} Quantity I: ‘p’ :– 8𝑝𝑛(𝑝 + 𝑛)^{2} = 1 (𝑞 + 𝑛)^{3}−(𝑞−𝑛)^{3} Quantity II: ‘q’ : – (𝑛^{2} + 3𝑞^{2})^{2} = 1/8𝑛 Quantity III: ‘r’ : – ^(√𝑟 + 𝑛 + √𝑟−𝑛) √𝑟 + 𝑛−√𝑟−𝑛 = 2",
+      "stem": "'p', 'q','r' and 'n' are positive integers. (2 MARKS) Quantity I: 'p' :- \\frac{(p+n)^{2}-(p-n)^{2}}{8pn(p+n)^{2}} = 1 Quantity II: 'q' : - \\frac{(q+n)^{3}-(q-n)^{3}}{(n^{2}+3q^{2})^{2}} = \\frac{1}{8n} Quantity III: 'r' : - \\frac{\\sqrt{r+n}+\\sqrt{r-n}}{\\sqrt{r+n}-\\sqrt{r-n}} = 2",
       "options": {
         "a": "(@, &)",
         "b": "(#, @)",
