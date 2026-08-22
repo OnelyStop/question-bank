@@ -9,6 +9,7 @@
   "memory_based": false,
   "question_count": 80,
   "image_only_q_nums": [],
+  "script_only_q_nums": [],
   "questions": [
     {
       "q_id": "ibps_rrb_2021_prelims_6825a2d3::q001",
@@ -254,7 +255,7 @@
       "q_id": "ibps_rrb_2021_prelims_6825a2d3::q011",
       "paper_id": "ibps_rrb_2021_prelims_6825a2d3",
       "q_num": 11,
-      "stem": "Which among the following box is placed at the topmost position? ?",
+      "stem": "Which among the following box is placed at the topmost position?",
       "options": {
         "a": "D",
         "b": "C",
@@ -734,7 +735,7 @@
       "q_id": "ibps_rrb_2021_prelims_6825a2d3::q031",
       "paper_id": "ibps_rrb_2021_prelims_6825a2d3",
       "q_num": 31,
-      "stem": "Who among the following lives on the 6th floor? ?",
+      "stem": "Who among the following lives on the 6th floor?",
       "options": {
         "a": "V",
         "b": "T",
@@ -854,7 +855,7 @@
       "q_id": "ibps_rrb_2021_prelims_6825a2d3::q036",
       "paper_id": "ibps_rrb_2021_prelims_6825a2d3",
       "q_num": 36,
-      "stem": "How many such numbers are there which are immediately preceded by an alphabet and immediately followed by a symbol? ?",
+      "stem": "How many such numbers are there which are immediately preceded by an alphabet and immediately followed by a symbol?",
       "options": {
         "a": "Three",
         "b": "Two",
@@ -902,7 +903,7 @@
       "q_id": "ibps_rrb_2021_prelims_6825a2d3::q038",
       "paper_id": "ibps_rrb_2021_prelims_6825a2d3",
       "q_num": 38,
-      "stem": "How many such alphabets are there in the above arrangement each of which is immediately followed and preceded by a number? ?",
+      "stem": "How many such alphabets are there in the above arrangement each of which is immediately followed and preceded by a number?",
       "options": {
         "a": "One",
         "b": "None",

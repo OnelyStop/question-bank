@@ -232,6 +232,22 @@ def test_complete_question_is_never_a_picture():
 # --- bilingual papers -------------------------------------------------------
 # Removing Devanagari runs (not truncating at the first one) keeps the Latin
 # labels inside a Hindi direction; truncation wiped them to "".
+def test_orphaned_question_mark_collapses():
+    # The Hindi sentence ends in an ASCII "?" that the Devanagari run does not
+    # cover, so removing the Hindi strands it after the English one.
+    check("hindi's question mark does not survive",
+          strip_hindi("Which box is at the topmost position? "
+                      "निम्ननिनित में से कौि सा है?"),
+          "Which box is at the topmost position?")
+    check("no space between them either",
+          strip_hindi("…the passage given??"), "…the passage given?")
+    # Only at the end. A maths stem carries "(?)" mid-sentence and must not be
+    # touched -- 97 of them do.
+    check("mid-stem question marks kept",
+          strip_hindi("What should come in place of (?) in the questions? 150"),
+          "What should come in place of (?) in the questions? 150")
+
+
 def test_hindi_run_removal():
     check("labels survive",
           strip_hindi("दिए गए (a) यदि x >y (b) यदि x <y"),

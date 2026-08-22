@@ -30,6 +30,20 @@ REPO = Path(__file__).resolve().parents[2]
 # What flatten() emits for a character the font could not draw.
 ESCAPE_RE = re.compile(r"<U\+[0-9A-Fa-f]{4,6}>")
 
+# The other half of the same fallback, and the half that is easy to miss.
+# ASCII_FOLD maps what it can rather than escaping it, so a paper whose maths is
+# all roots and inequalities renders as "sqrt324" and ">=" with not one <U+...>
+# in it -- and an escape-only check passes it clean. These strings do not occur
+# in real question text: the parser stores LaTeX (\sqrt, \geq) and display()
+# turns that into glyphs, so seeing the folded spelling means the font was gone.
+FOLDED = {
+    "sqrt": "√",
+    "cbrt": "∛",
+    ">=": "≥",
+    "<=": "≤",
+    "!=": "≠",
+}
+
 # A page of a review PDF is mostly text. Far less than this means the render
 # produced a document that looks fine in a file listing and is blank to read.
 MIN_CHARS_PER_PAGE = 40
@@ -57,6 +71,15 @@ def check_pdf(path: Path) -> list[str]:
                           sorted(counts.items(), key=lambda kv: -kv[1])[:5])
         errs.append(
             f"{len(escapes)} unrenderable character(s): {shown} — "
+            "the Unicode font was missing when this was rendered"
+        )
+
+    folded = {w: text.count(w) for w in FOLDED if w in text}
+    if folded:
+        shown = ", ".join(f"{w!r} x{n} (should be {FOLDED[w]})"
+                          for w, n in sorted(folded.items(), key=lambda kv: -kv[1]))
+        errs.append(
+            f"maths folded to ASCII: {shown} — "
             "the Unicode font was missing when this was rendered"
         )
 

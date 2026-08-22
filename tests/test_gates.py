@@ -93,6 +93,24 @@ def test_raised_ordinal():
                  defects(question(stem="Who was born on 28th June?")))
 
 
+def test_doubled_question_mark():
+    # A bilingual paper prints the question twice; removing the Hindi strands
+    # its ASCII "?" after the English one. 11 of 4,778 merged questions had it.
+    check_in("trailing '? ?' caught", "doubled_question_mark",
+             defects(question(stem="Which box is at the topmost position? ?")))
+    check_in("no space either", "doubled_question_mark",
+             defects(question(stem="…with respect to the passage given??")))
+    # 97 maths stems hold two "?" legitimately. A rule that flagged those would
+    # be switched off within a week.
+    check_not_in("two '?' mid-stem is fine", "doubled_question_mark",
+                 defects(question(
+                     stem="What should come in place of (?) in the following questions? 150\\%")))
+    check_not_in("ending in a single '?' is fine", "doubled_question_mark",
+                 defects(question(stem="Who lives on the 6th floor?")))
+    check_not_in("maths ending in '= ?' is fine", "doubled_question_mark",
+                 defects(question(stem="510/? = \\sqrt{324}")))
+
+
 def test_placeholder_stem():
     check_in("stem that is only its number", "placeholder_stem",
              defects(question(stem="Question 66.")))
@@ -208,6 +226,20 @@ def test_render_escape_detection():
     check("case does not matter", render.ESCAPE_RE.findall("<U+20b9>"), ["<U+20b9>"])
     check("a lone angle bracket is not an escape",
           render.ESCAPE_RE.findall("x < U + 1 > y"), [])
+
+
+def test_render_detects_folded_maths():
+    # The half an escape-only check misses. ASCII_FOLD maps rather than escapes,
+    # so a paper of roots and inequalities renders "sqrt324" and ">=" with not
+    # one <U+...> in it and would otherwise pass clean.
+    render = step("5-validate", "check_render")
+    check("sqrt is not a real spelling", "sqrt" in render.FOLDED, True)
+    check("so are the inequalities",
+          all(w in render.FOLDED for w in (">=", "<=", "cbrt")), True)
+    # The parser stores LaTeX and display() makes glyphs, so the folded spelling
+    # can only mean the font was gone.
+    check("glyphs are what a good render holds",
+          sorted(render.FOLDED.values()), sorted(["√", "∛", "≥", "≤", "≠"]))
 
 
 def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
