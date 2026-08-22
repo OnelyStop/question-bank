@@ -111,3 +111,17 @@ PDF holds `(a) (b) (c) (d) (e)` with nothing behind them, and Hindi-only stems.
   one sitting; each parses as a whole paper of 10–24 questions.
 - **Superscripts.** `2x2` in the JSON is 2x² in the paper. Recoverable from span
   baseline-shift the same way fractions were, if it turns out to matter.
+- **Intentional line breaks inside a passage.** Every join site (`split_options`,
+  direction-body extraction, stem cleanup) ends in `" ".join(text.split())`,
+  which collapses all whitespace to single spaces -- including line breaks that
+  were meaningful, like one-statement-per-line coding/seating passages
+  ("P@Q means P is East of Q...", one rule per line). Nothing is lost -- every
+  word survives -- but the passage reads as a flattened wall of text instead of
+  its original layout. A real fix exists (PyMuPDF gives each line's bounding
+  box, so a line ending well short of the column's right margin plus extra
+  vertical leading before the next line is a decent signal for "this break was
+  intentional," the same kind of geometric signal the gutter and fraction-bar
+  detection already use) but it touches every join site in the parser, and this
+  codebase has a history of "should be safe" general changes regressing a
+  specific paper. Not attempted. Flag questions like this for manual review
+  rather than guessing.
