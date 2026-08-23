@@ -18,6 +18,51 @@ parser = step("1-extract", "parser")
 QUESTION_RE = parser.QUESTION_RE
 line_text, join_fractions = parser.line_text, parser.join_fractions
 question_anchors, strip_hindi = parser.question_anchors, parser.strip_hindi
+DIRECTION_RE = parser.DIRECTION_RE
+UNNUMBERED_DIRECTION_RE = parser.UNNUMBERED_DIRECTION_RE
+
+
+# --- Q-prefixed direction ranges ---------------------------------------------
+# "Directions (Q131-135)", "(Q.13-20)" -- three real papers carry a filename
+# numbering habit ("Q41.") into their direction headers too, on top of the
+# plain "(101-105)" style. Missing this drops the whole direction (a
+# para-jumble's task, a cloze passage's blanks) for every question it covers.
+def direction_range(text):
+    m = DIRECTION_RE.search(text)
+    return m.groups() if m else None
+
+
+def test_answer_the_questions_opens_a_di_set():
+    # sbi-po-pre-2021.pdf: "Answer the questions based on the information
+    # given below" opens a DI table, but only "Answer the following" was
+    # recognized -- the table glued onto the previous question's stem
+    # instead of becoming its own direction.
+    check("recognized as a direction header",
+          bool(UNNUMBERED_DIRECTION_RE.match(
+              "Answer the questions based on the information given below.")),
+          True)
+    check("existing 'Answer the following' still works (regression)",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer the following questions.")),
+          True)
+    check("plain prose containing neither phrase is not a direction",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer wisely and carefully.")),
+          False)
+
+
+def test_q_prefixed_range_is_read_same_as_bare():
+    check("Q-prefixed with a period and space",
+          direction_range("Directions (Q. 101-105) : Read the following passage"),
+          ("101", "105"))
+    check("Q-prefixed with no space, no period",
+          direction_range("Directions (Q131-135) Five statements are given below"),
+          ("131", "135"))
+    check("Q-prefixed with period, no space",
+          direction_range("Directions (Q.13-20): In the following passage"),
+          ("13", "20"))
+    check("bare numbers still work (regression)",
+          direction_range("Directions (116-120):"), ("116", "120"))
+    check("singular 'Direction', no colon (regression)",
+          direction_range("Direction (126-130)"), ("126", "130"))
 
 
 # --- what counts as a question number ---------------------------------------
@@ -232,6 +277,23 @@ def test_complete_question_is_never_a_picture():
            "direction_id": None, "on_image": True}]
     parser.resolve_image_bodied(qs)
     check("stem and options present", qs[0]["has_image"], False)
+
+
+# --- inline ad credit lines ---------------------------------------------------
+# "Visit: adda247.com" has no "www.", so BLEED_RE's www\. branch misses it, and
+# NOISE_RE only strips it when it sits alone on its own line. It also showed up
+# stitched into the MIDDLE of a passage in one 2019 IBPS PO Mains paper:
+# "...equal in each city. Visit: adda247.com Note- Married couples...". Cutting
+# to end of string (BLEED_RE's approach) would have deleted "Note- Married
+# couples..." along with it, so this is a plain removal instead.
+def test_ad_credit_removed_inline():
+    check("trailing credit, no www.",
+          parser.AD_CREDIT_RE.sub(" ", "4080 Visit: adda247.com").strip(), "4080")
+    check("mid-passage credit leaves what follows",
+          " ".join(parser.AD_CREDIT_RE.sub(
+              " ", "equal in each city. Visit: adda247.com Note- Married couples."
+          ).split()),
+          "equal in each city. Note- Married couples.")
 
 
 # --- bilingual papers -------------------------------------------------------
