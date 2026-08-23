@@ -67,6 +67,30 @@ RULES = [
 ]
 
 
+# A field carrying the WORD "null" rather than the value. JSON writes null and
+# Python writes None, so text like this is never something the parser emits --
+# it comes from a round-trip through a tool that stringifies. Checked over EVERY
+# field rather than through RULES, because RULES' "any" reaches only stem,
+# options and direction_text, and the 180 questions this was written for had
+# direction_id destroyed as well.
+#
+# Why it is a defect and not a gap: a quadratic-comparison question whose
+# direction is gone still has five options reading "(b) If x >= y", with nothing
+# left to say what x and y are. It looks like a question with no direction, and
+# is a question whose direction was destroyed.
+STRINGIFIED_NULL = re.compile(r"(?i)\A\s*(?:null|none|undefined|nan)\s*\Z")
+
+
+def stringified_nulls(q: dict) -> list[str]:
+    # Option VALUES are deliberately not checked. "None" is a real answer -- it
+    # means zero, and sits in sets like ["None", "One", "Two", "Three", "More
+    # than three"] 157 times across the committed batches. There is no way to
+    # tell that from a stringified null, and a rule that flags 157 correct
+    # options to catch nothing gets switched off in a week.
+    return sorted(k for k, v in q.items()
+                  if isinstance(v, str) and STRINGIFIED_NULL.match(v))
+
+
 def texts(q: dict, selector: str):
     if selector in ("stem", "any"):
         yield "stem", q.get("stem") or ""
@@ -103,6 +127,10 @@ def check_paper(path: Path, paper: dict, declared: set[str] | None = None) -> li
         stem = q.get("stem") or ""
         if stem.count("{") != stem.count("}"):
             errs.append(f"q{q.get('q_num')}: unbalanced braces in stem")
+        stringified = stringified_nulls(q)
+        if stringified:
+            errs.append(f"q{q.get('q_num')}: field(s) hold the WORD not the value "
+                        f"{stringified} — a null was stringified somewhere")
         for name, selector, pat in RULES:
             for where, text in texts(q, selector):
                 if pat.search(text):

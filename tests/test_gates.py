@@ -111,6 +111,39 @@ def test_doubled_question_mark():
                  defects(question(stem="510/? = \\sqrt{324}")))
 
 
+def test_stringified_null():
+    # A field holding the WORD "null" rather than the value. 180 questions here
+    # had direction_id AND direction_text replaced by it, so a
+    # quadratic-comparison question kept five options reading "(b) If x >= y"
+    # with nothing left to say what x and y are. It reads as a question with no
+    # direction and is a question whose direction was destroyed.
+    check_in("direction_text caught", "stringified",
+             defects(question(direction_text="null")))
+    # RULES' "any" never reaches direction_id, which is why this is checked
+    # field-wide instead.
+    check("direction_id caught too",
+          gate.stringified_nulls(question(direction_id="null")), ["direction_id"])
+    for word in ("null", "None", "NULL", "undefined", "nan", " null "):
+        check(f"{word!r} caught",
+              gate.stringified_nulls(question(direction_text=word)), ["direction_text"])
+
+    # A proper null is the correct state for a standalone question and must stay
+    # silent, or every question outside a direction set is a defect.
+    check("a real None is fine",
+          gate.stringified_nulls(question(direction_text=None, direction_id=None)), [])
+    # "None" is a real option -- it means zero, and sits in sets like
+    # ["None", "One", "Two", ...] 157 times across the committed batches.
+    # Flagging those to catch nothing is how a rule gets switched off.
+    check("an option reading None is not a defect",
+          gate.stringified_nulls(question(
+              options={"a": "None", "b": "One", "c": "Two"})), [])
+    check_not_in("and no defect is reported for it", "stringified",
+                 defects(question(options={"a": "None", "b": "One", "c": "Two"})))
+    # A stem that merely contains the word is prose, not a stringified null.
+    check("'None of these' in a stem is prose",
+          gate.stringified_nulls(question(stem="Which of these? None of these")), [])
+
+
 def test_placeholder_stem():
     check_in("stem that is only its number", "placeholder_stem",
              defects(question(stem="Question 66.")))
