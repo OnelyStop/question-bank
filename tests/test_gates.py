@@ -93,22 +93,51 @@ def test_raised_ordinal():
                  defects(question(stem="Who was born on 28th June?")))
 
 
-def test_doubled_question_mark():
+def test_translation_tail():
     # A bilingual paper prints the question twice; removing the Hindi strands
     # its ASCII "?" after the English one. 11 of 4,778 merged questions had it.
-    check_in("trailing '? ?' caught", "doubled_question_mark",
+    check_in("trailing '? ?' caught", "translation_tail",
              defects(question(stem="Which box is at the topmost position? ?")))
-    check_in("no space either", "doubled_question_mark",
+    check_in("no space either", "translation_tail",
              defects(question(stem="…with respect to the passage given??")))
     # 97 maths stems hold two "?" legitimately. A rule that flagged those would
     # be switched off within a week.
-    check_not_in("two '?' mid-stem is fine", "doubled_question_mark",
+    check_not_in("two '?' mid-stem is fine", "translation_tail",
                  defects(question(
                      stem="What should come in place of (?) in the following questions? 150\\%")))
-    check_not_in("ending in a single '?' is fine", "doubled_question_mark",
+    check_not_in("ending in a single '?' is fine", "translation_tail",
                  defects(question(stem="Who lives on the 6th floor?")))
-    check_not_in("maths ending in '= ?' is fine", "doubled_question_mark",
+    # The Hindi sentence's own words survive when they are not Devanagari --
+    # a seat letter, a number, a comma. 85 questions in batch11 alone.
+    for stem in ("Who among the following person sits immediate left of W? - W ?",
+                 "…does not belong to that group? , - ?",
+                 "…immediately preceded and immediately followed by a letter? , ?",
+                 "Who was born on 5th January? 5 ?"):
+        check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
+                 defects(question(stem=stem)))
+    # The false positive the first draft had: without \b the pattern walks
+    # through "the series" two letters at a time and truncates the stem.
+    check_not_in("real words between the two '?' are not debris", "translation_tail",
+                 defects(question(stem="What is the value of ? in the series?")))
+    check_not_in("two clauses each ending in '?'", "translation_tail",
+                 defects(question(stem="If x = ? and y = 2, what is x?")))
+    check_not_in("maths ending in '= ?' is fine", "translation_tail",
                  defects(question(stem="510/? = \\sqrt{324}")))
+    # The Hindi sentence's own words survive when they are not Devanagari --
+    # a seat letter, a number, a comma. 266 questions in this PR.
+    for stem in ("Who among the following sits diagonally opposite to Q? Q ?",
+                 "How many persons go market after H? H ?",
+                 "…does not belong to that group? , ?",
+                 "Which of the following statements is true? - ?",
+                 "Who was born on 5th January? 5 ?"):
+        check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
+                 defects(question(stem=stem)))
+    # The false positive the first draft had: without \b the pattern walks
+    # through "the series" two letters at a time and truncates the stem.
+    check_not_in("real words between the two '?' are not debris", "translation_tail",
+                 defects(question(stem="What is the value of ? in the series?")))
+    check_not_in("two clauses each ending in '?'", "translation_tail",
+                 defects(question(stem="If x = ? and y = 2, what is x?")))
 
 
 def test_stringified_null():
@@ -152,6 +181,8 @@ def test_placeholder_stem():
 def test_boilerplate():
     check_in("coaching-house footer", "boilerplate",
              defects(question(stem="Visit www.bankersadda.com for more")))
+    check_not_in("puzzle that names Adda247 as a place", "boilerplate",
+                 defects(question(stem="Who visits the ADDA247 office last?")))
 
 
 def test_solution_bleed():
@@ -214,6 +245,16 @@ def test_gap_classes():
                            "exam_type": "Prelims", "questions": []}), [])
 
 
+def test_rel_uses_forward_slashes_on_any_os():
+    # str(Path) serializes with the native separator -- Windows wrote
+    # "data\batch3\1.json" into gap_report.json's "path" field while every
+    # Linux-run batch has "data/batch3/1.json". Same as the source_pdf bug
+    # in parser.py, just a separate copy of the mistake in this file.
+    check("repo-relative path uses forward slashes",
+          gaps.rel(gaps.REPO / "data" / "batch3" / "1.json"),
+          "data/batch3/1.json")
+
+
 # --- folder ownership -------------------------------------------------------
 def test_layout_allows_what_belongs():
     for path in ("tests/test_parser.py", "tests/harness.py",
@@ -270,9 +311,16 @@ def test_render_detects_folded_maths():
     check("so are the inequalities",
           all(w in render.FOLDED for w in (">=", "<=", "cbrt")), True)
     # The parser stores LaTeX and display() makes glyphs, so the folded spelling
-    # can only mean the font was gone.
+    # means the font was gone -- but only when the JSON actually held that LaTeX.
+    # A paper that printed ASCII ">=" itself has none, and no font can change how
+    # it looks, so each entry carries the LaTeX its folded form should have come
+    # from and the gate checks the paper's own JSON for it.
     check("glyphs are what a good render holds",
-          sorted(render.FOLDED.values()), sorted(["√", "∛", "≥", "≤", "≠"]))
+          sorted(glyph for glyph, _ in render.FOLDED.values()),
+          sorted(["√", "∛", "≥", "≤", "≠"]))
+    check("each folded form knows the LaTeX it should have rendered from",
+          sorted(src for _, src in render.FOLDED.values()),
+          sorted([r"\sqrt", r"\sqrt[", r"\geq", r"\leq", r"\neq"]))
 
 
 def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
@@ -293,6 +341,26 @@ def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
         # guard swallowed this case and reported a bad path instead.
         check_in("says which", "no review PDF", noise.getvalue())
         check_not_in("not reported as an empty scan", "no papers found", noise.getvalue())
+
+
+def test_render_folded_maths_needs_the_latex_in_the_json():
+    # ibps_clerk_2020_prelims_9868e39d prints its comparison options as literal
+    # ">=" / "<=" -- confirmed against the source PDF (U+003E U+003D, no glyph).
+    # The parser transcribed ASCII because ASCII is what the paper printed, so
+    # there was no \geq for display() to convert and no font can change how the
+    # page looks. Flagging it is a false positive that a re-render cannot clear,
+    # so the folded spelling only counts when the paper's JSON holds the LaTeX.
+    render = step("5-validate", "check_render")
+    page = "answer (a) if x > y (b) if x>=y (c) if x < y (d) if x<=y"
+
+    def folded_for(latex):
+        return {w: page.count(w) for w, (_, src) in render.FOLDED.items()
+                if w in page and src in latex}
+
+    check("JSON holds the LaTeX -> the font really was missing",
+          bool(folded_for(r"statements: B \geq O > M")), True)
+    check("paper printed ASCII itself -> not a render defect",
+          folded_for("If x>=y"), {})
 
 
 def test_render_gate_empty_scan_is_a_failure():
