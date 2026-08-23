@@ -467,8 +467,12 @@ def join_fractions(lines, bars=()):
 # Bengali in ShonarBangla, a legacy font whose text layer does not even
 # decode to real words, and 63 of its 98 questions carried the mojibake.
 DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
-# A trailing run of "?" left behind once the Hindi between them is gone.
-ORPHAN_QUESTION_RE = re.compile(r"\?(?:\s*\?)+\s*$")
+# What a removed translation leaves behind. The Devanagari run goes, but the
+# Latin letters, digits and punctuation sitting inside that sentence do not --
+# "…opposite to Q? Q ?" and "…after H? H ?" and "…that group? , ?" are all one
+# bug. Whole short tokens only: \b matters, or the pattern chews through "the
+# series" two letters at a time and truncates a real maths stem.
+TRANSLATION_TAIL_RE = re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -536,16 +540,18 @@ def strip_hindi(text: str) -> str:
         return text
     out = DEV_RUN_RE.sub(" ", text)
     out = " ".join(out.split()).strip(" \t\n-/|,;")
-    # A bilingual paper prints the question twice, and the Hindi sentence ends
-    # in an ASCII "?" that the Devanagari run does not cover -- so removing the
-    # Hindi strands its question mark after the English one: "…at the topmost
-    # position? ?". Not only that path, though: one stem reached "given??" from
-    # a source printing a single "?", so the collapse is unconditional.
+    # A bilingual paper prints the question twice. Removing the Devanagari
+    # leaves whatever was NOT Devanagari inside that sentence -- its question
+    # mark, and any names, digits or commas it mentioned:
     #
-    # Only at the END. 97 maths stems legitimately carry two "?" ("What should
-    # come in place of (?) in the following questions? 150%") and none of the
-    # 4,778 merged questions ends in a "?" run for a good reason.
-    return ORPHAN_QUESTION_RE.sub("?", out)
+    #   Who among the following sits diagonally opposite to Q? Q ?
+    #   How many persons go market after H? H ?
+    #   …does not belong to that group? , ?
+    #
+    # Only at the END, and only whole short tokens, so a maths stem keeps its
+    # "?": 97 of them read "What should come in place of (?) …? 150%", and
+    # "What is the value of ? in the series?" must survive untouched.
+    return TRANSLATION_TAIL_RE.sub("?", out)
 
 
 def image_regions(pdf: Path) -> dict[int, bool]:

@@ -93,22 +93,38 @@ def test_raised_ordinal():
                  defects(question(stem="Who was born on 28th June?")))
 
 
-def test_doubled_question_mark():
+def test_translation_tail():
     # A bilingual paper prints the question twice; removing the Hindi strands
     # its ASCII "?" after the English one. 11 of 4,778 merged questions had it.
-    check_in("trailing '? ?' caught", "doubled_question_mark",
+    check_in("trailing '? ?' caught", "translation_tail",
              defects(question(stem="Which box is at the topmost position? ?")))
-    check_in("no space either", "doubled_question_mark",
+    check_in("no space either", "translation_tail",
              defects(question(stem="…with respect to the passage given??")))
+    # The Hindi sentence's own words survive when they are not Devanagari --
+    # a seat letter, a number, a comma. 266 questions in one open PR, 50 here.
+    for stem in ("Who among the following sits diagonally opposite to Q? Q ?",
+                 "How many persons go market after H? H ?",
+                 "…does not belong to that group? , ?",
+                 "Which of the following statements is true? - ?",
+                 "Who was born on 5th January? 5 ?",
+                 "…9th to the left of the element 15th from the left end? 15 9 ?"):
+        check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
+                 defects(question(stem=stem)))
     # 97 maths stems hold two "?" legitimately. A rule that flagged those would
     # be switched off within a week.
-    check_not_in("two '?' mid-stem is fine", "doubled_question_mark",
+    check_not_in("two '?' mid-stem is fine", "translation_tail",
                  defects(question(
                      stem="What should come in place of (?) in the following questions? 150\\%")))
-    check_not_in("ending in a single '?' is fine", "doubled_question_mark",
+    check_not_in("ending in a single '?' is fine", "translation_tail",
                  defects(question(stem="Who lives on the 6th floor?")))
-    check_not_in("maths ending in '= ?' is fine", "doubled_question_mark",
+    check_not_in("maths ending in '= ?' is fine", "translation_tail",
                  defects(question(stem="510/? = \\sqrt{324}")))
+    # The false positive the first draft of this rule had: without \b it chewed
+    # through "the series" two letters at a time and truncated the stem.
+    check_not_in("real words between the two '?' are not debris", "translation_tail",
+                 defects(question(stem="What is the value of ? in the series?")))
+    check_not_in("two clauses each ending in '?'", "translation_tail",
+                 defects(question(stem="If x = ? and y = 2, what is x?")))
 
 
 def test_placeholder_stem():
