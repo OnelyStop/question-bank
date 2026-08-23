@@ -115,6 +115,24 @@ def check_paper(path: Path, paper: dict, declared: set[str] | None = None) -> li
         dupes = sorted({n for n in nums if nums.count(n) > 1})
         errs.append(f"duplicate q_num {dupes}")
 
+    # A direction_id means "these questions share this direction", so two texts
+    # under one id is a contradiction the id itself denies. It caught a
+    # line-graph DI question carrying a quadratic-equation direction while its
+    # four neighbours in the same set carried the right one -- the id, the image
+    # flag, the stem and the options all said line graph, and only the text
+    # disagreed. Nothing else notices: every field is populated and well formed.
+    by_id: dict[str, set[str]] = {}
+    for q in qs:
+        did = q.get("direction_id")
+        if did:
+            by_id.setdefault(did, set()).add((q.get("direction_text") or "").strip())
+    # `variants`, not `texts` -- there is a module-level texts() used further
+    # down this same function, and shadowing it made every other rule crash.
+    for did, variants in sorted(by_id.items()):
+        if len(variants) > 1:
+            errs.append(f"direction {did}: {len(variants)} different direction_text "
+                        f"values under one id — {sorted(t[:40] for t in variants)}")
+
     for q in qs:
         missing = [f for f in REQUIRED if f not in q]
         if missing:

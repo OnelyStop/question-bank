@@ -204,6 +204,29 @@ def test_unbalanced_braces():
                  defects(question(stem=r"\frac{15}{100} \times ?")))
 
 
+def test_direction_text_is_consistent_per_id():
+    # A direction_id means "these questions share this direction". Two texts
+    # under one id contradicts the id itself, and nothing else notices: every
+    # field is populated and well formed. It caught a line-graph DI question
+    # carrying a quadratic-equation direction while its four neighbours in the
+    # same set carried the right one.
+    graph = "Given line graph shows the data of male & female population."
+    quad = "In the following two equations (I) and (II) are given."
+    check_in("two texts under one id", "different direction_text",
+             defects(question(q_num=51, direction_id="d011", direction_text=quad),
+                     question(q_num=52, direction_id="d011", direction_text=graph)))
+    check_not_in("one text under one id is fine", "different direction_text",
+                 defects(question(q_num=51, direction_id="d011", direction_text=graph),
+                         question(q_num=52, direction_id="d011", direction_text=graph)))
+    # Different ids may of course differ, and a null id groups nothing.
+    check_not_in("different ids may differ", "different direction_text",
+                 defects(question(q_num=1, direction_id="d001", direction_text=graph),
+                         question(q_num=2, direction_id="d002", direction_text=quad)))
+    check_not_in("standalone questions are not a group", "different direction_text",
+                 defects(question(q_num=1, direction_id=None, direction_text=None),
+                         question(q_num=2, direction_id=None, direction_text=None)))
+
+
 def test_duplicate_q_num():
     check_in("same number twice", "duplicate q_num",
              defects(question(q_num=7), question(q_num=7)))
