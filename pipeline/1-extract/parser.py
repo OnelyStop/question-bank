@@ -493,8 +493,12 @@ def join_fractions(lines, bars=()):
 # Bengali in ShonarBangla, a legacy font whose text layer does not even
 # decode to real words, and 63 of its 98 questions carried the mojibake.
 DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
-# A trailing run of "?" left behind once the Hindi between them is gone.
-ORPHAN_QUESTION_RE = re.compile(r"\?(?:\s*\?)+\s*$")
+# What a removed translation leaves behind. The Devanagari run goes, but the
+# Latin letters, digits and punctuation sitting inside that sentence do not --
+# "…opposite to W? W ?" and "…that group? , - ?" are all one bug. Whole short
+# tokens only: \b matters, or the pattern chews through "the series" two
+# letters at a time and truncates a real maths stem.
+TRANSLATION_TAIL_RE = re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -571,7 +575,7 @@ def strip_hindi(text: str) -> str:
     # Only at the END. 97 maths stems legitimately carry two "?" ("What should
     # come in place of (?) in the following questions? 150%") and none of the
     # 4,778 merged questions ends in a "?" run for a good reason.
-    return ORPHAN_QUESTION_RE.sub("?", out)
+    return TRANSLATION_TAIL_RE.sub("?", out)
 
 
 def image_regions(pdf: Path) -> dict[int, bool]:

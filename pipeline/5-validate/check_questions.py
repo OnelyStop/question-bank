@@ -63,7 +63,8 @@ RULES = [
     # at the END: 97 maths stems legitimately hold two ("What should come in
     # place of (?) …? 150%"), and none of 4,778 merged questions ends in a run
     # of them for a good reason.
-    ("doubled_question_mark", "stem", re.compile(r"\?(?:\s*\?)+\s*$")),
+    ("translation_tail", "stem",
+     re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")),
 ]
 
 
