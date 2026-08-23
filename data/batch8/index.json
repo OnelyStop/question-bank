@@ -12,7 +12,7 @@
     "script_only": 0,
     "script_only_q_nums": [],
     "no_options": 0,
-    "no_stem": 0
+    "no_stem": 5
   },
   {
     "n": 2,
@@ -21,15 +21,13 @@
     "role": "RRB",
     "exam_type": "Mains",
     "year": 2018,
-    "questions": 119,
-    "image_bodied": 1,
-    "image_only_q_nums": [
-      40
-    ],
+    "questions": 120,
+    "image_bodied": 0,
+    "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
     "no_options": 0,
-    "no_stem": 0
+    "no_stem": 7
   },
   {
     "n": 3,
@@ -43,8 +41,8 @@
     "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 1,
-    "no_stem": 0
+    "no_options": 0,
+    "no_stem": 7
   },
   {
     "n": 4,
@@ -53,12 +51,12 @@
     "role": "RRB",
     "exam_type": "Mains",
     "year": 2017,
-    "questions": 119,
+    "questions": 120,
     "image_bodied": 0,
     "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 1,
+    "no_options": 0,
     "no_stem": 0
   },
   {
@@ -103,7 +101,7 @@
     "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 1,
+    "no_options": 0,
     "no_stem": 0
   },
   {
@@ -113,12 +111,9 @@
     "role": "RRB",
     "exam_type": "Prelims",
     "year": 2018,
-    "questions": 78,
-    "image_bodied": 2,
-    "image_only_q_nums": [
-      6,
-      8
-    ],
+    "questions": 80,
+    "image_bodied": 0,
+    "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
     "no_options": 0,
@@ -131,12 +126,12 @@
     "role": "RRB",
     "exam_type": "Prelims",
     "year": 2017,
-    "questions": 79,
+    "questions": 80,
     "image_bodied": 0,
     "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 1,
+    "no_options": 0,
     "no_stem": 0
   },
   {
@@ -146,14 +141,12 @@
     "role": "RRB",
     "exam_type": "Prelims",
     "year": 2018,
-    "questions": 79,
-    "image_bodied": 1,
-    "image_only_q_nums": [
-      78
-    ],
+    "questions": 80,
+    "image_bodied": 0,
+    "image_only_q_nums": [],
     "script_only": 0,
     "script_only_q_nums": [],
-    "no_options": 1,
+    "no_options": 0,
     "no_stem": 0
   }
 ]
