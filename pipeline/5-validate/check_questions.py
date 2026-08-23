@@ -61,12 +61,15 @@ RULES = [
     ("placeholder_stem", "stem",
      re.compile(r"^(?:Question|Q)\s*\.?\s*\d+\s*[.):]?\s*$", re.I)),
     ("solution_bleed", "any", re.compile(r"(?i)\bsol\s*\.\s|\bsolution\s*:")),
-    # "…topmost position? ?" -- a bilingual paper prints the question twice and
-    # the Hindi sentence's ASCII "?" outlives the Devanagari run it sat in. Only
-    # at the END: 97 maths stems legitimately hold two ("What should come in
-    # place of (?) …? 150%"), and none of 4,778 merged questions ends in a run
-    # of them for a good reason.
-    ("doubled_question_mark", "stem", re.compile(r"\?(?:\s*\?)+\s*$")),
+    # Debris from a removed translation. A bilingual paper prints the question
+    # twice; stripping the Devanagari leaves whatever inside it was not
+    # Devanagari -- its question mark, and any names, digits or commas:
+    #   "…sits diagonally opposite to Q? Q ?"   "…after H? H ?"   "…group? , ?"
+    # Only at the END, and only whole one- or two-character tokens, so the 97
+    # maths stems reading "What should come in place of (?) …? 150%" and
+    # "What is the value of ? in the series?" stay clean.
+    ("translation_tail", "stem",
+     re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")),
 ]
 
 
