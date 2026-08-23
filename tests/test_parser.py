@@ -253,6 +253,18 @@ def test_orphaned_question_mark_collapses():
           "What should come in place of (?) in the questions? 150")
 
 
+def test_letter_series_is_not_debris():
+    # The parser half of the same rule. This one destroys data rather than just
+    # reporting it: strip_hindi rewrites the stem, so an unbounded run deleted a
+    # question's entire series.
+    series = ("What should come in place of question mark (?) in the following "
+              "series based on the above arrangement? ZN XD UG QK ?")
+    check("series survives untouched", strip_hindi(series), series)
+    check("two tokens is still debris",
+          strip_hindi("What is the position of B with respect to Q? Q B ?"),
+          "What is the position of B with respect to Q?")
+
+
 def test_hindi_run_removal():
     check("labels survive",
           strip_hindi("दिए गए (a) यदि x >y (b) यदि x <y"),

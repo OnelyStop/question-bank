@@ -118,6 +118,20 @@ def test_translation_tail():
                  "Who was born on 5th January? 5 ?"):
         check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
                  defects(question(stem=stem)))
+    # A letter series is NOT debris. "…arrangement? ZN XD UG QK ?" is a real
+    # question whose series is those four pairs and whose trailing "?" is the
+    # answer blank -- an unbounded run of short tokens swallowed the lot and
+    # failed a teammate's build. A series needs three terms to state a pattern,
+    # so the rule takes at most two.
+    check_not_in("a letter series is not debris", "translation_tail",
+                 defects(question(stem=(
+                     "What should come in place of question mark (?) in the "
+                     "following series based on the above arrangement? ZN XD UG QK ?"))))
+    check_not_in("a number series either", "translation_tail",
+                 defects(question(stem="Find the next term? 12 24 48 96 ?")))
+    # Two tokens is still debris, and must keep working.
+    check_in("two tokens is still debris", "translation_tail",
+             defects(question(stem="What is the position of B with respect to Q? Q B ?")))
     # The false positive the first draft had: without \b the pattern walks
     # through "the series" two letters at a time and truncates the stem.
     check_not_in("real words between the two '?' are not debris", "translation_tail",
