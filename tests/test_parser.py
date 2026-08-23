@@ -36,9 +36,7 @@ def test_question_number_shapes():
 
 def anchors_for(text: str) -> list[int]:
     found = list(QUESTION_RE.finditer(text))
-    prefixed = sum(1 for m in found if m.group(1))
-    q_style = prefixed >= 0.6 * len(found) if found else False
-    return [n for n, _, _ in question_anchors(found, q_style)]
+    return [n for n, _, _ in question_anchors(found, parser.question_style(found))]
 
 
 def test_para_jumble_labels_are_not_questions():
@@ -68,7 +66,14 @@ def test_column_interleave_is_kept_whole():
     check("interleaved order preserved", anchors_for(text), [41, 44, 45, 42, 43, 46])
 
 
-def test_section_restart_is_kept():
+def test_question_n_style_ignores_numbered_phrases():
+    # SBI PO Pre 2020 labels every question "Question 14:" and then lists
+    # three replacements as "1. … 2. … 3. …". Those must not start questions.
+    text = "".join(f"Question {n}: Which phrase should replace the bold part.\n"
+                   f"1. Have grown\n2. Are on the rise\n3. Have increased\n"
+                   f"A) Only 1\nB) Only 2\nC) Only 3\nD) All\nE) None\n"
+                   for n in range(1, 45))
+    check("bare 1. 2. 3. dropped", anchors_for(text), list(range(1, 45)))
     # 1-35 Reasoning then 1-35 English reuses every number legitimately. It
     # differs from a label by continuing to count.
     text = "".join(f"{n}. Question text here.\n" for n in (1, 2, 3, 4, 1, 2, 3, 4))
