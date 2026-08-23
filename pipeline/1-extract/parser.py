@@ -39,7 +39,8 @@ NOISE_RE = re.compile(
     r"(?i)^(?:\d{1,3}\s+)?"
     r"(?:adda247.*|www\.[a-z0-9.\-]+.*|bankersadda\.com.*|sscadda\.com.*|"
     r"careerpower\.in.*|store\.adda247\.com.*|(?:web)?site\s*:.*|visit\s*:.*|"
-    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*)$"
+    r"email:.*|info@[a-z0-9.\-]+.*|page\s*\d+.*|"
+    r"sbi po pre \d{4} question paper.*)$"
 )
 
 # The `(?!\d)` guard applies only to the bare form -- with an explicit "Q" there
@@ -49,7 +50,14 @@ QUESTION_RE = re.compile(
     r"(?im)^\s*(?:(?:Question\s+|Q\s*\.?\s*)([1-9]\d{0,2})\s*[.):]"
     r"|([1-9]\d{0,2})\s*[.):](?!\d))\s*"
 )
-DIRECTION_RE = re.compile(r"(?is)Directions?\s*\(\s*(\d+)\s*[-–—to]+\s*(\d+)\s*\)\s*:?\s*")
+# The optional "Q" is a filename-numbering habit some papers carry into
+# their direction headers too -- "Directions (Q131-135)", "(Q.13-20)" -- as
+# well as "(101-105)". Skipping it here is not the same as making it
+# optional in QUESTION_RE: this only fires between "(" and the digits, so
+# it cannot swallow an actual question anchor.
+DIRECTION_RE = re.compile(
+    r"(?is)Directions?\s*\(\s*(?:Q\.?\s*)?(\d+)\s*[-–—to]+\s*(?:Q\.?\s*)?(\d+)\s*\)\s*:?\s*"
+)
 # Some papers never number their directions -- one paper writes 50 of these and
 # not a single "Directions (111-115):" -- so the questions they cover have to be
 # taken from position instead of from a stated range.
@@ -57,16 +65,33 @@ UNNUMBERED_DIRECTION_RE = re.compile(
     r"(?im)^\s*(?:Directions?\s*:|"
     r"Read the (?:given|following)|Study the following|"
     r"In (?:the|each of the) following|What should come|"
-    r"Find the wrong|Answer the following|Solve the following)"
+    # "Answer the questions based on..." opens a DI table set (5/246
+    # papers, 15 headers) same as "Answer the following" already did --
+    # missing it glued the table into the PREVIOUS question's stem
+    # instead of starting a new direction.
+    r"Find the wrong|Answer the following|Answer the questions|Solve the following)"
 )
 OPTION_RE = re.compile(r"\(\s*([a-e])\s*\)\s*")
 UPPER_OPTION_RE = re.compile(r"\(\s*([A-E])\s*\)\s*")
+# Adda247 SBI PO memory papers print "A) 12  B) 15" -- letter + close paren,
+# no open paren. `(?<!\()` keeps cloze blanks "(A)" and roman "(I)" from being
+# read as the option list; `(?<![A-Za-z])` keeps "area)" out.
+BARE_UPPER_OPTION_RE = re.compile(r"(?<!\()(?<![A-Za-z])([A-E])\)\s+")
+# Watermark that lands in the body, not on its own footer line.
+PAPER_MARK_RE = re.compile(r"\bSBI PO PRE \d{4} QUESTION PAPER\b", re.I)
 # "(a)/ segment" -- error spotting, where the options are the sentence's parts
 SEGMENT_RE = re.compile(r"\(\s*([a-e])\s*\)\s*[.,;]?\s*(?:/|(?=\s*$))")
 BLEED_RE = re.compile(
     # "Directions (32-34):" and "Directions 32-34:" are the same header;
     # requiring the paren let the unparenthesised form bleed into option (e).
-    r"(?is)\s*(?:Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
+    # Line-anchored (lookbehind for a preceding \n or string start), unlike
+    # the other branches here: without it, "Directions?" also matched the
+    # ordinary word "direction(" turning up mid-sentence inside a
+    # seating-puzzle's own restated direction -- "...faces opposite
+    # direction( Opposite direction means..." -- and because this whole
+    # pattern is .*$ under DOTALL, that one false match deleted everything
+    # after it, options included, from five straight questions in one paper.
+    r"(?is)\s*(?:(?:(?<=\n)|(?<=\A))\s*Directions?\s*[\(\d]|Q\s*\d+\.|Question\s+\d+|www\.[a-z0-9.\-]+|"
     # "Ans.(b)" printed after each question's options is an inline answer key,
     # not part of option (e). It bled into the last option of all 100 questions
     # in one paper -- "155.56% Ans." -- which is a wrong option that looks real.
@@ -75,11 +100,25 @@ BLEED_RE = re.compile(
     r"\bAns\s*\.\s*\(?\s*[a-e]\s*\)?|"
     r"Answer\s*:|Solution\s*:).*$"
 )
+# "Visit: adda247.com" (no "www.", so BLEED_RE's www\. branch misses it) shows
+# up inline -- sometimes trailing the last option, sometimes stitched into the
+# MIDDLE of a passage between two real sentences ("...equal in each city.
+# Visit: adda247.com Note- Married couples..."). BLEED_RE cuts everything after
+# its match, so adding it there truncated two questions' options entirely when
+# the ad text landed before the option list in the raw block. This removes just
+# the phrase itself, wherever it sits, and leaves the rest of the text intact.
+AD_CREDIT_RE = re.compile(
+    r"(?i)\s*(?:Visit\s*:?\s*)?(?:www\.)?(?:adda247|bankersadda|sscadda|careerpower)\.(?:com|in)\s*"
+)
 SOLUTIONS_RE = re.compile(r"(?im)^\s*(?:SOLUTIONS?|ANSWER\s+KEY|DETAILED\s+SOLUTIONS?)\s*$")
 # Files with no questions to take: a solutions-only PDF, or the Hindi edition of
 # a paper already held in English. Parsed anyway they yield 0-1 questions and
 # burn a slot in the batch.
-SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answer[-_ ]?key|hindi|hn)(?:[-_ .]|$)")
+# `answers?` alone, not just `answer[-_ ]?key`: "...-Answers-1.pdf" is a
+# solutions PDF ("S101. (c); Sol. ...") same as any "-Answer-Key-" file, but
+# without the trailing "key" it slipped the old pattern, burned a batch slot,
+# and parsed to a correct-but-useless 0 questions.
+SKIP_NAME_RE = re.compile(r"(?i)(?:^|[-_ ])(?:solutions?|sol|answers?(?:[-_ ]?key)?|hindi|hn)(?:[-_ .]|$)")
 
 # PyMuPDF sets bit 0 of a span's flags for superscript text. Without this an
 # exponent arrives flat -- "2x2 - 3x + 1 = 0" -- where the trailing 2 reads as
@@ -467,8 +506,20 @@ def join_fractions(lines, bars=()):
 # Bengali in ShonarBangla, a legacy font whose text layer does not even
 # decode to real words, and 63 of its 98 questions carried the mojibake.
 DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
-# A trailing run of "?" left behind once the Hindi between them is gone.
-ORPHAN_QUESTION_RE = re.compile(r"\?(?:\s*\?)+\s*$")
+# What a removed translation leaves behind. The Devanagari run goes, but the
+# Latin letters, digits and punctuation sitting inside that sentence do not --
+# "…opposite to Q? Q ?" and "…after H? H ?" and "…that group? , ?" are all one
+# bug. Two limits, both learned the hard way: \b, or the pattern chews through
+# "the series" two letters at a time; and AT MOST TWO tokens, or it eats a
+# letter series. "…based on the above arrangement? ZN XD UG QK ?" is a real
+# question whose series IS those four pairs, and an unbounded run swallowed it.
+# A series needs three terms to establish a pattern, so two is a safe ceiling --
+# every debris tail seen is one or two ("Q ?", "15 9 ?", "Q B ?").
+TRANSLATION_TAIL_RE = re.compile(
+    r"\?(?:\s*[^\w\s])*"
+    r"(?:\s*\b[A-Za-z0-9]{1,2}\b(?:\s*[^\w\s])*){0,2}"
+    r"\s*\?\s*$"
+)
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
@@ -536,16 +587,18 @@ def strip_hindi(text: str) -> str:
         return text
     out = DEV_RUN_RE.sub(" ", text)
     out = " ".join(out.split()).strip(" \t\n-/|,;")
-    # A bilingual paper prints the question twice, and the Hindi sentence ends
-    # in an ASCII "?" that the Devanagari run does not cover -- so removing the
-    # Hindi strands its question mark after the English one: "…at the topmost
-    # position? ?". Not only that path, though: one stem reached "given??" from
-    # a source printing a single "?", so the collapse is unconditional.
+    # A bilingual paper prints the question twice. Removing the Devanagari
+    # leaves whatever was NOT Devanagari inside that sentence -- its question
+    # mark, and any names, digits or commas it mentioned:
     #
-    # Only at the END. 97 maths stems legitimately carry two "?" ("What should
-    # come in place of (?) in the following questions? 150%") and none of the
-    # 4,778 merged questions ends in a "?" run for a good reason.
-    return ORPHAN_QUESTION_RE.sub("?", out)
+    #   Who among the following sits diagonally opposite to Q? Q ?
+    #   How many persons go market after H? H ?
+    #   …does not belong to that group? , ?
+    #
+    # Only at the END, and only whole short tokens, so a maths stem keeps its
+    # "?": 97 of them read "What should come in place of (?) …? 150%", and
+    # "What is the value of ? in the series?" must survive untouched.
+    return TRANSLATION_TAIL_RE.sub("?", out)
 
 
 def image_regions(pdf: Path) -> dict[int, bool]:
@@ -611,46 +664,13 @@ def read_text(pdf: Path) -> str:
     return body[: m.start()] if m else body
 
 
-def split_options(block: str) -> tuple[str, dict[str, str]]:
-    block = BLEED_RE.sub("", block).strip()
+def _complete_opts(opts: dict) -> bool:
+    keys = list(opts)
+    return keys == list("abcde") or keys == list("abcd")
 
-    # Error spotting first: its "(a)/ meet to discuss" has no space after the
-    # label, so the ordinary option split matches nothing.
-    parts = list(SEGMENT_RE.finditer(block))
-    if [p.group(1).lower() for p in parts] in (list("abcde"), list("abcd")):
-        opts, ok = {}, True
-        for idx, mm in enumerate(parts):
-            start = parts[idx - 1].end() if idx else 0
-            seg = " ".join(block[start: mm.start()].split()).strip(" /;-")
-            if not seg:
-                ok = False
-                break
-            opts[mm.group(1).lower()] = seg
-        if ok:
-            return " ".join(block.split()), opts
 
-    matches = list(OPTION_RE.finditer(block))
-    if not matches:
-        # "STARTERS" connector questions print three UPPERCASE options,
-        # "(A) Because… (B) Considering… (C) Even though…". Uppercase is
-        # normally a stimulus label, so this runs only when no lowercase run
-        # exists at all -- a para-jumble has both and keeps its (a)-(e).
-        upper = list(UPPER_OPTION_RE.finditer(block))
-        labels = [m.group(1) for m in upper]
-        if labels[:3] == ["A", "B", "C"]:
-            opts, stem = {}, " ".join(block[: upper[0].start()].split())
-            run = upper[: 5 if labels[:5] == list("ABCDE") else
-                          4 if labels[:4] == list("ABCD") else 3]
-            for i, m in enumerate(run):
-                end = run[i + 1].start() if i + 1 < len(run) else len(block)
-                value = " ".join(block[m.end(): end].split()).strip(" ;-")
-                if value:
-                    opts[m.group(1).lower()] = value
-            if len(opts) == len(run):
-                return stem, opts
-        return " ".join(block.split()), {}
-
-    # Last full a-e run wins: an earlier "(a)" may belong to the stem.
+def _extract_option_run(block: str, matches, *, first_complete: bool = False) -> tuple[str, dict[str, str]]:
+    """Stem + options from a sequence of labelled matches in `block`."""
     start_at = 0
     for i in range(len(matches)):
         run, expect = [], "a"
@@ -661,6 +681,8 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
             j += 1
         if run in (list("abcde"), list("abcd")):
             start_at = i
+            if first_complete:
+                break
 
     stem = " ".join(block[: matches[start_at].start()].split())
     opts = {}
@@ -689,6 +711,97 @@ def split_options(block: str) -> tuple[str, dict[str, str]]:
         if label == "e":
             break
     return stem, opts
+
+
+def _uppercase_starters(block: str) -> tuple[str, dict[str, str]] | None:
+    # "STARTERS" connector questions print three UPPERCASE options,
+    # "(A) Because… (B) Considering… (C) Even though…". Uppercase is
+    # normally a stimulus label, so this runs only when no lowercase run
+    # exists at all -- a para-jumble has both and keeps its (a)-(e).
+    upper = list(UPPER_OPTION_RE.finditer(block))
+    labels = [m.group(1) for m in upper]
+    if labels[:3] != ["A", "B", "C"]:
+        return None
+    opts, stem = {}, " ".join(block[: upper[0].start()].split())
+    run = upper[: 5 if labels[:5] == list("ABCDE") else
+                  4 if labels[:4] == list("ABCD") else 3]
+    for i, m in enumerate(run):
+        end = run[i + 1].start() if i + 1 < len(run) else len(block)
+        value = " ".join(block[m.end(): end].split()).strip(" ;-")
+        if value:
+            opts[m.group(1).lower()] = value
+    if len(opts) == len(run):
+        # Cloze passages print blanks as ___(A)___ … (B) …, which looks like a
+        # complete (A)-(E) starter list. Those values are passage fragments,
+        # not options.
+        if any(v.lstrip().startswith("_") for v in opts.values()):
+            return None
+        return stem, opts
+    return None
+
+
+def _opts_from_prefix_if_bare(prefix: str) -> tuple[str, dict[str, str]] | None:
+    """Complete A) B) C) D) E) sitting in the text before a following direction.
+
+    Kept whole so a para-jumble's (a)/(B) parts are not eaten; recover only the
+    bare A) run -- the jumble form uses parens.
+    """
+    cleaned = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", prefix)).strip()
+    bare = list(BARE_UPPER_OPTION_RE.finditer(cleaned))
+    if not bare:
+        return None
+    pstem, popts = _extract_option_run(cleaned, bare, first_complete=True)
+    if _complete_opts(popts):
+        popts = {k: re.sub(r"\s+\d+:\s*None\s*$", "", v).strip()
+                 for k, v in popts.items()}
+        popts = {k: v for k, v in popts.items() if v}
+        if _complete_opts(popts):
+            return pstem, popts
+    return None
+
+
+def split_options(block: str) -> tuple[str, dict[str, str]]:
+    block = PAPER_MARK_RE.sub(" ", BLEED_RE.sub("", block)).strip()
+
+    # Error spotting first: its "(a)/ meet to discuss" has no space after the
+    # label, so the ordinary option split matches nothing.
+    parts = list(SEGMENT_RE.finditer(block))
+    if [p.group(1).lower() for p in parts] in (list("abcde"), list("abcd")):
+        opts, ok = {}, True
+        for idx, mm in enumerate(parts):
+            start = parts[idx - 1].end() if idx else 0
+            seg = " ".join(block[start: mm.start()].split()).strip(" /;-")
+            if not seg:
+                ok = False
+                break
+            opts[mm.group(1).lower()] = seg
+        if ok:
+            return " ".join(block.split()), opts
+
+    matches = list(OPTION_RE.finditer(block))
+    paren_stem, paren_opts = (
+        _extract_option_run(block, matches) if matches
+        else (" ".join(block.split()), {}))
+    # A complete (a)-(e) wins. An incomplete one -- often a stray "(e)" in
+    # "choose option (e)" -- is held back so A) B) C) D) E) can be tried.
+    if _complete_opts(paren_opts):
+        return paren_stem, paren_opts
+
+    # A) B) C) D) E) before "(A) Because": a cloze blank "(A)" plus a real
+    # A)-E) list must keep the list, not treat the blank as a starter option.
+    bare = list(BARE_UPPER_OPTION_RE.finditer(block))
+    if bare:
+        stem, opts = _extract_option_run(block, bare)
+        if _complete_opts(opts):
+            return stem, opts
+
+    upper = _uppercase_starters(block)
+    if upper:
+        return upper
+
+    if paren_opts:
+        return paren_stem, paren_opts
+    return " ".join(block.split()), {}
 
 
 BANKS = [("NABARD", r"\bnabard\b"), ("SIDBI", r"\bsidbi\b"), ("IBPS", r"\bibps\b"),
@@ -958,6 +1071,22 @@ def full_question(q: dict, paper_id: str, meta: dict) -> dict:
     }
 
 
+def question_style(found: list) -> bool:
+    """Does this paper number questions as 'Q41.' / 'Question 14:'?
+
+    Bare '1.' is then a list item, not a question. The share of prefixed hits
+    is the usual signal, but phrase-replacement lists ('1. Have grown  2. Are
+    on the rise  3. …') inflate the bare count and can drop a 100-question
+    'Question N:' paper under 60%. Unique prefixed numbers recover that.
+    """
+    if not found:
+        return False
+    prefixed = [m for m in found if m.group(1)]
+    if len(prefixed) >= 0.6 * len(found):
+        return True
+    return len({int(m.group(1)) for m in prefixed}) >= 40
+
+
 def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     """Where each question starts, minus the bare numbers that only look like one.
 
@@ -1011,8 +1140,25 @@ def question_anchors(found: list, q_style: bool) -> list[tuple[int, int, int]]:
     return kept
 
 
+
+def pdf_source_ref(pdf: Path) -> str:
+    """Repo-relative path to `pdf`, for research.py to find the file again.
+
+    .as_posix(), not str(): str(Path) uses the native separator, so this
+    committed a Windows-style path while every Linux-generated batch has
+    "corpus/done/...". Same field,
+    different bytes depending who ran the parser -- as_posix() is the one
+    value that is the same on every machine. The bare name alone is not
+    enough: the corpus is nested several folders deep.
+    """
+    try:
+        return pdf.resolve().relative_to(REPO).as_posix()
+    except ValueError:
+        return pdf.as_posix()
+
+
 def parse(pdf: Path) -> dict:
-    text = read_text(pdf)
+    text = AD_CREDIT_RE.sub(" ", read_text(pdf))
     has_image_at = image_regions(pdf)
 
     # A paper numbers its questions one way throughout. Where "Q41." is the
@@ -1022,8 +1168,7 @@ def parse(pdf: Path) -> dict:
     # options. Requiring the dominant style only where one clearly dominates
     # leaves bare-numbered papers alone -- forcing it cost 3 real questions.
     found = list(QUESTION_RE.finditer(text))
-    prefixed = sum(1 for m in found if m.group(1))
-    q_style = prefixed >= 0.6 * len(found) if found else False
+    q_style = question_style(found)
     anchors = question_anchors(found, q_style)
 
     # The direction's body is everything between its header and the first
@@ -1091,6 +1236,16 @@ def parse(pdf: Path) -> dict:
                 # the stem and leaves nothing.
                 raw_stem = " ".join(prefix.split())
                 own_direction, raw_opts = split_options(block[head.start():])
+                # Prefer a complete bare A)–E) run in the prefix over options
+                # taken from the following direction. A cloze passage prints
+                # blanks as ___(A)___ … (B) …, so split_options can return a
+                # "complete" fragment set and the real A) B) C) D) E) list
+                # would stay stuck in the stem. That list belongs to this
+                # question; the Direction after it belongs to the next set.
+                recovered = _opts_from_prefix_if_bare(prefix)
+                if recovered:
+                    raw_stem, raw_opts = recovered
+                    own_direction = None
             else:
                 # Direction, then the question. The instruction is one sentence,
                 # ending at the colon these papers use; the rest is the stem.
@@ -1161,10 +1316,7 @@ def parse(pdf: Path) -> dict:
     meta = paper_meta(pdf, text)
     paper_id = make_paper_id(meta, pdf)
     fixes = load_corrections()
-    try:
-        source_pdf = str(pdf.resolve().relative_to(REPO))
-    except ValueError:
-        source_pdf = str(pdf)
+    source_pdf = pdf_source_ref(pdf)
 
     # A question is only marked has_image when its stem or its options are
     # missing AND the page holds an image region -- the text is a picture, so
@@ -1199,14 +1351,59 @@ def parse(pdf: Path) -> dict:
 PAGE = fitz.paper_rect("a4")
 MARGIN = 48.0
 LEAD = 1.35
+FONT_DIR = Path(__file__).resolve().parent / "fonts"
 # Helvetica is Latin-1: it cannot draw √, ≥ or Devanagari, and PyMuPDF
-# substitutes "?". Arial Unicode covers all three, so it is used when present
-# and the ASCII fold below is only the fallback.
-UNICODE_FONTS = [
-    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+# substitutes "?". Arial Unicode used to cover all of this corpus's scripts in
+# one file, but it is a proprietary Microsoft font with no legal free-download
+# source, so a machine without it already installed (every CI runner, most
+# contributors) silently fell back to ASCII -- see check_render.py. No single
+# freely redistributable font covers Latin/math *and* shapes Devanagari, Tamil
+# and Telugu correctly (tried GNU FreeSerif: covers the codepoints but draws
+# Devanagari matras in the wrong position -- a script-specialist font is not
+# optional, it's what "correctly shaped" means), so this is one general font
+# plus one specialist per script, chosen per text block: nothing in this
+# corpus's PR-scoped batches mixes two scripts in the same stem/option
+# (verified against every committed batch), so a block never needs two fonts
+# at once. SCRIPTS lists specialists in priority order; the general font
+# covers everything else (Latin, maths, card-suit/misc symbols).
+LATIN_FONTS = [
+    "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",  # macOS, if present
     "/Library/Fonts/Arial Unicode.ttf",
+    r"C:\Windows\Fonts\arial.ttf",
+    "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
 ]
-UNI_FONT = next((f for f in UNICODE_FONTS if Path(f).is_file()), None)
+SCRIPTS = [
+    # (fontname, unicode range, bundled font file)
+    ("deva",   (0x0900, 0x097F), str(FONT_DIR / "NotoSansDevanagari.ttf")),
+    ("tamil",  (0x0B80, 0x0BFF), str(FONT_DIR / "NotoSansTamil.ttf")),
+    ("telugu", (0x0C00, 0x0C7F), str(FONT_DIR / "NotoSansTelugu.ttf")),
+]
+UNI_FONT = next((f for f in LATIN_FONTS if Path(f).is_file()), None)
+SCRIPT_FONTS = {name: path for name, _, path in SCRIPTS if Path(path).is_file()}
+# fitz.Font objects, built once and reused for glyph-coverage checks only (not
+# for drawing -- insert_font still takes the fontfile path). A script's
+# specialist font is not guaranteed to cover every symbol that shares a stem
+# with it (Telugu inequality questions print ≥/≤, which NotoSansTelugu lacks),
+# so a block that doesn't fully fit its chosen font must not draw silently --
+# see the coverage check in Sheet.write().
+_COVERAGE_FONTS = {name: fitz.Font(fontfile=path) for name, path in SCRIPT_FONTS.items()}
+if UNI_FONT:
+    _COVERAGE_FONTS["uni"] = fitz.Font(fontfile=UNI_FONT)
+
+
+def detect_script(text: str) -> str | None:
+    for name, (lo, hi), _ in SCRIPTS:
+        if name in SCRIPT_FONTS and any(lo <= ord(c) <= hi for c in text):
+            return name
+    return None
+
+
+def font_covers(fontname: str, text: str) -> bool:
+    font = _COVERAGE_FONTS.get(fontname)
+    if font is None:
+        return False
+    return all(font.has_glyph(ord(c)) for c in text if ord(c) > 127)
 
 ASCII_FOLD = str.maketrans({
     "‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "--", "…": "...",
@@ -1245,6 +1442,8 @@ class Sheet:
         self.page = self.doc.new_page(width=PAGE.width, height=PAGE.height)
         if UNI_FONT:
             self.page.insert_font(fontname="uni", fontfile=UNI_FONT)
+        for name, path in SCRIPT_FONTS.items():
+            self.page.insert_font(fontname=name, fontfile=path)
         self.y = MARGIN
         self.page.insert_text((MARGIN, PAGE.height - 28),
                               f"{self.title}  ·  page {self.doc.page_count}",
@@ -1254,13 +1453,24 @@ class Sheet:
         if not text:
             return
         text = normalise(str(text))
-        # Helvetica keeps a real bold face, which Arial Unicode does not, so
+        # Helvetica keeps a real bold face, which the Unicode fonts do not, so
         # plain-Latin text stays on it and only text that needs the wider
         # coverage pays for losing bold.
         # Above ASCII, not above Latin-1: × (0xD7) and ÷ (0xF7) sit inside
         # Latin-1, so they took the fallback path and were folded to "x" and
         # "/" even with the real font available.
-        if UNI_FONT and any(ord(c) > 127 for c in text):
+        # A script's specialist font is picked first, but only trusted if it
+        # actually covers the whole block -- a Telugu inequality question
+        # prints ≥/≤ that NotoSansTelugu doesn't have, and drawing anyway
+        # produces an invisible .notdef with no gate able to catch it (nothing
+        # reads glyph coverage; check_render.py only reads extracted text,
+        # which comes back with the right codepoints regardless of whether
+        # they drew). Falling through to flatten() below is what makes a
+        # coverage gap a loud build failure instead of a blank page in CI.
+        script = detect_script(text)
+        if script and font_covers(script, text):
+            font = script
+        elif UNI_FONT and any(ord(c) > 127 for c in text) and font_covers("uni", text):
             font = "uni"
         else:
             text = flatten(text)
@@ -1338,7 +1548,7 @@ def display(text: str) -> str:
     touched -- this is display, not storage.
     """
     if "\\" not in text and "^{" not in text:
-        return text
+        return text.replace("∜", "4th-root").replace("🟻", "[symbol]")
     # A mixed number shows as one glyph where Unicode has it -- "87⅓ %" is
     # unambiguous where "87 1/3 %" is not.
     out = MIXED_DISPLAY_RE.sub(
@@ -1358,7 +1568,7 @@ def display(text: str) -> str:
     out = re.sub(r"\^\{([0-9n])\}",
                  lambda m: SUPER_BACK.get(m.group(1), "^" + m.group(1)), out)
     out = re.sub(r"\^\{([^{}]+)\}", r"^(\1)", out)
-    return " ".join(out.split())
+    return " ".join(out.split()).replace("∜", "4th-root").replace("🟻", "[symbol]")
 
 
 def render(paper: dict, out: Path) -> int:
@@ -1402,10 +1612,14 @@ def render(paper: dict, out: Path) -> int:
         sheet.doc.close()
         raise RuntimeError(
             f"{out.name}: cannot draw {len(UNRENDERABLE)} character(s) -- {missing}\n"
-            f"  No Unicode font found. Looked in:\n"
-            + "".join(f"    {f}\n" for f in UNICODE_FONTS)
-            + "  Install Arial Unicode (or point UNICODE_FONTS at a font with these\n"
-              "  glyphs) and re-run. The JSON is fine; only the review PDF is affected."
+            f"  No font covers these. Looked in:\n"
+            + "".join(f"    {f}\n" for f in LATIN_FONTS + list(SCRIPT_FONTS.values()))
+            + "  Either the general font (LATIN_FONTS) lacks the glyph, or the text\n"
+              "  mixes a script with a symbol its specialist font doesn't have (e.g.\n"
+              "  a Telugu inequality question printing ≥/≤). Add or fix the font, or\n"
+              "  add a corrections.json entry if the source PDF used a broken\n"
+              "  private-use codepoint. The JSON is fine; only the review PDF is\n"
+              "  affected."
         )
 
     sheet.doc.save(str(out), deflate=True, garbage=4)
@@ -1417,6 +1631,22 @@ def render(paper: dict, out: Path) -> int:
 def next_batch_number(out_root: Path) -> int:
     used = [int(p.name[5:]) for p in out_root.glob("batch*") if p.name[5:].isdigit()]
     return max(used, default=0) + 1
+
+
+def collect_pdfs(src: Path) -> list[Path]:
+    """PDFs under `src`, in a fixed, OS-independent order.
+
+    Sorted by POSIX string, not by Path object: Path comparison sorts case-
+    insensitively and by native separator on Windows but case-sensitively by
+    "/" on Linux, so the same corpus/remaining/ produced two different
+    "next 10" on the two OSes -- a Windows run started with `_unknown_bank/`
+    while Linux started with `IBPS/`, zero overlap in the first ten. The batch
+    number is meaningless if it is not the same ten PDFs on every machine, so
+    this is always case-sensitive POSIX order, matching Linux's default.
+    """
+    if not src.is_dir():
+        return [src]
+    return sorted(src.rglob("*.pdf"), key=lambda p: p.as_posix())
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -1437,7 +1667,7 @@ def main(argv: list[str] | None = None) -> int:
     if not args.src.exists():
         print(f"  no such path: {args.src}", file=sys.stderr)
         return 1
-    found = sorted(args.src.rglob("*.pdf")) if args.src.is_dir() else [args.src]
+    found = collect_pdfs(args.src)
     pdfs = [p for p in found if not SKIP_NAME_RE.search(p.stem)]
     skipped = [p for p in found if SKIP_NAME_RE.search(p.stem)]
     batch = pdfs[: args.size]

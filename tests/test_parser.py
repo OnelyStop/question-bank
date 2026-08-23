@@ -18,6 +18,51 @@ parser = step("1-extract", "parser")
 QUESTION_RE = parser.QUESTION_RE
 line_text, join_fractions = parser.line_text, parser.join_fractions
 question_anchors, strip_hindi = parser.question_anchors, parser.strip_hindi
+DIRECTION_RE = parser.DIRECTION_RE
+UNNUMBERED_DIRECTION_RE = parser.UNNUMBERED_DIRECTION_RE
+
+
+# --- Q-prefixed direction ranges ---------------------------------------------
+# "Directions (Q131-135)", "(Q.13-20)" -- three real papers carry a filename
+# numbering habit ("Q41.") into their direction headers too, on top of the
+# plain "(101-105)" style. Missing this drops the whole direction (a
+# para-jumble's task, a cloze passage's blanks) for every question it covers.
+def direction_range(text):
+    m = DIRECTION_RE.search(text)
+    return m.groups() if m else None
+
+
+def test_answer_the_questions_opens_a_di_set():
+    # sbi-po-pre-2021.pdf: "Answer the questions based on the information
+    # given below" opens a DI table, but only "Answer the following" was
+    # recognized -- the table glued onto the previous question's stem
+    # instead of becoming its own direction.
+    check("recognized as a direction header",
+          bool(UNNUMBERED_DIRECTION_RE.match(
+              "Answer the questions based on the information given below.")),
+          True)
+    check("existing 'Answer the following' still works (regression)",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer the following questions.")),
+          True)
+    check("plain prose containing neither phrase is not a direction",
+          bool(UNNUMBERED_DIRECTION_RE.match("Answer wisely and carefully.")),
+          False)
+
+
+def test_q_prefixed_range_is_read_same_as_bare():
+    check("Q-prefixed with a period and space",
+          direction_range("Directions (Q. 101-105) : Read the following passage"),
+          ("101", "105"))
+    check("Q-prefixed with no space, no period",
+          direction_range("Directions (Q131-135) Five statements are given below"),
+          ("131", "135"))
+    check("Q-prefixed with period, no space",
+          direction_range("Directions (Q.13-20): In the following passage"),
+          ("13", "20"))
+    check("bare numbers still work (regression)",
+          direction_range("Directions (116-120):"), ("116", "120"))
+    check("singular 'Direction', no colon (regression)",
+          direction_range("Direction (126-130)"), ("126", "130"))
 
 
 # --- what counts as a question number ---------------------------------------
@@ -36,9 +81,7 @@ def test_question_number_shapes():
 
 def anchors_for(text: str) -> list[int]:
     found = list(QUESTION_RE.finditer(text))
-    prefixed = sum(1 for m in found if m.group(1))
-    q_style = prefixed >= 0.6 * len(found) if found else False
-    return [n for n, _, _ in question_anchors(found, q_style)]
+    return [n for n, _, _ in question_anchors(found, parser.question_style(found))]
 
 
 def test_para_jumble_labels_are_not_questions():
@@ -68,7 +111,14 @@ def test_column_interleave_is_kept_whole():
     check("interleaved order preserved", anchors_for(text), [41, 44, 45, 42, 43, 46])
 
 
-def test_section_restart_is_kept():
+def test_question_n_style_ignores_numbered_phrases():
+    # SBI PO Pre 2020 labels every question "Question 14:" and then lists
+    # three replacements as "1. … 2. … 3. …". Those must not start questions.
+    text = "".join(f"Question {n}: Which phrase should replace the bold part.\n"
+                   f"1. Have grown\n2. Are on the rise\n3. Have increased\n"
+                   f"A) Only 1\nB) Only 2\nC) Only 3\nD) All\nE) None\n"
+                   for n in range(1, 45))
+    check("bare 1. 2. 3. dropped", anchors_for(text), list(range(1, 45)))
     # 1-35 Reasoning then 1-35 English reuses every number legitimately. It
     # differs from a label by continuing to count.
     text = "".join(f"{n}. Question text here.\n" for n in (1, 2, 3, 4, 1, 2, 3, 4))
@@ -229,6 +279,23 @@ def test_complete_question_is_never_a_picture():
     check("stem and options present", qs[0]["has_image"], False)
 
 
+# --- inline ad credit lines ---------------------------------------------------
+# "Visit: adda247.com" has no "www.", so BLEED_RE's www\. branch misses it, and
+# NOISE_RE only strips it when it sits alone on its own line. It also showed up
+# stitched into the MIDDLE of a passage in one 2019 IBPS PO Mains paper:
+# "...equal in each city. Visit: adda247.com Note- Married couples...". Cutting
+# to end of string (BLEED_RE's approach) would have deleted "Note- Married
+# couples..." along with it, so this is a plain removal instead.
+def test_ad_credit_removed_inline():
+    check("trailing credit, no www.",
+          parser.AD_CREDIT_RE.sub(" ", "4080 Visit: adda247.com").strip(), "4080")
+    check("mid-passage credit leaves what follows",
+          " ".join(parser.AD_CREDIT_RE.sub(
+              " ", "equal in each city. Visit: adda247.com Note- Married couples."
+          ).split()),
+          "equal in each city. Note- Married couples.")
+
+
 # --- bilingual papers -------------------------------------------------------
 # Removing Devanagari runs (not truncating at the first one) keeps the Latin
 # labels inside a Hindi direction; truncation wiped them to "".
@@ -246,6 +313,18 @@ def test_orphaned_question_mark_collapses():
     check("mid-stem question marks kept",
           strip_hindi("What should come in place of (?) in the questions? 150"),
           "What should come in place of (?) in the questions? 150")
+
+
+def test_letter_series_is_not_debris():
+    # The parser half of the same rule. This one destroys data rather than just
+    # reporting it: strip_hindi rewrites the stem, so an unbounded run deleted a
+    # question's entire series.
+    series = ("What should come in place of question mark (?) in the following "
+              "series based on the above arrangement? ZN XD UG QK ?")
+    check("series survives untouched", strip_hindi(series), series)
+    check("two tokens is still debris",
+          strip_hindi("What is the position of B with respect to Q? Q B ?"),
+          "What is the position of B with respect to Q?")
 
 
 def test_hindi_run_removal():

@@ -19,6 +19,7 @@ without saying anything.
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -33,15 +34,25 @@ ESCAPE_RE = re.compile(r"<U\+[0-9A-Fa-f]{4,6}>")
 # The other half of the same fallback, and the half that is easy to miss.
 # ASCII_FOLD maps what it can rather than escaping it, so a paper whose maths is
 # all roots and inequalities renders as "sqrt324" and ">=" with not one <U+...>
-# in it -- and an escape-only check passes it clean. These strings do not occur
-# in real question text: the parser stores LaTeX (\sqrt, \geq) and display()
-# turns that into glyphs, so seeing the folded spelling means the font was gone.
+# in it -- and an escape-only check passes it clean. The parser stores LaTeX
+# (\sqrt, \geq) and display() turns that into glyphs, so seeing the folded
+# spelling normally means the font was gone.
+#
+# "Normally", not "always": some papers PRINT ASCII ">=" themselves.
+# ibps_clerk_2020_prelims_9868e39d sets its x/y comparison options as literal
+# ">=" and "<=" (verified against the source PDF: U+003E U+003D, no glyph
+# involved), so the parser correctly transcribed ASCII and there was never a
+# \geq for display() to convert. Flagging that is a false positive, and one
+# that cannot be fixed by re-rendering with any font. So each folded spelling
+# is only a defect when the paper's own JSON holds the LaTeX it should have
+# been converted from -- which is what makes the signal mean "the font was
+# missing" rather than "the exam printed it that way".
 FOLDED = {
-    "sqrt": "√",
-    "cbrt": "∛",
-    ">=": "≥",
-    "<=": "≤",
-    "!=": "≠",
+    "sqrt": ("√", r"\sqrt"),
+    "cbrt": ("∛", r"\sqrt["),
+    ">=": ("≥", r"\geq"),
+    "<=": ("≤", r"\leq"),
+    "!=": ("≠", r"\neq"),
 }
 
 # A page of a review PDF is mostly text. Far less than this means the render
@@ -49,7 +60,25 @@ FOLDED = {
 MIN_CHARS_PER_PAGE = 40
 
 
-def check_pdf(path: Path) -> list[str]:
+def source_latex(jsonp: Path) -> str:
+    """Every stem/option/direction of a paper, as stored -- LaTeX and all.
+
+    Read to tell a font failure apart from a paper that printed ASCII maths
+    itself: only the former has LaTeX in the JSON for display() to convert.
+    """
+    try:
+        paper = json.loads(jsonp.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return ""          # unreadable JSON is check_questions.py's to report
+    parts: list[str] = []
+    for q in paper.get("questions") or []:
+        parts.append(q.get("stem") or "")
+        parts.append(q.get("direction_text") or "")
+        parts.extend((q.get("options") or {}).values())
+    return "\n".join(parts)
+
+
+def check_pdf(path: Path, latex: str = "") -> list[str]:
     errs: list[str] = []
     try:
         doc = fitz.open(path)
@@ -74,9 +103,13 @@ def check_pdf(path: Path) -> list[str]:
             "the Unicode font was missing when this was rendered"
         )
 
-    folded = {w: text.count(w) for w in FOLDED if w in text}
+    # Only a defect if the JSON held the LaTeX this folded spelling should have
+    # been rendered from -- see FOLDED. A paper that printed ASCII maths itself
+    # has no such LaTeX, and no font can change what it looks like.
+    folded = {w: text.count(w) for w, (_, src) in FOLDED.items()
+              if w in text and src in latex}
     if folded:
-        shown = ", ".join(f"{w!r} x{n} (should be {FOLDED[w]})"
+        shown = ", ".join(f"{w!r} x{n} (should be {FOLDED[w][0]})"
                           for w, n in sorted(folded.items(), key=lambda kv: -kv[1]))
         errs.append(
             f"maths folded to ASCII: {shown} — "
@@ -109,7 +142,7 @@ def main(argv: list[str] | None = None) -> int:
                 continue
 
             checked += 1
-            for err in check_pdf(pdf):
+            for err in check_pdf(pdf, source_latex(jsonp)):
                 failures.append(f"{rel}: {err}")
 
     # Scanning nothing is a broken path, not a clean bill of health -- the same
