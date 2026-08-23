@@ -69,7 +69,11 @@ RULES = [
     # maths stems reading "What should come in place of (?) …? 150%" and
     # "What is the value of ? in the series?" stay clean.
     ("translation_tail", "stem",
-     re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")),
+     re.compile(
+        r"\?(?:\s*[^\w\s])*"
+    r"(?:\s*\b[A-Za-z0-9]{1,2}\b(?:\s*[^\w\s])*){0,2}"
+    r"\s*\?\s*$"
+     )),
 ]
 
 

@@ -509,9 +509,17 @@ DEV_RUN_RE = re.compile(r"[ऀ-ॿঀ-৿][ऀ-ॿঀ-৿\s।]*")
 # What a removed translation leaves behind. The Devanagari run goes, but the
 # Latin letters, digits and punctuation sitting inside that sentence do not --
 # "…opposite to Q? Q ?" and "…after H? H ?" and "…that group? , ?" are all one
-# bug. Whole short tokens only: \b matters, or the pattern chews through "the
-# series" two letters at a time and truncates a real maths stem.
-TRANSLATION_TAIL_RE = re.compile(r"\?(?:\s*(?:\b[A-Za-z0-9]{1,2}\b|[^\w\s]))*\s*\?\s*$")
+# bug. Two limits, both learned the hard way: \b, or the pattern chews through
+# "the series" two letters at a time; and AT MOST TWO tokens, or it eats a
+# letter series. "…based on the above arrangement? ZN XD UG QK ?" is a real
+# question whose series IS those four pairs, and an unbounded run swallowed it.
+# A series needs three terms to establish a pattern, so two is a safe ceiling --
+# every debris tail seen is one or two ("Q ?", "15 9 ?", "Q B ?").
+TRANSLATION_TAIL_RE = re.compile(
+    r"\?(?:\s*[^\w\s])*"
+    r"(?:\s*\b[A-Za-z0-9]{1,2}\b(?:\s*[^\w\s])*){0,2}"
+    r"\s*\?\s*$"
+)
 
 
 OPERATOR_SPACE_RE = re.compile(r"\s*([×÷≥≤=<>+])\s*")
