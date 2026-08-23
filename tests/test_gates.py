@@ -123,6 +123,21 @@ def test_translation_tail():
                  defects(question(stem="If x = ? and y = 2, what is x?")))
     check_not_in("maths ending in '= ?' is fine", "translation_tail",
                  defects(question(stem="510/? = \\sqrt{324}")))
+    # The Hindi sentence's own words survive when they are not Devanagari --
+    # a seat letter, a number, a comma. 266 questions in this PR.
+    for stem in ("Who among the following sits diagonally opposite to Q? Q ?",
+                 "How many persons go market after H? H ?",
+                 "…does not belong to that group? , ?",
+                 "Which of the following statements is true? - ?",
+                 "Who was born on 5th January? 5 ?"):
+        check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
+                 defects(question(stem=stem)))
+    # The false positive the first draft had: without \b the pattern walks
+    # through "the series" two letters at a time and truncates the stem.
+    check_not_in("real words between the two '?' are not debris", "translation_tail",
+                 defects(question(stem="What is the value of ? in the series?")))
+    check_not_in("two clauses each ending in '?'", "translation_tail",
+                 defects(question(stem="If x = ? and y = 2, what is x?")))
 
 
 def test_placeholder_stem():
@@ -133,6 +148,8 @@ def test_placeholder_stem():
 def test_boilerplate():
     check_in("coaching-house footer", "boilerplate",
              defects(question(stem="Visit www.bankersadda.com for more")))
+    check_not_in("puzzle that names Adda247 as a place", "boilerplate",
+                 defects(question(stem="Who visits the ADDA247 office last?")))
 
 
 def test_solution_bleed():
