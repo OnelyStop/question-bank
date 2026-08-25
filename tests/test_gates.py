@@ -107,6 +107,20 @@ def test_translation_tail():
                      stem="What should come in place of (?) in the following questions? 150\\%")))
     check_not_in("ending in a single '?' is fine", "translation_tail",
                  defects(question(stem="Who lives on the 6th floor?")))
+    # The Hindi sentence's own words survive when they are not Devanagari --
+    # a seat letter, a number, a comma. 85 questions in batch11 alone.
+    for stem in ("Who among the following person sits immediate left of W? - W ?",
+                 "…does not belong to that group? , - ?",
+                 "…immediately preceded and immediately followed by a letter? , ?",
+                 "Who was born on 5th January? 5 ?"):
+        check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
+                 defects(question(stem=stem)))
+    # The false positive the first draft had: without \b the pattern walks
+    # through "the series" two letters at a time and truncates the stem.
+    check_not_in("real words between the two '?' are not debris", "translation_tail",
+                 defects(question(stem="What is the value of ? in the series?")))
+    check_not_in("two clauses each ending in '?'", "translation_tail",
+                 defects(question(stem="If x = ? and y = 2, what is x?")))
     check_not_in("maths ending in '= ?' is fine", "translation_tail",
                  defects(question(stem="510/? = \\sqrt{324}")))
     # The Hindi sentence's own words survive when they are not Devanagari --
@@ -118,12 +132,59 @@ def test_translation_tail():
                  "Who was born on 5th January? 5 ?"):
         check_in(f"debris caught: {stem[-12:]!r}", "translation_tail",
                  defects(question(stem=stem)))
+    # A letter series is NOT debris. "…arrangement? ZN XD UG QK ?" is a real
+    # question whose series is those four pairs and whose trailing "?" is the
+    # answer blank -- an unbounded run of short tokens swallowed the lot and
+    # failed a teammate's build. A series needs three terms to state a pattern,
+    # so the rule takes at most two.
+    check_not_in("a letter series is not debris", "translation_tail",
+                 defects(question(stem=(
+                     "What should come in place of question mark (?) in the "
+                     "following series based on the above arrangement? ZN XD UG QK ?"))))
+    check_not_in("a number series either", "translation_tail",
+                 defects(question(stem="Find the next term? 12 24 48 96 ?")))
+    # Two tokens is still debris, and must keep working.
+    check_in("two tokens is still debris", "translation_tail",
+             defects(question(stem="What is the position of B with respect to Q? Q B ?")))
     # The false positive the first draft had: without \b the pattern walks
     # through "the series" two letters at a time and truncates the stem.
     check_not_in("real words between the two '?' are not debris", "translation_tail",
                  defects(question(stem="What is the value of ? in the series?")))
     check_not_in("two clauses each ending in '?'", "translation_tail",
                  defects(question(stem="If x = ? and y = 2, what is x?")))
+
+
+def test_stringified_null():
+    # A field holding the WORD "null" rather than the value. 180 questions here
+    # had direction_id AND direction_text replaced by it, so a
+    # quadratic-comparison question kept five options reading "(b) If x >= y"
+    # with nothing left to say what x and y are. It reads as a question with no
+    # direction and is a question whose direction was destroyed.
+    check_in("direction_text caught", "stringified",
+             defects(question(direction_text="null")))
+    # RULES' "any" never reaches direction_id, which is why this is checked
+    # field-wide instead.
+    check("direction_id caught too",
+          gate.stringified_nulls(question(direction_id="null")), ["direction_id"])
+    for word in ("null", "None", "NULL", "undefined", "nan", " null "):
+        check(f"{word!r} caught",
+              gate.stringified_nulls(question(direction_text=word)), ["direction_text"])
+
+    # A proper null is the correct state for a standalone question and must stay
+    # silent, or every question outside a direction set is a defect.
+    check("a real None is fine",
+          gate.stringified_nulls(question(direction_text=None, direction_id=None)), [])
+    # "None" is a real option -- it means zero, and sits in sets like
+    # ["None", "One", "Two", ...] 157 times across the committed batches.
+    # Flagging those to catch nothing is how a rule gets switched off.
+    check("an option reading None is not a defect",
+          gate.stringified_nulls(question(
+              options={"a": "None", "b": "One", "c": "Two"})), [])
+    check_not_in("and no defect is reported for it", "stringified",
+                 defects(question(options={"a": "None", "b": "One", "c": "Two"})))
+    # A stem that merely contains the word is prose, not a stringified null.
+    check("'None of these' in a stem is prose",
+          gate.stringified_nulls(question(stem="Which of these? None of these")), [])
 
 
 def test_placeholder_stem():
@@ -155,6 +216,29 @@ def test_unbalanced_braces():
              defects(question(stem=r"\frac{15}{100")))
     check_not_in("balanced latex passes", "unbalanced braces",
                  defects(question(stem=r"\frac{15}{100} \times ?")))
+
+
+def test_direction_text_is_consistent_per_id():
+    # A direction_id means "these questions share this direction". Two texts
+    # under one id contradicts the id itself, and nothing else notices: every
+    # field is populated and well formed. It caught a line-graph DI question
+    # carrying a quadratic-equation direction while its four neighbours in the
+    # same set carried the right one.
+    graph = "Given line graph shows the data of male & female population."
+    quad = "In the following two equations (I) and (II) are given."
+    check_in("two texts under one id", "different direction_text",
+             defects(question(q_num=51, direction_id="d011", direction_text=quad),
+                     question(q_num=52, direction_id="d011", direction_text=graph)))
+    check_not_in("one text under one id is fine", "different direction_text",
+                 defects(question(q_num=51, direction_id="d011", direction_text=graph),
+                         question(q_num=52, direction_id="d011", direction_text=graph)))
+    # Different ids may of course differ, and a null id groups nothing.
+    check_not_in("different ids may differ", "different direction_text",
+                 defects(question(q_num=1, direction_id="d001", direction_text=graph),
+                         question(q_num=2, direction_id="d002", direction_text=quad)))
+    check_not_in("standalone questions are not a group", "different direction_text",
+                 defects(question(q_num=1, direction_id=None, direction_text=None),
+                         question(q_num=2, direction_id=None, direction_text=None)))
 
 
 def test_duplicate_q_num():
@@ -196,6 +280,16 @@ def test_gap_classes():
     check("a complete paper has no gaps",
           gaps.paper_gaps({"bank": "IBPS", "role": "RRB", "year": 2021,
                            "exam_type": "Prelims", "questions": []}), [])
+
+
+def test_rel_uses_forward_slashes_on_any_os():
+    # str(Path) serializes with the native separator -- Windows wrote
+    # "data\batch3\1.json" into gap_report.json's "path" field while every
+    # Linux-run batch has "data/batch3/1.json". Same as the source_pdf bug
+    # in parser.py, just a separate copy of the mistake in this file.
+    check("repo-relative path uses forward slashes",
+          gaps.rel(gaps.REPO / "data" / "batch3" / "1.json"),
+          "data/batch3/1.json")
 
 
 # --- folder ownership -------------------------------------------------------
@@ -254,9 +348,16 @@ def test_render_detects_folded_maths():
     check("so are the inequalities",
           all(w in render.FOLDED for w in (">=", "<=", "cbrt")), True)
     # The parser stores LaTeX and display() makes glyphs, so the folded spelling
-    # can only mean the font was gone.
+    # means the font was gone -- but only when the JSON actually held that LaTeX.
+    # A paper that printed ASCII ">=" itself has none, and no font can change how
+    # it looks, so each entry carries the LaTeX its folded form should have come
+    # from and the gate checks the paper's own JSON for it.
     check("glyphs are what a good render holds",
-          sorted(render.FOLDED.values()), sorted(["√", "∛", "≥", "≤", "≠"]))
+          sorted(glyph for glyph, _ in render.FOLDED.values()),
+          sorted(["√", "∛", "≥", "≤", "≠"]))
+    check("each folded form knows the LaTeX it should have rendered from",
+          sorted(src for _, src in render.FOLDED.values()),
+          sorted([r"\sqrt", r"\sqrt[", r"\geq", r"\leq", r"\neq"]))
 
 
 def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
@@ -277,6 +378,26 @@ def test_render_gate_fails_on_a_missing_pdf(tmp_path=None):
         # guard swallowed this case and reported a bad path instead.
         check_in("says which", "no review PDF", noise.getvalue())
         check_not_in("not reported as an empty scan", "no papers found", noise.getvalue())
+
+
+def test_render_folded_maths_needs_the_latex_in_the_json():
+    # ibps_clerk_2020_prelims_9868e39d prints its comparison options as literal
+    # ">=" / "<=" -- confirmed against the source PDF (U+003E U+003D, no glyph).
+    # The parser transcribed ASCII because ASCII is what the paper printed, so
+    # there was no \geq for display() to convert and no font can change how the
+    # page looks. Flagging it is a false positive that a re-render cannot clear,
+    # so the folded spelling only counts when the paper's JSON holds the LaTeX.
+    render = step("5-validate", "check_render")
+    page = "answer (a) if x > y (b) if x>=y (c) if x < y (d) if x<=y"
+
+    def folded_for(latex):
+        return {w: page.count(w) for w, (_, src) in render.FOLDED.items()
+                if w in page and src in latex}
+
+    check("JSON holds the LaTeX -> the font really was missing",
+          bool(folded_for(r"statements: B \geq O > M")), True)
+    check("paper printed ASCII itself -> not a render defect",
+          folded_for("If x>=y"), {})
 
 
 def test_render_gate_empty_scan_is_a_failure():

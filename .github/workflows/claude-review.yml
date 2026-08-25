@@ -21,9 +21,68 @@ permissions:
   id-token: write
 
 jobs:
-  review:
-    # drafts are for iterating; review when it's ready
+  # A review costs ~6 minutes of Opus and there is a weekly ceiling on it, so it
+  # should not be spent re-reading a PR that has not changed. Clicking "Update
+  # branch" on an approved PR fires `synchronize` and used to buy a full second
+  # review of work already approved.
+  #
+  # Skipping needs BOTH: the standing verdict is an approval, and every commit
+  # added since that verdict already exists on the base branch. The second half
+  # is what makes this safe -- a merge commit plus base commits is a branch
+  # update, while one commit of the author's own is new work and gets reviewed.
+  # Anything unexpected falls through to running the review.
+  triage:
     if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.decide.outputs.skip }}
+      why: ${{ steps.decide.outputs.why }}
+    steps:
+      - id: decide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE: ${{ github.event.pull_request.base.ref }}
+          ACTION: ${{ github.event.action }}
+        run: |
+          set -o pipefail
+          decide() { echo "skip=$1" >> "$GITHUB_OUTPUT"
+                     echo "why=$2"  >> "$GITHUB_OUTPUT"
+                     echo "$2"; exit 0; }
+
+          [ "$ACTION" = "synchronize" ] || decide false "not a push to an open PR"
+
+          verdict=$(gh api "repos/$REPO/pulls/$PR/reviews" --paginate \
+            --jq '[.[] | select(.state == "APPROVED" or .state == "CHANGES_REQUESTED")] | last')
+          [ -n "$verdict" ] || decide false "no standing verdict yet"
+
+          state=$(echo "$verdict" | jq -r .state)
+          since=$(echo "$verdict" | jq -r .commit_id)
+          [ "$state" = "APPROVED" ] || decide false "standing verdict is $state, re-review"
+
+          # Commits added since the approval, merges excluded -- a merge commit
+          # is the mechanics of a branch update, not a change to read.
+          added=$(gh api "repos/$REPO/compare/$since...$HEAD_SHA" \
+                    --jq '.commits[] | select(.parents | length == 1) | .sha') \
+            || decide false "could not compare $since..$HEAD_SHA"
+          [ -n "$added" ] || decide true "approved, and nothing added since"
+
+          for sha in $added; do
+            st=$(gh api "repos/$REPO/compare/$BASE...$sha" --jq .status) \
+              || decide false "could not check $sha against $BASE"
+            case "$st" in
+              identical|behind) ;;                       # already on the base branch
+              *) decide false "commit ${sha:0:8} is new work, reviewing" ;;
+            esac
+          done
+          decide true "approved, and every new commit already exists on $BASE"
+
+  review:
+    needs: triage
+    # drafts are for iterating; review when it's ready
+    if: github.event.pull_request.draft == false && needs.triage.outputs.skip != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
