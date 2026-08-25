@@ -1,0 +1,23 @@
+{
+  "papers_scanned": 10,
+  "questions_scanned": 735,
+  "totals": {
+    "no_year": 1
+  },
+  "parser_gaps": 0,
+  "research_gaps": 1,
+  "web_fillable": 0,
+  "needs_parser_fix": 0,
+  "papers": [
+    {
+      "paper_id": "ibps_clerk_unknown_prelims_687be116",
+      "path": "data/batch12/10.json",
+      "source_pdf": "_pipeline_test_out/batch12/ibps_cler_pre_memory_based_reasoning_eng.pdf",
+      "paper_gaps": [
+        "no_year"
+      ],
+      "question_gaps": {},
+      "unanchored_q_nums": []
+    }
+  ]
+}
