@@ -293,13 +293,19 @@ def infer_section(paper: dict[str, Any], q: dict[str, Any]) -> tuple[str | None,
         return q["section"], "existing"
 
     # 2) Filename / path cues
+    # Step 1 used to write `source` as a dict of metadata; it now writes the
+    # source PDF's filename as a plain string. Accept both -- the old shape is
+    # still what the previous extraction in git history carries.
     src = paper.get("source") or {}
+    if isinstance(src, str):
+        src = {"source_filename": src}
     blob = " ".join(
         filter(
             None,
             [
                 src.get("source_filename"),
                 src.get("pdf_path"),
+                paper.get("source_pdf"),
                 paper.get("paper_id"),
             ],
         )
