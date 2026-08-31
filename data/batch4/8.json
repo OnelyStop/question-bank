@@ -31,7 +31,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q047",
@@ -55,7 +57,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q048",
@@ -79,7 +83,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q049",
@@ -103,7 +109,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q050",
@@ -127,7 +137,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q051",
@@ -151,7 +165,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q052",
@@ -175,7 +193,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q053",
@@ -199,7 +219,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Reasoning",
+      "topic": "Syllogism",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q054",
@@ -223,7 +247,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q055",
@@ -247,7 +275,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q056",
@@ -271,7 +303,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q057",
@@ -295,7 +331,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q058",
@@ -319,7 +359,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q059",
@@ -343,7 +387,10 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q060",
@@ -367,7 +414,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "caselet_di_set",
+      "topic": "Data_Interpretation",
+      "section": "Quantitative",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q061",
@@ -391,7 +442,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "caselet_di_set",
+      "topic": "Data_Interpretation",
+      "section": "Quantitative",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q062",
@@ -415,7 +470,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "caselet_di_set",
+      "topic": "Data_Interpretation",
+      "section": "Quantitative",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q063",
@@ -439,7 +498,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Reasoning",
+      "topic": "Inequality",
+      "question_pattern": "quantity_comparison",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q064",
@@ -463,7 +526,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Reasoning",
+      "topic": "Inequality",
+      "question_pattern": "quantity_comparison",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q065",
@@ -487,7 +554,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Reasoning",
+      "topic": "Inequality",
+      "question_pattern": "quantity_comparison",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q066",
@@ -511,7 +582,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q067",
@@ -535,7 +608,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q068",
@@ -559,7 +636,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q069",
@@ -583,7 +664,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q070",
@@ -607,7 +692,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q071",
@@ -631,7 +718,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q072",
@@ -655,7 +744,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q073",
@@ -679,7 +770,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q074",
@@ -703,7 +796,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q075",
@@ -727,7 +822,10 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q076",
@@ -751,7 +849,10 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 4
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q077",
@@ -775,7 +876,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Number_Series",
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q078",
@@ -799,7 +904,10 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q079",
@@ -823,7 +931,11 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "section": "Quantitative",
+      "topic": "Arithmetic",
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q080",
@@ -847,7 +959,9 @@
       "year": 2018,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 3
     }
   ]
 }

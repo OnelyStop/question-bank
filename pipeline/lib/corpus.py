@@ -22,7 +22,9 @@ log = logging.getLogger("corpus")
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS = REPO_ROOT / "corpus" / "pdf"
-DEFAULT_OUT = REPO_ROOT / "data" / "papers"
+# Step 1 writes data/batch{n}/; data/papers/ is the old layout and
+# check_layout.py rejects it, so nothing has ever created that directory.
+DEFAULT_OUT = REPO_ROOT / "data"
 
 # What step 1 writes on every question -- see pipeline/1-extract/output.json.
 INDEX_FIELDS = (
@@ -32,13 +34,16 @@ INDEX_FIELDS = (
 )
 
 SKIP_JSON = {
+    "index.json",
+    "gap_report.json",
+    "review_queue.json",
+    "classify_report.json",
     "parse_report.json",
     "answer_attach_report.json",
     "answer_validation_report.json",
     "question_bank.schema.json",
     "section_label_report.json",
     "topic_label_report.json",
-    "classify_report.json",
 }
 
 def rebuild_index(out_root: Path) -> int:
