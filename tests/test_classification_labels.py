@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -11,6 +12,7 @@ from harness import check, step  # noqa: E402
 
 topics = step("2-classify", "label_topics")
 sections = step("2-classify", "label_sections")
+cleanup = step("2-classify", "remove_mojibake")
 
 
 def label(stem: str):
@@ -39,6 +41,20 @@ def test_nearby_section_fill_requires_matching_enclosing_sections():
     check("gap inherits the enclosing section", [q.get("section") for q in paper["questions"]], ["Reasoning"] * 4)
     boundary = {"questions": [{"section": "English"}, {}, {"section": "Quantitative"}]}
     check("does not cross a section boundary", sections.fill_nearby_sections(boundary), 0)
+
+
+def test_cleanup_keeps_bilingual_and_fails_closed_on_empty_input():
+    bilingual = {"stem": "Choose the correct word \u0936\u092c\u094d\u0926", "options": {}}
+    hindi_only = {"stem": "\u0938\u0939\u0940 \u0909\u0924\u094d\u0924\u0930", "options": {}}
+    check("bilingual question retained", cleanup.is_hindi_only(bilingual), False)
+    check("Hindi-only question eligible", cleanup.is_hindi_only(hindi_only), True)
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            cleanup.clean(Path(tmp))
+        except ValueError as exc:
+            assert "no JSON files" in str(exc)
+        else:
+            raise AssertionError("empty cleanup input must fail")
 
 
 def test_sparse_market_puzzle_wording_is_reasoning():
@@ -160,6 +176,16 @@ def test_remaining_weak_batch_patterns():
         "reasoning inference uses the miscellaneous taxonomy bucket",
         label("Which conclusion can be inferred from the given information?"),
         ("Reasoning", "Miscellaneous_Reasoning"),
+    )
+    check(
+        "bare year is not current affairs",
+        label("The company was founded in 2018."),
+        (None, None),
+    )
+    check(
+        "year plus event is current affairs",
+        label("Which award was announced in 2024?"),
+        ("GA", "Current_Affairs"),
     )
 
 
