@@ -39,6 +39,7 @@ from classify import classify_question  # noqa: E402
 from difficulty import infer_difficulty  # noqa: E402
 from label_sections import (  # noqa: E402
     fill_neighbour_sections,
+    fill_nearby_sections,
     fill_neighbour_topics,
     infer_section,
     propagate_direction_sections,
@@ -194,12 +195,42 @@ def classify_paper(
         stats["section_sources"]["unlabelled"] = max(
             0, stats["section_sources"]["unlabelled"] - n_sec
         )
+    nearby_sec = fill_nearby_sections(paper)
+    if nearby_sec:
+        stats["section_sources"]["nearby_neighbour"] += nearby_sec
+        stats["section_sources"]["unlabelled"] = max(
+            0, stats["section_sources"]["unlabelled"] - nearby_sec
+        )
+
+    # Section propagation happens after the initial topic pass. Give newly
+    # sectioned questions a second chance at a specific topic or the taxonomy's
+    # explicit Miscellaneous_* fallback.
+    for q in paper.get("questions") or []:
+        if not q.get("section") or q.get("topic"):
+            continue
+        _sec, topic, _confidence, source = infer_labels(
+            q.get("section"), q.get("direction_text"), q.get("stem"), q.get("options")
+        )
+        if topic and topic in allowed_topics:
+            q["topic"] = topic
+            stats["topic_sources"][f"post_{source}"] += 1
+
     n_topic = fill_neighbour_topics(paper, allowed_topics)
     if n_topic:
         stats["topic_sources"]["neighbour"] += n_topic
         stats["topic_sources"]["unlabelled"] = max(
             0, stats["topic_sources"]["unlabelled"] - n_topic
         )
+
+    # A later section fill can leave an otherwise empty question without a
+    # topic. The taxonomy explicitly provides a Miscellaneous_* bucket for
+    # this case, so never ship a known section with a blank topic.
+    for q in paper.get("questions") or []:
+        if q.get("section") and not q.get("topic"):
+            fallback = FALLBACK_BY_SECTION.get(q["section"])
+            if fallback and fallback in allowed_topics:
+                q["topic"] = fallback
+                stats["topic_sources"]["post_section_fallback"] += 1
 
     # 6) Pattern + difficulty + pattern→topic hints
     for q in paper.get("questions") or []:

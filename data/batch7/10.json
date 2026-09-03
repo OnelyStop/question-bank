@@ -38,10 +38,10 @@
         "direction_text",
         "stem"
       ],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "table_di_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "GA",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q037",
@@ -69,10 +69,10 @@
       "corrected": [
         "direction_text"
       ],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q038",
@@ -100,10 +100,10 @@
       "corrected": [
         "direction_text"
       ],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q039",
@@ -131,10 +131,10 @@
       "corrected": [
         "direction_text"
       ],
-      "section": "Quantitative",
-      "topic": "Current_Affairs",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q040",
@@ -162,10 +162,10 @@
       "corrected": [
         "direction_text"
       ],
-      "section": "Quantitative",
-      "topic": "Current_Affairs",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q041",
@@ -193,10 +193,10 @@
       "corrected": [
         "options"
       ],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q042",
@@ -217,10 +217,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q043",
@@ -245,10 +245,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q044",
@@ -273,10 +273,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q045",
@@ -301,10 +301,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q046",
@@ -329,10 +329,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Simplification",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q047",
@@ -357,10 +357,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Simplification",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q048",
@@ -385,10 +385,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Simplification",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q049",
@@ -413,10 +413,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Simplification",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q050",
@@ -441,10 +441,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Simplification",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q051",
@@ -469,10 +469,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q052",
@@ -497,10 +497,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q053",
@@ -525,10 +525,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q054",
@@ -553,10 +553,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q055",
@@ -581,10 +581,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q056",
@@ -610,10 +610,10 @@
         "direction_text",
         "options"
       ],
-      "section": "Reasoning",
-      "topic": "Inequality",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q057",
@@ -639,10 +639,10 @@
         "direction_text",
         "options"
       ],
-      "section": "Reasoning",
-      "topic": "Inequality",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q058",
@@ -668,10 +668,10 @@
         "direction_text",
         "options"
       ],
-      "section": "Reasoning",
-      "topic": "Inequality",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q059",
@@ -697,10 +697,10 @@
         "direction_text",
         "options"
       ],
-      "section": "Reasoning",
-      "topic": "Inequality",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q060",
@@ -726,10 +726,10 @@
         "direction_text",
         "options"
       ],
-      "section": "Reasoning",
-      "topic": "Inequality",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q061",
@@ -754,10 +754,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q062",
@@ -782,10 +782,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q063",
@@ -810,10 +810,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q064",
@@ -838,10 +838,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q065",
@@ -866,10 +866,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q066",
@@ -894,10 +894,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q067",
@@ -922,10 +922,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q068",
@@ -950,10 +950,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q069",
@@ -978,10 +978,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "ibps_po_2010_prelims_e62351f3::q070",
@@ -1009,10 +1009,10 @@
       "corrected": [
         "options"
       ],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Approximation"
     }
   ]
 }

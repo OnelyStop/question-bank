@@ -33,10 +33,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q002",
@@ -61,10 +61,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q003",
@@ -89,10 +89,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q004",
@@ -117,10 +117,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q005",
@@ -145,10 +145,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q006",
@@ -173,10 +173,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q007",
@@ -201,10 +201,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q008",
@@ -229,10 +229,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q009",
@@ -257,10 +257,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q010",
@@ -285,10 +285,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q011",
@@ -314,7 +314,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q012",
@@ -340,7 +342,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q013",
@@ -366,7 +370,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q014",
@@ -392,7 +398,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q015",
@@ -417,10 +425,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q016",
@@ -445,10 +453,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q017",
@@ -473,10 +481,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q018",
@@ -501,10 +509,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q019",
@@ -529,10 +537,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q020",
@@ -557,10 +565,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q021",
@@ -585,10 +593,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q022",
@@ -613,10 +621,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q023",
@@ -641,10 +649,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q024",
@@ -669,10 +677,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q025",
@@ -697,10 +705,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q027",
@@ -725,10 +733,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q028",
@@ -753,10 +761,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q029",
@@ -781,9 +789,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Fill_in_the_Blanks"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q030",
@@ -808,10 +817,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Fill_in_the_Blanks"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q031",
@@ -836,9 +845,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Fill_in_the_Blanks"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q032",
@@ -916,7 +926,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q035",
