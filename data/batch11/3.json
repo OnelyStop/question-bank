@@ -45,10 +45,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q002",
@@ -73,10 +73,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q003",
@@ -101,10 +101,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q004",
@@ -129,10 +129,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q005",
@@ -157,10 +157,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q006",
@@ -186,7 +186,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q007",
@@ -212,7 +214,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q008",
@@ -237,10 +241,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q009",
@@ -265,10 +269,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q010",
@@ -293,10 +297,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q011",
@@ -321,10 +325,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q012",
@@ -349,10 +353,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q013",
@@ -378,7 +382,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q014",
@@ -404,7 +410,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q015",
@@ -430,7 +438,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q016",
@@ -455,10 +465,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q017",
@@ -483,10 +493,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q018",
@@ -511,10 +521,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q019",
@@ -539,10 +549,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q020",
@@ -567,10 +577,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q021",
@@ -595,10 +605,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q022",
@@ -623,10 +633,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q023",
@@ -651,10 +661,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q024",
@@ -679,10 +689,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q025",
@@ -707,10 +717,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q026",
@@ -735,10 +745,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q027",
@@ -763,10 +773,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q028",
@@ -791,10 +801,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q029",
@@ -820,7 +830,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q030",
@@ -846,7 +858,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q031",
@@ -872,7 +886,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q032",
@@ -898,7 +914,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q033",
@@ -923,10 +941,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q034",
@@ -951,10 +969,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q035",
@@ -979,10 +997,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q036",
@@ -1007,10 +1025,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q037",
@@ -1035,10 +1053,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q038",
@@ -1063,10 +1081,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Blood_Relation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q039",
@@ -1091,10 +1109,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Blood_Relation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q040",
@@ -1119,10 +1137,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Blood_Relation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q041",
@@ -1147,10 +1165,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q042",
@@ -1175,10 +1193,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q043",
@@ -1203,10 +1221,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q044",
@@ -1231,10 +1249,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q045",
@@ -1259,10 +1277,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q046",
@@ -1287,10 +1305,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q047",
@@ -1315,10 +1333,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q048",
@@ -1343,10 +1361,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q049",
@@ -1371,10 +1389,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q050",
@@ -1399,10 +1417,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q051",
@@ -1427,10 +1445,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q052",
@@ -1455,10 +1473,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q053",
@@ -1483,10 +1501,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q054",
@@ -1511,10 +1529,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q055",
@@ -1539,10 +1557,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q056",
@@ -1567,10 +1585,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q057",
@@ -1595,10 +1613,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q058",
@@ -1623,10 +1641,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q059",
@@ -1651,10 +1669,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q060",
@@ -1679,10 +1697,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q061",
@@ -1707,10 +1725,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q062",
@@ -1735,10 +1753,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q063",
@@ -1763,10 +1781,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q064",
@@ -1791,10 +1809,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q075",
@@ -1819,10 +1837,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q076",
@@ -1847,10 +1865,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q077",
@@ -1875,10 +1893,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q078",
@@ -1904,7 +1922,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q079",
@@ -1930,7 +1950,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_ca44b261::q080",
@@ -1956,7 +1978,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     }
   ]
 }

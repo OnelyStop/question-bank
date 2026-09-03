@@ -58,10 +58,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q002",
@@ -86,10 +86,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q003",
@@ -114,10 +114,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q004",
@@ -142,10 +142,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q005",
@@ -170,10 +170,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q009",
@@ -199,7 +199,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q010",
@@ -225,7 +227,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q011",
@@ -250,10 +254,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q012",
@@ -278,10 +282,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q013",
@@ -306,10 +310,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q014",
@@ -334,10 +338,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q015",
@@ -362,10 +366,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q016",
@@ -390,10 +394,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q017",
@@ -418,10 +422,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q018",
@@ -446,10 +450,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q019",
@@ -474,10 +478,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q020",
@@ -502,10 +506,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q021",
@@ -530,10 +534,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q022",
@@ -558,10 +562,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q023",
@@ -586,10 +590,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q024",
@@ -615,7 +619,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q025",
@@ -641,7 +647,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q026",
@@ -667,7 +675,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q027",
@@ -692,10 +702,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Alphanumeric",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q028",
@@ -720,10 +730,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Alphanumeric",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q029",
@@ -748,10 +758,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Alphanumeric",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q030",
@@ -776,10 +786,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Alphanumeric",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q031",
@@ -804,10 +814,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Alphanumeric",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q032",
@@ -832,10 +842,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q033",
@@ -860,10 +870,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q034",
@@ -888,10 +898,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Fill_in_the_Blanks"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q035",
@@ -916,10 +926,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q036",
@@ -945,7 +955,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q037",
@@ -970,10 +982,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q039",
@@ -999,7 +1011,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q040",
@@ -1025,7 +1039,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q041",
@@ -1050,10 +1066,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q042",
@@ -1078,10 +1094,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q043",
@@ -1107,7 +1123,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q044",
@@ -1133,7 +1151,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q045",
@@ -1158,10 +1178,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q046",
@@ -1186,10 +1206,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q047",
@@ -1214,10 +1234,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q048",
@@ -1242,10 +1262,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q049",
@@ -1270,10 +1290,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q050",
@@ -1298,10 +1318,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q065",
@@ -1327,9 +1347,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q071",
@@ -1354,10 +1374,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q072",
@@ -1382,10 +1402,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q073",
@@ -1410,10 +1430,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q074",
@@ -1438,10 +1458,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q075",
@@ -1466,10 +1486,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q076",
@@ -1494,10 +1514,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q077",
@@ -1522,10 +1542,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q078",
@@ -1550,10 +1570,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q079",
@@ -1578,10 +1598,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q080",
@@ -1606,10 +1626,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q081",
@@ -1634,10 +1654,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q082",
@@ -1662,10 +1682,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q083",
@@ -1690,10 +1710,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q084",
@@ -1718,10 +1738,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q085",
@@ -1746,10 +1766,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q086",
@@ -1774,10 +1794,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q087",
@@ -1802,10 +1822,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q088",
@@ -1830,10 +1850,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q089",
@@ -1858,10 +1878,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q090",
@@ -1886,10 +1906,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q091",
@@ -1914,10 +1934,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q092",
@@ -1942,10 +1962,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q093",
@@ -1970,10 +1990,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q094",
@@ -1998,10 +2018,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q095",
@@ -2026,10 +2046,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q096",
@@ -2054,10 +2074,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q097",
@@ -2082,10 +2102,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q098",
@@ -2110,10 +2130,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q099",
@@ -2138,10 +2158,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_171042aa::q100",
@@ -2166,10 +2186,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "English",
+      "topic": "Vocabulary"
     }
   ]
 }

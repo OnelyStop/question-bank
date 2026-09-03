@@ -37,10 +37,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q037",
@@ -65,10 +65,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q038",
@@ -93,10 +93,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q039",
@@ -121,10 +121,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q040",
@@ -149,10 +149,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q041",
@@ -177,10 +177,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Arithmetic",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q042",
@@ -205,10 +205,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Current_Affairs",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q044",
@@ -233,10 +233,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Current_Affairs",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q045",
@@ -261,10 +261,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Current_Affairs",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q046",
@@ -549,10 +549,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q058",
@@ -578,7 +578,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q059",
@@ -604,7 +606,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q060",
@@ -630,7 +634,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q061",
@@ -656,9 +662,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q062",
@@ -684,9 +690,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q063",
@@ -712,9 +718,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q064",
@@ -740,9 +746,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q065",
@@ -768,9 +774,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q066",
@@ -795,10 +801,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q067",
@@ -823,10 +829,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q068",
@@ -849,10 +855,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q069",
@@ -877,10 +883,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2019_prelims_64d9f811::q070",
@@ -905,10 +911,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     }
   ]
 }

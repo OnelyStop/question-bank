@@ -33,10 +33,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q002",
@@ -61,10 +61,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q003",
@@ -89,10 +89,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q004",
@@ -117,10 +117,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q005",
@@ -145,10 +145,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q006",
@@ -173,10 +173,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q007",
@@ -201,10 +201,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q008",
@@ -229,10 +229,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q009",
@@ -257,10 +257,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q010",
@@ -285,10 +285,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q011",
@@ -314,7 +314,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q012",
@@ -340,7 +342,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q013",
@@ -366,7 +370,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q014",
@@ -392,7 +398,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q015",
@@ -417,10 +425,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q016",
@@ -445,10 +453,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q017",
@@ -473,10 +481,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q018",
@@ -501,10 +509,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q019",
@@ -529,10 +537,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q020",
@@ -557,10 +565,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q021",
@@ -586,7 +594,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q022",
@@ -612,7 +622,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q023",
@@ -637,10 +649,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q024",
@@ -665,10 +677,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q025",
@@ -693,10 +705,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q026",
@@ -721,10 +733,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q027",
@@ -750,7 +762,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q028",
@@ -776,7 +790,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q029",
@@ -802,7 +818,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q030",
@@ -828,7 +846,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q031",
@@ -853,9 +873,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Order_Ranking"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q032",
@@ -880,9 +901,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q033",
@@ -907,9 +929,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q034",
@@ -934,9 +957,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Alphanumeric"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q035",
@@ -961,10 +985,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q036",
@@ -990,7 +1014,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q037",
@@ -1016,7 +1042,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q038",
@@ -1042,7 +1070,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q039",
@@ -1068,7 +1098,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q040",
@@ -1094,7 +1126,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q041",
@@ -1119,10 +1153,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q042",
@@ -1147,10 +1181,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q043",
@@ -1175,10 +1209,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q044",
@@ -1203,10 +1237,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q045",
@@ -1231,10 +1265,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q046",
@@ -1260,7 +1294,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q047",
@@ -1286,7 +1322,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q048",
@@ -1312,7 +1350,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q049",
@@ -1338,7 +1378,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q050",
@@ -1364,7 +1406,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q051",
@@ -1389,10 +1433,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q052",
@@ -1417,10 +1461,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q053",
@@ -1445,10 +1489,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q054",
@@ -1473,10 +1517,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q055",
@@ -1501,10 +1545,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Number_Series"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q056",
@@ -1529,10 +1573,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q057",
@@ -1557,10 +1601,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q058",
@@ -1585,10 +1629,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q059",
@@ -1613,10 +1657,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q060",
@@ -1641,10 +1685,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q061",
@@ -1669,10 +1713,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q062",
@@ -1697,10 +1741,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q063",
@@ -1725,10 +1769,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q064",
@@ -1753,10 +1797,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q065",
@@ -1781,10 +1825,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q066",
@@ -1810,7 +1854,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q067",
@@ -1836,7 +1882,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q068",
@@ -1862,7 +1910,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q069",
@@ -1888,7 +1938,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q070",
@@ -1914,7 +1966,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q071",
@@ -1940,7 +1994,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q072",
@@ -1966,7 +2022,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q073",
@@ -1992,7 +2050,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q074",
@@ -2018,7 +2078,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q075",
@@ -2044,7 +2106,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q076",
@@ -2070,7 +2134,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q077",
@@ -2096,7 +2162,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q078",
@@ -2122,7 +2190,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q079",
@@ -2148,7 +2218,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_90de4377::q080",
@@ -2174,7 +2246,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     }
   ]
 }

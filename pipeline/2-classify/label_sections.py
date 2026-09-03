@@ -77,6 +77,12 @@ PRELIMS_BANDS: dict[str, list[tuple[int, int, str]]] = {
         (31, 65, "Quantitative"),
         (66, 100, "Reasoning"),
     ],
+    # IBPS RRB PO and Office Assistant Prelims have two 40-question sections:
+    # Reasoning followed by Quantitative Aptitude. They do not include English.
+    "IBPS::RRB::Prelims": [
+        (1, 40, "Reasoning"),
+        (41, 80, "Quantitative"),
+    ],
 }
 
 # SBI PO: 40/30/30 from 2024 onward; older papers use 30/35/35
@@ -218,7 +224,10 @@ def section_from_prelims_qnum(
     if paper.get("exam_type") != "Prelims" or not isinstance(q_num, int):
         return None, None
     nqs = len(paper.get("questions") or [])
-    if not (80 <= nqs <= 120):
+    # Cleanup may remove corrupted records from an otherwise documented RRB
+    # Prelims paper. Its original q_num values still identify the 40/40 layout.
+    min_questions = 1 if prelims_layout_key(paper) == "IBPS::RRB::Prelims" else 80
+    if not (min_questions <= nqs <= 120):
         return None, None
     bands = _prelims_bands_for_paper(paper)
     if not bands:
@@ -396,6 +405,38 @@ def fill_neighbour_sections(paper: dict[str, Any]) -> int:
         if left_sec and right_sec and left_sec == right_sec:
             q["section"] = left_sec
             q["section_source"] = "neighbour"
+            filled += 1
+    return filled
+
+
+def fill_nearby_sections(paper: dict[str, Any], *, max_distance: int = 10) -> int:
+    """Fill a short unlabelled run only when both enclosing sections agree.
+
+    Direction propagation and the immediate-neighbour rule can leave a two-to-
+    ten-question extraction gap inside an otherwise continuous exam section.
+    Looking outward on both sides is still boundary-safe: nothing is filled when
+    the nearest known sections differ or either side is too far away.
+    """
+    qs = paper.get("questions") or []
+    original_sections = [q.get("section") for q in qs]
+    filled = 0
+    for index, q in enumerate(qs):
+        if q.get("section"):
+            continue
+        left_section = right_section = None
+        for distance in range(1, max_distance + 1):
+            left = index - distance
+            if left >= 0 and original_sections[left]:
+                left_section = original_sections[left]
+                break
+        for distance in range(1, max_distance + 1):
+            right = index + distance
+            if right < len(qs) and original_sections[right]:
+                right_section = original_sections[right]
+                break
+        if left_section and left_section == right_section:
+            q["section"] = left_section
+            q["section_source"] = "nearby_neighbour"
             filled += 1
     return filled
 

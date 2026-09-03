@@ -34,10 +34,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q002",
@@ -62,10 +62,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q003",
@@ -90,10 +90,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q004",
@@ -118,10 +118,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q005",
@@ -146,10 +146,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q006",
@@ -174,9 +174,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q007",
@@ -201,10 +202,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q008",
@@ -229,10 +230,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Direction_Sense",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q009",
@@ -257,10 +258,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Direction_Sense",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q010",
@@ -285,10 +286,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Direction_Sense",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q011",
@@ -313,10 +314,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Direction_Sense",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q012",
@@ -342,7 +343,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q013",
@@ -368,7 +371,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q014",
@@ -394,7 +399,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q015",
@@ -420,7 +427,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q016",
@@ -446,7 +455,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q017",
@@ -471,10 +482,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "data_sufficiency",
-      "topic": "Data_Sufficiency_Quant",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q018",
@@ -499,10 +510,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q019",
@@ -527,10 +538,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q020",
@@ -555,10 +566,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q021",
@@ -583,10 +594,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q022",
@@ -612,7 +623,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q023",
@@ -638,7 +651,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q024",
@@ -664,7 +679,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q025",
@@ -690,7 +707,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q026",
@@ -716,7 +735,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q027",
@@ -742,7 +763,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q028",
@@ -767,10 +790,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Input_Output",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Input_Output"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q029",
@@ -795,10 +818,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Input_Output",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Input_Output"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q030",
@@ -823,10 +846,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Input_Output",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Input_Output"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q031",
@@ -851,10 +874,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Input_Output",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Input_Output"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q032",
@@ -879,10 +902,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Input_Output",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Input_Output"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q033",
@@ -907,9 +930,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q034",
@@ -934,10 +958,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q035",
@@ -962,10 +986,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q036",
@@ -990,10 +1014,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q037",
@@ -1018,10 +1042,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q038",
@@ -1046,10 +1070,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q039",
@@ -1100,10 +1124,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q041",
@@ -1128,10 +1152,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q042",
@@ -1156,10 +1180,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q043",
@@ -1184,10 +1208,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q044",
@@ -1212,10 +1236,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q045",
@@ -1240,10 +1264,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q046",
@@ -1268,10 +1292,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q047",
@@ -1296,10 +1320,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q048",
@@ -1324,10 +1348,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Puzzle",
       "question_pattern": "standalone_mcq",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q049",
@@ -1353,7 +1377,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q050",
@@ -1379,7 +1405,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q051",
@@ -1405,7 +1433,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q052",
@@ -1431,7 +1461,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q053",
@@ -1457,7 +1489,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q054",
@@ -1483,7 +1517,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q055",
@@ -1509,7 +1545,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q056",
@@ -1534,10 +1572,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q057",
@@ -1562,10 +1600,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q058",
@@ -1590,10 +1628,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q059",
@@ -1618,10 +1656,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q060",
@@ -1646,10 +1684,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q061",
@@ -1674,10 +1712,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q062",
@@ -1702,10 +1740,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q063",
@@ -1730,10 +1768,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q064",
@@ -1758,10 +1796,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q065",
@@ -1786,10 +1824,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q066",
@@ -1815,7 +1853,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q067",
@@ -1840,10 +1880,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q068",
@@ -1868,10 +1908,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "data_sufficiency",
-      "topic": "Data_Sufficiency_Quant",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q069",
@@ -1896,10 +1936,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "data_sufficiency",
-      "topic": "Data_Sufficiency_Quant",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q070",
@@ -1924,10 +1964,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "data_sufficiency",
-      "topic": "Data_Sufficiency_Quant",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q071",
@@ -1952,10 +1992,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q072",
@@ -1980,10 +2020,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q073",
@@ -2008,10 +2048,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q074",
@@ -2036,10 +2076,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q075",
@@ -2064,10 +2104,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q076",
@@ -2092,9 +2132,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q077",
@@ -2119,9 +2160,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q078",
@@ -2146,9 +2188,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q079",
@@ -2173,9 +2216,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q080",
@@ -2200,10 +2244,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q081",
@@ -2228,10 +2272,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q082",
@@ -2256,10 +2300,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q083",
@@ -2284,10 +2328,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q084",
@@ -2312,10 +2356,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q085",
@@ -2340,10 +2384,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q086",
@@ -2368,10 +2412,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q087",
@@ -2396,10 +2440,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q088",
@@ -2424,10 +2468,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q089",
@@ -2452,10 +2496,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q090",
@@ -2480,10 +2524,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q091",
@@ -2508,10 +2552,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q092",
@@ -2536,10 +2580,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q093",
@@ -2564,10 +2608,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q094",
@@ -2592,10 +2636,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q095",
@@ -2620,10 +2664,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q096",
@@ -2648,10 +2692,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q097",
@@ -2676,10 +2720,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q098",
@@ -2704,10 +2748,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q099",
@@ -2732,10 +2776,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q100",
@@ -2760,10 +2804,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q101",
@@ -2788,10 +2832,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q102",
@@ -2816,10 +2860,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q103",
@@ -2844,10 +2888,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q104",
@@ -2872,10 +2916,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q105",
@@ -2900,10 +2944,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q106",
@@ -2929,7 +2973,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q107",
@@ -2955,7 +3001,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q108",
@@ -2981,7 +3029,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q109",
@@ -3007,7 +3057,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q110",
@@ -3033,7 +3085,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Miscellaneous_English"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q111",
@@ -3058,10 +3112,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q112",
@@ -3086,10 +3140,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q113",
@@ -3114,10 +3168,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q114",
@@ -3142,10 +3196,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q115",
@@ -3170,10 +3224,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Cloze_Test"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q116",
@@ -3198,10 +3252,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q117",
@@ -3226,10 +3280,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q118",
@@ -3254,10 +3308,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q119",
@@ -3282,10 +3336,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_rrb_2017_mains_2cd6c693::q120",
@@ -3310,10 +3364,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     }
   ]
 }

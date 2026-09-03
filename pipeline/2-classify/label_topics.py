@@ -66,6 +66,8 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"(?i)para\s*jumble|rearrange\s+the\s+(?:following\s+)?(?:sentences|paragraph|parts?|phrases?|fragments?)|"
             r"FIRST\s+sentence|LAST\s+sentence|meaningful\s+paragraph|"
             r"proper\s+sequence|after\s+rearrangement|"
+            r"sentences?\s+are\s+not\s+in\s+(?:their\s+)?(?:exact\s+)?position|"
+            r"rearrange\s+them\s+to\s+make\s+a\s+coherent\s+paragraph|"
             r"divided\s+into\s+(?:four|five|\d+)?\s*phrases?|"
             r"phrases?\s+(?:aren['’]?t|are\s+not)\s+in\s+(?:their\s+)?(?:correct\s+)?position|"
             r"correct\s+sequence\s+of\s+(?:these\s+)?phrases?|"
@@ -78,7 +80,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
         re.compile(
             r"(?i)grammatical|idiomatic\s+err|read\s+each\s+sentence|"
             r"find\s+out\s+(?:whether|if).*(?:error|correct)|"
-            r"which\s+(?:part|portion|segment).*(?:error|incorrect)|"
+            r"which\s+(?:part|parts?|portion|segment).*(?:error|incorrect)|"
             r"spot\s+the\s+error|error\s+(?:spot|detection)"
             # slash-parts heuristic applied separately — skipped when options are permutations
         ),
@@ -98,7 +100,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
         re.compile(
             r"(?i)synonym|antonym|most\s+(?:similar|opposite)\s+in\s+meaning|"
             r"highlighted|four\s+words.*bold|odd\s+one\s+out|word\s+swap|"
-            r"spelling|one\s+letter\s+substitution"
+            r"spelling|one\s+letter\s+substitution|\bidiom\b|\b(?:same|opposite)\s+in\s+meaning\b"
         ),
     ),
     (
@@ -109,8 +111,8 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"\baccording\s+to\s+the\s+passage|\brefer\s+to\s+the\s+(?:\d+(?:st|nd|rd|th)\s+)?paragraph"
         ),
     ),
-    ("English", "Sentence_Improvement", re.compile(r"(?i)\bsentence\s+improvement|\breplace\s+the\s+(?:bold|underlined)|\bphrase\s+replacement")),
-    ("English", "Fill_in_the_Blanks", re.compile(r"(?i)\bfill\s+in\s+the\s+blank|\bchoose\s+the\s+word.*blank")),
+    ("English", "Sentence_Improvement", re.compile(r"(?i)\bsentence\s+improvement|\breplace\s+the\s+(?:bold|underlined)|\bphrase\s+replacement|\bphrase/connector\b")),
+    ("English", "Fill_in_the_Blanks", re.compile(r"(?i)\bfill\s+in\s+the\s+blank|\bchoose\s+the\s+word.*blank|_{3,}")),
     # Reasoning
     ("Reasoning", "Floor_Puzzle", re.compile(r"(?i)\bfloor\b|\blives?\s+on\b|\bstorey\b")),
     (
@@ -129,29 +131,85 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
         re.compile(
             r"(?i)\bpuzzle\b|\bschedule\b|\bbox(?:es)?\b|\bstack\b|"
             r"\beight\s+persons?\b|\bcertain\s+number\s+of\s+persons\b|"
-            r"\byears?\s+(?:of\s+)?(?:experience|age)\b.*\b(?:company|department)\b"
+            r"\byears?\s+(?:of\s+)?(?:experience|age)\b.*\b(?:company|department)\b|"
+            r"\b(?:born|birthday|month|movie|lecture|designation|department|company)\b"
+            r".*\b(?:person|people|day|date|week|year|order|before|after)\b|"
+            r"\b(?:person|people|day|date|week|year|order|before|after)\b"
+            r".*\b(?:born|birthday|month|movie|lecture|designation|department|company)\b|"
+            r"\b(?:how\s+many|which)\s+persons?\b|\b(?:heavier|lighter)\s+than\b|"
+            r"\b(?:mobile\s+phone|storage\s+space|go(?:es|ing)\s+(?:to\s+)?market)\b|"
+            r"\b(?:different\s+(?:heights?|cities|subjects|days|months|designations|professions)|"
+            r"(?:taller|shorter)\s+than)\b|"
+            r"\b(?:not\s+necessarily\s+in\s+the\s+same\s+order|one\s+after\s+another)\b|"
+            r"\btime\s+slots?\b.*\b(?:scheduled|class(?:es)?)\b"
         ),
     ),
-    ("Reasoning", "Blood_Relation", re.compile(r"(?i)\bblood\s*relation|\b(?:mother|father|brother|sister|uncle|aunt)\b.*\b(?:son|daughter|nephew|niece|cousin)\b")),
+    ("Reasoning", "Blood_Relation", re.compile(r"(?i)\bblood\s*relation|\b(?:mother|father|brother|sister|uncle|aunt|grandmother|grandfather|father[ -]in[ -]law)\b.*\b(?:son|daughter|nephew|niece|cousin|related)\b|\b(?:family|married\s+couples?)\b.*\b(?:mother|father|brother|sister|grandmother|grandfather)\b")),
     ("Reasoning", "Syllogism", re.compile(r"(?i)\bsyllogism|\bonly\s+a\s+few\b|\ball\s+\w+\s+are\b|\bno\s+\w+\s+is\b.*\bconclusion")),
-    ("Reasoning", "Inequality", re.compile(r"(?i)\binequalit|\b[<>]=?|≥|≤|\bwhich\s+of\s+the\s+following\s+symbols?\b")),
-    ("Reasoning", "Coding_Decoding", re.compile(r"(?i)\bcoding|decoding|\bis\s+coded\s+as\b|\bin\s+a\s+certain\s+code\b")),
-    ("Reasoning", "Input_Output", re.compile(r"(?i)\binput[\s\-]*output|\bstep\s+[IVX\d]+\b.*\binput\b")),
-    ("Reasoning", "Direction_Sense", re.compile(r"(?i)\bdirection\s+(?:sense|test)|\bwalks?\s+\d+\s*(?:m|km|metre)")),
-    ("Reasoning", "Order_Ranking", re.compile(r"(?i)\branking|\border\s+and\s+ranking|\bleft\s+of\b.*\bright\s+of\b.*\brow\b")),
-    ("Reasoning", "Alphanumeric", re.compile(r"(?i)\balphanumeric|\barrangement\s+carefully.*[A-Z]\s+\d|\bletter[- ]number")),
+    (
+        "Reasoning",
+        "Inequality",
+        re.compile(
+            r"(?i)\binequalit(?:y|ies)\b|"
+            r"\bstatements?\b.{0,350}\bconclusions?\b|"
+            r"\bconclusions?\b.{0,350}\bstatements?\b|"
+            r"\b[A-Z]\s*(?:[<>]=?|=|≥|≤)\s*[A-Z]\b|"
+            r"\bwhich\s+of\s+the\s+following\s+symbols?\b"
+        ),
+    ),
+    ("Reasoning", "Coding_Decoding", re.compile(r"(?i)\bcoding|decoding|\bis\s+(?:coded|written)\s+as\b|\bin\s+a\s+certain\s+code\b")),
+    ("Reasoning", "Input_Output", re.compile(r"(?i)\binput[\s\-]*output|\bstep\s+[IVX\d]+\b.*\binput\b|\bappropriate\s+step\b.*\binput\b")),
+    ("Reasoning", "Miscellaneous_Reasoning", re.compile(r"(?i)\b(?:course\s+of\s+action|assumptions?|arguments?|can\s+be\s+inferred|would\s+most\s+weaken)\b")),
+    (
+        "Reasoning",
+        "Direction_Sense",
+        re.compile(
+            r"(?i)\bdirection\s+(?:sense|test|of)\b|"
+            r"\b(?:which\s+)?direction\b.*\b(?:from|with\s+respect\s+to)\b|"
+            r"\b(?:shortest\s+)?distance\b.*\b(?:from|between)\b|"
+            r"\bwalks?\s+\d+\s*(?:m|km|metre)|"
+            r"\b(?:north|south|east|west)\s+of\s+(?:point\s+)?[A-Z]\b"
+        ),
+    ),
+    ("Reasoning", "Order_Ranking", re.compile(r"(?i)\branking|\border\s+and\s+ranking|\bleft\s+of\b.*\bright\s+of\b.*\brow\b|\bdictionary\s+(?:order|from)\b")),
+    (
+        "Reasoning",
+        "Alphanumeric",
+        re.compile(
+            r"(?i)\balphanumeric\b|\barrangement\s+carefully.*[A-Z]\s+\d|"
+            r"\bletter[- ]number\b|\b(?:letters?|alphabet|symbols?|vowels?|consonants?)\b"
+            r".*\b(?:series|arrang(?:ed|ement)|position|left|right|removed|added|pair|meaningful\s+word)\b|"
+            r"\bmeaningful\s+words?\b|\bdigits?\b.*\b(?:arrang(?:ed|ement)|added|subtracted|left|right)\b|"
+            r"\b(?:series|arrangement)\b.*\b(?:letters?|symbols?|digits?)\b|"
+            r"\b(?:vowels?|consonants?)\b.*\b(?:preceding|succeeding)\s+letters?\b|"
+            r"\bpairs?\s+of\s+(?:the\s+)?letters?\b.*\b(?:alphabet|forward|backward)\b|"
+            r"\b(?:digit|digits|numeral|numerals|element)\b.*\b(?:interchanged|left|right|position|ascending|descending)\b|"
+            r"\belements?\s+should\s+come\b.*\b[A-Z]\d"
+        ),
+    ),
     # Quantitative
     (
         "Quantitative",
         "Data_Interpretation",
         re.compile(
-            r"(?i)\bpie\s+chart|\bbar\s+(?:graph|diagram)|\bline\s+graph|"
-            r"\btable\s+(?:shows|given|below)|\bdata\s+interpretation|\bDI\b"
+            r"(?i)\bpie[\s-]*charts?|\bbar\s+(?:graph|diagram)|\bline[\s-]+graph|"
+            r"\btable\s+(?:shows|given|give|below)|\b(?:read|given)\s+(?:the\s+)?data\b|"
+            r"\binformation\s+shows\b|\bdata\s+interpretation|\bDI\b"
         ),
     ),
-    ("Quantitative", "Simplification", re.compile(r"(?i)\bsimplif|\bwhat\s+will\s+come\s+in\s+place\s+of\s+(?:the\s+)?(?:question\s+mark|\?)")),
+    ("Quantitative", "Simplification", re.compile(r"(?i)\bsimplif|\bwhat\s+will\s+come\s+in\s+(?:the\s+)?place\s+of\s+(?:the\s+)?(?:question\s+mark|\?)|\bwhat\s+value\s+should\s+come\b")),
     ("Quantitative", "Approximation", re.compile(r"(?i)\bapproximat|\bapproximate\s+value")),
-    ("Quantitative", "Number_Series", re.compile(r"(?i)\bnumber\s+series|\bwrong\s+number|\bmissing\s+number\b.*\bseries")),
+    (
+        "Quantitative",
+        "Number_Series",
+        re.compile(
+            r"(?i)\bnumber\s+series|\bwrong\s+number|\bmissing\s+number\b.*\bseries|"
+            r"\b(?:find|identify|select)\b.{0,80}\b(?:next|missing|wrong)\s+(?:number|term)\b|"
+            r"\b(?:find\s+the\s+)?pattern\s+of\s+the\s+series\b|\bseries\s+[IVX]+\b|"
+            r"(?:\b\d+\s*,\s*){4,}\d+\s*\??\s*$|"
+            r"(?:\b\d+\s*,\s*){4,}\?\s*$"
+        ),
+    ),
     ("Quantitative", "Quadratic_Equation", re.compile(r"(?i)\bquadratic|\bI\.\s*[xy]\^?2|\bcompare\s+x\s+and\s+y")),
     (
         "Quantitative",
@@ -169,14 +227,20 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"(?i)\bprofit\s+and\s+loss|\bsimple\s+interest|\bcompound\s+interest|"
             r"\btime\s+and\s+work|\btime\s+(?:and|&)\s+distance|\bboat|"
             r"\bmixture|\ballegation|\bpercentage|\bratio\s+(?:and|&)\s+proportion|"
-            r"\baverage|\bmensuration|\bprobability|\bpartnership|\bage\s+(?:of|problem)"
+            r"\baverage|\bmensuration|\bprobability|\bpartnership|\bage\s+(?:of|problem)|"
+            r"\b(?:triangle|rectangle|circle|cylinder|volume|area|perimeter)\b|"
+            r"\binvestment\b|\bspeed\b.*\b(?:distance|time)\b|"
+            r"\b(?:cost|selling|marked)\s+price\b|\bdiscount\b|\bsimple\s+(?:rate\s+of\s+)?interest\b|"
+            r"\b(?:complete|do)\s+(?:a\s+|the\s+)?(?:piece\s+of\s+)?work\b|\b(?:monthly\s+)?salary\b|"
+            r"\b(?:train|hectare\s+field|resultant)\b|\binvestments?\b|"
+            r"\bmilk\s+to\s+water\b.*\bratio\b"
         ),
     ),
     # GA / Computer
-    ("GA", "Current_Affairs", re.compile(r"(?i)\bcurrent\s+affairs|\brecently|\bin\s+20\d\d\b")),
+    ("GA", "Current_Affairs", re.compile(r"(?i)\bcurrent\s+affairs|\brecently|\b20\d\d\b")),
     ("GA", "Banking_Awareness", re.compile(r"(?i)\bbanking\s+awareness|\bRBI\b|\bSEBI\b|\bNPA\b|\bCRR\b|\bSLR\b")),
-    ("GA", "Static_GK", re.compile(r"(?i)\bstatic\s+(?:gk|g\.?k\.?)|\bcapital\s+of\b|\bnational\s+(?:park|animal|bird)|\blongest\s+river")),
-    ("Computer", "Computer_Basics", re.compile(r"(?i)\bCPU\b|\bRAM\b|\boperating\s+system|\bMS[\s\-]?Excel|\bnetwork")),
+    ("GA", "Static_GK", re.compile(r"(?i)\bstatic\s+(?:gk|g\.?k\.?)|\bcapital\s+of\b|\bnational\s+(?:park|animal|bird)|\blongest\s+river|\bMGNREGA\b")),
+    ("Computer", "Computer_Basics", re.compile(r"(?i)\bCPU\b|\bRAM\b|\boperating\s+system|\bMS[\s\-]?Excel|\bnetwork|\bcomputer\s+generations?\b|\bvacuum\s+tubes?\b|\bemail\b|\bhard\s+disk\b|\bmotherboard\b|\bmalware\b|\b(?:virtual|augmented)\s+reality\b|\bquantum\s+computing\b")),
 ]
 
 FALLBACK_BY_SECTION = {

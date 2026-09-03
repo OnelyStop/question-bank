@@ -38,10 +38,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q002",
@@ -66,10 +66,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q003",
@@ -94,10 +94,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q004",
@@ -122,10 +122,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q005",
@@ -150,10 +150,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q006",
@@ -179,7 +179,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q007",
@@ -204,10 +206,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Current_Affairs",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q008",
@@ -259,9 +261,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
+      "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "section": "Quantitative"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q010",
@@ -287,9 +289,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
+      "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "section": "Quantitative"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q011",
@@ -315,9 +317,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
+      "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "section": "Quantitative"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q012",
@@ -343,9 +345,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
+      "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "section": "Quantitative"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q013",
@@ -371,9 +373,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
+      "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "section": "Quantitative"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q014",
@@ -399,7 +401,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q015",
@@ -425,7 +429,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q016",
@@ -451,7 +457,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q017",
@@ -477,7 +485,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q018",
@@ -503,7 +513,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Direction_Sense"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q019",
@@ -529,7 +541,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q021",
@@ -555,7 +569,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q022",
@@ -581,7 +597,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q023",
@@ -607,7 +625,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q024",
@@ -632,10 +652,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q025",
@@ -660,10 +680,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q026",
@@ -688,10 +708,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q027",
@@ -716,10 +736,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q028",
@@ -744,10 +764,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q029",
@@ -772,10 +792,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q030",
@@ -800,10 +820,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q031",
@@ -828,10 +848,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q032",
@@ -856,9 +876,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q033",
@@ -883,10 +904,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q034",
@@ -911,10 +932,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q035",
@@ -939,10 +960,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q036",
@@ -967,10 +988,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q037",
@@ -995,10 +1016,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q038",
@@ -1023,10 +1044,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Computer",
-      "topic": "Miscellaneous_Computer",
       "question_pattern": "data_sufficiency",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Computer",
+      "topic": "Miscellaneous_Computer"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q039",
@@ -1051,10 +1072,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Computer",
       "question_pattern": "data_sufficiency",
-      "topic": "Data_Sufficiency_Quant",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Computer",
+      "topic": "Miscellaneous_Computer"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q040",
@@ -1105,10 +1126,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q042",
@@ -1133,10 +1154,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q043",
@@ -1161,10 +1182,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q044",
@@ -1189,10 +1210,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q045",
@@ -1217,10 +1238,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q046",
@@ -1245,10 +1266,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q047",
@@ -1273,10 +1294,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q048",
@@ -1301,10 +1322,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q049",
@@ -1329,10 +1350,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q050",
@@ -1357,10 +1378,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q051",
@@ -1385,10 +1406,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q052",
@@ -1413,10 +1434,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q053",
@@ -1442,7 +1463,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q054",
@@ -1494,7 +1517,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q056",
@@ -1520,7 +1545,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q057",
@@ -1546,7 +1573,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q058",
@@ -1572,9 +1601,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q059",
@@ -1600,9 +1629,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q060",
@@ -1628,9 +1657,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q061",
@@ -1656,9 +1685,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q062",
@@ -1684,9 +1713,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q063",
@@ -1712,9 +1741,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
+      "difficulty": 5,
       "section": "Quantitative",
-      "difficulty": 5
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q064",
@@ -1739,9 +1768,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
+      "difficulty": 5,
       "section": "Quantitative",
-      "difficulty": 5
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q065",
@@ -1767,9 +1796,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
+      "difficulty": 5,
       "section": "Quantitative",
-      "difficulty": 5
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q066",
@@ -1795,9 +1824,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
+      "difficulty": 5,
       "section": "Quantitative",
-      "difficulty": 5
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q067",
@@ -1822,10 +1851,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q068",
@@ -1850,10 +1879,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q069",
@@ -1878,10 +1907,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Approximation",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Approximation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q070",
@@ -1906,10 +1935,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q071",
@@ -1934,10 +1963,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q072",
@@ -1962,10 +1991,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q073",
@@ -1990,10 +2019,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q074",
@@ -2018,10 +2047,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Data_Interpretation",
       "question_pattern": "visual_chart_graph_di",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Quantitative",
+      "topic": "Data_Interpretation"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q075",
@@ -2047,7 +2076,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q076",
@@ -2073,7 +2104,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q077",
@@ -2124,10 +2157,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q079",
@@ -2152,10 +2185,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q080",
@@ -2179,10 +2212,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q081",
@@ -2207,10 +2240,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q082",
@@ -2234,10 +2267,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q083",
@@ -2261,10 +2294,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q084",
@@ -2289,10 +2322,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q085",
@@ -2317,10 +2350,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q086",
@@ -2345,10 +2378,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q087",
@@ -2373,10 +2406,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q088",
@@ -2401,10 +2434,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q089",
@@ -2429,10 +2462,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q090",
@@ -2457,10 +2490,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q091",
@@ -2485,10 +2518,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q092",
@@ -2513,10 +2546,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q093",
@@ -2541,10 +2574,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q094",
@@ -2569,10 +2602,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q095",
@@ -2597,10 +2630,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q096",
@@ -2625,10 +2658,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q097",
@@ -2653,10 +2686,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q098",
@@ -2681,10 +2714,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q099",
@@ -2709,10 +2742,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q100",
@@ -2737,10 +2770,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Error_Spotting"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q101",
@@ -2766,7 +2799,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q102",
@@ -2792,7 +2827,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q103",
@@ -2818,7 +2855,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q104",
@@ -2842,10 +2881,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q105",
@@ -2870,10 +2909,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q106",
@@ -2898,10 +2937,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q107",
@@ -2926,10 +2965,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q108",
@@ -2954,10 +2993,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q109",
@@ -2982,10 +3021,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q110",
@@ -3010,9 +3049,10 @@
       "memory_based": false,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q111",
@@ -3038,9 +3078,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q112",
@@ -3066,9 +3106,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "topic": "Data_Interpretation",
-      "section": "Quantitative",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "GA",
+      "topic": "Current_Affairs"
     }
   ]
 }

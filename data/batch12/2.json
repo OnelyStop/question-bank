@@ -7,226 +7,10 @@
   "exam_type": "Prelims",
   "year": 2025,
   "memory_based": true,
-  "question_count": 80,
+  "question_count": 32,
   "image_only_q_nums": [],
   "script_only_q_nums": [],
   "questions": [
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q001",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 1,
-      "stem": "12 ?",
-      "options": {
-        "a": "A",
-        "b": "9",
-        "c": "8",
-        "d": "$",
-        "e": "6"
-      },
-      "direction_id": "d001",
-      "direction_text": ": T % 7 Q B @ 3 A M & 9 $ Z 8 R ! 6 # T 2 ^ K 9 L $ C",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q002",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 2,
-      "stem": "श्रृंखला म़ें ऐसे ककतने अृंक हैं धिनके ठीक बाद एक प्रतीक और ठीक पहले एक अक्षर है?",
-      "options": {
-        "a": "एक",
-        "b": "दो",
-        "c": "तीन",
-        "d": "चार",
-        "e": "कोई नहीं"
-      },
-      "direction_id": "d001",
-      "direction_text": ": T % 7 Q B @ 3 A M & 9 $ Z 8 R ! 6 # T 2 ^ K 9 L $ C",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q003",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 3,
-      "stem": "कौन सा तत्व बाएृं छोर से तीसरे अृंक के दाईं ओर चौथा है?",
-      "options": {
-        "a": "8",
-        "b": "K",
-        "c": "6",
-        "d": "#",
-        "e": "R"
-      },
-      "direction_id": "d001",
-      "direction_text": ": T % 7 Q B @ 3 A M & 9 $ Z 8 R ! 6 # T 2 ^ K 9 L $ C",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q004",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 4,
-      "stem": "यकद श्रृंखला से सभी प्रतीक हटा कदए िाएृं, तो कौन सा तत्व बाएृं छोर से छठा होगा?",
-      "options": {
-        "a": "A",
-        "b": "M",
-        "c": "3",
-        "d": "B",
-        "e": "K"
-      },
-      "direction_id": "d001",
-      "direction_text": ": T % 7 Q B @ 3 A M & 9 $ Z 8 R ! 6 # T 2 ^ K 9 L $ C",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q005",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 5,
-      "stem": "श्रृंखला म़ें ऐसे ककतने अक्षर हैं धिनके ठीक पहले एक प्रतीक और ठीक बाद एक अक्षर है?",
-      "options": {
-        "a": "एक",
-        "b": "दो",
-        "c": "तीन",
-        "d": "चार",
-        "e": "कोई नहीं"
-      },
-      "direction_id": "d001",
-      "direction_text": ": T % 7 Q B @ 3 A M & 9 $ Z 8 R ! 6 # T 2 ^ K 9 L $ C",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q006",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 6,
-      "stem": "G से तीन व्यधि बाद कौन पैदा हुआ था?",
-      "options": {
-        "a": "A",
-        "b": "E",
-        "c": "F",
-        "d": "G",
-        "e": "D"
-      },
-      "direction_id": "d002",
-      "direction_text": ": A, B, C, D, E, F G - ( ) B C C D, F A D A, E E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q007",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 7,
-      "stem": "E और F के बीच ककतने व्यधि पैदा हुए थे?",
-      "options": {
-        "a": "एक",
-        "b": "दो",
-        "c": "तीन",
-        "d": "कोई नहीं",
-        "e": "चार"
-      },
-      "direction_id": "d002",
-      "direction_text": ": A, B, C, D, E, F G - ( ) B C C D, F A D A, E E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q008",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 8,
-      "stem": "धनम्नधलधखत म़ें से कौन सा सृंयोिन सही है?",
-      "options": {
-        "a": "E –",
-        "b": "F –",
-        "c": "D –",
-        "d": "A –",
-        "e": "G –"
-      },
-      "direction_id": "d002",
-      "direction_text": ": A, B, C, D, E, F G - ( ) B C C D, F A D A, E E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q009",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 9,
-      "stem": "रधववार को ककसका िन्म हुआ था?",
-      "options": {
-        "a": "A",
-        "b": "B",
-        "c": "D",
-        "d": "E",
-        "e": "F"
-      },
-      "direction_id": "d002",
-      "direction_text": ": A, B, C, D, E, F G - ( ) B C C D, F A D A, E E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q010",
       "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
@@ -249,7 +33,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q011",
@@ -273,7 +61,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q012",
@@ -297,31 +89,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q013",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 13,
-      "stem": "‘CHANGE’ , ( ) ?",
-      "options": {
-        "a": "तीन",
-        "b": "कोई नहीं",
-        "c": "एक",
-        "d": "दो",
-        "e": "चार"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Inequality"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q014",
@@ -345,55 +117,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q015",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 15,
-      "stem": "कौन सा शब्द 'pm rp' के रूप म़ें कूटबद्ध ककया गया है ?",
-      "options": {
-        "a": "goods improve",
-        "b": "market goods",
-        "c": "service new",
-        "d": "New goods",
-        "e": "धनिााररत नहीं ककया िा सकता"
-      },
-      "direction_id": "d004",
-      "direction_text": "“Utility goods new supply” “ta pm rp ke” “Market that needs goods” “zu lx pm vo” “Supply grows market utility” “ta ke zu mj” “That utility boost service” “lx ta yt qr”",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q016",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 16,
-      "stem": "धनम्नधलधखत म़ें से कौन सा/से कथन धनधित रूप से सही है/हैं?",
-      "options": {
-        "a": "That – zu",
-        "b": "Market - lx",
-        "c": "Needs - vo",
-        "d": "supply – rp",
-        "e": "सभी सही हैं"
-      },
-      "direction_id": "d004",
-      "direction_text": "“Utility goods new supply” “ta pm rp ke” “Market that needs goods” “zu lx pm vo” “Supply grows market utility” “ta ke zu mj” “That utility boost service” “lx ta yt qr”",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q017",
@@ -417,7 +145,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q018",
@@ -441,199 +173,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q019",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 19,
-      "stem": "H, B से ककस प्रकार सृंबृंधित है?",
-      "options": {
-        "a": "पुत्री",
-        "b": "भतीिा/भाृंिा",
-        "c": "पुत्र",
-        "d": "धपता",
-        "e": "दामाद"
-      },
-      "direction_id": "d005",
-      "direction_text": "E, C F, C - - D, F A, B B, H G, A",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q020",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 20,
-      "stem": "पररवार म़ें ककतनी मधहला सदस्य हैं?",
-      "options": {
-        "a": "तीन",
-        "b": "चार",
-        "c": "पााँच",
-        "d": "दो",
-        "e": "धनिााररत नहीं ककया िा सकता"
-      },
-      "direction_id": "d005",
-      "direction_text": "E, C F, C - - D, F A, B B, H G, A",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q021",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 21,
-      "stem": "M F , M, B ?",
-      "options": {
-        "a": "धपता",
-        "b": "भाई",
-        "c": "अृंकल",
-        "d": "ब्रदर-इन-लॉ",
-        "e": "धनिााररत नहीं ककया िा सकता"
-      },
-      "direction_id": "d005",
-      "direction_text": "E, C F, C - - D, F A, B B, H G, A",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q022",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 22,
-      "stem": "15 ?",
-      "options": {
-        "a": "E",
-        "b": "C",
-        "c": "D",
-        "d": "F",
-        "e": "B"
-      },
-      "direction_id": "d006",
-      "direction_text": ": A, B, C, D, E F - – , - – 15 22 C 31 C B D B A F E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q023",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 23,
-      "stem": "D से पहले ककतने व्यधि पैदा हुए थे?",
-      "options": {
-        "a": "एक",
-        "b": "दो",
-        "c": "तीन",
-        "d": "चार",
-        "e": "कोई नहीं"
-      },
-      "direction_id": "d006",
-      "direction_text": ": A, B, C, D, E F - – , - – 15 22 C 31 C B D B A F E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q024",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 24,
-      "stem": "F का िन्म धनम्न म़ें से ककस तारीख को हुआ था?",
-      "options": {
-        "a": "22",
-        "b": "15",
-        "c": "15",
-        "d": "22",
-        "e": "22"
-      },
-      "direction_id": "d006",
-      "direction_text": ": A, B, C, D, E F - – , - – 15 22 C 31 C B D B A F E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q025",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 25,
-      "stem": "धनम्नधलधखत पाृंच म़ें से चार एक धनधित तरीके से समान हैं और एक समूह बनाते हैं, धनम्नधलधखत म़ें से कौन उस समूह से सृंबृंधित नहीं है?",
-      "options": {
-        "a": "F-E",
-        "b": "A-B",
-        "c": "B-D",
-        "d": "D-C",
-        "e": "C-F"
-      },
-      "direction_id": "d006",
-      "direction_text": ": A, B, C, D, E F - – , - – 15 22 C 31 C B D B A F E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q026",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 26,
-      "stem": "धनम्नधलधखत म़ें से कौन A के ठीक बाद पैदा हुआ था?",
-      "options": {
-        "a": "F",
-        "b": "C",
-        "c": "E",
-        "d": "B",
-        "e": "D"
-      },
-      "direction_id": "d006",
-      "direction_text": ": A, B, C, D, E F - – , - – 15 22 C 31 C B D B A F E",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q027",
@@ -657,487 +201,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q028",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 28,
-      "stem": "बबृंदु H के सापेक्ष म़ें बबृंदु B की कदशा क्या है?",
-      "options": {
-        "a": "उत्तर",
-        "b": "दधक्षर्-पधिम",
-        "c": "उत्तर-पूवा",
-        "d": "दधक्षर्-पूवा",
-        "e": "उत्तर-पधिम"
-      },
-      "direction_id": "d007",
-      "direction_text": ": A, B 10 B, C 8 D, C 7 E, D 5 F, E 6 G, F 4 H 3",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q029",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 29,
-      "stem": "धबन्दु H और धबन्दु F के बीच न्यूनतम दूरी ककतनी है?",
-      "options": {
-        "a": "5",
-        "b": "17",
-        "c": "12",
-        "d": "\\sqrt{218}",
-        "e": "\\sqrt{61}"
-      },
-      "direction_id": "d007",
-      "direction_text": ": A, B 10 B, C 8 D, C 7 E, D 5 F, E 6 G, F 4 H 3",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q030",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 30,
-      "stem": "धनम्नधलधखत पाृंच म़ें से चार एक धनधित तरीके से समान हैं और एक समूह बनाते हैं, धनम्नधलधखत म़ें से कौन उस समूह से सृंबृंधित नहीं है?",
-      "options": {
-        "a": "A-H",
-        "b": "C-F",
-        "c": "B-E",
-        "d": "B-G",
-        "e": "F-D"
-      },
-      "direction_id": "d007",
-      "direction_text": ": A, B 10 B, C 8 D, C 7 E, D 5 F, E 6 G, F 4 H 3",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q031",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 31,
-      "stem": ": , , : I. , II.",
-      "options": {
-        "a": "I",
-        "b": "II",
-        "c": "I II",
-        "d": "I II",
-        "e": "I II"
-      },
-      "direction_id": "d008",
-      "direction_text": "I II",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q032",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 32,
-      "stem": ": , , : I. , II.",
-      "options": {
-        "a": "I",
-        "b": "II",
-        "c": "I II",
-        "d": "I II",
-        "e": "I II"
-      },
-      "direction_id": "d008",
-      "direction_text": "I II",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q033",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 33,
-      "stem": ": , , , : I. , II.",
-      "options": {
-        "a": "I",
-        "b": "II",
-        "c": "I II",
-        "d": "I II",
-        "e": "I II"
-      },
-      "direction_id": "d008",
-      "direction_text": "I II",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q034",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 34,
-      "stem": ": , , , : I. , II.",
-      "options": {
-        "a": "I",
-        "b": "II",
-        "c": "I II",
-        "d": "I II",
-        "e": "I II"
-      },
-      "direction_id": "d008",
-      "direction_text": "I II",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q035",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 35,
-      "stem": "‘INTRODUCE’ , , ?",
-      "options": {
-        "a": "I",
-        "b": "O",
-        "c": "R",
-        "d": "N",
-        "e": "T"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q036",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 36,
-      "stem": "धनम्नधलधखत पााँच म़ें से चार एक धनधित रूप से समान हैं और एक समूह बनाते हैं। धनम्नधलधखत म़ें से कौन इस समूह से सृंबृंधित नहीं है?",
-      "options": {
-        "a": "A",
-        "b": "B",
-        "c": "H",
-        "d": "G",
-        "e": "F"
-      },
-      "direction_id": "d009",
-      "direction_text": ": A, B, C, D, E, F, G H , D, H D A C, A E B G, E G",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q037",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 37,
-      "stem": "H के सापेक्ष म़ें B का स्थान क्या है?",
-      "options": {
-        "a": "दाएाँ से चौथा",
-        "b": "दाएाँ से तीसरा",
-        "c": "ठीक बाएाँ",
-        "d": "बाएाँ से दूसरा",
-        "e": "दाएाँ से दूसरा"
-      },
-      "direction_id": "d009",
-      "direction_text": ": A, B, C, D, E, F, G H , D, H D A C, A E B G, E G",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q038",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 38,
-      "stem": "धनम्न म़ें से कौन C के ठीक बाएृं बैठा है?",
-      "options": {
-        "a": "E",
-        "b": "G",
-        "c": "F",
-        "d": "B",
-        "e": "H"
-      },
-      "direction_id": "d009",
-      "direction_text": ": A, B, C, D, E, F, G H , D, H D A C, A E B G, E G",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q039",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 39,
-      "stem": "G के बाएृं से धगनने पर, G और E के बीच ककतने व्यधि बैठे हैं?",
-      "options": {
-        "a": "कोई नहीं",
-        "b": "चार",
-        "c": "तीन",
-        "d": "दो",
-        "e": "एक"
-      },
-      "direction_id": "d009",
-      "direction_text": ": A, B, C, D, E, F, G H , D, H D A C, A E B G, E G",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q040",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 40,
-      "stem": "धनम्नधलधखत म़ें से कौन सा कथन सत्य है?",
-      "options": {
-        "a": "E",
-        "b": "H G",
-        "c": "F, H",
-        "d": "D, G",
-        "e": "सभी कथन सत्य हैं"
-      },
-      "direction_id": "d009",
-      "direction_text": ": A, B, C, D, E, F, G H , D, H D A C, A E B G, E G",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q041",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 41,
-      "stem": "D \\frac{2}{3} 51 D",
-      "options": {
-        "a": "9",
-        "b": "3",
-        "c": "16",
-        "d": "6",
-        "e": "2"
-      },
-      "direction_id": "d010",
-      "direction_text": "A 34 72 B 39 51 C 52 60 D 39 77 E 40 100",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q042",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 42,
-      "stem": "B, C और A म़ें मेहमानों की औसत सृंख्या ज्ञात कीधिए।",
-      "options": {
-        "a": "90",
-        "b": "73",
-        "c": "10",
-        "d": "61",
-        "e": "92"
-      },
-      "direction_id": "d010",
-      "direction_text": "A 34 72 B 39 51 C 52 60 D 39 77 E 40 100",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q043",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 43,
-      "stem": "A म़ें कमरों की सृंख्या का E म़ें कमरों की सृंख्या से अनुपात ज्ञात कीधिए।",
-      "options": {
-        "a": "17:20",
-        "b": "17:13",
-        "c": "16:17",
-        "d": "26:23",
-        "e": "29:23"
-      },
-      "direction_id": "d010",
-      "direction_text": "A 34 72 B 39 51 C 52 60 D 39 77 E 40 100",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q044",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 44,
-      "stem": "F , A C F , E 20% . F",
-      "options": {
-        "a": "66,32",
-        "b": "32,33",
-        "c": "66,39",
-        "d": "61,34",
-        "e": "21,56"
-      },
-      "direction_id": "d010",
-      "direction_text": "A 34 72 B 39 51 C 52 60 D 39 77 E 40 100",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q045",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 45,
-      "stem": "B म़ें मेहमानों की सृंख्या, C म़ें मेहमानों की सृंख्या का ककतना प्रधतशत है?",
-      "options": {
-        "a": "89",
-        "b": "83",
-        "c": "85",
-        "d": "86",
-        "e": "82"
-      },
-      "direction_id": "d010",
-      "direction_text": "A 34 72 B 39 51 C 52 60 D 39 77 E 40 100",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q046",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 46,
-      "stem": "A, C और E म़ें मैनेिरों की औसत सृंख्या ज्ञात कीधिए।",
-      "options": {
-        "a": "59",
-        "b": "53",
-        "c": "56",
-        "d": "46",
-        "e": "42"
-      },
-      "direction_id": null,
-      "direction_text": "",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q047",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 47,
-      "stem": "C E 3:1 1:1 , C E",
-      "options": {
-        "a": "39",
-        "b": "40",
-        "c": "36",
-        "d": "16",
-        "e": "24"
-      },
-      "direction_id": null,
-      "direction_text": "",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q048",
@@ -1161,103 +229,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q049",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 49,
-      "stem": "C म़ें मैनेिर, D म़ें मैनेिरों का ककतना प्रधतशत हैं?",
-      "options": {
-        "a": "80",
-        "b": "83",
-        "c": "85",
-        "d": "86",
-        "e": "82"
-      },
-      "direction_id": null,
-      "direction_text": "",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q050",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 50,
-      "stem": "A और D म़ें धमलाकर मैनेिरों का E और B म़ें धमलाकर मैनेिरों से अनुपात ज्ञात कीधिए।",
-      "options": {
-        "a": "17:15",
-        "b": "17:13",
-        "c": "16:17",
-        "d": "26:23",
-        "e": "29:23"
-      },
-      "direction_id": null,
-      "direction_text": "",
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q051",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 51,
-      "stem": "12 , 10",
-      "options": {
-        "a": "22",
-        "b": "18",
-        "c": "6",
-        "d": "12",
-        "e": "10"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q052",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 52,
-      "stem": "A, B C 4 : 1 : 2 28 B 4 , A, B C",
-      "options": {
-        "a": "1:2:1",
-        "b": "2:1:1",
-        "c": "1:1:2",
-        "d": "2:1:2",
-        "e": "1:2:3"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q053",
@@ -1281,7 +257,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q054",
@@ -1305,31 +285,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q055",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 55,
-      "stem": "\\frac{72}{21} , 60 ( )",
-      "options": {
-        "a": "120",
-        "b": "240",
-        "c": "180",
-        "d": "150",
-        "e": "200"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q056",
@@ -1353,79 +313,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q057",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 57,
-      "stem": "23 , 1 ( )",
-      "options": {
-        "a": "49",
-        "b": "47",
-        "c": "43",
-        "d": "48",
-        "e": "50"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q058",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 58,
-      "stem": "98 , ( )",
-      "options": {
-        "a": "21",
-        "b": "14",
-        "c": "18",
-        "d": "24",
-        "e": "32"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
-    },
-    {
-      "q_id": "ibps_rrb_2025_prelims_84ace0f8::q059",
-      "paper_id": "ibps_rrb_2025_prelims_84ace0f8",
-      "q_num": 59,
-      "stem": "A 20 B 30 A, B C 10 C ?",
-      "options": {
-        "a": "40",
-        "b": "80",
-        "c": "55",
-        "d": "45",
-        "e": "60"
-      },
-      "direction_id": null,
-      "direction_text": null,
-      "direction_has_image": false,
-      "direction_image_refs": [],
-      "bank": "IBPS",
-      "role": "RRB",
-      "exam_type": "Prelims",
-      "year": 2025,
-      "memory_based": true,
-      "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q060",
@@ -1449,7 +341,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q061",
@@ -1473,7 +369,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q062",
@@ -1497,7 +397,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q063",
@@ -1521,7 +425,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q064",
@@ -1545,7 +453,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q065",
@@ -1569,7 +481,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "standalone_mcq",
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q066",
@@ -1593,7 +509,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q067",
@@ -1617,7 +537,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q068",
@@ -1641,7 +565,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q069",
@@ -1665,7 +593,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q070",
@@ -1689,7 +621,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q071",
@@ -1713,7 +649,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q072",
@@ -1737,7 +677,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q073",
@@ -1761,7 +705,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q074",
@@ -1785,7 +733,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q075",
@@ -1809,7 +761,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q076",
@@ -1833,7 +789,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q077",
@@ -1857,7 +817,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q078",
@@ -1881,7 +845,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q079",
@@ -1905,7 +873,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_84ace0f8::q080",
@@ -1929,7 +901,11 @@
       "year": 2025,
       "memory_based": true,
       "has_image": false,
-      "image_refs": []
+      "image_refs": [],
+      "question_pattern": "shared_directions_set",
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     }
   ]
 }

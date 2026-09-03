@@ -30,7 +30,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q002",
@@ -55,10 +57,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q003",
@@ -83,10 +85,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q004",
@@ -111,10 +113,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q005",
@@ -139,10 +141,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q006",
@@ -167,10 +169,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Coding_Decoding",
       "question_pattern": "caselet_di_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q007",
@@ -195,10 +197,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q008",
@@ -223,10 +225,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q009",
@@ -251,10 +253,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q010",
@@ -279,10 +281,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q011",
@@ -307,10 +309,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Seating_Arrangement"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q012",
@@ -335,10 +337,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q013",
@@ -363,10 +365,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q014",
@@ -391,10 +393,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Quantitative",
-      "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q015",
@@ -419,10 +421,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q016",
@@ -447,10 +449,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "English",
-      "topic": "Reading_Comprehension",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Reading_Comprehension"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q017",
@@ -475,10 +477,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q018",
@@ -503,10 +505,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q019",
@@ -531,10 +533,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q020",
@@ -559,10 +561,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q021",
@@ -587,10 +589,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Floor_Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q022",
@@ -615,10 +617,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q023",
@@ -643,10 +645,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q024",
@@ -671,10 +673,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "Reasoning",
-      "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Reasoning",
+      "topic": "Syllogism"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q025",
@@ -700,7 +702,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q026",
@@ -726,7 +730,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q027",
@@ -752,7 +758,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q028",
@@ -778,7 +786,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q029",
@@ -804,7 +814,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5,
+      "section": "Reasoning",
+      "topic": "Puzzle"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q030",
@@ -829,10 +841,10 @@
       "memory_based": true,
       "has_image": false,
       "image_refs": [],
-      "section": "GA",
-      "topic": "Miscellaneous_GA",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "GA",
+      "topic": "Miscellaneous_GA"
     }
   ]
 }
