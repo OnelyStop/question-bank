@@ -237,7 +237,16 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
         ),
     ),
     # GA / Computer
-    ("GA", "Current_Affairs", re.compile(r"(?i)\bcurrent\s+affairs|\brecently|\b20\d\d\b")),
+    (
+        "GA",
+        "Current_Affairs",
+        re.compile(
+            r"(?i)\bcurrent\s+affairs|\brecently|"
+            r"\b(?:announced|launched|appointed|awarded|held|celebrated|released|inaugurated)\b"
+            r".{0,100}\b20\d\d\b|"
+            r"\b20\d\d\b.{0,100}\b(?:announced|launched|appointed|awarded|held|celebrated|released|inaugurated)\b"
+        ),
+    ),
     ("GA", "Banking_Awareness", re.compile(r"(?i)\bbanking\s+awareness|\bRBI\b|\bSEBI\b|\bNPA\b|\bCRR\b|\bSLR\b")),
     ("GA", "Static_GK", re.compile(r"(?i)\bstatic\s+(?:gk|g\.?k\.?)|\bcapital\s+of\b|\bnational\s+(?:park|animal|bird)|\blongest\s+river|\bMGNREGA\b")),
     ("Computer", "Computer_Basics", re.compile(r"(?i)\bCPU\b|\bRAM\b|\boperating\s+system|\bMS[\s\-]?Excel|\bnetwork|\bcomputer\s+generations?\b|\bvacuum\s+tubes?\b|\bemail\b|\bhard\s+disk\b|\bmotherboard\b|\bmalware\b|\b(?:virtual|augmented)\s+reality\b|\bquantum\s+computing\b")),

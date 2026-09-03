@@ -88,6 +88,10 @@ python pipeline/2-classify/run_classify.py --force --limit-papers 5
 
 # dry run (no writes)
 python pipeline/2-classify/run_classify.py --force --dry-run
+
+# preview Hindi-only / sparse cleanup (no writes); --apply is required to delete
+python pipeline/2-classify/remove_mojibake.py --papers-dir data/batch12 --remove-sparse
+python pipeline/2-classify/remove_mojibake.py --papers-dir data/batch12 --remove-sparse --apply
 ```
 
 If `corpus/papers/` is empty and you are not ready to re-run extract, restore a prior extract:
@@ -108,6 +112,7 @@ Report: `corpus/papers/classify_report.json`
 | `naming_conventions.json` | topic + pattern naming notes for classifiers |
 | `label_topics.py` | `infer_labels(section, direction, stem, options)` |
 | `label_sections.py` | section inference + `propagate_direction_sections()` |
+| `remove_mojibake.py` | fail-closed preview/apply cleanup for Hindi-only and sparse records |
 | `topic_taxonomy.json` | the topic vocabulary |
 | `patterns/` | 14 detectors + `base.py`, one file per pattern |
 | `classify.py` | dispatches a question through the detectors |
