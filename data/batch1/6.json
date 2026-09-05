@@ -764,7 +764,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q029",
@@ -792,7 +792,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q030",
@@ -820,7 +820,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q031",
@@ -848,7 +848,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q032",
@@ -874,7 +874,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q033",
@@ -900,7 +902,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2017_mains_760489c0::q034",
@@ -954,7 +958,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Para_Jumble"
     }
   ]
 }

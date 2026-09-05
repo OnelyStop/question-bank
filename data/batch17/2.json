@@ -511,7 +511,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q019",
@@ -537,7 +539,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q020",
@@ -563,7 +567,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q021",
@@ -590,7 +596,7 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Reasoning",
+      "section": "Computer",
       "topic": "Computer_Basics"
     },
     {
@@ -618,7 +624,7 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
+      "section": "Computer",
       "topic": "Puzzle"
     },
     {
@@ -646,8 +652,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Computer",
+      "topic": "Miscellaneous_Computer"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q024",
@@ -674,8 +680,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Computer",
+      "topic": "Miscellaneous_Computer"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q025",
@@ -701,9 +707,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Puzzle"
+      "difficulty": 4,
+      "section": "Computer",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2025_mains_1f71bf22::q026",

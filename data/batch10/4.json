@@ -519,8 +519,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q019",
@@ -547,8 +547,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q020",
@@ -966,8 +966,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "GA",
-      "topic": "Static_GK"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q035",
@@ -994,7 +994,7 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "GA",
+      "section": "Quantitative",
       "topic": "Miscellaneous_Reasoning"
     },
     {
@@ -2282,7 +2282,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q082",
@@ -2310,7 +2310,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q083",
@@ -2366,7 +2366,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q085",
@@ -2421,8 +2421,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q087",
@@ -2784,9 +2784,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "table_di_set",
-      "difficulty": 5,
+      "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q103",
@@ -2812,9 +2812,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "table_di_set",
-      "difficulty": 5,
+      "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q104",
@@ -3036,7 +3036,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2023_mains_15e224e5::q115",

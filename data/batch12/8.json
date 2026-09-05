@@ -1015,7 +1015,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Coding_Decoding"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q037",
@@ -1911,7 +1913,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_GA"
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q069",
@@ -2163,7 +2165,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q078",
@@ -2303,7 +2305,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q083",
@@ -2443,7 +2445,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q088",
@@ -2525,7 +2527,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q091",
@@ -2775,7 +2779,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q100",

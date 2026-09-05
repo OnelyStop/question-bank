@@ -1161,7 +1161,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2022_mains_08ca6854::q042",
@@ -1245,7 +1247,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2022_mains_08ca6854::q045",
@@ -1665,7 +1667,7 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_rrb_2022_mains_08ca6854::q061",

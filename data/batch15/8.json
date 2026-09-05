@@ -70,7 +70,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Static_GK"
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q003",
@@ -321,8 +321,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q012",
@@ -349,8 +349,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "GA",
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q013",
@@ -545,8 +545,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q023",
@@ -1049,8 +1049,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q041",
@@ -1077,8 +1077,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q042",
@@ -1105,8 +1105,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q043",
@@ -1133,8 +1133,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q044",
@@ -1161,7 +1161,7 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Reasoning",
+      "section": "Quantitative",
       "topic": "Coding_Decoding"
     },
     {
@@ -2225,8 +2225,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q083",
@@ -2252,9 +2252,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Puzzle"
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q084",
@@ -2281,8 +2281,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q085",
@@ -2308,7 +2308,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q086",
@@ -2334,7 +2336,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Vocabulary"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q087",
@@ -2613,8 +2617,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Quadratic_Equation"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q097",
@@ -2670,7 +2674,7 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Inequality"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q099",
@@ -2724,9 +2728,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q101",
@@ -2892,7 +2896,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_clerk_2023_mains_5fa54eac::q107",
@@ -3758,7 +3764,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Sentence_Improvement"
     }
   ]
 }

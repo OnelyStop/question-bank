@@ -36,6 +36,26 @@ def test_reasoning_ability_header_classifies_shared_seating_question():
     )
 
 
+def test_partial_prelims_paper_keeps_numbering_layout_after_cleanup():
+    paper = {
+        "bank": "SBI",
+        "role": "Clerk",
+        "exam_type": "Prelims",
+        "year": 2025,
+        "questions": [{"q_num": 31}] * 65 + [{"q_num": 97}],
+    }
+    check(
+        "partial prelims q31 remains quantitative",
+        sections.section_from_prelims_qnum(paper, 31),
+        ("Quantitative", "prelims_qnum_range"),
+    )
+    check(
+        "partial prelims q97 remains reasoning",
+        sections.section_from_prelims_qnum(paper, 97),
+        ("Reasoning", "prelims_qnum_range"),
+    )
+
+
 def test_rrb_prelims_numbering_has_documented_sections():
     paper = {"bank": "IBPS", "role": "RRB", "exam_type": "Prelims", "questions": [None] * 80}
     check("RRB q40 is reasoning", sections.section_from_prelims_qnum(paper, 40), ("Reasoning", "prelims_qnum_range"))
@@ -203,4 +223,22 @@ def test_geometry_is_quantitative_arithmetic():
         "geometry question",
         label("Find the area of a triangle with base 10 cm and height 4 cm."),
         ("Quantitative", "Arithmetic"),
+    )
+
+
+def test_sparse_question_types_receive_taxonomy_labels():
+    check(
+        "named current-affairs scheme",
+        label("Under the SCSS, what is the age limit for a joint account?"),
+        ("GA", "Current_Affairs"),
+    )
+    check(
+        "bare extracted calculation",
+        label("Find P."),
+        ("Quantitative", "Miscellaneous_Quant"),
+    )
+    check(
+        "statement assumption",
+        label("Which statement can be assumed from the above sentence?"),
+        ("Reasoning", "Miscellaneous_Reasoning"),
     )

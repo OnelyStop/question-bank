@@ -1548,7 +1548,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q059",
@@ -1798,7 +1798,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q068",
@@ -1824,7 +1826,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q069",
@@ -2216,7 +2220,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Current_Affairs"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q083",
@@ -2244,7 +2248,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q084",
@@ -2300,7 +2304,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q086",
@@ -3802,7 +3806,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q140",
@@ -3828,7 +3834,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     }
   ]
 }

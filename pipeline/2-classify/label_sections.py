@@ -228,7 +228,14 @@ def section_from_prelims_qnum(
     # Cleanup may remove corrupted records from an otherwise documented RRB
     # Prelims paper. Its original q_num values still identify the 40/40 layout.
     min_questions = 1 if prelims_layout_key(paper) == "IBPS::RRB::Prelims" else 80
-    if not (min_questions <= nqs <= 120):
+    # Corruption cleanup can remove enough questions to make the retained
+    # array shorter than the original exam. Keep the documented layout when
+    # its retained q_num values still reach the normal final section.
+    max_q_num = max(
+        (q.get("q_num", 0) for q in paper.get("questions") or [] if isinstance(q, dict)),
+        default=0,
+    )
+    if not (nqs <= 120 and (nqs >= min_questions or max_q_num >= 80)):
         return None, None
     bands = _prelims_bands_for_paper(paper)
     if not bands:

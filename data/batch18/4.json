@@ -235,7 +235,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q009",
@@ -262,8 +264,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q010",
@@ -290,8 +292,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q011",
@@ -318,8 +320,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q012",
@@ -346,8 +348,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q013",
@@ -374,8 +376,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q014",
@@ -878,8 +880,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q033",
@@ -1101,7 +1103,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q041",
@@ -1491,7 +1495,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q055",
@@ -1603,7 +1609,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q059",
@@ -1631,7 +1637,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q060",
@@ -1659,7 +1665,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q061",
@@ -1687,7 +1693,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q062",
@@ -1715,7 +1721,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q063",
@@ -1853,8 +1859,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q068",
@@ -1881,8 +1887,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q069",
@@ -1908,9 +1914,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "caselet_di_set",
-      "difficulty": 4,
-      "section": "Quantitative",
-      "topic": "Approximation"
+      "difficulty": 5,
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q070",
@@ -2132,7 +2138,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q078",
