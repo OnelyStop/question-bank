@@ -433,7 +433,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2025_mains_d673df85::q016",
@@ -461,7 +461,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2025_mains_d673df85::q017",
@@ -489,7 +489,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "sbi_po_2025_mains_d673df85::q018",
@@ -1019,7 +1019,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     },
     {
       "q_id": "sbi_po_2025_mains_d673df85::q040",
@@ -1045,7 +1047,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "section": "English",
+      "topic": "Para_Jumble"
     }
   ]
 }

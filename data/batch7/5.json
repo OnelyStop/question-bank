@@ -876,8 +876,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q032",
@@ -1156,8 +1156,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q042",
@@ -1184,8 +1184,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q043",
@@ -1212,8 +1212,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Inequality"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q044",
@@ -1240,8 +1240,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q045",
@@ -1268,7 +1268,7 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
-      "section": "Reasoning",
+      "section": "English",
       "topic": "Para_Jumble"
     },
     {
@@ -2219,7 +2219,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Quadratic_Equation"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q080",
@@ -2301,7 +2303,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q083",
@@ -2889,7 +2893,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q104",
@@ -2917,7 +2921,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q105",
@@ -2945,7 +2949,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q106",
@@ -2973,7 +2977,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2025_mains_66f6566a::q107",

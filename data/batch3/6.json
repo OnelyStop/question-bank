@@ -621,7 +621,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q073",
@@ -649,7 +649,7 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q074",
@@ -870,7 +870,9 @@
         "options"
       ],
       "question_pattern": "partial_or_missing_options",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q082",
@@ -923,8 +925,8 @@
       ],
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
-      "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q084",
@@ -1144,8 +1146,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q092",
@@ -1172,8 +1174,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q093",
@@ -1200,7 +1202,7 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Quantitative",
+      "section": "English",
       "topic": "Blood_Relation"
     },
     {
@@ -1228,8 +1230,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q095",
@@ -1256,8 +1258,8 @@
       "image_refs": [],
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
-      "section": "Quantitative",
-      "topic": "Arithmetic"
+      "section": "English",
+      "topic": "Sentence_Improvement"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q096",
@@ -1284,8 +1286,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q097",
@@ -1312,8 +1314,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q098",
@@ -1340,8 +1342,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q099",
@@ -1368,8 +1370,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     },
     {
       "q_id": "ibps_po_2016_mains_ddd7b718::q100",
@@ -1396,8 +1398,8 @@
       "image_refs": [],
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
-      "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Arithmetic"
     }
   ]
 }
