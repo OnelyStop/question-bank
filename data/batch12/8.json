@@ -2022,7 +2022,7 @@
       "image_refs": [],
       "question_pattern": "table_di_set",
       "difficulty": 4,
-      "section": "GA",
+      "section": "Quantitative",
       "topic": "Arithmetic"
     },
     {
@@ -2050,8 +2050,8 @@
       "image_refs": [],
       "question_pattern": "table_di_set",
       "difficulty": 4,
-      "section": "GA",
-      "topic": "Current_Affairs"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q074",
@@ -2078,7 +2078,7 @@
       "image_refs": [],
       "question_pattern": "table_di_set",
       "difficulty": 3,
-      "section": "GA",
+      "section": "Quantitative",
       "topic": "Approximation"
     },
     {
@@ -2106,8 +2106,8 @@
       "image_refs": [],
       "question_pattern": "table_di_set",
       "difficulty": 4,
-      "section": "GA",
-      "topic": "Current_Affairs"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q076",
@@ -2134,8 +2134,8 @@
       "image_refs": [],
       "question_pattern": "table_di_set",
       "difficulty": 4,
-      "section": "GA",
-      "topic": "Current_Affairs"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q077",
@@ -2161,7 +2161,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q078",
@@ -2187,7 +2189,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 3,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q079",

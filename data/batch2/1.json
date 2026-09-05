@@ -2216,7 +2216,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Current_Affairs"
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q083",
@@ -3187,9 +3187,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Vocabulary"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q118",
@@ -3802,9 +3802,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
-      "section": "GA",
-      "topic": "Miscellaneous_GA"
+      "difficulty": 4
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q140",
@@ -3830,9 +3828,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
-      "section": "GA",
-      "topic": "Current_Affairs"
+      "difficulty": 4
     }
   ]
 }

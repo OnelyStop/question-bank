@@ -81,7 +81,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"(?i)grammatical|idiomatic\s+err|read\s+each\s+sentence|"
             r"find\s+out\s+(?:whether|if).*(?:error|correct)|"
             r"which\s+(?:part|parts?|portion|segment).*(?:error|incorrect)|"
-            r"spot\s+the\s+error|error\s+(?:spot|detection)"
+            r"spot\s+the\s+error|identify\s+the\s+error|error\s+(?:spot|detection)"
             # slash-parts heuristic applied separately — skipped when options are permutations
         ),
     ),
@@ -119,8 +119,8 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
         "Reasoning",
         "Seating_Arrangement",
         re.compile(
-            r"(?i)\b(?:circular|linear|row|square|triangular)\b.*\b(?:sit|sitting|seated)\b|"
-            r"\b(?:sit|sitting|seated)\b.*\b(?:circular|linear|row|square|triangular)\b|"
+            r"(?i)\b(?:circular|linear|row|square|triangular|rectangular)\b.*\b(?:sit|sitting|seated)\b|"
+            r"\b(?:sit|sitting|seated)\b.*\b(?:circular|linear|row|square|triangular|rectangular)\b|"
             r"\bsit(?:ting|s)?\s+in\s+a\s+(?:row|circle|line|table)|"
             r"\bfacing\s+(?:north|south|east|west|centre|center)\b"
         ),
@@ -141,7 +141,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"\b(?:different\s+(?:heights?|cities|subjects|days|months|designations|professions)|"
             r"(?:taller|shorter)\s+than)\b|"
             r"\b(?:not\s+necessarily\s+in\s+the\s+same\s+order|one\s+after\s+another)\b|"
-            r"\btime\s+slots?\b.*\b(?:scheduled|class(?:es)?)\b"
+            r"\btime\s+slots?\b.*\b(?:scheduled|class(?:es)?)\b|\bshelves?\b"
         ),
     ),
     ("Reasoning", "Blood_Relation", re.compile(r"(?i)\bblood\s*relation|\b(?:mother|father|brother|sister|uncle|aunt|grandmother|grandfather|father[ -]in[ -]law)\b.*\b(?:son|daughter|nephew|niece|cousin|related)\b|\b(?:family|married\s+couples?)\b.*\b(?:mother|father|brother|sister|grandmother|grandfather)\b")),
@@ -159,7 +159,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
     ),
     ("Reasoning", "Coding_Decoding", re.compile(r"(?i)\bcoding|decoding|\bis\s+(?:coded|written)\s+as\b|\bin\s+a\s+certain\s+code\b")),
     ("Reasoning", "Input_Output", re.compile(r"(?i)\binput[\s\-]*output|\bstep\s+[IVX\d]+\b.*\binput\b|\bappropriate\s+step\b.*\binput\b")),
-    ("Reasoning", "Miscellaneous_Reasoning", re.compile(r"(?i)\b(?:course\s+of\s+action|assumptions?|arguments?|can\s+be\s+inferred|would\s+most\s+weaken)\b")),
+    ("Reasoning", "Miscellaneous_Reasoning", re.compile(r"(?i)\b(?:course\s+of\s+action|assumptions?|arguments?|can\s+be\s+inferred|would\s+most\s+weaken|data\s+flow\s+diagram)\b")),
     (
         "Reasoning",
         "Direction_Sense",
@@ -197,7 +197,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"\binformation\s+shows\b|\bdata\s+interpretation|\bDI\b"
         ),
     ),
-    ("Quantitative", "Simplification", re.compile(r"(?i)\bsimplif|\bwhat\s+will\s+come\s+in\s+(?:the\s+)?place\s+of\s+(?:the\s+)?(?:question\s+mark|\?)|\bwhat\s+value\s+should\s+come\b")),
+    ("Quantitative", "Simplification", re.compile(r"(?i)\bsimplif|\bwhat\s+(?:will|should)\s+come\s+in\s+(?:the\s+)?place\s+of\s+(?:the\s+)?(?:question\s+mark|\?)|\bwhat\s+value\s+should\s+come\b")),
     ("Quantitative", "Approximation", re.compile(r"(?i)\bapproximat|\bapproximate\s+value")),
     (
         "Quantitative",
@@ -210,7 +210,7 @@ TOPIC_RULES: list[tuple[str, str, re.Pattern[str]]] = [
             r"(?:\b\d+\s*,\s*){4,}\?\s*$"
         ),
     ),
-    ("Quantitative", "Quadratic_Equation", re.compile(r"(?i)\bquadratic|\bI\.\s*[xy]\^?2|\bcompare\s+x\s+and\s+y")),
+    ("Quantitative", "Quadratic_Equation", re.compile(r"(?i)\bquadratic|\bI\.\s*[xy]\^?2|\bcompare\s+x\s+and\s+y|\b(?:product|sum)\s+of\s+roots?\b")),
     (
         "Quantitative",
         "Data_Sufficiency_Quant",
