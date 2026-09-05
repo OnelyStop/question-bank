@@ -104,6 +104,7 @@ TEXT_RULES: list[tuple[str, re.Pattern[str]]] = [
         re.compile(
             r"(?i)\b("
             r"puzzle|seating|sitting|floor|box|stack|schedule|blood\s*relation|"
+            r"reasoning\s+ability|"
             r"syllogism|inequality|coding[\s\-]*decoding|input[\s\-]*output|"
             r"direction\s+(?:sense|test)|order\s+and\s+ranking|critical\s+reasoning|"
             r"statement\s+and\s+(?:assumption|conclusion|argument)|"

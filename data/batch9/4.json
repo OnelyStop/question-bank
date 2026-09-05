@@ -1138,7 +1138,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Reasoning",
+      "topic": "Miscellaneous_Reasoning"
     },
     {
       "q_id": "ibps_rrb_2020_prelims_f2ca0dc6::q041",
@@ -1864,7 +1866,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2020_prelims_f2ca0dc6::q070",
@@ -1890,7 +1894,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2020_prelims_f2ca0dc6::q072",
@@ -1916,7 +1922,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2020_prelims_f2ca0dc6::q076",
@@ -1942,7 +1950,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     }
   ]
 }

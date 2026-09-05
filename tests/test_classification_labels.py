@@ -27,6 +27,15 @@ def test_common_puzzle_wording_is_reasoning():
     )
 
 
+def test_reasoning_ability_header_classifies_shared_seating_question():
+    paper = {"source": "paper.pdf", "paper_id": "demo", "questions": []}
+    check(
+        "screenshot-style reasoning ability question",
+        sections.infer_section(paper, {"direction_text": "REASONING ABILITY", "stem": "Who faces A?"}),
+        ("Reasoning", "keywords"),
+    )
+
+
 def test_rrb_prelims_numbering_has_documented_sections():
     paper = {"bank": "IBPS", "role": "RRB", "exam_type": "Prelims", "questions": [None] * 80}
     check("RRB q40 is reasoning", sections.section_from_prelims_qnum(paper, 40), ("Reasoning", "prelims_qnum_range"))

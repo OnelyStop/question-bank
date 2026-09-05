@@ -400,9 +400,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q015",
@@ -1156,7 +1156,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q042",
@@ -1182,7 +1184,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q043",
@@ -1208,7 +1212,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q044",
@@ -1234,7 +1240,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q045",
@@ -1545,8 +1553,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q057",
@@ -1573,8 +1581,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q058",
@@ -1601,8 +1609,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q059",
@@ -1629,8 +1637,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q060",
@@ -1657,8 +1665,8 @@
       "image_refs": [],
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
-      "topic": "Quadratic_Equation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q061",
@@ -1853,8 +1861,8 @@
       "image_refs": [],
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
-      "section": "GA",
-      "topic": "Current_Affairs"
+      "section": "Quantitative",
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q068",
@@ -1964,7 +1972,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q072",
@@ -1990,7 +2000,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q073",
@@ -2019,7 +2031,9 @@
         "stem"
       ],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     },
     {
       "q_id": "ibps_rrb_2019_prelims_c0605d17::q074",
@@ -2045,7 +2059,9 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 2,
+      "section": "Quantitative",
+      "topic": "Simplification"
     }
   ]
 }
