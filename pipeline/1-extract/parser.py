@@ -1367,6 +1367,11 @@ FONT_DIR = Path(__file__).resolve().parent / "fonts"
 # at once. SCRIPTS lists specialists in priority order; the general font
 # covers everything else (Latin, maths, card-suit/misc symbols).
 LATIN_FONTS = [
+    # Vendored and checked first: guaranteed present on every machine (dev or
+    # CI) and confirmed to cover ₹, which the real "Arial Unicode.ttf" shipped
+    # by macOS does not despite the name -- a paper quoting rupee amounts
+    # crashed render() here even though the font "was found".
+    str(FONT_DIR / "DejaVuSans.ttf"),
     "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",  # macOS, if present
     "/Library/Fonts/Arial Unicode.ttf",
     r"C:\Windows\Fonts\arial.ttf",
