@@ -169,6 +169,12 @@ jobs:
               gh pr review $PR --request-changes --body "<what is wrong>"
               gh pr review $PR --approve --body "<one sentence>"
 
+            SUBMITTING THE VERDICT IS MANDATORY. Before ending, execute one of
+            those two `gh pr review` commands even when you have no inline
+            comments. If the inline-comment tool is unavailable or denied,
+            skip the inline comment and still submit the review verdict. Never
+            finish with only a summary, a comment, or a tool-denial message.
+
             Request changes if you found anything in categories 1-7 above, or
             anything else that would break a run or ship wrong data.
 
