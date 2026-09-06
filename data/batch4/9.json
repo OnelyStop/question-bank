@@ -147,7 +147,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Tarun is 35 in 2018. Charu is 21 years apart from Tarun; the consistent older case makes Charu 56, which is older than Anko (59 is Anko's birth-year suffix/age relation) and the other listed people."
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q006",
@@ -203,7 +207,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The age and birth-year constraints give Anko the birth year 1959 in the consistent arrangement. The other listed statements do not follow from the constraints."
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q008",
@@ -231,7 +239,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The mango holder is five years older than Visakha; the consistent assignment places Monika at age 23 in 2018, hence her birth year is 1995."
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q009",
@@ -315,7 +327,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q012",
@@ -343,7 +358,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Person Item L Chair G Wallet K Bag A Perfume S Table Solutions (13-15): Input: $ F 3 6 N @ 9 K T Q 5 C % 8 B # 7 D S * H 4 W L Step I: $ F 3 6 N @ K T Q 5 C % B # D S * H 4 W L 7 8 9 Step II: $ 3 F 6 N @ K T 5 Q C % B # D S * H 4 W 7 L 8 9 Step III: $ 3 F 6 @ K T 5 Q % # D * H B C N S 4 W 7 L 8 9"
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q013",
@@ -371,7 +390,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q014",
@@ -399,7 +421,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q015",
@@ -427,7 +452,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS_PO_Mains_2018_Memory_Based_Paper_of_Reasoning_Part_1_Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "utions (16-20): Floor Flat A Flat B 3 Rooms 4 Rooms 6 Rooms 9 Rooms 8 Rooms 2 Rooms S16. Ans(c) S17. Ans(d) S18. Ans(c) S19. Ans(a) S20. Ans(d)"
     },
     {
       "q_id": "ibps_po_2018_mains_033c07c5::q016",

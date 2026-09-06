@@ -41,7 +41,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q002",
@@ -69,7 +72,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q003",
@@ -97,7 +103,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q004",
@@ -125,7 +134,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q005",
@@ -153,7 +165,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q006",
@@ -181,7 +196,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Non –biodegradable nature of plastic bag can’t be correlated with the statement because the statement does not say whether plastic is biodegradable nor non-biodegradable. Hence, I is not implicit. But II is obviously implicit. That is why the scientist uses the word ‘Beware’ in his statement before asserting the negative features of plastic."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q007",
@@ -209,7 +228,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a) may be the cause of vacant seat in the engineering colleges because due to the recession, the number of jobs available are decreasing day by day, hence the unemployment is increasing in the engineering sector. So (a) is the correct option."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q008",
@@ -237,7 +260,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (b) may be a possible effect of big pig holes developed on the roads. Direction (9-13): From the above given conditions the matrix will be--- SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q009",
@@ -265,7 +292,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "x =#C %D #A #E So, x=39 44 13 65 As it is clear that condition (2) is applicable in the above ques so the outcome will be— Outcome= 3*4*1*6=72 As the outcome is below 85, so clearly P will blink."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q010",
@@ -293,7 +324,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "X = @A @C #D %B So, X = 28 42 52 22 As it is clear that condition (1) is applicable in the above ques so the outcome will be— Outcome=28+42+52+22=144 As the outcome is 111-210, so clearly R will blink."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q011",
@@ -321,7 +356,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "X = #A%E %A @B So, X = 13 55 11 35 As it is clear that condition (3) is applicable in the above ques so the outcome will be— Outcome= 3*5*1*5= 75 As the outcome is below 85, so clearly P will blink."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q012",
@@ -349,7 +388,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "X =@A#B@D%C So, X = 28 26 49 33 As it is clear that condition (4) is applicable in the above ques so the outcome will be— Outcome= 28+26+49+33=136 As the outcome is 111-210, so clearly R will blink."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q013",
@@ -377,7 +420,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "X = @E#D@D#E So, X = 56 52 49 65 As it is clear that condition (4) is applicable in the above ques so the outcome will be— Outcome= 56+52+49+65=222 As the outcome is greater than 210, then S blink. Direction (14-18): SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q014",
@@ -405,7 +452,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q015",
@@ -433,7 +483,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q016",
@@ -461,7 +514,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q017",
@@ -489,7 +545,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q018",
@@ -517,7 +576,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (19 – 23): Only two persons are senior than A. The one who is junior than only one person likes Litchi. The one who likes Mango is senior than B. F likes Guava and is junior than B. B does not like Litchi. The one who is JE neither likes Banana nor Grapes. The one who likes Kiwi is junior than D. The one who likes Kiwi is not JE. F likes Guava and is junior than B. E does not like kiwi and junior than C but senior than F. So clearly F is JE. SBI PO Mains 2018 D does not like Litchi and also is not SE. E does not like Kiwi and junior than C but senior than F. D is junior than the one who likes Banana. C is not junior than the one who likes Grapes. The one who likes Kiwi is just junior than D. E does not like Kiwi and junior than C but senior than F. D is junior than the one who likes Banana. A does not like Banana. The one who likes Grapes is senior than the one who likes Mango. So, the final arrangement is---"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q019",
@@ -545,7 +608,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q021",
@@ -573,7 +639,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q022",
@@ -601,7 +671,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q023",
@@ -629,7 +702,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (24-28):"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q024",
@@ -657,7 +734,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q025",
@@ -685,7 +765,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q026",
@@ -713,7 +796,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q027",
@@ -741,7 +827,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q028",
@@ -769,7 +858,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Directions (29-31):"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q029",
@@ -797,7 +890,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I and III, SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q030",
@@ -825,7 +922,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I, II and III"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q031",
@@ -853,7 +954,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I and III,"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q032",
@@ -881,7 +986,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "For I- This statement supports the given statement as it describes that the authority’s report also has detailed guidelines for museums to tackle different kinds of threats as given in the statement that Disaster management systems can safeguard India’s heritage. For II- This statement supports the given statement as it describes that analysis of NDMA shows that India’s museums face lists terrorism and climate related events which is also mentioned in the given statement. For III- This statement does not support or negates the given statement as it describes that Climate related issues are not a matter of concern for Indian Heritage whereas the given statement states that India’s Disaster management systems can safeguard its’ heritage from climate changes. Direction (33-37): Let us understand the logic behind the given coding decoding Case-1: If the first letter of the code is consonant- SBI PO Mains 2018 Case-2: If the first letter of the code is vowel-"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q033",
@@ -909,7 +1018,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q034",
@@ -937,7 +1049,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q035",
@@ -965,7 +1080,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q036",
@@ -993,7 +1111,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q037",
@@ -1021,7 +1142,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q038",
@@ -1049,7 +1173,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Computer",
-      "topic": "Miscellaneous_Computer"
+      "topic": "Miscellaneous_Computer",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "It is clear from the above that statement I is the cause and II is it’s effect as this will be the cause that Infosys is planning to hire workers and for that it will hire graduates and will create talent pools will be it’s effect."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q039",
@@ -1077,7 +1205,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Computer",
-      "topic": "Miscellaneous_Computer"
+      "topic": "Miscellaneous_Computer",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "It is clear from the above statement that II is cause and I is it’s effect because the PAN has become more vulnerable that is why Aadhar has become mandatory for filing Income Tax."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q040",
@@ -1105,7 +1237,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "(i) most accurately defines term “implicit bias” as the word automatic was used which is similar to the term “unintentionally racist” used by researchers. Directions (41-45):"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q041",
@@ -1133,7 +1269,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q042",
@@ -1161,7 +1300,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q043",
@@ -1189,7 +1331,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q044",
@@ -1217,7 +1362,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q045",
@@ -1245,7 +1394,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "QUANTITATIVE APTITUDE:"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q046",
@@ -1273,7 +1426,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let Abhi and Chintu received 100x & 100y calls respectively So ATQ 80x + 80y = 360 x + y = 4.5 Total calls = 100x + 100y = 450 Abhi could receive maximum calls = 445 As Chintu resolved 80% of calls, and therefore, we will get an integer value when he atleast get 5 calls. So maximum calls that were not resolved ⇒445 × 20 100 = 89"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q047",
@@ -1301,7 +1458,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Call received by Bindu on monday = 60 × 100 = 300 Query resolved by Abhi on Monday 300 5 × 4 = 240 Calls received by Abhi on Monday ⇒240 75 × 100 = 320 48 (d); Let calls received by Bindu and Chintu on Monday be 100 x and 100 y respectively. Calls received by them on Friday 120x and 120y respectively. Now query resolved Monday → 60x + 90y Friday → 60x + 96y ATQ, 60𝑥+ 96𝑦 −60𝑥+ 90𝑦 = 30 3𝑦= 30 𝑦= 10 Required answer →10 × 20 = 200 SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q048",
@@ -1357,7 +1518,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let query resolved by Abhi, Bindu and Chintu 300x, 400 x and 200x respectively Required ratio ⇒300𝑥 80 × 100: 400 × 100 : 200𝑥× 100 15: 32: 10"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q050",
@@ -1385,7 +1550,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let call received by Chintu on Monday → 90x Query resolved by Chintu on Monday → 90x Query resolved by Chintu on Friday →90𝑥 60 × 100 = 150x Query resolved by Abhi on Friday ⇒90𝑥+ 150𝑥 ⇒240x Call received by Abhi on Friday = 240x 80 × 100 = 300x Required % = 300x −100x 100x × 100 = 200%"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q051",
@@ -1413,7 +1582,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let number of pink and Green balls is P and G respectively P + G = 16 (A) → P(P) < 0.1875 P(P) < 3 So it explains that P should be 1 or 2 (B) → we cannot conclude anything from this statement (C) →Now difference of P and G is given = 12 But we don't know which one is greater. So, By using (A) and (C) together we can answer the question. (d); Let speed of boat and stream be 𝑥 and 𝑦 respectively (𝐴) → (𝑥+ 𝑦) + (𝑥−𝑦) = 27 (B) → x + y = 45 km/hr (C) →𝑥−𝑦= 7 km/hr By using any two statements we can give answer. SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q052",
@@ -1469,7 +1642,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From statement (a) b = 1 a−5 b = a5 we can conclude that sign of both a and b is same. If a is positive, then b is greater than a. If 𝑎 is negative, then b is less than a. We can't answer question from statement (a) alone. From statement (b) a < 0 Nothing can be concluded. From statement (C) |b| > |a| There are 4 cases: (i) When b is positive and a is negative, then b > a. (ii) When a is positive and b is negative, then a > b. (iii) Again if both are positive than b > a. (iv) If both are negative than b < a. From statement (a) and (b) a< 0 Hence b < a. And we can answer question. From statement (b) and (c) We only know that a is negative and nothing about sign of b. Hence it can't be answered. From statement (a) and (c) We also can't answer. Statement (a) and (b) are sufficient to answer the question."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q054",
@@ -1497,7 +1674,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Quantity I → [(1333)27]55 Unit digit → (1333)1485 Number whose last digit is ' 3 ' has last digit change in a sequence 1 →3 2 →9 3 →7 4 →1 5 →3 SBI PO Mains 2018 And so on For 1485 → last digit →3 Quantity II - [(127)43]52 ⇒[(127)]2236 For 7 → 1 →7 2 →9 3 →3 4 →1 5 →7 For 2236 it is →1 Quantity II < Quantity I"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q055",
@@ -1525,7 +1706,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Quantity I: Let length of rectangle = L Breadth of rectangle = b Radius of circle = b Now, L × b = 2 × π (b 2) L = πb % ⇒( 𝜋 b 2 −b b ) × 100 = 4 × 100 = 57 1 7 % Quantity ll: Square get change into the rectangle. By increasing 10 cm two opposite sides, Area increase → 400 Side →400 10 = 40 cm Area of square = 40* 40 = 1600 square cm . % by which area increase →400 1600 × 100 = 25% SBI PO Mains 2018 Quantity I > Quantity II"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q056",
@@ -1553,7 +1738,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "PQ = R + Q From statement ( A ) P + R = 8 + Q R = (8 + Q – P) From Question PQ = 8 + Q – P + Q = 8 + 2Q – P It can't be solved further. From statement ( B ) Q2 = R2 P + 1 Q = R (P + 1) Now using the information from question P ( R (P + 1) ) = R + R (P + 1) On solving we will get P = 3. Put this value in equation: Q = R (P + 1) Q = R/2 Put this value and P = 3in equation given in question 3R/2 = R + R/2 Hence we can't solve it further. From statement (C) Q = P + 2 And it can't be solved further. Using information from statement (B) and (C) we can calculate Q = 5 and R = 10. Hence question can be answered. Similarly, we can answer question using statement (A) and (c) as there are three equations and three variable. (third equation given in the question can be used) SBI PO Mains 2018 Or from statement (A) and (B). Hence question can be answered from any two statements. 57(e); From A → Let selling price of 4 pens = 12x Cost price of 4 pens = 12x × 2 3 = 8x Profit earned on 4 pens = 12x – 8x = 4x Cost price of 3 books = 12x Profit earned on selling 2 pens = 2x Profit earned on selling 1 pen = x Profit earned on selling one book = 2x Profit earned on selling 2 books = 4x Required profit percentage = x + 4x 2x + 8x × 100 = 50% From B → Let selling price of 2 books and 6 pens be 12 x and 18 y respectively.. If profit % is 50 , we can calculate total profit i. e 1 3 (12x + 18y) = 4x + 6y This profit is equal to 500% of CP of 1 pen. But we don't know CP of a pen, hence we can't calculate further. From C→ let cost price of pen is ' a ' and cost price of book is ' b ' Therefore, selling price of a book is b + a. We can't calculate further. Now combining the statement B and C b + a = 6x 100 (a) = 5a = 4x + 6y We can't solve it further, as we don't know whether profit or loss earned on selling the pen. Statement ' A ' alone is sufficient to answer the question, but statement ' B ' alone is not sufficient to answer the questions. Solutions (58-62) Let total people → 100x People working in Retail stores → 72x People working in only door to door → 2x People working in only online store ⇒ 2x + 65 SBI PO Mains 2018 People working in online and door to door but not in retail = 55 Also (100x – 72x – 2x) – (2x + 65) = 55 24x – 65 = 55 24x = 120 x = 5 Total number of people working in retail store → 72 × 5 = 360 People working in only retail store →75 × 46 30 = 115"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q057",
@@ -1609,7 +1798,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Number of people working in retail store → 360 People working only in retail store = 115 Required number = 360 – 115 = 245 59 (e); Total people → 100 × 5 = 500"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q059",
@@ -1665,7 +1858,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "People working in online store Only = 75 61 (a); People working in both retail and door to door stores = 360 – 115 – 105 = 140 Required% = 140 × 100 = 28% 62 (d); People working in Retail or online store = 500 – 10 = 490 SBI PO Mains 2018 People working in only online or only retail ⇒ 75 + 115 = 190 % ⇒490 190 × 100 = 257 17 19 %"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q061",
@@ -1749,7 +1946,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Selling price of artic I ⇒ 80 × 800 = 64000 II ⇒ 160 × 600 = 96000 III ⇒ 240 × 400 = 9600 Let commission % be (a – 1), 𝑎 and ( a + 1) respectively. ATQ 64000 (a −1) + 96000(a) + 96000(a + 1) = 32000 a = 12.375% highest commission = 13.375%"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q064",
@@ -1776,7 +1977,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total commission earned by C = 35000 Rs. Total selling price of product I = 105 × 200 = 21000Rs. Total selling price of Product II = 105 × 300 = 31500 Rs. Total selling price of Product III = 105 × 400 = 42000 Rs. Let commission percent = 𝑥% (21000 + 31500 + 42000) × 𝑥 100 = 35000 = 1000 27 % 65 (a); Total commission of D = 35000 × 8 = Rs. 40000 S.P. of each product = 100 × 800 = Rs. 80000 SBI PO Mains 2018 Let commission % charged on 3 products be ( x −5 ) %, 𝑥% and (𝑥+ 5)%. So, 80000 (𝑥−5) + 80000 (𝑥) 100 + 80000 (𝑥+ 5) = 40000 2400x = 40000 𝑥= 400 24 = 100 6 % x = 16 2 3 % Least range could be = 16 −5 = 11% 16 + 6 = 22% = (11 −22) 66 (d); Let total articles = 𝑥 So S.P. = x Now total commission ⇒35000 Minimum values of 𝑥= 100 Maximum value of 𝑥= 109 Let ' 𝑎 ' be commission % So, Max value of ' 𝑎 ' could be (100 × 100) × a 100 = 35000 𝑎= 350% Minimum value could be 109 × 109 × 𝑎 100 = 35000 ÷ 294.5 Range = (294 - 350)"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q065",
@@ -1860,7 +2065,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total population in X and Z is 16000 and 12800 Population in Y ⇒ × 5 = 20,000 Cycle manufactured by A, B and C = 16000 + 12800 + 20000 = 48800 Total cycle manufacture by By A = 48800 × 22 = 17600 SBI PO Mains 2018 By B = 48800 × 19 = 15200 By C = 48800 × 20 = 16000 Cycle supplied by A = 60 100 × 17600 = 10560 By B = 75 100 × 15200 = 11400 By C = 80 100 × 16000 = 12800 Cycle supplied in Y = 10560 + 11400 + 12800 - 16000 - 12800 = 5960 Revenue = 8000 × 5960 = 47680000 = 4.768 cr."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q068",
@@ -1888,7 +2097,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total revenue = 9.6 cr Total cycle supplied = Revenue 9.6 cr 8000 = 12000 Cycles supplied by C = (12000/3) = 4000 Cycles supplied by C = 12000 = 4000 Total profit = 4000 × (8000 - 6000) = 80 lakh"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q069",
@@ -1916,7 +2129,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total cycles manufactured by A = 17600 Total cycles manufactured by C = 16000 Cycle remained with A = 17600 - 10560 = 7040 Cycle remained with C = 16000 - 12800 = 3200 Cycles delivered by manufacturer A or number of cycles demanded from manufacturer A = (50 × 7040)/100 = 3520 Similarly, New number of supplied by C = 3200 × 10 = 320 Total revenue of A and C = (10560 + 3520 + 12800 + 320) × 8000 = 21.76 crore. Total manufacturing cost by A and C = (17600 + 16000) × 6000 = 20.16 cr. Required % = 21.76 20.16 × 100 = 107%"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q070",
@@ -1944,7 +2161,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Bill paid by Rahul in year 2015 SBI PO Mains 2018 = (1200 + 1400) × 125 100 = Rs 1625 Amount paid by him in FD = 1200 × 2 = Rs 2400 Required difference = 2400 - 1625 = Rs. 775"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q071",
@@ -1972,7 +2193,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total amount paid by Rahul on Food in year 2011 and 2012 together = 1000 + 1400 = Rs 2400 Total amount paid by him on shopping1 in same year together = 1200 + 1000 = Rs Required percentage = 2400 −2200 × 100 = 9 1 11 %"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q072",
@@ -2000,7 +2225,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Amount paid by Rahul on Rent in year 2010 = 1 5 [800 + 1000 + 1200 + 1000] = 1 5 [4000] = Rs 800 = Required ratio = 800 1000 = 4: 5"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q073",
@@ -2028,7 +2257,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Amount paid by Rahul on Bill in 2015 = 1200 × 3 = Rs1800 Required difference = 1800 × 3 = Rs 2700 Required difference = (1800/2) × 3 = Rs 2700"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q074",
@@ -2056,7 +2289,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Average amount paid by Rahul in FD, Rent and Food in year 2012 = 800 + 1000 + 1400 = Rs 3200 Average amount paid by Rahul on Shopping, Rent and Bill in year 2013 600 + 1200 + 1200 = Rs 3200 = Rs1000 Required percenteage 3200 3000 × 100 = 106 2 3 % SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q075",
@@ -2084,7 +2321,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Quantity I: 1 man = 2 women ∴ 8 men + 4 women = 20 women 4 men + 8 women = 16 women 20 women′s 2 days′ work = 2 6 = 1 3 part Remaining work = 1– 1 3 = 2 Remaining work = 1 - ⅙ = ⅚ ∵ 20 women complete 1 work in 6 days ∴16 women will do 2 3 work in 20 × 6 × 2 3 = 5 days Quantity II: 5 days ⇒ Quantity I = Quantity II"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q076",
@@ -2112,7 +2353,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the speed of X be x kmph. Distance travelled by X in 2 hours = 2x km. Suppose X takes 't' hours to travel 5th of the distance AB. Y would take (t-2) hours to travel 5 th of the distance AB. As Y's speed is thrice that of X's speed. t– 2 t = 1 t = 3 1th 5 of the distance AB = 3x km. AB = 15x km Time taken by x to cover 15𝑥 𝑥 = 15 hours Time taken by Y to cove 15𝑥 𝑥5 hours Difference in the time = 10 hours. Quantity I: Difference in the time = 10 hours. Quantity II: 12 hours Quantity I < Quantity II SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q077",
@@ -2140,7 +2385,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "After 20% of the contents of the vessel are removed, Remaining contents1 = 100 × 12.5 = 10 litres. Ratio of water and milk in it = 1:4. It contains 5(10) = 8 litres of milk and 2 litres of water. To reverse the ratio, 2 litres of water must be made 32 litres. ∴ x = 30 litres of water must be added. To reverse this ratio again 8 litres of milk must be made 4(32) = 128 litres. ∴ y = 128 – 8 = 120 litres of milk must be added. Quantity I: ‘y’ = 120 litres Quantity II: ‘x’ = 30 litres Quantity I > Quantity II Direction (78-80): Let investment of Rahul, Sandy and Sati be 2x, 3x and 4x respectively. Ratio of profit ATQ, 50𝑥 128𝑥+ 5600 = 125 ⇒ x = 250 Ratio of profit share of Rahul, Sandy, and Sati is 1100 : 24000 : 12500 → 11 : 240 : 125"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q078",
@@ -2168,7 +2417,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required percentage = 240 376 × 100 = 63.829% ≃ 64%"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q079",
@@ -2196,7 +2449,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required difference = 240– 11 × 37600 = 22,900 SBI PO Mains 2018 22,900"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q080",
@@ -2223,7 +2480,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Investment of Veer = 4 × 250 × 350 100 = 3500 Interest earned by Veer = 3500 [1 + 20 100] – 3500 = 1540 ENGLISH LANGUAGE"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q081",
@@ -2251,7 +2512,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Though the economic lucrativeness of innovation is described in the whole passage through the idea of success of business but being specific the answer can be derived from the first paragraph of the passage where it is mentioned that innovation is a process of turning a creative idea into reality. Innovation drives economic growth. \". Innovation is not only important on the individual level, but can make or break a business as well.\""
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q082",
@@ -2278,7 +2543,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "Both the options (b) and (c) are correct. Refer to paragraph 2 where it is given that if a business is not innovative, companies risk losing work to competitors. Furthermore the text is also quoted as, \"Lack of innovation also has indirect results such as losing staff and decreasing engagement.\" Thus innovation cannot be an afterthought but rather a crucial element that is included in part of your strategy. Hence option (e) is the correct choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q083",
@@ -2305,7 +2573,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Options (a) and (b) are the statements which infer the meaning that has been asked in the given question. Refer to the third paragraph where the starting line of the paragraph itself is, \"The era of invention is not over, but it has definitely been pushed aside for an era of innovation.\" It is also given that businesses have discovered that innovation seems to not only trump invention in furthering a company's brand and profitability, but it can be far cheaper when all the framework is already1 completed. SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q084",
@@ -2333,7 +2605,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate answer here is option (c). Refer to the last paragraph of the passage where it is given Sony's influence in the technology market is through creativity and perseverance. Furthermore in the third paragraph it is mentioned that businesses like Apple and Sony choose to innovate rather than invent. The text is quoted as, \"Sony shows corporations that for a business to thrive in today's market, a company cannot stay stagnant with on particular item - innovations are essential. Innovation drives economic growth.\""
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q085",
@@ -2361,7 +2637,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a) articulates statement (A) in the most precise manner. To understand the given statement, hint from the following statement can be drawn \"Innovation is not only important on the individual level, but can make or break a business as well\" which explains the importance of innovations in a business. Therefore, one should be careful enough while developing a successful and worthy innovation. Thus, option (a) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q086",
@@ -2389,7 +2669,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (c) can be aptly inferred from the sentence [B] as the idiom \"to color outside the lines\" means to think or act in a way that does not conform to set rules. Therefore, in context to the passage it can be understood that innovations play a vital role in surviving the business in the dynamic market. Therefore, the businessmen try to introduce new innovations even though it bears risks for the business. Hence, option (c) is the most suitable answer choice.1"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q087",
@@ -2417,7 +2701,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (b) is the most appropriate sentence to replace the grammatically incorrect statement [C]. It is to be noted that determiners are words placed in front of a noun to make it clear what the noun refers to. Here, since the associated noun is singular [The era], the determiner [it] and the verb [has] should be in their singular form as well. Moreover, option (a) stands incorrect due to improper usage of the preposition \"to\". Hence, option (b) becomes the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q088",
@@ -2445,7 +2733,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Mains 2018 The statement clearly mentions the driving factor for innovation i.e. customer satisfaction [...based on the needs and desires of the consumer]. All the other options are irrelevant. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q089",
@@ -2473,7 +2765,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The only correct answer here is option (c). Refer to paragraph 1 where it is mentioned that Maharashtra's appellate authority for advance ruling (AAAR) has held that solar power projects are liable to 18% goods and services tax (GST) and not at the lower rate of 5% as claimed by power producers. Thus, this issue seems to be headed for a prolonged legal battle unless the government decides to step in and issue clarity on the taxability on solar power projects. This statement also makes option (a) wrong making suitability of option (c) correct."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q090",
@@ -2501,7 +2797,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Only option (d) is the most suitable choice. Refer to paragraph 1 where it is given that government proposal to levy safeguard duty on imported solar panels that is meant to support domestic panel manufacturers is another factor that has brought some uncertainty to solar power project developers."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q091",
@@ -2529,7 +2829,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (c) is the correct choice here. The answer can be deduced from the paragraph 2 where the text is quoted directly as, \"The AAARS have held that setting up of solar projects are covered under the classification of works contract as they consist of supply of goods and services packaged into an immovable property.\" They held that because of this, these projects are liable to be taxed at 18% that applies to works contracts."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q092",
@@ -2557,7 +2861,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The appropriate answer here is option (d). Refer to the third paragraph where it is given that over years, massive fluctuations have been observed in the prices and availability of coal which led to high litigation cost and increase in the power rate due to which several projects were landed in debt trap. Hence industry executives fear that the same could happen in the solar sector if there is no stability on tariff and clarity1 on regulations. SBI PO Mains 2018"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q093",
@@ -2585,7 +2893,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the last paragraph where it is given that the intense competition in recent years has driven down the solar power tariff as discovered in the solar project auctions. Furthermore, the text is highlighted as, \"The factors that helped producers to bid projects aggressively include the lower price of imported solar panels and efficient financial structuring of projects.\""
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q094",
@@ -2613,7 +2925,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The given statement1 [A] is grammatically correct and contextually meaningful. Hence, it does not require any corrections. Therefore, option (e) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q095",
@@ -2641,7 +2957,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The given statement [B] judges the future of the solar project industry by finding its similarities with the coal power industry in the policy formulation. Since, option (a) provides information on the instability of the tariff and cost in solar industry just like coal power industry, it strengthens the given statement. All the options are irrelevant in context of statement [B]. Hence, option (a) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q096",
@@ -2669,7 +2989,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate clause that will complete the sentence to frame it in a correct contextual and grammatical manner is \"for at least three years and five years respectively, against the existing norm of one year\". The sentence is describing about the Supreme Court directive to make the owners of new car and two wheeler purchase Insurance covers. Since, it's a new directive, option (d) perfectly fits the blank as it describes the earlier as well as the improvised time period for which the insurance must be covered. All the other options are incoherent to the context of the sentence. Hence, option2 (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q097",
@@ -2697,7 +3021,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate clause that will complete the paragraph is \"92% of the people belonging to the community are subjected to economic exclusion.\" The paragraph is describing about a survey conducted of the transgender community by the NHRC. Since the previous clause mentions \"...found that\", the latter part must express the SBI PO Mains 2018 outcome or the findings of the survey. This rationale is satisfied by only option (b). Options (a) and (c) are contextually incorrect while option (d) is grammatically incorrect. Therefore, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q098",
@@ -2725,7 +3053,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate clause that will complete the paragraph is option (a) \"as reported by the media recently, has escalated the contention\" as the initial part of the paragraph has mentioned about the accumulated unfilled jobs in the public sector. Part (A) of the paragraph acts as a cause for the effect mentioned in option (a). All the other options are either grammatically incorrect or contextually meaningless. Hence, option (a) is the most suitable answer choice.3"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q099",
@@ -2753,7 +3085,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate clause that fills the blank of the paragraph is option (c) \"Emerging market economies continue to be in the spotlight for the wrong reasons\" as it acts as a perfect introduction for the paragraph. The paragraph is pointing out the devaluation of the rupee against the dollar; therefore, option (c) will aptly introduce the paragraph stating the fall of emerging market economies. However, option (a) and (d) are contextually meaningless, while, option (b) is grammatically incorrect. Hence, option (c) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q100",
@@ -2781,7 +3117,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate phrase that completes the paragraph coherently is \"is vulnerable to several natural hazards\", as the paragraph is describing about the about the geographical characteristics of Kerala which makes it vulnerable foe several natural hazards. The latter part of the paragraph already states the hazards that are prone to Kerala, therefore, the phrase \"is vulnerable to several natural hazards\" aptly fits in the blank. All the other phrases are irrelevant to the context of the sentence. Hence, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q101",
@@ -2809,7 +3149,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "All the three starters can be used to frame a meaningful sentence without altering the intended meaning of the given sentences.1 Hence option (e) is the correct choice..2 (1) Given how unmanned or remotely piloted aircraft, commonly known as drones, hold immense promise for various commercial applications, the government has SBI PO Mains 2018 done well to set up a regulatory framework for drone operations, including commercial use. (ii) Since unmanned or remotely piloted aircraft, commonly known as drones, hold immense promise for various commercial applications, the government has done well to set up a regulatory framework for drone operations, including commercial use. (iii) Provided that unmanned or remotely piloted aircraft, commonly known as drones, hold immense promise for various commercial applications, the government has done well to set up a regulatory framework for drone operations, including commercial use."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q102",
@@ -2837,7 +3181,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Only starter (i) can be used to frame a meaningful sentence without altering the exact meaning of the given sentences. However, it is not possible to construct a contextual sentence using the third and second starter as they would alter the intended meaning. Hence option (a) is the correct choice.3 (1) Convincing people to buy insurance for the expected life of the vehicle at the time of purchase, as in the case of road tax, interferes with the need to set premium based on data relating to safety and diligence of the driver, which would change4 over time."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q103",
@@ -2865,7 +3213,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Both the starters (i) and (ii) can be used to frame a meaningful sentence without altering the exact meaning of the given sentences. However, it is not1 possible to construct a contextual sentence using the third starter as it would alter the intended meaning. Hence option (d) is the correct choice.2 (1) Unless the country finds viable and sustainable replacements for its energy needs, international oil price movements will continue to be an important fault line in India's political economy. (ii) Except that the country finds viable and sustainable replacements for its energy needs, international oil price movements will continue to be an important fault line in India's political economy."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q104",
@@ -2892,7 +3244,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate set of words that fills the blanks of the paragraph is \"diversity, subsumed, legitimacy\". \"diversity\" provides the precise context as it SBI PO Mains 2018 means a range of different things. Moreover, 'subsumed' means include or absorb (something) in something else; while 'legitimacy' means conformity to the law or to rules. All the other words are incoherent and fail to make the paragraph comprehensive. Hence, option (b) is the most suitable3 answer choice. Socialism means a political and economic theory of social organization which advocates that the means of production, distribution, and exchange should be owned or regulated by the community as a whole.4 Invigorated means give strength or energy to. Astuteness means of keen penetration or discernment; sagacious: an astute analysis. clever; cunning; ingenious; shrewd"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q105",
@@ -2920,7 +3276,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate set of words that fills the blanks of the paragraph is \"ferrying, probe, glitch\". \"Ferrying\" provides the precise context as it means transport from one place to another on short or regular trips. Moreover, 'probe' means a thorough investigation into a crime or other matter; while 'Glitch' means a sudden, usually temporary malfunction or fault of equipment. All the other words are incoherent and fail to make the paragraph comprehensive. Hence, option (d) is the most suitable answer choice. Gremlin means an imaginary mischievous sprite regarded as responsible for an unexplained mechanical or electronic problem or fault. Barging means move forcefully or roughly."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q106",
@@ -2948,7 +3308,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate set of words that fills the blanks of the paragraph is \"contemporary, supplanting, disconcerting\". \"Contemporary\" provides the precise context as it means belonging to or occurring in the present. Moreover, 'supplanting' means supersede and replace; while5 'Disconcerting' means causing one to feel unsettled. All the other words are incoherent and fail to make the paragraph comprehensive. Hence, option (c) is the most suitable answer choice. Posterior means coming after in time or order, later Superseding means take the place of (a person or thing previously in authority or use); supplant. Bewildering means confusing or perplexing."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q107",
@@ -2976,7 +3340,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The most appropriate set of words that fills the blanks of the paragraph is \"interdicted, consolation, prosecutorial\". \"interdicted\" provides the precise context SBI PO Mains 2018 as it means prohibit or forbid (something). Moreover, 'consolation' means the comfort received by a person after a loss or disappointment; while 'prosecutorial means relating to the institution and conducting of legal proceedings against someone in respect of a criminal charge. All the other words are incoherent and fail to make the paragraph comprehensive. Hence, option (d) is the most suitable answer choice. Disdain means the feeling that someone or something is unworthy of one's consideration or respect. Legitimate means conforming to the law or to rules. Suppressed means forcibly put an end to."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q108",
@@ -3004,7 +3372,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Drawing a hint from the fourth sentence of the rearranged paragraph, it can be understood that it is describing about a study which reveals the data reflecting the increased pollution in the rivers in the entire nation. It further mentions about the problems associated in controlling pollution. It should be noted that statement (B) appropriately introduces the paragraph by providing the data about the increase in the segments of river pollution. Statement (D) follows statement (B) as it mentions about the data mentioned in the previous statement indicating that the laws have not been implemented properly. Sentence (F) begins with the phrase \"The study also...\" which indicates that in the previous sentence the study has been mentioned. Hence it should follow sentence (D). Sentence (A) is the fourth sentence of the rearranged paragraph. Next is sentence (E) as it logically connects with sentence (A). Sentence (C) stands as the concluding part of the rearranged paragraph. The phrase in the statement (C) \"It is notable that these results...\" provides a clue for the conclusion of the paragraph. Hence, the logical sequence thus formed is, BDFAEC. Since, statement (D) is the second sentence in the rearranged paragraph, option (d) becomes the most suitable answer choice.1 109 (b); Drawing a hint from the fourth sentence of the rearranged paragraph, it can be understood that it is describing about a study which reveals the data reflecting the increased pollution in the rivers in the entire nation. It further mentions about the problems associated in controlling pollution. It should be noted that statement (B) appropriately introduces the paragraph by providing the data about the increase in the segments of river pollution. Statement SBI PO Mains 2018 (D) follows statement (B) as it mentions about the data mentioned in the previous statement indicating that the laws have not been implemented properly. Sentence (F) begins with the phrase \"The study also...\" which indicates that in the previous sentence the study has been mentioned. Hence it should follow sentence (D). Sentence (A) is the fourth sentence of the rearranged paragraph. Next is sentence (E) as it logically connects with sentence (A). Sentence (C) stands as the concluding part of the rearranged paragraph. The phrase in the statement (C) \"It is notable that these results...\" provides a clue for the conclusion of the paragraph. Hence, the logical sequence thus formed is, BDFAEC. Since, statement (C) is the last sentence in the rearranged paragraph, option (b) becomes the most suitable answer choice. 110 (e); Drawing a hint from the fourth sentence of the rearranged paragraph, it can be understood that it is describing about a study which reveals the data reflecting the increased pollution in the rivers in the entire nation. It further mentions about the problems associated in controlling pollution. It should be noted that statement (B) appropriately introduces the paragraph by providing the data about the increase in the segments of river pollution. Statement (D) follows statement (B) as it mentions about the data mentioned in the previous statement indicating that the laws have not been implemented properly. Since, statements (B) and (D) forms a perfect pair, option (e) becomes the most suitable answer choice."
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q109",
@@ -3088,7 +3460,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Salubrious means (of a place) pleasant; not run-1 down while Salutary means (especially with reference to something unwelcome or unpleasant) producing good effects; beneficial. Since they both are synonyms of each other, option (d) becomes the most suitable answer choice. Exorbitant means (of a price or amount charged) unreasonably high. Quandary means a state of perplexity or uncertainty over what to do in a difficult situation. Enigma means a person or thing that is mysterious or difficult to understand.2"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q112",
@@ -3116,7 +3492,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "topic": "Data_Interpretation",
-      "section": "Quantitative"
+      "section": "Quantitative",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "CAMOUFLAGE means hide or disguise the presence of (a person, animal, or object) by means of camouflage while CANDID means truthful and straightforward; frank. SBI PO Mains 2018 Since, they both are antonyms of each other; option (e) is the most suitable answer choice. Debunk means expose the falseness or hollowness of (an idea or belief). Indignant means feeling or showing anger or annoyance at what is perceived as unfair treatment.. Vapid means offering nothing that is stimulating or challenging; bland."
     }
   ]
 }

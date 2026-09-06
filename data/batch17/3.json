@@ -37,7 +37,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total males in city A in 2023 = 200 × 8 = 75 Total females in city A in 2023 = 200 -75 = 125 Total number of females in city A in 2024 = 2 × 125 = 250 Total number of males in city A in 2024 = 550 – 250 = 300 Required difference = 300 – 75 = 225"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q002",
@@ -65,7 +69,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total population in city E in 2023 = 100 × 350 = 420 Total population in city E in 2024 = 1080 – 420 = 660"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q003",
@@ -93,7 +101,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The total population in city B in 2022 = 100 × 450+550 = 450 Required ratio = 450 : 850 = 9 : 17"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q004",
@@ -121,7 +133,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total males in city D in 2023 = 100 × 700 = 420 Total females in city D in 2023 = 850 – 420 = 430 Total number of males in city D in 2024 = 2 = 210 Total females in city D in 2024 = 300 – 210 = 90 Total number of females in city D in 2023 and 2024 together = 430 + 90 = 520"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q005",
@@ -149,7 +165,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total population in city C in 2020 = 100 × 200 = 150 Total number of females in city C in 2020 = 150 × 100 = 105 Required percentage = 300 × 100 = 35%"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q006",
@@ -177,7 +197,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total literate population in cities D in 2023 = 17 × 850 = 550 Total illiterate population in cities D in 2023 = 850 – 550 = 300 Total illiterate population in cities B in 2023 = 5 × 350 = 210 Total literate population in cities B in 2023 = 350 – 210 = 140 Required difference = (550 + 140) – (300 + 210) = 690 – 510 = 180 Solutions (7-10): Let the number of girls in B be 4x The number of boys in A = 4𝑥× 100 = 3𝑥 The number of girls in A = 4x + 5 The number of girls in C is 2.2 times more than the total number of boys in C. Let total number of boys in C be ‘y’ So, total number of girls in C = y + 2.2y = 3.2y The number of girls in C = 2 × 4𝑥= 8𝑥 The number of boys in C = 8𝑥 3.2𝑦× 𝑦= 2.5𝑥 The number of boys in B = 25 + 4x + 5 = 4x + 30 Given, 3x + (4x + 5) + (4x + 30) + 4x + 2.5x + 8x = 290 25.5x = 255 x = 10 Colleges Boys Girls Total A B C Total"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q007",
@@ -205,7 +229,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required difference = (40 + 80) - (30 + 70) = 120 – 100 = 20"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q008",
@@ -233,7 +261,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 105 × 100 = 28 7 % = 28.57%"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q009",
@@ -261,7 +293,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 45 : 25 = 9 : 5"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q010",
@@ -289,7 +325,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The total number of students in D = 100 × 75 = 90 Total number of boys in D = 25 × 5 = 35 Total number of girls in D = 90 – 35 = 55"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q011",
@@ -317,7 +357,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information Given in the Question: Jar A: Milk : Water = 8 : 7 Jar B: Milk : Water = 5 : 8 Water in Jar B = Water in Jar A – 3 liters In final mixture: Milk = Water – 7 liters We need to find: Final quantity of water in the mixture Detailed Explanation: Let the quantity of Jar A = 15x (since 8 + 7 = 15 parts) Milk in A = 8x Water in A = 7x Let the quantity of Jar B = 13y (since 5 + 8 = 13 parts) Milk in B = 5y Water in B = 8y Given: Water in B = Water in A – 3 => 8y = 7x – 3 → (Equation 1) After mixing both jars: Total Milk = 8x + 5y Total Water = 7x + 8y Given: Total Milk = Total Water – 7 => 8x + 5y = 7x + 8y – 7 → (Equation 2) Solving Equation 2: 8x + 5y = 7x + 8y – 7 8x – 7x + 5y – 8y = –7 x – 3y = –7 → (Equation 3) Now solve Equations 1 and 3: From (3): x = 3y – 7 Substitute in (1): 8y = 7(3y – 7) – 3 8y = 21y – 49 – 3 8y = 21y – 52 52 = 13y y = 4 Substitute back to find x: x = 3(4) – 7 = 5 Now calculate total water: Water in Jar A = 7x = 7 × 5 = 35 L Water in Jar B = 8y = 8 × 4 = 32 L Total Water = 35 + 32 = 67 liters"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q012",
@@ -345,7 +389,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. 6x² – 17x + 10 = 0 6x² – 12x – 5x + 10 = 0 6x (x – 2) – 5 (x – 2) = 0 x = 2, 5/6 II. 5y² – 28y + 15 = 0 5y² – 25y – 3y + 15 = 0 5y (y – 5) – 3(y – 5) = 0 y = 5, ⅗ ∴ No relation"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q013",
@@ -373,7 +421,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. 3x² − 5x −2 = 0 3x² − 6x + x −2 = 0 3x(x − 2) + 1(x − 2) = 0 (x − 2) (3x + 1) = 0 x = 2, −1 II. 10y² + 7y + 1 = 0 10y² + 5y + 2y + 1 = 0 5y (2y + 1) + 1 (2y + 1) = 0 y = – 2, −1 No relation"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q014",
@@ -401,7 +453,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. 6x²–40x + 66 = 0 ⇒ 6x²–22x–18x+66=0 ⇒ 2x (3x–11)–6(3x–11) =0 ⇒ (2x–6) (3x–11) =0 x = 3 or II. 14y²–58y+60=0 ⇒ 14y²–28y–30y+60=0 ⇒ 14y(y–2)–30(y–2) =0 ⇒ (14y–30) (y–2) =0 y = 7 or 2 x > y"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q015",
@@ -429,7 +485,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "100 × 80 × 100 × 250 −424 = ? + 52 × 8 1400 – 424 = ? + 416 ? = 560"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q016",
@@ -457,7 +517,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "45 × 65 × 312 + 361 = ?² + 11 × 32 577 = ?² + 352 ? = (225) ? = 15"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q017",
@@ -485,7 +549,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? 100 × (1131– 502–241–188) = 60 ? 100 × 200 = 60 ? = ? = 30"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q018",
@@ -513,7 +581,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? – 554– 100 × 43 = 36 × 41 ? –554 – 75 = 4 ? = 4 + 629 ? = 633 Solutions (19-24): Total students visiting on Monday from A and B = 52×2=104 Total students visiting on Tuesday from A and B = 44×2=88 Total students visiting on Wednesday from A and B = 60×2=120 Total students visiting on Thursday from A and B = 40×2=80 Total students visiting on Friday from A and B = 48×2=96 According to note A+B = 104 and B = 16 + A Solving above we get B = 60 and A = 44 students visiting school on Monday to Friday from B is 10x, 3x, 5x, 4x and 6x 10x = 60 6 = x students visiting school on Monday to Friday from B is 60, 18, 30, 24 and 36 students visiting school on Monday from A = 104 – 60 students visiting school on Tuesday from A = 88 – 18 = 70 students visiting school on Wednesday from A = 120 – 30= 90 students visiting school on Thursday from A = 80 – 24 = 56 students visiting school on Friday from A = 96 – 36 = 60 Days Total A B Monday Tuesday Wednesday Thursday Friday Total 320 168"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q019",
@@ -541,7 +613,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "boy and girls visiting from A is be 6x and 5x. 11x = 44 4 = x boys visiting from B on Friday = 6x = 24 Girls visiting from B on Friday =36- 24 = 12 Required answer = 90 × 100 = 13.33%"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q020",
@@ -569,7 +645,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total students in C = 120% of (60+24+36/3) =48 Total students in D = 48× 3 = 80"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q021",
@@ -597,7 +677,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 5 = 33.6"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q022",
@@ -625,7 +709,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Kho-kho:hockey = 125:100 = 5:4= 5m:4m 9m = 90 10 = m Students participated in hockey = 4m = 40 Required answer = 80 - 40 = 40"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q023",
@@ -653,7 +741,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 44−36 × 100 = 22.22%"
     },
     {
       "q_id": "sbi_clerk_2025_mains_850372b6::q024",
@@ -681,7 +773,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total students not visiting on Monday from A = 80 × 44 = 11 Total students not visiting on Friday from B = 100−55 × 36 = 44 Required answer = 11+44 = 55"
     }
   ]
 }

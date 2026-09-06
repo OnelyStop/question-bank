@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q003",
@@ -93,7 +99,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Directions (4-8): Sol."
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q004",
@@ -121,7 +131,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q005",
@@ -149,7 +162,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q006",
@@ -177,7 +193,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q007",
@@ -205,7 +224,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q008",
@@ -233,7 +255,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Directions (9-13):"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q009",
@@ -261,7 +287,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: APE MEK SIP CUP HBN After: CAPE CMEK CSIP CCUP CHBN"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q010",
@@ -289,7 +319,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: APE MEK SIP CUP HBN After: AEP EKM IPS CPU BHN Three"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q011",
@@ -317,7 +351,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: APE MEK SIP CUP HBN After: AQE NEL TIQ DUQ ICO Two"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q012",
@@ -345,7 +383,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Order_Ranking"
+      "topic": "Order_Ranking",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: APE MEK SIP CUP HBN After: APE CUP HBN MEK SIP"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q013",
@@ -373,7 +415,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: APE MEK SIP CUP HBN After: PEA MKE SPI UPC NHB"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q014",
@@ -401,7 +447,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Two pairs are formed. Directions (15-17):"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q015",
@@ -429,7 +479,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. L ≤ O (False) II. J > N (False)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q016",
@@ -457,7 +511,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. B ≤ F (False) II. E < G (True)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q017",
@@ -485,7 +543,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. S < W (True) II. W ≥ T (True) Directions (18-20): Sol."
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q018",
@@ -513,7 +575,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q019",
@@ -541,7 +606,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q020",
@@ -569,7 +637,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Directions (21-25): Sol. Floor Flat P Flat Q F A B C D E"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q021",
@@ -597,7 +669,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q022",
@@ -625,7 +700,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q023",
@@ -653,7 +731,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q024",
@@ -681,7 +762,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q025",
@@ -709,7 +793,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Directions (26-28): Sol."
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q026",
@@ -737,7 +825,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q027",
@@ -765,7 +856,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q028",
@@ -793,7 +887,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q029",
@@ -821,7 +918,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "628651924 – 986654221 6+5+2 = 13"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q030",
@@ -849,7 +950,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "OPEN, PEON Directions (31-35):"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q031",
@@ -877,7 +982,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "7th element from right = 7, 5th to the left of 7 = @"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q032",
@@ -905,7 +1014,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "4 + 0 + 7 + 3 + 5 + 8 = 27"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q033",
@@ -933,7 +1046,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "5th digit from right end = 0, 4th symbol from left of 0 = &"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q034",
@@ -961,7 +1078,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q035",
@@ -989,7 +1109,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "5 8 %, 3 7 #, 9 2 *, 3 5 & Directions (36-40): Sol. Days Persons Monday F Tuesday B Wednesday A Thursday G Friday D Saturday E Sunday C"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q036",
@@ -1017,7 +1141,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q037",
@@ -1045,7 +1172,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q038",
@@ -1073,7 +1203,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q039",
@@ -1101,7 +1234,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q040",
@@ -1129,7 +1265,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q041",
@@ -1157,7 +1296,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 98+78 = 88"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q042",
@@ -1185,7 +1328,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 82 – 60 = 22"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q043",
@@ -1213,7 +1360,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 55+45 × 100 = 90%"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q044",
@@ -1241,7 +1392,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Defective items = 6 × 60 = 10 Non-defective items = 6 × 60 = 50 Required answer = 50 – 10 = 40"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q045",
@@ -1269,7 +1424,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = (78+55+90)- (45+60+82) = 223 – 187 = 36"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q046",
@@ -1297,7 +1456,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 144 +84 : 72 = 228:72 = 19:6"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q047",
@@ -1325,7 +1488,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Bottles sold by C = 150% of 84 = 126 Required answer = (126-120)/120 × 100 = 5%"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q048",
@@ -1353,7 +1520,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 120+72 × 100 = 400%"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q049",
@@ -1381,7 +1552,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Blue bags sold by A = 144 – 55 = 89 Required answer = 89 – 72 = 17"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q050",
@@ -1409,7 +1584,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 144+48+72 = 88 S51. Ans (b) Sol. Information Given in the Question: Equal amounts invested in Scheme X and Scheme Y Scheme X: 10% p.a. simple interest for 3 years Scheme Y: 6% p.a. simple interest for 3 years Total interest earned = Rs 4,800 Concept/Formula Used in the Question: Simple Interest (SI) = (P × R × T) / 100 Let investment in each scheme = Rs P Total interest = Interest from X + Interest from Y Detailed Explanation: Let the amount invested in each scheme = Rs P Interest from Scheme X = (𝑃 × 10 × 3) = 30𝑃 100 = 0.3𝑃 Interest from Scheme Y = (𝑃 × 6 × 3) = 18𝑃 100 = 0.18𝑃 Total interest = 0.3P + 0.18P = 0.48P Given, 0.48P = 4800 => P = 4800 / 0.48 => P = 10,000 S52. Ans (b) Sol. Information Given in the Question: Total investment = Rs 6000 Riya and Meena invested together: Riya = R, Meena = (6000 - R) Meena withdrew her capital after 6 months Profit-sharing ratio at the end of the year = 1 : 1 (equal) Concept/Formula Used in the Question: Profit sharing in a partnership depends on: Investment × Time Riya’s profit share = R × 12 Meena’s profit share = (6000 – R) × 6 Detailed Explanation: Riya’s capital is for 12 months: Riya’s share = R × 12 = 12R Meena’s capital is for 6 months: Meena’s share = (6000 – R) × 6 = 6(6000 – R) Since profit shares are equal: 12R = 6(6000 – R) Divide both sides by 6: 2R = 6000 – R => 2R + R = 6000 => 3R = 6000 => R = 2000 S53. Ans (a) Sol. Information Given in the Question: Time to cross the platform = 24 seconds Length of platform = Length of train + 80 meters Concept/Formula Used in the Question: Distance = Speed × Time When a train crosses a platform, the distance = length of train + length of platform Let train length = L meters, then platform = L + 80 meters Total distance = L + (L + 80) = 2L + 80 Detailed Explanation: Speed of train = = 90 × 18 = 25 m/s Time = 24 seconds So, Distance = Speed × Time = 25 × 24 = 600 meters Now, 2L + 80 = 600 => 2L = 600 – 80 = 520 => L = 520 / 2 = 260 meters S54. Ans (c) Sol. Information Given in the Question: Income ratio (Rohit : Amit) = 4 : 5 Rohit spends: 25% on rent 20% of remaining on groceries 15% of remaining on transport Rohit's savings = Rs 9,180 Detailed Explanation: Let Rohit’s income = 4x Rent 25% of 4x = (25/100) × 4x = x Remaining = 4x – x = 3x Groceries 20% of 3x = (20/100) × 3x = 0.6x Remaining = 3x – 0.6x = 2.4x Transport 15% of 2.4x = (15/100) × 2.4x = 0.36x Remaining (i.e., Savings) = 2.4x – 0.36x = 2.04x Given: 2.04x = 9180 ⇒ x = 9180 / 2.04 = 4500 So, Amit’s income = 5x = 5 × 4500 = Rs 22,500 S55. Ans (e) Sol. Information Given in the Question: Present age of Karan = 25 years Arjun’s age + Karan’s age = Montu’s present age 4 years ago: Arjun’s age = ½ × Montu’s age Required: Montu’s age 1 year from now Concept/Formula Used in the Question: Let Arjun’s present age = A Montu’s present age = A + 25 4 years ago: Arjun = A – 4 Montu = A + 25 – 4 = A + 21 Condition: A – 4 = ½ × (A + 21) Detailed Explanation: From the equation: A – 4 = 1/2(A + 21): 2A – 8 = A + 21 ⇒ 2A – A = 21 + 8 ⇒ A = 29 So, Arjun’s age = 29 Montu’s present age = Arjun + Karan = 29 + 25 = 54 Montu’s age after 1 year = 54 + 1 = 55 years S56. Ans (a) Sol. Information Given in the Question: P’s time to complete work = 18 days Q’s time to complete work = 27 days P + Q + R together finish work in 9 days Need to find R’s individual time to complete the work Detailed Explanation: Let total work = 54 units P’s 1 day work = 54 / 18 = 3 units Q’s 1 day work = 54 / 27 = 2 units P + Q = 3 + 2 = 5 units/day P + Q + R together = 54 / 9 = 6 units/day So, R’s 1 day work = 6 – 5 = 1 unit/day Therefore, R alone would take = 54 / 1 = 54 days S57. Ans (c) Sol. Information Given in the Question: Marked Price (MP) = 40% above Cost Price (CP) Discount = 25% on MP Profit = Rs 60 Concept/Formula Used in the Question: MP = CP × (1 + Markup%) SP = MP × (1 – Discount%) Profit = SP – CP Discount allowed = MP – SP Detailed Explanation: Let the Cost Price (CP) = Rs 100 (assumed for…"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q051",
@@ -1717,7 +1896,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q062",
@@ -1745,7 +1927,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q063",
@@ -1773,7 +1958,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q064",
@@ -1801,7 +1989,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q065",
@@ -1829,7 +2020,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q066",
@@ -1857,7 +2051,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "144 + 256 + 90 = ?² + 6 490 = ?² + 6 ?² = 484 ? = 22"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q067",
@@ -1885,7 +2083,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "(3 + 5 −2) + 2+1−2 = 6"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q068",
@@ -1913,7 +2115,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? 100 × 37.5 + 175 = 100 × 760 ? 100 × 37.5 = 190 −175 ? = 37.5 ? = 40"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q069",
@@ -1941,7 +2147,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "2813 – ? = 484 + 10 ? = 2813 – 494 ? = 2319"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q070",
@@ -1969,7 +2179,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? = 190 + 29.25 −175.75 ? = 43.5 ? = 18"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q071",
@@ -1997,7 +2211,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "56×55 100 + ? 100 × 132.8 = 64 30.8 + ? 100 × 132.8 = 64 ? = 33.2×100 132.8 ? = 25"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q072",
@@ -2025,7 +2243,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "280 + ? = 784 – 24 ? = 760 – 280 ? = 480"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q073",
@@ -2053,7 +2275,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? 32.5 + 1024 + 100 × 317.5 = 1296 ? 32.5 = 1296 – 1024 – 254 ? 32.5 = 18 ?= 585"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q074",
@@ -2081,7 +2307,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "94.5 + 98 + ? = 196 ? = 196 – 192.5 ? = 3.5"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q075",
@@ -2109,7 +2339,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "100 × 2560 + 100 × 388.75 = 1156+? 1049.6 + 124.4 – 1156 = ? ? = 1174 – 1156 ? = 18"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q076",
@@ -2137,7 +2371,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "?× 100 = 100 × 800 + 100 × 750 ⇒ ? = 4 = 153.5"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q077",
@@ -2165,7 +2403,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? = 11.11 + 7.07 – 11.11 = 7.07"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q078",
@@ -2193,7 +2435,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? = 17095 – 3345 = 13,750"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q079",
@@ -2221,7 +2467,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "√? = √196 ÷ 7 = 14 ÷ 7 = 2 ⇒ ? = 2⁴ = 16"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_58c60b3f::q080",
@@ -2249,7 +2499,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "6 ×? = 5 × 3 × 9 × 16200 ⇒ ? = 40,320"
     }
   ]
 }

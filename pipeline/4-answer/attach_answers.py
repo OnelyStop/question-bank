@@ -17,8 +17,10 @@ import json
 import logging
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from typing import Any
+from functools import lru_cache
 
 # step folders ("1-extract") are not valid module names, so shared code
 # comes through lib/ rather than from another step
@@ -50,6 +52,29 @@ ANS_N_SEMI_RE = re.compile(
     r"(?m)^\s*(\d{1,3})\s*[\.\)]\s*\(\s*([a-eA-E])\s*\)\s*;"
 )
 
+# 1. (c):  |  2.\n(e):  — publisher solution sheets often put the
+# explanation directly after the option rather than using ``Ans.`` or ``;``.
+# Requiring the option immediately after the question number and a trailing
+# colon keeps this distinct from ordinary question text.
+ANS_N_COLON_RE = re.compile(
+    r"(?m)^\s*(\d{1,3})\s*[\.\)]\s*(?:\r?\n\s*)?\(\s*([a-eA-E])\s*\)\s*:"
+)
+
+# 1. (c) followed by working. This is accepted only from a separately paired
+# solution PDF: in a question paper the same shape can be part of malformed
+# question text, while a solution PDF is explicit source evidence.
+ANS_N_BARE_RE = re.compile(
+    r"(?m)^\s*(\d{1,3})\s*[\.\)]\s*(?:\r?\n\s*)?\(\s*([a-eA-E])\s*\)(?=\s|$)"
+)
+
+# Question papers frequently print the answer directly after a complete
+# ``Qn.`` block (often on another rendered page).  This is distinct from a
+# bare option because it requires both the numbered question marker and an
+# explicit ``Ans.`` label.  It carries an answer key, not a worked solution.
+ANS_Q_BLOCK_RE = re.compile(
+    r"(?ims)^\s*Q(?:uestion)?\s*(\d{1,3})\s*\..{0,5000}?\bAns\s*\.\s*\(\s*([a-e])\s*\)"
+)
+
 SOL_STRIP_RE = re.compile(
     r"(?i)[\s_\-]*(?:solutions?|sol|answer[\s_\-]*key|with[\s_\-]*answers?)[\s_\-]*"
 )
@@ -67,7 +92,60 @@ def normalize_ws(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def extract_answer_map(text: str) -> dict[int, dict[str, Any]]:
+def exact_question_key(question: dict[str, Any]) -> tuple[str, tuple[tuple[str, str], ...]]:
+    """Content key for safe answer reuse; deliberately preserves all digits."""
+    stem = normalize_ws(unicodedata.normalize("NFKC", str(question.get("stem") or "")).casefold())
+    options = question.get("options") or {}
+    keyed = tuple(
+        sorted(
+            (str(key), normalize_ws(unicodedata.normalize("NFKC", str(value)).casefold()))
+            for key, value in options.items()
+        )
+    )
+    return stem, keyed
+
+
+def propagate_exact_duplicate_answers(out_root: Path) -> dict[str, int]:
+    """Fill blanks only when identical questions have one non-conflicting key."""
+    occurrences: dict[tuple[str, tuple[tuple[str, str], ...]], list[tuple[Path, dict[str, Any], dict[str, Any]]]] = {}
+    for path in iter_paper_jsons(out_root):
+        paper = load_paper(path)
+        if not paper:
+            continue
+        for question in paper.get("questions") or []:
+            if question.get("stem") and question.get("options"):
+                occurrences.setdefault(exact_question_key(question), []).append((path, paper, question))
+
+    filled = conflicts = papers_touched = 0
+    dirty_paths: set[Path] = set()
+    for entries in occurrences.values():
+        answers = {str(question["answer"]) for _path, _paper, question in entries if question.get("answer")}
+        if len(answers) > 1:
+            conflicts += 1
+            continue
+        if len(answers) != 1:
+            continue
+        answer = next(iter(answers))
+        for path, _paper, question in entries:
+            if not question.get("answer") and answer in (question.get("options") or {}):
+                question["answer"] = answer
+                question["answer_source"] = "exact_corpus_duplicate"
+                question["answer_confidence"] = 0.9
+                dirty_paths.add(path)
+                filled += 1
+
+    dirty_papers: dict[Path, dict[str, Any]] = {}
+    for entries in occurrences.values():
+        for path, paper, _question in entries:
+            if path in dirty_paths:
+                dirty_papers[path] = paper
+    for path, paper in dirty_papers.items():
+        path.write_text(json.dumps(paper, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        papers_touched += 1
+    return {"answers_filled": filled, "conflicting_fingerprints": conflicts, "papers_touched": papers_touched}
+
+
+def extract_answer_map(text: str, *, allow_bare_numbered_answers: bool = False) -> dict[int, dict[str, Any]]:
     """
     Build {q_num: {"answer", "explanation", "pattern"}} from PDF text.
 
@@ -82,11 +160,30 @@ def extract_answer_map(text: str) -> dict[int, dict[str, Any]]:
         if 1 <= q_num <= 200 and letter in "abcde":
             anchors.append((m.start(), m.end(), letter, q_num, "s_ans"))
 
+    for m in ANS_Q_BLOCK_RE.finditer(text):
+        q_num = int(m.group(1))
+        letter = m.group(2).lower()
+        if 1 <= q_num <= 200 and letter in "abcde":
+            anchors.append((m.start(), m.end(), letter, q_num, "q_block_ans"))
+
     for m in ANS_N_SEMI_RE.finditer(text):
         q_num = int(m.group(1))
         letter = m.group(2).lower()
         if 1 <= q_num <= 200 and letter in "abcde":
             anchors.append((m.start(), m.end(), letter, q_num, "n_semi"))
+
+    for m in ANS_N_COLON_RE.finditer(text):
+        q_num = int(m.group(1))
+        letter = m.group(2).lower()
+        if 1 <= q_num <= 200 and letter in "abcde":
+            anchors.append((m.start(), m.end(), letter, q_num, "n_colon"))
+
+    if allow_bare_numbered_answers:
+        for m in ANS_N_BARE_RE.finditer(text):
+            q_num = int(m.group(1))
+            letter = m.group(2).lower()
+            if 1 <= q_num <= 200 and letter in "abcde":
+                anchors.append((m.start(), m.end(), letter, q_num, "n_bare"))
 
     if not anchors:
         return {}
@@ -98,7 +195,7 @@ def extract_answer_map(text: str) -> dict[int, dict[str, Any]]:
         next_start = anchors[i + 1][0] if i + 1 < len(anchors) else len(text)
         body = text[end:next_start]
         body = re.sub(r"(?is)^\s*Sol\s*\.?\s*", "", body)
-        explanation = normalize_ws(body) or None
+        explanation = None if pattern == "q_block_ans" else (normalize_ws(body) or None)
         if explanation and len(explanation) > 4000:
             explanation = explanation[:4000].rstrip() + "…"
         by_num[q_num] = {
@@ -139,14 +236,69 @@ def score_answer_confidence(
 
 
 def resolve_pdf_path(paper: dict[str, Any], corpus: Path) -> Path | None:
-    src = (paper.get("source") or {}).get("pdf_path") or ""
-    rel = src
-    if rel.startswith("corpus/") or rel.startswith("corpus\\"):
-        rel = rel[7:]
-    path = corpus / rel
-    if path.is_file():
-        return path
+    """Resolve both the current source_pdf field and legacy source metadata."""
+    source = paper.get("source")
+    candidates: list[str] = []
+    if isinstance(source, dict):
+        candidates.append(str(source.get("pdf_path") or ""))
+    elif isinstance(source, str):
+        candidates.append(source)
+    candidates.append(str(paper.get("source_pdf") or ""))
+
+    for src in candidates:
+        if not src:
+            continue
+        rel = src
+        if rel.startswith("corpus/") or rel.startswith("corpus\\"):
+            rel = rel[7:]
+        path = corpus / rel
+        if path.is_file():
+            return path
+
+    # Earlier extractions recorded paths under corpus/papers/. The original
+    # files now live in done/ or remaining/, but paper_id retains the first
+    # eight characters of the manifest's SHA-256 key. Use that stable identity
+    # rather than a fuzzy filename match.
+    paper_id = str(paper.get("paper_id") or "")
+    suffix = paper_id.rsplit("_", 1)[-1]
+    if len(suffix) == 8:
+        rel = manifest_path_for_hash(corpus, suffix)
+        if rel:
+            for bucket in ("done", "remaining", ""):
+                path = corpus / bucket / rel if bucket else corpus / rel
+                if path.is_file():
+                    return path
     return None
+
+
+@lru_cache(maxsize=4)
+def manifest_paths(corpus: Path) -> dict[str, str]:
+    manifest = corpus / "manifest.json"
+    if not manifest.is_file():
+        return {}
+    try:
+        payload = json.loads(manifest.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    files = payload.get("files") or {}
+    return {str(digest): str(path) for digest, path in files.items()}
+
+
+def manifest_path_for_hash(corpus: Path, prefix: str) -> str | None:
+    matches = [path for digest, path in manifest_paths(corpus).items() if digest.startswith(prefix)]
+    return matches[0] if len(matches) == 1 else None
+
+
+def source_filename(paper: dict[str, Any]) -> str:
+    """Return the PDF basename from current and legacy paper metadata."""
+    source = paper.get("source")
+    if isinstance(source, dict):
+        name = source.get("source_filename") or source.get("pdf_path")
+        if name:
+            return Path(str(name)).name
+    if isinstance(source, str):
+        return Path(source).name
+    return Path(str(paper.get("source_pdf") or "")).name
 
 
 def apply_map_to_paper(
@@ -160,6 +312,7 @@ def apply_map_to_paper(
     filled = 0
     explanations = 0
     conflicts: list[dict[str, Any]] = []
+    invalid_keys = 0
     for q in paper.get("questions") or []:
         q_num = q.get("q_num")
         if q_num not in answer_map:
@@ -170,6 +323,13 @@ def apply_map_to_paper(
         pattern = info.get("pattern")
         old_ans = q.get("answer")
         opts = q.get("options") or {}
+
+        # An extracted answer letter is only meaningful for this question if
+        # that option exists. Do not write a value that the validator must
+        # quarantine later (usually an off-by-one PDF key).
+        if new_ans and new_ans not in opts:
+            invalid_keys += 1
+            continue
 
         if old_ans and new_ans and old_ans != new_ans and not overwrite:
             conflicts.append(
@@ -228,7 +388,12 @@ def apply_map_to_paper(
                     has_explanation=True,
                     answer_in_options=True,
                 )
-    return {"filled": filled, "explanations": explanations, "conflicts": conflicts}
+    return {
+        "filled": filled,
+        "explanations": explanations,
+        "conflicts": conflicts,
+        "invalid_keys": invalid_keys,
+    }
 
 
 
@@ -323,7 +488,7 @@ def paper_path_for_pdf(
     # Match by source_filename
     name = pdf_path.name
     for _k, (ppath, paper) in papers_by_source.items():
-        src_name = (paper.get("source") or {}).get("source_filename")
+        src_name = source_filename(paper)
         if src_name == name:
             return ppath, paper
     return None
@@ -369,7 +534,7 @@ def pair_solutions_to_paper(
             if any(q.get("section") == cue for q in qs):
                 sectioned.append((ppath, paper))
             # Also prefer papers whose source filename has same section cue
-            src_name = (paper.get("source") or {}).get("source_filename") or ""
+            src_name = source_filename(paper)
             if section_cue_from_name(src_name) == cue:
                 return ppath, paper
         if sectioned:
@@ -399,7 +564,7 @@ def attach_from_same_pdfs(
         paper = load_paper(path)
         if not paper:
             continue
-        if paper.get("parse_status") not in {"ok", "partial"}:
+        if paper.get("parse_status") and paper.get("parse_status") not in {"ok", "partial"}:
             continue
         count += 1
         if limit and count > limit:
@@ -464,12 +629,19 @@ def attach_from_solutions_pdfs(
         paper = load_paper(path)
         if not paper:
             continue
-        if paper.get("parse_status") not in {"ok", "partial", "failed"}:
+        if paper.get("parse_status") and paper.get("parse_status") not in {"ok", "partial", "failed"}:
             continue
         papers.append((path, paper))
-        src = (paper.get("source") or {}).get("pdf_path") or ""
+        source = paper.get("source")
+        if isinstance(source, dict):
+            src = str(source.get("pdf_path") or "")
+        else:
+            src = str(paper.get("source_pdf") or "")
         if src:
-            papers_by_source[src.replace("\\", "/")] = (path, paper)
+            normalized = src.replace("\\", "/")
+            papers_by_source[normalized] = (path, paper)
+            if normalized.startswith("corpus/"):
+                papers_by_source[normalized[7:]] = (path, paper)
 
     papers_by_meta = build_paper_index(papers)
     sols = list_solutions_pdfs(corpus)
@@ -495,7 +667,7 @@ def attach_from_solutions_pdfs(
                 }
             )
             continue
-        amap = extract_answer_map(text)
+        amap = extract_answer_map(text, allow_bare_numbered_answers=True)
         if not amap:
             results["unmatched"].append(
                 {
@@ -716,6 +888,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # Ensure every attached answer has confidence
     backfill = backfill_answer_confidence(out_root)
+    duplicate_stats = propagate_exact_duplicate_answers(out_root)
 
     index_rows = rebuild_index(out_root)
     after = count_answers(out_root)
@@ -725,6 +898,7 @@ def main(argv: list[str] | None = None) -> int:
         "after": after,
         "index_rows": index_rows,
         "confidence_backfill": backfill,
+        "exact_duplicates": duplicate_stats,
         "same_pdf": {
             "papers_touched": same_stats.get("papers_touched"),
             "answers_filled": same_stats.get("answers_filled"),

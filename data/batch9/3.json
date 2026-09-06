@@ -39,7 +39,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q002",
@@ -67,7 +70,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q003",
@@ -95,7 +101,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (4-7):"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q004",
@@ -123,7 +133,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. Q < B (True) II. B ≥Q (False) III. P > F (False) IV. M = B (False)"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q005",
@@ -151,7 +165,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. N < A (False) II. K < E (False) III. M > L (True) IV. M = L (False)"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q006",
@@ -179,7 +197,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. F < O (True) II. O ≤B (False) III. S < U (False) IV. O > W (True) REASONING ABILITY Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q007",
@@ -207,7 +229,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. Q = B (True) Either or II. Q ≤B (True) III. B < Z (False) IV. B > U (True) Directions (8-12):"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q008",
@@ -235,7 +261,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using statement I, II, and III, we get Box B7 is kept two places below Box B3. Boxes B4 B2 B6 B3 B1 B5 B7"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q009",
@@ -263,7 +293,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using all the statement we get C is either niece or nephew of G."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q010",
@@ -291,7 +325,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using statement I, II and III we get the code for ‘candid’ as ‘pa’."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q011",
@@ -319,7 +357,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using statement I, II, III we get two Possibilities for place of T."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q012",
@@ -347,7 +389,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using statement I, II and III we get two Possibilities for the floor of T. Case1 Case2 Floors Persons Persons S S P P W W Q Q U U T T Direction (13-14):"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q013",
@@ -375,7 +421,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The order of height is: H > C(175cm) > A/F(170cm) > A/F > D > E(160cm) > B > G Sum of height of A and E is 325cm when F is taller than A, then height of A will be 165cm. so the possible height of D will be 161cm."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q014",
@@ -402,7 +452,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The order of height is: H > C (175cm) >A/ F (170cm) > A/F > D > E (160cm) > B > G If the Sum of height of C and H is 360cm, then height of H =185cm. and the sum of height of G and E is 325 cm, then height of G= 165cm. Sum of height of H and G = (185 + 165) = 350cm. Direction (15-16):"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q016",
@@ -430,7 +484,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The statement expresses grave concern over the lack of proper premises and inadequate staff in labour and industrial courts and a proper office only can ensure their smooth functioning. So, both I and III are implicit. The lack of facilities to the courts also indicates the state’s negligent attitude to the condition of the courts. So, II is also implicit. Direction (17-18): Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q017",
@@ -458,7 +516,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "By using Pythagoras theorem the shortest distance between Pole C and Pole A will be √369m."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q018",
@@ -486,7 +548,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The total distance between Pole F and Pole E will be 15 m. Direction (19-20):"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q019",
@@ -514,7 +580,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Clearly D is the Paternal Grandmother of C."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q020",
@@ -542,7 +612,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Clearly B is the nephew of G. Directions (21-25): By using the given information: Two boxes are kept between the box of Biscuits, which is kept at the top and Box B, which does not contain Soaps and Spices. The box which contains Soaps is kept just below Box P. Only three boxes are kept between the box of Soaps and the box of Oils. Box Q is kept just below the box of oils. Three boxes are kept between Box A, which does not contain Spices and Creams and Box P, which does not contain Biscuits and Toffee. We have three possible cases- Case1, Case 2 and Case 3. Only two boxes are kept between box of Toffee and the box of Shampoo and both boxes are kept in the box above the box of oils. Now Case 2 and Case 3 will be eliminated. Case1 Boxes Products Biscuits P Shampoo/Toffee Soaps B Toffee/Shampoo A Oils Q Three boxes are kept between Box A, which does not contain Spices and Creams and Box P, which does not contain Biscuit and Toffee. Therefore, Box A contains Detergent, Box P contains Shampoo. As Box B does not contains spices so Box B contains Creams and Box Q contains Spices. Box R is kept just below the box of Detergent. Box C is kept above Box S but below Box T. Now we have our final arrangement. Boxes Products T Biscuits P Shampoo C Soaps B Creams S Toffee A Detergent R Oils Q Spices"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q021",
@@ -570,7 +644,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q022",
@@ -598,7 +675,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q023",
@@ -626,7 +706,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q024",
@@ -654,7 +737,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q025",
@@ -682,7 +768,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (26-30): By using the given information: Q, whose age is a multiple of 7 sits second to the left of R and three persons sit between R and P. Only one person sits between R and the one who is age is 60 years. The one whose age is 59 years sits third to the left of the one whose age is 60 years. Three persons sit between T, who is the eldest person and the one whose age is 59 years. S and P are immediate neighbors of each other but neither of them is more than 36 years old. U is not an immediate neighbor of T. W’s age is not 60 years and also he doesn’t sit immediate left of R. P is one year younger to S. W is younger to R. Now we have our final arrangement. Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q026",
@@ -710,7 +800,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q027",
@@ -738,7 +831,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q028",
@@ -766,7 +862,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q029",
@@ -794,7 +893,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q030",
@@ -822,7 +924,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q031",
@@ -850,7 +955,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In this question, we have to find which is not related to the above statement. For I: It is completely related to the passage, there must be awareness program to make society awake. For II: This is must do step which should be taken by Government, but it is not related to statement which is mention above. For III: It is a myth that should be avoided or abolished but it is the part of the statement given above. Directions (32-35): By using the given information: Only three persons are younger to B, who is a driver. The one who is the second oldest is Carpenter. E was born in a year after B but he was not born in a leap year. Only two persons was born between E and A. Now we have two possible cases i.e., Case1 and Case2. Case1 Years Age Persons Profession Carpenter A B Driver E Case2 Years Age Persons Profession Carpenter A B Driver E D’s age is not 26 years. The sum of age of D and the one who is Doctor is 67 years. i.e. (26 + 41) years. The difference between the age of Nurse and the carpenter is 6 years. i.e. (43-37) years. A is not a Nurse. Now case1 will be eliminated. The sum of age the plumber and C is 62 years i.e., (45 + 17) years. Now we have one more case i.e., Case2(a). I was not born in 1984 and he is neither a plumber nor a carpenter, so by elimination I is a doctor. Case2 Years Age Persons Profession Plumber Carpenter D Nurse A B Driver I Doctor E C Case2(a) Years Age Persons Profession C Carpenter D Nurse A B Driver I Doctor E Plumber The one whose age is 41 years is not a singer. D is neither an Engineer nor a Banker, so D is a Painter. The sum of age of Painter and Singer is 61 years. A is not an Engineer, so A is a banker and C is an Engineer. Case2 Years Age Persons Profession Plumber Carpenter D Painter Nurse A Banker B Driver I Doctor E Singer C Engineer Case2(a) Years Age Persons Profession C Engineer Carpenter D Painter Nurse A Banker B Driver I Doctor E Singer Plumber F is younger than G but older than H, who is not a nurse. Now case2 will be eliminated as we can’t place H. Now we have our final arrangement. Visit: adda247.com Years Age Persons Profession C Engineer G Carpenter D Painter F Nurse A Banker B Driver I Doctor E Singer H Plumber"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q032",
@@ -878,7 +987,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q033",
@@ -906,7 +1018,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q034",
@@ -934,7 +1049,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q035",
@@ -962,7 +1080,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (36-38): By using the given information: The one who has the highest amount of money sits third to the left of V. Neither V nor the one who has highest amount of money sits at the corner. The immediate neighbor of the one who has highest money faces south direction. Three persons sits between the one who has Rs67 and the one who has the least amount of money and one of them sits at the right corner of the row. The one who has the least amount of money is not an immediate neighbor of the one who has the highest amount of money. V has 36ruppes. We have four possible cases for that. Case1, Case1(a), Case2, and Case2(a). The number of persons sitting to the left of V is same as the number of persons siting to the right of Q. Q neither have the highest nor the lowest amount money. Now Case1 and Case2(a) will be eliminated as we cannot place Q. Y does not sit near to V. Z sits third to the right of Q. Y and X are immediate neighbors of Z. The number of persons sitting between Y and V is same as the number of persons sitting between V and S. Now case 2 will be eliminated as we can’t place S, who does not face south. Immediate neighbor of X faces the same direction. Y and X faces the opposite direction as Z, who has 43 rupee. R has more money than P, who sits near to Q. X has less money than P. Now we have our final arrangement."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q036",
@@ -990,7 +1112,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q037",
@@ -1045,7 +1170,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q039",
@@ -1073,7 +1201,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only argument II is strong. The students cannot be enrolled in the courses just on the basis of their interests, but their compatibility with the same also matters. So, I does not hold. Besides, lack of institutes is not criteria to deny post-graduate courses to students. So, argument III also does not hold. II provides a genuine reason and thus holds strong."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q040",
@@ -1101,7 +1233,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For I: Yes, about counterfeiting is mentioned, whether ban on high currency notes gets success in terrorism, corruption and counterfeiting. So, we can easily assume that Govt. was concerned about the counterfeiting of notes. For II: Yes, as according to statement demonetization is good or bad is a matter of debate, but its impact on weaker section is not mentioned, but if we assume it as bad we can consider that it has bad impact on weaker sections of society. For III: No, from statement we can conclude that there is revamp in tax compliance but to classify its increment into direct and indirect tax, it’s not possible to assume according to statement. Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q041",
@@ -1129,7 +1265,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total number of Macbook manufactured by A & Laptops manufactured by B together = 800 × 100 + 960 × = 320 + 240 = 560 Total number of Macbook manufactured by D = 840 × 100 = 420 Required percentage = 560−420 × 100 = 420 × 100 = 33 3 %"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q042",
@@ -1157,7 +1297,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total number of Desktop manufactured by C & D together = 1020 × 100−(30+40) + 840 × 100−(25+50) = 306 + 210 = 516 Total number of Laptops manufactured by A & B together = 800 × 100 + 960 × = 160 + 240 = 400 Required ratio = 516 : 400 = 129 : 100"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q043",
@@ -1185,7 +1329,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Macbook manufactured by E = 400 × 3 −[960 × 100 + 1020 × 100] = 1200 – (432 + 408) = 1200 – 840 = 360 Desktop manufactured by E = 360 × 9 = 200 Laptops manufactured by E = 1040 – (360 + 200) = 480"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q044",
@@ -1238,7 +1386,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Laptops manufactured by B = 960 × 100 = 240 Laptops manufactured by C = 1020 × 100 = 306 Laptops manufactured by D = 840 × 100 = 210 Total Laptops manufactured by B, C & D = (240 + 306 + 210) = 756 Required average = 3 = 252"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q046",
@@ -1270,7 +1422,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let length and breadth of rectangle be 8x and 7x respectively From I, Given, √3 4 × 𝑠𝑖𝑑𝑒2= 25√3 Side of triangle = 10 cm. Perimeter of triangle = 30 cm So, perimeter of rectangle = 30 cm 2(8x+7x)=30 x =1 So, length and breadth of the rectangle is 8 cm and 7 cm respectively. Area of rectangle = 8× 7 = 56 𝑐𝑚2 From II. Perimeter of Square = 16 cm. Side of square = 4 cm. So, length of rectangle = 8 cm And breadth of rectangle = 7 cm. Area of rectangle = 56 cm2 Either I or II is sufficient to answer."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q047",
@@ -1302,7 +1458,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let minimum passing mark in the exam = x And maximum passing mark in the exam = y From I. Veer score’s = 1.25x = 𝑦 y= 2.5x from II. 60= 1.5x x=40 from I and II. So maximum marks y= 100. Both Statement is necessary."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q048",
@@ -1333,7 +1493,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let cost price of the article = 100x. So, M.R.P = 150x. From I. Seller make the aggregate profit of 14.75%. = 14.75x. So, aggregate discount = 150𝑥−114.75𝑥 150𝑥 × 100 = 23.75% QUANTITATIVE APTITUDE Visit: adda247.com From II. M.R.P = 750 So, cost price = 500 Selling price = 500+ 73.75=573.75 Aggregate Discount = 750−573.75 × 100 = 23.5% Either I or II is sufficient."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q049",
@@ -1364,7 +1528,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I x + y =7 From II. x~𝑦= 1 So, we can’t be determined the actual value of x and y."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q050",
@@ -1395,7 +1563,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Static_GK"
+      "topic": "Static_GK",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I Ankit Investment share = 1600 Rs. Time on which Ankit Invest = 8 months Satish investment share = 1200 Rs. From II Given, profit share of Satish = 630 Rs. So, from both sentence we could not find answer, time period on which Satish invest his capital not given, so we could not determine profit ratio of Ankit and Satish."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q051",
@@ -1423,7 +1595,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let amount invested in each scheme = Rs. x x×12×6 − x×8×8 100 = 1280 ⇒ 8x 100 = 1280 ⇒ x = 16,000 Rs."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q052",
@@ -1451,7 +1627,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let speed of boat in still water v km/hr and speed of current be r km/hr Speed of boat in upstream = 11 × 60 v– r = 15 km/hr …(i) ⇒ r r+v = 7 ; ⇒ 7r = r + v ⇒ 6r = v …(ii) Solving eq. (i) and (ii) 5r = 15 ⇒ r = 3 km/h ∴ Downstream speed = 18 + 3 = 21 km/hr ∴ Required distance = 21 × 60 = 18.2 km"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q053",
@@ -1479,7 +1659,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the selling price of article be Rs. 100x So, the marked price of article =100x × 100 = 125𝑥 Rs. Cost price of article =100𝑥÷ 1.25 = 𝑅𝑠 80𝑥 ATQ (125x – 80) – (100x – 80x) =200 x=8 Rs. Cost price of article =Rs 640 Required selling price = 640 × 8 = 880 Rs."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q054",
@@ -1507,7 +1691,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the investment of B = 25x So, the investment of A = 25x × 100 = 13𝑥 And let the investment of C be Rs y So, profit ratio of A, B & C = ATQ 8y=2(200x-172x) 𝑥 𝑦= Required percentage = 25 × 100 = 28%"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q055",
@@ -1535,7 +1723,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For I- number of plastic balls = 10 ATQ, number of leather balls = 18-10 =8 So, desired probability =10c1×8c1 /18c2 =80/153 So, I can be answer. For II- number of plastic balls = 8 ATQ, number of leather balls = 18-8=10 So, desired probability =8c1×10c1/18c2 = 80/153 So, II cannot be answer. For III- number of plastic balls = 6 ATQ, number of leather balls = 18-6 =12 So, desired probability =6c1×12c1/18c2 = 8/17 So, III can be answer."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q056",
@@ -1563,7 +1755,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total people who have under graduate degree from C & D = 6000 × 100 −880 + 6000 × 100 −700 = 800 + 800= 1600 Total illiterate people from A & E = 6000 × 100 × 60 + 6000 × 100 × = 480 + 1200 = 1680 Required ratio = 1680 = 20 ∶21"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q057",
@@ -1591,7 +1787,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required angle = 500+700 440+500+880+700+360 × 360 = 2880 × 360 = 150°"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q058",
@@ -1619,7 +1819,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total literate people from C = 6000 × 100 = 1680 Let total males = 4x And, total number of females = 3x Total population of C = 6000 × 100 × 80 = 2100 Total females in C = 2100 × 3𝑥 7𝑥= 900 And, total males in C = 2100 × 4𝑥 7𝑥= 1200 Total literate females from C = 900 × 100 = 720 Total literate males from C = 1680 – 720 = 960 Total females have post graduate degree from C = 880 – 960 × 100 = 400 So total number of females who are literate but do not have post graduate degree from C = 720 – 400 = 320 Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q059",
@@ -1647,7 +1851,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total number of people who have not post graduate degree from A = 6000 × 100 −440 = 280 Total number of people who have not post graduate degree from D = 6000 × 100 −700 = Total number of people who have not post graduate degree from E = 6000 × 100 −360 = 840 Required average = 280+800+840 = 3 = 640"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q060",
@@ -1675,7 +1883,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total illiterate people from A & C = 6000 × 100 × 60 + 6000 × 100 × = 480 + 420 = 900 total illiterate people from E = 6000 × 100 × 50 = Required percentage = 1200 −900 × 100 = 1200 × 100 = 25%"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q061",
@@ -1703,7 +1915,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Given the total number of Men is N We know that(𝑀× 𝐷× 𝐻) = 𝑊𝑜𝑟𝑘 ATQ (𝑁× 21 × 8) = ((𝑁−1) × 21 × 70 × 6) 𝑁= 15 Required number of days = 15 ×21×8 (15+3)×10 = 14 days"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q062",
@@ -1731,7 +1947,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Length of train A = 64 × 18 × 27 = 480 m Length of train B = 64 × 8 × 18 × 36 = 560 m Relative speed when both train running in opposite direction=(64 + 64 × 8) × 18 = 3 m s ⁄ Train A and train B will cross each other in = (480+560)3 = 31.2 sec"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q063",
@@ -1759,7 +1979,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let initially strength of class = N So, total weight of class= 20N When two persons include Total weight of class= 22(N + 2) Weight of two persons included = 2N + 44 4 persons excluded weight = 2N+44 = N + 22 ATQ, 22 (N + 2) – (N + 22) = (N + 2 – 4) × 25 N = 18"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q065",
@@ -1787,7 +2011,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the quantity of liquid P be 4x in mixture So, quantity of liquid Q = 4x × 100 = 9x In 52 liters, Quantity of liquid P = 52×4𝑥 13𝑥= 16 liters Quantity of liquid Q = 52×9 13 = 36 liters ATQ, 4𝑥−16 13𝑥= ⇒ 20x – 80 = 13x ⇒ 7x = 80 ⇒ x = Quantity of liquid Q in final mixture = 9 × 7 – 36 = 7 lit. = 66.86 liters"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q066",
@@ -1815,7 +2043,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern of series 12 × 0.5 + 1 = 7 7 × 1 + 1.5 = 8.5 8.5 × 1.5 + 2 = 14.75 ? = 14.75 × 2 + 2.5 = 32 32 × 2.5 + 3 = 83"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q067",
@@ -1843,7 +2075,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern of series — 12 × 6 + 6 = 78 78 × 5 + 5 = 395 395 × 4 + 4 = 1584 1584 × 3 + 3 = 4755 ? = 4755 × 2 + 2 = 9512"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q068",
@@ -1871,7 +2107,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "26 × 2 + 1 = 53 53 × 4 + 2 = 214 214 × 6 + 3 = 1287 1287 × 8 + 4 = 10300 ? = 10300 × 10 + 5 = 103005"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q069",
@@ -1899,7 +2139,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern of series — 4187 – (113– 1) = 2857 2857– (93– 1) = 2129 2129– (73– 1) = 1787 1787– (53– 1) = 1663 ? = 1663 – (33– 1) = 1637 Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q070",
@@ -1927,7 +2171,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern of series 27 ÷ 1 = 27 27 × 2 = 54 54 ÷ 3 = 18 18 × 4 = 72 ? = 72 ÷ 5 = 14.4"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q071",
@@ -1955,7 +2203,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the total no. of students in 2015 and 2017 be 4x and 5x respectively. Given (4𝑥× 100 −5𝑥× 100) = 0.1𝑥= 180 x=1800 then no. of banking students in 2017= 9000 × 100 = 3240 no. of banking students in 2015 = 7200 × 100 = 2016 Difference =(3240-2016)=1224"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q072",
@@ -1983,7 +2235,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "No. of Railway students in 2015 =(8000 × 100) = 3200 No. of Railway students in 2016 =(8000 × 100 × 100) = 2640 No. of Railway students in 2017 =(8000 × 100 × 100 × 100) = 2904 No. of Railway students in 2018 =(8000 × 100 × 100 × 100 × 4) = 2662 As it can be seen that in 2018 the no. of Railway student was third highest."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q073",
@@ -2011,7 +2267,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total no. of students in 2015,2016,2017,2018 be a, b, c ,d respectively For 2015, no. of Railway students = a × 100 = 0.4a average of Banking and SSC students = 0.28𝑎+0.32𝑎 = 0.3𝑎 For 2016, no. of Railway students = a × 100 = 0.3a average of Banking and SSC students = 0.42𝑎+0.28𝑎 = 0.35𝑎 For 2017, no. of Railway students = a × 100 = 0.3a average of Banking and SSC students = 0.36𝑎+0.34𝑎 = 0.35𝑎 For 2018 no. of Railway students = a × 100 = 0.25a average of Banking and SSC students = 0.30+0.45𝑎 = 0.375𝑎 So, there is one year i.e. 2015 in which no. of Railway students is more than average of Banking and SSC students together."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q074",
@@ -2039,7 +2299,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the total no. of students be x for all of the given year, then For 2015 Difference between Railway and SSC students = (0.4𝑥−0.32𝑥) = 0.08𝑥 For 2016 Difference between Railway and SSC students = (0.30𝑥−0.28𝑥) = 0.02𝑥 For 2017 Difference between Railway and SSC students = (0.34𝑥−0.30𝑥) = 0.04𝑥 For 2018 Difference between Railway and SSC students = (0.45𝑥−0.25𝑥) = 0.20𝑥 As it can be seen that difference between no. of Railway students and SSC students is second lowest is in 2017."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q075",
@@ -2067,7 +2331,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the total no. of students in 2018 be x Then ATQ (. 45𝑥−.30𝑥) = 300 X=2000 and no. of Railway students in 2018 = 500 So, no. of Railway students in 2015 and 2017 will be 600 and 300 respectively So, no. of SSC students in 2015= ( 40 × 32) = 480 no. of SSC students in 2017= ( 30 × 34) = 340 average no. of SSC students in 2015 and 2017 together= 480+340 = 410 Solution (76-80): Let total number of students in civil = x So, total number of students in IT = 2x Total students in Mechanical = 2x × 3 = 4x Total students in CS = 8x Total students in Electrical = ( 8𝑥 9 + 120) Total students in Electronic = ( 8𝑥 9 + 120) – 60 = ( 8𝑥 9 + 60) Given, 𝑥+ 8𝑥 9 + 60 = 400 9x + 8x = 3600 – 540 17x = 3060 x = 180 Stream Students Mechanical 4×180 = 240 Civil CS 8×180 = 160 IT 180 × 2 = 360 Electronic 280 – 60 = 220 Electrical 160 + 120 = 280 Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q076",
@@ -2095,7 +2363,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required difference = 360 – 280 = 80"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q077",
@@ -2123,7 +2395,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total CS students in college ‘B’ = 720 – ( 100 × 240 + 100 × 180) = 720 – 513 = 207"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q078",
@@ -2151,7 +2427,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required ratio = 220 = 8 : 11"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q079",
@@ -2179,7 +2459,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required average = 240+180+360 = 260"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q080",
@@ -2207,7 +2491,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required percentage = 240−220 × 100 = 8 3%"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q081",
@@ -2235,7 +2523,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option is b. Refer to the THIRD paragraph where it mentions- The Economic Survey cites several reasons for the declining women workforce …………. gender pay parity……. pressures from society are the major stumbling blocks for women."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q082",
@@ -2263,7 +2555,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. Refer to the FOURTH, FIFTH & the LAST paragraph. Where it mentions- While appointing more women onto banking supervision boards can ………………. supporting greater bank stability and financial sector resilience. A change in mindset ………. enable and empower women."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q083",
@@ -2291,7 +2587,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Refer to the SECOND paragraph where it mentions– From 30.3% in 1990, India’s FLFP dropped to 20.3% percent in 2020."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q084",
@@ -2319,7 +2619,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. From the passage we can infer that - giving equal opportunities, education, work, salary to not only men but also to women will help to boost the economy. Refer to the following lines from the passage which implies the same thing. The Economic Survey finds that 60 per cent of women in India in the productive age bracket of 15-59 years are engaged in full-time housework. India has been working towards becoming a $5-trillion economy, but it seems to do that minus its female population. Raising women's labour force participation to that of men can boost GDP……….as per the paper published by the World Economic Forum."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q085",
@@ -2347,7 +2651,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. Refer to the FOURTH & FIFTH paragraph where it mentions – To improve female participation in the workforce, the Economic Survey says, several reforms have been introduced such as increase in maternal leave to 26 weeks…... Vocational and technical training…………… help them develop marketable skills and better decision-making abilities."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q086",
@@ -2375,7 +2683,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option d. Ethos - The set of beliefs, ideas, etc. about the social behaviour and relationships of a person or group. The word “Custom’’ implies the same meaning & hence, it is the correct choice. Spirit - (contextually incorrect) - To show enthusiasm and enjoyment. Constitution - (contextually incorrect) - The set of political principles by which a state or organization is governed, especially in relation to the rights of the people it governs. Character - (contextually incorrect) - The particular combination of qualities in a person or place that makes them different from others Sentiment - (contextually incorrect) - A thought, opinion, or idea based on a feeling about a situation, or a way of thinking about something."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q087",
@@ -2403,7 +2715,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Stumbling – As per the context of the sentence, here ‘Stumbling’ means an obstacle to progress. Rectify - (Grammatically incorrect) - To correct by removing errors. Overlook - (Grammatically incorrect) - To rise above or afford a view of. Encouraging - (contextually incorrect) - Giving hope or promise. ENGLISH LANGUAGE Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q088",
@@ -2431,7 +2747,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. Refer to the FIFTH paragraph, where it mentions – The role of financial institutions in providing financial education, not only to clients but also to their own staff, needs to be better defined and further promoted."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q089",
@@ -2459,7 +2779,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Refer to the THIRD paragraph, where it mentions – Results indicated that microfinance institutions were still sorely focusing on providing credit and credit facilities, which meant that it had positive effects on capital assets but not the overall welfare of entrepreneurs."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q090",
@@ -2487,7 +2811,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option d. Refer to the last lines of SECOND paragraph, where it mentions – The blue-chip financial institution should encourage the youth to start up their business and provide them with a very good amount of loan at low interest rate."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q091",
@@ -2515,7 +2843,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. Consume - To waste something, or to not utilise something properly. (used in negative sense) The word “Waste’’ implies the same meaning & hence, it is the correct choice. Spend - (contextually incorrect) - To use time Destroy - (contextually incorrect) - To damage something so badly that it cannot be used. Lost - (Grammatically incorrect) - No longer possessed. Invest - (Grammatically incorrect) - To make use of for future benefits or advantages."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q092",
@@ -2543,7 +2875,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. The main theme that revolves around passage is to increase financial literacy among all by conducting programmes & promote entrepreneurship through financial institutions which will make people aware of the opportunities which they can avail to become entrepreneurs also prevent to become victims of any fraudulent activities."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q093",
@@ -2571,7 +2907,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option d. The author talks about the need of financial literacy in order to bring awareness among people. Also, it informs us the important role of financial institutions. Hence, the tone is ‘Informative’."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q094",
@@ -2599,7 +2939,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. Refer to the last lines of SECOND paragraph, where it mentions – Access to finance represents one of the most significant challenges for entrepreneurs and for the creation, survival and growth of small businesses."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q095",
@@ -2627,7 +2971,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. The error lies in part ‘a’ of the sentence. Remove “Will” after ‘When’. Usage of ‘Will’ after conjunctions referring to future time is incorrect. In the given sentence, we use “When” as a conjunction introducing a time clause thus, usage of ‘Will’ is inappropriate. So the correct phrase will be “when Smita finds”."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q096",
@@ -2655,7 +3003,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. The error lies in the part ‘b’ of the sentence. Use article ‘A’ before the word ‘Minimum’ to make the sentence grammatically correct. Here, the noun ‘Experience’ is modified by an adjective ‘Minimum’ hence usage of an indefinite article ‘A’ is important here."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q097",
@@ -2683,7 +3035,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. The error lies in part ‘b’ of the sentence. Replace ‘Photograph’ with ‘photography’ to make the sentence grammatically correct. Photography - the art or process of producing images by the action of radiant energy and especially light on a sensitive surface (such as film or an optical sensor). Whereas, Photograph - A picture or likeness obtained by photography. As per the context, usage of the noun ‘Photography’ is grammatically & contextually correct. Hence, option ‘b’ is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q098",
@@ -2711,7 +3067,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. The error lies in part ‘b’ of the sentence. The proper construction is ‘To forget him completely’. After ‘TO’ it will take an infinitive form of the verb ‘Forget’ and not an adverb ‘Completely’. Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q099",
@@ -2739,7 +3099,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option d. The error lies in part ‘d’ of the sentence. Replace ‘Be inviting’ with ‘Invite’ to make the sentence grammatically correct. Be+ ing form is used when the tense is progressive, or continuous. The given sentence states the activity which is of simple past tense. Hence, option ‘d’ is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q100",
@@ -2767,7 +3131,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. The error lies in part ‘c’ of the sentence. Replace ‘I see’ with ‘I have seen’ to make the sentence grammatically correct. The given sentence states an action which is of present perfect tense. Present perfect tense – It is used to express an event that happened in the past (saw a movie) that has present consequences. (at present also it is an amazing movie for her)"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q101",
@@ -2795,7 +3163,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. The proper arrangement will be - DABFCE. D - It is the first sentence as it introduces the topic which is, “NASA Orbital Debris Program for -Removal of Space Debris.” A – It defines ‘Space debris”. Hence, it is followed by sentence D. B – It states the reason that causes space debris. F – Sentence F states the impact of a large number of space junk formed in the space, which linked with the sentence B. Hence, BF forms the pair. C – It states that it is (space junk) the responsibility of every space country. E – It concludes by saying that this problem is an international challenge & an opportunity to save the space environment for future missions."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q102",
@@ -2823,7 +3195,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. The proper arrangement will be - DABFCE. D - It is the first sentence as it introduces the topic which is, “NASA Orbital Debris Program for - Removal of Space Debris.” A – It defines ‘Space debris”. Hence, it is followed by sentence D. B – It states the reason that causes space debris. F – Sentence F states the impact of a large number of space junk formed in the space, which linked with the sentence B. Hence, BF forms the pair. C – It states that it is (space junk) the responsibility of every space country. E – It concludes by saying that this problem is an international challenge & an opportunity to save the space environment for future missions."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q103",
@@ -2851,7 +3227,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. The proper arrangement will be - DABFCE. D - It is the first sentence as it introduces the topic which is, “NASA Orbital Debris Program for - Removal of Space Debris.” A – It defines ‘Space debris”. Hence, it is followed by sentence D. B – It states the reason that causes space debris. F – Sentence F states the impact of a large number of space junk formed in the space, which linked with the sentence B. Hence, BF forms the pair. C – It states that it is (space junk) the responsibility of every space faring country. E – It concludes by saying that this problem is an international challenge & an opportunity to save the space environment for future missions."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q104",
@@ -2879,7 +3259,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. The proper arrangement will be - DABFCE. D - It is the first sentence as it introduces the topic which is, “NASA Orbital Debris Program for - Removal of Space Debris.” A – It defines ‘Space debris”. Hence, it is followed by sentence D. B – It states the reason that causes space debris. F – Sentence F states the impact of a large number of space junk formed in the space, which linked with the sentence B. Hence, BF forms the pair. C – It states that it is (space junk) the responsibility of every spacefaring country. E – It concludes by saying that this problem is an international challenge & an opportunity to save the space environment for future missions."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q105",
@@ -2907,7 +3291,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. The proper arrangement will be - DABFCE. D - It is the first sentence as it introduces the topic which is, “NASA Orbital Debris Program for - Removal of Space Debris.” A – It defines ‘Space debris”. Hence, it is followed by sentence D. B – It states the reason that causes space debris. F – Sentence F states the impact of a large number of space junk formed in the space, which linked with the sentence B. Hence, BF forms the pair. C – It states that it is (space junk) the responsibility of every spacefaring country. E – It concludes by saying that this problem is an international challenge & an opportunity to save the space environment for future missions. Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q106",
@@ -2934,7 +3322,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option d. Sentence A-F: Both the sentences connect well and are talking on the same subject. A – Talks about teaching we get to love our country so we start following that blindly F – It states the impact of whatever said in sentence A. Sentence B- D: Sentence B talks about educating oneself, be open minded, open eyes (see the reality) and sentence D continues further by stating why it is important which is said in sentence B. Remaining sentences are contextually incorrect & hence do not connect well."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q107",
@@ -2962,7 +3354,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. Sentence A- D: Both the sentences connect well and are talking on the same subject. A – It talks about the influence of an advertisement on the minds of people. D – It states the end result of those advertisements (that it makes people purchase them through those tactics) Sentence C- E: both talk about hypertension among black people due to racial discrimination they face."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q108",
@@ -2990,7 +3386,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. Sentence C-F connects well. C – It states that it was difficult to spend the initial days of the lockdown F – It states the reason why it was difficult to spend time during lockdown."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q109",
@@ -3018,7 +3418,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Sentence A-E connects well. A – It states what one must do in order to achieve the goal E – It states how to do that. As both the sentences talkabout the same topic & connect well without changing the meaning of the sentence. Hence, option (c) is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q110",
@@ -3046,7 +3450,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. Both the sentences are joined properly to form a grammatically correct and contextually meaningful sentences using the connector “But “and “However”. But –It is used to connect ideas that contrast. However - It is used to indicate a contrast or contradiction. Therefore, the sentences thus formed using “But “and “However” are – (i) We all want to be the best parents we can be for our children but there is often conflicting advice on how to raise a kid who is confident, kind and successful. (ii) We all want to be the best parents we can be for our children however there is often conflicting advice on how to raise a kid who is confident, kind and successful."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q111",
@@ -3074,7 +3482,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. Both the sentences are joined properly to form a grammatically correct and contextually meaningful sentences using the connector “Even though.” Even though – It is used to show that two ideas are opposing one another. It is used as a stronger way to say \"Though\" or \"Although\". Therefore, the sentence thus formed using “Even though” is – (i)Mohan always gets the highest grade in the school, even though he does not study regularly."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q112",
@@ -3102,7 +3514,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Both the sentences are joined properly to form a grammatically correct and contextually meaningful sentence using the connector “In spite of.” In spite of– It is used to express a contrast between two things. Therefore, the sentence thus formed using “In spite of” is – (i) Minal was happy with her job in spite of working with very little salary."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q113",
@@ -3129,7 +3545,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. Pay through the nose – It is an idiomatic expression which means, ‘To pay an excessive amount for something.’ Only sentence ‘a’ conveys the same meaning as that of the given idiom. Hence, option (a) is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q114",
@@ -3156,7 +3576,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Come to a halt – It is an idiomatic expression which means, ‘To stop abruptly.’ Only sentence ‘c’ conveys the same meaning as that of the given idiom. Hence, option (c) is the correct choice. Visit: adda247.com"
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q115",
@@ -3183,7 +3607,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. In the bag – It is an idiomatic expression which means, ‘Assured of a successful result, certain to get or achieve something. Only sentence ‘b’ conveys the same meaning as that of the given idiom. Hence, option (b) is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q116",
@@ -3211,7 +3639,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option a. Know the ropes– It is an idiomatic expression which means, ‘To understand or be familiar with the details or knowhow about a specific situation, task, job, or role’. Only sentence ‘a’ conveys the same meaning as that of the given idiom. Hence, option (a) is the correct choice."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q117",
@@ -3239,7 +3671,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. B-C can replace each other and form a meaningful sentence.\" Beneficiaries \" and \"Programme \"can be exchanged as they do not alter the actual meaning of the given statement. Hint here is – After ‘scheduled to take part’, ‘Programme’ should come. So, the word ‘Beneficiaries’ is inappropriate there. The correct sentence thus form is - Amit Shah was scheduled to take part via video conferencing in the programme for the beneficiaries of over one lakh houses constructed in Madhya Pradesh under the Pradhan Mantri Awas Yojana."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q118",
@@ -3267,7 +3703,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option b. Both A-B & C-D can replace each other and form a meaningful sentence. The correct sentence thus form is - The map shows the total forest area diverted for development and defence projects between 1991 and 2021."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q119",
@@ -3295,7 +3735,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option c. Both A-D & B-C can replace each other and form a meaningful sentence. The correct sentence thus form is - Heavy taxation on crude oil combined with a significant uptick in international crude prices is responsible for this recent price rise."
     },
     {
       "q_id": "ibps_rrb_2020_mains_4b76b057::q120",
@@ -3323,7 +3767,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer is option e. The given sentence is grammatically correct. All the words are placed properly and add meaning to the sentence. The iPhone maker suggested users to place their watch on the charger and then wait for at least 30 minutes."
     }
   ]
 }

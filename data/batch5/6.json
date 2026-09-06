@@ -42,7 +42,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q002",
@@ -70,7 +73,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q003",
@@ -98,7 +104,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q004",
@@ -126,7 +135,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q005",
@@ -154,7 +166,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q006",
@@ -182,7 +197,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q007",
@@ -210,7 +228,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q008",
@@ -238,7 +259,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the numbers given in input are arranged in each step (in ascending order from left) after removing non-prime digits from it. One number is arranged in each step and every new number is placed at the left end after shifting previous numbers one place towards right. Input: 63825 49857 38679 72548 45328 95763 Step I: 37 63825 49857 72548 45328 95763 Step II. 532 37 63825 49857 72548 95763 Step III. 57 532 37 63825 72548 95763 Step IV. 325 57 532 37 72548 95763 Step V. 725 325 57 532 37 95763 Step VI. 573 725 325 57 532 37"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q009",
@@ -266,7 +291,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the numbers given in input are arranged in each step (in ascending order from left) after removing non-prime digits from it. One number is arranged in each step and every new number is placed at the left end after shifting previous numbers one place towards right. Input: 63825 49857 38679 72548 45328 95763 Step I: 37 63825 49857 72548 45328 95763 Step II. 532 37 63825 49857 72548 95763 Step III. 57 532 37 63825 72548 95763 Step IV. 325 57 532 37 72548 95763 Step V. 725 325 57 532 37 95763 Step VI. 573 725 325 57 532 37"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q010",
@@ -294,7 +323,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the numbers given in input are arranged in each step (in ascending order from left) after removing non-prime digits from it. One number is arranged in each step and every new number is placed at the left end after shifting previous numbers one place towards right. Input: 63825 49857 38679 72548 45328 95763 Step I: 37 63825 49857 72548 45328 95763 Step II. 532 37 63825 49857 72548 95763 Step III. 57 532 37 63825 72548 95763 Step IV. 325 57 532 37 72548 95763 Step V. 725 325 57 532 37 95763 Step VI. 573 725 325 57 532 37"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q011",
@@ -322,7 +355,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the numbers given in input are arranged in each step (in ascending order from left) after removing non-prime digits from it. One number is arranged in each step and every new number is placed at the left end after shifting previous numbers one place towards right. Input: 63825 49857 38679 72548 45328 95763 Step I: 37 63825 49857 72548 45328 95763 Step II. 532 37 63825 49857 72548 95763 Step III. 57 532 37 63825 72548 95763 Step IV. 325 57 532 37 72548 95763 Step V. 725 325 57 532 37 95763 Step VI. 573 725 325 57 532 37"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q012",
@@ -350,7 +387,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the numbers given in input are arranged in each step (in ascending order from left) after removing non-prime digits from it. One number is arranged in each step and every new number is placed at the left end after shifting previous numbers one place towards right. Input: 63825 49857 38679 72548 45328 95763 Step I: 37 63825 49857 72548 45328 95763 Step II. 532 37 63825 49857 72548 95763 Step III. 57 532 37 63825 72548 95763 Step IV. 325 57 532 37 72548 95763 Step V. 725 325 57 532 37 95763 Step VI. 573 725 325 57 532 37"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q013",
@@ -378,7 +419,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q014",
@@ -406,7 +450,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q015",
@@ -434,7 +481,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q016",
@@ -462,7 +512,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q017",
@@ -490,7 +543,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q018",
@@ -518,7 +574,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. M*W (false) II. D&K (false) III. J$P (false)"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q019",
@@ -546,7 +606,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. M $H (false) II. L*Q (false) III. P&S (true)"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q020",
@@ -574,7 +638,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. D&U (true) II. B*T (true) III. H&K (true)"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q021",
@@ -602,7 +670,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only I and II are strong. Clearly, Both I and II hold strong, as they provide very convincing reasons, for a single tax system would help get rid of multifarious taxes on a product. Besides, the idea of imitation of other countries in the implementation of a certain policy holds no relevance. So, argument III does not hold strong."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q022",
@@ -630,7 +702,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Clearly, trade unions provide a common platform for the workers to voice their demands and protests and thus ensure that they are not subdued or exploited. So, argument II holds strong, while I and III do not. Besides, the idea of imitation of other countries in the implementation of a certain policy, holds no relevance. So, argument IV also not hold strong. Directions (23-25):"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q023",
@@ -658,7 +734,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Data in statement I and statement II are sufficient to answer the question."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q024",
@@ -686,7 +766,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Data in all the statement I, II and III are necessary to answer the question."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q025",
@@ -714,7 +798,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Data in statement III is sufficient."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q026",
@@ -742,7 +830,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q027",
@@ -770,7 +861,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q028",
@@ -798,7 +892,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q029",
@@ -826,7 +923,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q030",
@@ -854,7 +954,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q031",
@@ -882,7 +985,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q032",
@@ -910,7 +1016,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q033",
@@ -938,7 +1047,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q034",
@@ -966,7 +1078,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q035",
@@ -994,7 +1109,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q036",
@@ -1022,7 +1140,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q037",
@@ -1050,7 +1171,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q038",
@@ -1078,7 +1202,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q039",
@@ -1106,7 +1233,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q040",
@@ -1134,7 +1264,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Meaningful words formed are PAIRS, PARIS"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q041",
@@ -1162,7 +1296,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q042",
@@ -1189,7 +1326,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q043",
@@ -1217,7 +1357,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q044",
@@ -1245,7 +1388,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q045",
@@ -1273,7 +1419,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q046",
@@ -1301,7 +1450,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q048",
@@ -1329,7 +1481,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q049",
@@ -1357,7 +1512,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q050",
@@ -1385,7 +1543,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q051",
@@ -1413,7 +1574,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q052",
@@ -1441,7 +1605,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q053",
@@ -1469,7 +1636,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q054",
@@ -1497,7 +1667,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q056",
@@ -1525,7 +1698,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q057",
@@ -1553,7 +1729,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q058",
@@ -1581,7 +1760,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q059",
@@ -1609,7 +1791,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q060",
@@ -1637,7 +1822,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q061",
@@ -1665,7 +1853,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q064",
@@ -1693,7 +1884,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q065",
@@ -1721,7 +1915,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q066",
@@ -1749,7 +1946,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q068",
@@ -1777,7 +1977,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q069",
@@ -1805,7 +2008,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q070",
@@ -1833,7 +2039,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q071",
@@ -1861,7 +2070,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q072",
@@ -1889,7 +2101,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q073",
@@ -1917,7 +2132,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q074",
@@ -1945,7 +2163,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q075",
@@ -1973,7 +2194,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q076",
@@ -2001,7 +2225,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q077",
@@ -2029,7 +2256,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q078",
@@ -2057,7 +2287,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q079",
@@ -2085,7 +2318,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q080",
@@ -2113,7 +2349,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q081",
@@ -2141,7 +2380,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The concerned sentence states that AI is changing not simply what people can do, but also how we behave, our preferences, and how we see the world and ourselves. Thus, the word “revamping” which means “to give a new and improved form” has been used in the most appropriate manner. Thus, no replacement is required. Also, the words given in the options are incoherent with reference to the context of the concerned sentence. (a) slumping- to undergo a sudden severe or prolonged fall in price, value, or amount. (b) tumbling- to fall suddenly, clumsily, or headlong. (c) worsening- to make or become worse. (d) inflaming- to provoke or intensify (strong feelings, especially anger) in someone."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q082",
@@ -2169,7 +2412,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here, “pressing” means requiring quick or immediate action or attention. (a) pivotal- of crucial importance in relation to the development or success of something else. (b) drastic- likely to have a strong or far-reaching effect; radical and extreme. (c) trivial- of little value or importance. (d) critical- having decisive or crucial importance in the success, failure, or existence of something."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q083",
@@ -2197,7 +2444,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The concerned sentence states that parents are understandably hesitant to allow their children to be photographed by the media, and news organizations in many countries blur children's faces to protect them. Thus, we can infer that “reluctant” is the most appropriate word to fill in the given blank. (a) wishing- to express a strong desire for something that probably will not happen. (b) earnest- resulting from or showing sincere and intense conviction. (c) reluctant- unwilling and hesitant; disinclined. (d) craving- a powerful desire for something. (e) esurient- hungry or greedy."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q084",
@@ -2225,7 +2476,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here, “ancillary” means in addition to something else, but not as important. (a) subsidiary- less important than but related or supplementary to something. (b) auxiliary- providing supplementary or additional help and support. (c) adjuvant- one that enhances and modifies the activity of the main substance. (d) accessory- aiding an activity or process in a minor way; subsidiary or supplementary."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q085",
@@ -2253,7 +2508,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here, “amusing” should be interchanged with “personality” and “cognitive” should be replaced with “fostering” to make the given sentence contextually correct. Thus, the correct sequence of the highlighted words will be BADC."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q086",
@@ -2280,7 +2539,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only (a) and (b) are correct with reference to the context of the given question. While statement (c) is completely incoherent. Refer to the last lines of the second paragraph, “The Government used command-and-control measures to slow deforestation, but it also broadened its political base by paving its all-weather motorways providing access to Pacific markets. It also attracted new low-carbon industries to set up shop through innovative incentive systems.”"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q087",
@@ -2308,7 +2571,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here, “embrace” means an act of accepting something willingly or enthusiastically. (a) enclasp- hold tightly in one's arms. (b) repudiate- refuse to accept; reject. (c) espouse- adopt or support (a cause, belief, or way of life). (d) underpin- support, justify, or form the basis for something. (e) stimulate- encourage or arouse interest or enthusiasm."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q088",
@@ -2335,7 +2602,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "By referring to the starting lines of the first paragraph, we can deduce that all of the given statements are correct with reference to the context of the given question. Refer to the starting lines of the first paragraph, “Tropical deforestation is one of the great challenges facing humanity. If we don’t slow it down soon, the chances of avoiding disastrous climate change, species loss and the disruption of indigenous and traditional people’s cultures grow slimmer.”"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q089",
@@ -2363,7 +2633,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here, “outrage” means an extremely strong reaction of anger, shock, or indignation. (a) reconcile- restore friendly relations between. (b) indignation- anger or annoyance provoked by what is perceived as unfair treatment. (c) propitiate- win or regain the favor of a person by doing something that pleases them. (d) appease- pacify or placate (someone) by acceding to their demands. (e) conciliate- stop (someone) being angry or discontented; placate."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q090",
@@ -2390,7 +2664,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only (a) and (b) are correct with reference to the context of the given question. While statement (c) is completely incoherent. Refer to the starting lines of the third paragraph, “The stage is also set to attract private financial investments into new low-carbon industries and farmer support programs as the risks associated with rampant deforestation, illegal land-use practices and labor infractions are diminished.”"
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q091",
@@ -2418,7 +2696,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The adjective \"adequately,\" which means \"to a satisfactory or acceptable amount,\" appears to have been chosen to give a redundant meaning among the highlighted terms. There will be no contextual fault in the given statement if we eliminate this term, and it will still make sense. Other words are required to construct a complete sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q092",
@@ -2446,7 +2728,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All of the highlighted words are necessary to make a coherent sentence. Thus, there is no redundant word used in the given sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q093",
@@ -2474,7 +2760,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the highlighted terms, the verb \"concern,\" which means \"to make someone apprehensive or worried,\" appears to have been added for no apparent reason, as the word \"worries,\" which comes before it, already denotes \"the state of being anxious over possible issues.\" As a result, if we remove this term from the statement, there will be no contextual error and it will still sound right. Other words are required to construct a complete sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q094",
@@ -2502,7 +2792,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All of the highlighted words are correct in context and are required to compose a coherent sentence. As a result, the given statement contains no superfluous words."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q095",
@@ -2530,7 +2824,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence discusses virus transmission, economic production, and speedy health response; similarly, we can deduce that only paragraph (i) is relevant to the context of the given sentence as it also addresses economic decline and expanding healthcare services. The other paragraphs, on the other hand, are incoherent in relation to the context of the given sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q096",
@@ -2558,7 +2856,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "After making an analysis of the given paragraphs, we can deduce that only paragraphs (ii) and (iii) are relevant to the context of the given sentence because they also discuss recruiting, shortlisting, selection, and dismissal, all of which are directly or indirectly related to the appointments. The other paragraph, on the other hand, is incoherent in relation to the context of the given sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q097",
@@ -2586,7 +2888,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Following a comprehensive review of the given paragraphs, we can infer that only paragraphs (ii) and (iii) are relevant to the context of the given sentence, as they also concern medical oxygen shortages, which are all specifically related to the context of the given sentence. The other paragraph, on the other hand, is incoherent in light of the context of the given sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q098",
@@ -2613,7 +2919,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence concerns the continuation of regular online classes despite the summer break; similarly, only paragraph (iii) is relevant to the context of the given sentence because it likewise covers continuing online classes despite the summer break order. The other paragraphs, on the other hand, are illogical in relation to the context of the given sentence because they cover different topics."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q099",
@@ -2641,7 +2951,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct sequence of the highlighted words to form meaningful sentences would be EBCFAD. The sentences thus formed would be: (A) The first wave of the pandemic throughout the world revealed the vulnerabilities in the global healthcare system. (B) Hospitals have been swamped for nearly a year, and no attempts have been made to replenish medical oxygen supplies."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q100",
@@ -2669,7 +2983,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, “yet” is the most appropriate connector which can be used to connect both sentences to form a coherent paragraph. The sentence thus formed would be “The first wave of the pandemic throughout the world revealed the vulnerabilities in the global healthcare system, yet hospitals have been swamped for nearly a year, and no attempts have been made to replenish medical oxygen supplies.” (a) even- used to emphasize something surprising or extreme. (b) yet- in spite of that; nevertheless. (c) since- for the reason that; because. (d) then- after that; next; afterward. (e) for- specify a period of time."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q101",
@@ -2697,7 +3015,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct sequence of the highlighted words to form meaningful sentences would be FBDCEA. The sentences thus formed would be: (A) There has been a rush of headlines this week in the build-up structured by the US regarding whether India should declare a net-zero emissions target. (B) Decarbonizing the power sector, which is India's single largest source of greenhouse gas emissions, is a critical step towards achieving net-zero emissions."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q102",
@@ -2725,7 +3047,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, “consequently” is the most appropriate connector which can be used to connect both sentences to form a coherent paragraph. The sentence thus formed would be “There has been a rush of headlines this week in the build-up structured by the US regarding whether India should declare a net-zero emissions target, consequently, decarbonizing the power sector, which is India's single largest source of greenhouse gas emissions, is a critical step towards achieving net-zero emissions.” (a) despite- without being affected by; in spite of. (b) although- in spite of the fact that; even though. (c) however- in whatever way; regardless of how. (d) consequently- as a result. (e) moreover- as a further matter; besides."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q103",
@@ -2753,7 +3079,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only the phrase given in option (a) is correct to replace the highlighted one. The concerned sentence starts with the term “enhancing” which is a gerund and always considered a singular noun, thus, it will be followed by “is” instead of “are”."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q104",
@@ -2781,7 +3111,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The phrase highlighted in the given sentence is grammatically and contextually correct. Thus, no replacement is required."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q105",
@@ -2809,7 +3143,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only the phrase given in option (c) is correct to replace the highlighted one. The highlighted phrase uses the term “rapid” which is incorrect and should be replaced with the correct form of adverb which is “rapidly”."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q106",
@@ -2837,7 +3175,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The phrase highlighted in the given sentence is grammatically and contextually correct. Thus, no replacement is required."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q107",
@@ -2865,7 +3207,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only the phrase given in option (b) is correct to replace the highlighted one. Here, the adverb “too” should come first and the preposition “to” should come after to form a grammatically correct sentence."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q108",
@@ -2893,7 +3239,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only sentence (d) conveys the same meaning as the given statement. While the rest of the sentences are incoherent with reference to the context of the given statement."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q109",
@@ -2921,7 +3271,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only sentence (c) conveys the same meaning as the given statement among the alternatives. The rest of the sentences are incoherent in view of the context of the given statement."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q110",
@@ -2949,7 +3303,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only sentence (e) conveys the same meaning as the given statement. While the rest of the sentences are incoherent with reference to the context of the given statement."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q111",
@@ -2977,7 +3335,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only sentence (d) conveys the same meaning as the given statement among the alternatives. The rest of the sentences are incoherent in view of the context of the given statement."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q112",
@@ -3005,7 +3367,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only sentence (c) conveys the same meaning as the given statement. While the rest of the sentences are incoherent with reference to the context of the given statement."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q113",
@@ -3033,7 +3399,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "None of the given sentences can be combined to form a correct statement after combination."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q114",
@@ -3061,7 +3431,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only A-E and B-D can be combined together to form grammatically correct and contextually meaningful sentences. The sentences thus formed would be: (i) India may even consider committing to submit plausible pathways and timelines to achieving net- zero emissions as part of its future pledges. (ii) The European game has been thrown into turmoil by the decision taken by authorities to disclose a confidential plan to launch The Super League."
     },
     {
       "q_id": "ibps_po_2021_mains_717e6dcf::q115",
@@ -3089,7 +3463,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, only C-F can be combined together to form a grammatically correct and contextually meaningful sentence. The sentence thus formed would be, “The nation hoped that the central government would take corrective action after watching and experiencing the repercussions of a medical supply crisis.”"
     }
   ]
 }

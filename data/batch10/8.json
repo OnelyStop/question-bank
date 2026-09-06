@@ -46,7 +46,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. U > Z (True) II. X ≥ W (False)"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q002",
@@ -74,7 +78,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. Q ≤ S (True) II. V < R (True)"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q003",
@@ -102,7 +110,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. G ≤ K (False) II. G > K (False)"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q004",
@@ -130,7 +142,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q005",
@@ -158,7 +173,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q006",
@@ -186,7 +204,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q007",
@@ -214,7 +235,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q008",
@@ -242,7 +266,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q009",
@@ -270,7 +297,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q010",
@@ -298,7 +328,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q011",
@@ -326,7 +359,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q012",
@@ -354,7 +390,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q013",
@@ -382,7 +421,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q014",
@@ -410,7 +452,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q015",
@@ -438,7 +483,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q016",
@@ -466,7 +514,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q017",
@@ -494,7 +545,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q018",
@@ -522,7 +576,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q019",
@@ -550,7 +607,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q020",
@@ -578,7 +638,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q021",
@@ -606,7 +669,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q022",
@@ -634,7 +700,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person gap between two given persons except option (c)"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q023",
@@ -662,7 +732,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q024",
@@ -690,7 +763,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q025",
@@ -718,7 +794,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the information provided, \"Is\" is coded as \"pt\"."
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q026",
@@ -746,7 +826,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the information provided, \"management\" is coded as \" Either rt or mh\"."
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q027",
@@ -774,7 +858,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the information provided, \"Given\" is coded as \"vs\"."
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q028",
@@ -802,7 +890,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Can’t be determined"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q029",
@@ -830,7 +922,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "‘vs rt’ will be the possible code for “Given management”"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q030",
@@ -858,7 +954,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q031",
@@ -886,7 +985,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q032",
@@ -914,7 +1016,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q033",
@@ -942,7 +1047,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q034",
@@ -970,7 +1078,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "First person lives two floors below the second person."
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q035",
@@ -998,7 +1110,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "HARMONY – GBQLPMX"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q036",
@@ -1026,7 +1142,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q037",
@@ -1054,7 +1173,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q038",
@@ -1082,7 +1204,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q039",
@@ -1110,7 +1235,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "First point is in south-west of second point except option (b)"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q040",
@@ -1138,7 +1267,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "logic followed:"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q041",
@@ -1166,7 +1299,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A ×B=23-5 A ×B= 18 Given, A = B/2 So, B/2 ×B = 36 B = 6"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q042",
@@ -1194,7 +1331,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q043",
@@ -1222,7 +1362,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q044",
@@ -1250,7 +1393,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q045",
@@ -1278,7 +1424,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total work = 24 unit (LCM of 24/7 and 6) Efficiency of A = 24/6 = 4 unit/day Efficiency of A and B = 24×7/24 = 7 unit/day So, efficiency of B = 7 – 4 = 3 unit/day Required days = 24/3 = 8 days"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q046",
@@ -1306,7 +1456,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Speed = Distance/Time Speed of bus = 300/5 = 60 km/hr So, speed of car = 60 – 20 = 40 km/hr Time = Distance/speed Required time = 200/40 = 5 hours"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q047",
@@ -1334,7 +1488,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Area of triangle = 1/2 × base × height Let height and base of a right angle triangle be 3x cm & 4x cm respectively ATQ, 24 = 1/2 × 3x × 4x 24 = 6x2 x2 = 4 x = 2 So, the height of the triangle = 6 cm"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q048",
@@ -1362,7 +1520,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 375 : (75+325) = 375 : 400 = 15:16"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q049",
@@ -1390,7 +1552,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required difference = 75 – 50 = 25"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q050",
@@ -1418,7 +1584,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q051",
@@ -1446,7 +1615,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q052",
@@ -1474,7 +1646,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q053",
@@ -1502,7 +1677,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q054",
@@ -1530,7 +1708,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 36 + 62 = 72 72 – 52 = 47 47 + 42 = 63 63 – 32 = 54 54 + 22 = 58"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q055",
@@ -1558,7 +1740,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 8 × 2 – 1 = 15 15 × 2 – 1 = 29 29 × 2 – 1 = 57 57 × 2 – 1 = 113 113 × 2 – 1 = 225"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q056",
@@ -1586,7 +1772,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 28 + 11 = 39 39 + 13 = 52 52 + 17 = 69 69 + 19 = 88 88 + 23 = 111"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q057",
@@ -1614,7 +1804,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 13 + 12 = 25 25 + 24 = 49 49 + 36 = 85 85 + 48 = 133 133 + 60 = 193"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q058",
@@ -1642,7 +1836,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 60 + 40 = 100 100 + 60 = 160 160 + 80 = 240 240 + 100 = 340 340 + 120 = 460"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q059",
@@ -1670,7 +1868,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q060",
@@ -1698,7 +1899,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q061",
@@ -1726,7 +1930,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The number of candies sold by Naira = 30+48 = 78 Required difference = 78 - 78 = 0"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q062",
@@ -1754,7 +1962,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q063",
@@ -1782,7 +1993,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = (48+78):(82-40)=126 :42=3:1"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q064",
@@ -1810,7 +2025,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required difference = (48+91+78)-(75+56+50) =217-181=36"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q065",
@@ -1838,7 +2057,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q066",
@@ -1866,7 +2088,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q067",
@@ -1894,7 +2119,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "150×39÷3-950= ? 1950 – 950 = ? ? = 1000"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q068",
@@ -1922,7 +2151,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "288 - 55=? ? =233"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q070",
@@ -1950,7 +2183,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? + 169=169 ?=0"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q072",
@@ -1978,7 +2215,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "635– 28 + 320 ÷8 = ? 635-28+40=? ?= 647"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q075",
@@ -2006,7 +2247,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? - 582 + 706 = 670 ? = 1252 – 706 ? = 546"
     },
     {
       "q_id": "ibps_rrb_2024_prelims_01eb16bf::q076",
@@ -2034,7 +2279,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? ×150=360 ? = 2.4"
     }
   ]
 }

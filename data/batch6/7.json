@@ -43,7 +43,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q002",
@@ -71,7 +74,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q003",
@@ -99,7 +105,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q004",
@@ -127,7 +136,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q005",
@@ -155,7 +167,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q006",
@@ -183,7 +198,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q007",
@@ -211,7 +229,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q008",
@@ -239,7 +260,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q009",
@@ -267,7 +291,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q010",
@@ -295,7 +322,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q011",
@@ -323,7 +353,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q012",
@@ -351,7 +384,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q013",
@@ -379,7 +415,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q014",
@@ -407,7 +446,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q015",
@@ -435,7 +477,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q016",
@@ -463,7 +508,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q017",
@@ -491,7 +539,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q018",
@@ -519,7 +570,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q019",
@@ -547,7 +601,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q020",
@@ -575,7 +632,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q021",
@@ -603,7 +663,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q022",
@@ -631,7 +694,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q023",
@@ -659,7 +725,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q024",
@@ -687,7 +756,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q025",
@@ -715,7 +787,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q026",
@@ -743,7 +818,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q027",
@@ -771,7 +849,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q028",
@@ -799,7 +880,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q029",
@@ -827,7 +911,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q030",
@@ -855,7 +942,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q031",
@@ -883,7 +973,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q032",
@@ -911,7 +1004,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q033",
@@ -939,7 +1035,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q034",
@@ -967,7 +1066,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q035",
@@ -995,7 +1097,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q036",
@@ -1023,7 +1128,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q037",
@@ -1051,7 +1159,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q038",
@@ -1079,7 +1190,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q039",
@@ -1107,7 +1221,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q040",
@@ -1135,7 +1252,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q041",
@@ -1163,7 +1283,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q042",
@@ -1191,7 +1314,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q043",
@@ -1219,7 +1345,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q044",
@@ -1247,7 +1376,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q045",
@@ -1275,7 +1407,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q046",
@@ -1303,7 +1438,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q047",
@@ -1331,7 +1469,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q048",
@@ -1359,7 +1500,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q049",
@@ -1387,7 +1531,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q050",
@@ -1415,7 +1562,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q051",
@@ -1443,7 +1593,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q052",
@@ -1471,7 +1624,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q053",
@@ -1499,7 +1655,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q054",
@@ -1527,7 +1686,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q060",
@@ -1555,7 +1717,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q061",
@@ -1583,7 +1748,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q062",
@@ -1611,7 +1779,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q063",
@@ -1639,7 +1810,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q064",
@@ -1667,7 +1841,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q065",
@@ -1695,7 +1872,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q066",
@@ -1723,7 +1903,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q067",
@@ -1751,7 +1934,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q068",
@@ -1779,7 +1965,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q069",
@@ -1807,7 +1996,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q070",
@@ -1835,7 +2027,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q071",
@@ -1863,7 +2058,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q072",
@@ -1891,7 +2089,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q073",
@@ -1919,7 +2120,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q074",
@@ -1947,7 +2151,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q075",
@@ -1975,7 +2182,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q076",
@@ -2003,7 +2213,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q077",
@@ -2031,7 +2244,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q078",
@@ -2059,7 +2275,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q079",
@@ -2087,7 +2306,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q080",
@@ -2115,7 +2337,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q081",
@@ -2143,7 +2368,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q082",
@@ -2171,7 +2399,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q083",
@@ -2199,7 +2430,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q084",
@@ -2227,7 +2461,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q085",
@@ -2255,7 +2492,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q086",
@@ -2283,7 +2523,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q087",
@@ -2311,7 +2554,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q088",
@@ -2339,7 +2585,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q089",
@@ -2367,7 +2616,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q090",
@@ -2395,7 +2647,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q091",
@@ -2423,7 +2678,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q092",
@@ -2451,7 +2709,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q093",
@@ -2479,7 +2740,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q094",
@@ -2507,7 +2771,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q095",
@@ -2535,7 +2802,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q096",
@@ -2563,7 +2833,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q097",
@@ -2591,7 +2864,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q098",
@@ -2619,7 +2895,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q099",
@@ -2647,7 +2926,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_po_2023_prelims_dfc4b883::q100",
@@ -2675,7 +2957,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     }
   ]
 }

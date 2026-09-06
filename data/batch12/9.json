@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q005",
@@ -149,7 +161,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (6-10): Logic: In the given Input-Output the numbers are arranged from both the ends simultaneously. In first step- Lowest number is arranged from the left end and highest number is arranged from the right end. In second step- 2nd lowest number is arranged from the left end and 2nd highest number is arranged from the right end and so on... Also while arranging the numbers, the numbers which are arranged from left end are replaced by the addition of the digits of that number whereas the numbers which are arranged from the right end are replaced by the difference of the digits of that number. Input: 75 12 10 94 84 32 63 42 54 22 Step I: 01 75 12 84 32 63 42 54 22 05 Step II: 03 01 75 32 63 42 54 22 05 04 Step III: 04 03 01 32 63 42 54 05 04 02 Step IV: 05 04 03 01 42 54 05 04 02 03 Step V: 06 05 04 03 01 05 04 02 03 01"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q006",
@@ -177,7 +193,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q007",
@@ -205,7 +224,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q008",
@@ -233,7 +255,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q009",
@@ -261,7 +286,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q010",
@@ -289,7 +317,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (11-15):"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q011",
@@ -317,7 +349,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q012",
@@ -345,7 +380,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q013",
@@ -373,7 +411,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q014",
@@ -401,7 +442,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q015",
@@ -429,7 +473,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (16-20): Logic- The different number codes for all the consonant as per the given condition are, Step 1: The consonants of the word ‘NORMAL’ are to be coded as the number allotted to the consonant: Step 2: The numbers immediately preceded and followed by the vowels are to be coded as per the given conditions; So, the code for consonant for word ‘NORMAL’ is coded as ‘4O73(M)A2’, numbers 4 and 7 is immediately followed and preceded respectively by ‘O’ so, ‘4’ is coded as ‘#1’ and ‘7’ is coded as ‘@#’. Similarly, ‘3’ and ‘2’ is immediately followed and preceded respectively by ‘A’ so, ‘3’ is coded as ‘#1’ and ‘2’ is coded as ‘@#’. Step 3: Now the vowels are to be coded as per the given conditions, as ‘O’ comes after ‘M’ in the alphabetical series so ‘O’ is coded as ‘$$’ and ‘A’ comes before ‘M’ in the alphabetical series so, ‘A’ is to be coded as ‘**’. So, the final code for the word ‘NORMAL’ is ‘#1$$@##1**@#’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q016",
@@ -457,7 +505,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Therefore, the code for the word ‘NORMAL’ is ‘#1$$@##1**@#’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q017",
@@ -485,7 +537,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Step 1: The consonants of the word ‘EMBARKS’ are to be coded as the number allotted to the consonant: Step 2: The numbers immediately preceded and followed by the vowels are to be coded as per the given conditions; So, the code for consonant for word ‘EMBARKS’ is coded as ‘E3(M)1A711’, number ‘3’ is followed by vowel so the code for ‘3’ is ‘@#’ and numbers ‘1’ and ‘7’ is immediately preceded and followed respectively by ‘A’ so, ‘1’ is coded as ‘#1’ and ‘7’ is coded as ‘@#’. But the numeric code of ‘K’ and ‘S’ is ‘1’ is neither followed by nor preceded by any vowel. Hence, there code will remain the same. REASONING ABILITY Step 3: Now the vowels are to be coded as per the given conditions, as ‘E’ comes before ‘M’ in the alphabetical series so ‘E’ is coded as ‘**’ and ‘A’ comes before ‘M’ in the alphabetical series so, ‘A’ is to be coded as ‘**’. So, the final code for the word ‘EMBARKS’ is ‘**@##1**@#11’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q018",
@@ -513,7 +569,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The code for ‘’SMITTLE’ is ‘1#1**@#2#1**’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q019",
@@ -541,7 +601,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The code for ‘ANNUAL’ is ‘**@##1$$**@#’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q020",
@@ -569,7 +633,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (21-25): Compartment A Compartment B Compartment C R N K Q P V M Y L S X Z 21. (d) 22. (a) 23. (b) 24. (b) 25. (d)"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q021",
@@ -597,7 +665,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q022",
@@ -625,7 +696,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q023",
@@ -653,7 +727,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q024",
@@ -681,7 +758,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q025",
@@ -709,7 +789,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q026",
@@ -737,7 +820,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both course of action should be followed. For I, As the given statement states that ministry has forecasted the situation of flood, so the people of city A should move to city B as a preventive action. Also as an impact of flood here will be a lack of necessities so the people of city A should preserve these things. Direction (27-30): 27. (d) 28. (d) 29. (c) 30. (c) Direction (31-34): Subjects Time slot Math 6:30am-9:30am English 9:30am-11:00am Hindi 11:00am-12:30pm Chemistry 12:30pm-2:30pm Biology 2:30pm-5:30pm Physics 5:30pm-8:30pm 31. (b) 32. (b) 33. (a) 34. (b) Direction (35-37): 35. (c)"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q027",
@@ -765,7 +852,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q028",
@@ -793,7 +883,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q029",
@@ -821,7 +914,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q030",
@@ -849,7 +945,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (31-34): Subjects Time slot Math 6:30am-9:30am English 9:30am-11:00am Hindi 11:00am-12:30pm Chemistry 12:30pm-2:30pm Biology 2:30pm-5:30pm Physics 5:30pm-8:30pm"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q031",
@@ -877,7 +977,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q032",
@@ -905,7 +1008,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q033",
@@ -933,7 +1039,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q034",
@@ -961,7 +1070,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (35-37):"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q035",
@@ -989,7 +1102,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q036",
@@ -1017,7 +1133,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q037",
@@ -1045,7 +1164,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (38-41): Months/Dates 8th 17th 25th January (31) L P N March (31) Q S K April (30) O M R Q>N>L>S>R>K>M>O>P 38. (b) 39. (d) 40. (e) 41. (d) Directions (42-44):"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q038",
@@ -1073,7 +1196,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q039",
@@ -1101,7 +1227,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q040",
@@ -1129,7 +1258,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q041",
@@ -1157,7 +1289,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (42-44):"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q042",
@@ -1185,7 +1321,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "A man leave GIP at ‘®Å’ me 6.10, he takes 20 min to reach WOW but he reaches 15 min late me he reach Wow at 6.45 me ‘®£’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q043",
@@ -1213,7 +1353,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Airplane departure time is ‘£µ’ me 9.25, A person want to reach airport 20 minute earlier me he want to reach airport at 9.05, and he takes 40 minutes to reach airport me he should leave office 8.25 me ‘αµ’."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q044",
@@ -1241,7 +1385,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "A man leave his home at ‘£∞’ me 9.55, and he takes 2 hours to reach office from his home that me he reaches office at 11.55 me ‘∞∞’. Directions (45-48): 45. (d) 46. (a) 47. (d) 48. (c)"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q045",
@@ -1269,7 +1417,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q046",
@@ -1297,7 +1448,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q047",
@@ -1325,7 +1479,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q048",
@@ -1353,7 +1510,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q049",
@@ -1381,7 +1541,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The demolition of unauthorized buildings would teach a lesson to the unscrupulous builders and also serve as a warning for the citizens not to indulge in such activities in the future. This is essential, as unauthorized constructions impose undue burden on the city’s infrastructure. So, only argument II holds strong."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q050",
@@ -1409,7 +1573,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Clearly, A wishes to study the degree of effect of pay revision on job satisfaction of employees. This me that job satisfaction can be measured and A is capable of making such a study. So, both I and II are implicit."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q051",
@@ -1437,7 +1605,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Rahul runs for 15 minutes at a speed of 5 km/hr and 25 minutes at a speed of 9 km/hr ∴ Total distance covered by Rahul on treadmill = 60 × 5 + 60 × 9 = 1.25 + 3.75 = 5𝑘𝑚 A = 5km"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q052",
@@ -1465,7 +1637,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "P2 can complete work in = 6 × 4 = 7.5 ℎ𝑜𝑢𝑟𝑠 P1 and P2 together can complete total work in = 6×7.5 6+7.5 = 13.5 = 3 3 ℎ𝑜𝑢𝑟𝑠 ⇒P1 and P2 together can complete 75% work in = 3 × 100 = 2.5 ℎ𝑜𝑢𝑟𝑠 They finish work at 12:30 p.m. ⇒ They start their work at 12:30 – 2:30 = 10 a.m. B = 10 a.m."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q053",
@@ -1493,7 +1669,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "P2 can complete work in = 6 × 4 = 7.5 ℎ𝑜𝑢𝑟𝑠 Rahul and P2 can complete same work in 3 hours ⇒ Rahul can complete same work in = 3−1 7.5 = 0.2 = 5 ℎ𝑜𝑢𝑟𝑠 Ratio of efficiency of Rahul and P1 is 6 : 5 C = 6−5 5 × 100 = 20%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q054",
@@ -1521,7 +1701,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Distance between his house and his office is 45 km ⇒𝐻𝑖𝑠 speed = 1.5 = 30𝑘𝑚/ℎ𝑟 Speed of stream is 3 km/hr ⇒ Upstream speed of boat = 30 −3 = 27 Time to reach home i.e, D = 27 = 1 3 ℎ𝑜𝑢𝑟𝑠"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q055",
@@ -1549,7 +1733,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Each friend has 2 dices so there are total 36 outcomes by one friend. If either Rahul or Aman throw their dices, then there are total 36 + 36 outcomes So, E = 36 + 36 = 72"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q056",
@@ -1577,7 +1765,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Sum of outcomes of dices should be 8 so it can be (4,4), (3,5) and (2,6) In (4,4) Addition of square of outcomes = 42 + 42 = 32 In (3,5) Addition of square of outcomes = 32 + 52 = 34 In (2,6) Addition of square of outcomes = 22 + 62 = 40 Now Raman will win the game if he gets (2,6) and remaining two get (3,5) or (4,4) So, option (e) is the correct answer"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q057",
@@ -1605,7 +1797,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let length and breadth of rectangle be l cm and b cm respectively So, ATQ ℓ × (b + 6) – b (ℓ – 6) = 252 6 (ℓ + b) = 252 2 (ℓ + b) = 84 cm"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q058",
@@ -1633,7 +1829,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Diagonal of square = 2.5√2 × √2 = 5 cm Length of rectangle = 5 × 3 = 15 cm Breadth = 5 cm Area of rectangle = 15 × 5 = 75 cm2"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q059",
@@ -1661,7 +1861,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Speed of boat in still water = 20 km/hr Speed of stream = 7 km/hr Ratio of speed of boat in upstream to that of downstream = 6 : 8 ⇒ 3 : 4 Time taken by boat in upstream to that of downstream = 4 : 3 Required distance = (20 + 7 ) × 5×3 7 ≈50 km"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q060",
@@ -1689,7 +1893,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Ratio of profit of A : B 800× 8+ 900+ 1000+ 1100+ : 1600× 8+ 1700+ 1800+ 1900+ : Profit of A ⇒ 154 × 53 = 2650 Rs. QUANTITATIVE APTITUDE"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q061",
@@ -1717,7 +1925,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let initial investment of A = x Ratio of profit A 12 × x x : : : B 6 × 4500 : : : C 4 × 4500 Now ATQ x x+2250+1500 = x ≈ Rs 3600"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q062",
@@ -1745,7 +1957,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "S.P. of article D sold by Ravi = Rs.120 Profit % earned on article D by Ravi = 60% Cost price of article D for Ravi = 160 × 100 = Rs75 Profit earned by Shyam = 120 × 100 = Rs30 Profit earned by Ravi = 120 – 75 = Rs 45 Required difference = 45 – 30 = Rs.15"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q063",
@@ -1773,7 +1989,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Cost price of article A = 140 × 100 = Rs75 Cost price of article C = 125 × 100 = Rs120 Required % = 120−75 × 100 = 120 × 100 = 37.5%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q064",
@@ -1801,7 +2021,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Cost price of article B = 120 × 100 = Rs 50 Marked price of article B = 50 × 1.5 = Rs 75 Required discount % = 75−60 × 100 = 75 × 100 = 20%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q065",
@@ -1829,7 +2053,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Profit earned on selling article E = 180 × 80 = 𝑅𝑠 40 Profit earned on selling article C = 125 × 25 = 𝑅𝑠 30 Required difference = 40 – 30 = Rs 10"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q066",
@@ -1857,7 +2085,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Mark price of article A = 84 × 100 = Rs 125 CP of article A = 140 × 100 = Rs75 Mark up % of article A = 125−75 × 100 = 66 3 %"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q067",
@@ -1885,7 +2117,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "3𝑥+5. 92𝑥−4 = 95𝑥−14 ⇒3𝑥+5. 34𝑥−8 = 310𝑥−28 ⇒3𝑥+5+4𝑥−8 = 310𝑥−28 ⇒35𝑥−3 = 310𝑥−28 ⇒5𝑥−3 = 10𝑥−28 ⇒5𝑥= 25 ⇒ 𝑥= 5 And, 2𝑦2 −15𝑦−28 = 3𝑦2 −23𝑦−13 ⇒𝑦2 −8𝑦+ 15 = 0 ⇒𝑦2 −3𝑦−5𝑦+ 15 = 0 ⇒𝑦(𝑦−3) −5(𝑦−3) = 0 ⇒(𝑦−5)(𝑦−3) = 0 ⇒𝑦= 5 , 3 Quantity I: - Value of x = 5 Quantity II: - Value of y = 5 , 3 ⇒Quantity I ≥Quantity II"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q068",
@@ -1913,7 +2149,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: Let C.P. → Rs 100 So, S.P. → Rs 129.6 ATQ, M.P. → 129.6 72 × 100 ⇒ Rs 180 ‘x’ ⇒ 180×(100–30) -100 ⇒ 26% Quantity II > Quantity I"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q069",
@@ -1941,7 +2181,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let efficiency of 1 man, 1 woman and 1 child is m, w and c respectively ATQ, 10 × 12m = 18w × 20 = 27c ×20 2m = 6w = 9c Let total work = 120 m Quantity I: (9w + 9c) × 16 = (3m + 2m) × 16 = 80 m Remaining work = 120 m – 80 m = 40 m Number of men required to complete remaining work in one day = 40 Quantity II = 36 Quantity I > Quantity II"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q070",
@@ -1969,7 +2213,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I:- Let total capacity of tank be 60. Units filled in first three minutes = 3 + 4 + 5 = 12 Hence, total time taken = 5 × 3 = 15 minutes Quantity II:- Let waste pipe can empty the cistern in x min 10 + 15 − x = ⇒ x = 9+6−5 = ⇒x = 9 minutes Quantity I > Quantity II Solution (71-75): - House A → Units consumed by Other appliances = 120 units Let unit consumed by Lights = x Then, Units consumed by Fans = 𝑥−30 𝑥+ 𝑥−30 = 250 −120 2𝑥= 130 + 30 𝑥= 80 Units consumed by Lights = 80 units Units consumed by Fans = 50 units House B → Units consumed by Lights = 80 𝑢𝑛𝑖𝑡𝑠 Units consumed by Fans = 100 × 50 = 80 𝑢𝑛𝑖𝑡𝑠 House C → Total units consumed by Lights in all three houses = 200 units ⇒ Units consumed by Lights in house ‘C’ = 200 −80 −80 = 40 𝑢𝑛𝑖𝑡𝑠 Units consumed by Fans = 40 𝑢𝑛𝑖𝑡𝑠 Units consumed by Other appliances = 40 × 100 = 90 𝑢𝑛𝑖𝑡𝑠 Total units consumed by Other appliances in House ‘B’ = 320 −90 −120 = 110 𝑢𝑛𝑖𝑡𝑠 Units Consumed Fans Lights Other appliances House A House B House C"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q071",
@@ -1997,7 +2245,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required % = 80−40 × 100 = 100%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q072",
@@ -2025,7 +2277,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total number of units consumed by Other appliances in House ‘B’, ‘C’ and ‘D’ together = 110 × 3 = 330 𝑢𝑛𝑖𝑡𝑠 Units consumed by Other appliances in House ‘D’ = 330 −110 −90 = 130 𝑢𝑛𝑖𝑡𝑠"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q073",
@@ -2053,7 +2309,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total units consumed in House ‘A’ and ‘C’ together = 50 + 80 + 120 + 40 + 40 + 90 = 420 𝑢𝑛𝑖𝑡𝑠"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q074",
@@ -2081,7 +2341,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required difference = 110 −90 = 20 𝑢𝑛𝑖𝑡𝑠"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q075",
@@ -2109,7 +2373,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total units consumed by Fans and Lights in House ‘C’ = 40 + 40 = 80 𝑢𝑛𝑖𝑡𝑠 Total units consumed By Lights and Other appliances in House ‘A’ = 80 + 120 = 200 𝑢𝑛𝑖𝑡𝑠 Required % = 200−80 × 100 = 200 × 100 = 60%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q076",
@@ -2137,7 +2405,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "C.P. of 10 note books ⇒ 140 × 10 = 1400 Rs. Profit on selling one pen ⇒ 50×200 100 = Rs 100 Number of pen required ⇒ 100 = 14"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q077",
@@ -2165,7 +2437,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let speed of slower train = 2x ⇒ speed of faster train = 5x ATQ, 150+200 2x+5x = 15 x = Time required = 3 –20 = 35 second"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q078",
@@ -2193,7 +2469,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Ratio of profit share of B and E is 35% × 80,000 × 9 : 15% of 80,000 × 12 = 7 : 4 Required difference = (7−4) 11 × 15400 = 11 × 15400 = 𝑅𝑠 4200"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q079",
@@ -2221,7 +2501,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Ratio of profit share of A, C and D is ATQ, 30+16+3𝑥= ⇒ 46+3𝑥= ⇒ 46 + 3x = 58 x = 4 months"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q080",
@@ -2249,7 +2533,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Amount invested by F = 100 × 80,000 + 4000 = 12000 + 4000 = Rs 16,000 Amount invested by A = 100 × 80,000 = Rs 20,000 Ratio of profit share of F, C and A ATQ, 5 + 2 → 8750 Then total annual profit = 9 → × 9 = Rs 11,250 𝟖𝟏. (𝐜); I. (x − 2)² = 9 ⇒ (x − 2) = ± 3 ⇒ x = 5, −1 II. (2y + 8)² = 16 (2y + 8) = ± 4 ⇒ y = −2, −6 x > y 𝟖𝟐. (𝐞); I. x² − 16x + 64 = 0 x² − 8x – 8x + 64 = 0 x(x − 8) −8(x − 8) = 0 (x − 8) (x − 8) = 0 x = 8, 8 II. y² − 16y + 63 = 0 y² − 7y – 9y + 63 = 0 y(y − 7) −9(y − 7) = 0 (y − 9) (y − 7) = 0 y = 9, 7 No relation can be established between x & y 𝟖𝟑. (𝐝); I. x² − x + 2 = 0 ⇒2x2 −15x + 25 = 0 ⇒2x2 −10x −5x + 25 = 0 2x (x −5) −5(x −5) = 0 (2x −5)(x −5) = 0 x = 5 2 , 5 II. 40 y² + 1 = 13 y ⇒y2 −13y + 40 = 0 ⇒y2 −8y −5y + 40 = 0 ⇒y(y −8) −5(y −8) = 0 (y −5)(y −8) = 0 y = 5, 8 y ≥ x 𝟖𝟒. (𝐝); I. 48 x² −14 x + 1 = 0 ⇒x2 −14x + 48 = 0 ⇒x2 −8x −6x + 48 = 0 ⇒x(x −8) −6(x −8) = 0 ⇒(x −8)(x −6) = 0 x = 8, 6 II. 45 y² + 1 y = 2 ⇒2y2 −y −45 = 0 ⇒2y2 −10y + 9y −45 = 0 ⇒2y(y −5) + 9(y −5) = 0 ⇒(2y + 9)(y −5) = 0 y = 5, −9 x > y A : C : D 25% 80,000 6 : 15% 80,000 x : 10% 80,000 8 : 15x : : 3x :       F : C : A 16000 6 : 12000 8 : 20,000 12 : :   "
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q081",
@@ -2389,7 +2677,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. x² + 3x – 4 = 0 x² + 4x – x – 4 = 0 x(x + 4) – 1 (x + 4) = 0 (x −1) (x + 4) = 0 x = 1, −4 II. y² + 10y + 24 = 0 y² + 4y + 6y + 24 = 0 y(y + 4) + 6(y + 4) = 0 (y + 6) (y + 4) = 0 y = −4, −6 x ≥ y"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q086",
@@ -2417,7 +2709,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I, II & III Let speed of Amit and Abhi be 4x and 5x km/hr respectively. 5x – 4x = 20 ∴ x = 20 km/hr Let distance be d km d 80 – d 100 = 1 ∴d = 80×100 = 400 km"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q087",
@@ -2445,7 +2741,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I and II Let length and breadth be 3x m and 2x m respectively 2πr = 440 [r → radius of circle] r = 70 m ∴ breadth = 10 m & length = 15 m ∴ Area = 10 × 15 = 150 m² Statement I and III are same."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q088",
@@ -2473,7 +2773,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I Passed = 400 From III Let number of appeared & Failed students be 5x and 3x respectively 2x = 400 ⇒ x = 200 ∴ failed = appeared – passed = 1000 – 400 = 600"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q089",
@@ -2501,7 +2805,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I PR×2 100 = 44000 PR = 2200000 From II P + PRT 100 = 154000 From III Difference = PR2 PR2 1002 = 120 From I and III R can be found."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q090",
@@ -2529,7 +2837,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the smaller no. is x & bigger no. is y. From I Y = x + 6 From II, 100 × 𝑥= 100 × 𝑦 From III, 𝑦 2𝑥 = 2 ⇒ 3y = 4x ∴ from I and II or I and III"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q091",
@@ -2557,7 +2869,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let amount of milk removed = 2x lit So, amount of water added = x lit Now → 165−2𝑥 𝑥 = x = 45 lit"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q092",
@@ -2585,7 +2901,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "At least one black can be chosen in three ways: 1. first one is black, second is non-black 2. first one is non-black, second is black 3. both are black. Probability of selecting a box is Now, probability of choosing at least one black ball from first box = 2 × ( 4 × 3 + 4 × 3 + 4 × 3) = Probability of choosing at least one black ball from 2nd box = 2 × ( 16 × 15 + 16 × 15 + 16 × 15) = final probability = 12 + 120 = 50+27 120 ="
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q093",
@@ -2613,7 +2933,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let speed of train B be 𝑥 m/s And length of train B be 𝑦 m Then length of train A is 2𝑦 m Speed of train A = 84 × 18 = 9 m/s = 3 m/s A.T.Q, 2𝑦+𝑦 = 3 −𝑥 ………….(i) and 2𝑦+𝑦 22.5 = 3 −2𝑥 solving (i) and (ii), 𝑦= 50 m"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q094",
@@ -2641,7 +2965,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let, inner radius of cylinder be ‘𝑥’ cm. 3 𝜋(6)3 = 𝜋× 32 (52 −𝑥2) or, 4×6×6×6 3×32 = 25 −𝑥2 or, 𝑥2 = 25 −9 or, 𝑥= 4 cm Hence, thickness = 5 – 4 = 1 cm."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q095",
@@ -2669,7 +2997,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "X’s investment = (700 × 3) + (700 × 7 × 3) + (500 + 200 × 5) × 6 = Rs. 7320 Y’s investment = 600 × 12 = Rs. 7200. ∴ X’s share from profit = (7320+7200) × 726 = 𝑅𝑠. 366."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q096",
@@ -2697,7 +3029,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total man working on odd days in March = 1000×30 = 300 Total odd days in March = 16 Total man hour = 300×16×8 Similarly, Total man hour of April on even days = 15 × 8 × 1200 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑 % = 300×16×8 15×8×1200 × 100 = 26 3 %"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q097",
@@ -2725,7 +3061,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total man hour of April = 100 × [20 × 15 + 80 × 15] × 8 = 1,80,000 Total man hour of August = 750 × 40 100 × 15 × 8 + 16 × 750 × 60 100 × 8 = 36000 + 57600 = 93,600 Required difference = 1,80,000 – 93,600 = 86,400"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q098",
@@ -2753,7 +3093,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required ratio = 10×15×70×8 15×75×4×8 = 7 : 3"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q099",
@@ -2781,7 +3125,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Man-hour on odd days on April = 15 × 300 × 8 = 36000 Man-hour on odd days on August = 16 × 75 × 6 × 8 = 57600 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 % = 57600−36000 × 100 = 37.5%"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q100",
@@ -2809,7 +3157,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Man-hour on even days → March = 15 × 8 × 700 = 84,000 April = 15 × 8 × 1200 = 1,44,000 August = 15 × 8 × 300 = 36,000 Required Average = 88,000"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q101",
@@ -2837,7 +3189,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Computer",
-      "topic": "Miscellaneous_Computer"
+      "topic": "Miscellaneous_Computer",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The sentence is describing about a shift in the technology in the telecom industry. It has also mentioned about the challenges faced by the industry few years ago. Therefore, to adhere to the context of the sentence “paranoid” should be replaced by “paradigm” while “triumph” should be replaced by “havoc”. Hence, option (a) is the most suitable answer choice. Paranoid means unreasonably or obsessively anxious, suspicious, or mistrustful. Triumph means a great victory or achievement. Paradigm means a typical example or pattern of something; a pattern or model. Havoc means widespread destruction."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q102",
@@ -2865,7 +3221,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Computer",
-      "topic": "Computer_Basics"
+      "topic": "Computer_Basics",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Words “mislead” and “consensus” create a contextual error in the sentence and thus should be replaced by “misconceptions” and “compliance” respectively. Hence, option (d) is the most suitable answer choice. Emissions means the production and discharge of something, especially gas or radiation. Consensus means a general agreement. Eminences means to fame or acknowledged superiority within a particular sphere. Compliance means the action or fact of complying with a wish or command."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q103",
@@ -2893,7 +3253,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Computer",
-      "topic": "Miscellaneous_Computer"
+      "topic": "Miscellaneous_Computer",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The words given in bold “hawking”, “variance” and “hosts” create either grammatical or contextual error in the sentence. To correct the sentence, replace these words by “tracking”, “vicious” and “honchos” respectively. Hence, option (d) is the most suitable answer choice. Hawking means (of a person) hunt game with a trained hawk. Variance means the fact or quality of being different, divergent, or inconsistent. Vicious means deliberately cruel or violent. Honchos means a leader or manager; the person in charge."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q104",
@@ -2921,7 +3285,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Computer",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Since the sentence is describing about the developments and advancements made in the recent time, the bold words “preserving” and “raising” create grammatical as well as contextual errors in the sentence. To make the sentence correct, replace these words by “urbanization” and “rising” respectively. Therefore, option (c) becomes the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q105",
@@ -2949,7 +3317,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Computer",
-      "topic": "Miscellaneous_Computer"
+      "topic": "Miscellaneous_Computer",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The words given in bold “had” and “compete” create either grammatical or contextual error in the sentence. To correct the sentence, replace these words by “having” and “competitive” respectively. The sentence is given in the present tense […can give paint manufacturers], it requires a gerund [Having] that works as a subject in the sentence, therefore, “had” should be replaced to frame a grammatically correct structure of the sentence. Moreover, to describe the quality of “pricing” an adjective [competitive] is required rather than a verb [compete]. Hence, option (c) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q106",
@@ -2977,7 +3349,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The appropriate answer is option (d). The answer can be referred from paragraph 1 where it is mentioned that legal position of beggars in India has always been uncertain. “The Bombay Prevention of Begging Act (BPBA), 1959, which has held sway for decades, rests on the premise that poverty equals criminality. This allows the state to arrest people without a warrant on nothing more than a “suspicion,” and put them out of the public gaze.”"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q107",
@@ -3005,7 +3381,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct choice here is option (c). We can refer to paragraph 1 where it is given that the court quashed those provisions of the BPBA that make begging a punishable offence. However, its ruling is applicable only to Delhi."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q108",
@@ -3033,7 +3413,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (b) is the only appropriate choice here. The answer can be derived from paragraph 2 where it is mentioned that speculation of beggars as legal outsider means inhabiting the same territorial space that is India but disenfranchised from the benefits of Indian citizenship that guarantees constitutional rights. ENGLISH LANGUAGE"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q109",
@@ -3061,7 +3445,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (d) is the appropriate choice. Refer to paragraph 3 where it is given that in these raids, even those not begging but found in dirty clothes and wandering were arrested arbitrarily. Transgender persons, for example, are particularly vulnerable."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q110",
@@ -3089,7 +3477,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (b) is the appropriate choice. It is the only option which is false according to the passage. Instead correcting it, the right statement would be as follows: The criminal begging ring racketeers are hardly the ones who are arrested in the raids. Rest all of the given options are true."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q111",
@@ -3117,7 +3509,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only option (b) is the correct choice. The answer can be referred from paragraph 4, where it is explicitly expressed in the absence of immediate structural improvement, the least the state governments in India can do is decriminalize begging."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q112",
@@ -3145,7 +3541,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The grammatically correct sentence is sentence (d). There are grammatical errors in sentence (A) and options (a), (b) and (c). In sentence (A), with the plural subject “provisions”, the determiner associated to it should be plural as well. Similarly, in option (a), along with the plural determiner [those] the subject should also be in its plural form [provision]. Moreover, in sentence (b) the subject provision is singular, therefore to comply with the rule of subject-verb agreement, the verb associated to it must be singular too [makes]. Likewise, in option (c), with the plural subject [provisions], the verb must be plural to adhere to the correct grammatical syntax [make]. Since option (d) is grammatically viable, it becomes the most feasible answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q113",
@@ -3173,7 +3573,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The paragraph is describing about declaration made PM regarding the sanitation needs of young female. Therefore, the most appropriate phrase that will fill the blank of the paragraph, adhering to the absolute context of the paragraph is “to ensure toilets are separately built for girls in government schools”. The hint for the same can be drawn from the phrase […that when sanitation needs of young female students are met…]. Moreover, option (b) is incorrect as the latter part of the paragraph suggests the need for sanitation of young women, which should have some relevance with the previous part of the paragraph; option (b) fails to provide any such information and thus cannot be used to complete the paragraph. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q114",
@@ -3201,7 +3605,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The paragraph his describing about the influences of paid news during the election. It has also provided evidence for the same stating 42 cases of paid news in the election of BJP’s Narottam Mishra from Datia, MP. The latter part of the paragraph mentions about the norms under which the legitimized action is effectuated.Thus, the most appropriate sentence that should complete the paragraph is “In 2017, the ECI ordered Mishra’s disqualification and barred him from contesting elections for three years”, as it connects the previous and the later part of the paragraph. All the other sentences fail to provide coherence to the paragraph; hence, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q115",
@@ -3229,7 +3637,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (d) is the correct choice for the given question. CAB is the correct sequence of the given sentence. C is the first sentence as it provides the basis of the argument which is the asymmetry in federalism. A gives additional information about this asymmetry which was talked about in sentence C. B is the third sentence as it is talking about its (article 370) original form and the reason for the debate which was mentioned in C."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q116",
@@ -3257,7 +3669,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most suitable word that will fit in all the three blanks of the paragraph is “currency”. All the words are however seems similar but have little difference and thus does not fit contextually in the sentence. Hence, option (b) is the most suitable answer choice. Money means a current medium of exchange in the form of coins and banknotes; coins and banknotes collectively. Currency means a system of money in general use in a particular country. Worth means equivalent in value to the sum or item specified. Value means the regard that something is held to deserve; the importance, worth, or usefulness of something. Rupees means the basic monetary unit of India"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q117",
@@ -3285,7 +3701,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate word that should fill all the three blanks of the paragraph is “medical”. Since, the alternatives provide different streams of education; the most suitable one to adhere to the context of the paragraph is “medical”. This is indicated from the phrase of the first sentence “…big issue in health care”. Hence, option (e) is the most viable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q118",
@@ -3313,7 +3733,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate word that should fill all the blanks of the sentence is “rural”. All the other words are either grammatically incorrect or contextually. Hence, option (b) is the most suitable answer choice. Advanced means far on or ahead in development or progress. Insolvent means unable to pay debts owed."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q119",
@@ -3341,7 +3765,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate word that should fill all the blanks of the sentence is “policy”. All the other words are either grammatically incorrect or contextually. Hence, option (a) is the most suitable answer choice. Policy means a course or principle of action adopted or proposed by an organization or individual. Procedure means an established or official way of doing something. Practice means the actual application or use of an idea, belief, or method, as opposed to theories relating to it."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q120",
@@ -3369,7 +3797,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate word that should fill all the blanks of the sentence is “story”. All the other words are either grammatically incorrect or contextually. Hence, option (e) is the most suitable answer choice. Autobiography means an account of a person's life written by that person. Fiction means literature in the form of prose, especially novels, that describes imaginary events and people."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q121",
@@ -3397,7 +3829,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The passage apprises us that the government is requesting the Supreme Court to enforce “stricter directions” to social networking sites like Facebook and YouTube. It could be understood that the government wants ‘more obedience’ from the social networking sites and is trying to achieve her intent through requesting the Supreme Court. Acrimonious, Acerbic, Sardonic, Sarcastic are synonyms and mean ‘sharp and forthright.’ Sarcastic means ‘Marked by or given to using irony in order to mock or convey contempt.’ Rigorous means ‘(of a person) adhering strictly to a belief or system’; ‘Harsh and demanding’; Rigorous is a synonym of ‘strict’ which means ‘(of a rule or discipline) demanding total obedience or observance; rigidly enforced.’ From the above, we find out that the meaning of ‘rigorous’ correctly convey the intent or attitude of the Government toward the social networking sites. So, the correct answer is option (c)."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q122",
@@ -3425,7 +3861,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Contention [noun] means ‘heated disagreement’. The paragraph suggests that on the issue of making accessible the origin of a content on WhatsApp is a heated disagreement between the Government and WhatsApp. Meaning that the WhatsApp is reluctant toward making the origin of a content on WhatsApp accessible to the law enforcement agencies. Hence, option (d) is the correct answer. Insidious [noun] ‘Proceeding in a gradual, subtle way, but with very harmful effects’; Exuberant [adjective] ‘Full of energy, excitement, and cheerfulness’; Fanatical [adjective] ‘Filled with excessive and single- minded zeal.’; Vehement [adjective] ‘Showing strong feeling; forceful, passionate, or intense’;"
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q123",
@@ -3453,7 +3893,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The state government of Kerala seems to be angry with the indifferent attitude shown by the state government of Tamil Nadu and the ignorance of the repeated entreaties (signed by the Tamil Nadu) in relation to the controlled release of water from the reservoir. The state government of Kerala believes that the attitude of the state government of Tamil Nadu is responsible for the flood in the state. Censure [noun]: ‘strong criticism or disapproval’; Insidious [noun]: ‘Proceeding in a gradual, subtle way, but with very harmful effects’; Pernicious [noun]: ‘having a very harmful effect or influence’; Forbiddingly [noun]: ‘unfriendly and likely to be unpleasant or harmful’; From the given paragraph, we understand that the intent of the state government of Kerala is not malicious and not to Harm the state government of Tamil Nadu, but Kerala was criticizing the government of the Tamil Nadu. So, Options (c), (d) and (e) are Not correct. Only option (a) correctly convey the intent of the state government of Kerala and is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q124",
@@ -3481,7 +3925,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Upon reading the passage, one understands that the state of Tamil Nadu made statements in an out- spoken or forthright manner. Acerbic [adjective] means (especially of a comment or style of speaking) sharp and forthright. Sardonic & Sarcastic [adjective] means Grimly mocking or cynical. From the above illustrated meanings of the options, one can understand that the meaning of the word ‘acerbic’ is the Closest to the tone of the statements made by the state of Tamil Nadu. Hence, option (e) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q125",
@@ -3509,7 +3957,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The given paragraph is providing information about the court’s order regarding the declaration of animals as legal persons. However, the paragraph further mentions that this order will not have a lasting impact on animal welfare. Moreover, it is to be noted that it mentions about the strengthening of the Wildlife Protection Act, 1972, and the Prevention of Cruelty to Animals Act, 1960 and does not comment on their implementation, hence, option (c) is incorrect. Therefore, the most suitable answer choice is option (a)."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q126",
@@ -3537,7 +3989,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "“Aberrant” means departing from an accepted standard or diverging from the normal type. Therefore, “Deviant: Abnormal” is the set of words that expresses the meaning of the given highlighted word. Hence, option (e) is the most suitable answer choice. Inane means lacking sense or meaning; silly. Anomalous means deviating from what is standard, normal, or expected. Amulet means an ornament or small piece of jewellery thought to give protection against evil, danger, or disease."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q127",
@@ -3565,7 +4021,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "“Meticulous” means showing great attention to detail; very careful and precise. Therefore, the set of words that consists of its synonym and antonym is “Scrupulous : Slapdash”. Hence, option (b) is the most suitable answer choice. Conscientious means wishing to do one's work or duty well and thoroughly. Nemesis means the inescapable agent of someone's or something's downfall. Scrupulous means (of a person or process) careful, thorough, and extremely attentive to details. Slapdash means done too hurriedly and carelessly. Sloppy means careless and unsystematic; excessively casual. Subservient means prepared to obey others unquestioningly."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q128",
@@ -3593,7 +4053,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "“Eccentric” means (of a person or their behaviour) unconventional and slightly strange. Therefore, the set of words that reflect the synonyms of the given highlighted word is “Peculiar : Bizarre”. Hence, option (a) is the most suitable answer choice. Peculiar means different to what is normal or expected; strange. Bizarre means very strange or unusual. Altruistic means showing a disinterested and selfless concern for the well-being of others; unselfish. Magnanimous means generous or forgiving, especially towards a rival or less powerful person. Bloated means swollen with fluid or gas. Capacious means having a lot of space inside; roomy. Chaste means without unnecessary ornamentation; simple or restrained."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q129",
@@ -3621,7 +4085,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "“Ecstasy” means an overwhelming feeling of great happiness or joyful excitement. Therefore, the set of words that consists of its synonym and antonym is “Rapture: Insouciance”. Hence, option (d) is the most suitable answer choice. Effectual means (of something inanimate or abstract) successful in producing a desired or intended result; effective. Hilarity means extreme amusement, especially when expressed by laughter Garbled means reproduce (a message, sound, or transmission) in a confused and distorted way. Rapture means a feeling of intense pleasure or joy. Insouciance means casual; lack of concern; indifference. Fatuous means silly and pointless. Erudite means having or showing great knowledge or learning."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q130",
@@ -3649,7 +4117,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "“Impunity” means exemption from punishment or freedom from the injurious consequences of an action. Therefore, the set of words that reflect the antonyms of the given highlighted word is “Incarceration: Captivity”. Hence, option (c) is the most suitable answer choice. Livid means furiously angry. Morbid means characterized by an abnormal and unhealthy interest in disturbing and unpleasant subjects, especially death and disease. Dispensation means exemption from a rule or usual requirement. Incarceration means the state of being confined in prison; imprisonment. Nullify means Captivity means the condition of being imprisoned or confined. Salvation means preservation or deliverance from harm, ruin, or loss. Incongruous means not in harmony or keeping with the surroundings or other aspects of something. Kindred means similar in kind; related. Obsessive means of the nature of an obsession."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q131",
@@ -3677,7 +4149,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate sentence that is grammatically and contextually viable in accordance to the meaning of the given sentence is sentence (a) as, the meaning of the phrase “to let sleeping dogs lie” is to ignore a problem because trying to deal with it could cause an even more difficult situation. All the other sentences are contextually incorrect; hence, option (a) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q132",
@@ -3705,7 +4181,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate sentence that is grammatically and contextually viable in accordance to the meaning of the given sentence is sentence (d) as, the meaning of the phrase “cat got your tongue” is used when someone has nothing to say. All the other sentences are contextually incorrect; hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q133",
@@ -3733,7 +4213,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate sentence that is grammatically and contextually viable in accordance to the meaning of the given sentence is sentence (a) as, the meaning of the phrase “cat on hot bricks” is used to express when someone is restless or skittish, unable to remain still. All the other sentences are contextually incorrect; hence, option (a) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q134",
@@ -3761,7 +4245,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only option (c) is the appropriate choice. Refer to paragraph 1 where it is mentioned that customer satisfaction is the measure of how the needs and responses are collaborated and delivered to excel customer expectation. It can only be attained if the customer has an overall good relationship with the supplier."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q135",
@@ -3789,7 +4277,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (e) is the correct choice. The answer can be deduced from paragraph 1 where it is mentioned that customer satisfaction is a part of customer’s experience that exposes a supplier’s behavior on customer’s expectation. This depends on various business aspects like marketing, product manufacturing, engineering, quality of products and services, responses customer’s problems and queries, completion of project, post delivery services, complaint management etc. Hence option (e) is the answer."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q136",
@@ -3817,7 +4309,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (c) is the suitable choice. This can be inferred from paragraph 2 where it is given that there are good chances for supplier to retain the customers to enhance repeated purchases and make good business profits. Whereas rest all of the given options are not mentioned in the paragraph. And hence so they are irrelevant. 137. (c)’; Only option (c) is the correct choice. We can infer our answer from paragraph 2 where it is mentioned that it is necessarily required for an organization to interact and communicate with customers on a regular basis to increase customer satisfaction. In these interactions and communications, it is required to learn and determine all individual customer needs and respond accordingly. Even if the products are identical in competing markets, satisfaction provides high retention rates."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q137",
@@ -3873,7 +4369,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The suitable answer is option (d). The answer can be deduced from paragraph 4 where it is given an ideal CRM system is a centralized collection of all data sources under an organization and provides an atomistic real time vision of customer information. It piles up this information centrally, examines it and then makes it addressable within all the departments."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q139",
@@ -3901,7 +4401,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Option (b) is the correct answer. Among all of the given options only option (b) is false according to the passage. It can be referred from paragraph 4 where it is given a CRM system is not only used to deal with the existing customers but is also useful in acquiring new customers. Rest all of the given options are true."
     },
     {
       "q_id": "sbi_clerk_2018_mains_afeacb05::q140",
@@ -3929,7 +4433,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2018-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Sentence (A) contains grammatical errors in it. It is to be noted that usage of “in case” while using “if” becomes incorrect as “in case” itself means ‘if it is true that’, thus one of the words become redundant. Thus, option (b) and (c) are also eliminated. Moreover, to define the quality of the markets an adjective must be used [competing], instead of a noun [competition]. Therefore, option (d) is also eliminated. Since, option (a) is grammatically as well as contextually correct, it becomes our most suitable answer choice."
     }
   ]
 }

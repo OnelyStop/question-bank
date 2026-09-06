@@ -513,7 +513,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2024_prelims_4061bfbf::q019",

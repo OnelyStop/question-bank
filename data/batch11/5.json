@@ -37,7 +37,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The PS/2 port is a 6-pin mini-DIN connector used for connecting keyboards and mice to personal computers. It was introduced by IBM in 1987 with the launch of the Personal System/2 (PS/2) series of computers. The name \"PS/2\" directly comes from IBM's product line. This port became a standard in the PC industry for many years before being largely replaced by USB. Important Key Points: 1. PS/2 port was introduced by IBM in 1987. 2. It was part of the IBM Personal System/2 (PS/2) computer series. 3. The port uses a 6-pin mini-DIN connector and supports both keyboard and mouse. 4. PS/2 interfaces allowed colour-coded ports (purple for keyboard, green for mouse). Knowledge Booster: • (a) Microsoft → Collaborated with IBM on OS/2 but did not develop the PS/2 hardware port. • (b) Intel → Develops processors and chipsets, not the PS/2 connector standard. • (d) Apple → Used different connectors (ADB initially, later USB); never adopted PS/2. • (e) Dell → A PC manufacturer that used PS/2 ports but did not develop them."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q002",
@@ -65,7 +69,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In Microsoft Excel, the SUM function can accept individual cell references separated by commas. The formula =SUM(A2,A4) adds only the values in cells A2 and A4, ignoring any cells in between. This is the correct way to sum non-contiguous cells. Other options either include extra cells or use incorrect syntax. Important Key Points: 1. SUM function in Excel can take multiple individual arguments separated by commas. 2. =SUM(A2,A4) adds only the specified cells, skipping A3. 3. Comma separator treats arguments as separate ranges or values. 4. This method is useful for summing non-adjacent or non-contiguous cells. Knowledge Booster: • (a) =SUM(A2+A4) → First performs addition (A2+A4), then SUM on single result; works but unnecessary and less clear. • (c) =ADD(A2,A4) → No ADD function exists in Excel; invalid formula. • (d) =SUM(A2:A4) → Uses colon for contiguous range; adds A2, A3, and A4 together. • (e) =none of the above → Incorrect since option (b) is valid and correct."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q003",
@@ -93,7 +101,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "POP3 (Post Office Protocol version 3) is an email retrieval protocol designed to download emails from a mail server to a local email client. It typically removes the emails from the server after download (unless configured otherwise). This makes it suitable for users who access email from a single device. POP3 operates on port 110 (or 995 for secure POP3S). Important Key Points: 1. POP3 is used primarily for downloading emails from server to client. 2. It usually deletes emails from the server after retrieval. 3. Default port is 110 (plain) or 995 (SSL/TLS). 4. Suitable for offline email access on one device. Knowledge Booster: • (a) Sending emails from client to server → Handled by SMTP protocol, not POP3. • (c) Real-time email synchronization across multiple devices → Feature of IMAP, not POP3. • (d) Encrypting email messages during transmission → Provided by SSL/TLS (POP3S), but not the primary purpose of POP3. • (e) Managing email folders on the mail server → Supported by IMAP, not POP3."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q004",
@@ -121,7 +133,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "When you insert a new blank slide in Microsoft PowerPoint (using the \"Blank\" slide layout), it appears completely empty at first glance. However, it contains exactly two default text placeholders: one for the title (\"Click to add title\") and one for the subtitle (\"Click to add subtitle\"). These placeholders are centred on the slide and become visible when you click on them or start typing. No other placeholders (like bullets or content boxes) are present by default in a truly blank slide. Important Key Points: 1. A blank slide uses the \"Blank\" layout in PowerPoint. 2. It has exactly two text placeholders: title and subtitle. 3. These placeholders are hidden until clicked or when text is added. 4. Other layouts (e.g., Title and Content) add more placeholders like bullet lists. Knowledge Booster: • (a) 1 placeholder → Incorrect; blank slide includes both title and subtitle. • (c) 3 placeholders → No third placeholder exists in the blank layout. • (d) 4 placeholders → Far too many; only two are present. • (e) 5 placeholders → Far too many; only two are present."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q005",
@@ -149,7 +165,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The standard PC audio port color coding (defined by Microsoft and Intel in the PC 99/PC 2001 specifications) assigns Lime Green to the line-out or front stereo audio output port. This port is used to connect speakers or headphones for audio playback from the computer. It is the most common output for standard stereo sound in desktop and laptop systems. Important Key Points: 1. Lime Green is the standard color for audio line-out (speaker/headphone output). 2. This coding is part of the PC System Design Guide for consistent identification. 3. Commonly found on motherboard rear I/O panels and front case connectors. 4. Headphones and powered speakers plug directly into this port. Knowledge Booster: • (a) Pink → Used for microphone input. • (b) Blue → Used for line-in (external audio source input). • (d) Black → Used for rear surround speakers in multi-channel setups. • (e) Orange → Used for center/subwoofer output in surround sound systems."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q006",
@@ -177,7 +197,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Microsoft Word is the premier word processing application in the MS Office suite, specifically designed for creating, editing, and formatting text-based documents like letters, journals, resumes, reports, and books. It offers advanced features such as templates (e.g., resume builders), styles, mail merge, track changes, rich text formatting (fonts, paragraphs, tables), spell-check, and grammar tools. Unlike other Office apps, Word focuses on textual content rather than spreadsheets, presentations, databases, or email. Important Key Points: 1. Microsoft Word is a word processor for primarily text-heavy documents. 2. Key features include templates, styles, mail merge, and track changes. 3. Supports advanced formatting like bullets, numbering, headers/footers, and sections. 4. File formats: .docx (default), .doc (legacy), .pdf for sharing. Knowledge Booster: • (a) Microsoft Excel → Spreadsheet software for numerical data, calculations, charts; not for text documents. • (b) Microsoft PowerPoint → Presentation software for slides, visuals; unsuitable for long-form text. • (d) Microsoft Access → Database management system for structured data storage/queries; no text editing focus. • (e) Microsoft Outlook → Email client for messaging, calendars; basic editor but lacks document formatting tools."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q007",
@@ -205,7 +229,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The BIOS (Basic Input/Output System) is firmware that initializes hardware during the boot process and provides runtime services. It is stored in a non-volatile ROM (Read-Only Memory) chip, typically a flashable EEPROM or UEFI firmware chip, directly on the motherboard. During system startup, the CPU loads and executes the BIOS code directly from this chip before any storage devices are accessed. Important Key Points: 1. BIOS is stored on a dedicated ROM/Flash chip on the motherboard. 2. It is non-volatile, retaining code even when power is off. 3. Modern systems use UEFI (successor to traditional BIOS) stored in the same type of chip. 4. BIOS executes first during POST (Power-On Self-Test) before loading the OS. Knowledge Booster: • (a) Hard Disk Drive → Contains the operating system and boot loader, not BIOS. • (b) RAM memory → Volatile memory; BIOS is loaded into RAM for execution but not stored there. • (d) CPU cache → High-speed temporary storage for instructions/data; too small and volatile for BIOS. • (e) SSD storage → Fast storage medium like HDD; holds OS files, not firmware."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q008",
@@ -233,7 +261,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Traditional Hard Disk Drives (HDDs) use spinning platters, read/write heads, and actuators, which are mechanical moving parts. Solid-State Drives (SSDs) use NAND flash memory chips with no moving components. This absence of mechanical parts makes SSDs faster, more durable, silent, and less prone to physical damage from drops or vibration. Important Key Points: 1. HDDs rely on mechanical moving parts like platters and heads. 2. SSDs have no moving parts, using flash memory instead. 3. Lack of mechanical components gives SSDs higher speed and shock resistance. 4. This design difference is the primary reason SSDs are quieter and more reliable in mobile devices. Knowledge Booster: • (a) Non-volatile data storage → Both HDDs and SSDs are non-volatile; data persists without power. • (c) Support for operating system installation → SSDs fully support OS installation, often preferred for faster boot times. • (d) Ability to store large files → SSDs can store large files just like HDDs; capacity is independent of technology. • (e) Compatibility with SATA interface → Many SSDs use SATA interface for backward compatibility with HDD systems."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q009",
@@ -261,7 +293,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The Spotlight video feature (available in platforms like Zoom, Microsoft Teams, and Google Meet) allows a host or participant with permission to designate a specific video feed as the primary view for all attendees. When spotlighted, that person's video becomes the main or fixed view on everyone's screen, overriding individual pinning or gallery layouts. This is ideal for presenters who want to ensure the audience focuses on them rather than other participants. Important Key Points: 1. Spotlight video makes one participant's video the primary/active view for all attendees. 2. It is typically controlled by the host or co-host. 3. Overrides personal pin settings and gallery view for everyone. 4. Commonly used in webinars, lectures, or presentations to focus attention on the speaker. Knowledge Booster: • (a) Raise hand → Notifies the host of a request to speak; does not highlight video. • (b) Pin video → Allows individual users to fix a video on their own screen only; does not affect others. • (c) Share screen → Displays presented content (slides/documents); hides or minimizes participant videos. • (e) Enable gallery view → Shows all participants in a grid; no single video is highlighted."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q010",
@@ -289,7 +325,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "3D Printing, also known as Additive Manufacturing, builds objects by successively adding material layer by layer based on a digital 3D model. This contrasts with traditional methods that remove material or force it into shape. The term \"additive\" refers to the incremental deposition of material (plastic, metal, resin, etc.) until the final part is complete. Standards bodies like ASTM International officially classify 3D printing under additive manufacturing processes. Important Key Points: 1. 3D Printing is synonymous with Additive Manufacturing. 2. It constructs objects layer by layer from a digital file (usually STL or AMF format). 3. Reduces material waste compared to subtractive methods. 4. Enables complex geometries, internal structures, and customization impossible with traditional processes. Knowledge Booster: • (a) Subtractive manufacturing → Involves removing material (e.g., CNC milling, lathe); opposite of 3D printing. • (b) Casting process → Pours molten material into a mold; not layer-based. • (c) Forming process → Shapes material by deformation (e.g., forging, bending); no material addition/removal. • (e) Injection molding → Forces molten material into a mold under pressure; mass-production, not additive."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q011",
@@ -317,7 +357,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "An operating system (OS) is system software that manages computer hardware, resources, and provides common services for application programs. Windows, Linux, macOS, and Android are all full-fledged operating systems used on computers and devices. Python, however, is a high-level programming language and interpreter, not an operating system. It runs on top of an existing OS to execute scripts and programs. Important Key Points: 1. Operating System manages hardware, memory, processes, and file systems. 2. Common OS examples include Windows, Linux, macOS, and Android. 3. Python is a programming language, not system software. 4. Python requires an underlying OS (like Windows or Linux) to run. Knowledge Booster: • (a) Windows → Full OS developed by Microsoft for PCs and servers. • (b) Linux → Open-source Unix-like OS kernel used in desktops, servers, and embedded systems. • (c) macOS → Apple's proprietary OS for Macintosh computers. • (e) Android → Google's Linux-based mobile OS, also used on tablets and some computers."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q012",
@@ -345,7 +389,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Encryption is the process of transforming plaintext (readable data) into ciphertext (unreadable scrambled form) using an algorithm and a key. This ensures that only authorized users with the correct key can reverse the process (via decryption) and access the original data. Encryption is a core component of data security and confidentiality in computing. Important Key Points: 1. Encryption converts plaintext to ciphertext for security. 2. It uses cryptographic algorithms (e.g., AES, RSA) and keys. 3. Primary goal is to protect data from unauthorized access. 4. Reversible only through decryption with the proper key. Knowledge Booster: • (a) Decryption → Reverse process: converts ciphertext back to plaintext. • (c) Compression → Reduces file size; data remains readable without a key. • (d) Encoding → Transforms data for compatibility (e.g., Base64); not secure against reading. • (e) Firewalling → Network security technique to filter traffic; not data transformation."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q013",
@@ -373,7 +421,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The Central Processing Unit (CPU) is often called the \"brain\" of the computer. Its primary and most critical function is to execute program instructions by repeatedly performing the fetch-decode- execute cycle. In this cycle, the CPU fetches instructions from memory, decodes them to understand what operation is required, and then executes the operation. This process enables all software running on the computer to perform tasks. Important Key Points: 1. CPU performs the fetch-decode-execute cycle continuously. 2. It processes instructions from programs stored in RAM. 3. All computations, logical operations, and data manipulations occur in the CPU. 4. Without this core function, no software can run on the system. Knowledge Booster: • (a) Managing input and output devices → Handled primarily by I/O controllers and the OS, not directly by CPU. • (b) Storing data permanently → Responsibility of storage devices like HDD/SSD. • (c) Controlling network communication → Managed by network interface cards and OS drivers. • (e) Managing files and folders → Performed by the operating system's file system, not the CPU hardware."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q014",
@@ -401,7 +453,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A hub is a basic networking device that serves as the central connection point in a star topology network. It connects multiple devices (such as computers and printers) together by broadcasting incoming data to all connected ports. This allows the devices to communicate within the same network segment. Hubs operate at the physical layer (Layer 1) of the OSI model and simply repeat signals without intelligent filtering. Important Key Points: 1. Hub acts as a central multi-port repeater in a network. 2. It connects devices in a star topology to form a single collision domain. 3. Data received on one port is broadcast to all other ports. 4. Operates at Layer 1 (Physical layer) of the OSI model. Knowledge Booster: • (a) Router → Connects different networks and routes traffic using IP addresses (Layer 3). • (c) Repeater → Extends signal distance on a single network segment; not a central connection point. • (d) Bridge → Connects and filters traffic between network segments (Layer 2); reduces collision domains. • (e) Gateway → Connects networks with different protocols; acts as a translator between incompatible systems."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q015",
@@ -429,7 +485,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A printer is the standard output device that converts digital data from a computer into a physical, printed copy on paper or other media. Common types include inkjet, laser, and thermal printers. They produce hard copies of documents, images, reports, and photos for offline use or distribution. Important Key Points: 1. Printer creates hard copies (physical prints) from digital files. 2. It is the most common device for producing tangible output. 3. Types include inkjet (for photos), laser (for text/documents), and dot-matrix (impact printing). 4. Connects via USB, Wi-Fi, or network for receiving print jobs. Knowledge Booster: • (a) Monitor → Visual output device; displays data on screen only. • (b) Speaker → Audio output device; produces sound. • (d) Plotter → Specialized printer for large-format vector graphics (e.g., blueprints); not general- purpose. • (e) Projector → Displays digital content on a surface/screen; no physical copy produced."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q016",
@@ -457,7 +517,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "COBOL (Common Business-Oriented Language) is a classic example of a third-generation high-level language (3GL). It was developed in 1959–1960 specifically to make programming more accessible to business users and easier for humans to read and write. COBOL uses English-like syntax (e.g., verbs like ADD, MOVE, PERFORM) to handle business data processing tasks. This human-readable design was a key goal of its creators, led by Grace Hopper, to reduce dependence on low-level languages. Important Key Points: 1. COBOL is a 3GL (third-generation language) focused on business applications. 2. It uses English-like statements for better readability and maintainability. 3. Developed in the late 1950s by a committee including Grace Hopper. 4. Still widely used today in legacy systems for banking and finance. Knowledge Booster: • (a) Assembly Language → Second-generation language (2GL); uses mnemonics but is hardware-specific and low-level. • (c) Machine Language → First-generation language (1GL); pure binary instructions directly understood by CPU. • (d) Binary Code → Same as machine language; raw 0s and 1s, not human-readable. • (e) Microprocessor Language → Not a standard programming language; likely refers to low-level machine or assembly code."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q017",
@@ -485,7 +549,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "UNIX is a multi-user, multitasking, time-sharing operating system originally developed in the early 1970s at Bell Labs by Ken Thompson, Dennis Ritchie, and others. Written initially in assembly and later rewritten in the C programming language, UNIX introduced groundbreaking concepts such as hierarchical file systems, pipes, and portability. Its design profoundly influenced modern operating systems, including Linux, macOS, and many others. Important Key Points: 1. UNIX was created at Bell Labs starting in 1969–1970s. 2. It supports multi-user access and time-sharing for concurrent users. 3. Rewritten in C in 1973, enabling easy portability across hardware. 4. Highly influential; basis for POSIX standards and many modern OS. Knowledge Booster: • (a) MS-DOS → Single-user, single-tasking OS developed by Microsoft for IBM PC. • (c) Windows NT → Microsoft-developed OS; influenced by VMS, not directly by Bell Labs UNIX. • (d) macOS → Derived from NeXTSTEP/BSD UNIX, but originally developed by Apple/NeXT, not Bell Labs. • (e) CP/M → Single-user OS for microcomputers developed by Digital Research."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q018",
@@ -513,7 +581,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The Internet Protocol (IP) operates at Layer 3 (Network Layer) of the OSI model. It provides logical addressing through IP addresses (e.g., IPv4 or IPv6) and enables routing of packets across different networks. IP is responsible for packet forwarding, fragmentation, and delivery on a best-effort basis without guaranteeing reliability. Important Key Points: 1. IP is the primary protocol at Layer 3 (Network Layer). 2. It handles logical addressing using IP addresses. 3. Enables routing between networks via routers. 4. Connectionless and unreliable; reliability is handled by upper layers. Knowledge Booster: • (a) TCP → Operates at Layer 4 (Transport Layer); provides reliable, connection-oriented delivery. • (c) HTTP → Operates at Layer 7 (Application Layer); used for web data transfer. • (d) FTP → Operates at Layer 7 (Application Layer); file transfer protocol. • (e) ARP → Operates at the boundary of Layer 2 (Data Link) and Layer 3; maps IP addresses to MAC addresses."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q019",
@@ -541,7 +613,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In Microsoft Excel, the Insert tab contains commands for adding various objects and elements to a worksheet. It includes options like Table, Chart, Picture (from file, online, or stock images), and Shapes (including icons and text boxes). However, Macros are not located under the Insert tab. Macros are managed through the Developer tab (which must be enabled in Excel options) using the Macros dialog, Record Macro, or Visual Basic editor. Important Key Points: 1. Insert tab is used to add visual and structural elements to worksheets. 2. Table, Chart, Picture, and Shapes are all directly available under the Insert tab. 3. Macros are accessed via the Developer tab (not visible by default). 4. Developer tab can be enabled from File → Options → Customize Ribbon. Knowledge Booster: • (a) Table → Available under Insert → Table group (Insert Table or Format as Table). • (b) Chart → Available under Insert → Charts group (recommended charts, column, pie, etc.). • (c) Picture → Available under Insert → Illustrations group (Pictures, Online Pictures). • (e) Shapes → Available under Insert → Illustrations group (Shapes, Icons, 3D Models)."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q020",
@@ -569,7 +645,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "RAM (Random Access Memory) is the primary temporary storage area in a computer where data and instructions are held while waiting to be processed by the CPU. It is volatile memory, meaning contents are lost when power is off. The CPU frequently accesses RAM for quick read/write operations during program execution, making it essential for running applications. Important Key Points: 1. RAM is the main volatile memory for temporary storage of data and instructions. 2. It allows fast random access by the CPU during processing. 3. Contents are erased when the computer is powered off. 4. Larger RAM capacity improves multitasking and system performance. Knowledge Booster: • (a) Hard Disk → Permanent non-volatile storage for files and OS; much slower access. • (b) ROM → Non-volatile memory for firmware; read-only, not used for temporary data. • (d) Cache → Small, ultra-fast memory inside or near CPU; temporary but not the primary area. • (e) Register → Tiny, fastest storage inside CPU; holds data during immediate processing only."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q021",
@@ -597,7 +677,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Meta tags are HTML elements placed in the <head> section of a webpage that provide structured metadata about the page. Search engines like Google use this information to understand the page's content, purpose, title, description, keywords (historically), robots instructions, and canonical URLs. Key examples include <title>, <meta name=\"description\">, <meta name=\"robots\">, and Open Graph tags. These directly influence indexing, snippet display in search results, and overall SEO ranking. Important Key Points: 1. Meta tags provide metadata in the head section for search engines. 2. Common ones: title, description, robots, viewport, and canonical. 3. They help with proper indexing, rich snippets, and search result appearance. 4. Semantic HTML elements also assist, but meta tags are primary for direct instructions. Knowledge Booster: • (a) div tags → Generic containers for layout/styling; no semantic meaning for search engines. • (c) br tags → Line breaks for text formatting; purely presentational, no content understanding. • (d) table tags → Used for tabular data; helpful if structured properly, but not primarily for SEO metadata. • (e) form tags → Enable user input; searchable but do not provide metadata or content description."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q022",
@@ -625,7 +709,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The MOD function in Microsoft Excel returns the remainder after a number is divided by a divisor. The syntax is =MOD(number, divisor). For example, =MOD(10,3) returns 1 because 10 divided by 3 gives a quotient of 3 and a remainder of 1. It works with both positive and negative numbers, following the sign of the divisor. Important Key Points: 1. MOD(number, divisor) returns the remainder of division. 2. Result has the same sign as the divisor. 3. Useful for checking even/odd numbers, cycling values, or extracting parts of numbers. 4. If divisor is 0, it returns #DIV/0! error. Knowledge Booster: • (a) QUOTIENT() → Returns only the integer portion (quotient) of division; discards remainder. • (b) DIVIDE() → No such built-in function exists in Excel. • (c) REMAINDER() → No such built-in function exists in Excel. • (e) ROUND() → Rounds a number to a specified number of digits; not related to division remainder."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q023",
@@ -653,7 +741,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The process of creating an additional copy of data to protect it from loss, corruption, or damage is called a backup. Backups are stored separately (on external drives, cloud storage, or tapes) and can be used to recover the original data in case of hardware failure, accidental deletion, ransomware, or disasters. Regular backups are a fundamental part of data protection and disaster recovery strategies. Important Key Points: 1. Backup involves copying data to a separate location or medium. 2. Purpose is to enable recovery after data loss or damage. 3. Can be full, incremental, or differential depending on strategy. 4. Essential for personal, business, and enterprise data security. Knowledge Booster: • (a) Formatting → Erases all data on a storage device and prepares it for use. • (c) Restoration → Process of recovering data from a previously created backup. • (d) Archiving → Moving infrequently accessed data to long-term storage; not primarily for protection. • (e) Encryption → Secures data by scrambling it; protects confidentiality, not against loss."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q024",
@@ -681,7 +773,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In UNIX systems, the shell is the program that serves as the primary interface between the user and the operating system kernel. It accepts user commands, interprets them, and requests the kernel to execute programs, manage files, or interact with hardware resources through system calls. Common shells include bash, sh, csh, and zsh. The shell translates human-readable commands into actions performed by the kernel, which directly controls hardware. Important Key Points: 1. Shell is a command-line interpreter in UNIX/Linux systems. 2. It acts as the intermediary between users and the kernel. 3. Handles input/output, command execution, scripting, and environment variables. 4. Kernel communicates with hardware; shell enables users to invoke kernel services indirectly. Knowledge Booster: • (a) Compiler → Translates high-level code to machine code; no direct user-kernel interface role. • (c) Terminal → Hardware or software window for interacting with the shell; not the interface itself. • (d) Command → Individual instructions executed by the shell; not the interface program. • (e) Process → Running instance of a program; managed by the kernel, not the user interface."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q025",
@@ -709,7 +805,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A Personal Area Network (PAN) connects devices within a very short range (typically up to 10 meters) around an individual. Infrared (IrDA) is a common wireless technology historically used for PAN communication, especially for direct device-to-device data transfer (e.g., between older mobile phones, PDAs, laptops, or remote controls). While Bluetooth is the dominant modern PAN technology, Infrared remains a recognized and commonly cited option in networking fundamentals for short-range, line-of-sight communication in PANs. Important Key Points: 1. PAN operates over a very limited personal range (few meters). 2. Infrared uses light waves for direct, point-to-point wireless communication. 3. Requires line-of-sight and is low-cost with moderate speed. 4. Commonly associated with legacy PAN implementations alongside Bluetooth. Knowledge Booster: • (a) Twisted Pair Cable → Used in LANs (e.g., Ethernet UTP cables); wired, not typical for personal wireless PAN. • (b) Coaxial Cable → Used in older LANs or cable TV; medium-range wired medium. • (d) Satellite → Used for WAN communication over very long distances. • (e) Fiber Optic Cable → High-speed medium for LAN/MAN/WAN backbones; not practical for personal area mobility."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q026",
@@ -737,7 +837,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In Microsoft Excel, pressing the Alt key alone activates the ribbon menu bar. It displays key tips (small letters or numbers) overlaid on each ribbon tab (e.g., H for Home, N for Insert). The user can then press the corresponding key to access that tab and further keys to select commands. This provides full keyboard navigation of the menu options without using the mouse. Important Key Points: 1. Alt key activates the ribbon key tips in Excel. 2. Subsequent key presses navigate tabs and commands hierarchically. 3. Works across all Microsoft Office applications with ribbon interface. 4. Pressing Alt again or Esc deactivates the key tips mode. Knowledge Booster: • (a) Ctrl → Used for command shortcuts (e.g., Ctrl+S for Save); does not activate menu bar. • (b) Shift → Modifier for selection or case change; no menu activation role. • (d) Tab → Moves focus between cells or dialog controls; not for ribbon access. • (e) Esc → Cancels current action or closes dialogs; deactivates key tips if active."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q027",
@@ -765,7 +869,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Integrated Circuits (ICs), particularly microprocessors built on IC chips, are the defining technology of microcomputers. Microcomputers (also called personal computers or PCs) rely on a single-chip CPU (e.g., Intel 4004 was the first microprocessor in 1971). This distinguishes them from earlier generations that used discrete transistors or multiple chips. While ICs are now used in all modern computer types, the question refers to the category originally defined by the use of IC-based microprocessors. Important Key Points: 1. Microcomputers are built around microprocessor IC chips. 2. The invention of the integrated circuit microprocessor enabled small, affordable personal computers. 3. All modern computers use ICs, but microcomputers are specifically named after this technology. 4. First commercial microcomputer: Altair 8800 (1975) using Intel 8080 IC. Knowledge Booster: • (a) Mini Computer → Used multiple ICs but not single-chip microprocessor; larger than microcomputers (e.g., PDP-8). • (c) Mainframe Computer → Large systems using many ICs; predated widespread microprocessor use. • (d) Super Computer → High-performance systems using thousands of ICs/processors; not defined by single IC. • (e) Hybrid Computer → Combines analog and digital; uses ICs but not specifically defined by them."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q028",
@@ -793,7 +901,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A Uniform Resource Locator (URL) specifies the location of a resource on the internet. Its standard components include the protocol (e.g., HTTPS), domain (e.g., example.com), path (e.g., /page.html), and query (e.g., ?key=value). Bandwidth refers to the data transfer rate of a network connection and is not a part of a URL's structure. Important Key Points: 1. Protocol indicates the access method (e.g., http:// or https://). 2. Domain specifies the server hostname or IP address. 3. Path identifies the specific resource or file on the server. 4. Query provides parameters for dynamic content in key-value pairs. Knowledge Booster: • (a) Protocol → Defines the communication scheme, mandatory in URLs. • (b) Domain → Core component identifying the destination server. • (c) Path → Points to the exact resource location on the server. • (d) Query → Optional string for passing data to the resource."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q029",
@@ -821,7 +933,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "An IPv6 address is a 128-bit address represented in hexadecimal format. It consists of eight groups of four hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). Leading zeros in each group can be omitted, and consecutive sections of all zeros can be compressed with \"::\" once per address. This hexadecimal representation makes the long 128-bit address more compact and readable compared to binary or dotted-decimal formats. Important Key Points: 1. IPv6 addresses are 128 bits long. 2. Represented as eight 16-bit blocks in hexadecimal, separated by colons. 3. Allows compression rules: omit leading zeros and replace one consecutive zero block with \"::\". 4. Hexadecimal digits range from 0–9 and A–F (case-insensitive). Knowledge Booster: • (a) Binary → Too lengthy (128 bits as 0s and 1s); not used for human-readable representation. • (b) Decimal → Used in IPv4 (dotted-decimal); IPv6 would be extremely long if fully decimal. • (d) Octal → Not used for IP addressing standards. • (e) ASCII → Text encoding for characters; not a numeric representation for addresses."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q030",
@@ -849,7 +965,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A dynamic website generates and updates content in real-time based on user interactions, database queries, session data, or external inputs. It uses server-side languages (e.g., PHP, Python, Node.js) or client-side scripting (e.g., JavaScript) to provide personalized and interactive experiences. Content changes frequently without manual page edits, such as showing different products, user profiles, or live feeds. Important Key Points: 1. Dynamic websites render content on-the-fly using code and databases. 2. They respond to user interaction (e.g., searches, logins, forms). 3. Frequent updates occur automatically based on data or actions. 4. Examples include e-commerce sites, social media, and news portals. Knowledge Booster: • (a) Displays fixed content to all users → Describes static websites. • (b) Created only with static HTML pages → Static sites use only HTML/CSS; dynamic require scripting. • (d) Cannot be modified once published → Opposite of dynamic; static sites need manual edits. • (e) Contains only text and images → Applies to basic static sites; dynamic can include multimedia and interactive elements."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q031",
@@ -877,7 +997,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "UNIX (and its derivatives like Linux, BSD) is historically and primarily recognized for its strong security features. Its design includes principles such as least privilege, modular architecture, user/group permissions, secure process isolation, and robust access controls. These foundational security concepts originated in the original UNIX developed at Bell Labs and have influenced modern secure systems. UNIX-like systems are widely used in servers, critical infrastructure, and security-focused environments due to their proven reliability and security model. Important Key Points: 1. UNIX introduced core security principles like file permissions and user isolation. 2. It uses a multi-user design with strict access controls (read/write/execute bits). 3. Features least privilege and process separation by default. 4. Basis for POSIX standards; highly auditable and configurable for security. Knowledge Booster: • (a) Windows → Has improved security over time but historically vulnerable due to large attack surface and legacy compatibility. • (b) macOS → Strong security (e.g., SIP, Gatekeeper) but built on UNIX; not the primary historical reference. • (d) Android → Linux-based but modified for mobile; weakened by app permissions and fragmentation. • (e) MS-DOS → Single-user, no memory protection or access controls; highly insecure by modern standards."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q032",
@@ -905,7 +1029,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A worm is a standalone malware program that can self-replicate and spread automatically across networks or systems without needing to attach to another file or requiring user intervention. It exploits vulnerabilities in operating systems or networks to propagate rapidly (e.g., via email, shared drives, or open ports). Famous examples include the ILOVEYOU and Conficker worms. This autonomous spreading distinguishes worms from other malware types. Important Key Points: 1. Worms self-replicate and spread independently over networks. 2. They do not require a host file or user action to propagate. 3. Often exploit security vulnerabilities for automatic transmission. 4. Can cause massive outbreaks by consuming bandwidth and resources. Knowledge Booster: • (a) Virus → Attaches to legitimate files/programs; requires user action (e.g., opening file) to spread. • (c) Trojan → Disguises as useful software; does not self-replicate or spread automatically. • (d) Spyware → Secretly monitors and collects user data; no self-replication or automatic spreading. • (e) Adware → Displays unwanted advertisements; focuses on revenue, not replication or spreading."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q033",
@@ -933,7 +1061,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Core VoIP technology refers to platforms primarily designed for real-time voice (and video) communication over the internet using VoIP protocols. Skype, Zoom, and Google Meet are dedicated VoIP/video conferencing services built entirely around this technology. Skype pioneered consumer VoIP with its proprietary (later evolved) protocol. Zoom and Google Meet use VoIP standards with optimizations for high-quality audio/video calls and meetings. Other options include messaging apps with added VoIP features or non-VoIP streaming/email services. Important Key Points: 1. VoIP transmits voice as digital packets over IP networks. 2. Skype, Zoom, and Google Meet are purpose-built VoIP/video calling platforms. 3. They support real-time audio/video without relying on traditional telephony as primary function. 4. \"Purely\" means the core service is VoIP-based communication. Knowledge Booster: • (b) WhatsApp, Facebook, Instagram → Primarily messaging/social apps; voice/video is secondary VoIP feature. • (c) Gmail, Outlook, Yahoo → Email services; no native VoIP calling. • (d) Telegram, Signal, Messenger → Messaging apps with optional VoIP calls; not core VoIP platforms. • (e) YouTube, Netflix, Spotify → Video/audio streaming services; not real-time VoIP communication."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q034",
@@ -961,7 +1093,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In research methodology, the Research Plan (also known as research design or methodology section) is the element that clearly defines the scope, boundaries, objectives, procedures, data collection methods, and overall framework of the study. It outlines what will be studied, what will be excluded (delimitations), and how the research will be conducted to achieve reliable and valid results. This ensures the research remains focused and manageable. Important Key Points: 1. Research Plan details the overall strategy and structure of the study. 2. It explicitly states scope (what is included) and boundaries/delimitations (what is excluded). 3. Includes clear research objectives (general and specific). 4. Forms the core of the research design in methodology. Knowledge Booster: • (a) Research Hypothesis → A testable prediction or assumed relationship; does not define overall scope or boundaries. • (b) Feasibility Study → Assesses practicality and resources before starting; preliminary, not part of research design. • (c) System Requirement Specification (SRS) → Document used in software engineering; not a research methodology element. • (e) Project Proposal → Outlines idea, objectives, and justification to seek approval/funding; less detailed than the full research plan."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q035",
@@ -989,7 +1125,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "GPS (Global Positioning System) is a radio-based satellite navigation system. It works using a constellation of satellites (senders/transmitters) that broadcast signals, a network of ground control computers that manage the system, and receivers (in devices like phones or GPS units) that calculate position by trilateration. The communication is one-way from satellites to receivers, enabling precise global location and timing services. Important Key Points: 1. GPS uses radio signals from satellites for navigation. 2. System includes satellites (senders), control segment (computers), and user receivers. 3. Receivers compute position using time differences in signals from multiple satellites. 4. Operates worldwide, 24/7, independent of weather conditions. Knowledge Booster: • (a) Bluetooth → Short-range wireless technology for device-to-device communication; not a navigation system. • (c) Wi-Fi → Wireless local network technology for internet access; no navigation capability. • (d) Radar → Radio-based detection and ranging system; measures distance/speed of objects, not global positioning. • (e) Infrared → Line-of-sight short-range communication (e.g., remote controls); not radio-based or used for navigation."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q036",
@@ -1017,7 +1157,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Windows Server is a family of operating systems developed by Microsoft specifically for server environments. It is designed to manage networks, host applications, provide file and print services, act as a web server, and distribute data or services to multiple connected client systems. Features like Active Directory, IIS, remote desktop services, and robust networking make it the primary server OS focused on managing and distributing resources in enterprise settings. Important Key Points: 1. Windows Server is Microsoft's dedicated server operating system. 2. It supports roles like domain controller, file server, web server, and application hosting. 3. Provides centralized management through tools like Active Directory. 4. Designed for high availability, scalability, and multi-user client access. Knowledge Booster: • (b) Solaris → Server-capable Unix OS (originally by Sun, now Oracle); suitable but not the primary example in most contexts. • (c) MS-DOS → Single-user, single-tasking disk OS for personal computers; no server capabilities. • (d) VxWorks → Real-time embedded OS for devices; not a general-purpose server OS. • (e) UNIX (Time-sharing version) → Multi-user OS capable of server roles but refers to general Unix, not specifically a server edition. • Q37. Ans.(c) The Strikethrough option in Microsoft Word applies a horizontal line that runs through the middle of the selected text. This formatting is commonly used to indicate deleted or no-longer-relevant content (e.g., in drafts or revisions) while keeping the original text visible. It is found in the Home tab under the Font group or via the shortcut Ctrl + D (Font dialog) or Alt + K in some versions. Important Key Points: 1. Strikethrough draws a horizontal line through the center of text. 2. It is a font formatting option, not a color or case change. 3. Useful for showing deletions in tracked changes or editing. 4. Can be applied via Home tab → Font group → Strikethrough button. Knowledge Booster: • (a) Underlines the text → Performed by the Underline option. • (b) Draws a line above the text → Known as Overline (not standard in Word). • (d) Changes text color → Done via Font Color tool. • (e) Converts text to uppercase → Achieved with Change Case → UPPERCASE."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q037",
@@ -1045,7 +1189,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct answer is (B). Explanation: Option-wise analysis: • (A) Correct. • “Neither” is a singular subject and correctly takes the singular verb “appears.” The sentence follows proper subject–verb agreement. • (B) Incorrect. • The subject is “the number”, which is singular and must take a singular verb. • The correct form should be: • “The number of applicants has increased significantly over the past few years.” • (C) Correct. • The sentence maintains proper tense consistency and logical structure. “Would satisfy” correctly follows “was confident.” • (D) Correct. • The gerund phrase “helps in avoiding” is correctly used, and the sentence is grammatically sound. Since only sentence (B) contains a grammatical error, option (B) is the correct answer."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q038",
@@ -1073,7 +1221,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In Windows File Explorer, the View modes (available under the View tab or right-click menu) control how files and folders are displayed. The classic and still-valid modes include Icons (large, medium, small, extra large), Tiles, List, and Details. These were the primary options in older Windows versions (XP, Vista, 7) and remain accessible in modern Windows (10/11) via the \"Layout\" section in the View tab or legacy contexts. Modern Windows adds \"Content\" and \"Compact\" views, but option (a) contains only historically valid and still-supported view modes. Important Key Points: 1. Icons, Tiles, List, and Details are long-standing File Explorer view modes. 2. Accessed via View tab → Layout group in current Windows. 3. Details shows columns (name, size, date); List shows small icons vertically; Tiles shows medium icons with info. 4. These modes remain compatible and selectable in Windows 11. Knowledge Booster: • (b) Preview, Table, Grid, Zoom → Preview pane exists but is not a view mode; others are not valid modes. • (c) Outline, Summary, Report, Icon → Legacy terms from very old Windows or other apps; not File Explorer modes. • (d) Sort, Filter, Group, Arrange → These are organization commands, not display view modes. • (e) Folder, Link, Tree, Network → Navigation concepts or panes; not view modes for file listing."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q039",
@@ -1101,7 +1253,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In computer networking, data is transmitted by adding multiple layers of headers as it passes down the protocol stack (e.g., TCP/IP or OSI model). Each layer (Application, Transport, Network, Data Link) appends its own header (and sometimes trailer) to the payload from the layer above. This combination of headers accompanies the original data packet from source to destination, allowing proper processing, routing, and delivery at each hop and layer. The term that refers to this layered set of protocols and their associated headers is the protocol stack. Important Key Points: 1. Protocol stack is the layered set of protocols (e.g., TCP/IP stack). 2. Each layer adds its own header during transmission (encapsulation). 3. The combined headers guide the packet through networks to the destination. 4. At the receiver, headers are removed layer by layer (decapsulation). Knowledge Booster: • (a) Data Link → Refers to Layer 2; handles framing, not the full header combination. • (b) Data Encapsulation → The process of adding headers; not the name for the header combination itself. • (c) Packet Switching → Network technique for routing packets; unrelated to headers. • (e) Frame Segmentation → Breaking large packets into smaller frames; not about headers."
     },
     {
       "q_id": "ibps_rrb_2025_mains_cff0a579::q040",
@@ -1129,7 +1285,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple physical disks into a single logical unit. Certain RAID levels (e.g., RAID 1, RAID 5, RAID 6, RAID 10) store duplicate copies of data across disks using techniques like mirroring and parity. This provides redundancy (reliability against drive failure) and often striping (balanced distribution) to improve read/write performance. Data is automatically rebuilt if a disk fails, ensuring both speed and fault tolerance. Important Key Points: 1. RAID uses multiple disks to store redundant (duplicate) data copies. 2. Levels like RAID 1 (mirroring) and RAID 5 (striping with parity) balance performance and reliability. 3. Improves fault tolerance (data survives disk failure) and I/O performance. 4. Managed by hardware controllers or software in operating systems. Knowledge Booster: • (a) Cloud Storage → Provides remote storage with possible replication, but not specifically for balanced local duplicate copies. • (c) Virtual Memory → Uses disk space to extend RAM; no duplication or redundancy for reliability. • (d) Cache Memory → Fast temporary storage for frequently accessed data; no duplication across devices. • (e) SSD → High-speed single storage drive; no built-in duplication or array management."
     }
   ]
 }

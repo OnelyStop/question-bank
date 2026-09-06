@@ -1108,7 +1108,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2025_prelims_5d6b2988::q046",
@@ -1136,7 +1139,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2025_prelims_5d6b2988::q047",
@@ -1164,7 +1170,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2025_prelims_5d6b2988::q048",
@@ -1192,7 +1201,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2025_prelims_5d6b2988::q049",
@@ -1220,7 +1232,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2025_prelims_5d6b2988::q050",

@@ -39,7 +39,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q002",
@@ -67,7 +70,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q003",
@@ -95,7 +101,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q004",
@@ -123,7 +132,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q005",
@@ -151,7 +163,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q006",
@@ -179,7 +194,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The issue discussed in the statement is nowhere related to increase in unemployment, as the number of vacancies filled in will remain the same. Also, in a working place, it is the performance of the individual that matters and that makes him more or less wanted, and not his educational qualifications. So, neither I nor II holds strong. Besides, the needs of a job are laid down in the desired qualifications for the job. So, recruitment of more qualified people cannot augment productivity. Thus, IV also does not hold strong. However, it is the right of an individual to get the post for which he fulfills the eligibility criteria, whatever be his extra merits. Hence, argument III holds strong. 7. (c) All the options may be the probable reasons except option IV because the reason in that option is contradictory to the statement. We Indians are matured enough to permit such exploratory things threatening national security. So, this must not be a probable reason. Direction (8-12) 8. (c) Both I and II is required to answer the question. 9. (a) Neither I nor II is sufficient to answer the question. 10. (c) Both the statements are required to answer the question. Two persons are sitting between A and C."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q007",
@@ -319,7 +338,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Only Statement I is sufficient to answer the question."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q012",
@@ -347,7 +370,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I: R, U>Q and S>P>T From II: _>U and Q>_ and P>R By combining both S>U>P>R>Q>T"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q013",
@@ -375,7 +402,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The time period of insurance scheme of Company X has not been mentioned in the statement. It may also be for 10 years and above 10 years. And we cannot compare the cost of Company X and Y because its mentioning is nowhere in the passage. So, (i) and (iii) are not the reasons behind the decision of the owner. But it is quite clear that Company Y has provided guarantee scheme for more period of time than that of Company X. So (ii) is the only reason behind the owner’s decision."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q014",
@@ -403,7 +434,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "If repo rate goes down, loan rates will go down. In turn, the value of rupee will strengthen against other currencies. Consumer Price Index (CPI) measures changes in the price level of a market basket of consumer goods and services purchased by households; hence it should be jumped from its previous rates. Reduction in global crude prices also plays an important role for the rate cuts by RBI. So, none of the options negates the above steps taken by the RBI. Direction (15-17):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q015",
@@ -431,7 +466,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "After analyzing DFD, we can determine that after taking permission from people of society Builder should have taken legal permission from concerned authority for renovation work."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q016",
@@ -459,7 +498,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Data is insufficient to answer."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q017",
@@ -487,7 +530,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "For renovation, Builders should take legal permission from concerned authority for renovation."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q018",
@@ -515,7 +562,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In option (C), it is mention that X is female without which the given information may be completed because relaxation of age doesn’t required here (the condition of age is already satisfied in option (A)). So, option (C) will be placed at last position. Direction (19-21): Visual – T86 For – L23 Effects – K93"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q019",
@@ -543,7 +594,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "the code of ‘eye’ can be M18 or N27. So option (iii) and (iv) can be the correct answer."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q020",
@@ -571,7 +626,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "the code for ‘development’ can be A10, H32 or Y16 so the (b) can be the correct answer."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q021",
@@ -599,7 +658,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "the code for ‘detachment’ can be G14 or S21 so (d) option is the correct answer as both code are present in all other options. Direction (22-26):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q022",
@@ -627,7 +690,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q023",
@@ -655,7 +721,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q024",
@@ -683,7 +752,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q025",
@@ -711,7 +783,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q026",
@@ -739,7 +814,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (27-31):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q027",
@@ -767,7 +846,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Even number is followed by an odd prime number so =4+5= 9 Then 1 row - 9 2 Odd number is followed by an even number so = 9*2=18 (sum of first row) In row 2 Odd number is followed by a perfect square so =13-9 =4 Then 2 row- 4 3 Even number is followed by an odd prime number so = 4 +3 = 7(sum of second row) So the resultant of both row = 18 + 7 = 25"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q028",
@@ -795,7 +878,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Odd number is followed by a perfect square so =11- 9 = 2, the row is 2 7 Even number is followed by an odd prime number so =2 + 7 = 9(sum of first row)=X The second row is 17 9 Odd number is followed by a perfect square so =17 – 9 = 8 Even number is followed by an odd prime number so = 8 +3 = 11"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q029",
@@ -823,7 +910,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Even number is followed by an nonprime odd number so =18- 15 = 3 The row is 3 6 Odd number is followed by an even number so =3 *6 = 18(sum of 1 row) Even number is followed by an odd number (prime) so =8 +3= 11 The sum of the rows is 20 so the sum of second row= 20- 18 = 2 When X = 9, then the second row is 11 9 Odd number is followed by a perfect square so 11- 9=2.so this condition can satisfy only when X=9."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q030",
@@ -851,7 +942,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Odd number is followed by a perfect square so =5- 4= 1 Odd number is followed by an odd number so = 1 + 15 = 16(sum of row) Odd number is followed by a perfect square so =21- 16 = 5 Odd number is followed by a perfect square so = 5 -4 =1(sum of row 2) So the difference is = 16 – 1 = 15"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q031",
@@ -879,7 +974,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In second row, Odd number is followed by a perfect square so =43-36=7 Odd number is followed by an even number so =7 *2 = 14(sum of second row)= X First row is 14 Even number is followed by a prime odd number so = 14 + 5 = 19 Odd number is followed by a perfect square so = 19- 16 = 3(sum of first row) So the resultant is 14 + 3 = 17"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q032",
@@ -907,7 +1006,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In option (A) Mohit got only 82% in written test but criteria is 85% in written test and in Option (D) also he got only mean percentage of 28% in Group discussion and Physiological test rounds and criteria is 30% in both rounds. So Only (A) and (D) option are follow. Direction (33-35):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q033",
@@ -935,7 +1038,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q034",
@@ -963,7 +1069,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q035",
@@ -991,7 +1100,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (36-37):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q036",
@@ -1019,7 +1132,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Only in this case P < R ≥ Q = M ≤ N ≤ L , P ≥ Q and M < l are definitely false. In the other options they are definitely true."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q037",
@@ -1047,7 +1164,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "F = G ≤ E < J > I = H Conclusion H < J > G and E ≥ F definitely true only when the symbol © is placed in the blank."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q040",
@@ -1075,7 +1196,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q041",
@@ -1103,7 +1227,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q042",
@@ -1131,7 +1258,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q043",
@@ -1159,7 +1289,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘Short-term loans’ refer to the loans scheduled to be repaid in less than a year. When your business does not qualify for a line of credit from a bank, you might still have success in obtaining money from then in the form of a one-time, short-term loan (less than a year) to finance your temporary working capital needs."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q044",
@@ -1187,7 +1321,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "it is clearly mention that Google has agreed that Nest’s privacy policies are going to be well- respected instead of any terms and conditions."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q045",
@@ -1215,7 +1353,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The statement talks about cleaning the Indian politics from criminalization be considered. choice (b) can not be considered as nothing related to selection of best people from constituency is mentioned in the statement. Solutions (46-47): Let no. of red balls=R No. of blue balls=B Probability of selecting red ball= 𝑅 = 𝑅+𝐵+6 R=B+6….. (I) Probability of selecting blue ball= 𝐵 Solutions (51-55):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q046",
@@ -1240,7 +1382,11 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Favourable numbered balls = 3,6,7,9,12,14,15,18,21,24,27,28 Required probability = 12 = Required percent (1.2𝑥−0.48𝑥) = 150% 0.48𝑥"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q047",
@@ -1268,7 +1414,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total number of balls = 6 + 14 + 8 = 28 balls Solutions (48-50): If C.P. = 100 × 110 = 110 Then loss = 62 × 100 = 56.36% Increase in loss = 4.36%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q048",
@@ -1292,7 +1442,10 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "Radius of circle = 2𝜋 = 7 cm 1 ( )2"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q050",
@@ -1319,7 +1472,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let Speed of boat in still water and speed of current =6x and x 2(6𝑥 + 𝑥) − 2(6𝑥 − 𝑥) = 8 , 𝑥 = 2 quantity I, speed of boat in still water = 12 km/h Quantity II, speed of cyclist = 14 km/h Quantity I < quantity II Profit percentage of P = 20% Profit percentage of Q = – 2% (loss) Of R = – 52% (loss) Of S = – 40% (loss) Of T = – 12% (loss) So R has the highest loss percentage. QUANTITATIVE APTITUDE = rd"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q051",
@@ -1347,7 +1504,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let cost price of P = 𝑥 And cost price of R = 𝑥 SP of P = 2𝑥 × 6 = 1.2𝑥 10 3 5B= 2R+12……. (II) 𝑅+𝐵+6 7 SP of R = 1.6 × 10 = 0.48𝑥 Solving (I) & (II) ,B= 8, R=14 , Total number of balls = 6 + 14 + 8 = 28 balls"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q052",
@@ -1375,7 +1536,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let CP of R = 100 M.P. = 160 S.P. = 3 × 160 = 48 Loss = 52 × 100 = 52%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q053",
@@ -1403,7 +1568,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let SP of Q = x =SP of T Quantity I – Area of shaded region = 𝜋 7 − And CP of Q = a × × 14 × 14 = 28 𝑐𝑚 Quantity II = 22 𝑐𝑚2 CP of T = b 1.4 Q × 70 = 2.2𝑇 × Quantity I > quantity II"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q054",
@@ -1431,7 +1600,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SP of P = 200 × 𝑃 × 60 = 1.2 𝑃(P=cost price)"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q055",
@@ -1459,7 +1632,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "If MP is some, then the item whose marked up % with respect to CP is lowest, will have highest CP, So the item with 2nd highest CP is the item with second lowest marked up % with respect to CP i.e. Q. Solutions (56-60):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q057",
@@ -1487,7 +1664,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "International tourist in IInd quarter Required no. of students = (63 + 28) × 66 = 231 = 100 × 1800 = 450 Solutions (68-72):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q058",
@@ -1515,7 +1696,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required percent 𝑥 58% 𝑜𝑓 3000 ×100=148.7≈149% 65% 𝑜𝑓 1800 (1050−630) = × 𝑦 Ratio of EMI expenses = 0.40𝑥 = 0.35𝑦 7 × 30 × 8 = 8 ∶ 7"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q059",
@@ -1543,7 +1728,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required percent = ×100=66.67%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q060",
@@ -1571,7 +1760,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.87,
+      "explanation": "total no. of international tourist = 125 × 1800 = 2250 No. of international tourist of Ist quarter Saving in 2002 = × 101500 = Rs. 60900 Transport expenditure in 2002 = 18 × 60900 = Rs. 26100 = × 630 = 810 Required percentage = 810 × 100 = 36%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q061",
@@ -1599,7 +1792,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the expenses are 500, 400 and 300 respectively Money saved = 15 × 500 + 25 × 300 = Expenses on transport in 2003 = 50 Required ratio = 400 = 8 ∶ 1"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q062",
@@ -1627,7 +1824,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "252000"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q063",
@@ -1655,7 +1856,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "No. of students from college R who attended at most 3 seminars = 11400 × 74 = 8436 ∴ Required students = 8436 × 25 = 3700"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q064",
@@ -1680,7 +1885,11 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let total no. of students from college T = 100 Total no. of students from college P = 20 × 100 = 57 ∴ 24 × 𝑥 × 12 = 32 × 5(𝑥 + 8) 288𝑥 = 160𝑥 + 160 × 8 128𝑥 = 160 × 8 ⇒ 𝑥 = 10"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q065",
@@ -1708,7 +1917,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total no. of students from college P = 48 × 100 = 320 = 1 − 1 = ∴ Boy → 2 × 18 × 18 → 648 days Total no. of students from college S = (64+14) × 100 = 650 Required % = 481−208 × 100 = 56.75 ≈ 57% ∴ Required No. of days ="
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q067",
@@ -1736,7 +1949,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "1 seminar 2 seminar 9x 4x 5x = 100 3000+𝑥 × 3000 = 900 × 100 = 25, 𝑥 = 600 5x = 35, x = 7 So no. of persons attending 1 seminar = 63 So no. of persons attending 2 seminar = 28"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q068",
@@ -1764,7 +1981,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let total salary in 2002 = 𝑥 International tourist in 4th quarter = 600 Required percent = 600 × 100 = 25% Total salary in 2005 = 𝑦 42% 𝑜𝑓 𝑥 = 7 30% 𝑜𝑓 𝑦"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q069",
@@ -1792,7 +2013,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Saving in 2004 = 58 × 175000 = Rs. 101500 60. (c): total no. of international tourist = 125 × 1800 = 2250 No. of international tourist of Ist quarter Saving in 2002 = × 101500 = Rs. 60900 Transport expenditure in 2002 = 18 × 60900 = Rs. 26100 = × 630 = 810 Required percentage = 810 × 100 = 36%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q070",
@@ -1820,7 +2045,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let salary in 2003 = 100 Salary in 2005 = 200 × 200 × 100 = 400 Solutions (61-62):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q071",
@@ -1848,7 +2077,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "EMI expanses : saving in 2002 Actual amount saved = Rs. 17500 So total amount = 17500 × 3 × 1200 = Rs. 252000 40 , and it is the 3 highest. Accommodation expense = 400 × 252000 = Rs."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q072",
@@ -1876,7 +2109,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required average = Solutions (73-75): 40+18+50+17+35 = 32%"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q073",
@@ -1904,7 +2141,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "𝑀 𝑊 = 3 × 12 15 = 12 Solutions (63-67):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q074",
@@ -1932,7 +2173,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "M → 240 days W → 32 × 18 = 576 days Remaining work after 6 days = 1 − 6 ( 10 + 24 ) ∴ Required % = 7 × 100 = 57 % = 1 − 6 ( 1 + 1 ) = 1 −"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q075",
@@ -1960,7 +2205,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required difference = 576 – 240 = 336 days = 54 days = Solutions (76-80):"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q076",
@@ -1988,7 +2237,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From A, M : W = 3 : 1 From C, W → 14 × = 21 days, M=7days, so C, 𝑦 = given, so upstream speed can be calculated by using any 2 of the 3 statements"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q077",
@@ -2016,7 +2269,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I, Total profit = 54000 Time = 1 year From II, we will get the ratio of their investment = 3 : 4 : 2 From III, profit of V = profit of A + 4000 4𝑥 = 2𝑥 + 4000 2𝑥 = 4000 𝑥 = 2000 From II and either I or III, we can get the share of R."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q078",
@@ -2044,7 +2301,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let distance = 𝑑 Speed in still water = 𝑥 Speed of current = 𝑦 ∴ 𝑑 = 2 𝑥 From A, 𝑑 given Cost of flooring = 850 per sq m ∴ ℓ = 48 m 𝑏 = 32 m Area = 48 × 32 Required price = 48 × 32 × 850 Rs. From III, perimeter = 160 Length = 3 × 16= 48 m Breadth = 16 × 2 = 32 m ∴ Required cost = 48 × 32 × 850 Rs. ∴ we can get the cost of flooring a rectangular hall any of the two statements."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q080",
@@ -2072,7 +2333,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the required number = 10𝑥 + 𝑦 From I = 𝑥2 + 𝑦2 = 26 From II, (10𝑥 + 𝑦): (𝑥 + 𝑦) = 5 ∶ 2 From III, 𝑥 = 𝑦 − 4 B, 𝑑 𝑥+𝑦 = given 𝑦 − 𝑥 = 4 We can get the value of 𝑥 and 𝑦 with the help of any of the two statements."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q081",
@@ -2100,7 +2365,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The entire passage simply elaborates the thoughts introduced in the first two sentences of the passage. Hence statement (c) is the main idea of the passage. Option (b) is incorrect which can be inferred from the first few lines of the 3rd paragraph of the passage, “Eusocial insect societies exhibit social organization based on rigid caste system. On the other hand, In naked mole rat societies differences in behavior are related to reproductive status, body size and age.” Option (d): The mating habits of naked mole rats are similar to wild dog, Lycaonpictus. Option (e): In naked mole rat colonies subordinate females are not sexually active and many never breed, unlike eusocial insects."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q082",
@@ -2128,7 +2397,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The rate of growth depends not on age but length of time spent in work. Refer to the last few lines of the 3rd paragraph of the passage “Jarvis’ work has suggested ........... its age”. Hence statement (b) is true in context of the passage."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q083",
@@ -2156,7 +2429,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "It is not actually shape but size that creates the difference in performance of tasks in naked mole rat colonies and in eusocial insect societies. Option (a): In naked mole rat colonies, all tasks are not performed cooperatively as these vertebrates are dominated by a single breeding female. Option (c): In naked mole rat colonies, breeding is limited to its queen (single female). Option (d): In eusocial insect societies, reproduction is limited to the largest animals. Option (e): In eusocial insect societies, the distribution of tasks is based on body shape not body size."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q084",
@@ -2184,7 +2461,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The second last sentence suggests a similarity between naked mole rats and Lycaon pictus in view of their breeding pattern in which breeding is limited to a single female and not cooperative. Hence option (d) is true in context of the passage."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q085",
@@ -2212,7 +2493,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a) is correct as naked mole rat are very altruistic in their nature which can be inferred from the 1st paragraph of the passage, “Until recently, scientists did not know of a close vertebrate ………………survive and reproduce, for the good of others”."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q086",
@@ -2240,7 +2525,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Suppress means inhibit or forcibly put an end to. Hence it is most similar in meaning to Subdue. Ostracize means exclude from society. Proscribe means forbid. Reticent means reserved."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q087",
@@ -2268,7 +2557,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Subordinate means junior or lower in position and is most similar in meaning to adjutant which means a military officer who acts as an administrative assistant to a senior officer. Indigent means poor, needy. Appendage, Adjunct means addition or attachment. Patron means contributor or sponsor."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q088",
@@ -2296,7 +2589,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Pronounce means declare or announce in a formal or solemn way which is opposite to enshround. Enunciate and Adjudicate are synonyms of it. Opine means hold and state as one’s opinion. Interpose means place or insert one thing and another. ENGLISH LANGUAGE"
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q089",
@@ -2324,7 +2621,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The passage is concerned with the topic ‘deju vu’ that is difficult to study as it produces no measurable external behaviors. Hence statement (a) is true. The passage is not concerned with the strengths and weaknesses of any concept as mentioned in option (c)."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q090",
@@ -2352,7 +2653,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a), (b), (d) and (e) are not true as the definition of the concept, theory or paradox is not mentioned, instead an example of the concept (Hawthorne) is given. Here from the passage, it can be stated that Hawthorne’s example has been set in the discussion of déjà vu. Hence statement (c) is relevant."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q091",
@@ -2380,7 +2685,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a) is not true as social nature of the term attracted the interests. Statement (d) is the correct choice. Refer to the lines “The phenomenon seems…….external behaviors”. Hence option (d) is true in context of the passage."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q092",
@@ -2408,7 +2717,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the lines “the fleeting melancholy…………….. occultists of many strips”. Other options are irrelevant to the passage. Option (a) is not true as academic psychologists have ignored the topic rather than using it. Option (b) is not true as according to the passage, the scientific study of déjà vu is difficult to study. Déjà vu have attracted the interest of poets, novelists, hence it is not an exact science as mentioned in option (d). option (e) is not true as definite definition is not mentioned in the passage."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q093",
@@ -2436,7 +2749,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Perplexed means puzzled or completely baffled. Hence it is similar in meaning to confound which means to cause surprise or confusion in (someone), especially by not according with their expectations. Rattled means making worried, nervous."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q094",
@@ -2464,7 +2781,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Ephemeral means lasting for a very short time. Hence it has same meaning as transient. Elusive means difficult to find, remember. Indiscernible means unnoticeable."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q095",
@@ -2492,7 +2813,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Cognition means perception. Hence it is most opposite in meaning to incomprehension. Percipience means perception, hence similar to cognition."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q096",
@@ -2520,7 +2845,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (d) is correct as it is making the argument in the previous sentence even more stronger by giving an evidence of how public cleansing is far from over and the action against the prominent figures is just one of the phase as the sentence talks about the capacity of the judicial authority."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q097",
@@ -2548,7 +2877,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (e) is correct and is in harmony with the theme of the passage as in the passage/ paragraph we are talking about the court’s decision and why it is controversial. Option (e) points out how the decision is only a half- measure and the incompetence of the court in taking a full measure is what that makes it controversial."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q098",
@@ -2576,7 +2909,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (c) is giving emphasis upon the stagnancy of many issues even after Modi’s promises and the sentence after the blank completely justifies it by giving one more examples of one such issue."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q099",
@@ -2604,7 +2941,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (a) fits the paragraph/passage most appropriately and is in complete harmony with the theme of the passage. Other options are out of context and are irrelevant."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q100",
@@ -2632,7 +2973,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The passage/ paragraph is talking about how ignorant our government has been in catering to the needs of the refugees and how the proposed bill is not secular as it is giving preference to the hindu refugees. The last line of the question which is not the concluding line is talking about the pathetic condition of the poor and option (b) is continuing with the theme of the passage as it is criticizing the government’s effort in making this issue a communal one."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q101",
@@ -2660,7 +3005,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The options other than (e) are forming a coherent paragraph with their sequence being adbc. Option (e) is out of context as the theme of the passage is how there has been a sourness in the relationship between China and South Korea lately and what caused it. While other options are in perfect sequence, the idea in option (e) is not resonating with the central theme of the paragraph/ passage."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q102",
@@ -2688,7 +3037,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (b) is not a part of the coherent paragraph as it explains the unexpectedly high failure rates of organizations while other options with their sequence being adec are part of one coherent paragraph as they are talking about the issue."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q103",
@@ -2716,7 +3069,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (c) is correct and is not a part of the coherent paragraph as it puts more emphasis on the suggestions made by report. Other option talks about the comparison of the stances of India and USA toward WTO."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q104",
@@ -2744,7 +3101,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "As the paragraph describes an incredibly beautiful place, the 3rd sentence is the opener. The 4th sentence compares it with the Garden of Eden. The second sentence describes the ‘thrill’ and compares it with a military band. The 5th sentence takes the metaphor further to compare the promenade and stone steps with the armies parading. The 1st sentence concludes that people in the area complete the ‘perfection it could have lacked.’ Therefore, CDBEA is the answer."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q105",
@@ -2772,7 +3133,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "BAFCED is the correct sequence."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q106",
@@ -2800,7 +3165,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Option (d) fits into the blank. In option (a) the usage of the indefinite article is erroneous. Options (b) and (c) are erroneous due to the incorrect ordering of words."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q107",
@@ -2828,7 +3197,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "GA",
-      "topic": "Miscellaneous_GA"
+      "topic": "Miscellaneous_GA",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The tense in options (a) and (b) is not consistent. Moreover, option (a) uses both 'essential' and 'must', thus rendering either one of these words redundant. In option (d) ‘things’ the plural form cannot take ‘it’. Hence option (d) is the answer."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q108",
@@ -2856,7 +3229,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In last line of the passage, the tone of author is such that this theory is not able to explain the occurrence of racial discrimination in other communities such as Jews and Chinese, therefore options (b), (c) and (d) are out of the question. Hence the answer is option (a)."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q109",
@@ -2884,7 +3261,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The answer is option (d), which would answer the information in the passage as the explanation of racism is given in the 1st line of the passage. All other options are sub-parts of the passage which the author has talked about. Hence the answer is option (d)."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q110",
@@ -2912,7 +3293,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Blitz means a sudden concerted effort to deal with something. Seeking means attempt or desire to obtain or achieve (something). Accrued means (of a benefit or sum of money) be received by someone in regular or increasing amounts over time. Stretch means to extend or spread over an area or period of time."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q111",
@@ -2940,7 +3325,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Workforce means the people engaged in or available for work, either in a country or area or in a particular firm or industry. Dwindling means to diminish gradually in size, amount, or strength. heartening means to make more cheerful or confident. venture means to undertake a risky or daring journey or course of action."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q112",
@@ -2968,7 +3357,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Pertinent means relevant or applicable to a particular matter; apposite hence is the synonym of relevance. Only Inane and ludicrous are the synonyms and have the same relationship hence option (d) is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q113",
@@ -2996,7 +3389,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Use “the residence of one of the ministers” in place of “one of the Minister’s residences”."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q114",
@@ -3024,7 +3421,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Use ‘has’ in place of ‘have’."
     },
     {
       "q_id": "sbi_po_2016_mains_1ad95c75::q115",
@@ -3052,7 +3453,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Use ‘we had had mohan’"
     }
   ]
 }

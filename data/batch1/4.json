@@ -38,7 +38,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q002",
@@ -66,7 +69,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q003",
@@ -94,7 +100,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q004",
@@ -122,7 +131,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q005",
@@ -150,7 +162,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q006",
@@ -178,7 +193,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "150% of 240 is 360 and 25% of 160 is 40, totaling 400."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q007",
@@ -206,7 +225,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "√4900 is 70 and ∛1728 is 12; (70 − 12)/2 = 29."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q008",
@@ -234,7 +257,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "25.678 − 8.432 − 7.246 − 3 = 7."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q009",
@@ -262,7 +289,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "√x × 40 = 2000, so √x = 50 and x = 2500."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q010",
@@ -290,7 +321,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "6859 + 1331 − 3277 = 4913."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q011",
@@ -318,7 +353,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "40% of 150 plus 20% of 200 is 60 + 40 = 100."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q012",
@@ -346,7 +385,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "3750 ÷ 12.5 is 300; adding 180 gives 480."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q013",
@@ -374,7 +417,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "∛512 + 25% of 16 is 8 + 4 = 12, so ? = 9."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q014",
@@ -402,7 +449,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The right side is 140² − 60² − 816 = 15184. Subtracting 96² gives 5968."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q015",
@@ -430,7 +481,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "7 + 3.5 × 4 + x = 35 gives x = 14."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q016",
@@ -458,7 +513,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "x² = 64 × 441/49 = 576, so x = 24."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q017",
@@ -486,7 +545,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "845 + 55 + x = 1050 gives x = 150."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q018",
@@ -514,7 +577,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "C's total is 1180 and A's is 1120; 60/1120 is approximately 5%."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q019",
@@ -542,7 +609,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Computer Science for B+D is 340, while Mathematics for A+C is 680; the difference is 340."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q020",
@@ -570,7 +641,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Average Social Science sales are (220 + 180 + 260 + 200)/4 = 215."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q021",
@@ -598,7 +673,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The ratio of 200 English books to 180 Social Science books is 10:9."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q022",
@@ -626,7 +705,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After 25% of 280 are returned, 75% remain: 280 × 0.75 = 210."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q023",
@@ -654,7 +737,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Capital-time ratio is 24000×12 : 30000×4 = 12:5. B's share is 5/17 of 3400 = 1000."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q025",
@@ -682,7 +769,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "25000 × 1.10 × 0.80 = 22000."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q026",
@@ -710,7 +801,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A+B+C=216 and (A+B):C=5:4, so A+B=120. With A=B+24, B=48."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q027",
@@ -738,7 +833,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Let mother and daughter be M and D. M+D=60 and M−5=3(D−5), giving M=42.5."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q028",
@@ -766,7 +865,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After the first 10% discount the price is 945. Reducing it to 756 is a further 20% discount."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q029",
@@ -794,7 +897,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After removing 20%, milk and water are 120 L and 40 L. Set 40+y=(160+y)/2 to obtain y=80."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q030",
@@ -822,7 +929,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "B's interest is 800×10%×2=160 and A's is 450×20%×2=180, giving 8:9."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q031",
@@ -850,7 +961,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.55,
+      "explanation": "The two positive integers total 50, hence the four negative integers total −50. The lowest can be −47 when the other three are −1; the option displays magnitude 47."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q032",
@@ -878,7 +993,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Let sides be 5x and 9x. Their diagonal difference is 4x√2=16√2, so x=4. Area difference is (81−25)×16=896."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q033",
@@ -906,7 +1025,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Using alligation, Section A:B = (85−70):(70−65)=15:5=3:1."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q034",
@@ -934,7 +1057,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "If train length is L, (L+240)/28=L/16. Thus L=320 m and speed=20 m/s=72 km/h."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q035",
@@ -962,7 +1089,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "With upstream:downstream speed 3:5 and stream speed 4, speeds are 12 and 20 m/s. Covering 120 m in each direction takes 10+6=16 seconds."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q036",
@@ -990,7 +1121,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "I and II are stated in the passage, whereas III contradicts the statement that only a small fraction meets the standards."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q037",
@@ -1018,7 +1153,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Only I is incorrect: the alternatives are entering production, not completely replacing traditional tonewoods. II and III are stated."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q038",
@@ -1046,7 +1185,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "I and III are explicitly supported; II is false because only a small fraction of timber meets the standards."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q039",
@@ -1074,7 +1217,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The Lacey Act amendments compel companies to trace timber to its origin with documented precision."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q040",
@@ -1102,7 +1249,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Because only a small fraction of timber qualifies, pursuing select pieces disturbs surrounding forest ecosystems."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q041",
@@ -1130,7 +1281,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "To impart acoustic resonance is to convey or give it to the instrument."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q042",
@@ -1158,7 +1313,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "“Exacting standards” are stringent or demanding standards."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q043",
@@ -1186,7 +1345,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Wood must be harvested at the right stage of the tree's maturity."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q044",
@@ -1214,7 +1377,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The passage names composite materials, reclaimed urban timber, and plantation-grown alternatives."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q045",
@@ -1242,7 +1409,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The strategy treats legally and sustainably sourced timber as a long-term strategic reserve."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q046",
@@ -1270,7 +1441,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The grammatical sentence is “research suggests that people taking antipsychotics or cardiovascular drugs are more likely to be hospitalized for heat-related illness”: CDAB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q047",
@@ -1298,7 +1473,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct sentence is “designing an efficient supply chain is essential for manufacturers striving to meet customer demand consistently”: DCAB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q048",
@@ -1326,7 +1505,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.55,
+      "explanation": "The correct order is “India's GDP growth slipped to a five-quarter low of 6.7 percent as shown by data released by the National Statistical Office on Friday”: DCAB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q049",
@@ -1354,7 +1537,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct sentence is “The automotive industry faces twin challenge of decarbonizing while helping to make urban transport cleaner, safer and more sustainable”: CBDA."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q050",
@@ -1382,7 +1569,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct spelling is “essential”; “esential” is misspelt."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q051",
@@ -1410,7 +1601,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All highlighted words are correctly spelt and used in context."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q052",
@@ -1438,7 +1633,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The required word is “transactions”; “transections” is misspelt."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q053",
@@ -1466,7 +1665,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All highlighted words are correctly spelt and appropriate in the sentence."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q054",
@@ -1494,7 +1697,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct spelling is “junior,” not “junoir.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q055",
@@ -1522,7 +1729,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "“Board a train” and “board of directors” are correct; “board the proposal” is not the appropriate usage."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q056",
@@ -1550,7 +1761,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "One selects suitable native species according to local climate and soil."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q057",
@@ -1578,7 +1793,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The practices can be combined with regular monitoring."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q058",
@@ -1606,7 +1825,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Communities, schools, and volunteers can work together to care for the plants."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q059",
@@ -1634,7 +1857,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The measures help to ensure healthy growth."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q060",
@@ -1662,7 +1889,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Well-planned efforts can create a healthier and greener future."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q061",
@@ -1690,7 +1921,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.55,
+      "explanation": "The idiomatic construction is “on land and in water”; segment D incorrectly uses “in both land and water.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q062",
@@ -1718,7 +1953,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After “of,” the gerund is needed: “of implementing the revised procedure.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q063",
@@ -1746,7 +1985,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Past perfect requires “had broken,” not “had broke.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q064",
@@ -1774,7 +2017,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The phrase should be “in no mood,” not “in not mood.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q065",
@@ -1802,7 +2049,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The plural subject “findings” requires “have encouraged,” not “has encouraged.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q066",
@@ -1830,7 +2081,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The unique stack from top to bottom is N, L, K, P, I, J, O, M. There are five boxes between N and O."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q067",
@@ -1858,7 +2113,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Comparing N, L, K, P, I, J, O, M with alphabetical order I, J, K, L, M, N, O, P, only K and O remain unchanged."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q068",
@@ -1886,7 +2145,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the unique stack N, L, K, P, I, J, O, M, both N and K are above P."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q069",
@@ -1914,7 +2177,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "M is bottommost and six boxes are below L, so I and III are true. I is above O, making II the only untrue statement."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q070",
@@ -1942,7 +2209,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.55,
+      "explanation": "Justice is hj and prevail is bo, so the pair is hj bo."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q071",
@@ -1970,7 +2241,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "kr codes “is” and nh codes “public,” hence kr nh is “is public.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q072",
@@ -1998,7 +2273,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Delayed is bv, prevail is bo, and order is ot; must is xt. Thus “Must order” is xt ot."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q073",
@@ -2026,7 +2305,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Public=nh and Police can be rt are supported. Delayed trial is bv jc, not bv xt, so only III is incorrect."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q074",
@@ -2054,7 +2337,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The only remaining code in “Delayed trial denied justice” after delayed=bv, denied=jh, justice=hj is jc for trial."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q075",
@@ -2082,7 +2369,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q076",
@@ -2110,7 +2400,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q077",
@@ -2138,7 +2431,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q078",
@@ -2166,7 +2462,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q079",
@@ -2194,7 +2493,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q080",
@@ -2222,7 +2524,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After increasing by one, 877 and 515 are odd; the other three results are even."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q081",
@@ -2250,7 +2556,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Ascending digits give 134, 678, 236, 145, and 189; 134, from 413, is smallest."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q082",
@@ -2278,7 +2588,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The third number is 263, first digit 2. The second number from the right is 514, last digit 4; 2×4=8."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q083",
@@ -2306,7 +2620,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Removing even digits leaves 413, 7, 3, 15, and 891. The highest is 891."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q084",
@@ -2334,7 +2652,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The highest digit of 263 is 6. The fourth number from the right is 876 and its second-highest digit is 7; sum=13."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q085",
@@ -2362,7 +2684,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q086",
@@ -2390,7 +2715,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q087",
@@ -2418,7 +2746,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q088",
@@ -2446,7 +2777,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q089",
@@ -2474,7 +2808,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q090",
@@ -2502,7 +2839,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q091",
@@ -2530,7 +2870,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q092",
@@ -2558,7 +2901,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q093",
@@ -2586,7 +2932,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q094",
@@ -2614,7 +2963,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q095",
@@ -2642,7 +2994,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q096",
@@ -2670,7 +3025,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q097",
@@ -2698,7 +3056,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q098",
@@ -2726,7 +3087,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q099",
@@ -2754,7 +3118,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_clerk_2025_prelims_8b0fdbfe::q100",
@@ -2782,7 +3149,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.85
     }
   ]
 }

@@ -203,7 +203,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Statements (i) and (ii) give HCF 12 and LCM 528. Coprime factor pairs of 44 give possible sums 540 (1,44) and 180 (4,11); both satisfy (iii) and (iv). Thus A+B is still not determined."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q053",
@@ -231,7 +235,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After removing x litres, milk-water difference is 160(240-x)/240; adding y water requires 160-2x/3-y=125, or 2x/3+y=35. This holds for A=(36,11), B=(30,15), and D=(24,19)."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q054",
@@ -315,7 +323,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Let the first number be F and middle number M. F/2 is second and 1.5F+M=127. With M=64, F=42 and last=86; including fourth=62 gives average 55. Hence (M,B)=(64,55)."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q057",
@@ -427,7 +439,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Village A: 24×75%=18 mills at 55% of 2 lakh, giving 19.8 lakh. Village B: 20×75%=15 mills at 65% of 0.8 lakh, giving 7.8 lakh. The ratio 19.8:7.8 is 33:13."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q061",
@@ -455,7 +471,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "C produces 2×(9×1 lakh×70%)=12.6 lakh. A produces (18+24)×2 lakh×65%=54.6 lakh. 12.6/54.6=3/13=23 1/13%, written as 23 21/273% in the options."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q062",
@@ -483,7 +503,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "B in week 4 produces 10×80,000×30%=240,000 units, or 1,000 per house. C in week 2 produces 9×100,000×55%=495,000 units, or 3,300 per house. Ratio = 10:33."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q063",
@@ -511,7 +535,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Quantity I is positive (odd positive m power and even n power); Quantity II is positive (two negative odd-power factors); Quantity III is negative (odd power of negative b). I and II cannot be compared, while II is greater than III: (#,@)."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q064",
@@ -567,7 +595,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The three values are 0.91 for at most two solving, 1-C(7,3)/C(12,3)=37/44 for at least one green, and 4/5×1/7+1/5×6/7=2/7 for contradiction. Therefore I>II>III, coded (@,@)."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q066",
@@ -595,7 +627,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Equating distances gives ST=(S+10)(T-2) and ST=(S-15)(T+6), yielding T=10, S=40 and D=400. Thus (i), (ii), and (iv) are computable, but a tunnel speed is not."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q067",
@@ -623,7 +659,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The relative speed is 37.5 m/s, so total train length is 450 m. With A 150 m longer, A=300 m and B=150 m. Thus A's length and its time to cross a 150 m platform are known; the other requested quantities are not."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q068",
@@ -651,7 +691,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "For tens digit a and units digit b, 10a+b>3(10b+a) becomes 7a>29b. For b=1 there are five choices a=5…9, and for b=2 only a=9; larger b are impossible. Total=6."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q069",
@@ -679,7 +723,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The simple-interest rate is R=7%. On Rs 11,400 for two years, compound interest is below Rs 2,400 for rates 8%, 9%, and 10% (x=1,2,3), but exceeds it at 11% (x=4)."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q070",
@@ -707,7 +755,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Equal selling prices give 1.2CA=1.25CB, so CB=0.96CA. The profit difference is 0.25CB-0.20CA=384, hence CA=9,600 and CB=9,216."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q071",
@@ -735,7 +787,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In November, 20 occupied flats use 20×250=5,000 L/hour. Over 30 days they use 3,600,000 L, equal to six 600,000-L tank fills."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q072",
@@ -763,7 +819,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In December the 600,000-L tank empties in 4 1/6 days =100 hours. With 30 flats, each tap supplies 600,000/(30×100)=200 L/h, 20% less than 250 L/h."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q073",
@@ -791,7 +851,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "At 250 L/h for 100 hours, the tank supplies 600,000 L to 24 flats. Thus 24/40=60% flats are occupied."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q074",
@@ -819,7 +883,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "October capacity is 80% of 600,000=480,000 L. Thirty flats each use 80% of 250=200 L/h, total 6,000 L/h, so emptying time is 480,000/6,000=80 hours."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q075",
@@ -903,7 +971,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Apply the same successive differences as the first series: 57, 62, 71, 96, 157, 282. Starting from 93 ends at 93+57+62+71+96+157+282=818."
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q078",
@@ -987,7 +1059,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Milk volume is 80%×π×17.5²×18=13,860 cm³ (using π=22/7). Per cuboid this is 462 cm³; its base is 7×3=21 cm², giving height 462/21=22 cm."
     }
   ]
 }

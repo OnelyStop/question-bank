@@ -43,7 +43,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q002",
@@ -71,7 +74,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q003",
@@ -99,7 +105,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q004",
@@ -127,7 +136,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only two persons sit to the left of T. There are two possible cases that T will either face north or face south. Three persons sit between T and B who faces south. One person sits between A and G who sits just right of B. Case 2 will eliminate here because no one can sit to the right of B.D sits third to the left of A. E faces south and sits immediate left of D. L and B face the same direction but opposite to G. So, the final arrangement is: L sits immediate left of G."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q005",
@@ -155,7 +168,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only two persons sit to the left of T. There are two possible cases that T will either face north or face south. Three persons sit between T and B who faces south. One person sits between A and G who sits just right of B. Case 2 will eliminate here because no one can sit to the right of B.D sits third to the left of A. E faces south and sits immediate left of D. L and B face the same direction but opposite to G. So, the final arrangement is: One person sits between A and E."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q006",
@@ -183,7 +200,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only two persons sit to the left of T. There are two possible cases that T will either face north or face south. Three persons sit between T and B who faces south. One person sits between A and G who sits just right of B. Case 2 will eliminate here because no one can sit to the right of B.D sits third to the left of A. E faces south and sits immediate left of D. L and B face the same direction but opposite to G. So, the final arrangement is: T sits third to the left of G."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q007",
@@ -211,7 +232,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only two persons sit to the left of T. There are two possible cases that T will either face north or face south. Three persons sit between T and B who faces south. One person sits between A and G who sits just right of B. Case 2 will eliminate here because no one can sit to the right of B.D sits third to the left of A. E faces south and sits immediate left of D. L and B face the same direction but opposite to G. So, the final arrangement is: A faces north while remaining persons face south."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q008",
@@ -239,7 +264,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only two persons sit to the left of T. There are two possible cases that T will either face north or face south. Three persons sit between T and B who faces south. One person sits between A and G who sits just right of B. Case 2 will eliminate here because no one can sit to the right of B.D sits third to the left of A. E faces south and sits immediate left of D. L and B face the same direction but opposite to G. So, the final arrangement is: A sits exactly in the middle of the rows."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q009",
@@ -267,7 +296,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Point F is in south-east of point C."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q010",
@@ -295,7 +328,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The distance between point C and point L is 8m"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q011",
@@ -323,7 +360,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Point K is in the south-east of point Y."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q012",
@@ -351,7 +392,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person sits between C and G. There are two possible cases. F sits third to the left of G. F sits opposite to B who sits adjacent to H. Case 1 will eliminate here because B cannot sit adjacent to H. Two persons sit between H and E who does not sit opposite to D. So, E will sit third to the left of H and A will sit opposite to E. The remaining person is D who will sit just right of A. Hence, the final arrangement is: Three persons sit between D and G."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q013",
@@ -379,7 +424,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person sits between C and G. There are two possible cases. F sits third to the left of G. F sits opposite to B who sits adjacent to H. Case 1 will eliminate here because B cannot sit adjacent to H. Two persons sit between H and E who does not sit opposite to D. So, E will sit third to the left of H and A will sit opposite to E. The remaining person is D who will sit just right of A. Hence, the final arrangement is: H sits third to the left of F."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q014",
@@ -407,7 +456,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person sits between C and G. There are two possible cases. F sits third to the left of G. F sits opposite to B who sits adjacent to H. Case 1 will eliminate here because B cannot sit adjacent to H. Two persons sit between H and E who does not sit opposite to D. So, E will sit third to the left of H and A will sit opposite to E. The remaining person is D who will sit just right of A. Hence, the final arrangement is: C sits fourth to the right of H."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q015",
@@ -435,7 +488,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person sits between C and G. There are two possible cases. F sits third to the left of G. F sits opposite to B who sits adjacent to H. Case 1 will eliminate here because B cannot sit adjacent to H. Two persons sit between H and E who does not sit opposite to D. So, E will sit third to the left of H and A will sit opposite to E. The remaining person is D who will sit just right of A. Hence, the final arrangement is: Except option (e) , all other pairs sit opposite to each other."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q016",
@@ -463,7 +520,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One person sits between C and G. There are two possible cases. F sits third to the left of G. F sits opposite to B who sits adjacent to H. Case 1 will eliminate here because B cannot sit adjacent to H. Two persons sit between H and E who does not sit opposite to D. So, E will sit third to the left of H and A will sit opposite to E. The remaining person is D who will sit just right of A. Hence, the final arrangement is: E sits exactly between D and H."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q017",
@@ -491,7 +552,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I: R=Y (false) II: R>Y (false)"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q018",
@@ -519,7 +584,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I: W≥V (true) II: G>Q (true)"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q019",
@@ -547,7 +616,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I: Y>L (false) II: L=S (false)"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q020",
@@ -575,7 +648,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "3 E, 6 A"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q021",
@@ -603,7 +680,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "11th from left end= M"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q022",
@@ -631,7 +712,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Four even numbers (4, 8, 4, 6) are there in the given series."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q023",
@@ -659,7 +744,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "6th to the right of 15th from right end = 9th from right end= W"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q024",
@@ -687,7 +776,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "9Y4, 7M3"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q025",
@@ -715,7 +808,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Tina practice quizzes between Thursday and Sunday. There are two possible cases that Tina will practice either on Friday or on Saturday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya. Case 2 will eliminate here as Gola cannot practice between Rekha and Diya. So, the final arrangement is: Diya practices on Sunday."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q026",
@@ -743,7 +840,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Tina practice quizzes between Thursday and Sunday. There are two possible cases that Tina will practice either on Friday or on Saturday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya. Case 2 will eliminate here as Gola cannot practice between Rekha and Diya. So, the final arrangement is: One person practices quizzes between Gola and Mona."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q027",
@@ -771,7 +872,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Tina practice quizzes between Thursday and Sunday. There are two possible cases that Tina will practice either on Friday or on Saturday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya. Case 2 will eliminate here as Gola cannot practice between Rekha and Diya. So, the final arrangement is: Roma practices quizzes on Tuesday."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q028",
@@ -799,7 +904,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Tina practice quizzes between Thursday and Sunday. There are two possible cases that Tina will practice either on Friday or on Saturday. Roma practices three days before Tina. The number of persons practice after Roma is same as the number of persons practice before Mona. One person practices between Rekha and Neha. Gola practices either just before or just after Neha. Gola practices exactly between Rekha and Diya. Case 2 will eliminate here as Gola cannot practice between Rekha and Diya. So, the final arrangement is: Only combination in option (d) is correct."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q029",
@@ -827,7 +936,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q030",
@@ -855,7 +967,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "D lives on an even numbered floor. The one who likes lotus lives just above D. There are two possible cases. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. Case 2 will eliminate here because there is no place left for N. F does not like marigold. Hence, G likes marigold and F likes dahlia. So, the final arrangement is: The person who likes tulip lives on 2nd floor."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q031",
@@ -883,7 +999,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "D lives on an even numbered floor. The one who likes lotus lives just above D. There are two possible cases. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. Case 2 will eliminate here because there is no place left for N. F does not like marigold. Hence, G likes marigold and F likes dahlia. So, the final arrangement is: All the given combinations are correct."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q032",
@@ -911,7 +1031,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "D lives on an even numbered floor. The one who likes lotus lives just above D. There are two possible cases. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. Case 2 will eliminate here because there is no place left for N. F does not like marigold. Hence, G likes marigold and F likes dahlia. So, the final arrangement is: C lives three floors above N."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q033",
@@ -939,7 +1063,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "D lives on an even numbered floor. The one who likes lotus lives just above D. There are two possible cases. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. Case 2 will eliminate here because there is no place left for N. F does not like marigold. Hence, G likes marigold and F likes dahlia. So, the final arrangement is: No one lives between G and F."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q034",
@@ -967,7 +1095,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "D lives on an even numbered floor. The one who likes lotus lives just above D. There are two possible cases. Two persons live between D and G. C likes daisy and lives exactly in the middle of G and H. The person who likes tulip lives just above the person who likes balsam. N likes balsam. Case 2 will eliminate here because there is no place left for N. F does not like marigold. Hence, G likes marigold and F likes dahlia. So, the final arrangement is: G likes marigold."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q035",
@@ -995,7 +1127,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "1st, 2nd, 6th and 7th letter of the word PUBLISHED= P, U, S, H Meaningful word= PUSH; Last letter= H"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q039",
@@ -1023,7 +1159,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q040",
@@ -1051,7 +1190,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q042",
@@ -1079,7 +1221,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q043",
@@ -1107,7 +1252,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q044",
@@ -1135,7 +1283,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q045",
@@ -1163,7 +1314,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q046",
@@ -1191,7 +1345,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q048",
@@ -1219,7 +1376,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees who consume only espresso = 95-(15+30+25) =25 Employees who consume only cappuccino = 100-(25+35) =40 Employees who consume latte & cappuccino both = 200-(25+15+40+25+30+35) =30 Employees who drink exactly 2 drinks = 15+25+30=70"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q049",
@@ -1247,7 +1408,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees who consume only espresso = 95-(15+30+25) =25 Employees who consume only cappuccino = 100-(25+35) =40 Employees who consume latte & cappuccino both = 200-(25+15+40+25+30+35) =30 Employees who consume cappucinno =40+30+30+15=115 Employees who consume latte=30+30+25+35=120"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q050",
@@ -1275,7 +1440,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees who consume only espresso = 95-(15+30+25) =25 Employees who consume only cappuccino = 100-(25+35) =40 Employees who consume latte & cappuccino both = 200-(25+15+40+25+30+35) =30 Required ratio = 25:30=5:6"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q051",
@@ -1303,7 +1472,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q052",
@@ -1331,7 +1503,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q053",
@@ -1359,7 +1534,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q054",
@@ -1387,7 +1565,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q055",
@@ -1415,7 +1596,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q056",
@@ -1443,7 +1627,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q057",
@@ -1471,7 +1659,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series: 10 x 0.5+1 = 6 6 x 1+2 = 8 8 x 1.5+3 = 15 15 x 2+4 = 34 34 x 2.5+5 = 90"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q058",
@@ -1499,7 +1691,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series: 10 x 1 = 10 10 x 1.5 = 15 15 x 2 = 30 30 x 2.5 = 75 75 x 3 = 225"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q059",
@@ -1527,7 +1723,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q060",
@@ -1555,7 +1755,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series: 8 + 6 = 14 14 + 12 = 26 26 + 24 = 50 50 + 48 = 98 98 + 96 = 194"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q061",
@@ -1583,7 +1787,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q062",
@@ -1611,7 +1818,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q063",
@@ -1639,7 +1849,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q064",
@@ -1667,7 +1880,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q065",
@@ -1695,7 +1911,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the smallest odd number be ‘x’ so next odd number be ‘x+2’ and so on 8th number = x+(8-1) ×2=x+14 (using AP, nth term = a + (n-1) d)"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q066",
@@ -1723,7 +1943,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q067",
@@ -1751,7 +1974,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Req. difference = (39+95) -(20+65) =134-85=49"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q068",
@@ -1779,7 +2006,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Req. ratio = (80+65+43+20+52) :(50+74+95+18+39) =260:276=65:69"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q069",
@@ -1807,7 +2038,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q070",
@@ -1835,7 +2069,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q071",
@@ -1862,7 +2099,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "References for corroborating the truth of all of the statements are as given below: Statement (a) – Refer to the lines in the third paragraph which state “This led to a wave of defaults among countries that had borrowed heavily on international markets in the years before, beginning with Mexico in 1982 and then spreading throughout Latin America and beyond.” Statement (b) – Refer to the lines in the fourth paragraph which state “. Across Latin America, it led to a collapse in G.D.P., rising unemployment and skyrocketing levels of poverty, from which the region…” and “Among heavily indebted states in Africa, the effects were similar.” Statement (c) – Refer to the lines in the third paragraph which state “This led to a wave of defaults among countries that had borrowed heavily on international markets in the years before, beginning with Mexico in 1982 and then spreading throughout Latin America and beyond” Thus, all statements stand to be correct. Option (e) becomes the resultant answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q072",
@@ -1890,7 +2130,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All other options except option (e) are sound analyses. Option (e) is merely an opinion, or more precisely, an observation."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q073",
@@ -1918,7 +2162,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "For statement I, refer to the lines in the second paragraph, “. After several years of rising prices, President Jimmy Carter appointed Paul Volcker to lead the Fed in 1979. Mr. Volcker raised the federal funds rate — the interest rate that banks charge one another for short-term borrowing and which guides other interest rates — up to nearly 20 percent.” These quoted words specify the President’s desire to restore economic stability by appointing Volcker as the head of the Federal Reserves and connects with his decision to raise interest rate on banks – thus proving that statement I is correct. For statements II and III, refer to the lines in the first paragraph, “But aggressive efforts to quell inflation in the United States can have major, unpredictable effects around the world, often with long-lasting, negative consequences for countries in the Global South. And the United States will not be immune to worldwide economic trends” The quoted text states that global economic crises are bound to hit US economy too. These lines, thus, negate the validity of statements I and II. Therefore, only statement I is correct."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q074",
@@ -1946,7 +2194,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (a) is not mentioned anywhere in the passage. Thus, option (a) is eliminated. Statement (b) , though correct to a certain degree, suggests a time period of inflation in America, when it suggests to be “the previous decade”. No specific time period is given for that time in the paragraph. Thus option (b) , too, is eliminated. To verify if statement (d) is correct, refer to the first lines of the passage, which state, “As the Federal Reserve begins to raise interest rates to tackle the highest inflation the United States has seen in decades, it confronts a growing risk that it will spark a recession in the process.” Also refer to the very last lines of the passage, “But American policymakers at the time did not give much attention to the global repercussions of their decisions. These are the only two references in direct judgement of the attitude of the Fed towards the situation. The first statement states the Federal Reserve is well on its way to “spark a recession”. Nowhere is it mentioned that it wishes for a change in policies. It’s just the author who calls for a change -- inciting an example from history and concluding that the policymakers of that time were to be held accountable for the crisis in the 1980s. Statement (c) has direct mentions in the passage. Refer to the lines in the third paragraph, stating, “This led to a wave of defaults among countries that had borrowed heavily on international markets in the years before…” Thus, option (c) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q075",
@@ -1973,7 +2225,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Refer to the lines in the second paragraph, “Mr. Volcker raised the federal funds rate — the interest rate that banks charge one another for short- term borrowing and which guides other interest rates — up to nearly 20 percent. By the end of 1982, unemployment had reached 10.8 percent in the United States, but inflation slowed…” The quoted text proves that employment has an inverse relation with the federal funds rate. Increase in the federal funds rates leads to decrease in inflation when no other factors intervene, and so inflation is inversely related to interest rate. Thus, employment and inflation rise or fall together when interests rates are decreased or increased, respectively. That makes only option (b) correct out of all the given options."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q076",
@@ -2001,7 +2257,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The author is critical of the ignorance by American officials and the term “inflation hawks” is meant to be an insult. Thus option (d) is correct."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q077",
@@ -2029,7 +2289,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "inquire – ask for information from someone address – speak to (a person or an assembly) tackle – make determined efforts to deal with (a problem or difficult task) break – interrupt (a sequence, course, or continuous state) catalyse – cause or accelerate (a reaction) by acting as a catalyst"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q078",
@@ -2057,7 +2321,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "“Profoundly” is defined as “very great or intense”. diligent – having or showing care and conscientiousness in one's work or duties superficial – existing or occurring at or on the surface diffuse – spread over a wide area or between a large number of people fluent – able to express oneself easily and articulately solemn – formal and dignified"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q079",
@@ -2085,7 +2353,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "“To precipitate” is defined as “to cause (an event or situation, typically one that is undesirable) to happen suddenly, unexpectedly, or prematurely; bring about; cause” inculcate – instil (an idea, attitude, or habit) by persistent instruction accelerate – increase in rate, amount, or extent demarcate – set the boundaries or limits of emanate – (of a feeling, quality, or sensation) issue or spread out from (a source) incarcerate – imprison or confine"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q080",
@@ -2113,7 +2385,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "“Tackle” is defined as “make determined efforts to deal with (a problem or difficult task) .” “evade” is the antonym of “tackle”. (a) Evade: To avoid or escape from something, typically by using clever tactics or strategies. (b) Attack: To aggressively act against someone or something with the intention of causing harm or damage. (c) Pursue: To actively follow or chase after something or someone in order to achieve a goal or desired outcome. (d) Wade: To walk through water or any other substance with effort or difficulty. (e) Approach: To move closer to someone or something in a purposeful manner, often with the intention of initiating communication or action."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q081",
@@ -2141,7 +2417,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in part (A) . Here preposition ‘by’ should be replaced with ‘with’. Along with means in company with or at the same time as."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q082",
@@ -2169,7 +2449,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in part (C) . Here ‘are’ should be replaced with ‘were’ as the given sentence is in simple past tense."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q083",
@@ -2197,7 +2481,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in part (C) . Here ‘and’ should be replaced with ‘or’ because we use either/or are used together to offer a choice between two things."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q084",
@@ -2225,7 +2513,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in part (B) . Here ‘foreigner’ which is a noun should be replaced with ‘foreign’ (adjective) to modify noun ‘Navies’."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q085",
@@ -2253,7 +2545,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in part (D) . Here ‘safe’ (adjective) should be replaced with ‘safely’ (adverb) for verb ‘use’."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q086",
@@ -2281,7 +2577,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is talking about a sustainable certification scheme to ease MSME’s to adopt 'Zero Defect Zero Effect' practices. Therefore the correct word for the given blank will be ‘facilitate’. (a) clutter means cover or fill (something) with an untidy collection of things. (b) facilitate means make (an action or process) easy or easier. (c) demolish means pull or knock down (a building) . (d) relinquish means voluntarily cease to keep or claim; give up. (e) squander means waste (something, especially money or time) in a reckless and foolish manner."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q087",
@@ -2309,7 +2609,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is talking about MSME’s energy efficiency while improving quality. Therefore the correct word for the given blank will be ‘efficient’ (a) convene means come or bring together for a meeting or activity; assemble (b) ardor means great enthusiasm or passion. (c) undermine means erode the base or foundation of (a rock formation) (d) intrigue means arouse the curiosity or interest of; fascinate. (e) efficient means (of a system or machine) achieving maximum productivity with minimum wasted effort or expense"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q088",
@@ -2337,7 +2641,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is talking about MSME’s energy efficiency while improving quality through increased compliance. Therefore the correct word for the given blank will be ‘compliance’ (a) curtailment means the action or fact of reducing or restricting something. (b) conviction means a formal declaration by the verdict of a jury or the decision of a judge in a court of law that someone is guilty of a criminal offence. (c) interdiction means the action of prohibiting or forbidding something. (d) compliance means the state or fact of according with or meeting rules or standards. (e) fierce means having or displaying an intense or ferocious aggressiveness."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q089",
@@ -2365,7 +2673,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is talking about the efficiency of MSME to increase environmental consciousness. Therefore the correct word for the given blank will be ‘enhance’ (a) carve means cut (a hard material) in order to produce an object, design, or inscription. (b) enhance means intensify, increase, or further improve the quality, value, or extent of. (c) opulent means ostentatiously costly and luxurious. (d) cite means praise (someone, typically a member of the armed forces) in an official report for a courageous act. (e) indict means formally accuse of or charge with a crime."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q090",
@@ -2393,7 +2705,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is talking about MSME’s use of natural resources in the most favourable way. Therefore the correct word for the given blank will be ‘optimally’. (a) optimally means in the best or most favourable way. (b) dimensionally means a measure of spatial extent, especially width, height, or length. (c) scarcely means only just; almost not. (d) enormously means to a very great degree or extent; considerably. (e) recklessly means without regard to the danger or the consequences of one's actions; rashly."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q091",
@@ -2421,7 +2737,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given sentence is mentioning that ZED certification scheme will be advantageous for improving quality. Therefore, the correct word for the given blank will be ‘beneficial’ (a) imperil means put at risk of being harmed, injured, or destroyed. (b) fluster means make (someone) agitated or confused. (c) tedious means too long, slow, or dull; tiresome or monotonous. (d) appalling means causing shock or dismay; horrific. (e) beneficial means resulting in good; favourable or advantageous."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q092",
@@ -2449,7 +2769,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given highlighted phrase is incorrect because 'although' as a subordinating conjunction implies or introduces a contrast idea and 'but' as a coordinating conjunction contrasts an idea, ideally both may go against the understanding that they negate each idea. Therefore, they both may be ineffective when used together. Here correct preposition is ‘of’. Therefore the correct replacement is ‘there is the possibility of a shower’."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q093",
@@ -2477,7 +2801,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given highlighted phrase is incorrect because the given sentence is in past perfect continuous and its correct structure is ‘has/have+ been + V-ing’. ‘Petrol prices’ is plural therefore ‘has been’ is also incorrect in option (a) . The correct phrase is ‘have been inching up over’."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q094",
@@ -2505,7 +2833,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given highlighted phrase is incorrect because ‘to’ is followed by base form of verb. We don’t use most and more with superlative degree."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q095",
@@ -2533,7 +2865,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given highlighted phrase is correct and no improvement required."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q096",
@@ -2561,7 +2897,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The given highlighted phrase is incorrect because the given sentence is in simple past tense. Therefore, ‘the war broke out’ is the correct replacement."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q097",
@@ -2589,7 +2929,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Rearrangement of (A) -(C) is needed to make the sentence grammatically and contextually correct. Thus, the sentence will be, “Three cottages have been constructed and other facilities are being created for tourists to enjoy the scenic landscape that holds a number of natural streams, dense teak forest and is suitable for trekking.”"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q098",
@@ -2617,7 +2961,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Rearrangement of (B) -(C) is needed to make the sentence grammatically and contextually correct. Thus, the sentence will be, “Preventing acts of terrorism that involve weapon of mass destruction or their delivery systems requires building a network of national and international measures in which all nation states are equally invested.”"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q099",
@@ -2645,7 +2993,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Every word in the sentence is correctly placed, hence no rearrangement is needed."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b7d42437::q100",
@@ -2673,7 +3025,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Rearrangement of (C) -(D) is needed to make the sentence grammatically and contextually correct. Thus, the sentence will be, “The war in Ukraine has brought unexpected changes in the world as global powers seek to recalibrate their foreign policies."
     }
   ]
 }

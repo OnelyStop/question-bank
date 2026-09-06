@@ -37,7 +37,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Logic here is: First element is fourth right to the second element"
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q002",
@@ -65,7 +69,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q003",
@@ -93,7 +100,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q004",
@@ -121,7 +131,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q005",
@@ -149,7 +162,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q006",
@@ -177,7 +193,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Box C is kept at third position from the bottom. Boxes E B C D A"
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q007",
@@ -205,7 +225,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "R lives on the second floor. Floors Persons T Q P R S"
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q008",
@@ -233,7 +257,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q009",
@@ -261,7 +288,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2025_mains_9401348b::q010",
@@ -289,7 +319,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     }
   ]
 }

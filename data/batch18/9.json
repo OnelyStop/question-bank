@@ -1246,7 +1246,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q045",
@@ -1274,7 +1277,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q046",

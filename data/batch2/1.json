@@ -39,7 +39,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q002",
@@ -67,7 +70,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q003",
@@ -95,7 +101,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q004",
@@ -123,7 +132,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q005",
@@ -151,7 +163,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q006",
@@ -179,7 +194,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q007",
@@ -207,7 +225,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q008",
@@ -235,7 +256,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Condition I and II is applied."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q009",
@@ -263,7 +288,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "No Condition is applied."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q010",
@@ -291,7 +320,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Condition III and IV is applied."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q011",
@@ -319,7 +352,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "REASONING ABILITY"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q012",
@@ -347,7 +384,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q013",
@@ -375,7 +415,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q014",
@@ -403,7 +446,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Days Persons Monday F Tuesday A Wednesday E Thursday C Friday D Saturday B Solutions (15-19):"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q015",
@@ -431,7 +478,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q016",
@@ -459,7 +509,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q017",
@@ -487,7 +540,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q018",
@@ -515,7 +571,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q019",
@@ -543,7 +602,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q020",
@@ -571,7 +633,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "All weights are in whole number so"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q021",
@@ -599,7 +665,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q022",
@@ -627,7 +696,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q023",
@@ -655,7 +727,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q024",
@@ -683,7 +758,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ution (25-29): W Q S U R P X V Y Z T"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q025",
@@ -711,7 +790,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q026",
@@ -739,7 +821,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q027",
@@ -767,7 +852,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q028",
@@ -795,7 +883,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q029",
@@ -823,7 +914,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ution (30-32): Meaningful word is DISCOUNT"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q030",
@@ -851,7 +946,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q032",
@@ -879,7 +977,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ution (33-37): O was born just before K who is youngest. M is not less than 37 year. Ages are measured from 1st January 2020. Every person was born on 1st of every month. So, M was born on January 1983 and he is oldest person. There are 17 months difference between the age of M and J. So, J was born on June 1984. Here, we get two possibilities i.e. Case 1 and Case 2. There are as many persons were born before Q as after L. P and L were born in same year. J is younger than N. N was born on October. Case 1 Case 2 Years Months Persons Months Persons January M January M October N October N June J Q Q June J L P P L O O K K P was born before April. So, P was either born on February or on March. O and K were born in the month which have 31 days. There are 13 months difference between the ages of P and O. Now P and O were born on February and March respectively. Q and L were born in the month of 30 days. L was born before P in same year and here P was born on February, so Case 1 is ruled out. There are 11 months gap between the births of L and K. Now, L and K was born on September and August respectively. So, the final arrangement will be: - Years Months Persons January M October N April Q June J February P September L March O August K"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q033",
@@ -907,7 +1009,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q034",
@@ -935,7 +1040,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q035",
@@ -960,7 +1068,10 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q036",
@@ -988,7 +1099,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q037",
@@ -1016,7 +1130,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ution (38-42): Logic- Each word has code which consists only two symbols. 1st symbol is the code of the number which is the difference between the place values of 1st and last letter in each word. 2nd symbol is the code of the number which is the difference between the place values of 2nd letter from right and 2nd letter from left. Code of difference of place values is as follows: difference code © ⊏ £ ¥ β α Ω µ ® € difference code @ ℘ $ % & * ℗ ∞ #"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q038",
@@ -1044,7 +1162,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q039",
@@ -1072,7 +1193,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q041",
@@ -1100,7 +1224,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q042",
@@ -1128,7 +1255,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q043",
@@ -1156,7 +1286,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. L@N(false) II. K#R(true) III. V%R(false)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q044",
@@ -1184,7 +1318,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. G&M(false) II. K@O(true) III. M@G(false)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q045",
@@ -1212,7 +1350,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. M@N(true) II.J#V(false) III. L%N(false)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q046",
@@ -1240,7 +1382,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. D#A (true) II. F@D(true) III. H%E(false)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q047",
@@ -1268,7 +1414,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. G%J (false) II. F@H(false) III. I@M(true)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q048",
@@ -1296,7 +1446,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I we get following arrangement: Floor Persons X A Y Hence X lives on 5th floor."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q049",
@@ -1324,7 +1478,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I and II both we get following arrangement: Thus, L is in south-west of O."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q051",
@@ -1352,7 +1510,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "students in C = 520"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q052",
@@ -1380,7 +1542,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "students who shifted to CE in college C from ME in college A = 20 Students in CE in college C now = 80+20 = 100 Average of students in ME of all colleges = 180 + 180 + 120 = 160 Required difference = 160 −100 = 60"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q053",
@@ -1408,7 +1574,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required % = 220−120 × 100 = 83 3 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q054",
@@ -1436,7 +1606,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required ratio = (200 + 300) : (340 + 220) = 500 : 560 = 25 : 28"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q055",
@@ -1464,7 +1638,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required difference = 240+220+320 ~ 300+340+80 = 20"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q056",
@@ -1492,7 +1670,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required % = 740 × 100 = 70% (approx.)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q057",
@@ -1520,7 +1702,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let MP be Rs 100x SP = Rs 90x CP = 112.5 × 90x = Rs 80x New SP = Rs 75x Required loss % = 5x 80x × 100 = 6.25%"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q058",
@@ -1548,7 +1734,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ATQ, 16 + X − 12 = On solving, X = X = 20 min"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q059",
@@ -1576,7 +1766,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "milk remained after 20 lit mixture is taken out = (96 −20) × 100 = 49.4 lit Water remained after 20 lit mixture is taken out = (96 −20) × 100 = 26.6 lit Required difference = (49.4 + 10) – (26.6 + 16) = 16.8 litre"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q060",
@@ -1604,7 +1798,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Speed of train A = 4×180 = 20 m/s = 72 kmph Length of train B = 63 × 18 × 8 = 140 m Required time = 180+140 (72 − 63) × 5 = 128 sec"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q061",
@@ -1632,7 +1830,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total student in 2019 = 360 Let no. of boys & girls be x & y respectively x + y = 360 ………………..(i) Students who didn’t participate in 2019 = 100 × 360 = 144 no. of boys who didn’t participate in 2019 = 144 – 12 = 132 required difference = 55 × 45 − 100 × 360 = 54"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q062",
@@ -1660,7 +1862,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "no. of girls who didn’t participate in 2018 = 30 No. of boys who participated in 2018 = 300 – 20 × 100 = 150 Required ratio = 45 : 150 = 3 : 10"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q063",
@@ -1688,7 +1894,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "no. of students in 2015 = 780 – (360+180) = 240 Students who didn’t participate in 2015 = 72 QUANTITATIVE APTITUDE no. of boys who didn’t participate in 2015 = 49 Total number of girls in 2015 = 240 – 35 × 100 = 100 Required difference = 140 × 100 −(100 −23) = 91 – 77 = 14"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q064",
@@ -1716,7 +1926,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "required average = 3 (360 × 100 + 180 × 100 + 300 × 100) = (54 + 45 + 30)/3 = 43"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q065",
@@ -1744,7 +1958,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total no. of boys in 2018 = 180 Total No. of girls in 2018 = 120 No. of students who didn’t participate in 2018 = 30 No. of boys who didn’t participate in 2018 = 30 – 24 = 6 Required % = 120−24 × 100 = 6 4 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q066",
@@ -1772,7 +1990,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "no. of boys who didn’t participate in 2019 = 110 No. of girls who didn’t participate in 2019 = 5 + 100 × 180 = 50 Total students in 2019 = 40 × 100 = 400 No. of girls who participated in 2019 = 200 – 50 = 150 Required ratio = 150 : ( 100 × 300) = 5 : 9 Solutions (67–68): Ratio of Profit share (A : B : C) = (6000 × X) : (12000 ×12) : (7000 × X) = 6X : 144 : 7X ATQ, 6X : 144 : 7X = 18 : 48 : Z 6X 144 = X = 9 months Also, 7X = Z ⇒ Z = 21"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q067",
@@ -1800,7 +2022,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "X = 9 months"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q068",
@@ -1828,7 +2054,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Z = 21"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q069",
@@ -1856,7 +2086,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let present age of father & mother be 12x years & 11x years respectively ATQ, 12x + 12 11x + 12 = 14 ⇒ x = 4 present age of son = 12x – 22 = 26 yrs present age of daughter = 11x – 20 = 24 yrs required sum = 50 yrs"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q070",
@@ -1884,7 +2118,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "let sum be Rs P ATQ, P ( 100) = 420 P = Rs 10500 Required simple interest = 10500×25×3 = Rs 7875"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q071",
@@ -1912,7 +2150,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "40 ÷ 5+ ?≈73 −19 ? = 46"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q072",
@@ -1940,7 +2182,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "10 × 16 −55 ÷ 11 ≈ ? +55 ? = 100"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q073",
@@ -1968,7 +2214,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "63 + 68 −43+ ? ≈90 ? = 2"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q074",
@@ -1996,7 +2246,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "80 + 23 ≈13 × 7+ ? ? = 12"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q075",
@@ -2024,7 +2278,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "520 ÷ 13 −4 × 10 + 34 ≈ ? ? = 34"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q076",
@@ -2052,7 +2310,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "let amount invested by C be Rs X Profit share ratio = A : B : C = 6000 × 12 ∶12000 × 9 ∶X × 6 = 12000 : 18000 : X ATQ, X 30000+X × 50400 = 18900 x = Rs 18000"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q077",
@@ -2080,7 +2342,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "side of square = 42 m (area of square ≈ 1764 m2) length of rectangle = 14 m breadth of rectangle = 10 m Required difference = 1767 – 140 = 1627 m2"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q078",
@@ -2108,7 +2374,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "let CP be Rs x ATQ, 100 × x = 802 + 38 x = Rs 700 required profit % = 802−700 × 100 = 14 7 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q079",
@@ -2136,7 +2406,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let speed of boat in still water be s kmph ATQ, D 4 = s −2 D = 4s – 8 ……………………(i) Also, D−2 3 = s + 2 D = 3s + 8 ………………..(ii) From (i) & (ii); S = 16 kmph Required distance = 3(16 – 2) = 42 km"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q080",
@@ -2164,7 +2438,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "When dice is rolled two times Total number of possibilities = 36 (i.e. 6²) Desired possibilities = 6C2 × 1 (i.e. two number are selected for two rolls) 1 No. of way to arrange number in descending orders. ∴ Required probability = 6C2 36 ="
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q081",
@@ -2192,7 +2470,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required central angle → 100 × 28 = 100.8°"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q082",
@@ -2220,7 +2502,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let total girls in class C in March 2019 be 28x Number of girls class C in April 2019 = (1 + 7) × 28x = 35x Number of boys in class C in March 2019 = (100−25) × 28x = 21x Number of boys in class C in April 2019 = (1 + 3) × 21x = 28x Required percentage = 35x+28x−28x−21x 28x+21x × 100 = 49 × 100 = 28 7 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q083",
@@ -2248,7 +2534,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let number of girls in class B be 15x and number of girls in class E be 20x Number of boys in class B = (100+30) × 15x = 39x Number of boys in class E = (100+25) ×20x = 25x Required ratio = 2×25 = 39: 50"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q084",
@@ -2276,7 +2566,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let number of girls in class A, B, D and E be 12 x, 15x, 25x and 20x respectively. ATQ, (100+30) × 15x = 195 15x = 13 ⇒ x = 10 Number of boys in class A = (100+50) ×12x =18x Number of boys in class D = (100+24) ×25x =31x Number of boys in class E = (100+25) ×20x =25x Required average = (18 + 31 + 25) × 3 = 246"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q085",
@@ -2304,7 +2598,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let girls in class D be 25x then boys in D will be 31x So, 6x = 216 ⇒ x = 36 Boys in class A = 12x × 100 = 18x Girls in class C = 28x Required sum = 18x +28x= 46 × 36 = 1656"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q086",
@@ -2332,7 +2630,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let total girls in class B and class E be 15x and 20x respectively Total boys in class B = 19.5x Total boys in class E = 25x Required percentage = 45x−34.5x 45x × 100 = 23 3 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q087",
@@ -2360,7 +2662,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I – Ratio of efficiency of A to B is 5 : 4 So, Ratio of time taken by A : B is 4 : 5 From I we can calculate the time taken by A alone to complete the work Hence statement I alone is sufficient to answer the question From II – From II we can say that either A takes more time than B or vice versa. Let A takes (x+ 2 ) days and B takes x days. So, time taken by A and B together to complete the work will be = 15 × 11 days ATQ, 2x+45 + x = from here x can be calculated and we can find the value of time taken by A alone to complete the work. We can find the answer from either statement I alone or statement II alone."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q088",
@@ -2388,7 +2694,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From I – Radius of circle C1 is half the diagonal of square. So, we can find side of square from statement I alone. From II – Diameter of circle C2 is equal to side of square. So, we can find side of square from statement II alone. Hence, Either statement I alone or statement II alone is sufficient to answer the question."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q089",
@@ -2416,7 +2726,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "It is given that x−y + x+y = 4 From I – We get the value of x from first statement so on putting the value of x in the above equation we obtain value of y. So, we can find the value of required time from statement I alone. From II – 𝐱 𝐲= On putting the value of x/y in the equation we obtain value of x and y. So from statement II alone we can find the value of the required time. So, from each statement individually we can find the value of required time."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q090",
@@ -2444,7 +2758,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let length of train be x meter so length of platform will be 2x meter So, speed of train (in m/s) = 3x From I –ATQ, x 3x 48−4 = 20 So, x can be calculated from I and hence speed of train can be calculated. From II – Statement II gives information only about percentage decrease in speed. We can not calculate speed of train because no information is given about time. So statement I alone is sufficient to answer the question while statement II alone is not sufficient to answer the question."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q091",
@@ -2468,7 +2786,10 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "From I − Probability of getting a black ball is = ⅙ Let there are ‘a’ black balls & ‘6a’ total balls Similarly red balls= ‘a’ Probability of getting a while ball = ⅔ = 4/6 There will be 4a white balls. x = 6a But it can’t be solved further. From II − Probability of getting a white balls = 1– 23 = Let here 15 m white balls and 23 m total remaining balls after 1 white ball is lost And 23m + 1 = x 15m + 1 is initial number of white balls 15 m is multiple of 15, it could be 15, 30, 45…. But it is given that initial number is less than 27. Therefore initial number of balls is 15m + 1 = 16 balls, and now 15 balls are remaining. Hence 23 m = x – 1 Put m=1 x=24 balls Hence it can be answered from (ii) alone."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q092",
@@ -2496,7 +2817,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Selling Price after marking up and Discount given = 320 × 100+60 × 100 = 256 Rs. Selling Price when direct 20% profit is obtained = 320 × 100 = 384 Rs. Required difference in selling price = 384 - 256 = 128 Rs."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q093",
@@ -2524,7 +2849,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let cost price of article G be Rs. ‘x’ Selling price of article G = x × 100 × 100 = 1.6x Rs. ATQ, 1.6x −x = 150 ⇒ x = Rs.250"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q094",
@@ -2552,7 +2881,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let cost price of article B and article E be Rs. ‘x’ and Rs. ‘y’ respectively So, according to question 220x 100 × 5 = 175y 100 × On solving, x y = Required Percentage = 33 × 100 = 6 33 %"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q095",
@@ -2580,7 +2913,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let CP of article C = 100x MRP of article C = 180x SP of article C = 180x × 4 = 135x Required ratio = 180x 135x = 4 ∶3"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q096",
@@ -2608,7 +2945,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let cost price of all the articles is same i.e. 100x So, Selling price of A and B together = 250x × 5 + 220x × 5 = 150x + 132x = 282x MRP of article G = 200x Required Percentage = 282x−200x 200x × 100 = 41%"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q097",
@@ -2636,7 +2977,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let cost price of article C be 100a So, cost price of article B will be 100a + 100 Marked Price of article C will be 180a Marked price of article B 180a + 260 According to question, (100a + 100) × 100 = 180a + 260 220a + 220 = 180a + 260 a = 1 Selling Price of B = (180a + 260) × 5 = Rs. 264 Selling Price of article C = 180a × 5 = Rs. 108 Required difference = 264 − 108 = Rs.156"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q098",
@@ -2664,7 +3009,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the speed of boat in still water be x km/hr and that of speed of current be y km/hr ATQ x + y −(x −y) = 7 y = 3.5 km/hr x+3.5 − x−3.5 = x =10 & 14 (14 is neglected because x should be multiple of 5) ∴ x = 10 km/h New speed of current = 7 km/hr Distance travelled in upstream =7 × (10 −7) = 21 km"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q099",
@@ -2692,7 +3041,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let present age Ravi and Sneha be 7x and 6x years respectively ATQ 7x−10 6x−10 = x = 5 Present age of Ravi=35 yr And present age of Sneha=30yr For maximum value of present total age of the family Present age of triplet=8 yr Present age of twins=6 yr Present age of sixth child=4 yr And present age of seventh child= 2yr Maximum present age of that family = 35 + 30 + 8 × 3 + 6 × 2 + 4 + 2 = 107 yr"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q100",
@@ -2720,7 +3073,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Here, r = 2r r = 6% p. a. Time in which invested sum becomes double of itself= 12 years ATQ 6,00,000 = 3,00,000 [1 + r 100] [1 + r 100] = 2…………..(i) Required amount= 3,00,000 [1 + r 100] = 3,00,000 × (2)4=48 lac"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q101",
@@ -2747,7 +3104,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Evidence in support of the given answer can be found from the following statements ‘What if an AI-based driverless car gets into an accident that causes harm to humans or damages property? Who should the courts hold liable for the same?’ and ‘Some have warned that advances in AI could erode the fundamental logic of nuclear deterrence by enabling counter-force attacks against heretofore concealed and mobile nuclear forces.’ From the given statements, both option (a) and (c) can be inferred clearly. Hence, the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q102",
@@ -2775,7 +3136,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Evidence in support of the given argument can be found in the following statement ‘AI-driven improvements to intelligence, surveillance, and reconnaissance would threaten the survivability of heretofore secure second-strike nuclear forces by providing technologically advanced nations with the ability to find, identify, track, and destroy their adversaries’ mobile and concealed launch platforms.’ Also, only option (c) can be inferred from the given passage and hence, the appropriate answer choice."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q103",
@@ -2803,7 +3168,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Musing means giving a careful thought for a long period of time Contemplation means think deeply and at length. Decimate means kill, destroy, or remove a large proportion of. Nurture means care for and protect So, going through the meaning of the given words it can be clearly seen that the correct answer choice would be option (a)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q104",
@@ -2831,7 +3200,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Going through the passage no appropriate reason for absence of regulation can be stated. Hence, the correct answer choice would be option (e)."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q105",
@@ -2859,7 +3232,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Discard means a thing rejected as no longer useful or desirable. Flout means openly disregard Embellish means make (a statement or story) more interesting by adding extra details that are often untrue Illuminate means help to clarify or explain Going through the given sentence and the meaning of the given words it can be clearly seen that the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q106",
@@ -2887,7 +3264,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only (b) is mentioned in the passage. Evidence in support of the given argument can be found from the following statement ‘Germany is working on blemish present in it, like certain ethical rules for autonomous vehicles stipulating that human life should always have priority over property or animal life.’ From the given statement option (b) can be inferred clearly and hence the correct answer choice would be option (b)."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q107",
@@ -2915,7 +3296,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In part (A), usage of ‘noting’ is incorrect instead it should be ‘noted’ which means well known; famous. In part (B), use of ‘is’ is incorrect instead it should be ‘was’ as the given sentence is in past tense as can be seen from the usage of ‘was’ in the highlighted part. In part (D), usage of article ‘a’ is incorrect instead it should be ‘an’. So, only part (C) is free from any grammatical error. Hence, the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q108",
@@ -2943,7 +3328,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In part (A), use of ‘peoples’ is incorrect because ‘people’ has both singular and plural sense in it, so there is no need to add ‘s’ to make it plural. In ENGLISH LANGUAGE part (C), instead of ‘investigate’ is should be ‘investigating’ as per the rule of parallelism and in part (D), instead of ‘along’ it should be ‘around’ the country. So, only part (B) is free from any error. Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q109",
@@ -2971,7 +3360,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "There is no grammatical error in the given sentence. Hence, the correct answer choice would be option (e)."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q110",
@@ -2999,7 +3392,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In part (A), instead of ‘have’ it should be ‘has’ because ‘NGT’ is singular. In part (B), instead of ‘millions’ we should use ‘million’ because we don’t add ‘s’ when we given exact number and in part (D), instead of ‘treated’ it should be ‘treat’. So, only part (C) is free from error. Hence, the correct answer choice would be option (d)."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q111",
@@ -3027,7 +3424,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In part (A), instead of ‘was’ it should be ‘is’ as the given sentence is in present tense as can be seen from the highlighted part. In part (C), instead of ‘to’ it should be ‘from’ and in part (D), instead of ‘of’ it should be ‘to’. So, only (B) is free from any error. Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q112",
@@ -3055,7 +3456,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Evidence in support of the given answer can be found in the last line of the first paragraph in which it is stated ‘Society doesn’t reward defeat, and you won’t find many failures documented in history books.’ From the given statement it can be clearly seen that the world will only appreciate your efforts if you achieve success at the end or the efforts lead to success. Hence, the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q113",
@@ -3081,7 +3486,11 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given statements, only option (b) is incorrect. Given argument can be justified from the following sentence from the passage “To achieve any worthy goal, you must take risks,” says writer and speaker John C. Maxwell. Remaining options are true as per the passage. Hence, the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q114",
@@ -3109,7 +3518,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Distressed means suffering from extreme anxiety, sorrow, or pain. Sedulous means showing dedication and diligence. Tense means unable to relax because of nervousness Indifferent means having no particular interest or sympathy So, going through the meaning of the given words it can be clearly seen that the appropriate answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q115",
@@ -3137,7 +3550,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Evidence in support of the given argument can be found from the following statement ‘However, in today’s post-recession economy, some employers are no longer shying away from failure—they’re embracing it.’ Also, there are inadequate facts present to justify the remaining options. Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q116",
@@ -3165,7 +3582,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Taking hint from the contrasting structure of the sentence it can be clearly seen that the correct filler for the given blank should be ‘mediocrity’. Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q117",
@@ -3193,7 +3614,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Gloss means try to conceal or disguise (something unfavourable) by treating it briefly or representing it misleadingly. Unveil means show or announce publicly for the first time Façade means a deceptive outward appearance. Shimmer means shine with a soft, slightly wavering light. Conceal means prevent (something) from being known Going through the meaning of the given words it can be clearly seen that the appropriate answer would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q118",
@@ -3221,7 +3646,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Fastening means a device that closes or secures something Going through the meaning of the given words and taking hint from the use of helping verb ‘are’ after second blank, the appropriate filler for the given blank to make the given sentences both grammatically and contextually correct would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q119",
@@ -3249,7 +3678,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only ‘inflation’ can fit all the blanks to make grammatically and contextually meaningful sentences. Hence, the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q120",
@@ -3277,7 +3710,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only ‘explosive’ can be used to fill the given blanks to make the given sentences both grammatically as well as contextually meaningful. Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q121",
@@ -3305,7 +3742,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, statement in option (d) is incorrect. Evidence supporting given argument can be found in the following sentences ‘The shrub was introduced to Yemen around the 14th century and it was then that the first coffee plantations were created. Muslim mystics and pilgrims appreciated coffee for its energising powers, so it travelled to Mecca. From that moment onwards, its success became unstoppable, bowling over Cairo, the Middle East and Constantinople, before arriving in Europe in the early 17th century.’ Hence, the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q122",
@@ -3333,7 +3774,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only ‘espouse’ is similar in meaning to the given word, remaining are its antonym. Hence, the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q123",
@@ -3361,7 +3806,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "All of the given advantages of the coffee have been mentioned in the passage as can be seen from the following statement ‘Muslim mystics and pilgrims appreciated coffee for its energising powers, so it travelled to Mecca. Intellectuals appreciated it for its ability to help one stay alert and to think clearly.’ Hence, the correct answer choice would be option (e)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q124",
@@ -3389,7 +3838,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Going through the given sentence it can be clearly seen that the appropriate filler for the given blank would be ‘ruined’. Hence, the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q125",
@@ -3416,7 +3869,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only statement (c) is against the facts mentioned in the passage. Evidence in support of the given argument can be found from the following statement ‘What we call the coffee bean is actually more like a seed or pit it grows inside a thin-fleshed fruit not unlike a cherry, which ripens about nine months after the coffee plant flowers.’ Hence, the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q126",
@@ -3444,7 +3901,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "First part of sentence (A) is providing the example of Brazil and sentence (C) is talking about the Ayushman Bharat. Taking hint from the use of ‘world’s largest’ in sentence (C) and example of Brazil in (A) it can be clearly seen that the highlighted part of the both sentences can be interchanged to make a contextually meaningful sentence. Also, going through the first part of sentence (B) and (D) we can get an idea that the highlighted parts of these two can be interchanged to make a meaningful sentence. However, in sentence (E) no interchange is required. Now for the rearrangement of the sentences thus formed take hint from the starting of the sentences. From the given sentences, only (D) is the appropriate choice for the first sentence. Next in arrangement would be (B) as can be seen from the use of ‘partnership in healthcare’ in (D). Fact stated in (B) is further supported by providing example of Brazil in sentence (A), so it will be next sentence in arrangement. Sentence (A) then will be followed by (C) and (E) to make a contextually meaningful paragraph. So, the final arrangement is DBACE."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q127",
@@ -3472,7 +3933,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "First part of sentence (A) is providing the example of Brazil and sentence (C) is talking about the Ayushman Bharat. Taking hint from the use of ‘world’s largest’ in sentence (C) and example of Brazil in (A) it can be clearly seen that the highlighted part of the both sentences can be interchanged to make a contextually meaningful sentence. Also, going through the first part of sentence (B) and (D) we can get an idea that the highlighted parts of these two can be interchanged to make a meaningful sentence. However, in sentence (E) no interchange is required. Now for the rearrangement of the sentences thus formed take hint from the starting of the sentences. From the given sentences, only (D) is the appropriate choice for the first sentence. Next in arrangement would be (B) as can be seen from the use of ‘partnership in healthcare’ in (D). Fact stated in (B) is further supported by providing example of Brazil in sentence (A), so it will be next sentence in arrangement. Sentence (A) then will be followed by (C) and (E) to make a contextually meaningful paragraph. So, the final arrangement is DBACE."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q128",
@@ -3500,7 +3965,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "First part of sentence (A) is providing the example of Brazil and sentence (C) is talking about the Ayushman Bharat. Taking hint from the use of ‘world’s largest’ in sentence (C) and example of Brazil in (A) it can be clearly seen that the highlighted part of the both sentences can be interchanged to make a contextually meaningful sentence. Also, going through the first part of sentence (B) and (D) we can get an idea that the highlighted parts of these two can be interchanged to make a meaningful sentence. However, in sentence (E) no interchange is required. Now for the rearrangement of the sentences thus formed take hint from the starting of the sentences. From the given sentences, only (D) is the appropriate choice for the first sentence. Next in arrangement would be (B) as can be seen from the use of ‘partnership in healthcare’ in (D). Fact stated in (B) is further supported by providing example of Brazil in sentence (A), so it will be next sentence in arrangement. Sentence (A) then will be followed by (C) and (E) to make a contextually meaningful paragraph. So, the final arrangement is DBACE."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q129",
@@ -3528,7 +3997,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "First part of sentence (A) is providing the example of Brazil and sentence (C) is talking about the Ayushman Bharat. Taking hint from the use of ‘world’s largest’ in sentence (C) and example of Brazil in (A) it can be clearly seen that the highlighted part of the both sentences can be interchanged to make a contextually meaningful sentence. Also, going through the first part of sentence (B) and (D) we can get an idea that the highlighted parts of these two can be interchanged to make a meaningful sentence. However, in sentence (E) no interchange is required. Now for the rearrangement of the sentences thus formed take hint from the starting of the sentences. From the given sentences, only (D) is the appropriate choice for the first sentence. Next in arrangement would be (B) as can be seen from the use of ‘partnership in healthcare’ in (D). Fact stated in (B) is further supported by providing example of Brazil in sentence (A), so it will be next sentence in arrangement. Sentence (A) then will be followed by (C) and (E) to make a contextually meaningful paragraph. So, the final arrangement is DBACE."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q130",
@@ -3556,7 +4029,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "First part of sentence (A) is providing the example of Brazil and sentence (C) is talking about the Ayushman Bharat. Taking hint from the use of ‘world’s largest’ in sentence (C) and example of Brazil in (A) it can be clearly seen that the highlighted part of the both sentences can be interchanged to make a contextually meaningful sentence. Also, going through the first part of sentence (B) and (D) we can get an idea that the highlighted parts of these two can be interchanged to make a meaningful sentence. However, in sentence (E) no interchange is required. Now for the rearrangement of the sentences thus formed take hint from the starting of the sentences. From the given sentences, only (D) is the appropriate choice for the first sentence. Next in arrangement would be (B) as can be seen from the use of ‘partnership in healthcare’ in (D). Fact stated in (B) is further supported by providing example of Brazil in sentence (A), so it will be next sentence in arrangement. Sentence (A) then will be followed by (C) and (E) to make a contextually meaningful paragraph. So, the final arrangement is DBACE."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q131",
@@ -3584,7 +4061,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Inception means the establishment or starting point of an institution or activity. Adoption means the action or fact of choosing to take up, follow, or use something. Proposal means a plan or suggestion, especially a formal or written one Going through the meaning of the given words it can be clearly seen that the correct answer choice would be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q132",
@@ -3612,7 +4093,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Juvenile means childish; immature. Embattled means involved in or prepared for war Sprouting means appear or develop suddenly and in large numbers. Endangered means seriously at risk of extinction. Going through the meaning of the given words it can be clearly seen that the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q133",
@@ -3640,7 +4125,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Rite means a social custom, practice, or conventional act. Abash means make (someone) feel embarrassed Berth means a position in an organization or event. Ramification means complex or unwelcome consequence of an action or event. Going through the meaning of the given words it can be clearly seen that the appropriate answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q134",
@@ -3668,7 +4157,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Barred means prevent or prohibit (someone) from doing something Adjourned means put off or postpone Incurred means to experience something bad as a result of actions you have taken: Discord means the state of not agreeing or sharing opinions So, going through the meaning of the given options, it can be clearly seen that the correct answer choice would be option (a)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q135",
@@ -3696,7 +4189,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Entitled means give (something) a particular title. Coveted means greatly desired or envied. Lodged means make or become firmly fixed or embedded in a place. Melee means a confused fight or scuffle. So, going through the meaning of the given options it can be clearly seen that the correct answer choice would be option (c)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q136",
@@ -3724,7 +4221,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Taken off means depart from the ground Called off means to cancel or abandon Pay off means yield good results; succeed. Siphoning means draw off or transfer over a period of time, especially illegally or unfairly So, going through the meaning of the given words it can be clearly seen that the correct answer choice for the given question wold be option (d)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q137",
@@ -3752,7 +4253,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Word used in the given question is both grammatically as well as contextually correct. So the correct answer choice would be option (e) Journal means a record of things that you have done Intrinsic means being an extremely important and basic characteristic of a person or thing Luscious means pleasing to see, hear, or feel Novice means a person who is not experienced in a job or situation."
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q138",
@@ -3780,7 +4285,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Disseminate means spread widely Squander means allow to pass or be lost Plummet means a steep and rapid fall or drop. Going through the meaning of the given options, it can be clearly seen that the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q139",
@@ -3808,7 +4317,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given options, only (ii) is able to connect the given sentences to make a meaningful and grammatically correct sentence. The sentence thus formed is ‘Owing to the 17 new cases of the virus have been confirmed and there is increasing possibility of spread of virus to other countries, China will step up efforts to contain the coronavirus outbreak ahead of the Lunar New Year holidays.’ Hence, the correct answer choice would be option (b)"
     },
     {
       "q_id": "ibps_clerk_2019_mains_781623cd::q140",
@@ -3836,7 +4349,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "From the given starters, only (iii) is able to connect the given sentences to make a sentence which is both grammatically correct and contextually meaningful. The sentence thus formed is ‘In what raises the doubts about the efficacy of the Right to Information Act in Haryana, only 35% penalty has been recovered since the setting up of the Haryana State Information Commission in 2006.’ Hence, the correct answer choice would be option (c)"
     }
   ]
 }
