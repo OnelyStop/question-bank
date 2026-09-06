@@ -12,6 +12,8 @@
     "e": "4 : 5"
   },
   "answer": "a",
+  "answer_source": "same_pdf",
+  "answer_confidence": 0.92,
   "explanation": "MRP = CP x 1.4 and SP = MRP x 0.75, so MRP : SP = 1 : 0.75 = 4 : 3.",
   "direction_id": "d019",
   "direction_hash": "9f3c1ab77e40d215",
