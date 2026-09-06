@@ -36,7 +36,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "English books sold are 28 + 55 = 83. As a percentage of A's 50 Hindi books, 83/50 × 100 = 166%."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q002",
@@ -64,7 +68,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "X sells 25% more than A's 28 English books, so X sells 35. The difference from B's 54 Hindi books is 19."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q003",
@@ -92,7 +100,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "B sold 54 Hindi books and A sold 36 Urdu books. The ratio 54:36 simplifies to 3:2."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q004",
@@ -120,7 +132,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "B sold 55 English, 54 Hindi, and 32 Urdu books. Their average is (55 + 54 + 32)/3 = 47."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q005",
@@ -148,7 +164,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A's total is 28 + 50 + 36 = 114, while B's total is 55 + 54 + 32 = 141. The difference is 27."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q006",
@@ -316,7 +336,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Compute 784 + 1297 − 613 = 2081 − 613 = 1468."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q012",
@@ -344,7 +368,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Evaluate left to right: 225 ÷ 45 = 5, 5 ÷ 5 = 1, and 1 × 75 = 75."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q013",
@@ -372,7 +400,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The right side simplifies to 49: 343 ÷ 512 × 64 × 56 ÷ 49 = 49. Since 49 = 7², the exponent is 2."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q014",
@@ -428,7 +460,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "(3080 + 6160) ÷ x = 330 gives 9240 ÷ x = 330, so x = 28."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q016",
@@ -456,7 +492,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "144 − (10800 ÷ 36) + x² = 100 gives 144 − 300 + x² = 100. Thus x² = 256 and x = 16."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q017",
@@ -512,7 +552,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "(5/8) × 160% × x = 15 × 4 = 60. Since (5/8) × 1.6 = 1, x = 60."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q019",
@@ -540,7 +584,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "225% of 2400 is 5400. From 24x = 5400, x = 225."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q020",
@@ -568,7 +616,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "[(40² × 8) ÷ 50 ÷ 16] = (1600 × 8) ÷ 800 = 16."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q021",
@@ -596,7 +648,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "1700 ÷ 13 = 130.769..., and 65% of this is 85. Adding 17² = 289 gives 374."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q022",
@@ -624,7 +680,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "35% of 40 is 14; 14 × 10 + 29 = 169."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q023",
@@ -652,7 +712,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Initially milk and water are 32 L and 24 L. Set 32:(24 + Y) = 8:7; then 224 = 192 + 8Y, so Y = 4."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q024",
@@ -680,7 +744,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A's capital-time is 2400 × 12. For a 2:1 profit ratio, B's capital-time is 14400. Since B invests for 9 months, X = 14400 ÷ 9 = 1600."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q025",
@@ -708,7 +776,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Let the initial numbers be 3x and 2x. From (3x − 16)/(2x + 16) = 19/26, x = 18, so A = 54."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q026",
@@ -736,7 +808,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "840 = 1600 × X × 5/100 gives X = 10.5. The new interest is 1600 × 15.5 × 3/100 = 744."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q027",
@@ -764,7 +840,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The triangle base is 2 × 180/24 = 15 cm. The square side is 15 − 3 = 12 cm, so its area is 144 cm²."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q028",
@@ -792,7 +872,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Let present ages be 9x and 5x. (9x + 5)/(5x − 5) = 16/5 gives x = 3. After ten years their sum is 27 + 15 + 20 = 62."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q029",
@@ -820,7 +904,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Downstream and upstream speeds are 48 and 42 km/h, so still-water speed is 45 km/h. Decreasing it by 20% gives 36 km/h, which covers 108 km in three hours."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q030",
@@ -848,7 +936,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The per-person increase is X/27 − X/30 = 1. Thus X/270 = 1 and X = 270."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q031",
@@ -876,7 +968,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "With A adults, 30A + 20(50 − A) = 1350. Therefore 10A = 350 and A = 35."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q032",
@@ -904,7 +1000,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A's selling price is 1.25 × 0.90 = 1.125 times cost, so 12.5% profit equals 75 and A's cost is 600. B's cost is 840 and at 20% loss its selling price is 672."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q033",
@@ -932,7 +1032,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "For equal distances, average speed is 2ab/(a + b) = 2 × 60 × 90/150 = 72 km/h."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q034",
@@ -960,7 +1064,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A+B+C work at 1/10 per day and B+C at 1/25 per day. A's rate is 1/10 − 1/25 = 3/50, so A takes 50/3 = 16.67 days."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q035",
@@ -988,7 +1096,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Cultural events are 35% and equal 315, hence the total is 900. Science has 360 and sports 225 students; the difference is 135."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q036",
@@ -1016,7 +1128,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the passage, Snowy was conditioned to remain calm and respond to signals; “conditioned” is the closest synonym of “trained.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q037",
@@ -1044,7 +1160,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "“They are not just supporting figures” uses “just” to mean “only.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q038",
@@ -1072,7 +1192,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The passage describes military dogs as specialized field operatives who detect threats, track infiltrators, and protect troops."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q039",
@@ -1100,7 +1224,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A dog's ears “perked up” on sensing movement; the phrase fits the alert reaction described."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q040",
@@ -1128,7 +1256,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The passage says Snowy formed an emotional bond, but it does not say emotional sensitivity was part of his formal training."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q041",
@@ -1156,7 +1288,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Snowy was trained for challenging terrains and acted immediately to alert guards to a border threat, showing proactive action in hostile conditions."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q042",
@@ -1184,7 +1320,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A sentinel is someone who stands watch or guards; “guardian” is the closest option."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q043",
@@ -1212,7 +1352,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Snowy's quick detection and alert allowed the guards to respond before the intruders crossed the border, illustrating a trained dog's fast response."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q044",
@@ -1240,7 +1384,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Snowy's white coat explains his name, not his placement at the border; the passage gives no such reason."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q045",
@@ -1268,7 +1416,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The standard expression is “taken a remarkable step.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q046",
@@ -1296,7 +1448,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Archaeologists unearth ruins during an “excavation.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q047",
@@ -1324,7 +1480,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "A joint effort between archaeologists and medical scientists is a “collaboration.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q048",
@@ -1352,7 +1512,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Scanning each bone to “recreate” the physical structure fits the reconstruction described."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q049",
@@ -1380,7 +1544,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Research provides “insights into” historical practices and genetic traits; this is the idiomatic and grammatical fit."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q050",
@@ -1408,7 +1576,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Ancient “remains” can guide modern research; the noun fits the sentence."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q051",
@@ -1436,7 +1608,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Discord means disagreement; it is correctly used for team and political conflict in I and III."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q052",
@@ -1464,7 +1640,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "“Couldn’t restrain her excitement” is already grammatically and contextually correct."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q053",
@@ -1492,7 +1672,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "To curb unrest means to control or restrain the increasing unrest."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q054",
@@ -1520,7 +1704,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "To mask embarrassment means to hide the resulting discomfort or shame."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q055",
@@ -1548,7 +1736,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "To temper frustration means to moderate or lessen one's anger."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q056",
@@ -1576,7 +1768,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The singular subject “judge” requires “has ordered,” not “have ordered.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q057",
@@ -1604,7 +1800,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All sentence parts are grammatical; there is no error."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q058",
@@ -1632,7 +1832,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The phrase must be plural: “the number of EV charging stations.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q059",
@@ -1660,7 +1864,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Present perfect continuous requires “has been reporting,” not “has being reporting.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q060",
@@ -1688,7 +1896,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "After “will,” the base verb is required: “will affect,” not “will affects.”"
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q061",
@@ -1716,7 +1928,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct sentence is “Urban development projects often threaten historical sites, prompting activists to demand stricter cultural preservation laws,” which is CBA."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q062",
@@ -1744,7 +1960,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct order is “New regulations aim ... yet enforcement ... remains inconsistent,” which is BAC."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q063",
@@ -1772,7 +1992,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct sentence is “Trade tensions between major economies ... forcing businesses ...,” which is ACB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q064",
@@ -1800,7 +2024,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct construction is “are leading to shifts ... , altering marine ecosystems,” which is ACB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q065",
@@ -1828,7 +2056,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The grammatical sentence is “Although turnout increased ... campaigns still influenced ... voter behavior,” which is CAB."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q066",
@@ -1856,7 +2088,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The unique stack from top to bottom is T, P, R, U, V, Q, W, S. Three boxes are above U."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q067",
@@ -1884,7 +2120,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the resolved stack T, P, R, U, V, Q, W, S, box V is immediately above Q."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q068",
@@ -1912,7 +2152,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "R is adjacent to U and T is topmost; statement I is false, while II and III are true."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q069",
@@ -1940,7 +2184,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Comparing T, P, R, U, V, Q, W, S with alphabetical order P, Q, R, S, T, U, V, W, only R remains in the same position."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q070",
@@ -1968,7 +2216,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the resolved stack, T is first and Q is sixth, so Q is five boxes below T."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q071",
@@ -1996,7 +2248,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "M and F are not definitely comparable, so I does not follow. R > M = J > T proves II, R > T."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q072",
@@ -2024,7 +2280,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The chain gives P > T and L < Z, so both conclusions follow."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q073",
@@ -2052,7 +2312,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Y > B ≥ X > C proves Y > C. M and F are not definitely comparable, so only I follows."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q074",
@@ -2080,7 +2344,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Checking digit pairs whose numerical gap equals their position gap gives two qualifying pairs: 1–2 and 6–5."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q075",
@@ -2192,7 +2460,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Fix T at a reference seat. The constraints give the clockwise order T, H, K, O, X, M, P, Y. Since everyone faces inward, X is third to the right of Y."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q079",
@@ -2220,7 +2492,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "From the left of T, the order reaches H, K, then O; therefore two persons sit between T and O."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q080",
@@ -2248,7 +2524,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the completed circular order, moving two places to the right of X reaches K."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q081",
@@ -2276,7 +2556,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "K-P, H-M, X-T, and O-Y are opposite pairs. K-O are adjacent, so K-O is the odd pair."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q082",
@@ -2304,7 +2588,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "In the completed arrangement, the person fourth to the left of Y is O."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q083",
@@ -2332,7 +2620,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "With D at the left end, C is fifth, E fourth, B seventh, and A tenth. B is sixth to the right of D."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q084",
@@ -2360,7 +2652,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The equal-position condition puts B seventh and A tenth; there are 16 positions in the row."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q085",
@@ -2388,7 +2684,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "D is first and A is tenth, so eight people sit between A and D."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q086",
@@ -2416,7 +2716,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The symbols followed immediately by an even digit are #→4, *→8, %→4, and @→2, giving four."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q087",
@@ -2444,7 +2748,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "There are 23 elements; the 11th from the right is the 13th from the left, which is 1."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q088",
@@ -2472,7 +2780,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Between # and % the odd digits are 5, 3, 9, 7, 1, and 1, giving six."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q089",
@@ -2500,7 +2812,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The third even digit from the left is 8. The first and second symbols to its right are ^ and &, so the answer is &."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q090",
@@ -2528,7 +2844,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "No digit in the series has a symbol immediately on both its left and right sides."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q091",
@@ -2584,7 +2904,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The selected letters are C, A, E, and I. They do not form a meaningful four-letter word, so the required response is X."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q093",
@@ -2696,7 +3020,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The ordering resolves as Q February, T March, V April, U May, R June, S July, W October, P November. Thus V was born in April."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q097",
@@ -2724,7 +3052,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "W is in October (position 7) and T is in March (position 2), leaving four people between them."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q098",
@@ -2752,7 +3084,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The constraints place W in October."
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q099",
@@ -2808,7 +3144,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "R and P have two people between them, so I is false. V has two people before it, so II is true. S is later than U, making III false."
     }
   ]
 }

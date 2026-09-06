@@ -36,7 +36,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q002",
@@ -64,7 +67,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q003",
@@ -92,7 +98,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q004",
@@ -120,7 +129,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q005",
@@ -148,7 +160,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (6-10): The logic followed here: In Step I: All the words are arranged in reverse dictionary order from the left. In Step II: The first and the last letter of each word is replaced with the next letter in the English Alphabetical series. In Step III: All the letters of the word is arranged in alphabetical order within the word. In Step IV: All the letters of the word are replaced with the next letter in the English alphabetical series. In Step V: All the words are arranged in dictionary order from the left. Input: dangerous duplicate murder cannot survive triangle Step I: triangle survive murder duplicate dangerous cannot Step II: urianglf turvivf nurdes euplicatf eangerout dannou Step III: afgilnru firtuvv denrsu acefilptu aeegnortu adnnou Step IV: bghjmosv gjsuvww efostv bdfgjmquv bffhopsuv beoopv Step V: bdfgjmquv beoopv bffhopsuv bghjmosv efostv gjsuvww"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q006",
@@ -176,7 +192,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q007",
@@ -204,7 +223,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q008",
@@ -232,7 +254,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q009",
@@ -260,7 +285,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q010",
@@ -288,7 +316,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (11-13): By using the given information: Only three persons live between W and R, who shops on Amazon. R lives on one of the even number floor above W and Q, who does not shops on Flipkart and Myntra and also does not lives on the second floor. Both W and Q live on the even numbered floor. Two persons live between Q and the one who shops on Jabong. Three persons live between the one who shops on Jabong and the one who shops on Ajio. We have three possible cases for that. Case1, Case2, and Case3. REASONING ABILITY The number of persons living between the one who shops on Jabong and R is same as the number of persons living between the one who shops on Ajio and P. Now Case2 and Case3 will be eliminated as we can’t place P. Three persons live between V and S, who lives below V and also does not shops on Jabong. The one who shops on Flipkart lives immediately above the one who shops on Shopclues. Neither V nor P shops on Flipkart and Myntra. Case1 Floors Persons Website R Amazon Ajio Q V Flipkart W Shopclues Jabong P S T lives on one of the floors below U. Q, who does not shop on Flipkart and Myntra. Neither V nor P shops on Flipkart, TataCliq and Myntra so S shops on Myntra and Q shops on Tatacliq and P shops on Jiomart. Now we have our final arrangements. Floors Persons Website R Amazon U Ajio Q Tatacliq V Flipkart W Shopclues T Jabong P JioMart S Myntra"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q011",
@@ -316,7 +348,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q012",
@@ -344,7 +379,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q013",
@@ -372,7 +410,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (14-17): By using given information: If R was born on 12th May then the person born immediately after R and immediately before R should be on gap of 3 days. F was born on 16th June. So, the person born immediately before F was born on 12th June and the person born immediately after F was born on 20th June. Only two persons were born before F. From this we get all the dates. i.e. 8th June, 12th June, 16th June, 20th June, 24th June, 28th June, and 2nd July. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. We have four possible cases for that. Case1, Case1(a), Case2, Case2(a). Only one person was born between G and A, who likes Oranges. Now Case1(a) will be eliminated s we can’t place A. B, who does not like Kiwi was born one of the dates before E but after C. Case1 Case2 Case2(a) Dates Persons Persons Persons 8th June D C C 12th June C D G 16th June F F F 20th June B A A 24th June A B B 28th June E G D 2nd July G E E B was not born after A. Now Case2, and Case2(a) will be eliminated as we can’t place B. E do not like Grapes, Peach, and Kiwi. F does not like Peach, Kiwi, and Pear. Dates Persons 8th June D 12th June C 16th June F 20th June B 24th June A 28th June E 2nd July G E do not like Grapes, Peach, and Kiwi, so E likes Pear. F does not like Peach, Kiwi, and Pear, so F likes Grapes. The number of persons born before D, who likes Apple is equal to the number of persons born after G, who likes Guava. B, who does not like Kiwi, so B likes Peach was born one of the dates before E but after C, who likes Kiwi. Now we have our final arrangements. Dates Persons Fruits 8th June D Apple 12th June C Kiwi 16th June F Grapes 20th June B Peach 24th June A Oranges 28th June E Pear 2nd July G Guava"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q014",
@@ -400,7 +442,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q015",
@@ -427,7 +472,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q016",
@@ -455,7 +503,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q017",
@@ -483,7 +534,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (18-20):"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q018",
@@ -511,7 +566,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only from II, we get to know box Q is placed just below the box U. Boxes P U Q R T"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q019",
@@ -539,7 +598,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only from I, N is the daughter of P."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q020",
@@ -567,7 +630,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Either I or II we get the code of “utility” as “L14”. From I. Word Code Man E23 Power N12 Required G15 Sector D21 Source Q17 Utility L14 Global T34 From II. Word Code Source Q17 Utility L14 Indian W21 Capital B14 Income S31 Of M29 Surplus F18 Directions (21-24): First we try to solve the blood relations: D is the mother of Q and she sits opposite to S. A is the father of Q, who is a female. Both C and R is children of P, who is married to Q. B and R are the male members. C is a female. S is the sister-in-law of Q. We conclude that B is the bother of Q and married to S. The singer is married to the doctor. Now we place all persons in the circular seating arrangement. The one who is Brother of Q sits second to the left of Banker. P sits opposite to Q, who is a Banker. Two persons sit between S, who is a doctor and brother of Q. D is the mother of Q and she sits opposite to S. We have four possible cases for this Case1, Case2, Case3, Case4. D’s Daughter sits third to the left of D. Now Case2 and Case4 will be eliminated. B who faces inside sits opposite to the Dancer. The Writer sits second to the right of the Dancer. The singer sits second to the left of Q. Three persons sit between A, who doesn’t sit near to Banker and the one who is Nurse. D is an Engineer. C is a female but she is not a dancer. The teacher and the writer face inside. Not more than four persons face same direction. Now case1 will be eliminated. R does not sit immediate left of S. Now Case3 will be our final arrangements and their professions. Persons Gender Professions A Male Teacher B Male Singer C Female Nurse D Female Engineer P Male Writer Q Female Banker R Male Dancer S Female Doctor"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q021",
@@ -595,7 +662,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q022",
@@ -623,7 +693,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q023",
@@ -651,7 +724,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q024",
@@ -679,7 +755,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q025",
@@ -707,7 +786,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In the above question we have to find which statement can be concluded from the given passage. For I-This is not true because it is not given in the above passage that Google’s market is not good that’s why Google has decided to launch new service. For II-This statement is irrelevant. Because Google is going to launch new service it does not mean that Google is not interested to provide other services, we can’t conclude this from the given passage. For III- There is a sentence in the passage “The results will aim to streamline such listings by eliminating duplicate jobs posted on different sites.” It clarifies the statement III. So we can conclude statement III from the given passage. For IV- This is vague in the given context because Google will also show employer ratings from current and former workers, it is given in the passage. Directions (26-29): By using given information: House P is located fourth to the right of House D, which is located to the immediate left of House R. Number of Houses located to the left of House P is one more than the number of Houses located between House R and House P. Only two houses are located to the left of House A. House D is 2nd from one of the ends. We have two possible cases for that Case 1 and Case 2. The number of houses located between House P and House A is one less than the number of Houses located between House T and House C. House T is located near House P. Now we have two more possible cases Case1(a) and Case2 (a). Only one house is located between House F and House Q and the Gates of both of the houses doesn’t open in south direction. Now Case1 will be eliminated as we can’t place House Q and House F. Only one house is located between House E and House S, which is not located near House C. Now case 2(a) will be eliminated as we can’t place House E and House S. House B is not located near House A. House Q is located to the immediate left of House B. Now case 2 will be eliminated as we can’t place B. Now we have our final arrangements."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q026",
@@ -735,7 +818,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q027",
@@ -763,7 +849,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q028",
@@ -791,7 +880,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q029",
@@ -819,7 +911,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q030",
@@ -847,7 +942,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Clearly Point A is in North-West of Point G. Directions (31-32):"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q031",
@@ -875,7 +974,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "F is the Grandson of A."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q032",
@@ -903,7 +1006,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Q is the Paternal Grandmother of the E’s mother."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q033",
@@ -931,7 +1038,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In the above question we have to find which statement negates the given statement. For I-This statement supports the given statement as it describes about the revolution that technology has bring in India which is a mark of achievement of Modi’s government. For II-This statement also supports the given statement as it describes the country’s growth in Modi government’s tenure which is considered as victory of his government. For III-This negates of the given statement as it defines the problems of poverty and corruption that India is still facing which can be considered as flaw of Modi’s government. For IV-It supports the given statement as number of FDI’s has increased in India in current scenario as given in the statement."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q034",
@@ -959,7 +1070,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In the statement we have to pick the statement which can be assumed from above statement. For Statement I. Wrong, Because it was not possible to destroy the existing stocks by the end of this month that is why the companies pleaded to the Supreme Court. For Statement II. Right, Because it is clear from the above statement that the court had fixed the deadline 31 may earlier and there after extended it to 31 july. For Statement III. Right, Because to dispose off stock and transporting it out of the state requires clearance."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q035",
@@ -987,7 +1102,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In the above question we have to find which statement concludes the given statement. For I- This statement states about compulsion of Adahaar with PAN to avoid fraud in taxation system whereas the given statement states about mandating Aadhaar in banking transactions. So this cannot be concluded from the given statement. For II- It cannot be concluded as it is not given in the statement whether Adhaar is more secure or not. For III-It is not related to the statement as it is general information. Direction (36-39):"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q036",
@@ -1015,7 +1134,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q037",
@@ -1043,7 +1165,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q038",
@@ -1071,7 +1196,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q039",
@@ -1098,7 +1226,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (40-43):"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q040",
@@ -1126,7 +1258,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q041",
@@ -1154,7 +1289,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q042",
@@ -1182,7 +1320,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q043",
@@ -1210,7 +1351,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (44-45):"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q044",
@@ -1238,7 +1383,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In this question we have to choose that statement which can be assumed from the passage. For Statement I: Right, As passage says that Travis Kalanick helped Uber built into colossus (enormous importance). Statement I says same thing that Travis Kalanick helped Uber built into prodigious. For Statement II: Wrong, from passage we can’t assume that shareholders forced or ordered Travis Kalanick to give-up from the post of chief executive of Uber. He stepped down as chief executive, after a seemingly endless series of scandals raised doubts over his leadership, no one forced him to do so. For Statement III: Right, There is a sentence in a passage “Meanwhile, Shareholders released a damning report on the firm's management culture”, it clarifies that the Shareholders released damning (fatal, condemnatory) report against management’s culture."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q045",
@@ -1266,7 +1415,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In this question, we have to select that statement which is out of the context in regarding to the above passage. For Statement I: from passage we can get an idea that Travis Kalanick stepped down as chief executive because of the reason and there were some other reasons behind the resignation. For Statement II: As in passage these all are the reasons behind the Travis Kalanick stepped down as chief executive of Uber. For Statement III: As in passage it is mentioned, Travis Kalanick spent most of the past decade turning a taxi app (Uber) into the world's most valuable startup. Direction (46 – 48): Given average speed of train on Monday during whole journey = 50 kmph Or, Average speed of train on Tuesday during whole journey = 62.5 kmph = 2 𝑘𝑚𝑝ℎ Let time taken by train on Monday from A to B = t hours So, time taken by train on Tuesday from A to B = (t + 1) hours Time taken by train on each given day from B to C = u hours (given, train takes equal time to cover distance between B to C on both the given days) And, time taken by train on Monday from C to D = v hours Time taken by train on Tuesday from C to D = (v – 3) hours Let distance between C to D = 100x km So, distance between A to B = 100x × (100−40) = 60x km And distance between B to C = 60x × 100 = 90𝑥 km For Monday, 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 (𝐴𝐵+𝐵𝐶+𝐶𝐷) 𝑇𝑖𝑚𝑒 = 𝑆𝑝𝑒𝑒𝑑 For Monday, (100𝑥+60𝑥+90𝑥) (𝑡+𝑢+ 𝑣) = 50 So, t + u + v = 5x -------- (i) For Tuesday, (100𝑥+60𝑥+90𝑥) (𝑡+𝑢+𝑣−2) = From (i) put the value of (t + u + v) and we get – 250𝑥 (5𝑥−2) = x = 2 Now, distance between C to D = 100 × 2 = 200 𝑘𝑚 Distance between A to B = 60 × 2 = 120 𝑘𝑚 And, distance between B to C = 90 × 2 = 180 𝑘𝑚"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q046",
@@ -1294,7 +1447,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From above explanation From (i) put the value of (t + u + v) and we get – (𝑡+ 𝑢+ 𝑣−2) = 5x − 2 Total required time by train to cover distance from A to D on Tuesday = (5x – 2) = (5 × 2 −2) = 8 hours"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q047",
@@ -1322,7 +1479,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required difference = 200 – 120 = 80 km"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q048",
@@ -1350,7 +1511,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let Speed of train between C to D on Monday = 2s kmph So, speed of train between B to C on Monday = 2s × 100 = 3𝑠 𝑘𝑚𝑝ℎ Let time taken by train to cover distance between B to C on Monday = x hours So, time taken by train to cover distance between C to D on Monday = x + 2 hours ATQ – For B to C on Monday = 3𝑠= 𝑥 Or x = 𝑠 ---- (i) For C to D on Monday = 2𝑠= 𝑥+ 2 x = 𝑠−2 = 𝑥 -------- (ii) From (i) and (ii) S = 20 kmph So, speed of train between C to D on Monday = 40 kmph"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q049",
@@ -1378,7 +1543,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I – 2𝑃 5 × 4 × 𝑅 100 = 2 × 𝑃[ (1 + 𝑅 100) - 1] So, From I we can get the value of R From II – 𝑋[(1 + 𝑅 100) ] = 3600 … (𝑖) And, 25 𝑋[(1 + 𝑅−10 100 ) ] = 1936 … . (𝑖𝑖) From equ. (i) and (ii), we can get the value of R. From III – From III we can get two variables first Amount ‘Q’ and second Rate of interest ‘R’. So, we can’t determine the value of two variables from one equation. So, either statement (I) or statement (II) alone is sufficient to answer the question"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q050",
@@ -1406,7 +1575,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Given, total number of boys in school A = X And total number of girls in school A = Y So, total number of boys in school B = (X + Y) And total number of girls in school B = 2Y + 30 Required difference = (X + X + Y) – (Y + 2Y + 30) = 2X – 2Y – 30 QUANTITATIVE APTITUDE"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q051",
@@ -1434,7 +1607,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of boys in school A = a And total number of girls in school A = b So, total number of boys in school B = (a + b) And, total number of girls in school B = 2b + 30 ATQ – 2(a + b) – (a + b + 2b + 30) = 180 2a + 2b – a – b – 2b – 30 = 180 a – b = 210 So, difference between total students in school A and total girls in school B = 180"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q052",
@@ -1462,7 +1639,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of boys in school A = a And total number of girls in school A = b So, total number of boys in school B = (a + b) And, total number of girls in school B = 2b + 30 ATQ – 2(a + b) – (a + b + 2b + 30) = 180 2a + 2b – a – b – 2b – 30 = 180 a – b = 210 Given, 2b + 30 = 450 2b = 420 b = 210 So, total number of boys in school A= (a) = 420 And, total number of boys in school B = (a + b) = (420 + 210) = 630"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q053",
@@ -1490,7 +1671,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "In the given series – If we take 701 = X So, 349 = Y Similarly, 173 = X So, 85 = Y and so on ----- Now, (i) 701 = 2 × 349 + 3 701 = 701 If we take any term of given series, then statement (i) following (ii) 349 = 701 × 3 + 2 349 ≠2105 So, statement (ii) did not follow if we take any term of the given series as ‘X’ & ‘Y’ (iii) (701 – 349) = 2 × (349 −173) 352 = 2 × 176 352 = 352 So, if we take any term of given series, then statement (iii) following"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q054",
@@ -1518,7 +1703,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong term = 3 Pattern of series – 1 × 1 + 1 = 2 2 × 2 + 2 = 6 6 × 3 + 3 = 21 21 × 4 + 4 = 88 88 × 5 + 5 = 445 445 × 6 + 6 = 2676 So, IVth term of new formed series which starting with wrong term ‘3’ 3 × 1 + 1 = 4 4 × 2 + 2 = 10 10 × 3 + 3 = 𝟑𝟑"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q055",
@@ -1573,7 +1762,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong term = 1380 Pattern of series – 60 × 3 = 180 180 × 2.5 = 450 450 × 2 = 900 900 × 1.5 = 1350 1350 × 1 = 1350 1350 × 0.5 = 675 (i) 30 + 1 = 47 47 is a prime number, so statement (i) following (ii) 30 + 1 = 47 Sum of digits = 4 + 7 = 11 And, 11 > 9 So, statement (ii) did not follow (iii) 30 + 1 = 47 5 , remainder is 2 not 4 So, statement (iii) did not follow"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q057",
@@ -1601,7 +1794,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total population of village E = 100x Total literate population of village E = 100x × 100 = 85𝑥 And total illiterate population of village E = 100x – 85x = 15x Given, literate male population of village E = 1530 So, total literate female population of village E = 85x - 1530 Total illiterate male population of village E = 15x × 100 = 9𝑥 And, total illiterate female population of village E = 15x – 9x = 6x ATQ – 6x + 85x – 1530 = 1746 91x = 3276 x = 36 So, total population of village E = 100 × 36 = 3600"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q058",
@@ -1629,7 +1826,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total population of village A = 100x Total literate population of village A = 100x × 100 = 75𝑥 And total illiterate population of village A = 100x – 75x = 25x Given, total literate male population of village A = 1050 So, total literate female population of village A = 75x – 1050 Total illiterate male population of village A = 25x × 100 = 10𝑥 And total illiterate female population of village A = 25x – 10x = 15x ATQ – 75x – 1050 + 15x = 750 90x = 1800 x = 20 Required difference = (1050 + 10 × 20) −750 = 1250 −750 = 500"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q059",
@@ -1657,7 +1858,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total population of village B = 100x Total literate population of village B = 100x × 100 = 72𝑥 And total illiterate population of village B = 100x – 72x = 28x Total literate male population of village B = 72x × 100 = 54𝑥 And total literate female population of village B = 72x – 54x = 18x Total illiterate male population of village B = 28x × 100 = 21𝑥 And total illiterate female population of village B = 28x – 21x = 7x Required ratio = (54x + 21x) : (18x + 7x) = 75x : 25x = 3 : 1"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q060",
@@ -1685,7 +1890,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total population of village C = 100x Total literate population of village C = 100x × 100 = 80𝑥 And total illiterate population of village C = 100x – 80x = 20x Given, total literate male population of village C = So, total literate female population of village = (80x – 1280) And total illiterate male population of village C = 20x × 100 = 12𝑥 So, total illiterate female population of village C = 20x – 12x = 8x Given, total female graduate female in village C = number of illiterate males in village C = 12x ATQ – 56x – 1280 = 120 56x = 1400 x = 25 So, total population of village C = 100 × 25 = 2500"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q061",
@@ -1713,7 +1922,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total population of village D = 100x Total literate population of village D = 100x × 100 = 96𝑥 And total illiterate population of village D = 100x – 96x = 4x Total literate male population of village D = 96x × Total literate female population of village D = 96x × Total illiterate male population of village D = 4x × 100 = 2𝑥 So, illiterate female population of village D = 4x – 2x = 2x ATQ – (96x × 100 + 2𝑥) − (96x × 100 + 2x) = 1152 69.2x – 30.8x = 1152 38.4x = 1152 x = 30 So, total number of illiterate females in village D = 2 × 30 = 60"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q062",
@@ -1741,7 +1954,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of ball bag kept = X And, total number of green balls bag kept = a While total blue balls bag kept = b ATQ – 𝑎 𝑋− 𝑋= 7 --------- (i) And, 𝑏 𝑋− 𝑋= 35 ----------- (ii) From equation (ii) we can say the value of X should be multiple of 35 So, let X = 35 Now when we take X = 35, so both equations satisfied by it and we get a = 12 & b = 16 So, total blue balls bag kept = 16"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q063",
@@ -1769,7 +1986,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let age of Aman’s father at time of marriage = x years So, age of Aman’s mother at time of marriage = (x – 3) years And, age of Aman’s father at time when he born = (x + 3) years Age of Aman’s mother at time when he born = x years Let, Age of Aman = y Present age of Aman’s father = (x + 3 + y) years (given present Aman is 20 years younger than his mother) So, present age of Aman’s father = (23 + y) years And present age of Aman’s mother = (20 + y) years ATQ – 23+𝑦 26+𝑦 = 253 + 11y = 260 + 10y y = 7 So, Aman’s parents got married (7 + 3) = 10 years before"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q064",
@@ -1797,7 +2018,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Given, marked price of pen = Rs. Y From I – We can’t know the cost price of pen. So, we can’t determine marked up how much percentage above its cost price. From II – Give, Cost price of pen = Rs. x So, selling price of pen = Rs. 1.08x And given, shopkeeper allows a discount of 4% on marked price So, 96% = Rs. 1.08x 100% (marked price) = 1.125x Rs. ATQ - 1.125x – x = 28 x = 224 Marked price of pen (Y) = 1.125 × 224 = 252 𝑅𝑠. So, from II we can determine the value of Y. From III – Given, cost price = Rs. P And, selling price of pen = Rs. (P + 70) ATQ – Marked price of pen = 9(𝑃+70) From I & III – P × 100 = 9(𝑃+70) 12.6P – 9P = 630 3.6P = 630 P = 175 So, marked price of pen (Y) = 9(175+70) = 315 Rs. So, either statement (II) alone or statement (I) and (III) together sufficient to answer the question."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q065",
@@ -1825,7 +2050,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let volume of cylindrical jar = V So, volume of conical vessel = 𝑉 We know volume of cylinder = 𝜋r2h Let radius of conical vessel = R Given, height of conical vessel is four times of the height of cylindrical jar So, required ratio = 𝑉 𝑉 = 𝜋𝑟2ℎ 3𝜋𝑅2 4ℎ = 𝑟2 𝑅2 = r : R = 6 : 1 Direction (66 – 67): Let distance between home and shop be ‘d’ km ATQ – d = 7 + 3 × √ 11 × 83259 d = 7 + 3 × √7569 d = 7 + 3 × 87 d = 36 let time taken by man = t So, speed of man = 4t 4t × 𝑡= 36 t2 = 9 ⇒ t = 3 And speed of man = 4 × 3 = 12"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q066",
@@ -1853,7 +2082,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Speed of man = 4 × 3 = 12 𝑘𝑚𝑝ℎ"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q067",
@@ -1881,7 +2114,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Time taken by man = 3 hours"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q068",
@@ -1909,7 +2146,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From (C) given Circumference of circle = 44 m 2 × 7 × 𝑟= 44 So, r = 7 m Now we get, B = C = 7 m Let height of Y be hY and side of square be ‘s’ We determine hY ~ s > 20 When be take radius of Y & circle in which square inscribe = 7 m Given, 7 × 72 × hY = 1848 So, hY = 12 And side of square = 7 × 2 = 14 So, vale of r = 7 not satisfied the equation hY ~ s > Now we radius of Y = 14 m So, hY = 3 m Also take radius of circle in which square inscribe = 14 So, side of square (s) = 14 × 2 = 28 m Now we get 25 – 3 = 25 m So, here for (i) all A, B & C satisfied For (ii) only A satisfied Form (iii) only A satisfied So, Answer will be (a) (i) Only A, either B or C (ii) Only A (iii) Only A"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q069",
@@ -1937,7 +2178,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let height of X be hx and height of Y be hY We have to find hx > hY When we take radius of Y = 7 m We get height of Y = 12 m And when we take radius of Y = 14 m We get height of Y = 3 m Now, 3 × 7 × r2 h + 3 × 7 × r3 = 1232 r2 (h + 2r) = 168 × 7 now when take r = 7 m for X then hx = 10 m and when we take r = 14 m for X we get hx in negative which not possible Now for satisfied hx > hY , height of Y should be 3 m So, answer should be (i) Either B or C (ii) Only A (iii) Only A, either B or C"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q070",
@@ -1965,7 +2210,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total employees in company B = 100x Total female employees in company B = 100x × 100 = 40𝑥 Total managers in company B = 100x × 100 = 25𝑥 And total Non-managers employee in company B = (100x – 25x) = 75x Also, give total Non-managers female employees in company B = 75x × 100 = 30𝑥 40x – 30x = 56 10x = 56 x = 56/10 So, total number of Non managers employee in company B 75x = 10 × 75 = 420"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q071",
@@ -1993,7 +2242,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total employee in company C = 100x So, total managers in company C = 100x × 100 = 30𝑥 Given, 30x = (80 + 100) x = 6 total employee = 100x = 100 x 6 = 600 Total number of male employees (Non managers + managers) in company C = Total number of employees in company C (Non managers + managers) − Total number of female employees in company C (Non managers + managers) Total number of male employees (Non managers + managers) in company C = 6 × 100 −260 = 340 Required percentage = (340−100) × 100 = 240%"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q072",
@@ -2021,7 +2274,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total employee in company A = 100x So, total number of managers in company A = 100 × 100 = 20𝑥 Total number of male managers in company A = (20x – 32) And, total number of employee (Non managers) in company A = (100x – 20x) = 80x ATQ – 80x – 20x = 288 60x = 288 10x = 48 x = 48/10 Total number of male managers in company A = (20 × 10 −32) = 96 – 32 = 64"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q073",
@@ -2049,7 +2306,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of employees in company F = 100x Total number of managers in company F = 100x × 100 = 18𝑥 Total number of employees (Non managers) in company F = 100x – 18x = 82x total male managers in company F to total female managers in same company is 7u : 2u 2u = 18 u = 9 total no of (male and female) managers in company F = 9u = 9 x 9 = 81 So, 18x = 81 x = 81/18 Required number of total employee (Non managers) in company F = 18 × 82𝑥= 369"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q074",
@@ -2077,7 +2338,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of employees in company D = 100x So, total number of Non managers employees in company D = 100x × (100−15) = 85x Given, 85x = 612 x = 7.2 total number of managers in company D = 15x Total number of male managers in company D = 7.2 × 15 −50 = 58"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q075",
@@ -2105,7 +2370,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total employee in company E = 100x And, total number of managers in company E = 100x × 100 = 12𝑥 Total number of male managers in company E = 12x – 24 Give, 12x – 24 −24 = 12x = 60 x = 5 So, total number of employees in company E = 5 × 100 = 500 Direction. (76 -80): For total cookies produced pie chart 2N% + (N + 5)% + N% + (N + 20)% = 100% (5N + 25) % = 100% 5N = 75 N = 15 Let total cookies produced by all four companies = 100x So, total cookies produced by A = 100x × (15+5) 100 = 20x Total cookies produced by B = 100x × 100 = 15x Total cookies produced by C = 100x × (15+20) 100 = 35x Total cookies produced by D = 100x × 2×15 100 = 30x Similarly, for total chocolate cookies produced pie chart (M + 10) % + M% + 20% + 40% = 100% (2M + 70) % = 100% 2M = 30 ⇒ M = 15 Let total chocolate cookies produced by all four companies = 100y So, total chocolate cookies produced by A = 100y × 100 = 15𝑦 Total chocolate cookies produced by B = 100𝑦 × 100 = 20𝑦 Total chocolate cookies produced by C = 100y × 100 = 40𝑦 And total chocolate cookies produced by D = 100y × (15+10) 100 = 25y Give, 20x – 15y = 110 Or, 4x – 3y = 22 ---------- (i) And, 15x – 20y = 30 3x – 4y = 6 --------- (ii) From (i) and (ii) we get – x = 10, y = 6"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q076",
@@ -2133,7 +2402,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required difference = (30 × 10 −25 × 6) − (35 × 10 −40 × 6) = 150 – 110 = 40"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q077",
@@ -2161,7 +2434,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required ratio = (100 × 10 −100 × 6) : 100 × 6 = 400 : 600 ⇒ 2 : 3"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q078",
@@ -2187,7 +2464,11 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total butter cookies produced by all four companies = 100 × 10 −100 × 6 = 400 Total butter cookies produced by company C = (35 × 10 − 40 × 6) = 110 Required angle = 400 × 360 = 99°"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q079",
@@ -2215,7 +2496,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total chocolate cookies produced by B = 20 × 6 = 120 Total butter cookies produced by D = (30 × 10 −25 × 6) = 150 Required difference = 150 – 120 = 30"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q080",
@@ -2243,7 +2528,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total butter cookies produced by company C = (35 × 10 − 40 × 6) = 110 Total butter cookies produced by D = (30 × 10 −25 × 6) = 150 Total revenue got by company C = 110 × 100 × 12 = 792 Total revenue got by company D = 150 × 100 × 15 = 1800 Required percentage = 1800−792 ×100=56%"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q081",
@@ -2270,7 +2559,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The first paragraph of the passage indicates that option (c) is the correct answer choice as the sentence mentioned in the passage is: The last few months have been great for the economy. New cases have fallen, and economic activity is racing back to pre-pandemic levels."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q082",
@@ -2298,7 +2591,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Replace ‘outline’ with ‘outlined’ to make the sentence grammatically correct."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q083",
@@ -2326,7 +2623,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘Soon by consumer durables’ suits the blank best and completes the sentence."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q084",
@@ -2354,7 +2655,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The second and first paragraph of the passage respectively indicates that the sentences (b) and (c) are incorrect. The correct sentences according to the passage are- (b) Thankfully, pent-up services demand can play that role. Still 25% below normal, services can get a shot in the arm as herd immunity rises, in part led by vaccine roll-out (c) After a c.24% contraction in the quarter ending June 2020, we expect GDP to grow by a positive 1.8% in the quarter ending December 2020."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q085",
@@ -2382,7 +2687,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The last paragraph of the passage indicates that the sentence mentioned in option (a) is the correct answer choice and the relevant sentence is: ‘’A Niti Aayog report predicted that water demand will be twice the present supply by 2030 and India could lose up to 6% of its GDP during that time. Water shortages are hurting India’s capacity to generate electricity because 40% of thermal power plants are located in areas where water scarcity is high.’’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q086",
@@ -2409,7 +2718,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The word ‘vulnerable’ means ‘weak and easy to hurt physically or emotionally’. All Words except ‘protected’ are similar to the word ‘vulnerable’. Thus, ‘protected’ is the term opposite to it."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q087",
@@ -2437,7 +2750,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Dwellers means ‘people who live permanently in a place’. All words except ‘Tenants’ are opposite to the word ‘Dwellers’. Thus, ‘Tenants ’is the term similar to it."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q088",
@@ -2465,7 +2782,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Options (a) and (b) are incorrect while option (d) is more comprehensive than option (c)"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q089",
@@ -2493,7 +2814,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Referring the second paragraph of the passage, it is concluded that the author advises the World Bank to change its ideology to one encouraging both public and private sector investment in basic infrastructure. The relevant sentence for this answer choice is: ENGLISH LANGUAGE ‘’Practical development strategy recognizes that public investments - in agriculture, health, education, and infrastructure- are necessary complements to private investments.’’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q090",
@@ -2521,7 +2846,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Untenable means ‘not able to be maintained or defended against attack or objection’. ‘Indefensible’ means ‘not able to be protected against attack; not justifiable by argument’. Plausible means ‘reasonable’. Legitimate means ‘reasonable or acceptable’. Pardonable means ‘able to be forgiven; excusable’. Arguable means ‘that you can give reasons for’."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q091",
@@ -2549,7 +2878,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Crusade means ‘a vigorous campaign for political, social, or religious change. Hence, ‘Stoppage’ is the word most opposite in meaning to it. Scrimmage means ‘a confused struggle or fight’. Strife means ‘trouble or fighting between people or groups’. Ravage means ‘to damage something very badly; to destroy something’. Expedition means ‘a long journey for a special purpose’."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q092",
@@ -2577,7 +2910,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Dawn means ‘the beginning’. ‘Gloom’ and ‘murk’ are opposite to dawn. Hence, the word ‘dawn’ suits the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q093",
@@ -2605,7 +2942,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Revival and amelioration means the same as ‘the act of becoming or making something strong or popular again’. But the word droop means ‘to bend or hang downwards’. Hence the words Revival and Amelioration suit the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q094",
@@ -2633,7 +2974,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Slid means ‘to move or make something move quietly without being noticed’. ‘Limped’ means ‘to walk with difficulty because you have hurt your leg or foot’ and Stumped means ‘to cause somebody to be unable to answer a question or find a solution for a problem’. Hence, the word slid suits the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q095",
@@ -2661,7 +3006,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Revenues means ‘money regularly received by a government’. Expenditure means ‘the act of spending money’ and Asset means ‘a person or thing that is useful to somebody/something’. Hence, the word ‘Revenues’ suits the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q096",
@@ -2689,7 +3038,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The terms ‘shrink and dwindle’ mean the same as ‘to become smaller or make something smaller’ while the term ‘aggrandize’ means ‘to increase the power’. Hence, the words ‘shrank’ and ‘dwindled’ suit the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q097",
@@ -2717,7 +3070,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Postulates means ‘to suggest or accept that something is true so that it can be used as the basis for a theory, etc.’ The terms ‘ionates’ and ‘charges’ are opposite to the term ‘postulates’. Hence, the term ‘Postulates’ suits the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q098",
@@ -2745,7 +3102,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Phenomenon means ‘a fact or an event in nature or society’ while ‘movement’ and ‘criteria’ are irrelevant terms here. Hence, the word ‘Phenomenon’ suits the blank best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q099",
@@ -2773,7 +3134,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "However, the starter (A) is incorrect as it will change the meaning of the sentence. After combining (B) and (C) the sentence so formed will be: ‘’ Mukesh Ambani’s Reliance is keen to sign a binding agreement before the next annual shareholders meeting, which is due to take place before the end of April.’’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q100",
@@ -2801,7 +3166,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The starters (A) and (B) are incorrect as it will change the correct meaning of the statement. After using (C) the sentence so formed will be: Though the bank plans to set aside Rs100 crore to Rs200 crore for the merger, it wants to run this merger scheme on a pilot basis at least eight months."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q101",
@@ -2829,7 +3198,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The starters (B) and (C) are incorrect as it will change the correct meaning of the statement. After using (A) the sentence so formed will be: ‘’Even though social issues are distinguished from economic issues, some issues have both social and economic aspects.’’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q102",
@@ -2857,7 +3230,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The starters (A) and (C) are incorrect as it will change the correct meaning of the statement. After using (B) the sentence so formed will be: Within the sensex pack, 22 stocks gained ground with Reliance Industries, HDFC Bank ,ICICI Bank contributed the maximum to the day’s gains."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q103",
@@ -2885,7 +3262,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The starters (A) and (C) are incorrect as it will change the correct meaning of the statement. After using (B) the sentence so formed will be : ‘’By including an additional explanation that states that ‘pledge’ would also refer to ‘re-pledge’ of securities for margin or settlement obligations, SEBI has amended the Depository and Participants Regulations.’’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q104",
@@ -2913,7 +3294,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The first sentence must introduce a new concept without any prior reference and the best option for this is sentence ‘Q’. The second sentence is given and this extends the discussion by naming the interesting aspects. The third sentence must either continue this description or introduce a related sub-topic i.e ; sentence ‘P’. The fourth sentence can continue to elaborate the third sentence and i.e ; sentence ‘S’. The fifth sentence is already given. The sixth sentence must extend the sub-topic and that is sentence ‘R’. The last sentence should introduce the step taken to cure the problem and that is sentence ‘T’. So, the correct order of the paragraph is : Q2PS5RT"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q105",
@@ -2941,7 +3326,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The first sentence must introduce a new concept without any prior reference and the best option for this is sentence ‘Q’. The second sentence is given and this extends the discussion by naming the interesting aspects. The third sentence must either continue this description or introduce a related sub-topic i.e ; sentence ‘P’. The fourth sentence can continue to elaborate the third sentence and i.e ; sentence ‘S’. The fifth sentence is already given. The sixth sentence must extend the sub-topic and that is sentence ‘R’. The last sentence should introduce the step taken to cure the problem and that is sentence ‘T’. So, the correct order of the paragraph is : Q2PS5RT"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q106",
@@ -2969,7 +3358,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "C-A will replace each other in order to make the sentence grammatically and contextually correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q107",
@@ -2997,7 +3390,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "A-D will replace each other in order to make the sentence grammatically and contextually correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q108",
@@ -3025,7 +3422,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "C-A will replace each other in order to make the sentence grammatically and contextually correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q109",
@@ -3053,7 +3454,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both A-C and B-D will replace each other in order to make the sentence grammatically and contextually correct. Hence, option (a) is the right answer choice."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q110",
@@ -3081,7 +3486,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘Gateway, breakthrough’ fit the blanks best as gateway means ‘the place which you must go through in order to get to somewhere else’ and breakthrough means ‘an important discovery or development’."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q111",
@@ -3109,7 +3518,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘Set, venture’ fit the blanks best as venture means ‘a daring journey or undertaking’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q112",
@@ -3137,7 +3550,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The words “exiting bonds” after the first blank indicate that the blank is a word that conveys that these bonds need to re-enter the market. Hence ‘reissue, stocks’ fit the blanks best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q113",
@@ -3165,7 +3582,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The word ‘shored up’ means ‘to make something stronger by supporting it’. Hence ‘flag, shored’ fit the blanks best."
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q114",
@@ -3193,7 +3614,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The idiom ‘back to the drawing board’ means to ‘start planning something again because the first plan failed.’"
     },
     {
       "q_id": "ibps_po_2020_mains_14a55cbe::q115",
@@ -3220,7 +3645,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:IBPS-PO-Mains-Previous-Year-Paper-2020-Solutions-.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The idiom ‘a far cry from’ means ‘being very different from’."
     }
   ]
 }

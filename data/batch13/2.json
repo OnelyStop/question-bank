@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q005",
@@ -149,7 +161,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (6-10): Logic: As a first step let’s first understand the logic behind the Output. Words are arranged from right end and numbers are arranged from left end. In each step one word and one number are arranged. Word – Words are arranged in ascending order from left to right according to the English alphabetical order. In the first step the word starting with the letter having higher place value in the English alphabet is arranged first on the right end and also the letters of the word are arranged in increasing alphabetical order within the word. Number- Numbers are arranged in ascending order from left to right. In the firs step the highest number is arranged first and then in the second step 2nd highest numbered gets arranged and so on till the last step and also after rearranging the numbers add 5 in the even number and subtract 5 in the odd numbers. REASONING ABILITY Input: IMRE 40 69 RBHI 86 PMCN 25 KDSM 57 VATW Step I: 91 IMRE 40 69 RBHI PMCN 25 KDSM 57 ATVW Step II: 64 91 IMRE 40 PMCN 25 KDSM 57 ATVW BHIR Step III: 52 64 91 IMRE 40 25 KDSM ATVW BHIR CMNP Step IV: 45 52 64 91 IMRE 25 ATVW BHIR CMNP DKMS Step V: 20 45 52 64 91 ATVW BHIR CMNP DKMS EIMR Step V is the last step of the rearrangement."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q006",
@@ -177,7 +193,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q007",
@@ -205,7 +224,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q008",
@@ -233,7 +255,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q009",
@@ -261,7 +286,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q010",
@@ -289,7 +317,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q011",
@@ -317,7 +348,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q012",
@@ -345,7 +379,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (13-15):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q013",
@@ -373,7 +411,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q014",
@@ -401,7 +442,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q015",
@@ -429,7 +473,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Directions (16-20):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q016",
@@ -457,7 +505,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. N % O (False) II. O & M (True)"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q017",
@@ -485,7 +537,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. A * D (False) II. D & B (True)"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q018",
@@ -513,7 +569,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. H & K (True) II. T * J (False)"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q019",
@@ -541,7 +601,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. B & G (False) II. G @ B (False)"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q020",
@@ -569,7 +633,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. M & L (True) II. V * W (False) Direction (21-25):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q021",
@@ -597,7 +665,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q022",
@@ -625,7 +696,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q023",
@@ -653,7 +727,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q024",
@@ -681,7 +758,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q025",
@@ -709,7 +789,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (26-30): In this new pattern coding decoding each letter, except vowel, is assigned a number from 1-6 So, B-1, C-2, D-3, F-4, G-5, H-6, J-1, K-2, L-3, M-4, N-5, P-6, Q-1, R-2, S-3, T-4, V-5, W-6, X-1, Y-2, Z-3. Also, each vowel is assigned different digits starting from the digit code of Z. So, for vowels the digit codes are - A-3, E-4, I-5, O-6, U-7."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q026",
@@ -737,7 +821,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q027",
@@ -765,7 +852,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q028",
@@ -793,7 +883,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q029",
@@ -821,7 +914,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q030",
@@ -849,7 +945,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q031",
@@ -877,7 +976,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q032",
@@ -905,7 +1007,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Only (I) can be assumed from the given statement as it is mentioned in the given statement that rooftop solar power technology is showing growth."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q033",
@@ -933,7 +1039,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both I and II follows as salary is an important factor for encouraging students to opt teaching as a career option rather than job and changing the eligibility criterion to graduation for being a teacher as generally the students choose their career option after graduation. Direction (34-38):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q034",
@@ -961,7 +1071,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q035",
@@ -989,7 +1102,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q036",
@@ -1017,7 +1133,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q037",
@@ -1045,7 +1164,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q038",
@@ -1073,7 +1195,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (39-40):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q039",
@@ -1101,7 +1227,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For I: Yes, it can be inferred from the given statements as it is clearly mentioned punctuality and sincerity are one of the key points which will surely reviewed. For II: No, it is clear from the given statements that there will be increment but percentage cannot be inferred. For III: No, as it is mentioned by manager that hard work and dedication towards work will be applauded. But, Is there some employee who have done their work with complete determination and enthusiasm, it cannot be inferred. We can assume it but it cannot be inferred from it."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q040",
@@ -1129,7 +1259,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For I: Yes, it weakens the statement of manager as it is said by manager that increment will be based on performance i.e. hard work and determination. But 15% for all those employees who have completed 1 year undermines the statement by manager. For II: No, it strengthens the statement by manager as performance chart has been prepared and appraisal will be done accordingly. For III: Yes, it weakens because it is mentioned that punctuality is one of the key factor and if those who is punctual and those who gets relaxation time and both are considered as same, then it’s a partiality for the punctual coming employee. Directions (41-45): There is only one box is kept between box E and box having 25 pens. Box D is kept immediately above the box containing 63 pens. Box E does not contain 63 pens. Only three boxes are kept between box D and the box containing 12 pens. Only two boxes are kept between box H and the box having 12 pens. More than three boxes are kept between box C and box H. The box having pens which is a perfect square of 3 is kept immediately above box C. The number of pens in box D is equal to the sum of the number of pens in box H and the box which is placed at 2nd position. (i.e. Box H contains 63 pens and 2nd position box contains 9 pens so total number of pens in box D is =(63+9)=72 pens but it is given that 9th position box contains number of pens which is a multiple of 10). So, case 1 and case 2 gets eliminated. Only two boxes are kept between the box having 42 pens and box A. Box I is kept at the odd number position but immediately below box F. The number of pens in Box G is equal to the difference between the number of pens in box D and box I. Box B is kept above the box having 8 pens. Box G contains 21 less pens than box A contains."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q041",
@@ -1157,7 +1291,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q042",
@@ -1185,7 +1322,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q043",
@@ -1213,7 +1353,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q044",
@@ -1241,7 +1384,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q045",
@@ -1269,7 +1415,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q046",
@@ -1297,7 +1446,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For I: Yes, as it is mentioned in statement that nowadays there are 4 major industries in Begusarai, then it is obvious employment will increase. For II: No, we cannot say that there is no case of murder, kidnapping or extortion, we can only say it has been reduced. But this reduction has touch the figure of zero, it cannot be inferred. For III: Yes, as it is mentioned growth rate of Begusarai is top in Bihar and 5th among all districts in India, and Begusarai has moved from the phase of darkness. It clearly indicates that people of Begusarai are hardworking and keen to move forward. For IV: No, it has been mentioned that nowadays Begusarai has 4 major industries but we cannot say that top industrialists have desire to have their industry in Begusarai."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q047",
@@ -1329,7 +1482,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I is an assumption. II is a suggestion but not a conclusion. Hence, neither I nor II follows. Directions: (48-50):"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q048",
@@ -1357,7 +1514,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q049",
@@ -1385,7 +1545,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q050",
@@ -1413,7 +1576,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q051",
@@ -1441,7 +1607,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let number of notes on which 50% return is given and on which 80% return is given of PNB be 5x and 7x respectively. ATQ, 7x – 5x = 1000 x = 500 So, number of notes on which 100% return is given by PNB = 15000 – (7 + 5) × 500 = 9000 Required % = 24000 × 100 = 37.5%"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q052",
@@ -1469,7 +1639,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of notes received by BOI be 100x. So, number of notes on which BOI gave 100% return = 75x And number of notes on which BOI gave 50% return = 25𝑥× ATQ, 75𝑥+ 75𝑥 8 = 13500 ⇒ x = 160 Hence, total amount received by BOI= 20×160×100 = Rs.3,20,000 And total amount received by Axis bank = 20 × 10000 = Rs.2,00,000 Required difference = 3,20,000 - 2,00,000 = Rs.1,20,000"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q053",
@@ -1497,7 +1671,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Number of notes on which BOB gave 100% return = 100 × 15000 = 12,000 Number of notes on which BOB gave 80% return = (24000 −12000) × 5 = 9,600 Required ratio = 12000 = 4 : 5"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q054",
@@ -1525,7 +1703,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total number of notes received by SBI = 9,00,000 = 45,000 Total number of notes received by BOI = 100 × 45000 = 27,000 Required average = 15,000+45,000+10,000+27,000+24,000 = 1,21,000 = 24,200"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q055",
@@ -1553,7 +1735,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Number of notes on which 100% return is given by PNB = 100 × 15000 = 7500 Number of notes on which 50% return is given by PNB = (15000 −7500) × 12 = 3125 Number of notes on which 80% return is given by PNB = 15000 −7500 −3125 = 4375 Required amount = (15000 × 20) −(7500 × 20) −(3125 × 10) −(4375 × 16) = 300000 −150000 −31250 −70000 = Rs.48,750"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q056",
@@ -1581,7 +1767,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let number of notes on which PNB gave 50% return and 80% return be 5x and 7x respectively. ATQ, 7𝑥−5𝑥= 1500 𝑥= 750 So, number of notes on which PNB gave 100% return = 15000 −(7𝑥+ 5𝑥) = 15000 −12 × 750 = 6000 Now, number of notes on which Axis bank gave 80% return = 5 × 750 −1750 = 2000 So, number of notes on which Axis bank gave 100% return = 10000 −2000 −2000 × = 7500 Required number of notes = 6000 + 7500 = 13500"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q057",
@@ -1609,7 +1799,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let A’s monthly salary be Rs.100x So, A’s expenditure on house rent = 30x And, A’s expenditure on clothing = (100𝑥−30𝑥) × 100 = 28x Monthly amount given by A to his son = (100𝑥− 30𝑥−28𝑥) × 14 = 12x ATQ, 28𝑥−12𝑥= 24000 𝑥= 1500 A’s annual expenditure on house rent = 30 × 1500 × 12 = Rs.540000"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q058",
@@ -1640,7 +1834,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let efficiency of A be x units/day. So, efficiency of C = 100 × 𝑥 = 4x units/day And, efficiency of B = 4𝑥× = 6x units/day Now, total work = 33 × 𝑥 = 33x units Required days = 33𝑥 𝑥+6𝑥+4𝑥 = 3 days"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q059",
@@ -1668,7 +1866,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let amount invested by A be Rs.x So, amount invested by B = 3 × 𝑥 = Rs.3x And, amount invested by C = 3𝑥× = Rs.1.5x Now, profit sharing ratio of A : B : C =((𝑥× 11) + ((𝑥−𝑌) × 1)) : ((3𝑥× 11) + ((3𝑥−𝑌) × 1)):((1.5𝑥× 11) + ((1.5𝑥−𝑌) × 1)) = (12𝑥−𝑌): (36𝑥−𝑌): (18𝑥−𝑌) QUANTITATIVE APTITUDE ATQ, 18𝑥−𝑌 12𝑥−𝑌+36𝑥−𝑌+18𝑥−𝑌= ⇒ 18𝑥−𝑌 66𝑥−3𝑌= ⇒ 774𝑥−43𝑌= 770𝑥−35𝑌 ⇒ 𝑥= 2𝑌 Required profit sharing ratio = 12𝑥−𝑌 36𝑥−𝑌 = 24𝑌−𝑌 72𝑌−𝑌 ⇒ 23 : 71"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q060",
@@ -1696,7 +1898,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let initial quantity of milk and water in the vessel be 30x lit and 10x lit respectively. Quantity of milk taken out from the vessel = 80 × = 60 lit Quantity of water taken out from the vessel = 80 × 4 = 20 lit ATQ, (30𝑥−60)+80 10𝑥−20 = ⇒𝑥= 4 Hence, required original quantity of the vessel = 30𝑥+ 10𝑥 = 160 lit"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q061",
@@ -1724,7 +1930,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Number of female employees in C who are newly recruited = ((2000 × 100) −350) × 100 = 95 Number of male employees in C who are newly recruited = 95 × 5 = 57 Required % = ((2000× 30 100)−(95+57)) 2000× 30 × 100 = 600−152 × 100 = 74 3 %"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q062",
@@ -1752,7 +1962,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Male employees in company – Y = 100 × 350= 1400 Female employees in company – Y = 1400 × = 1050 Required difference = (1400 + 1050)–2000 = 450"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q063",
@@ -1780,7 +1994,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Female employees who left B = ((2000 × 100) −225) × 100 = 44 Female employees in D =(2000 × 100) −160 = 240 Required % = (240+44)−240 × 100 = 18 3 %"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q064",
@@ -1808,7 +2026,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Male employees in company – K = ((2000 × 100) −225) + 425 = 700 Average number of female employees in A, C & D in company – X = 3 × ((2000 × 100) −(240 + 350 + 160)) = 3 × (750) = 250 Required difference = 700 – 250 = 450"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q065",
@@ -1836,7 +2058,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Employees who are in (18-40) age group in A = (2000 × 100) × 25 = 260 Employees who are in (18-40) age group in B = (2000 × 100) × 50 = 130 Employees who are in (18-40) age group in C = (2000 × 100) × 5 = 480 Employees who are in (18-40) age group in D = (2000 × 100) × 40 = 330 Employees who are in (40+) age group in A, B, C & D in company – X = 2000 −(260 + 130 + 480 + 330) = 800 Required ratio = (260+130+480+330) = 3 : 2"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q066",
@@ -1864,7 +2090,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 7830 Pattern of series – So, there should be 7820 in place of 7830."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q067",
@@ -1892,7 +2122,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, the pattern followed is 18 × 1 +2 =20 20 × 2 +3 =43 43 × 3 +4 =133 133 × 4 +5 =537 537 × 5 +6 =2691 2691 × 6 +7 =16153 So, wrong number is 16163 which should be replaced by 16153"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q068",
@@ -1920,7 +2154,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 78 Pattern of series – So, there should be 76 in place of 78."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q069",
@@ -1948,7 +2186,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 260 Pattern of series – So, there should be 261 in place of 260."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q070",
@@ -1976,7 +2218,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 2515 Pattern of series – 267 + 343 = 610 343 + 610 = 953 610 + 953 = 1563 953 + 1563 = 2516 1563 + 2516 = 4079 So, there should be 2516 in place of 2515."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q071",
@@ -2004,7 +2250,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 36 Pattern of series – So, there should be 38 in place of 36."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q072",
@@ -2032,7 +2282,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Wrong number = 30 Pattern of series – So, there should be 35 in place of 30."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q073",
@@ -2060,7 +2314,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let present age of A and B be 20x years and 50x years respectively. So, present age of C = 50𝑥× = 36x years And, present age of D = 36𝑥× = 39x years ATQ, 50𝑥−39𝑥= 11 𝑥= 1 Hence, present age of A = 20x = 20 years"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q074",
@@ -2088,7 +2346,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ATQ, Perimeter of triangle ABC = 60 AB + BC + CA = 60 AB + 25 + CA = 60 ⇒AB + CA = 35 Now, let length of AB be x m. (as AB is the smallest side) So, length of CA = (35 −𝑥)𝑚 Now, (𝐴𝐵)2 + (𝐶𝐴)2 = (𝐵𝐶)2 (𝑥)2 + (35 −𝑥)2 = (25)2 ⇒ 𝑥2 −35𝑥+ 300 = 0 ⇒ 𝑥= 15,20 So, length of smallest side is 15m."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q075",
@@ -2116,7 +2378,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let cost price of article – M be Rs.100x. So, marked price of article – M = 100𝑥× = Rs.120x And, selling price of article – M = 120𝑥× = Rs.114x ATQ, 114𝑥= 285 ⇒ 𝑥= 2.5 Hence, cost price of article – N = 100 × 100 × 2.5 = Rs.300 So, selling price of article – N = 300 × 100 = Rs.345"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q076",
@@ -2144,7 +2410,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let number of black, red and white balls be a, b & c respectively. From I: ATQ, 𝑎 𝑎+𝑏+𝑐= ⇒ 5a = b + c …(i) And, 𝑏 𝑎+𝑏+𝑐= ⇒ 5𝑏= 𝑎+ 𝑐 …(ii) And, 𝑐 𝑎+𝑏+𝑐= ⇒ 𝑐= 2𝑎+ 2𝑏 …(iii) On solving (i), (ii) & (iii), we get: a : b : c = 1 : 1 : 4 From II: ATQ, 𝑐−1 𝑎+𝑏+𝑐−1 = ⇒ 8𝑐= 15𝑎+ 15𝑏+ 8 From I & II: Let a, b & c be x, x & 4x respectively. ⇒ 32𝑥= 15𝑥+ 15𝑥+ 8 ⇒ x = 4 Hence, t = 24 So, statement I & II together are necessary to answer the question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q077",
@@ -2172,7 +2442,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I: Amount invested by Deepak = 12000 × = Rs.15000 Profit sharing ratio of Shivam to that of Deepak = (12000 × 10):(15000 × 4) = 2 ∶1 From II: Let amount invested by Shivam and Deepak be Rs.4x and Rs.5x respectively. And let period of investment of Shivam and Deepak be 5y months and 2y months respectively. Now, profit sharing ratio of Shivam to that of Deepak = (4𝑥× 5𝑦):(5𝑥× 2𝑦) = 2 : 1 Now, let total profit be Rs.P. ATQ, 2−1 3 × 𝑃= 12000 ⇒ P = Rs.36000 Hence, profit share of Shivam= 3×36000 = Rs.24000 Hence, statement II alone is sufficient to answer the question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q078",
@@ -2200,7 +2474,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I: Let cost price of the article be Rs.100x. So, marked price of the article = 100𝑥× = Rs.180x And selling price of the article = Rs.(100x + 100) From II: Let marked price and discount allowed on the article be Rs.3y and Rs.y respectively. From I & II: 3y = 180x ⇒ y = 60x ATQ, 100𝑥+ 100 = 180𝑥−60𝑥 ⇒ x = 5 So, marked price of the article = 180x = Rs.900 Hence, statements I and II together are sufficient to answer the question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q079",
@@ -2228,7 +2506,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let rate of interest be R% p.a. From I: Let period of investment be t years. ATQ, (if sum is invested at SI); 6000×𝑡×𝑅 = 4500 ⇒ tR = 75 (if sum is invested at CI); 6000 (1 + 𝑅 100) 𝑡 = 10500 From II: Let amount invested by Pankaj at SI and at CI be Rs.100x ATQ, (𝑃((1 + 𝑅 100) −1)) −( 𝑃×𝑅×2 100 ) = 90 ⇒ 𝑃𝑅2 = 900000 Hence, statements I and II together are not sufficient to answer the question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q080",
@@ -2256,7 +2538,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I: Let radius and height of cylinder be r cm and h cm respectively. ATQ, 2𝜋𝑟ℎ= 1760 ⇒ 𝑟ℎ= 280 ….(i) And, 2𝜋𝑟(𝑟+ ℎ) = 100 × 1760 ⇒ 𝑟2 + 𝑟ℎ= 476 …(ii) On solving (i) & (ii), we get: 𝑟= 14, ℎ= 20 Hence, volume of cylinder = 𝜋𝑟2ℎ = 12320 cm3 From II: Height of cylinder = 30 × 3 = 20cm ATQ, 𝜋𝑟2 × 20 = 2 × 3 𝜋𝑟2 × 30 It can’t be solved further. Hence, statement I alone is sufficient to answer the question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q081",
@@ -2284,7 +2570,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: Total number of ways = (8C2 × 4C2) + (8C1 × 4C3) + (4C4) = 168 + 32 + 1 = 201 Quantity II: 3-digit numbers which are divisible by 3 and ends with an even number = (102, 108, 114, -------, 996) Required number of 3 – digit numbers= 996−102 +1 = 150 So, Quantity I > Quantity II."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q082",
@@ -2312,7 +2602,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: ATQ, 5900×𝑅×3 = 3186 ⇒ 𝑅= 18% Required interest = 7900×(18+5)×3 = Rs.5451 Quantity II: Equivalent rate of interest of 13% p.a. for 2 years at CI = 13 + 13 + 13×13 100 = 27.69% ATQ, 𝑋×27.69 = 2325.96 ⇒ X = Rs.8400 So, Quantity I < Quantity II."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q083",
@@ -2340,7 +2634,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: Let CP & MP of an article be Rs.19x and Rs.30x respectively. ATQ, 19𝑥× 100 = 912 ⇒ 𝑥= 40 Required difference = 30𝑥× 100 −19𝑥× = 7.2𝑥−3.8𝑥 = Rs.136 Quantity II: Let cost price of the article be Rs.100x So, marked price of the article = 100𝑥× = Rs.170x And, selling price of the article = 170𝑥× = Rs.102x ATQ, 102𝑥= 183.6 ⇒ 𝑥= 1.8 Required sum = 170𝑥× 100 + (102𝑥−100𝑥) = 68𝑥+ 2𝑥 = Rs.126 So, Quantity I > Quantity II."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q084",
@@ -2368,7 +2666,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: Let speed of boat in still water & speed of stream be ‘11x km/hr.’ and ‘x km/hr.’ respectively. ATQ, 11𝑥−𝑥+ 11𝑥+𝑥= 11 ⇒ 𝑥= 8 So, speed of boat in still water = 11x = 88 km/hr. Quantity II: Let speed of boat in still water & speed of stream be ‘a km/hr.’ and ‘b km/hr.’ respectively. ATQ, 3.5 = (𝑎+ 𝑏) ⇒ (𝑎+ 𝑏) = 100 …(i) And, 5 = (𝑎−𝑏) ⇒ (𝑎−𝑏) = 76 …(ii) On solving (i) & (ii), we get: a = 88 km/hr. So, Quantity I = Quantity II."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q085",
@@ -2396,7 +2698,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Quantity I: Let A’s present age be 10x years. So, B’s present age = 10𝑥× = 16x years And, C’s present age = 16𝑥× 5 = 6.4x years And, D’s present age = 2 × 6.4𝑥 = 12.8x years ATQ, 16𝑥−12.8𝑥= 8 ⇒ 𝑥= 2.5 Hence, required average = 10𝑥+16𝑥+6.4𝑥+12.8𝑥 = 11.3x = 28.25 years Quantity II: Let present age of P be p years. So, present age of R = (𝑝−15) years ATQ, Present age of Q = (2 × (𝑝−15)) −𝑝 = (𝑝−30) 𝑦𝑒𝑎𝑟𝑠 Now, (𝑝+ 4) = 2 × (𝑝−30 + 4) ⇒ 𝑝= 56 Hence, present age of R = (𝑝−15) years = 41 years And, present age of Q = (𝑝−30) 𝑦𝑒𝑎𝑟𝑠 = 26 years So, required age = 26 years So, Quantity I > Quantity II."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q086",
@@ -2424,7 +2730,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of applicants in A be 100x. So, total number of applicants in E = 70x Female applicants who applied for renewal of passports from A = 100𝑥× 100 × 100 = 24x Female applicants who applied for new passports from A = 100𝑥× 100 × 10 = 12x Female applicants who applied for renewal of passports from E = 70𝑥× 100 × 100 = 29.4x Female applicants who applied for new passports from E = 70𝑥× 100 × 3 = 7x Required ratio = 24𝑥+12𝑥 29.4𝑥+7𝑥= 36𝑥 36.4𝑥 = 90 : 91"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q087",
@@ -2452,7 +2762,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let number of male and female who applied for new passports from C be 2x and 3x respectively. ATQ, 3𝑥−2𝑥= 800 𝑥= 800 Total number of applicants for passports from C = (3 × 800 + 2 × 800) × 50 = 8000 Total female who applied for passports from C = 8000 × 100 × 100 + (3 × 800) = 4400 Total male who applied for passports from C = 8000 −4400 = 3600 Required % = 3600 × 100 = 122 9 %"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q088",
@@ -2480,7 +2794,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of applicants in A be 100x. ATQ, 100𝑥× 100 × ( 100 − 100) = 2400 12𝑥= 2400 𝑥= 200 Hence, number of applicants who applied for new passport from A = 100 × 200 × 100 = 8000"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q089",
@@ -2508,7 +2826,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ATQ, Total applicants from B = 3600 × 40 × = 20000 Total applicants from E = 20000 + 5000 = 25000 Required number of applicants = 20000 × 100 + 25000 × 100 = 18500"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q090",
@@ -2536,7 +2858,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of applicants from C & E be 100x & 100y respectively. ATQ, 100𝑥+ 100𝑦= 30000 𝑥+ 𝑦= 300 ….(i) Now, 100𝑥× 100 × 100 −100𝑦× 100 × 100 = 800 25𝑥−42𝑦= 800 ….(ii) On solving (i) & (ii), we get: 𝑥= 200, 𝑦= 100 Required average = 2 × ((100 × 200 × 100) + (100 × 100 × 100)) = 2 × (10000 + 3000) = 6500"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q091",
@@ -2564,7 +2890,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let total number of applicants from A & C be 100x & 100y respectively. ATQ, Applicants who applied for new passports from A = 100𝑥× 100 = 40x Applicants who applied for new passports from C = 100𝑦× 100 = 50y Now, 40𝑥 50𝑦= 3 ⇒ 𝑥 𝑦= 6 ⇒ 𝑦= 6𝑥 Required % = 100×6𝑥 5 −100𝑥 100𝑥 × 100 = 120𝑥−100𝑥 100𝑥 × 100 = 20%"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q092",
@@ -2592,7 +2922,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required probability = ( (48𝐶1× 4𝐶1)+ 48𝐶2 52𝐶2 ) = 192+1128 ="
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q093",
@@ -2620,7 +2954,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "2nd year CI =(50000 (1 + 100) −50000) −(50000 × 100) = 12720 – 6000 = Rs.6720 Now, 2nd year SI = 6720 – 2220 = Rs.4500 Now, R = 75000 × 100 = 6%"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q094",
@@ -2648,7 +2986,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "let speed of train Y be ‘s’ kmph & length of train X & Y be a & b m respectively ATQ, 𝑎+𝑏 120 = (𝑠−120) × 18 …………………(i) 𝑎+𝑏 3 = (𝑠+ 120) × 18 ……………………………(ii) On dividing (i) by (ii) 9 = 𝑠−120 𝑠+120 S = 150 kmph"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q095",
@@ -2676,7 +3018,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let unit’s digit and ten’s digit of the original number be ‘x’ and ‘y’ respectively. So, original number = 10𝑦+ 𝑥 ATQ, 10𝑥+ 𝑦−(10𝑦+ 𝑥) = 27 ⇒ 9𝑥−9𝑦= 27 𝑥−𝑦= 3 …(i) And, 𝑥2 −𝑦2 = 33 (𝑥−𝑦)(𝑥+ 𝑦) = 33 …(ii) On solving (i) & (ii), we get: (𝑥+ 𝑦) = 11 …(iii) On solving (i) & (iii), we get: 𝑥= 7, 𝑦= 4 So, original number = 47 Sol (96-100): Let distance between Delhi – Bangkok be 10x km. So, Distance between Dhaka – Bangkok = 10𝑥× 100 = 8x km And, distance between Delhi – Dhaka = 8𝑥× 32 = 27𝑥 4 𝑘𝑚 ATQ, 10𝑥+ 8𝑥+ 27𝑥 4 = 19800 ⇒ 𝑥= 800 Delhi – Dhaka fare: Let fare of B be Rs.4a So, fare of C = 4𝑎× 100 = Rs.5a And, fare of A = 𝑅𝑠. (4𝑎−2700) Now, 4𝑎−2700 5𝑎 = ⇒ a = 2700 Delhi – Bangkok fare: Total fare of A & B = 20000 × 2 = Rs.40000 Fare of C = 8000 + 20000 = Rs.28000 Fare of B = 26000 × 2 −28000 = Rs.24000 Fare of A = 40000 −24000 = Rs.16000 Dhaka – Bangkok fare: Fare of B = Rs.16000 Fare of A = 16000 × 5 = Rs.19200 Fare of C = 16000 × 5 = Rs.25600"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q096",
@@ -2704,7 +3050,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total fare if Veer uses A for his trip = 8100 + = Rs.27300 Total fare if Veer uses B for his trip = 10800 + = Rs.26800 Total fare if Veer uses C for his trip = 13500 + = Rs.39100 So, the cheapest option for Veer is flight operator B."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q097",
@@ -2732,7 +3082,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ATQ, Total fare paid by Deepak = 25600 + 28000 = Rs.53600 Required amount = 6400+8000 = Rs. 3.62/km"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q098",
@@ -2760,7 +3114,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ATQ, Fares for (A, Delhi – Bangkok) = Rs.16000 Fares for (C, Delhi - Dhaka) = Rs.13500 Fares for (B, Dhaka - Bangkok) = Rs.16000 Fares for (A, Dhaka - Bangkok) = Rs.19200 Fares for (B, Delhi - Dhaka) = Rs.10800 So, for (A, Dhaka - Bangkok) fares will be maximum."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q099",
@@ -2788,7 +3146,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ATQ, Per km fare of A = 6400 = Rs.3/km Per km fare of B = 6400 = Rs.2.5/km Per km fare of C = 6400 = Rs.4/km So, per km fare of B is lowest."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q100",
@@ -2816,7 +3178,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required average = 8100+10800+13500 = Rs.10800"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q101",
@@ -2843,7 +3209,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "To validate the answer, refer to the first paragraph, which mentions, “Music is assumed to be a fortuitous by-product of this evolutionary development, and is more fully processed in the brain’s right hemisphere, which is more associated with the representation of emotions than the left hemisphere.” Referring to the quoted text, we can infer that the statement given in option (b) is appropriate in context of the given question. Hence, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q102",
@@ -2871,7 +3241,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The answer can be validate from various statements given in paragraph four. Among the given statements, only the statement (d) cannot be inferred from the passage. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q103",
@@ -2899,7 +3273,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The entire passage is centered around inability of certain people to enjoy music inspite of having normal brain functioning. Here, the most suitable statement to justify the central idea of the passage would be “While music may be the universal language, it doesn’t speak to everyone”. Also, the statement (ii) is correct in context of the passage. Hence, option (c) is the appropriate answer to the given question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q104",
@@ -2927,7 +3305,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "To validate the answer, refer to the second paragraph, which mentions, “It has been theorised that aesthetic responses to music may derive from the similarity of musical tones to tonal characteristics of human speech associated with different emotional states. If so, it would be hypothesised that the pleasure one finds in music would be related to skills in and enjoyment of social intercourse. Conversely, a lack of musical appreciation would predict deficiencies in social engagement”. Referring to the quoted text, we can infer that the statement given in option (c) is correct in context of the given question."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q105",
@@ -2955,7 +3337,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given phrases, the most appropriate phrase to fit in the given blank will be “”. Apart from this, no other phrase could make a grammatically correct and contextually meaningful statement. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q106",
@@ -2983,7 +3369,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, only in sentence (A) both the words fit in to form a contextually and grammatically correct statement. Hence, option (a) is the most suitable answer choice. Equip: “supply with the necessary items for a particular purpose.” Arm: “each of the two upper limbs of the human body from the shoulder to the hand.” AND “a thing comparable to an arm in form or function, typically something that projects from a larger structure.”"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q107",
@@ -3011,7 +3401,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, only in sentences (A) & (B), both the words fit in to form a contextually and grammatically correct statement. Hence, option (a) is the most suitable answer choice. Study: a detailed investigation and analysis of a subject or situation. Ponder: think about (something) carefully, especially before making a decision or reaching a conclusion"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q108",
@@ -3039,7 +3433,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, both the words fit in all the three statements to make the sentences grammatically and contextually correct. Hence, option (e) is the most suitable answer choice. Anomaly: “something that deviates from what is standard, normal, or expected.” Departure: “a deviation from an accepted, prescribed, or usual course of action”/ “the action of leaving, especially to start a journey ENGLISH LANGUAGE"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q109",
@@ -3067,7 +3465,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, only in sentences (A) & (B), both the words fit in to form a contextually and grammatically correct statement. Hence, option (a) is the most suitable answer choice. Accolade: “an award or privilege granted as a special honour or as an acknowledgement of merit.”/ “a touch on a person's shoulders with a sword at the bestowing of a knighthood” Recognition: “identification of someone or something or person from previous encounters or knowledge”/ “acknowledgement of the existence, validity, or legality of something”/ “appreciation or acclaim for an achievement, service, or ability”"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q110",
@@ -3095,7 +3497,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both the words fit in only in statement B to form a grammatically and contextually correct statement. Hence, option (e) is the most suitable answer choice. Pinnacle: the most successful point; the culmination/ a high, pointed piece of rock Height: the measurement of someone or something from head to foot or from base to top./"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q111",
@@ -3123,7 +3529,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given words, “bravery” is synonym of valour and cowardice is antonym of valour. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q112",
@@ -3151,7 +3561,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given words, “restrain” is synonym of impede and expedite is antonym of impede. Hence, option (e) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q113",
@@ -3179,7 +3593,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given words, “acknowledge” is synonym and disparage is antonym of appreciates. Hence, option (c) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q114",
@@ -3207,7 +3625,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given words, “graceful” is synonym and gauche is antonym of elegant. Hence, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q115",
@@ -3235,7 +3657,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The correct answer choice will be (d). Here, ‘loathe’ is synonym of ‘abhor’ whereas ‘admire’ is its antonym. Abhor: regard with disgust and hatred. Loathe: feel intense dislike or disgust for"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q116",
@@ -3263,7 +3689,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, the error lies in part (C) of the statement, where “dare call” will be replaced with “dares to call”. Here, ‘dare’ has been used as main verb and will therefore qualify the singular noun, which is ‘no one’. ‘Dare’ will then be followed by ‘to+v1’. But when ‘dare’ and ‘need’ are used as modal auxiliary, then we do not add ‘-s’ to make it singular. Then we direct use ‘to’ after them. Hence, option (a) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q117",
@@ -3291,7 +3721,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, “his” will be replaced with “him” because verbs like “heard, watch, behold, see, let, make, bid” will be followed by objective case pronouns and in case we use infinitive then it is used without “to” (bare infinitive). Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q118",
@@ -3319,7 +3753,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, the error lies in the last part of the statement where “tomorrow” will be changed to “the next day” because in indirect narration, ‘tomorrow’ is changes to ‘on the tomorrow’ or ‘the next day’. Hence, option (d) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q119",
@@ -3347,7 +3785,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The given statement is grammatically correct and does not require any changes. Hence, option (e) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q120",
@@ -3375,7 +3817,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, the error lies in part (D) of the statement where “would not” will be replaced by “had not” because in cases of situations denoting unfulfilled wishes/ desires of past, in conditional clause, we use ‘if+subject+had+v3’ or ‘had+subject+v3’. Hence, option (b) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q121",
@@ -3403,7 +3849,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The answer for the given question can be traced fourth and fifth paragraph “A major cause of the slowdown of sales in 2019-20 was the difficulty in the availability of finance due to problems in the financial sector. The decade saw the introduction and acceptance of shared platform operators like Uber and Ola…Diesel car sales had risen earlier in the decade, but are now in decline. Meeting Bharat VI norms has added considerably to cost. In addition, the Supreme Court ordered that diesel cars older than 10 years would not be allowed in the NCR”. Hence, option (e) is the correct answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q122",
@@ -3431,7 +3881,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The answer can be verified from the 2nd paragraph. Refer to the lines “Intense competition in the market saw all manufacturers launching or upgrading existing models in fairly short intervals. The industry became more like that of a developed country. Competition also led to better technology benefiting the consumer. The average fuel efficiency of cars increased from about 16 km per litre to 19.2 km per litre. This resulted not only in reducing fuel consumption but also lowered CO2 emissions.” Hence, option (d) is the correct answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q123",
@@ -3459,7 +3913,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most appropriate phrase to complete the given blank is “partly explains the slowing of growth”. The previous sentence of the blank mentions about the implementation of Bharat VI which is a measure for safety and emission standards. Further the sentence states that due Bharat VI there has been an increase in the cost of vehicles; thus, this should ultimately result in the decline of the sales growth. Hence, option (c) will be most viable choice to complete the given sentence."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q124",
@@ -3487,7 +3945,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Statement (II) is incorrect as in the given passage it is stated that “The entry of global players into the Indian market and cars being of international standards led to exports increasing to 680,000 vehicles in 2018-19.’ Statements (I) and (III) are true in the context. Hence, option (b) is the correct answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q125",
@@ -3515,7 +3977,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most suitable word that expresses the meaning of the highlighted word is “catalyst”. Hence, option (b) is the correct answer choice. Driver means a factor which causes a particular phenomenon to happen or develop. Straphanger means any user of such public transportation. Catalyst means a person or thing that precipitates an event. prototype means a first or preliminary version of a device or vehicle from which other forms are developed. Chauffer means a person employed to drive a private automobile or limousine for the owner."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q126",
@@ -3543,7 +4009,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘X’ was although a valuable employee for the company yet his attitude towards company’s initiative was negative and he wanted to develop similar feeling among his colleagues. Hence, ‘pessimist’ which means ‘tending to see the worst aspect of things or believe that the worst will happen’ best defines ‘X’s’ attitude towards the initiative. Empathetic: showing an ability to understand and share the feelings of another Scientific: based on or characterized by the methods and principles of science Passionate: having, showing, or caused by strong feelings or beliefs. Discreet: intentionally unobtrusive"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q127",
@@ -3571,7 +4041,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here, as per the given situation, all the given options define ‘Y’ as a person. Hence, option (e) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q128",
@@ -3599,7 +4073,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "As per the given situations, both the goats were not willing to give way to each other and therefore has to face the consequences. From the situation, we can infer that the goats were stubborn. Hence, option (b) is the most suitable answer choice. Intuitive: using or based on what one feels to be true even without conscious reasoning; instinctive Stubborn: having or showing dogged determination not to change one's attitude or position on something Persuasive: good at persuading someone to do or believe something through reasoning or the use of temptation Epicurean: relating to or suitable for an epicure."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q129",
@@ -3627,7 +4105,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given options, “generous” which means “showing kindness towards others.” defines the nature of the child who willingly visited the animal shelter for donation. Hence, option (d) is the most suitable answer choice. Creative: having good imagination or original ideas Courageous: not deterred by danger or pain; brave Dramatic: (of an event or circumstance) sudden and striking"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q130",
@@ -3655,7 +4137,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given options, “faithful” is the most suitable answer choice to define the nature of the dog which was loyal towards its owner. Hence, option (b) is the most suitable answer choice. Honest: free of deceit; truthful and sincere. Faithful: remaining loyal and steadfast Cultured: characterized by refined taste and manners and good education Notorious: famous or well known, typically for some bad quality or deed."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q132",
@@ -3683,7 +4169,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The given passage talks about data protection law implemented In California and hence the only option to satisfy it will be (c)."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q133",
@@ -3710,7 +4200,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Reading the last paragraph of the passage, we can deduce the answer to be (b). The lines have been mentioned below for reference: “After initially rejecting western assertion that an Iranian missile brought down the plane, Tehran on Saturday said one of its soldiers fired the missile, mistaking the jet for an enemy aircraft “as it turned to a sensitive area.”"
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q134",
@@ -3738,7 +4232,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Among the given words, ‘vengeance’ which means characterized by a desire for revenge is similar to ‘retaliatory’. Hence, option (b) is the most suitable answer choice. Hostility: unfriendliness or opposition Redemption: the action of saving or being saved from sin, error, or evil. Brisk: active and energetic."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q135",
@@ -3766,7 +4264,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Reading the last paragraph of the passage, we can conclude the answer to be (c). The lines have been mentioned below for reference: “Mr. Trump unilaterally pulled the U.S. out of the Iran nuclear deal, in May 2018, was worth the risk.” Rest of the options given in the passage are untrue or do not make any contextual sense."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q137",
@@ -3794,7 +4296,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "To make the sentence grammatically and contextually correct, interchange the words positions at (1) and (2) i.e., estimated and launched. All the other words are correct. Hence, option (a) is the correct answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q138",
@@ -3822,7 +4328,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "All the parts of the italicized sentence are correct. Hence, option (e) is the most suitable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q139",
@@ -3850,7 +4360,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The given sentence consist a conjunction “while” which is used to indicate a contrast in the sentence. The latter part of the sentence “while the remaining prefer to use the internet only for product research, communication, entertainment and other purposes” indicates that the initial part of the sentence must mention a dichotomy. Thus, among the given options, option (d) becomes the most viable answer choice."
     },
     {
       "q_id": "sbi_clerk_2019_mains_3778ee5c::q140",
@@ -3878,7 +4392,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2019-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "The most suitable word to replace the highlighted incorrect word is “virtual”. “virtual” means almost or nearly as described, but not completely or according to strict definition. All the other words are either grammatically incorrect or contextually meaningless."
     }
   ]
 }

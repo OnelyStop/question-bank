@@ -48,7 +48,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q002",
@@ -76,7 +79,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q003",
@@ -104,7 +110,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In all the options (except last option) first person purchases product three persons before the second person."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q004",
@@ -132,7 +142,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "As many persons purchase product after D is same as many persons purchase product between F and B."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q005",
@@ -160,7 +174,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q006",
@@ -188,7 +205,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q007",
@@ -216,7 +236,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q008",
@@ -244,7 +267,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q009",
@@ -272,7 +298,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q010",
@@ -300,7 +329,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q011",
@@ -328,7 +360,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "We have letters- M, I, N, T We get – Mint."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q012",
@@ -356,7 +392,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement- Except W, rest were born in a month having odd number of days."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q013",
@@ -384,7 +424,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q014",
@@ -412,7 +456,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement- As many persons were born before U is same as many persons were born after P."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q015",
@@ -440,7 +488,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q016",
@@ -468,7 +520,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q017",
@@ -496,7 +552,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "671923 = 343645"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q018",
@@ -524,7 +584,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "W 2 %, F 7 #, H 9 *"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q019",
@@ -552,7 +616,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q020",
@@ -580,7 +647,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "W 2 F 7 M 3 K 5 T 1 H 9 L 8 D 4 P 6 J"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q021",
@@ -608,7 +679,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "% F 7, # M 3, * L 8"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q022",
@@ -636,7 +711,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "K & 5, T @ 1, P ? 6"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q023",
@@ -664,7 +743,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement- C > A > F > B > D > E"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q024",
@@ -692,7 +775,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement- C > A > F > B > D > E"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q025",
@@ -720,7 +807,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement- C > A > F > B > D > E"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q026",
@@ -748,7 +839,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q027",
@@ -776,7 +871,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q028",
@@ -804,7 +903,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q029",
@@ -832,7 +935,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q030",
@@ -860,7 +967,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Sum of even digits= 20, Sum of odd digits = 25 Resultant difference= 25-20= 5"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q031",
@@ -888,7 +999,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q032",
@@ -916,7 +1031,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q033",
@@ -944,7 +1063,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q034",
@@ -972,7 +1095,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q035",
@@ -1000,7 +1127,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement-"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q036",
@@ -1028,7 +1159,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The incorrect statement is Option (d). The passage makes it clear that Laxmi cultivated various crops, not just cereals, which directly contradicts the claim that she focused on a single crop. Analysis: Option (a): \"Laxmi was a member of a community called Sangam, which aimed to increase awareness about indigenous goods and sustainable farming practices.\" • Validation: The passage states, \"Her journey began in her twenties when she joined a local community called Sangam, an initiative that aimed to increase awareness about indigenous goods and sustainable farming practices.\" • Conclusion: This statement is correct. Option (b): \"Laxmi organized workshops and events to educate villagers on the benefits of traditional farming methods.\" • Validation: The passage mentions, \"Recognizing the need for education, Laxmi began organizing workshops and events where she taught the villagers the art of farming these indigenous products.\" • Conclusion: This statement is correct. Option (c): \"The villagers learned to store agricultural products, which became a vital resource during lean periods, thanks to Laxmi's teachings.\" • Validation: The passage states, \"One of her key lessons was the importance of storing agricultural products, a practice that could protect the community from the uncertainties of weather and market fluctuations.\" It also mentions that \"the stored produce became a vital resource during lean periods.\" • Conclusion: This statement is correct. Option (d): \"Laxmi started farming of only cereals, focusing on a single crop to ensure high yields and consistency in farming practices.\" • Validation: The passage clearly says, \"She took up the cultivation of various crops such as cereals, pulses, and oilseeds,\" indicating that she did not focus on a single crop but rather on multiple crops. • Conclusion: This statement is incorrect. Option (e): \"Laxmi advocated for organic farming methods to improve soil health and produce healthier, chemical-free food for the villagers.\" • Validation: The passage states, \"Beyond farming, Laxmi also advocated for the use of organic methods, which not only improved the soil health but also produced healthier, chemical-free food for the villagers.\" • Conclusion: This statement is correct."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q037",
@@ -1056,7 +1191,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The passage states, \"Her journey began in her twenties when she joined a local community called Sangam, an initiative that aimed to increase awareness about indigenous goods and sustainable farming practices.\" Based on this, the primary objective of Sangam was: Option (b): \"To raise awareness about indigenous goods and sustainable farming practices that help preserve the region's agricultural heritage.\" This aligns perfectly with the information provided in the passage. Analysis: Option (a): \"To promote modern farming techniques that integrate advanced machinery and technology for increased agricultural productivity.\" • Explanation: The passage does not mention Sangam promoting modern farming techniques or advanced machinery. Instead, Sangam focuses on raising awareness about indigenous goods and sustainable farming practices. Option (c): \"To provide financial support to farmers in the form of low-interest loans and grants to improve their economic stability.\" • Explanation: There is no mention in the passage of Sangam providing financial support, loans, or grants to farmers. The focus of Sangam is on awareness and sustainable practices rather than financial assistance. Option (d): \"To introduce genetically modified crops that promise higher yields and resistance to pests and diseases.\" • Explanation: The passage does not mention genetically modified crops or any focus on increasing yields through such methods. Sangam's focus is on preserving traditional and indigenous farming practices. Option (e): \"To train villagers in animal husbandry, focusing on improving livestock care and increasing dairy production.\" • Explanation: The passage does not reference animal husbandry or dairy production as part of Sangam's objectives. The community is dedicated to farming practices and preserving agricultural heritage."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q038",
@@ -1084,7 +1223,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statements II and III are correct. Analysis: Statement I: \"Laxmi joined the Sangam community in her twenties to promote the use of modern farming technologies.\" • Explanation: The passage mentions that Laxmi joined Sangam to increase awareness about indigenous goods and sustainable farming practices, not modern farming technologies. Therefore, Statement I is incorrect. Statement II: \"Laxmi emphasized the importance of storing agricultural products to protect the community from uncertainties.\" • Explanation: The passage states, \"One of her key lessons was the importance of storing agricultural products, a practice that could protect the community from the uncertainties of weather and market fluctuations.\" Therefore, Statement II is correct. Statement III: \"Laxmi's efforts led to a significant increase in crop yields and the adoption of organic farming methods in the village.\" • Explanation: The passage mentions, \"The community saw a significant increase in crop yields,\" and also mentions Laxmi advocated for organic farming methods, leading to healthier, chemical-free food. Therefore, Statement III is correct."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q039",
@@ -1112,7 +1255,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The passage explicitly mentions that Laxmi emphasized \"the importance of storing agricultural products, a practice that could protect the community from the uncertainties of weather and market fluctuations.\" This aligns perfectly with the correct practice mentioned in the passage. Option (e) is the correct answer, as it directly reflects the practice Laxmi emphasized to protect the community from uncertainties. Analysis: Option (a): \"Exporting crops to other regions, which could provide a higher income but involves risks associated with market demand and transport.\" • Explanation: The passage does not mention anything about Laxmi advocating for exporting crops. This option is incorrect because it introduces a concept that is not discussed in the passage. Option (b): \"Relying on monsoon rains as the primary source of water for crops, despite the increasing unpredictability of climate patterns.\" • Explanation: The passage does not mention Laxmi relying on or promoting reliance on monsoon rains. Instead, Laxmi focused on practices like storing agricultural products, not relying on unpredictable natural events like monsoons. Option (c): \"Switching to cash crops that offer potentially higher immediate profits but may compromise long-term soil fertility and food security.\" • Explanation: The passage indicates that Laxmi focused on sustainable farming practices and traditional agricultural techniques, not cash crops that might compromise long-term sustainability. Therefore, this option is incorrect. Option (d): \"Using chemical fertilizers that promise quick results in boosting crop yields but can lead to soil degradation over time.\" • Explanation: The passage explicitly mentions that Laxmi advocated for organic farming methods, which are the opposite of using chemical fertilizers. This option is incorrect as it contradicts the practices Laxmi supported."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q040",
@@ -1140,7 +1287,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The passage highlights Laxmi’s involvement in Sangam, where she \"took up the cultivation of various crops such as cereals, pulses, and oilseeds, mastering the techniques that had been passed down through generations.\" It also mentions her efforts to promote \"traditional agricultural practices,\" which were crucial in preserving the region’s agricultural heritage. Option (b) is the correct answer, as it accurately describes Laxmi's role in advocating for indigenous crops and traditional farming methods to preserve the agricultural heritage of her region. Analysis: Option (a): \"She documented ancient farming techniques and published them in a local journal.\" • Explanation: The passage does not mention Laxmi documenting or publishing ancient farming techniques. This option introduces an action not described in the passage. Option (c): \"She imported seeds from other regions to diversify the village's agricultural output.\" • Explanation: The passage does not mention Laxmi importing seeds from other regions. Instead, she focused on indigenous crops, which makes this option incorrect. Option (d): \"She worked with local government to introduce subsidies for farmers using organic methods.\" • Explanation: There is no mention in the passage of Laxmi working with the government or introducing subsidies. This option is not supported by the information provided in the passage. Option (e): \"She built a museum to showcase the history of farming in her village.\" • Explanation: The passage does not mention Laxmi building a museum. Her contributions were practical and focused on farming practices, not on creating a museum."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q041",
@@ -1168,7 +1319,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The passage mentions that Laxmi \"began organizing workshops and events where she taught the villagers the art of farming these indigenous products.\" It also notes that she emphasized the benefits of traditional agricultural practices, which helped the community become more self-reliant. This directly aligns with the reason described in Option (c). Analysis: Option (a): \"To celebrate local festivals and strengthen the village's cultural identity.\" • Explanation: The passage does not mention Laxmi organizing events for celebrating festivals or cultural identity. Her focus was on farming and sustainability, not on cultural celebrations. Option (b): \"To introduce modern agricultural technologies that could enhance crop production.\" • Explanation: The passage indicates that Laxmi promoted traditional farming methods, not modern agricultural technologies. This option is incorrect because it contradicts the practices Laxmi actually supported. Option (d): \"To attract investors and increase funding for the village's agricultural projects.\" • Explanation: There is no mention in the passage of Laxmi organizing events to attract investors or funding. Her primary goal was to educate villagers about traditional farming practices, making this option incorrect. Option (e): \"To establish connections with other farming communities for the exchange of knowledge and resources.\" • Explanation: The passage does not mention Laxmi organizing events to connect with other farming communities. The focus of her events was to educate her own village community, not to establish external connections."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q042",
@@ -1196,7 +1351,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "To determine the word that has a similar meaning to \"EVENTS\" as used in the passage, let's consider the context. In the passage, \"events\" refers to organized activities or gatherings that Laxmi arranged to educate the villagers about farming practices. Option (a): Meets • Meaning: Organized gatherings or assemblies, especially for a specific purpose such as education or discussion. • Explanation: In the context of the passage, \"events\" are organized gatherings where Laxmi taught the villagers. \"Meets\" is a term that can refer to such organized gatherings, making it the correct option. • Hindi Meaning: बैठकें Incorrect Options: Option (b): Occurrences • Meaning: Things that happen or take place. • Explanation: While \"occurrences\" refers to things that happen, it is a broader term that doesn’t specifically refer to organized activities or gatherings. It is not a suitable synonym for \"events\" in this context. • Hindi Meaning: घटनाएँ Option (c): Incidents • Meaning: Specific events or occurrences, often of an unusual or noteworthy nature. • Explanation: \"Incidents\" usually refers to specific occurrences, often negative or unexpected, which does not match the context of organized educational events in the passage. • Hindi Meaning: घटनाएँ Option (d): Celebrations • Meaning: Festive activities or parties to mark special occasions. • Explanation: \"Celebrations\" refer to festive gatherings, which is different from the educational events Laxmi organized. This option is not correct in the context of the passage. • Hindi Meaning: उत्सव Option (e): Companies • Meaning: Commercial businesses or organizations. • Explanation: \"Companies\" refers to business entities, which is entirely unrelated to the meaning of \"events\" in the passage. This option is incorrect. • Hindi Meaning: कंपननयाँ"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q043",
@@ -1224,7 +1383,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The passage states, \"Laxmi also advocated for the use of organic methods, which not only improved the soil health but also produced healthier, chemical-free food for the villagers.\" This directly aligns with the benefit described in Option (d). Analysis: Option (a): \"Higher profits from export markets that demand organically grown produce, thereby opening up new revenue streams for the village farmers.\" • Explanation: The passage does not mention Laxmi promoting organic farming for higher profits from export markets. The focus is on sustainability and health, not on exports. Option (b): \"Lower costs due to reduced labor and the avoidance of expensive chemical inputs, making farming more economically viable for small-scale farmers.\" • Explanation: While organic farming can sometimes lower costs by avoiding chemical inputs, the passage does not mention this as a benefit Laxmi promoted. The emphasis was on soil health and chemical-free food, not on cost reduction. Option (c): \"Faster crop growth, allowing farmers to harvest more frequently and meet the growing demand for agricultural products in local and regional markets.\" • Explanation: The passage does not mention faster crop growth as a benefit of organic farming that Laxmi promoted. This option is incorrect because it introduces an idea not supported by the passage. Option (e): \"Easier farming techniques that reduce the physical strain on farmers, enabling them to manage larger plots of land with less effort and time.\" • Explanation: The passage does not mention organic farming techniques being easier or reducing physical strain. The focus was on soil health and chemical-free food, not on easing the physical burden on farmers."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q044",
@@ -1252,7 +1415,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The word \"STORED\" in the passage refers to keeping or reserving agricultural products in a way that they can be used later, especially during times of scarcity or uncertainty. Correct Option: Option (c): Stocked • Meaning: To keep a supply of something in a store or reserve for future use. • Hindi Meaning: संग्रनित Incorrect Options: Option (a): Collected • Meaning: To gather together from various places or sources. • Hindi Meaning: एकनित Option (b): Preserved • Meaning: To maintain something in its original or existing state, often to prevent decay or damage. • Hindi Meaning: संरनित Option (d): Gathered • Meaning: To bring together and assemble items, typically from various sources. • Hindi Meaning: संकनित Option (e): Accumulated • Meaning: To gradually collect or gather a large amount of something over time. • Hindi Meaning: एकि Summary: • The correct answer is Option (c) Stocked, as it closely aligns with the meaning of \"stored\" in the context of keeping or reserving products for future use. • The other options, while related, don't capture the specific nuance of reserving something for future use as well as \"stocked\" does."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q045",
@@ -1280,7 +1447,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Incorrect Sentence: (b) Amidst the flickering twilight, she strained to seen the distant silhouette. Error Type: Incorrect verb form usage. Grammatical Rule: • Present Perfect Tense: The present perfect tense is formed by using the auxiliary verb \"has\" or \"have\" with the past participle of the main verb. In this case, \"seen\" is the past participle of \"see.\" • Formula: Subject + has/have + past participle. Correct Sentence: \"She has seen many changes over the years, but she has seen nothing like this before.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q046",
@@ -1308,7 +1479,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Incorrect Sentence: (a) India is knowing for its beautiful culture and different types of crafts and traditions. Error Type: Incorrect verb form usage. Grammatical Rule: • Passive Voice Construction: In passive voice, the past participle form of the verb is used after the auxiliary verb \"is/was.\" The past participle of \"know\" is \"known.\" • Formula: Subject + is/are + past participle. Correct Sentence: \"Amidst the flickering twilight, she strained to see the distant silhouette.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q047",
@@ -1336,7 +1511,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Incorrect Sentence: (d) \"The availability of both surface and groundwater varying from one region to another.\" Error Type: Subject-verb agreement. Grammatical Rule: • Subject-Verb Agreement: The verb must agree in number with its subject. Here, \"availability\" is a singular noun, so it should be followed by a singular verb \"varies.\" • Formula: Subject (singular) + verb (singular). Correct Sentence: \"The availability of both surface and groundwater varies from one region to another.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q048",
@@ -1364,7 +1543,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Incorrect Sentence: (c) \"Protecting endanger species is crucial for maintaining biodiversity and ecological balance.\" Error Type: Incorrect word form (adjective vs. verb). Grammatical Rule: • Adjective Use: Adjectives describe nouns and should be used in the correct form. \"Endangered\" is the adjective form that describes species that are at risk. • Formula: Adjective + noun. Correct Sentence: \"Protecting endangered species is crucial for maintaining biodiversity and ecological balance.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q049",
@@ -1392,7 +1575,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The most appropriate word to fit into the blank is (b) through (के माध्यम से, के द्वारा). So the correct sentence is: The snakes silently slide through the tall grass, barely making a sound. • \"Through\" is used to indicate movement from one side or part of something to the other. In this context, it describes the snakes moving within and amidst the tall grass, which makes the most sense in the sentence. Analysis of other options: (a) off (बंद, दूर, िटना) • Meaning: \"Off\" usually indicates movement away from something or a separation from a surface. • Why it's incorrect: \"Off\" would imply the snakes are sliding away from the grass, which doesn’t fit the context of them moving silently within the grass. (c) away (दूर, िट जाना) • Meaning: \"Away\" implies movement to a different place or direction. • Why it's incorrect: \"Away\" suggests the snakes are leaving the area, not moving within or amidst the grass. (d) down (नीचे, निरना) • Meaning: \"Down\" indicates movement to a lower position. • Why it's incorrect: \"Down\" would imply vertical movement, which is not suitable for the context of snakes moving horizontally through the grass. (e) up (ऊपर, उठना) • Meaning: \"Up\" suggests movement to a higher position. • Why it's incorrect: \"Up\" would imply the snakes are moving upward, which doesn't fit the context of moving silently within the grass. In summary, \"through\" is the most appropriate word because it correctly describes the snakes' movement within the tall grass. The other options suggest directions or movements that do not match the intended meaning of the sentence."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q050",
@@ -1420,7 +1607,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The most appropriate word to fit into the blank is (e) venturing (सािस करना, जोनिम उठाना). • \"Venturing\" means to go somewhere that is unknown, dangerous, or involves risk. In this context, it describes the action of entering an unknown territory for the first time, which fits the emotions of excitement and nervousness mentioned in the sentence. Analysis of Other Options: (a) resembling (के समान, सदृश) • Meaning: \"Resembling\" means looking like or similar to something. • Why it's incorrect: \"Resembling\" doesn’t fit the context of entering or exploring a new place. (b) gauging (मापना, आकिन करना) • Meaning: \"Gauging\" means estimating or assessing something. • Why it's incorrect: \"Gauging\" doesn’t convey the idea of physically entering a new area, which is necessary in this context. (c) expanding (नवस्तार करना, फैिाना) • Meaning: \"Expanding\" refers to increasing in size, range, or scope. • Why it's incorrect: \"Expanding\" doesn’t fit the idea of exploring or entering a new territory, which the sentence is trying to convey. (d) floating (तैरना, बिना) • Meaning: \"Floating\" means to rest or move on or near the surface of a liquid without sinking. • Why it's incorrect: \"Floating\" is unrelated to the concept of exploring or moving into a new area, making it unsuitable for this sentence. In summary, \"venturing\" is the most appropriate choice because it captures the sense of exploring an unknown or risky area, which aligns with the emotions of excitement and nervousness described in the sentence. The other options either do not match the context of exploring new territory or fail to convey the intended meaning."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q051",
@@ -1448,7 +1639,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The most appropriate word to fit into the blank is (d) after (बाद में, पीछा करना). • \"After\" in this context means to pursue or strive toward something. The sentence describes someone who continues to pursue their dreams despite facing many obstacles, making \"after\" the most suitable choice. Analysis of Other Options: (a) up (ऊपर, उठना) • Meaning: \"Up\" suggests movement to a higher position or level. • Why it's incorrect: \"Up\" does not convey the idea of pursuing or striving toward dreams, which is the intended meaning of the sentence. (b) before (पििे, सामने) • Meaning: \"Before\" indicates something happening earlier in time or in front of something else. • Why it's incorrect: \"Before\" does not fit the context of pursuing dreams; it would change the meaning of the sentence entirely. (c) out (बािर, ननकिना) • Meaning: \"Out\" usually suggests moving from inside to outside or to an open space. • Why it's incorrect: \"Out\" does not appropriately describe the action of pursuing dreams, making it unsuitable for this context. (e) around (चारों ओर, आसपास) • Meaning: \"Around\" suggests movement in a circular direction or bypassing something. • Why it's incorrect: \"Around\" implies avoiding or going past something, which doesn’t fit the context of persistently pursuing dreams. In summary, \"after\" is the most appropriate choice because it clearly conveys the idea of pursuing dreams despite obstacles. The other options either suggest different types of movement that don’t align with the meaning of the sentence or would alter the intended meaning."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q053",
@@ -1476,7 +1671,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Sequence: C - E - A - B - D Analysis: 1. C introduces the main topic by mentioning the recent survey that explores the relationship between trust and prosperity. 2. E follows by explaining that trust is not just about social cohesion but also plays a vital role in the economy, adding depth to the initial statement. 3. A then provides a specific explanation of how trust influences economic prosperity, linking it to reduced transaction costs and increased investment. 4. B adds a further dimension by pointing out the correlation between trust, good governance, and economic success. 5. D concludes by summarizing the positive outcomes for nations that cultivate trust, tying back to the economic growth and stability mentioned earlier."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q054",
@@ -1504,7 +1703,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Sequence: C - E - A - B - D Analysis: 1. C introduces the main topic by mentioning the recent survey that explores the relationship between trust and prosperity. 2. E follows by explaining that trust is not just about social cohesion but also plays a vital role in the economy, adding depth to the initial statement. 3. A then provides a specific explanation of how trust influences economic prosperity, linking it to reduced transaction costs and increased investment. 4. B adds a further dimension by pointing out the correlation between trust, good governance, and economic success. 5. D concludes by summarizing the positive outcomes for nations that cultivate trust, tying back to the economic growth and stability mentioned earlier."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q055",
@@ -1532,7 +1735,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Sequence: C - E - A - B - D Analysis: 1. C introduces the main topic by mentioning the recent survey that explores the relationship between trust and prosperity. 2. E follows by explaining that trust is not just about social cohesion but also plays a vital role in the economy, adding depth to the initial statement. 3. A then provides a specific explanation of how trust influences economic prosperity, linking it to reduced transaction costs and increased investment. 4. B adds a further dimension by pointing out the correlation between trust, good governance, and economic success. 5. D concludes by summarizing the positive outcomes for nations that cultivate trust, tying back to the economic growth and stability mentioned earlier."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q056",
@@ -1560,7 +1767,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Sequence: C - E - A - B - D Analysis: 1. C introduces the main topic by mentioning the recent survey that explores the relationship between trust and prosperity. 2. E follows by explaining that trust is not just about social cohesion but also plays a vital role in the economy, adding depth to the initial statement. 3. A then provides a specific explanation of how trust influences economic prosperity, linking it to reduced transaction costs and increased investment. 4. B adds a further dimension by pointing out the correlation between trust, good governance, and economic success. 5. D concludes by summarizing the positive outcomes for nations that cultivate trust, tying back to the economic growth and stability mentioned earlier."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q057",
@@ -1588,7 +1799,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Sequence: C - E - A - B - D Analysis: 1. C introduces the main topic by mentioning the recent survey that explores the relationship between trust and prosperity. 2. E follows by explaining that trust is not just about social cohesion but also plays a vital role in the economy, adding depth to the initial statement. 3. A then provides a specific explanation of how trust influences economic prosperity, linking it to reduced transaction costs and increased investment. 4. B adds a further dimension by pointing out the correlation between trust, good governance, and economic success. 5. D concludes by summarizing the positive outcomes for nations that cultivate trust, tying back to the economic growth and stability mentioned earlier."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q058",
@@ -1616,7 +1831,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The word \"knee\" has the following meanings: 1. Noun: o The joint between the thigh and the lower leg in humans, where the femur, tibia, and patella (kneecap) meet. o The corresponding joint in the hind leg of a four-legged animal. o A part of clothing that covers the knee, such as in pants or skirts. 2. Verb: o To strike or push with the knee, usually as an act of defense or aggression (e.g., \"He kneed his opponent during the match.\"). o To cause someone to submit or show deference, often metaphorically (e.g., \"The conquerors forced the defeated to bend their knees in submission.\"). Let's evaluate each sentence with the word \"knee\": • (I) \"She is so powerful that even her toughest opponents were forced to bend their knees in submission.\" • This sentence is correct. \"Bend their knees\" is a common expression meaning to submit or show deference. • (II) \"While playing basketball, she injured her knee when she landed awkwardly after a jump.\" • This sentence is correct. \"Injured her knee\" is a proper use of the word \"knee.\" • (III) \"To make the perfect loaf of bread, you need to knee the dough until it becomes smooth and elastic.\" • This sentence is incorrect because \"knee\" is not the correct verb for working dough. The correct verb should be \"knead.\" Summary: In the sentences you provided: • In (I) and (II), \"knee\" is used as a noun, correctly referring to the joint or a metaphorical action involving it. • In (III), \"knee\" was incorrectly used as a verb when \"knead\" was intended. The correct answer is (b) Both (I) and (II)"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q059",
@@ -1644,7 +1863,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sentence provided is: \"The paper pulled (A) into (B) the inner part of the copy machine and had to be jammed (C) out (D) by the printer technician.\" To make the sentence grammatically and contextually correct, let's analyze the words: • \"Pulled\" (A) is an action that should describe what the paper does. However, in the given context, it seems the paper should be \"jammed\" (A), as it got stuck in the machine. • \"Into\" (B) is correctly placed as it indicates the direction where the paper was moving. • \"Jammed\" (C) implies something is stuck, but here we need the action of pulling or extracting the paper, which should have been \"pulled\" (C). • \"Out\" (D) is correct as it describes the direction of the action after the paper got stuck. The correct sentence should be: \"The paper jammed (A) into (B) the inner part of the copy machine and had to be pulled (C) out (D) by the printer technician.\" Thus, \"pulled\" (A) and \"jammed\" (C) need to be interchanged. Hence, the correct answer is option (c) A-C."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q060",
@@ -1672,7 +1895,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sentence provided is: \"Mrs. Griffin has enough (A) about going (B) her own school but is worried that she wouldn’t have thought (C) students to keep it opening (D).\" Let's analyze the words: • \"Enough (A)\" seems to suggest sufficiency, but in this context, it should be about \"thought,\" as in thinking or considering something. • \"Going (B)\" is used incorrectly; it would be better suited for the action of something starting or \"opening.\" • \"Thought (C)\" implies thinking, but it doesn’t fit here; \"enough\" should replace it to express sufficiency. • \"Opening (D)\" is used as a verb, but \"going\" would be better to express the action related to starting or running a school. To correct the sentence: • \"Enough (A)\" and \"thought (C)\" need to be interchanged because Mrs. Griffin should have \"thought\" about something and have \"enough\" of something (likely students). • \"Going (B)\" and \"opening (D)\" also need to be interchanged because \"going\" should be associated with starting or running a school, while \"opening\" could relate to the school being physically opened. The correct sentence should be: \"Mrs. Griffin has thought (A) about opening (B) her own school but is worried that she wouldn’t have enough (C) students to keep it going (D).\" Thus, the correct answer is option (d) A-C & B-D."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q061",
@@ -1700,7 +1927,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sentence provided is: \"It was unfortunate that our team’s halftime (A) were raised (B) so high during spirits (C), because we were subsequently crushed (D).\" Let's analyze the words: • \"Halftime\" (A) refers to the break period during a game, which doesn’t logically fit with being \"raised.\" • \"Were raised\" (B) is a phrase that suggests something was lifted or heightened, typically associated with \"spirits.\" • \"Spirits\" (C) refers to the team's mood or morale, which can indeed be raised. • \"Crushed\" (D) is correctly placed as it describes the disappointment or defeat felt afterward. To correct the sentence: • \"Halftime\" (A) should be interchanged with \"spirits\" (C) because \"spirits\" should be the subject of \"were raised,\" and \"halftime\" should indicate the time during which this occurred. The correct sentence should be: \"It was unfortunate that our team’s spirits (A) were raised (B) so high during halftime (C), because we were subsequently crushed (D).\" Thus, \"halftime\" (A) and \"spirits\" (C) need to be interchanged. The correct answer is option (a) A-C."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q062",
@@ -1728,7 +1959,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct answer is (d) remains heavily reliant on. Grammatical Rule: Reliant on vs. Reliant in: • The word \"reliant\" is an adjective that describes dependence on something. • The correct preposition to use after \"reliant\" is \"on.\" For example, we say \"reliant on someone/something.\" • The preposition \"in\" does not follow \"reliant\" because it is incorrect in this context. The word \"reliant\" should always be followed by the preposition \"on.\" Correct Sentence: \"Despite renewable energy's potential, the global economy remains heavily reliant on fossil fuels, complicating the shift to sustainability.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q063",
@@ -1756,7 +1991,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct answer is (b) leading to concerns about. Grammatical Rule: Leading to vs. Leading at: • The phrase \"leading to\" is used to indicate a cause-and-effect relationship, where one action or event causes another. In this context, the intensified ideological divisions are causing or leading to concerns about the impact of social media. • The preposition \"at\" does not fit with \"leading\" in this context. \"Leading at\" would be grammatically incorrect and would not convey the intended meaning. Correct Sentence: \"Digital platforms have intensified ideological divisions, leading to concerns about social media's impact on public discourse and dialogue.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q064",
@@ -1784,7 +2023,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct answer is (a) often distort our perception of reality. Grammatical Rule: Subject-Verb Agreement: • The subject \"Cognitive biases\" is plural, so the verb must also be plural. • The verb \"distort\" is the correct plural form to use with the subject \"Cognitive biases.\" \"Cognitive biases\" should be followed by the plural verb \"distort\". • The present participle form \"distorting\" would not be correct here unless it was part of a continuous verb tense or a clause that required it. Correct Sentence: \"Cognitive biases often distort our perception of reality, leading to decisions that contradict rational thinking.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q065",
@@ -1812,7 +2055,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The correct answer is (b) Before I sat in the car. Grammatical Rule: • The past perfect tense \"had sat\" is not necessary in this context because the sequence of events is clear with the simple past tense \"sat.\" The correct sentence should simply state \"Before I sat in the car,\" which accurately reflects the sequence of actions. Correct Sentence: \"Before I sat in the car, the driver opened the door for me.\""
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q066",
@@ -1840,7 +2087,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q067",
@@ -1868,7 +2118,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total orders received by D = 96 Veg orders received by D = 25% of 96 = 24 Non veg order received by D = 96 – 24 = 72"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q068",
@@ -1896,7 +2150,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q069",
@@ -1924,7 +2181,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q070",
@@ -1952,7 +2212,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 88: 60+96 = 88:156 = 22:39"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q071",
@@ -1980,7 +2244,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: In April 2019, a man has Rs 17500 Amount increased by 20% every year in the starting of April Man spends 60% of total amount in April 2021 Formula Used: Final Amount = initial amount × [20% + 20% + (20×20)/100] Explanation: Total amount in April 2021 = 17500 × 6/5 × 6/5 = 25200 Rs"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q072",
@@ -2008,7 +2276,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: The ratio of length to breadth of a rectangle is 4 : 3 Area of the rectangle is 300 cm square The breadth of rectangle decreased by 20% and the length is increased by 10%, Formula Used: Area of the rectangle = Length × breadth Perimeter of the rectangle = 2 (Length + breadth) Explanation: Let length and breadth of the rectangle is 4x cm & 3x cm respectively 12x2 = 300 x2 = 25 x = 5 Length of the rectangle = 5 × 4 = 20 cm Breadth of the rectangle = 5 × 3=15 cm After breadth decreased by 20%, new breadth of the rectangle = 15×4/5 = 12 cm After length increased by 10%, new length of the rectangle = 20 ×11/10 = 22 cm Required perimeter = 2 × (22+12) = 68 cm"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q073",
@@ -2036,7 +2308,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: After 9 months, A left the business At the end of a year, the profit share of A and B is in the ratio of 9 : 16 Formula Used: Ratio of profit = investment × time Explanation: Let A and B invested Rs x & Rs y respectively ATQ, 9x/12y = 9/16 x : y = 3 : 4"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q074",
@@ -2064,7 +2340,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: A, B and C together can do a work in 4 days B and C together can do the same work in 20/3 days Formula Used: Efficiency = work/time Explanation: Let total work = 20 unit (LCM of 4 and 20/3) Efficiency of A, B and C = 20/4 = 5 unit/day Efficiency of B and C = 20 ×3/20 = 3 unit/day Efficiency of A = 5 – 3 = 2 unit/day"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q075",
@@ -2092,7 +2372,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: The speed of a train is 72 km/hr Train crosses the pole in 16 seconds Train is increased by 12 meters/second Formula Used: Length of train = speed × time Speed of train (in meters/second) = speed of train (in km/hr) × 5/18 Time = Distance/speed Explanation: Length of train = 72 × 5/18×16 = 320 meters New speed of train = 72 × 5/18 + 12 = 32 meters/second Required time = 320/32 = 10 seconds"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q076",
@@ -2120,7 +2404,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: Rs X invested in scheme A at the rate of 20% p.a. for two years on compound interest annually Rs X invested in scheme B in scheme B at rate of 30% p.a. for two years on simple interest Difference between interest received from both schemes is Rs 896 Formula Used: Equivalent rate of interest for two years = [rate + rate + (rate)2/100] Simple interest = (principle ×rate × time)/100 Explanation: Equivalent rate of interest for two years at 20% p.a. on compound interest = [20+20+(20×20)/100] = 44% ATQ, 16X = 89600 X = 5600 Rs"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q077",
@@ -2148,7 +2436,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Information given: Cost price of two articles A and B is equal Article A sold at profit of 20% and article B sold at loss of 30% Overall loss of Rs 50 occurred Formula Used: Loss = cost price – selling price Selling price (at profit) = cost price ×(100+profit%)/100 Explanation: Let cost price of each article A and B be Rs 100x Selling price of article A = 100x ×6/5 = 120x Rs Selling price of article B = 100x ×7/10 = 70x Rs ATQ, 200x – (120x+70x) = 50 10x = 50 x = 5 Cost price of article B = 5 ×100=500 Rs Required selling price = 500 × 7/5 = 700 Rs"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q078",
@@ -2176,7 +2468,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "100 + 1! = 101 101 + 2! = 103 103 + 3! = 109 109 + 4! = 133 133 + 5! = 253"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q079",
@@ -2204,7 +2500,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q080",
@@ -2232,7 +2531,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of the series"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q081",
@@ -2260,7 +2563,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q082",
@@ -2288,7 +2594,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "21×2+2= 44 44×3+3= 135 135×4+4= 544 544×5+5= 2725 2725×6+6= 16356"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q083",
@@ -2316,7 +2626,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the present age of A and B be a years and b years respectively."
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q084",
@@ -2344,7 +2658,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q085",
@@ -2372,7 +2689,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q086",
@@ -2400,7 +2720,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the upstream speed of a boat and speed of current be 4x kmph and x kmph respectively. Speed of boat in still water = 4x+x = 5x kmph Downstream speed of boat = 5x+x = 6x kmph"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q087",
@@ -2428,7 +2752,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q093",
@@ -2456,7 +2783,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q096",
@@ -2484,7 +2814,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "? = 572 ÷ 26 × 12– 200 ? = 64"
     },
     {
       "q_id": "ibps_clerk_2024_prelims_da38d550::q099",
@@ -2512,7 +2846,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "1512 ÷36+44×32= ? 42+1408 = ? 1450 = ?"
     }
   ]
 }

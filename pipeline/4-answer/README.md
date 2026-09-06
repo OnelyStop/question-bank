@@ -12,6 +12,42 @@ Running after dedupe means answering **19,443 unique questions instead of
 step — no practice, no scoring, no marking, no progress tracking. It is the single
 most valuable thing in the pipeline.
 
+## Subscription-agent handoff (no API)
+
+Use this when answers are reviewed by a ChatGPT/Codex subscription agent rather
+than an API. Export is read-only and splits unanswered questions into small JSONL
+batches. Give an agent one batch at a time and require one JSONL response per
+line in this exact shape:
+
+```json
+{"q_id":"exact exported id","answer":"a","explanation":"optional concise reasoning"}
+```
+
+The importer is dry-run by default. It rejects unknown IDs, answers not present
+in a question's options, malformed records, duplicates that disagree, and any
+attempt to overwrite a different existing answer. Review the report before
+writing; subscription-agent answers are recorded as low-confidence review data,
+not as PDF-derived keys.
+
+```bash
+python pipeline/4-answer/export_agent_batches.py --out data --export-dir data/agent_answer_batches --batch-size 25
+python pipeline/4-answer/export_agent_batches.py --out data --export-dir data/agent_explanation_batches --mode explanations --batch-size 25
+python pipeline/4-answer/import_agent_answers.py --out data --responses data/agent_answer_responses
+python pipeline/4-answer/import_agent_answers.py --out data --responses data/agent_answer_responses --require-explanation --apply
+```
+
+For an explanation task, the export includes the existing validated answer.
+The response must repeat that option key and add `explanation`; the importer
+rejects any changed answer key and never replaces an existing explanation.
+
+Plan the handoffs and independently audit all already-attached answers before
+any import. Both commands are read-only with respect to question JSON:
+
+```bash
+python pipeline/4-answer/plan_answer_review.py --out data --handoff-size 25 --report data/answer_review_plan.json
+python pipeline/4-answer/verify_answer_quality.py --out data --sample-size 250
+```
+
 ## Where the answers are
 
 I scanned all 375 PDFs. **69% carry a machine-readable answer key:**
@@ -119,6 +155,12 @@ the export.
 |---|---|
 | `attach_answers.py` | 771 lines, answer-key extraction from PDFs. Unproven |
 | `validate_answers.py` | 314 lines, sanity checks on extracted answers |
+| `export_agent_batches.py` | Read-only JSONL export of unanswered questions for subscription-agent review |
+| `import_agent_answers.py` | Dry-run-by-default validation and import of agent answer JSONL |
+| `plan_answer_review.py` | Read-only per-source-batch queue and coverage plan |
+| `verify_answer_quality.py` | Read-only answer/explanation audit and independent review queue |
+| `export_agent_batches.py` | read-only unanswered-question batches for subscription agents |
+| `import_agent_answers.py` | strict validation and opt-in application of agent responses |
 
 Treat both as a starting point. Neither has ever produced a single answer that
 reached the export.

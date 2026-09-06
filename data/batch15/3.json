@@ -52,7 +52,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q002",
@@ -80,7 +83,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q003",
@@ -108,7 +114,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q004",
@@ -136,7 +145,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q005",
@@ -164,7 +176,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Number of students in the class= 28+28-1=55"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q006",
@@ -192,7 +208,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, M goes on vacation in the month which has 30 days. Three persons go between M and H. One person goes between H and K. B goes in March. Here we get three possibilities i.e., case-1, case-2 and case-3: Now, V goes just before L and just after P. Here case-1 and case-3 are ruled out so the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q007",
@@ -220,7 +240,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, M goes on vacation in the month which has 30 days. Three persons go between M and H. One person goes between H and K. B goes in March. Here we get three possibilities i.e., case-1, case-2 and case-3: Now, V goes just before L and just P. Here case-1 and case-3 are ruled out so the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q008",
@@ -248,7 +272,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, M goes on vacation in the month which has 30 days. Three persons go between M and H. One person goes between H and K. B goes in March. Here we get three possibilities i.e., case-1, case-2 and case-3: Now, V goes just before L and just P. Here case-1 and case-3 are ruled out so the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q009",
@@ -276,7 +304,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, M goes on vacation in the month which has 30 days. Three persons go between M and H. One person goes between H and K. B goes in March. Here we get three possibilities i.e., case-1, case-2 and case-3: Now, V goes just before L and just P. Here case-1 and case-3 are ruled out so the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q010",
@@ -304,7 +336,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, M goes on vacation in the month which has 30 days. Three persons go between M and H. One person goes between H and K. B goes in March. Here we get three possibilities i.e., case-1, case-2 and case-3: Now, V goes just before L and just P. Here case-1 and case-3 are ruled out so the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q011",
@@ -332,7 +368,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Original number- 851473296 Obtained number-987654321"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q012",
@@ -360,7 +400,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "67@, &2#"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q013",
@@ -388,7 +432,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "z"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q014",
@@ -416,7 +464,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "8"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q015",
@@ -444,7 +496,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "@g8"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q016",
@@ -472,7 +528,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, More than three boxes are kept below Box T. Only three boxes are kept between Box S and Box T. Box V is kept just above Box S. So, we have three possible cases i.e., case-1, case-2 and case-3: Only two boxes are kept between Box B and Box U. Box U is kept above Box T. So, case-3 is eliminated. Box L is kept above Box B and below Box A. So, Case 2 and Case 3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q017",
@@ -500,7 +560,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, More than three boxes are kept below Box T. Only three boxes are kept between Box S and Box T. Box V is kept just above Box S. So, we have three possible cases i.e., case-1, case-2 and case-3: Only two boxes are kept between Box B and Box U. Box U is kept above Box T. So, case-3 is eliminated. Box L is kept above Box B and below Box A. So, Case 2 and Case 3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q018",
@@ -528,7 +592,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, More than three boxes are kept below Box T. Only three boxes are kept between Box S and Box T. Box V is kept just above Box S. So, we have three possible cases i.e., case-1, case-2 and case-3: Only two boxes are kept between Box B and Box U. Box U is kept above Box T. So, case-3 is eliminated. Box L is kept above Box B and below Box A. So, Case 2 and Case 3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q019",
@@ -556,7 +624,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, More than three boxes are kept below Box T. Only three boxes are kept between Box S and Box T. Box V is kept just above Box S. So, we have three possible cases i.e., case-1, case-2 and case-3: Only two boxes are kept between Box B and Box U. Box U is kept above Box T. So, case-3 is eliminated. Box L is kept above Box B and below Box A. So, Case 2 and Case 3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q020",
@@ -584,7 +656,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, More than three boxes are kept below Box T. Only three boxes are kept between Box S and Box T. Box V is kept just above Box S. So, we have three possible cases i.e., case-1, case-2 and case-3: Only two boxes are kept between Box B and Box U. Box U is kept above Box T. So, case-3 is eliminated. Box L is kept above Box B and below Box A. So, Case 2 and Case 3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q021",
@@ -612,7 +688,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q022",
@@ -640,7 +719,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, Y sits third from one of the extreme ends. Only two persons sit between Y and G. So, we have two possible cases i.e., case-1 and case-2: W sits fourth to the left of G. So, case-1 is eliminated. K sits immediately left of D. A is one of the persons. So, the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q023",
@@ -668,7 +751,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, Y sits third from one of the extreme ends. Only two persons sit between Y and G. So, we have two possible cases i.e., case-1 and case-2: W sits fourth to the left of G. So, case-1 is eliminated. K sits immediately left of D. A is one of the persons. So, the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q024",
@@ -696,7 +783,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From the given statements, Y sits third from one of the extreme ends. Only two persons sit between Y and G. So, we have two possible cases i.e., case-1 and case-2: W sits fourth to the left of G. So, case-1 is eliminated. K sits immediately left of D. A is one of the persons. So, the final arrangement will be:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q025",
@@ -724,7 +815,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q026",
@@ -752,7 +846,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q027",
@@ -780,7 +877,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q031",
@@ -808,7 +908,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ana sits second to the right of Danny. Two persons sit between Danny and Charlie. Fredrick sits immediately right of Bony who does not sit at the corner. Henry is an immediate neighbour of Charlie. So, we have four cases: Garry sits second to the left of Emma who sits at the middle of the table. So, the case-1, case2, case3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q032",
@@ -836,7 +940,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ana sits second to the right of Danny. Two persons sit between Danny and Charlie. Fredrick sits immediately right of Bony who does not sit at the corner. Henry is an immediate neighbour of Charlie. So, we have four cases: Garry sits second to the left of Emma who sits at the middle of the table. So, the case-1, case2, case3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q033",
@@ -864,7 +972,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ana sits second to the right of Danny. Two persons sit between Danny and Charlie. Fredrick sits immediately right of Bony who does not sit at the corner. Henry is an immediate neighbour of Charlie. So, we have four cases: Garry sits second to the left of Emma who sits at the middle of the table. So, the case-1, case2, case3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q034",
@@ -892,7 +1004,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ana sits second to the right of Danny. Two persons sit between Danny and Charlie. Fredrick sits immediately right of Bony who does not sit at the corner. Henry is an immediate neighbour of Charlie. So, we have four cases: Garry sits second to the left of Emma who sits at the middle of the table. So, the case-1, case2, case3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q035",
@@ -920,7 +1036,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ana sits second to the right of Danny. Two persons sit between Danny and Charlie. Fredrick sits immediately right of Bony who does not sit at the corner. Henry is an immediate neighbour of Charlie. So, we have four cases: Garry sits second to the left of Emma who sits at the middle of the table. So, the case-1, case2, case3 are eliminated. Hence the final arrangement is:"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q036",
@@ -951,7 +1071,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q037",
@@ -979,7 +1102,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q038",
@@ -1007,7 +1133,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q039",
@@ -1035,7 +1164,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q040",
@@ -1063,7 +1195,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q049",
@@ -1091,7 +1226,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q052",
@@ -1119,7 +1257,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q053",
@@ -1147,7 +1288,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q055",
@@ -1175,7 +1319,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q056",
@@ -1203,7 +1350,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q057",
@@ -1231,7 +1381,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q058",
@@ -1259,7 +1412,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q059",
@@ -1287,7 +1443,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q060",
@@ -1315,7 +1474,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q061",
@@ -1343,7 +1505,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q062",
@@ -1371,7 +1536,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q063",
@@ -1399,7 +1567,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q064",
@@ -1427,7 +1598,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q065",
@@ -1455,7 +1629,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q066",
@@ -1483,7 +1660,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q067",
@@ -1511,7 +1691,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q068",
@@ -1539,7 +1722,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q069",
@@ -1567,7 +1753,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q070",
@@ -1595,7 +1784,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q071",
@@ -1623,7 +1815,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The answer to the question can be inferred from the first paragraph where it is mentioned that ‘The collaboration of different stakeholders in the banking system, improving customer experience, and having a significant impact on return on investment (RoI) are some of the keys to the growth of digital banking in India’. So, options (I) and (III) are correct. Hence, option (a) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q072",
@@ -1650,7 +1846,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Because we have to answer the question based on the information given in the passage, the answer to the question can be inferred from the second paragraph where it is mentioned that ‘the most simplistic way to look at experimentation is to see whether it increases revenue or decreases cost. You can add customer experience to this and see whether it leads to one of the two. That is a strong way of justifying any new technology and experimentation’. So, only option (c) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q073",
@@ -1677,7 +1877,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The answer to the question can be inferred from the fifth paragraph where Deepak Sharma made that statement ‘That maturity has set in’. Preceding to the statement, it is mentioned that ‘banks have found the right balance behind the romance of technology, where they are asking what technology has done for the business.’ So, only option (b) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q074",
@@ -1705,7 +1909,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The answer to the question can be inferred from the seventh paragraph where it is mentioned that ‘banks, especially payment banks, have to adopt a “phygital” model, which provides the best of physical and digital services to its consumers, according to the panellists’. So, option (c) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q075",
@@ -1733,7 +1941,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The answer to the question can be inferred from the seventh paragraph where it is mentioned that ‘There are programmes where banks are working with fintechs, where KYC (know-your-customer) documents can be scanned and the software knows whether it is a passport or Aadhaar card or driving licence. The turnaround time for lending can be reduced and thus, AI is very close to maturing in the Indian context’. So, option (a) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q076",
@@ -1760,7 +1972,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The answer to the question can be inferred from the eighth paragraph where it is mentioned that ‘In today’s banks, we cannot think of a bank without investing in tech. It is the largest investment on a year-on-year basis.’ Among the options (a), (b) and (c), option (b) strengthen the notion that ‘we cannot think of a bank without investing in tech’. Hence, option (b) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q077",
@@ -1788,7 +2004,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Raise [verb] means ‘lift or move to a higher position or level’; Relegate [verb] means ‘banish; downgrade’; ‘assign an inferior rank or position to’; Maintain [verb] means ‘to assert’; Intimate [verb] means ‘to suggest something subtly’; Chastise [verb] means ‘to reprimand harshly’; Belie [verb] means ‘to give a false representation to; misrepresent’; From above, it can be inferred that the word ‘relegate’ has a meaning which is OPPOSITE to the meaning of the word ‘raising’. Hence, option (d) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q078",
@@ -1816,7 +2036,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Achieve [verb] means ‘successfully bring about or reach (a desired objective or result) by effort, skill, or courage’; Abandon [verb] means ‘leave (a place or vehicle) empty or uninhabited, without intending to return’; ‘condemn someone or something to (a specified fate) by ceasing to take an interest in them’; Galvanise [verb] means ‘to excite or inspire (someone) to action’; Castigate [verb] means ‘to reprimand harshly’; Betray [verb] means ‘to reveal or make known something, usually unintentionally’; Qualify [verb] means ‘to make less severe; to limit’; From above, it can be inferred that the word ‘abandoning’ has a meaning which is OPPOSITE to the meaning of the word ‘achieving’. Hence, option (e) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q079",
@@ -1844,7 +2068,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Improve [verb] means ‘make or become better’; Ameliorate [verb] means ‘to make better, or improve’; Enervate [verb] means ‘to sap energy from’; Vindicate [verb] means ‘to clear of accusation, blame, suspicion, or doubt with supporting arguments or proofs’; Engender [verb] means ‘give rise to’; Concede [verb] means ‘acknowledge defeat; admit (to a wrongdoing)’; From above, it can be inferred that ‘ameliorating’ has a meaning which is SIMILAR to the meaning of the word ‘improving’. Hence, option (e) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q080",
@@ -1872,7 +2100,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Ombudsman [noun] means ‘An official appointed to investigate individuals’ complaints against a company or organization, especially a public authority’; Defender [noun] means ‘someone who defends people or property’; Aberration [noun] means ‘a deviation from what is normal or expected’; Calumny [noun] means ‘making of a false statement meant to injure a person’s reputation’; Venality [noun] means ‘the condition of being susceptible to bribes or corruption’; Perfidy [noun] means ‘the state of being deceitful and untrustworthy’; From above, it can be inferred that the word ‘defender’ has a meaning which has a meaning SIMILAR to the meaning of ‘ombudsman’. Hence, option (d) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q081",
@@ -1900,7 +2132,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sequence after rearrangement should be CFABED. The sentence (C) introduces the theme of the paragraph which is ‘the decision of the Election Commission to go ahead with the first phrase of polling after the deadly Moist attack in Dantewada’. So, it should be the FIRST sentence of the paragraph. The sentence (F) informs about who were attacked and killed in the Moist attack. So, the sentence (F) should be the SECOND sentence after rearrangement. The sentence (A) informs about the aim of the attack and the responsibility to carry out polling without fear of violence bestowed upon the administration. So, the sentence (A) should be the THIRD sentence after rearrangement. The sentence (B) informs about a different aspect about Moist which is about the retaining ability of the Maoists to pick and choose targets. The sentence (B) should be the FOURTH sentence after rearrangement. The sentence (E) informs about how the attack was carried out by Maoist. So, the sentence (E) should be the FIFTH sentence after rearrangement. The sentence (D) informs about the need for a speedy inquiry and about the report that the BJP legislator may have been complacent about the security risk. So, the sentence (D) should be the LAST sentence after rearrangement. So, the sequence after rearrangement should be CFABED. So, the SECOND sentence after rearrangement would be F. Hence, option (c) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q082",
@@ -1928,7 +2164,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sequence after rearrangement should be CFABED. The sentence (C) introduces the theme of the paragraph which is ‘the decision of the Election Commission to go ahead with the first phrase of polling after the deadly Moist attack in Dantewada’. So, it should be the FIRST sentence of the paragraph. The sentence (F) informs about who were attacked and killed in the Moist attack. So, the sentence (F) should be the SECOND sentence after rearrangement. The sentence (A) informs about the aim of the attack and the responsibility to carry out polling without fear of violence bestowed upon the administration. So, the sentence (A) should be the THIRD sentence after rearrangement. The sentence (B) informs about a different aspect about Moist which is about the retaining ability of the Maoists to pick and choose targets. The sentence (B) should be the FOURTH sentence after rearrangement. The sentence (E) informs about how the attack was carried out by Maoist. So, the sentence (E) should be the FIFTH sentence after rearrangement. The sentence (D) informs about the need for a speedy inquiry and about the report that the BJP legislator may have been complacent about the security risk. So, the sentence (D) should be the LAST sentence after rearrangement. The sequence after rearrangement should be CFABED. So, the SIXTH sentence after rearrangement is D. Hence, option (d) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q083",
@@ -1956,7 +2196,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sequence after rearrangement should be CFABED. The sentence (C) introduces the theme of the paragraph which is ‘the decision of the Election Commission to go ahead with the first phrase of polling after the deadly Moist attack in Dantewada’. So, it should be the FIRST sentence of the paragraph. The sentence (F) informs about who were attacked and killed in the Moist attack. So, the sentence (F) should be the SECOND sentence after rearrangement. The sentence (A) informs about the aim of the attack and the responsibility to carry out polling without fear of violence bestowed upon the administration. So, the sentence (A) should be the THIRD sentence after rearrangement. The sentence (B) informs about a different aspect about Moist which is about the retaining ability of the Maoists to pick and choose targets. The sentence (B) should be the FOURTH sentence after rearrangement. The sentence (E) informs about how the attack was carried out by Maoist. So, the sentence (E) should be the FIFTH sentence after rearrangement. The sentence (D) informs about the need for a speedy inquiry and about the report that the BJP legislator may have been complacent about the security risk. So, the sentence (D) should be the LAST sentence after rearrangement. So, the sequence after rearrangement should be CFABED. So, the THIRD sentence after rearrangement is A. Hence, option (b) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q084",
@@ -1984,7 +2228,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sequence after rearrangement should be CFABED. The sentence (C) introduces the theme of the paragraph which is ‘the decision of the Election Commission to go ahead with the first phrase of polling after the deadly Moist attack in Dantewada’. So, it should be the FIRST sentence of the paragraph. The sentence (F) informs about who were attacked and killed in the Moist attack. So, the sentence (F) should be the SECOND sentence after rearrangement. The sentence (A) informs about the aim of the attack and the responsibility to carry out polling without fear of violence bestowed upon the administration. So, the sentence (A) should be the THIRD sentence after rearrangement. The sentence (B) informs about a different aspect about Moist which is about the retaining ability of the Maoists to pick and choose targets. The sentence (B) should be the FOURTH sentence after rearrangement. The sentence (E) informs about how the attack was carried out by Maoist. So, the sentence (E) should be the FIFTH sentence after rearrangement. The sentence (D) informs about the need for a speedy inquiry and about the report that the BJP legislator may have been complacent about the security risk. So, the sentence (D) should be the LAST sentence after rearrangement. So, the sequence after rearrangement should be CFABED. So, the FIRST sentence after rearrangement is C. Hence, option (a) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q085",
@@ -2012,7 +2260,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The sequence after rearrangement should be CFABED. The sentence (C) introduces the theme of the paragraph which is ‘the decision of the Election Commission to go ahead with the first phrase of polling after the deadly Moist attack in Dantewada’. So, it should be the FIRST sentence of the paragraph. The sentence (F) informs about who were attacked and killed in the Moist attack. So, the sentence (F) should be the SECOND sentence after rearrangement. The sentence (A) informs about the aim of the attack and the responsibility to carry out polling without fear of violence bestowed upon the administration. So, the sentence (A) should be the THIRD sentence after rearrangement. The sentence (B) informs about a different aspect about Moist which is about the retaining ability of the Maoists to pick and choose targets. The sentence (B) should be the FOURTH sentence after rearrangement. The sentence (E) informs about how the attack was carried out by Maoist. So, the sentence (E) should be the FIFTH sentence after rearrangement. The sentence (D) informs about the need for a speedy inquiry and about the report that the BJP legislator may have been complacent about the security risk. So, the sentence (D) should be the LAST sentence after rearrangement. So, the sequence after rearrangement should be CFABED. So, the FIFTH sentence after rearrangement is E. Hence, option (e) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q086",
@@ -2040,7 +2292,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The words positioned at (A) and (B) are incorrectly placed. Relatively peaceful conduct of the Assembly election is a meaningful phrase. So, interchanging the words present at (A) and (B) would yield a grammatically correct and contextually meaningful sentence. The words at the positions marked as (C) and (D) are correctly placed. Hence, option (a) is the correct answer. ‘After the relatively peaceful conduct of the Assembly elections in the State late last year, it would have signalled a precipitous slide if the electoral process in Chhattisgarh were to be disrupted now.’"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q087",
@@ -2068,7 +2324,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The words positioned at the position (A) and (C) are incorrectly placed. ‘Popular disaffection’ is a meaningful phrase. Similarly, ‘by worsening socio-economic conditions’ is a meaningful phrase. Upon interchanging the words present at (A) and (C) would yield a grammatically correct and contextually meaningful sentence. The words positioned at the positions (B) and (D) are correctly placed. Hence, option (c) is the correct answer. ‘The popular disaffection that forced him out after two decades in power was triggered by worsening socio-economic conditions largely due to lower oil and gas revenues.’"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q088",
@@ -2096,7 +2356,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The words positioned at the positions (A) and (B) are incorrectly placed. The clause ‘the ignore had wanted’ and the phrase ‘to government the documents’ are not a meaningful phrase. At position (A), noun should come because it is preceded by ‘the’ while at the position (B) a verb should come to make a ‘to-infinitive’ phrase. Similarly, the phrase ‘they were found to be dismiss’ is not grammatically correct, and ‘germane the review petitions’ is also not grammatically correct. At position (C), an adjective should come while at the position (D) a verb. Upon interchanging the positions at the words (A) & (B), and (C) and (D), we would get a grammatically correct and contextually meaningful sentence. Hence, option (b) is the correct answer. ‘Claiming privilege, the government had wanted the court to ignore the documents, even if they were found to be germane to the Rafale case and dismiss the review petitions at a preliminary stage.’"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q089",
@@ -2124,7 +2388,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "At positions (A) and (B), verbs should come while at position (C) a participle and at position (D), a noun should come. The clause ‘The Right to Information Act confers on ordinary citizen’ is meaningful. The phrase ‘to demand information’ is meaningful. Similarly, the phrase ‘even in matters affecting’ and the phrase ‘observed in his separate judgement’ are meaningful. Upon interchanging the words at positions (A) & (C), and (B) & (D) would yield a grammatically correct and contextually meaningful sentence. Hence, option (d) is the correct answer. ‘The Right to Information Act confers on ordinary citizens the ‘priceless right’ to demand information even in matters affecting national security and relations with a foreign state, Justice K.M. Joseph observed in his separate judgment.’"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q090",
@@ -2152,7 +2420,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The words at the positions (A), (B), (C) and (D) are correctly positioned and the sentence is already grammatically correct and contextually meaningful. So, interchange is required. Hence, option (e) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q091",
@@ -2180,7 +2452,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The erroneous phrase is part (B). Instead of ‘has’, ‘had’ should be present because when two past events are discussed, then the clause having ‘after’ should be in Past Perfect but Main Clause should be in Simple Past tense. Hence, option (b) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q092",
@@ -2208,7 +2484,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error in the sentence is in part (C), in the phrase \"turned in to be.\" The correct phrase is \"turned out to be.\" The correct sentence is: \"The book, which was recommended by my friend, turned out to be an engaging and thought-provoking read.\" The use of \"turned out to be\" is idiomatic and commonly used to indicate the result or outcome of a situation."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q093",
@@ -2236,7 +2516,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The erroneous phrase is part (D). Instead of ‘more’, ‘most’ should be used because when comparison is made between more than two persons or things, then we use Adjective of Superlative Degree. Hence, option (d) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q094",
@@ -2264,7 +2548,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In the last part of the sentence, “to flying” will be replaced by the word “from flying” because “Barred” here will take preposition “from”. All other parts of the sentence are correct. Hence, option (d) will be the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q095",
@@ -2292,7 +2580,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In the second part of the sentence, there is helping verb missing. So it should be followed by ‘is’. All other parts of the sentence are correct. Hence, option (b) will be the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q096",
@@ -2320,7 +2612,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "In the third part of the sentence, “attempt” will be replaced by the “attempted” because the complete sentence is in past tense. All other parts of the sentence are correct. Hence, option (c) will be the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q097",
@@ -2348,7 +2644,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, the option (a) ‘mistake’ correctly fits into the context of the sentence. She makes a mistake in her assumption. One cannot make obstacle or accuracy or dispute or problem while assuming something. One can make mistake while assuming something. Hence, option (a) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q098",
@@ -2376,7 +2676,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "One can brought his/her family to ‘travel’ around the globe. ‘Travel around the globe’ is a meaningful phrase while ‘deportation around the globe’ is not. Among the given options, the option (c) ‘travel’ correctly fits into the context of the sentence. Hence, option (c) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q099",
@@ -2404,7 +2708,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "‘Discretion’ means the freedom to decide what should be done in a particular situation. Discretion is used in deciding something. Among the given options, the word ‘discretion’ correctly fits into the context of the sentence. Hence, option (d) is the correct answer."
     },
     {
       "q_id": "sbi_clerk_2022_prelims_a2c059ce::q100",
@@ -2432,7 +2740,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "There can be opportunities for private organisations to run their own schools. The words ‘negligence’, ‘surveillance’, ‘supplies’ and ‘advocacy’ don’t gel well with the context of the sentence. Only ‘opportunities’ correctly fits into the context of the sentence. Hence, option (b) is the correct answer."
     }
   ]
 }

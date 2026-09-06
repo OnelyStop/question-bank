@@ -41,7 +41,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q002",
@@ -69,7 +72,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q003",
@@ -97,7 +103,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q004",
@@ -125,7 +134,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only statement (a) can be deduced from the given statement as by burning the coal the concentration of its particles is increased which lead to excessive amount of air pollution. But for others (b) and (e) can be assumed but cannot be deduced. While for (c) and (d) the amount of average rainfall and its consistency in not directly given in the statement. Solutions (5-9): Floor Flat-1 Flat-2 M (hibiscus) R (lavender) K (marigold) T (tulip) P (jasmine) Q (daisy) U (lily) S (lotus)"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q005",
@@ -153,7 +166,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q006",
@@ -181,7 +197,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q007",
@@ -209,7 +228,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q008",
@@ -237,7 +259,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q009",
@@ -265,7 +290,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "utions (10-12):"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q010",
@@ -293,7 +322,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q011",
@@ -321,7 +353,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q012",
@@ -349,7 +384,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q013",
@@ -377,7 +415,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "utions (14-18):"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q014",
@@ -405,7 +447,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q015",
@@ -433,7 +478,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q016",
@@ -461,7 +509,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q017",
@@ -489,7 +540,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q018",
@@ -517,7 +571,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q019",
@@ -545,7 +602,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I is an assumption. II is a suggestion but not a conclusion. Hence, neither I nor II follows."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q020",
@@ -573,7 +634,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Assumption I can be assumed from the given statement as the reason behind increase in funding can be the alarming challenge of climate change which require more focus and fund to deal with it. Assumption II can’t be assumed from the given statement as we can’t compare the problem of climate change with other global issues. Solutions (21-23):"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q021",
@@ -601,7 +666,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q022",
@@ -629,7 +697,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q023",
@@ -657,7 +728,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Solutions (24-28): Month Persons City January Z Udaipur February A Jaipur March S Bhopal April Q Pune May V Bangalore June B Raipur August D Chennai October L Mumbai"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q024",
@@ -685,7 +760,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q025",
@@ -713,7 +791,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q026",
@@ -741,7 +822,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q027",
@@ -769,7 +853,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q028",
@@ -797,7 +884,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q029",
@@ -825,7 +915,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q030",
@@ -853,7 +946,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Only statement (a) can be deduced from the given statement as by burning the coal the concentration of its particles is increased which lead to excessive amount of air pollution. But for others (b) and (e) can be assumed but cannot be deduced. While for (c) and (d) the amount of average rainfall and its consistency in not directly given in the statement."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q031",
@@ -881,7 +978,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "75312645 Solutions (32-36): Designation Persons Animal GM V Lion MD Q Ostrich DGM S Snack AGM P Zebra MG U Eagle AM W Tiger SO R Elephant CL T Giraffe"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q032",
@@ -909,7 +1010,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q033",
@@ -937,7 +1041,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q034",
@@ -965,7 +1072,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q035",
@@ -993,7 +1103,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q036",
@@ -1021,7 +1134,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "utions (37-39):"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q037",
@@ -1049,7 +1166,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q038",
@@ -1077,7 +1197,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q039",
@@ -1105,7 +1228,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q040",
@@ -1133,7 +1259,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "More lifts in city X than city Y could be due to the differences in the average heights of the buildings or the difference in the total number of houses of the two cities. So, neither I nor II can be concluded from given statement."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q041",
@@ -1161,7 +1291,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let quantity of mixture in each container i.e. A, B and C be 315 liter. Quantity of milk in container A = 5 × 315 = 126 liter Quantity of water in container A = 315 −126 = 189 liter Quantity of milk in container B = 7 × 315 = 135 liter Quantity of water in container B = 315 −135 = 180 liter Quantity of milk in container C = 9 × 315 = 140 liter Quantity of water in container C = 315 −140 = 175 liter Quantity I: Concentration of water in container Y = 189+180+175 315×3 × 100 ≈57% Quantity 2: Concentration of water in container X = 25% So, quantity I > quantity II"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q042",
@@ -1189,7 +1323,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Quantity 1: (p2 −p) = +ive (as p is negative) (q2 −q) = −ive (as 0 < q < 1, so q2 < q) Quantity 1: (+ive)(-ive) = -ive Quantity 2: (pq −p2) = −ive So, quantity 2: (-ive ) (-ive) =+ive So, quantity 2 > quantity 1"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q043",
@@ -1217,7 +1355,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "x2−b2 = ax −ab (x + b)(x −b) = 2a(x −b) x + b = 2a So, value of quantity 1 and quantity 2 cannot be determined."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q044",
@@ -1245,7 +1387,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Quantity 1: 50 −speed of train B = 60 × 50 −speed of train B = Speed of train B = 50 − = 5 = 36.8 kmph So, quantity 2 > quantity 1"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q045",
@@ -1273,7 +1419,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Quantity 1: x3 −2x2 −x + 2 = 0 x2(x −2) −1(x −2) = 0 (x2 −1)(x −2) = 0 (x + 1)(x −1)(x −2) = 0 x = −1, 1, 2 Quantity 2: a + 3 = 0 a = −3 So, quantity 1 > quantity 2"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q046",
@@ -1301,7 +1451,11 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Min. and max. value of p is 1 and 2 respectively. And min. and max. value of q is 2 and 3 respectively. Quantity 1: Min value = 22 + 2 × 1 × 2 = 8 Max value = 32 + 2 × 2 × 3 = 21 So, quantity 1: lies between 8 and 21. Quantity 2: Min value = 2{1 × 2(12 + 2 × 1 × 2) + 1} = 22 Max value = 2{2 × 3(22 + 2 × 2 × 3) + 1} = 194 So, quantity 2: lies between 22 and 194. So, quantity 2 > quantity 1"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q047",
@@ -1329,7 +1483,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let amount invested by Anu and Banu be 4a and 5a respectively. And further amount invested by Anu and Banu be y and x respectively. So, ratio of profit share of Banu and Anu = = 5a × 6 + (5a + x) × 6 ∶4a × 6 + (4a + y) × 6 = (10a + x)(8a + y) ATQ 10a+x 8a+y = 17 …(i) Also given that 5a + x = 4a + y y −x = a ….(ii) From (i) and (ii) x = 8a, y = 9a So, required percentage = 8a 5a × 100 = 160%"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q048",
@@ -1357,7 +1515,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let distance travelled by person in non-AC car be D km. ATQ (100 −D) × 7 + D × 3 = 340 700 −7D + 3D = 340 4D = 360 D = 90"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q049",
@@ -1385,7 +1547,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Area of rectangle = X(2X + 5) = 168 2X2 + 5X −168 = 0 2X2 −16X + 21X −168 = 0 2X(X −8) + 21(X −8) (2X + 21)(X −8) = 0 X = 8 So, AB = CD = 2 × 8 + 5 = 21 cm"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q050",
@@ -1413,7 +1579,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let total income of person be Rs.100a. Amount spent on books = 16a Amount spent on travelling = (100a −16a) × 7 = 48a Amount spent on tuition = 84a −48a = 36a ATQ 48a −36a = 602 a ≈50 So, approximate income = 100a ≈Rs. 5000"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q051",
@@ -1441,7 +1611,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of the given series: 60.75 × 3 = 40.5 40.5 × 3 = 27 27 × 3 = 18 18 × 3 = 12 12 × 3 = 8"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q052",
@@ -1469,7 +1643,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The pattern of the series is: 8 × 0.5 + 1 = 5 5 × 1 + 2 = 7 7 × 1.5 + 3 = 13.5 13.5 × 2 + 4 = 31 31 × 2.5 + 5 = 82.5"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q053",
@@ -1497,7 +1675,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The pattern of the series is: 209 −(13 + 1) = 207 207 + (23 + 2) = 217 217 −(33 + 3) = 187 187 + (43 + 4) = 255 255 −(53 + 5) = 125"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q054",
@@ -1525,7 +1707,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The pattern of the series is:"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q055",
@@ -1553,7 +1739,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The pattern of the series is: Sol (56-60): Shopkeeper Quantity of wheat (in kg) Sold Quantity (in kg) Unsold quantity (in kg) A 100 × 6000 = 1200 100 × 1200 = 900 B 42 −20 × 6000 = 1320 100 × 1320 = 924 C 57 −42 × 6000 = 900 100 × 900 = 225 D 82 −57 × 6000 = 1500 100 × 1500 = 225 E 100 −82 × 6000 = 1080 100 × 1080 = 540 Total"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q056",
@@ -1581,7 +1771,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 924−225 × 100 ≈311%"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q057",
@@ -1609,7 +1803,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total cost of wheat for shopkeeper F = 10 × 675 = Rs. 6750 Total selling price of wheat for shopkeeper F = 10 × 225 + 12 × 450 = Rs. 7650 So, required profit = 7650 −6750 = Rs. 900"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q058",
@@ -1637,7 +1835,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required average = = 637.2 kg"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q059",
@@ -1665,7 +1867,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total wheat sold by X = 924× 11 = 672 Total quantity of wheat available for shop X = 672 × 75 = 896 Required ratio = 392 : 896= 7 : 16"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q060",
@@ -1693,7 +1899,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 540−300 × 100 = 300 × 100 = 80% Sol (61-65): Total candidates got interview call in company A = 24 × 2 = 48 Total candidates got interview call in company B = 2x × 4 = 8x Total candidates got interview call in company C = x = x And, 8x −x = 7x = 105 x = 15 Let candidates applied in company C = 3a Candidates applied in company B = 12a Candidates applied in company A = 5a"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q061",
@@ -1721,7 +1931,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = = 8: 1"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q062",
@@ -1749,7 +1963,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required average = 48+120+15 = 3 = 61"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q063",
@@ -1777,7 +1995,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 12a−3a 3a × 100 = 300%"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q064",
@@ -1805,7 +2027,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total male candidates got interview call in company A = 4 = 12 Total female candidates got interview call in company A = 48 −12 = 36 As two candidates are selected for job and male and female candidates in are equal. So, number of male candidate and female candidates selected are 1 each. So, number of female candidates who did not got the job = 36 −1 = 35"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q065",
@@ -1833,7 +2059,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required % = 48+15 × 100 ≈190%"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q066",
@@ -1861,7 +2091,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Re applied students from 2016 = (450 −150) × 100 = 60 Students passed in 2017 = 75 × 3 = 50 New applicants in 2017, out of passed students = 50 × 100 = 48 Number of re applied students who passed in exam in 2017 = 50 −48 = 2 So, no. of re applied students who didn’t pass in exam in 2017 = 60 −2 = 58"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q067",
@@ -1889,7 +2123,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Number of students passed in subject A = 100 × 90 = 18 Number of students passed in subject B = 100 × 90 = 27 Number of students passed in subject C = 100 × 90 = 18 So, number of students who passed in exactly two subjects = 90 −18 −27 −18 −9 = 18"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q068",
@@ -1917,7 +2155,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required average = [(200−90)+(450−150)] = 205"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q069",
@@ -1945,7 +2187,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 200−90 = 1: 1"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q070",
@@ -1973,7 +2219,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total number of passed students in 2013 and 2014 together = 75 + 120 = 195 Total number of failed students in 2012 and 2015 together = (200 −90) + (150 −110) = 110 + 140 = 250 Required percentage = 250−195 × 100 = 22%"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q071",
@@ -2001,7 +2251,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "ATQ X × 41 = (X + 40)(41 −20) 41X = 21X + 840 X = 20 = 42"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q072",
@@ -2029,7 +2283,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A + 8 = 2B …. (i) C −6 = B … (ii) From (i) and (ii) A −2C = −20 …. (iii) A+4 C+6 = 8A + 32 = 9C + 54 8A −9C = 22 … (iv) From (iii) and (iv) C = 26 And A = 32, B = 20 So, required age = 20 −8 = 12 years"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q073",
@@ -2057,7 +2315,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let speed of train A and train B be 3x and 4x respectively. Let time taken by train B be ‘T’ min. ATQ 3x(T + 21) = 4x × T 3T + 63 = 4T T = 63 min So, time taken by train A = 63 + 21 = 84 min"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q074",
@@ -2085,7 +2347,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let length, breadth and height of room be l, b and h respectively. ATQ 2(lh + bh) = 128 2lh = 64 (l = h) l × 4 = 32 l = 8 So, area of floor = lb = 64 sq. m."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q075",
@@ -2113,7 +2379,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let cost price of pen for A is Rs.5x Selling price of pen for A = Cost price of pen for B = 5x × 100 = 6x Selling price of pen for B = Cost price of pen for C = 6x × 100 = 6.6x Selling price of pen for C = Cost price of pen for D = 6.6x × 3 = 8.8x ATQ 8.8x −6x = 280 x = 100 So, cost price of pen for C = 6.6x = Rs. 660"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q080",
@@ -2144,7 +2414,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. Multiply by 4x on both side 4x2 + 75 = 35x 4x2 −35x + 75 = 0 4x2 −20x −15x + 75 = 0 4x(x −5) −15(x −5) = 0 (x −5) (4x −15) = 0 x = 4 , 5 II. Multiply by 3y2 on both sides 3y2 + 96 = 34y 3y2 −34y + 96 = 0 3y2 −18y −16y + 96 = 0 3y(y −6) −16(y −6) = 0 (y −6) (3y −16) = 0 y = 3 , 6 So, x < y"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q081",
@@ -2171,7 +2445,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given statements, only (a) and (b) are correct. Hence, option (d) is the right answer choice. Refer to the starting lines of the first paragraph, “Electricity consumption has been growing rapidly in spite of serious supply constraints caused by delays in implementing new capacity additions, lower utilization of existing capacity due to maintenance problems, coal and oil availability, and drought conditions, which simultaneously reduced hydro energy availability and increased agricultural demand for lift irrigation.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q082",
@@ -2198,7 +2476,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given statements, only statement (b) is correct. Hence, option (b) is the right answer choice. Refer to the tenth line of the second paragraph, “Annual electricity consumption per capita serves as an important measure of a country’s electric power development.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q083",
@@ -2225,7 +2507,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "Among the given statements, only (a) and (b) are correct. While statement (c) is incorrect. Hence, option (e) is the right answer choice. Refer to the seventh line of the first paragraph, “Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q084",
@@ -2252,7 +2537,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given statements, only statement (a) is correct about the electricity consumption of the United Kingdom. Hence, option (a) is the right answer choice. Refer to the starting lines of the third paragraph, “The United Kingdom saw rising electricity consumption per capita between World War II and the mid-1970s, driven by faster economic growth. In the 1970s and 1980s when the economy slowed, per capita electricity consumption growth went down as well.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q085",
@@ -2280,7 +2569,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given words, ‘measure’ is the most appropriate word to fill in the blank (A). The concerned sentence also states that annual energy consumption per capita is a useful measure of a country's progress in terms of electric power development. Hence, option (c) is the right answer choice. (a) component- part or element of a larger whole, especially a part of a machine or vehicle. (b) factor- a circumstance, fact, or influence that contributes to a result. (c) measure- a standard unit used to express the size, amount, or degree of something. (d) impediment- a hindrance or obstruction in doing something. (e) trigger- cause (a device) to function."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q086",
@@ -2308,7 +2601,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the given words are appropriate in meaning to the word ‘IMPLEMENTING’. Hence, option (d) is the right answer choice. Implementing means putting a decision, plan, agreement, etc. into effect. (a) Executing- put (a plan, order, or course of action) into effect. (b) Applying- the act of putting something into operation.. (c) Enacting- put into practice (an idea or suggestion)."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q087",
@@ -2335,7 +2632,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options, both (a) and (b) are similar in meaning to the word ‘RECESSION’. Hence, option (d) is the right answer choice. A recession means a period of temporary economic decline during which trade and industrial activity are reduced. (a) Downturn- a decline in economic, business, or other activity. (b) Slump- a prolonged period of abnormally low economic activity, typically bringing widespread unemployment. (c) Escalation- a rapid increase; a rise."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q088",
@@ -2362,7 +2663,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2,
+      "explanation": "All of the given words are dissimilar in meaning to the word ‘SATURATION’. Hence, option (e) is the right answer choice. Saturation means holding as much moisture as possible. (a) Abolition- the action of abolishing a system, practice, or institution. (b) Demolish- pull or knock down (a building). (c) Proliferate- increase rapidly in number; multiply."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q089",
@@ -2390,7 +2694,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in statement (c). Here, ‘have’ should be replaced with ‘has’ to make the sentence grammatically correct. While the rest of the sentences are correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q090",
@@ -2418,7 +2726,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in the statement (d). Here, ‘not’ should be replaced with ‘nor’ to make the sentence grammatically correct. While the rest of the sentences are correct. Hence, option (d) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q091",
@@ -2446,7 +2758,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in statement (a). Here, ‘operate’ should be replaced with ‘operating’ to make the sentence grammatically correct. While the rest of the sentences are correct. Hence, option (a) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q092",
@@ -2474,7 +2790,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in statement (c). Here, ‘its’ should be replaced with ‘it’ to make the sentence grammatically correct. While the rest of the sentences are correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q093",
@@ -2502,7 +2822,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in statement (c). Here, ‘caters’ should be replaced with ‘cater’ to make the sentence grammatically correct because the sentence is talking about ‘Hospital libraries’ which is in plural form. While the rest of the sentences are correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q094",
@@ -2530,7 +2854,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the given sentences are grammatically and contextually correct. Hence, option (e) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q095",
@@ -2558,7 +2886,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error lies in statement (c). Here, ‘will providing’ should be replaced with ‘will be providing’ to make the sentence grammatically correct. While the rest of the sentences are correct. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q096",
@@ -2586,7 +2918,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (D) will be the introductory sentence as it best describes the theme of the paragraph. Now, statement (D) will be followed by statement (B) as it best describes the purpose of document signing. Statement (B) will be followed by statement (A) as it further adds to the previous statement. Now, statement (A) will be followed by statement (C) as it states that the document will serve as the most important tool for guiding bilateral collaboration. Now, statement (C) will be followed by statement (F) as it further states the importance of the document signed between the two countries. Finally, statement (E) will be the concluding sentence as highlighted in the question. Therefore, the correct rearrangement will be ‘DBACFE’."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q097",
@@ -2614,7 +2950,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (D) will be the introductory sentence as it best describes the theme of the paragraph. Now, statement (D) will be followed by statement (B) as it best describes the purpose of document signing. Statement (B) will be followed by statement (A) as it further adds to the previous statement. Now, statement (A) will be followed by statement (C) as it states that the document will serve as the most important tool for guiding bilateral collaboration. Now, statement (C) will be followed by statement (F) as it further states the importance of the document signed between the two countries. Finally, statement (E) will be the concluding sentence as highlighted in the question. Therefore, the correct rearrangement will be ‘DBACFE’."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q098",
@@ -2642,7 +2982,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (D) will be the introductory sentence as it best describes the theme of the paragraph. Now, statement (D) will be followed by statement (B) as it best describes the purpose of document signing. Statement (B) will be followed by statement (A) as it further adds to the previous statement. Now, statement (A) will be followed by statement (C) as it states that the document will serve as the most important tool for guiding bilateral collaboration. Now, statement (C) will be followed by statement (F) as it further states the importance of the document signed between the two countries. Finally, statement (E) will be the concluding sentence as highlighted in the question. Therefore, the correct rearrangement will be ‘DBACFE’."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q099",
@@ -2670,7 +3014,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (D) will be the introductory sentence as it best describes the theme of the paragraph. Now, statement (D) will be followed by statement (B) as it best describes the purpose of document signing. Statement (B) will be followed by statement (A) as it further adds to the previous statement. Now, statement (A) will be followed by statement (C) as it states that the document will serve as the most important tool for guiding bilateral collaboration. Now, statement (C) will be followed by statement (F) as it further states the importance of the document signed between the two countries. Finally, statement (E) will be the concluding sentence as highlighted in the question. Therefore, the correct rearrangement will be ‘DBACFE’."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q100",
@@ -2698,7 +3046,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Statement (D) will be the introductory sentence as it best describes the theme of the paragraph. Now, statement (D) will be followed by statement (B) as it best describes the purpose of document signing. Statement (B) will be followed by statement (A) as it further adds to the previous statement. Now, statement (A) will be followed by statement (C) as it states that the document will serve as the most important tool for guiding bilateral collaboration. Now, statement (C) will be followed by statement (F) as it further states the importance of the document signed between the two countries. Finally, statement (E) will be the concluding sentence as highlighted in the question. Therefore, the correct rearrangement will be ‘DBACFE’."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q101",
@@ -2726,7 +3078,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "By interchanging the word ‘parts’ with ‘movement’, the sentence becomes grammatically correct and contextually meaningful. Hence, option (e) is the right answer choice. The sentence thus formed will be: “Vehicular movement was disrupted on national and State highways in most parts of Punjab and Haryana.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q102",
@@ -2754,7 +3110,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "By interchanging the word ‘incentives’ with ‘provides’, the sentence becomes grammatically correct and contextually meaningful. Hence, option (c) is the right answer choice. The sentence thus formed will be: “PM-KUSUM is an initiative of the government which provides farmers with incentives to install solar power pumps and plants in their fields.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q103",
@@ -2782,7 +3142,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "By interchanging the word ‘allegedly’ with ‘arrested’, the sentence becomes grammatically correct and contextually meaningful. Hence, option (a) is the right answer choice. The sentence thus formed will be: “The Assam police have arrested two persons for allegedly inciting violence during the eviction drive near Sipajhar in Darrang district on September 23.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q104",
@@ -2810,7 +3174,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "All the highlighted words are placed in their correct positions. Therefore, no rearrangement is required. Hence, option (d) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q105",
@@ -2838,7 +3206,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "By interchanging the word ‘citizen’ with ‘under’, the sentence becomes grammatically correct and contextually meaningful. Hence, option (c) is the right answer choice. The sentence thus formed will be: “Prime Minister Narendra Modi launched the Ayushman Bharat Digital Mission under which every citizen would get a digital health ID and their health records would be digitally protected.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q106",
@@ -2866,7 +3238,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options ‘hit, blame’ can be filled up in the blanks in the sentence in the same sequence to make the sentence grammatically correct and meaningfully complete. Hence, option (b) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q107",
@@ -2894,7 +3270,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options ‘told, enumerated’ can be filled up in the blanks in the sentence in the same sequence to make the sentence grammatically correct and meaningfully complete. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q108",
@@ -2922,7 +3302,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options ‘aggressiveness, discussion’ can be filled up in the blanks in the sentence in the same sequence to make the sentence grammatically correct and meaningfully complete. Hence, option (e) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q109",
@@ -2950,7 +3334,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options ‘gave, complete’ can be filled up in the blanks in the sentence in the same sequence to make the sentence grammatically correct and meaningfully complete. Hence, option (a) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q110",
@@ -2978,7 +3366,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Among the given options ‘policies, needs’ can be filled up in the blanks in the sentence in the same sequence to make the sentence grammatically correct and meaningfully complete. Hence, option (b) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q111",
@@ -3006,7 +3398,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Chaos means complete disorder and confusion. Thus, both (i) and (iii) form a contextually and grammatically correct sentence. While in sentence (ii), ‘chaos’ will be replaced by ‘overhaul’ meaning a thorough examination of machinery or a system. Hence, option (d) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q112",
@@ -3034,7 +3430,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Fragile means (of an object) easily broken or damaged. Thus, both (i) and (ii) form a contextually and grammatically correct sentence. While in sentence (iii), ‘fragile’ will be replaced by ‘strong’. Hence, option (d) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q113",
@@ -3062,7 +3462,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Elude means escape from or avoid (a danger, enemy, or pursuer). Thus, only (i) forms a contextually and grammatically correct sentence. In sentence (ii), ‘elude’ will be replaced by ‘bargain’. In sentence (iii), ‘elude’ will be replaced by ‘turmoil’ meaning a state of great disturbance, confusion, or uncertainty. Hence, option (a) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q114",
@@ -3090,7 +3494,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Turmoil means a state of great disturbance, confusion, or uncertainty. Thus, both (i) and (ii) form a contextually and grammatically correct sentence. While in sentence (iii), ‘turmoil’ will be replaced by ‘happiness’. Hence, option (d) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q115",
@@ -3118,7 +3526,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Fierce means having or displaying an intense or ferocious aggressiveness. Thus, both (ii) and (iii) form a contextually and grammatically correct sentence. While in sentence (i), ‘fierce’ will be replaced by ‘discuss’. Hence, option (c) is the right answer choice."
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q116",
@@ -3146,7 +3558,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Option (c) is the correct choice. Statements (A) and (D) can be joined together using the conjunction “(iii)” which is ‘and’. Statements (C) and (F) can be combined using (i) which is ‘Only if’. Therefore, the sentences will be “India has nine of the 10 most polluted cities in the world, and India's air quality monitor density is still below that of many countries.” and “The Minister of Law and Justice claimed that our country can be made great only if we create a balance between fundamental duties and fundamental rights”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q117",
@@ -3174,7 +3590,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Option (a) is the correct choice. Statements (B) and (E) can be joined together using the conjunction “(i)” which is ‘despite’ therefore the sentence will be “The world's biggest asset manager BlackRock is positive on stocks despite equity indexes being at or close to their all-time highs and rates ready to rise as central banks”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q118",
@@ -3202,7 +3622,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Option (b) is the correct choice. Statements (A) and (E) can be joined together using the conjunction “(ii)” which is ‘therefore’. Statements (C) and (F) can be combined using (iii) which is ‘but’. Therefore, the sentences will be “The government lacks power to declare packaged drinking water as an essential article therefore its order fixing the price of bottled water at Rs 13 per litre was legally unsustainable.” And “The Serum Institute of India (SII) has said that it will be ready with vaccines for children in the next six months but so far, no approval has been forthcoming from the Drugs Controller General of India”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q119",
@@ -3230,7 +3654,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Option (d) is the correct choice. Statements (C) and (E) can be combined using (ii) which is ‘of the’. Therefore, the sentence will be “India’s per capita energy consumption is about one-third of the global average and one-twelfth of that of the U.S.A.”"
     },
     {
       "q_id": "ibps_rrb_2021_mains_e31b8754::q120",
@@ -3258,7 +3686,11 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Option (b) is the correct choice. Statements (A) and (E) can be joined together using the conjunction “(ii)” which is ‘consequently’ therefore the sentence will be, “The authors explored how different valuations of methane affect the ranking of mitigation policies in agriculture and, consequently the sector’s contribution to global warming”"
     }
   ]
 }

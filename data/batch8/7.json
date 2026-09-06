@@ -37,7 +37,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. B > R (True) II. V > A (True)"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q002",
@@ -65,7 +69,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. F > I (True) II. J ≥ E (False)"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q003",
@@ -93,7 +101,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. E < M (False) II. E>O (False)"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q004",
@@ -121,7 +133,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. E =G (False) II. G< E (False)"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q005",
@@ -149,7 +165,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. S < Q (False) II. X < S (True) Direction (6-10): Floors Persons K J I N H L G M"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q006",
@@ -177,7 +197,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q007",
@@ -205,7 +228,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q008",
@@ -233,7 +259,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q009",
@@ -261,7 +290,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q010",
@@ -289,7 +321,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q011",
@@ -317,7 +352,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Sathyarthi’s position from left end = 10th Sathyarthi’s position from right end = 17th Total number of children in the row = 10 + 17 – 1 = 26"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q012",
@@ -345,7 +384,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Raj started walking towards west."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q013",
@@ -373,7 +416,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "By using condition (iii) the code of WX6ZF1 will be ^®£@$∞."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q014",
@@ -401,7 +448,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The code of FE1XI6 will be $>^®µ£."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q015",
@@ -429,7 +480,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "By using condition (ii) the code of 5L2IA1 will be ∆!<µ&∆."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q016",
@@ -457,7 +512,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "By using condition (i) the code of E2ZA6 will be +<@&+."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q017",
@@ -485,7 +544,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "By using condition (i) the code of IZ2W2 will be +@<∞+. Direction (18-22):"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q018",
@@ -513,7 +576,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q019",
@@ -541,7 +607,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q020",
@@ -569,7 +638,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q021",
@@ -597,7 +669,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q022",
@@ -625,7 +700,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q023",
@@ -653,7 +731,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "So, the odd one out will be MNO."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q024",
@@ -681,7 +763,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "More than three"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q025",
@@ -709,7 +795,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "8"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q026",
@@ -737,7 +827,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "0"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q027",
@@ -765,7 +859,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "4"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q028",
@@ -793,7 +891,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Five"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q029",
@@ -821,7 +923,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q030",
@@ -849,7 +954,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q031",
@@ -877,7 +985,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q032",
@@ -905,7 +1016,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "REASONING ABILITY"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q033",
@@ -933,7 +1048,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q034",
@@ -961,7 +1079,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Order_Ranking"
+      "topic": "Order_Ranking",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SAD"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q035",
@@ -989,7 +1111,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "TWO"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q036",
@@ -1017,7 +1143,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "None"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q037",
@@ -1045,7 +1175,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "WON, TAR"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q038",
@@ -1073,7 +1207,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "One"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q039",
@@ -1101,7 +1239,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "1"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q040",
@@ -1129,7 +1271,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Three- RS, HI, and PS"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q041",
@@ -1157,7 +1303,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Cost price = 110× 115× 125 ×1265=Rs. 800"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q042",
@@ -1185,7 +1335,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "In one hour, 6 of the cistern can be filled In one hour, only 7 of the cistern can be filled due to leak in its bottom ∴ In one hour 6 − 7 = 42 of the cistern is empty ∴ The whole cistern will be emptied in 42 hrs"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q043",
@@ -1213,7 +1367,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Computer",
-      "topic": "Computer_Basics"
+      "topic": "Computer_Basics",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let D be the required distance So, 𝐷 3 − 𝐷 4 = 15+15 Or, D = 6 km"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q044",
@@ -1241,7 +1399,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let, M = 3K, W = 2K ∴ 3K + 2K = 45 ⇒ K = 9 ⇒ Milk = 27 litres and water = 18 litres Now suppose x litres of water is added to the mixture such that 18+𝑥= 11 ⇒162 + 9𝑥= 297 ⇒9𝑥= 135 ⇒𝑥= 15"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q045",
@@ -1269,7 +1431,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the speed of the current be x Km/h and speed of the person in still water be y km/h. ∴ y + x = 8 y – x = 6 ⇒ y = 7, x = 1 ∴ Speed of the current = 1 Km/h."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q046",
@@ -1297,7 +1463,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let the father’s age be x years and age of his children be a and b years ∴ (𝑎+ 𝑏) = 𝑥 And (𝑎+ 𝑏) + 20 + 20 = 𝑥+ 20 ⇒ 𝑥 3 + 20 = 𝑥 ⇒𝑥= 30 years"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q047",
@@ -1325,7 +1495,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Simple interest for 1 year = = 𝑅𝑠 1700 1% of sum = 1700 ∴ sum = 1700×100 = 𝑅𝑠 170000"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q048",
@@ -1353,7 +1527,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "One principal can be appointed in 36 days One vice-principal appointed in remaining 35 ways ∴ Total no. of ways = 36 × 35 = 1260."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q049",
@@ -1381,7 +1559,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "∴ Required probability = 13𝐶2+ 13𝐶2 52𝐶2 = 78+78 1326 = 1326 = Alternately, Required probability = 52 × 51 + 52 × = 2 × 52 × 51 ="
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q050",
@@ -1409,7 +1591,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let, P be the sum. ∴ 16632 = 𝑃(1 + 100) (1 + 100) (1 + 100) Or, 16632 = 𝑃× 20 × 10 × Or, P = Rs.12,000"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q051",
@@ -1437,7 +1623,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required difference = (40 + 80) – (12 + 58) = 120 – 70 = 50"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q052",
@@ -1465,7 +1655,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required ratio= 92+98 13+47 = 60 = 19 ∶6."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q053",
@@ -1493,7 +1687,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Required percentage = 48+12 × 100 = 15 × 100 = 400%"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q054",
@@ -1521,7 +1719,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Average= 27+15+60 = 3 = 34."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q055",
@@ -1549,7 +1751,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Windows phones sold by P on Thursday = 7 × 28 =12 QUANTITATIVE APTITUDE"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q056",
@@ -1577,7 +1783,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "100 of 600 + ? 100 of 480 = 390 ⇒270 + 4.8 ×? = 390 ∴? = 390−270 4.8 = 25"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q057",
@@ -1605,7 +1815,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = 3 + 6 − 9 = 84+129−94 = 18 = 6"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q058",
@@ -1633,7 +1847,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "100 of 240 + ? 100 of 150 = 210 ⇒156 + 1.5 ×? = 210 ∴ ?= 210−156 1.5 = 36"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q059",
@@ -1661,7 +1879,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = 3 of 5 of 100 of 540 = 7 × 54 = 378"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q060",
@@ -1689,7 +1911,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = 555.05 + 55.50 + 5.55 + 5 + 0.55 = 621.65"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q061",
@@ -1717,7 +1943,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = 1425 + 8560 + 1680 ÷ 200 = 1425 + 8560 + = 9985 + 8.4 = 9993.4"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q062",
@@ -1745,7 +1975,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "800×? 100 = 293 − 750×22 ⇒8 × ? = 293 −165 = 128 ⇒ ?= 8 = 16"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q063",
@@ -1773,7 +2007,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "250 × 25.6 100 + √? = 119 ⇒64 + √?= 119 ⇒√? = 119 −64 = 55 ⇒ ?= 55 × 55 = 3025"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q064",
@@ -1801,7 +2039,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "4 + 6 −5 − 9 =? −2 − 3 + ⇒ ?= 4 −5 + 2 + ( 6 − 9 + 3 − 18) ⇒1 + ( 15−10+6−11 ) = 1 + 0 = 1"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q065",
@@ -1829,7 +2071,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = [ 100 × {( 100 × 850) ÷ 34}] = [ 100 × {680 ÷ 34}] = [ 100 × 20] = 6"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q066",
@@ -1857,7 +2103,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Sides of a triangle are in ratio 2 ∶ 3 ∶ 4, i.e., 6 : 4 : 3. Let the sides be 6K, 4K and 3K, respectively. ∴ 13K = 52 ⇒ K = 4 ∴ Sides of the triangle are 24 cm, 16 cm and 12 cm, respectively."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q067",
@@ -1885,7 +2135,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "A = B + 25% of B ⇒𝐴= 𝐵+ 𝐵 4 = 5𝐵 ⇒𝐵= 5 𝐴= 𝐴− 5 𝐴= 𝐴−20% 𝑜𝑓 𝐴"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q068",
@@ -1913,7 +2167,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "12 2 % = 𝑅𝑠 22.50 ⇒ C.P. = Rs 180."
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q069",
@@ -1941,7 +2199,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Suppose x = original number of men in the group ∴ (x- 12) men did the job in 32 days ∴ 20x = 32(x – 12) i.e., x = 32"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q070",
@@ -1969,7 +2231,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let, the quantity of liquid P and Q be 5x and 3x litres respectively. Quantity of P removed = 5+3 × 16 = 10 litres Quantity of Q removed = 5+3 × 16 = 6 litres Now, 5𝑥−10 3𝑥−6+16 = ⇒25𝑥−50 = 9𝑥+ 30 ⇒16𝑥= 80 ⇒𝑥= 5 ∴ Quantity that vessel hold = 8 ×5 = 40 litres"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q071",
@@ -1997,7 +2263,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "100 𝑜𝑓 250 + √?= 165 ⇒125 + √?= 165 ⇒√? = 40 ∴ ?= (40)2 = 1600"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q072",
@@ -2025,7 +2295,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "100 𝑜𝑓 56 + 100 𝑜𝑓 140 = 78.4 + 78.4 = 156.8"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q073",
@@ -2053,7 +2327,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "? = 1 4 + 1 9 × 1 8 ÷ 6 2 = 4 + 9 × 8 ÷ = 4 + 9 × 8 × = 4 + 18 = 45+14 = 36 = 1"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q074",
@@ -2081,7 +2359,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "999.09 + 99.90 + 9.99 + 9 + 0.99 = 1118.97"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q075",
@@ -2109,7 +2391,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "100 × [{( 100 × 40) −10}] % of 500 = ? 5 × [{88 −10}]% of 500 = ? 5 × 100 × 500 = ? ? = 78"
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q076",
@@ -2137,7 +2423,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q077",
@@ -2165,7 +2454,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q078",
@@ -2193,7 +2485,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q079",
@@ -2221,7 +2516,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_rrb_2017_prelims_7a4cca02::q080",
@@ -2249,7 +2547,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     }
   ]
 }

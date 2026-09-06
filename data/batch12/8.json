@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q005",
@@ -149,7 +161,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (6-10):"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q006",
@@ -177,7 +193,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q007",
@@ -205,7 +224,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q008",
@@ -233,7 +255,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q009",
@@ -261,7 +286,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q010",
@@ -289,7 +317,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (11-15) :"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q011",
@@ -317,7 +349,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Since the first letter is vowel and the last letter is consonant, so both are to be coded as code of consonant i.e. of B which is *."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q012",
@@ -345,7 +381,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Since first and last letters are consonants and in between there are two vowels, so both the vowels are to be coded as 8. So the code is7$8882."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q013",
@@ -373,7 +413,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Explanation: Converting the letters into symbols the code is, D K P R T B % 6 5 2 $ *"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q014",
@@ -401,7 +445,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Explanation: Since 1st and last letters are vowels, so both are to be coded as +. So the code is +5#$2+"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q015",
@@ -429,7 +477,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Explanation: Since 1st letter is a consonant and last is a vowel, so their codes are to be interchanged. So the code for HLEKBI is 13@6*9. Direction (16-20): Will → ka Meet → ja Us → lu You → hu Today → la temperature → ju the → fu of → na maximum → fa"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q016",
@@ -457,7 +509,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q017",
@@ -485,7 +540,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q018",
@@ -513,7 +571,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q019",
@@ -541,7 +602,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q020",
@@ -569,7 +633,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (21-25): © → < @ → ≤ % → > $ → ≥  → ="
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q021",
@@ -597,7 +665,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝐵< 𝑇= 𝑀> 𝐹 B<M (True) B<F (False)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q022",
@@ -625,7 +697,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝑀= 𝑅> 𝑇≥𝐾 K≤𝑀(False) K<M(True)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q023",
@@ -653,7 +729,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝑊< 𝐷≤𝐻= 𝑁 N≥𝐷(𝑇𝑟𝑢𝑒) W<N(True)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q024",
@@ -681,7 +761,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝑊≤𝐷≥𝑅< 𝐾 R=W(False) R>W(False)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q025",
@@ -709,7 +793,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝐹≥𝐽> 𝑉< 𝑁 N≥𝐹(𝐹𝑎𝑙𝑠𝑒) N>J(False)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q026",
@@ -737,7 +825,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Data_Sufficiency_Quant"
+      "topic": "Data_Sufficiency_Quant",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From statement I and II both :"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q027",
@@ -765,7 +857,11 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I: P is mother in law of R. or mother of R. or From II: P is father of R. REASONING ABILITY"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q028",
@@ -793,7 +889,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q029",
@@ -821,7 +920,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q030",
@@ -849,7 +951,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total 37 persons sitting in a row. Direction (31-35): Boys USPRQT Girls FEADBC"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q031",
@@ -877,7 +983,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q032",
@@ -905,7 +1014,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q033",
@@ -933,7 +1045,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q034",
@@ -961,7 +1076,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q035",
@@ -989,7 +1107,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (36-37): 36. (a)"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q036",
@@ -1017,7 +1139,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q037",
@@ -1045,7 +1170,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "16+8+0+2+1=27 Direction (38-40):"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q038",
@@ -1073,7 +1202,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q039",
@@ -1101,7 +1233,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q040",
@@ -1129,7 +1264,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (41-45): Input: Kite 19 54 Give 31 Right 72 87 Dream Ace. Step1: Ace Kite 19 54 Give 31 Right 72 Dream 87. Step2: Dream Ace Kite 19 54 Give 31 Right 87 72. Step3: Give Dream Ace Kite 19 31 Right 87 72 54. Step4: Kite Give Dream Ace 19 Right 87 72 54 31. Step5: Right Kite Give Dream Ace 87 72 54 31 19. ‘Step-5’ is the final step of this input."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q041",
@@ -1157,7 +1296,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q042",
@@ -1185,7 +1327,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q043",
@@ -1213,7 +1358,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q044",
@@ -1241,7 +1389,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q045",
@@ -1269,7 +1420,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Input_Output"
+      "topic": "Input_Output",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Direction (46-50): Height→ R>Q>S>V>T>P Weight→ S>P>R>Q>T>V"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q046",
@@ -1297,7 +1452,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q047",
@@ -1325,7 +1483,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q048",
@@ -1353,7 +1514,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q049",
@@ -1381,7 +1545,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q050",
@@ -1409,7 +1576,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q051",
@@ -1437,7 +1607,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern is — ∴ ? = 286"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q052",
@@ -1465,7 +1639,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "∴ ? = 36.6"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q053",
@@ -1493,7 +1671,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern is 5 × 1 – 1 = 4 4 × 2 – 2 = 6 6 × 3 – 3 = 15 15 × 4 – 4 = 56 56 × 5 – 5 = 275"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q054",
@@ -1521,7 +1703,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern is — ∴ ? = 252"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q055",
@@ -1549,7 +1735,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Pattern is, 5 × 1 – 2 = 3 3 × 2 – 2 = 4 4 × 3 – 2 = 10 10 × 4 – 2 = 38 ⇒ ? = 10"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q056",
@@ -1577,7 +1767,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let speed of stream be x km/hr. ∴ speed of boat in still water is 3x km/hr ∴ ATQ, 3𝑥+𝑥+ 3𝑥 –𝑥= 6 4𝑥+ 2𝑥= 6 ⇒ 𝑥+ 𝑥= 6 𝑥= 6 = 3 𝑘𝑚ℎ𝑟 ⁄ ∴ Speed of boat in still water = 9 km/hr"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q057",
@@ -1605,7 +1799,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "QUANTITATIVE APTITUDE ∴ 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑 𝑐𝑜𝑠𝑡= [112 × 78 – 107 × 73] × 2 = 𝑅𝑠. 1850"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q058",
@@ -1633,7 +1831,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Length of BD by pythagores theorem 𝐵𝐷= √82 + 62 = √64 + 36 = 10 ∴ Length of BC = √(24)2 + (10)2 = √576 + 100 = √676 = 26"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q059",
@@ -1661,7 +1863,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let radius of circle be r meter ∴ 2πr = 44 2 × 7 × 𝑟= 44 r = 7cm ∴ BC = 14 m ∴ AB = AC = 7 √2 m ∴ Area of ∆ABC = 2 × 7√2 × 7√2 = 49 𝑚2"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q060",
@@ -1689,7 +1895,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Radius of bigger semicircle = 14 & radius of smaller semicircle = 7 ∴ Required area = 2 [𝜋(14)2– 2 × 𝜋(7)2] = 2 [196𝜋– 98𝜋] = 2 × 98𝜋= 154"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q061",
@@ -1717,7 +1927,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "There are four cases → 3R, (1R, 2G), (2R, 1G), 3G ∴ Required probability = 𝐶3 + 𝐶1 × 𝐶2 + 𝐶2 × 𝐶1 + 𝐶3 𝐶3 = 4+4×15+6×6+20 91×5 = 4+60+36+20 91×5 = 91×5 ="
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q062",
@@ -1745,7 +1959,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "4x + 7y = 42 …(i) 3x – 11y = – 1 …(ii) Multiplying (i) by 3 and (ii) by 4 12x + 21y = 126 …(iii) 12x – 44y = – 4 …(iv) Solving (iii) & (iv) x = 7 & y = 2 ∴ x > y"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q063",
@@ -1773,7 +1991,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. 9x² – 29x + 22 = 0 9x² – 18x – 11x + 22 = 0 9x (x – 2) – 11 (x – 2) = 0 ∴𝑥= 2 𝑜𝑟 II. y² –7y + 12 = 0 y² – 3y – 4y + 12 = 0 y (y – 3) – 4 (y – 3) = 0 y = 3, 4 ∴ y > x"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q064",
@@ -1801,7 +2023,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. 3x² – 12x + 8x – 32 = 0 3x (x – 4) + 8 (x – 4) = 0 ∴𝑥= 4, –8 II. 2y² – 17y + 36 = 0 2y² – 9y – 8y + 36 = 0 y (2y – 9) – 4 (2y – 9) = 0 ∴𝑦= 4, ∴ y ≥ x"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q065",
@@ -1829,7 +2055,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. 3x² – 19x – 14 = 0 3x² – 21x + 2x – 14 = 0 3x (x – 7) + 2 (x – 7) = 0 ∴𝑥= 7 𝑜𝑟 –2 II. 2y² + 5y + 3 = 0 2y² +2y + 3y + 3 = 0 2y (y + 1) + 3 (y + 1) = 0 𝑦= – 1 𝑜𝑟 –3 ∴ x > y"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q066",
@@ -1857,7 +2087,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "I. x² + 2 × 7 × x + (7)² = 0 ∴ (x + 7)² = 0 ∴ x = – 7 II. y (y + 9) = 0 ∴ y = 0 or –9 ∴ No relation."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q067",
@@ -1885,7 +2119,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Average salary = 1000×43000 = 26875"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q068",
@@ -1913,7 +2151,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Number of employees in : PNB = 1600 OBC = 1700 SBI = 2100"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q069",
@@ -1941,7 +2183,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required ratio = 15000×600 : 35000 × 900 = 2 : 7"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q070",
@@ -1969,7 +2215,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required percentage = 600 × 100 = 66 3 %"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q071",
@@ -1997,7 +2247,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required percentage = 20000×900 25000×800 × 100 = 90%"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q072",
@@ -2025,7 +2279,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required No. = 280+354+343+535+433 = 389"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q073",
@@ -2053,7 +2311,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required difference = (235 + 567) −134 = 668"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q074",
@@ -2081,7 +2343,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required % = 320+346+436 255+343+545+546+453 × 100 = 2142 × 100 ≈51%"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q075",
@@ -2109,7 +2375,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required animals = 100 × (411 + 535 + 534) = 962"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q076",
@@ -2137,7 +2407,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Required No. of lions = 4 (135 + 325 + 345 + 267) = 804"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q077",
@@ -2165,7 +2439,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let their salaries be 100, 300 and 400 Their new salaries = 105 ∶330 ∶460 = 21 ∶66 ∶92"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q078",
@@ -2193,7 +2471,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Work done by the third pipe in min. = (1/50) – [(1/60) + (1/75)] = [(1/50) (3/100)] = (1/100) ∴The third pipe can alone fill the tank in 100 minutes."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q079",
@@ -2221,7 +2503,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both the statements together is not sufficient."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q080",
@@ -2249,7 +2535,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Both statements alone is sufficient. Let age of A is x and age of B is y. ∴ 3x = y ... (i) From statement I: x y + = + ... (ii) Solving equations (i) and (ii), x = 20, y = 60 From statement II: = x y − = − =>5x – 50 = y – 10 =>5x – y = 40 (iii) From equations (i) and (iii), x = 20, y = 60"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q081",
@@ -2277,7 +2567,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let length the train be x. From statement I: Speed = x From statement II: Speed = x + Solving this, x = 400 = 100 meter"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q082",
@@ -2305,7 +2599,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "From I and II we find a + b = 2z we can not find a + b from I and II together."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q083",
@@ -2333,7 +2631,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let age of A, B and C be x year, y year and z year respectively Data is not sufficient. From statement I: x = 80 z  From statement II: y = 60 z  From these two equations x y = but cannot find x and y separately."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q084",
@@ -2361,7 +2663,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let the present age of Ranjana and Rakhi be 15x and 17x 15𝑥+ 6 17𝑥+ 6 = 9 x = 2 ∴ Age of Ranjana after 6 years = 15 × 2 + 6 =36 years."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q085",
@@ -2389,7 +2695,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "S.I. =7200 R= 𝑆.𝐼×100 𝑃×𝑇 = 7200×100 20,000×3 = 12% C.I = 20000[(1+ 100)3 −1] = 8098.56"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q086",
@@ -2417,7 +2727,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Here volume of water emptied by the second pipe will be 4 times to that of first Hence, Time take will be 1/4 of the first pipe. When both the pipes are open the part of the tank emptied in 1 minute= 1/8 Hence the tank will be emptied in 8 minutes."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q087",
@@ -2445,7 +2759,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Total CP = 2000 + 750 = 2750 Total 𝑆𝑃= 100 × 2000 + 100 × 750 = 2400 + 712.5 = 3112.5 ∴ Total gain = 3112.5 – 2750 = 362.5 Rs."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q088",
@@ -2473,7 +2791,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let Man = 𝑥 Woman = 2𝑥 ∴ 𝑥+ 2𝑥= 2𝑥= 𝑥= 60 ∴ Man = 60, woman = 120 Required No. of days = 60+ 8 = 2×120 3(16) = 5 days"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q089",
@@ -2501,7 +2823,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let their investment be 𝑥, 2𝑥 and 4𝑥 ∴ A →6𝑥+ 6 × (𝑥+ 𝑥 2) = 6𝑥+ 9𝑥= 15𝑥 𝐵 →6 × 2𝑥+ 6 × 4𝑥= 36𝑥 𝐶→6 × 4𝑥+ 6 × (4𝑥− 4 × 4𝑥) = 24𝑥+ 18𝑥= 42 𝑥 ∴ Required Ratio = 15 : 36 : 42 = 5 ∶12 ∶14"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q090",
@@ -2529,7 +2855,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Number of questions attempted correctly = 70% of 10 + 50% of 30 + 60% of 45 = 7 + 15 + 27 = 49 Passing grade = (60/100 )* 85 = 51 Reqd. Ans = 51 - 49 = 2"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q091",
@@ -2557,7 +2887,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Age of new man = 28 + 28 = 56 years"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q092",
@@ -2585,7 +2919,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "11% → 5236 1% →476 ∴(11 + 19 + 7) = 37% →17612 Rs."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q093",
@@ -2613,7 +2951,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Probability = 2𝑐1×3𝑐2+2𝑐2×3𝐶1 5𝑐3 = 2×3+1×3 ="
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q094",
@@ -2641,7 +2983,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "𝐵= 12−1 = 5−3 B = 30 days ∴ Required No. of days = 20+ 1 = 4 = 15 days"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q095",
@@ -2669,7 +3015,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "132×5 = 100+165 𝑡 𝑡= 275×18 132×5 𝑡= 7.5 seconds"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q096",
@@ -2697,7 +3047,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "3𝑥 12𝑥+3 = 3𝑥 15𝑥 ∴ New ratio = 1 : 5 ∴ Required % = 6 × 100% = 3 % = 16 3 %"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q097",
@@ -2725,7 +3079,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Let B turned off after T min 2T+3× 20 = 90 T=15 min"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q098",
@@ -2753,7 +3111,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "(2𝑀+ 3𝐵)10 = (3𝑀+ 2𝐵)𝐵 20𝑀+ 30𝐵= 24𝑀+ 16𝐵 2𝑀= 7𝐵 ∴10𝐵= 10 days ∴𝐵= 100 days ∴2𝑀+ 1𝐵= 7𝐵+ 𝐵 = 8𝐵 = 100 = ∴ Required No. of days = 12 2 days"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q099",
@@ -2781,7 +3143,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Ratio of their speeds = √ 5 ∶√ ∴√ 5 →14 ∴√ 7 → √28 × √5 × √20 √7 = 2√7 × √5 × 2√5 √7 = 14×5 7 = 10 kmph"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q100",
@@ -2809,7 +3175,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Area = 2𝑥2 m2 ∴2𝑥2 × 2 = 256 𝑥2 = 64 𝑥= 8 ∴ Required length = 2 × 8 = 16 m"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q101",
@@ -2837,7 +3207,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q102",
@@ -2865,7 +3238,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q103",
@@ -2893,7 +3269,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q104",
@@ -2921,7 +3300,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q105",
@@ -2949,7 +3331,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q106",
@@ -2977,7 +3362,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q107",
@@ -3005,7 +3393,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q108",
@@ -3033,7 +3424,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q109",
@@ -3061,7 +3455,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q110",
@@ -3089,7 +3486,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q111",
@@ -3117,7 +3517,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q112",
@@ -3145,7 +3548,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q113",
@@ -3173,7 +3579,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q114",
@@ -3201,7 +3610,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q115",
@@ -3229,7 +3641,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q116",
@@ -3257,7 +3672,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q117",
@@ -3285,7 +3703,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "’Earn a decent living’ is the only suitable syntax to be used. It means ‘to earn well’ that fulfils the sentence’s context."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q118",
@@ -3313,7 +3735,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "After ‘to’ we should use ‘V1’ to show purpose."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q119",
@@ -3341,7 +3767,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘Disowning’ is the improper usage. We have to use ‘disown’ here so that syntax gets correct"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q120",
@@ -3369,7 +3799,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "‘Art’ is singular subject, so it should agree with a singular verb. Hence, ‘requires’ is suitable expression."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q121",
@@ -3397,7 +3831,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "To express the subjunctive mood. Auxiliary ‘were’ is used in the sentence."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q122",
@@ -3425,7 +3863,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Accost means to approach someone with an allegation or blame, so 3rd option is the most appropriate one."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q123",
@@ -3453,7 +3895,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "Harmful-not good for health, so 3rd option is most appropriate one"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q124",
@@ -3481,7 +3927,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "downturns means- a decline in economic, knell means -the sound of a bell"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q125",
@@ -3509,7 +3959,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "survived means- continue to live or exist, unscathed means- without suffering any injury, damage, or harm."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q126",
@@ -3537,7 +3991,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "downturn, out “dole out” is the correct phrase which means to help someone with money and gifts."
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q127",
@@ -3565,7 +4023,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q128",
@@ -3593,7 +4054,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q129",
@@ -3621,7 +4085,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q130",
@@ -3649,7 +4116,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q131",
@@ -3677,7 +4147,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q132",
@@ -3705,7 +4178,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q133",
@@ -3733,7 +4209,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q134",
@@ -3761,7 +4240,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q135",
@@ -3789,7 +4271,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q136",
@@ -3817,7 +4302,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "For questions (136-140) THE CORRECT SEQUENCE IS ECADBFG"
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q137",
@@ -3845,7 +4334,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q138",
@@ -3873,7 +4365,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q139",
@@ -3901,7 +4396,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.85
     },
     {
       "q_id": "sbi_clerk_2016_mains_aa76e853::q140",
@@ -3929,7 +4427,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "e",
+      "answer_source": "solutions_pdf:SBI-Clerk-Mains-2016-Solutions.pdf",
+      "answer_confidence": 0.87,
+      "explanation": "ENGLISH LANGUAGE"
     }
   ]
 }

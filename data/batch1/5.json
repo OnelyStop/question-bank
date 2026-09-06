@@ -32,7 +32,11 @@
       "question_pattern": "partial_or_missing_options",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "This argument is based on the assumption that if the appliances become more efficient, then more homes would not be tempted to increase their utility/consumption in the household. Direction (2-6):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q002",
@@ -60,7 +64,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "@T5 #H5 *E4 %D6"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q003",
@@ -88,7 +96,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "@Y7"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q004",
@@ -116,7 +128,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "*A3 %E4 @R5 #E4"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q005",
@@ -144,7 +160,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "@N5 #S6 *S5 %M4"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q006",
@@ -172,7 +192,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "%M7 @D4 Direction (7-11):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q007",
@@ -200,7 +224,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q008",
@@ -228,7 +255,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q009",
@@ -256,7 +286,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q010",
@@ -284,7 +317,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q011",
@@ -312,7 +348,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (12-13):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q012",
@@ -340,7 +380,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q013",
@@ -368,7 +411,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q014",
@@ -396,7 +442,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Such strict actions of Delhi government made private hospitals to serve their services to poor people. So I is implicit. But nothing is mentioned about central government in the statement II also it is a course of action, So, II is not implicit. According to statement Delhi Govt. wanted to provide medical facilities for indigent patients. So we can assume that there is need for the govt. to monitor and enforce health services to the needy person."
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q015",
@@ -424,7 +474,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Statement II is a valid assumption as tetracycline is produced by a bacterium which is found in Nubian soil and the bacterium can develop on the grain which is used in making bread & beer.so tetracycline is formed through the process of making of bread & beer. Statement I is not valid because nothing is said in the passage about the disease other than typhus. Statement III is also not valid because Typhus is a disease and the statement talks about the contamination of a disease by another disease which is wrong in the context of this passage. Statement IV & V is invalid as No information is given in the passage that bread & beer were their only items in the diet and also about Typhus is fatal."
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q016",
@@ -452,7 +506,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Only II is strong argument because it clearly explains the freedom which is given to a person to take decisions about his life. So it gives a valid reason. Argument I is a weak statement because of the ‘only’ word used in the statement. Messi can prove himself by all other ways also. Argument III is also a weak Statement because there is a comparison between the position of Messi as a player of Argentina and the position of Messi as a player of Barcelona club. Direction (17-21):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q017",
@@ -480,7 +538,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Flat→ Floor↓ Flat 1 Flat 2 Flat 3 Floor 4 Z ⊠ Y Floor 3 J K G Floor 2 I ⊠ W Floor 1 L X H"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q018",
@@ -508,7 +570,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Flat→ Floor↓ Flat 1 Flat 2 Flat 3 Floor 4 Z ⊠ Y Floor 3 J K G Floor 2 I ⊠ W Floor 1 L X H"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q019",
@@ -536,7 +602,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Flat→ Floor↓ Flat 1 Flat 2 Flat 3 Floor 4 Z ⊠ Y Floor 3 J K G Floor 2 I ⊠ W Floor 1 L X H"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q020",
@@ -564,7 +634,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Flat→ Floor↓ Flat 1 Flat 2 Flat 3 Floor 4 Z ⊠ Y Floor 3 J K G Floor 2 I ⊠ W Floor 1 L X H"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q021",
@@ -592,7 +666,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Flat→ Floor↓ Flat 1 Flat 2 Flat 3 Floor 4 Z ⊠ Y Floor 3 J K G Floor 2 I ⊠ W Floor 1 L X H Directions (22-24):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q022",
@@ -620,7 +698,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q023",
@@ -648,7 +729,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q024",
@@ -676,7 +760,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (25-29):"
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q025",
@@ -704,7 +792,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q026",
@@ -732,7 +823,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q027",
@@ -760,7 +854,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q028",
@@ -788,7 +885,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q029",
@@ -816,7 +916,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "ibps_po_2016_mains_62864114::q030",
@@ -844,7 +947,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Govt. promulgate about subsidies and benefits to give benefit to untouched portion of ourPopulation."
     }
   ]
 }

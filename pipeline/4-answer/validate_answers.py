@@ -32,6 +32,15 @@ ROOT = Path(__file__).resolve().parent
 log = logging.getLogger("validate_answers")
 
 
+def source_pdf_path(paper: dict[str, Any]) -> str | None:
+    """Read the source path from both current and legacy paper shapes."""
+    source = paper.get("source")
+    if isinstance(source, dict):
+        value = source.get("pdf_path")
+        return str(value) if value else None
+    value = paper.get("source_pdf")
+    return str(value) if value else None
+
 
 
 
@@ -147,7 +156,7 @@ def validate_and_quarantine(
                             "q_num": q.get("q_num"),
                             "answer": ans,
                             "option_keys": sorted(opts.keys()),
-                            "pdf_path": (paper.get("source") or {}).get("pdf_path"),
+                            "pdf_path": source_pdf_path(paper),
                         }
                     )
                     if quarantine:
@@ -171,7 +180,7 @@ def validate_and_quarantine(
                             "stem": stem[:200],
                             "answer": ans,
                             "options": json.dumps(opts, ensure_ascii=False),
-                            "pdf_path": (paper.get("source") or {}).get("pdf_path"),
+                            "pdf_path": source_pdf_path(paper),
                             "human_ok": "",  # fill: y/n
                         }
                     )

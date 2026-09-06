@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q005",
@@ -149,7 +161,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q006",
@@ -177,7 +192,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q007",
@@ -205,7 +223,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q008",
@@ -233,7 +254,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q009",
@@ -261,7 +285,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. R > W (False) II. K < G (True)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q010",
@@ -289,7 +317,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. P < O (True) II. O ≥ B (True)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q011",
@@ -317,7 +349,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. P > L (False) II. N < R (False)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q012",
@@ -345,7 +381,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. X > B (True) II. Z ≤ E (False)"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q013",
@@ -373,7 +413,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q014",
@@ -401,7 +444,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q015",
@@ -429,7 +475,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q016",
@@ -457,7 +506,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q017",
@@ -485,7 +537,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Boxes B A E C D G F"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q018",
@@ -513,7 +569,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Boxes B A E C D G F"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q019",
@@ -541,7 +601,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Boxes B A E C D G F"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q020",
@@ -569,7 +633,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Boxes B A E C D G F"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q021",
@@ -597,7 +665,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Boxes B A E C D G F"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q022",
@@ -625,7 +697,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: 492 625 381 967 154 After: 294 526 183 769 451"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q023",
@@ -653,7 +729,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: 492 625 381 967 154 After: 249 256 138 679 145 679+256 = 935"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q024",
@@ -681,7 +761,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "492 625 381 967 154 8+6 = 14"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q025",
@@ -709,7 +793,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Before: 492 625 381 967 154 After: 494 627 383 969 156"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q026",
@@ -737,7 +825,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Months Persons March G April E May C June F July B August D September A"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q027",
@@ -765,7 +857,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Months Persons March G April E May C June F July B August D September A"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q028",
@@ -793,7 +889,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Months Persons March G April E May C June F July B August D September A"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q029",
@@ -821,7 +921,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Months Persons March G April E May C June F July B August D September A"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q030",
@@ -849,7 +953,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Months Persons March G April E May C June F July B August D September A"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q031",
@@ -877,7 +985,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q032",
@@ -905,7 +1016,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q033",
@@ -933,7 +1047,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q034",
@@ -961,7 +1078,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q035",
@@ -989,7 +1109,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q036",
@@ -1017,7 +1140,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q037",
@@ -1045,7 +1171,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q038",
@@ -1073,7 +1202,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q039",
@@ -1101,7 +1233,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q040",
@@ -1129,7 +1264,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q041",
@@ -1157,7 +1295,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 120+100 : 110 = 220 :110 = 2:1"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q042",
@@ -1185,7 +1327,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q043",
@@ -1213,7 +1358,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total marks obtained by A = 120+100 +130+80+130+90 = 650"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q044",
@@ -1241,7 +1390,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q045",
@@ -1269,7 +1421,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = (130+150) - (100 +40 ) = 140"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q046",
@@ -1297,7 +1453,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = (50+125+200+150+100)-(25+100+150+50+200) = 625-525 = 100"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q047",
@@ -1325,7 +1485,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 125+50 : 200 = 175:200 =7:8"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q048",
@@ -1353,7 +1517,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Online classes taken on Saturday = 80% of 25 = 20 Required answer = 20 + 100 = 120"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q049",
@@ -1381,7 +1549,10 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q050",
@@ -1409,7 +1580,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "S51. Ans (b) Sol. Information Given in the Question: Total mixture = 42 liters Initial ratio of milk : water = 2 : 5 After adding some milk, water : milk = 1 : 4 Find the quantity of milk added. Detailed Explanation: Initial quantities of milk and water Ratio = 2 : 5 Total = 42 liters Total parts = 2 + 5 = 7 Milk = (2/7) × 42 = 12 liters Water = (5/7) × 42 = 30 liters Let milk added = x liters New milk = 12 + x liters Water = remains 30 liters New ratio (Water : Milk) = 1 : 4 So, 4 × 30 = 1 × (12 + x) 120 = 12 + x x = 108 S52. Ans (b) Sol. Information Given in the Question: A + B can complete the work in 15 days B alone can complete the work in 36 days B leaves 6 days before the work is finished Concept/Formula Used in the Question: Work = Total work = LCM of individual time (can assume total work = 180 units) Work done = Efficiency × Time Efficiency = Total work / Time taken Detailed Explanation: Let the total work = LCM(15, 36) = 180 units Efficiency of A + B = 180 / 15 = 12 units/day Efficiency of B = 180 / 36 = 5 units/day So, Efficiency of A = 12 – 5 = 7 units/day Let total time taken = T days So, B works for (T – 6) days, and A works for full T days Total work = Work done by A + Work done by B ⇒ 7T + 5(T – 6) = 180 ⇒ 7T + 5T – 30 = 180 ⇒ 12T = 210 ⇒ T = 17.5 days S53. Ans (a) Sol. Information Given in the Question: Breadth is 25% less than the length Perimeter of rectangle = 70 cm Concept/Formula Used in the Question: Perimeter of rectangle = 2 × (Length + Breadth) Area of rectangle = Length × Breadth Detailed Explanation: Let the length of the rectangle be Lcm. Then the breadth = 0.75Lcm Perimeter = 2×(L+0.75L) = 2×1.75L = 3.5L Given perimeter = 70 So, 3.5L=70 Now, breadth = 0.75×20=15cm Area = Length × Breadth = 20×15=300cm² S54. Ans (c) Sol. Information Given in the Question: Discount = 20% on Marked Price Profit = Rs 450 Marked Price - Cost Price = Rs 1900 Concept/Formula Used in the Question: Selling Price = Marked Price - Discount Profit = Selling Price - Cost Price Seling Price = Cost Price + Profit Cost Price = Marked Price - 1900 Detailed Explanation: Let the Cost Price (CP) be x Then, Marked Price (MP) = x+1900 Selling Price (SP) = MP - 20% of MP = 0.8×(x+1900) Given: Profit = 450 SP = CP + 450 = x + 450 So, S55. Ans (c) Sol. Information Given in the Question: A covers 54 km in 2 hours Speed of A is 20% more than speed of B Need to find distance travelled by B in 4 hours S56. Ans (e) Sol. Information Given in the Question: Upstream speed = 6 km/h Speed of stream = 2 km/h Distance to cover downstream = 80 km Concept/Formula Used in the Question: Upstream speed = Boat speed in still water - Stream speed Downstream speed = Boat speed in still water + Stream speed Time = Distance / Speed Detailed Explanation: Let speed of boat in still water = B Given upstream speed = B - 2 = 6 B = 8 km/h Then, downstream speed = B + 2 = 8 + 2 = 10 km/h Time = 80 / 10 = 8 hours S57. Ans (d) Sol. Information Given in the Question: A invested Rs 2800 for 8 months B invested Rs 5400 for 12 months C invested Rs 3600 for 12 months B’s share of profit = Rs 2430 Concept/Formula Used in the Question: Profit Share ∝ Investment × Time Total Profit × (B’s Share Ratio) = Rs 2430 Detailed Explanation: Effective investments: A: 2800 × 8 = 22400 B: 5400 × 12 = 64800 C: 3600 × 12 = 43200 Total ratio = A : B : C = 22400 : 64800 : 43200 = 28 : 81 : 54 Total ratio sum = 28 + 81 + 54 = 163 parts B’s share = 81 parts = Rs 2430 So, S58. Ans (e) Sol. Information Given in the Question: Compound Interest Rate = 10% p.a., Time = 3 years, CI = Rs 1324 Simple Interest Rate = 15% p.a., Time = 2 years, Principal = (X + 500) Concept/Formula Used in the Question: Compound Interest: Compound Interest = Amount – Principal A = Amount P = Principal R= Rate of interest T = Time period Detailed Explanation: Amount after 3 years at 10% CI = X×(1.1)3=X×1.331 1324=X×1.331 - X 1324=0.331X S59. Ans (a) Sol. Information Given in the Question: Pipe A fills tank in 15 hours Pi…"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q051",
@@ -1717,7 +1892,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series - 2×2=4 4×3=12 12×4=48 48×5=240 240×6=1440"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q062",
@@ -1745,7 +1924,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 1200 ×1/4=300 300 ×2/4=150 150 ×3/4=112.5 112.5 ×4/4=112.5 112.5 ×5/4=140.625"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q063",
@@ -1773,7 +1956,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q064",
@@ -1801,7 +1987,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – Subtraction of consecutive prime number 147 – 17 = 130 130 – 19 = 111 111 – 23 = 88 88 – 29 = 59 59 – 31 = 28 S65. Ans (a) Sol. Pattern of series –"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q065",
@@ -1857,7 +2047,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "50 – 45 +145 = 2.5× ? 150 = 2.5× ? 60 = ?"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q067",
@@ -1885,7 +2079,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q068",
@@ -1913,7 +2110,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q069",
@@ -1941,7 +2141,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q070",
@@ -1969,7 +2172,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q071",
@@ -1997,7 +2203,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q072",
@@ -2025,7 +2234,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q073",
@@ -2053,7 +2265,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q074",
@@ -2081,7 +2296,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q075",
@@ -2109,7 +2327,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q076",
@@ -2137,7 +2358,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q077",
@@ -2165,7 +2389,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q078",
@@ -2193,7 +2420,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q079",
@@ -2221,7 +2451,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "50=?-1080 1130=?"
     },
     {
       "q_id": "ibps_rrb_2025_prelims_b6c7e54b::q080",
@@ -2249,7 +2483,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "(6+13) × ? = 95 5 =?"
     }
   ]
 }

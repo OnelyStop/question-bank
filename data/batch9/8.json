@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q005",
@@ -149,7 +161,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q006",
@@ -177,7 +192,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. S>V (false) II. S=V (false)"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q007",
@@ -205,7 +224,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. M>E (false) II. A≥K (false)"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q008",
@@ -233,7 +256,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. B<E (true) II. A>M (false)"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q009",
@@ -261,7 +288,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. H<E (true) II. O<K (true)"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q010",
@@ -289,7 +320,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given word- SNITCHED Sol. After applied given condition- TOHUDIDE Solutions (11-13):"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q011",
@@ -317,7 +352,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q012",
@@ -345,7 +383,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q013",
@@ -373,7 +414,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q014",
@@ -401,7 +445,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Except JP all the first letters are reversed to second letter. Solutions (15-18): Persons Department P Marketing V Marketing Q Marketing T Marketing W Finance R Finance X Finance U HR S HR"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q015",
@@ -429,7 +477,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q016",
@@ -456,7 +507,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q017",
@@ -484,7 +538,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q018",
@@ -512,7 +569,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q019",
@@ -539,7 +599,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Solutions (20-24): Month Dates Persons January P M February R O March T N April V Q May U S"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q020",
@@ -567,7 +631,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q021",
@@ -595,7 +662,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q022",
@@ -623,7 +693,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q023",
@@ -651,7 +724,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q024",
@@ -679,7 +755,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q025",
@@ -707,7 +786,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "‘HONK’"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q026",
@@ -735,7 +818,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q027",
@@ -763,7 +849,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q028",
@@ -791,7 +880,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q029",
@@ -819,7 +911,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q030",
@@ -847,7 +942,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Solutions (31-35): Days Persons Fruits Monday C Apple Tuesday E Papaya Wednesday B Litchi Thursday G Guava Friday D Grapes Saturday A Banana Sunday F Apricot"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q031",
@@ -875,7 +974,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q032",
@@ -902,7 +1004,9 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.2
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q033",
@@ -930,7 +1034,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q034",
@@ -958,7 +1065,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q035",
@@ -986,7 +1096,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "utions (36-40): Word Code Exam Wr Is Pq Mandatory Mr For Ty All Cg Easy/here Ks/yr Good Gt"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q036",
@@ -1014,7 +1128,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q037",
@@ -1042,7 +1159,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q038",
@@ -1070,7 +1190,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q039",
@@ -1098,7 +1221,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q040",
@@ -1126,7 +1252,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q041",
@@ -1154,7 +1283,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 1005 – (5 × 1) = 1000 1000 − (5 × 3) = 985 985 − (5 × 5) = 960 960 − (5 × 7) = 925 925− (5 × 9) = 880"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q042",
@@ -1182,7 +1315,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 8 × 1 + 2 = 10 10 × 2 + 3 = 23 23 × 3 + 4 = 73 73 × 4 + 5 = 𝟐𝟗𝟕 297 × 5 + 6 = 1491"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q043",
@@ -1210,7 +1347,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 4 + 22 = 8 8 + 33 = 35 35 + 42 = 51 51 + 53 = 176 176 + 62 = 212"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q044",
@@ -1238,7 +1379,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 500 × 1 = 𝟓𝟎𝟎 500 ÷ 2 = 250 250 × 3 = 750 750 ÷ 4 = 187.5 187.5 × 5 = 937.5"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q045",
@@ -1266,7 +1411,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – 44 + 2 = 46 46 + 4 = 50 50 + 8 = 58 58 + 16 = 74 74 + 32 = 106"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q046",
@@ -1294,7 +1443,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Pattern of series – Addition and subtraction of consecutive prime numbers 88 + 11 = 99 99 – 7 = 92 92 + 5 = 97 97 – 3 = 94 94 + 2 = 96"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q047",
@@ -1322,7 +1475,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total number of pages typed by B & E together on Monday = 48 + 42 = 90 Required percentage = 90−50 50 × 100 = 80%"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q048",
@@ -1350,7 +1507,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Average number of pages typed by A, C & D on Monday = 72+60+44 = 59 (approx.) Total number pages typed by A & E together on Tuesday = 64 + 60 = 124 Required difference = 124 – 59 = 65"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q049",
@@ -1378,7 +1539,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total pager typed by C on both given days = 60 + 50 = 110 Total number pages typed by A & E together on Tuesday = 52 + 60 = 112 Required ratio = 110 : 112 = 55 : 56"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q050",
@@ -1406,7 +1571,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total pages typed by total pages typed by E on Wednesday = 48 × 8 + 6 = 72 Required sum = (42 + 60 + 72) = 174"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q051",
@@ -1434,7 +1603,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total pages typed by B, D & E together on Tuesday = (54 + 52 + 60) = 166 Total pages typed by A & C together on Monday = 72 + 60 = 132 Required difference = 166 – 132 = 34"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q052",
@@ -1462,7 +1635,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total students speak German from B = (160 + 120) – 160 = 120 Total females speak German from B = 120 – 72 = 48 Total males speak German from B = 120 - 48 = 72 Required difference = 72 – 48 = 24"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q053",
@@ -1490,7 +1667,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total females speak French from C = 224 × 8 = 84 Total students speak German from A = (120 + 80) – 112 = 88 Required difference = 88 – 84 = 4"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q054",
@@ -1518,7 +1699,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total males speak French from A = 112 – 32 = 80 Total males speak German from B = 160 – 120 × 100 = 76 Required percentage = 80−76 80 × 100 = 0.5%"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q055",
@@ -1546,7 +1731,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total students speak German from all the three colleges together = (120 + 80 – 112) + (160 + 120 – 160) + (192 + 168 – 224) = 88 + 120 + 136 = 344 Total males in A & B together = 120 + 160 = 280 Required ratio = 344 : 280 = 43 : 35"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q056",
@@ -1574,7 +1763,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total females speak German from college M = (224 - 168 × 7 ) – 24 = 128 Total students speak German from M = 128 + 128 × 4 = 288 So, total number of students speak French from M = 480 – 288 = 192"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q057",
@@ -1602,7 +1795,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given, 2𝜋𝑟 = 88 r = 14 cm ATQ – Radius of cylinder = 14 × 2 × 4 = 21 𝑐𝑚 Required volume = 7 × 21 × 21 × 12 = 16632 cm3"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q058",
@@ -1630,7 +1827,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Profit ratio of A to B = (42 × 12) ∶(40 × 6 + 35 × 6) = 28 : 25 Given, 25 = 3000 So, total profit = (28+25) × 3000 = 6360 𝑅𝑠."
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q059",
@@ -1657,7 +1858,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Age of A six years hence = 24 + 6 = 30 years So, age of B six years hence = 30 × 5 = 36 𝑦𝑒𝑎𝑟𝑠 Present age of B = 36 – 6 = 30 years Required years = 39 – 30 = 9 years"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q060",
@@ -1685,7 +1890,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "A + B = A + B + C = ⇒ C = 30 – 24 = 4 –5 120 = –1 Pipe ‘C’ is an outlet pipe which can empty the tank in 120 minutes. B + C = B = 60 + 120 = 2+1 120 = A + B = A = 24 – 40 = 5–3 120 = 120 = Pipe ‘A’ alone can fill the tank completely in 60 minutes."
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q061",
@@ -1713,7 +1922,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the efficiency of A = 5x units/day So, the efficiency of B = 5x × 100 = 4𝑥 𝑢𝑛𝑖𝑡𝑠/𝑑𝑎𝑦 Total work = 72 × 5𝑥= 360𝑥 𝑢𝑛𝑖𝑡𝑠 The efficiency of C = 360𝑥 60 = 6𝑥 𝑢𝑛𝑖𝑡𝑠/𝑑𝑎𝑦 Total work completed by all three alternatively starting with A and followed by Band C respectively, in three days = 5x + 4x + 6x = 15x Required days = 360𝑥 15𝑥 × 3 = 72 𝑑𝑎𝑦𝑠"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q062",
@@ -1741,7 +1954,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let length of train – A be x meters. ATQ, 𝑥 16 = (72 + 18) × 𝑥= 400"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q063",
@@ -1769,7 +1986,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let cost price of table be Rs.100x. So, selling price of table = 100𝑥× 100 = Rs.133x And, marked price of table = 133𝑥× 95 = Rs.140x ATQ, 140𝑥−133𝑥= 420 𝑥= 60 Rs. Cost price of table = Rs.100x = Rs.6,000"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q064",
@@ -1797,7 +2018,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let amount invested by Deepak at C.I. be ‘Rs.x’. So, amount invested by Deepak at S.I. = Rs (47000 – x) Now, Equivalent rate of interest of 15% C.I. for 2 years = 15 + 15 + 15 × 15 100 = 32 .25% ATQ, 𝑥 × 32.25 – (47000 – 𝑥 )× 2 × 12 = 532.5 32.25x + 24x = 1181250 x = 21000 Rs."
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q065",
@@ -1825,7 +2050,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let total mixture in vessel be Q liters. Initial quantity of water in vessel = 0.25Q And, quantity of milk in vessel = 0.75Q ATQ – 0.25𝑄+40 0.75𝑄 = 15Q + 2400 = 30Q 15Q = 2400 Q = 160 l Quantity of milk in vessel = 160 × 100 = 120 𝑙"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q066",
@@ -1853,7 +2082,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Possible cases = (1 red ball & 1 green ball) or (1 red ball & 1 black ball) Required probability = 8×5 20𝐶2 + 8×7 20𝐶2 = 19 + ="
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q067",
@@ -1881,7 +2114,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "ATQ, 40 × 𝑥 100 = 30 × 𝑦 4x=3y………………..(i) And 𝑥+𝑦 2 = 𝑥+ 30 𝑦−𝑥= 60 … … … . (𝑖𝑖) From (i) and (ii) y=240 75% of second number=180"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q068",
@@ -1909,7 +2146,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the rate of simple interest for the 3rd year be x% per annum. Total SI = 2000 × 15 × 2 + 2000 × 𝑥 × 1 = Rs. (600 + 20x) 𝐶𝐼 𝑓𝑜𝑟 2 𝑦𝑒𝑎𝑟𝑠= 𝑃(1 + 𝑅 100) (1 + 𝑅 100) −𝑃 = 2000 (1 + 15 100) (1 + 15 100) −2000 = Rs 645 ATQ, ⇒ 600+20x-645=205 ⇒ 20x = 250 ⇒ x = 12.5%"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q069",
@@ -1937,7 +2178,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let speed of boat in still water= x km/min Speed of stream = y km/min And distance = D km ATQ, (𝑥−𝑦)16 = 12𝑥 𝑥= 4𝑦 Let Required time be ‘T’ min ATQ, 12𝑥= 𝑇(𝑥+ 𝑦) T = 48𝑦 5𝑦 = 9.6 minutes Solutions (70-74): Students appeared in exactly two exams = 150 −20 = 130 Students appeared in CRE exam = 100 × 1000 = 400 Students appeared in only CRE & GMAT = Students appeared in only CRE & CAT = [400−(280+20)] = 50 Students appeared in only GMAT & CAT = 150 −(20 + 50 + 50) = 30 Students appeared in CRE = 280 + 50 + 50 + 20 = 400 Students appeared in CAT = 200 + 50 + 30 + 20 = 300 Students appeared in only GMAT = 1000 −(50 + 280 + 50 + 20 + 30 + 200) = 370 Employees using GMAT = 370 + 50 + 20 + 30 = 470"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q070",
@@ -1965,7 +2210,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Students appeared in only GMAT & CAT = 30"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q071",
@@ -1993,7 +2242,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 200 × 100 = 185%"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q072",
@@ -2021,7 +2274,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 30: 20 = 3: 2"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q073",
@@ -2049,7 +2306,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required percentage = 470−300 × 100 = 56.67%"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q074",
@@ -2077,7 +2338,11 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Students appeared in only one exam = 370 + 280 + 200 = 850"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q075",
@@ -2105,7 +2370,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. x² + 4x – 12 = 0 x² + 6x – 2x – 12 = 0 x = –6, 2 II. 2y² + 7y + 6 = 0 2y² + 4y + 3y + 6 = 0 2y (y + 2) + 3 (y + 2) = 0 y = –2, –3 ∴ No relation"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q076",
@@ -2133,7 +2402,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. x² + 12x + 35 = 0 x² + 7x + 5x + 35 = 0 (x + 7) (x + 5) = 0 ∴𝑥= −5 𝑜𝑟−7 II. y² + 9y + 20 = 0 y² + 5y + 4y + 20 = 0 (y + 5) (y + 4) = 0 𝑦= −5, −4 ⇒ 𝑥≤𝑦"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q077",
@@ -2161,7 +2434,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. x² - 15x + 54 = 0 x² - 9x – 6x + 54 = 0 (x - 9) (x - 6) = 0 ∴ x = 9 or 6 II. y² - 23y + 132 = 0 y² - 11y - 12y + 132 = 0 (y - 11) (y – 12) = 0 𝑦= 11 𝑜𝑟 12 ∴ 𝑥< 𝑦"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q078",
@@ -2189,7 +2466,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. x2 – 7x – 6x + 42 = 0 x(x – 7) – 6(x – 7) = 0 (x – 6) (x – 7) = 0 x = 6, 7 II. y2 – 8𝑦−7𝑦+ 56 = 0 y(y −8) −7(𝑦−8) = 0 (y – 8) (y −7) = 0 y = 8, 7 So, x ≤y"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q079",
@@ -2217,7 +2498,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. x = + 8 II. y = ±8 So, x ≥ y"
     },
     {
       "q_id": "ibps_rrb_2021_prelims_11703c49::q080",
@@ -2245,7 +2530,11 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. 2𝑥2 + 7𝑥+ 3 = 0 ⇒𝑥(2𝑥+ 1) + 3(2𝑥+ 1) = 0 ⇒(𝑥+ 3)(2𝑥+ 1) = 0 ⇒𝑥= −3, − II. 2𝑦2 + 12𝑦+ 18 = 0 𝑦2 + 6𝑦+ 9 = 0 ⇒(𝑦+ 3)(𝑦+ 3) = 0 ⇒𝑦= −3 ∴x ≥y"
     }
   ]
 }

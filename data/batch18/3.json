@@ -37,7 +37,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q002",
@@ -65,7 +68,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q003",
@@ -93,7 +99,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q004",
@@ -121,7 +130,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q005",
@@ -149,7 +161,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q006",
@@ -176,7 +191,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "A > B ≥ R ≥ C < R ≤ Z = M ≤ P ≥ X"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q007",
@@ -204,7 +223,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Direction (8 - 12):"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q008",
@@ -232,7 +255,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q009",
@@ -260,7 +286,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q010",
@@ -288,7 +317,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q011",
@@ -316,7 +348,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q012",
@@ -344,7 +380,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q014",
@@ -428,7 +467,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q018",
@@ -456,7 +498,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q019",
@@ -484,7 +529,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Economics = jo"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q020",
@@ -512,7 +561,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The given number is = 7493652 Number after operation= 5771935 There are two numbers (5,7) which are repeated. SBI PO Prelims 2017 Directions (21 - 22):"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q023",
@@ -540,7 +593,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q024",
@@ -568,7 +624,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q025",
@@ -596,7 +655,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q026",
@@ -624,7 +686,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q027",
@@ -652,7 +717,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Directions (28-29): C > A > E > B > D > F"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q028",
@@ -680,7 +749,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q029",
@@ -708,7 +780,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q030",
@@ -736,7 +811,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘C > B > A ≥ K = R’ Directions (31-33): SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q031",
@@ -764,7 +843,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. Y < N (false) II. Y = N (false)"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q032",
@@ -792,7 +875,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. M < J (false) II. J > L (True)"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q033",
@@ -820,7 +907,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "I. P > Y (false) II. T < L (false)"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q034",
@@ -848,7 +939,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "As from the given statement the position of G is not fixed so there is two possible case in which G sits three places above A or three places below A. And, the position of L and Q is also not fixed."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q035",
@@ -876,7 +971,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The distance between B and M= 7-4= 3m QUANTITATIVE APTITUDE"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q037",
@@ -904,7 +1003,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let their initial investments be 7𝑥, 5𝑥 and 3𝑥 respectively Ratio of their profit = 7𝑥 × 6 + 3 𝑥 × 6 ∶ 5𝑥 × 12 ∶3𝑥 × 12 = 60𝑥 ∶ 60𝑥 ∶ 36𝑥 =15 ∶ 15 ∶ 9 A′s profit = 3600 × 39 9 × 15 = Rs. 60000"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q038",
@@ -932,7 +1035,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let, CP of B be 𝑥+120 And that of A be 𝑥 𝑇ℎ𝑒𝑛, 25 100 × 𝑥+ 40 100 (𝑥+ 120) = 178 𝑜𝑟, 65𝑥 100 + 48 = 178 or, x = 200 C.P. of B = x + 120 = Rs. 320"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q039",
@@ -960,7 +1067,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let, age of A be ‘x’ years, Then age of B = ‘x + 10’ years And age of C = 3x years 𝐴𝑇𝑄, 𝑥+ 10 + 11 3𝑥 = 3 or, (𝑥 + 21) 2 = 9𝑥 or, 7𝑥 = 42 ⇒ 𝑥 = 6 Age of C after 7 years = 3𝑥 + 7 = 18 + 7 = 25 years SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q040",
@@ -988,7 +1099,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "2πrh πr2h = 4 or, 2 r = 4 or, r = 7 also, 2r h = 14 ⇒h = 5 Total surface area = 2 × 22 7 × 7 2 (7 2 + 5 2) = 22 × 12 2 = 132"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q041",
@@ -1016,7 +1131,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Sum can be odd in two cases : 1. First card is odd numbered & second one is even. 2. First card is even numbered & second one is odd. Required probability = 13 25 × 12 24 × 12 25 × 13 24 = 13"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q042",
@@ -1044,7 +1163,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "ATQ, D −11 2x = 4D 16x or, D = 22 km also, D– 2 = 2x or, D – 2 = 4x SBI PO Prelims 2017 or, x = 5 Speed of boat = 9x = 45 kmph Absolutely! Here's the math equation from the image, typed out with proper formatting:"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q043",
@@ -1072,7 +1195,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let C take x days to complete the work alone. Then, B takes x/3 days to complete the work alone. 𝑥+ 3 𝑥 = 1 or , x = 48 days Suppose A and B take ‘y’ days to complete the work together. Then, A takes 2y days to complete the work alone. 2𝑦 + 1 16 = 1 𝑦 Solving for y: or, 1 2𝑦 = 1 or, 2y = 16 Hence, A will take 16 days."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q044",
@@ -1100,7 +1227,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Money spent on brother = 4 * 68% = 17% Money spent on sister = 17 * 68% = 36% ATQ, SBI PO Prelims 2017 (36% - 17%) of total = 3800 ⇒ Total = Rs. 20000 Saving = 100 −32 + 17 + 36 × 20000 100 × 20000 = Rs. 3000"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q045",
@@ -1128,7 +1259,11 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "𝑥 − 2 𝑦 + 3 = 3 or, 2x – 4 = 3y + 9 or, 2x - 3y = 13 ----(i) 𝑥 −4 𝑦 + 7 = 5 or, 3x – 12 = 5y + 35 or, 3x - 5y = 47 ----(ii) Solving (i) and (ii): x = -76, y = -55 Fraction = 76 46: (e); 27 × 2.5 + 1 = 68.5; × 0.5 + 1, × 1 + 1, × 1.5 + 1, × 2 + 1, × 2.5 + 1"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q046",
@@ -1184,7 +1319,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q048",
@@ -1212,7 +1351,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "× 1 + 1, × 2 + 2, × 3 + 3, × 4 + 4, × 5 + 5"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q049",
@@ -1240,7 +1383,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q050",
@@ -1268,7 +1414,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q051",
@@ -1296,7 +1445,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total sales of company B in 2012 and that of company A in 2014 = 2500 + 4000 = Total sales of company A in 2011 and that of company B in 2015 = 2000 + 4000 = Ratio = 6500 6000 = 13"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q052",
@@ -1324,7 +1477,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Let's break down each problem into its mathematical components: SBI PO Prelims 2017 Sales of Company A in 2016: 5000 × 100 = 6000 Sales of Company B in 2016: 4000 × 110 100 = 4400 Difference: 6000 - 4400 = 1600"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q053",
@@ -1352,7 +1509,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Total sales in 2011: 2000 + 1000 = 3000 Total sales in 2015: 5000 + 4000 = 9000 Req. % 9000 −3000 = 200%"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q054",
@@ -1380,7 +1541,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Sales of Company A 2012 to 2014 = 3500 + 4500 + 4000 = 12000 Sales of Company B 2013 to 2015 = 3000 + 4500 + 4000 = 11500 Difference = 500"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q055",
@@ -1408,7 +1573,11 @@
       "question_pattern": "visual_chart_graph_di",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Sales of Company A in 2010 = 2000 × 3/4 = 1500 Percentage Increase: % 5000 −1500 × 100 = 3500 1500 × 100 = 233.33%"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q056",
@@ -1436,7 +1605,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "No. of Male voters from district A and B = SBI PO Prelims 2017 100 × 350 + 54 100 × 400 = 105 + 216 = 321 Total no. of female voters E & D = 250 × 54 100 + 300 × 55 100 = 135 + 165 = 300 Difference = 321 - 300 = 21"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q057",
@@ -1464,7 +1637,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Average no. of voters from district, B, C and D = 400 + 370 + 250 Male voters from D, E, and F together = 250 46 100 × 300 45 100 × 625 × 32 = 115 + 135 + 200 = 450 Req. % = 450– 340 × 100 = 24.4% 58: (a); No. Male voters D and E = 250 46 100 + 300 × 45 100 = 115 + 135 = 250 No. of female voters from C, E and F = 370 50 100 + 300 × 55 100 = 625 × 68 = 185 + 165 + 425 = 775 Ratio = 250 775 = 10 SBI PO Prelims 2017 Absolutely! Let's translate the calculations in the image into clear mathematical equations:"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q058",
@@ -1520,7 +1697,11 @@
       "question_pattern": "table_di_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Number of female voters from F: 625 × 68 100 = 425 Number of male voters from A = 350 1 × 30 100 = 105 Req% = 425– 105 × 100 = 304.7% ≈ 305% 60: (a); Number of male voters from B: 400 × 54 100 = 216 No. of male voters from E = 300 × 45 100 = 135 No of female voters from C = 370 × 50 100 = 185 Required ratio = 351 61: (e); I: 2x² - 4x - x + 2 = 0 ⇒ 2x(x - 2) - 1(x - 2) = 0 ⇒ (2x - 1)(x - 2) = 0 SBI PO Prelims 2017 ⇒𝑦= 1 2 , 2 II: 2y² - 9y + 7 = 0 ⇒ 2y² - 7y - 2y + 7 = 0 ⇒ y(2y - 7) - 1(2y - 7) = 0 ⇒ (2y - 7)(y - 1) = 0 ⇒𝑥= 7 2 , 1 ∴ No relation. 62: (a); I: 3x² + 3x + 4x + 4 = 0 ⇒ 3x(x + 1) + 4(x + 1) = 0 ⇒ (3x + 4)(x + 1) = 0 ⇒ x = -1, -4/3 II: y² + 5y + 4y + 20 = 0 ⇒ y(y + 5) + 4(y + 5) = 0 ⇒ (y + 4)(y + 5) = 0 ⇒ y = -4, -5 ∴ x > y 63: (a); I: 3x² + 3x + 2x + 2 = 0 ⇒ 3x(x + 1) + 2(x + 1) = 0 ⇒ (3x + 2)(x + 1) = 0 ⇒x =– 1, – 2 SBI PO Prelims 2017 II: y² + 9y + 3y + 27 = 0 ⇒ y(y + 9) + 3(y + 9) = 0 ⇒ (y + 3)(y + 9) = 0 ⇒ y = -3, -9 ∴ x > y 64: (d); I: x² - 5x - 2x + 10 = 0 ⇒ x(x - 5) - 2(x - 5) = 0 ⇒ (x - 2)(x - 5) = 0 ⇒ x = 2, 5 II: y² - 9y - 5y + 45 = 0 ⇒ y(y - 9) - 5(y - 9) = 0 ⇒ (y - 5)(y - 9) = 0 ⇒ y = 9, 5 ∴ x ≤ y 65: (b); I: (x - 16)(x - 16) = 0 ⇒ x = 16 II: y = ±16 ∴ x ≥ y"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q060",
@@ -1716,7 +1897,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Prelims 2017 24 × 15 × 10 ≈ 3600"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q067",
@@ -1744,7 +1929,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "14√?+ 53√? = 67 27 ×? 67√? = 67 27 ×? √? = 27 ? = 729 68: (e); 10 × 37 + 7 × 20 = 17 × √? √? = 30 ? = 900"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q068",
@@ -1800,7 +1989,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "≈ 1900 ÷ 190 + 10 + ?² = 84 Or, ?² = 84 - 10 – 10 or ? = 8 70: (c); ≈ 40 × 8 – 250 = ? – 63 × 8 ? = 574 ENGLISH LANGUAGE"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q070",
@@ -1856,7 +2049,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Here the title “Divided we stand” is more potent. As mentioned in the passage, Dr. Franz’s multicompiler trades a bit for diversity in the code to secure the software from being hacked. SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q072",
@@ -1884,7 +2081,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Here the author’s tone is impersonal as he is concerned about computer’s security."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q073",
@@ -1912,7 +2113,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the second last line of last paragraph, “This leeway …………… of the original program.”"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q074",
@@ -1940,7 +2145,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the second line of first paragraph, “Minor variations aside, every copy of these products—like all other mass-market software— has exactly the same bits in it. This makes such software a honeypot for hackers.”"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q075",
@@ -1968,7 +2177,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the last paragraph, “Dr Franz’s “multicompiler” trades a bit of this optimality for diversity in the compiled code. This leeway, which diminishes the code’s speed of execution by an amount imperceptible to the user, enables a multicompiler to create billions of different, but functionally identical, interpretations of the original program.” Hence only option (a) is incorrect in context of the passage."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q076",
@@ -1996,7 +2209,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Refer to the last sentence of second last paragraph, “Some mass-market software companies have instead introduced modest diversity to deter attackers, such as randomly choosing the starting addresses of big blocks of memory, but this is not enough to defeat a determined hacker”. Refer to the last sentence of the second paragraph, “Symantec, one of the commercial pioneers of online security, estimates that antivirus software now stops only 45% of attacks. The firm recently declared SBI PO Prelims 2017 that this approach was “dead” and a new one was needed.” Hence both statements (i) and (ii) are correct in context of the passage."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q077",
@@ -2024,7 +2241,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Hone means sharpen or refine. Hence it has opposite meaning to ‘wreck’."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q078",
@@ -2052,7 +2273,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Onslaught means a destructive attack. Hence it has opposite meaning to ‘defense’."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q079",
@@ -2080,7 +2305,11 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "Bane means a cause of great distress. Hence it has same meaning as scourge. 80. (d); Nigh means near. Hence it has same meaning to nearly."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q080",
@@ -2136,7 +2365,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘Keep off’ means to avoid encroaching on or touching hence option (e) is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q082",
@@ -2164,7 +2397,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘Give in’ means to cease fighting or arguing; admit defeat therefore it is most appropriate in context of the sentence and is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q083",
@@ -2192,7 +2429,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "There is no error in the statement as ‘called forth’ means to cause (something) to come into action or existence. SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q084",
@@ -2248,7 +2489,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘get on with’ means to continue or resume doing (something); make progress regarding hence option (c) is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q086",
@@ -2276,7 +2521,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘Catch up with’ is the correct usage as it means succeed in reaching a person who is ahead of one. It is also the most appropriate option if you consider the context of the sentence hence option (d) is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q087",
@@ -2304,7 +2553,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘look out for’ means be vigilant and take notice hence option (b) is the correct choice for the given question as other options change the meaning of the sentence."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q088",
@@ -2332,7 +2585,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "‘Talk back’ means reply defiantly or insolently hence option (c) is the correct choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q089",
@@ -2360,7 +2617,11 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "The use of ‘further’ which means additional to what already exists or has already taken place, been done, or been accounted for is correct and the first form of ‘take’ should be used therefore option (d) is the correct choice for the given question. 90. (a); ‘Think back on’ means to recall and is the most appropriate choice for the given question."
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q090",
@@ -2416,7 +2677,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q092",
@@ -2444,7 +2708,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q093",
@@ -2472,7 +2739,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "SBI PO Prelims 2017"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q094",
@@ -2500,7 +2771,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q095",
@@ -2528,7 +2802,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q096",
@@ -2556,7 +2833,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q097",
@@ -2584,7 +2864,11 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.92,
+      "explanation": "No correction is required"
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q098",
@@ -2612,7 +2896,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q099",
@@ -2640,7 +2927,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q100",
@@ -2668,7 +2958,10 @@
       "question_pattern": "cloze_passage_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2017_prelims_f0aab19f::q315",
