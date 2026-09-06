@@ -74,6 +74,24 @@
       "description": "Parser. Correct option when known.",
       "x-fill": 0.0
     },
+    "answer_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Answer pipeline. Provenance of the answer key, such as a source PDF, solution PDF, exact duplicate, or reviewed model reasoning.",
+      "x-fill": 0.0
+    },
+    "answer_confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Answer pipeline. Confidence score for the recorded answer key.",
+      "x-fill": 0.0
+    },
     "explanation": {
       "type": [
         "string",
