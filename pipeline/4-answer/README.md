@@ -1,16 +1,15 @@
 # 4 — answer
 
-Fill in `answer`, and later `explanation`.
+Fill in `answer`, its provenance and confidence, and later `explanation`.
 
 **Reads** step 3's deduped questions + `dedupe_report.json` · **Writes** the same,
-with `answer` and `explanation` added
+with `answer`, `answer_source`, `answer_confidence`, and `explanation` added
 
 Running after dedupe means answering **19,443 unique questions instead of
 21,044** — 1,601 lookups saved, and they come off the most expensive path.
 
-**Right now the export has 0 answers.** Nothing works without this
-step — no practice, no scoring, no marking, no progress tracking. It is the single
-most valuable thing in the pipeline.
+**Answers are attached only when their source can be recorded.** Nothing works
+without this step — no practice, no scoring, no marking, no progress tracking.
 
 ## Subscription-agent handoff (no API)
 
@@ -128,13 +127,13 @@ answer is confirmed.
 
 ## Output
 
-[`output.json`](output.json) — step 3's 24 fields plus two:
+[`output.json`](output.json) — step 3's 24 fields plus four:
 
 ```
-answer   explanation
+answer   answer_source   answer_confidence   explanation
 ```
 
-26 of 28. `answer` is the option **key** (`"a"`), not an index. The last two are
+28 of 30. `answer` is the option **key** (`"a"`), not an index. The last two are
 `marks` and `negative_marks`, absent while they equal their defaults.
 
 Record which source produced each answer in `answer_report.json`, not on the
