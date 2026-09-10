@@ -2376,7 +2376,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q076",
@@ -2404,7 +2407,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q077",
@@ -2432,7 +2438,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q078",
@@ -2939,7 +2948,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q094",
@@ -2967,7 +2979,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q095",
@@ -2995,7 +3010,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q096",
@@ -3119,7 +3137,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q100",
