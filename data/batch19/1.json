@@ -387,7 +387,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q015",
@@ -415,7 +418,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q016",
@@ -443,7 +449,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q017",
@@ -471,7 +480,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q018",
@@ -499,7 +511,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Computer_Basics"
+      "topic": "Computer_Basics",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q019",
@@ -527,7 +542,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q020",
@@ -555,7 +573,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Miscellaneous_English"
+      "topic": "Miscellaneous_English",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q021",
@@ -583,7 +604,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q022",
@@ -1454,7 +1478,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q051",
@@ -1622,7 +1649,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q057",
@@ -1650,7 +1680,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q058",
@@ -1678,7 +1711,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q059",
@@ -1737,7 +1773,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q061",
@@ -1765,7 +1804,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q062",
@@ -1793,7 +1835,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q063",
@@ -1821,7 +1866,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q064",
@@ -1849,7 +1897,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q065",
@@ -1877,7 +1928,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q066",
@@ -1961,7 +2015,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q069",
@@ -1989,7 +2046,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q070",
@@ -2017,7 +2077,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q071",
@@ -2107,7 +2170,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q074",
@@ -2135,7 +2201,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q075",
@@ -2275,7 +2344,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q080",
@@ -2499,7 +2571,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q088",
@@ -2527,7 +2602,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q089",
@@ -2555,7 +2633,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q090",
@@ -2583,7 +2664,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q091",
@@ -2639,7 +2723,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q093",
@@ -2698,7 +2785,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q095",
@@ -2754,7 +2844,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q097",
@@ -2782,7 +2875,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q098",
@@ -2810,7 +2906,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q099",
@@ -2838,7 +2937,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_5cb01cf7::q100",
