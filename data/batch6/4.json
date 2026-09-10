@@ -140,9 +140,10 @@
       "difficulty": 3,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "On referring to the third paragraph thoroughly, we can infer that all of the given statements are correct with reference to the context of the given question."
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "On referring to the third paragraph thoroughly, we can infer that all of the given statements are correct with reference to the context of the given question.",
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2022_prelims_dc85a244::q005",
