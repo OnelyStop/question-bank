@@ -2508,9 +2508,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Among the given statements, only (a) and (b) are correct. While statement (c) is incorrect. Hence, option (e) is the right answer choice. Refer to the seventh line of the first paragraph, “Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Among the given statements, only (a) and (b) are correct. While statement (c) is incorrect. Hence, option (e) is the right answer choice. Refer to the seventh line of the first paragraph, “Emerging economies in Asia and Central and South America have witnessed far more significant growth of electric power consumption compared to the developed regions.”",
+      "answer": "d"
     },
     {
       "q_id": "ibps_rrb_2022_mains_48596fb8::q084",

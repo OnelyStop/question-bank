@@ -1862,9 +1862,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "All of the options are correct, and referencing the sixth and the last paragraphs of the passage. “Mr. Hayes was approached by environmental … 1992 United Nations Earth Summit in Rio de Janeiro.” “Mr. Hayes also spearheaded another global campaign for … spread the message of environmental protection.” Thus, option (e) is to be marked as the correct choice."
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All of the options are correct, and referencing the sixth and the last paragraphs of the passage. “Mr. Hayes was approached by environmental … 1992 United Nations Earth Summit in Rio de Janeiro.” “Mr. Hayes also spearheaded another global campaign for … spread the message of environmental protection.” Thus, option (e) is to be marked as the correct choice.",
+      "answer": "d"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_227b0836::q077",

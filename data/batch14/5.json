@@ -1668,9 +1668,10 @@
       "difficulty": 3,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Refer to the second paragraph which mentions,” The use of the internet allows students to find amazing convenience, they can find various kinds of help, tutorials and other kinds of assisting material which could be used to academically improve and enhance their learning. Visual images always have a strong appeal compared to words.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Refer to the second paragraph which mentions,” The use of the internet allows students to find amazing convenience, they can find various kinds of help, tutorials and other kinds of assisting material which could be used to academically improve and enhance their learning. Visual images always have a strong appeal compared to words.”",
+      "answer": "d"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_b56440f0::q074",

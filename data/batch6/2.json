@@ -85,9 +85,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Refer to the second paragraph, “This is being done by strengthening the hyper-local logistical network, leveraging predictive algorithms, process optimization and, in some cases, providing incentives and disincentives for delivery partners.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Refer to the second paragraph, “This is being done by strengthening the hyper-local logistical network, leveraging predictive algorithms, process optimization and, in some cases, providing incentives and disincentives for delivery partners.”",
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2022_prelims_dce967a7::q003",
@@ -115,9 +116,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "To validate the answer, refer to the second paragraph, “When the 10-minute delivery plan was announced, policymakers and experts raised concerns that delivery professionals might resort to reckless driving and put themselves and others at risk in their rush to stick to timelines. Indiscriminate work pressure can lead to fatigue, mental health issues and other health issues among delivery professionals. In an industry which offers little to no social security for gig workers, this could have serious consequences”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "To validate the answer, refer to the second paragraph, “When the 10-minute delivery plan was announced, policymakers and experts raised concerns that delivery professionals might resort to reckless driving and put themselves and others at risk in their rush to stick to timelines. Indiscriminate work pressure can lead to fatigue, mental health issues and other health issues among delivery professionals. In an industry which offers little to no social security for gig workers, this could have serious consequences”",
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2022_prelims_dce967a7::q004",
@@ -177,9 +179,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Option (a) : refer to the first paragraph, “According to a study by Invesp, 56% of online consumers between the age of 18 and 34 years expect the goods they have ordered to be delivered on the same day, whereas 61% want their packages even faster — within 1-3 hours of placing an order.” Option (b) : Refer to the second paragraph, “A NITI Aayog report, ‘India’s Booming Gig and Platform Economy’, suggests extending social security for gig and platform workers, including paid sick leave, health access and insurance, and occupational disease and work accident insurance.” Option (c) : Refer to the last paragraph, “Hyperlapse consumerism is not without its benefits. According to NITI Aayog, in 2020-21, about 7.7 million workers were engaged in the gig economy, accounting for 1.5% of the total workforce in India. This is expected to grow to 23.5 million workers by 2029-30.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Option (a) : refer to the first paragraph, “According to a study by Invesp, 56% of online consumers between the age of 18 and 34 years expect the goods they have ordered to be delivered on the same day, whereas 61% want their packages even faster — within 1-3 hours of placing an order.” Option (b) : Refer to the second paragraph, “A NITI Aayog report, ‘India’s Booming Gig and Platform Economy’, suggests extending social security for gig and platform workers, including paid sick leave, health access and insurance, and occupational disease and work accident insurance.” Option (c) : Refer to the last paragraph, “Hyperlapse consumerism is not without its benefits. According to NITI Aayog, in 2020-21, about 7.7 million workers were engaged in the gig economy, accounting for 1.5% of the total workforce in India. This is expected to grow to 23.5 million workers by 2029-30.”",
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2022_prelims_dce967a7::q006",
