@@ -2830,8 +2830,9 @@
       "difficulty": 1,
       "section": "Quantitative",
       "topic": "Arithmetic",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2025_prelims_62c07700::q091",
