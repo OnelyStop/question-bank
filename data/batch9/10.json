@@ -2665,9 +2665,10 @@
       "difficulty": 4,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "All of the given words are dissimilar in meaning to the word ‘SATURATION’. Hence, option (e) is the right answer choice. Saturation means holding as much moisture as possible. (a) Abolition- the action of abolishing a system, practice, or institution. (b) Demolish- pull or knock down (a building). (c) Proliferate- increase rapidly in number; multiply."
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All of the given words are dissimilar in meaning to the word ‘SATURATION’. Hence, option (e) is the right answer choice. Saturation means holding as much moisture as possible. (a) Abolition- the action of abolishing a system, practice, or institution. (b) Demolish- pull or knock down (a building). (c) Proliferate- increase rapidly in number; multiply.",
+      "answer": "c"
     },
     {
       "q_id": "ibps_rrb_2022_mains_48596fb8::q089",
