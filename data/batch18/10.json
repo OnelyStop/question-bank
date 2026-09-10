@@ -176,7 +176,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q007",
@@ -771,7 +774,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q027",
@@ -799,7 +805,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q028",
@@ -920,7 +929,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q032",
@@ -948,7 +960,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q033",
@@ -976,7 +991,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q034",
@@ -1004,7 +1022,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q035",
@@ -1032,7 +1053,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q036",
@@ -1355,7 +1379,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q047",
@@ -1383,7 +1410,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q048",
@@ -1411,7 +1441,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q049",
@@ -1439,7 +1472,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q050",
@@ -1467,7 +1503,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q051",
@@ -1495,7 +1534,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q052",
@@ -1523,7 +1565,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q053",
@@ -1551,7 +1596,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q054",
@@ -1579,7 +1627,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q055",
@@ -1607,7 +1658,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q056",
@@ -1787,7 +1841,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q062",
@@ -1815,7 +1872,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q063",
@@ -1843,7 +1903,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q064",
@@ -1871,7 +1934,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q065",
@@ -1899,7 +1965,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q066",
@@ -2347,7 +2416,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q082",
@@ -2664,7 +2736,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_prelims_9fd5b22e::q093",
