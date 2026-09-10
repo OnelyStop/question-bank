@@ -2145,7 +2145,10 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q081",
@@ -2173,7 +2176,10 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q082",
@@ -2201,7 +2207,10 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q083",

@@ -3450,7 +3450,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2022_mains_347c6512::q126",

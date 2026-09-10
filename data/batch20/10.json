@@ -793,7 +793,10 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_6109a010::q029",
@@ -989,7 +992,10 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }
