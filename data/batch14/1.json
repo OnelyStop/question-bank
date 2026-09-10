@@ -174,9 +174,10 @@
       "difficulty": 5,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "The correct choice is option (e) which can be inferred from last paragraph which mentions,” Knowing employees helps managers to understand how he can motivate his team members and use them to the best of their abilities. It helps you to understand which team member would fit into which particular role and which employee would not do justice to his work. Knowing employees helps you judge your subordinates well and hence there is no question of confusions at the workplace. There is seldom any overlapping of work and everyone knows what he/she is supposed to do.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct choice is option (e) which can be inferred from last paragraph which mentions,” Knowing employees helps managers to understand how he can motivate his team members and use them to the best of their abilities. It helps you to understand which team member would fit into which particular role and which employee would not do justice to his work. Knowing employees helps you judge your subordinates well and hence there is no question of confusions at the workplace. There is seldom any overlapping of work and everyone knows what he/she is supposed to do.”",
+      "answer": "d"
     },
     {
       "q_id": "sbi_clerk_2021_mains_53f074e5::q006",
