@@ -120,7 +120,10 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q005",
@@ -148,7 +151,10 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q006",
@@ -204,7 +210,10 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q008",
@@ -232,7 +241,10 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q009",
@@ -260,7 +272,10 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q010",
@@ -288,7 +303,10 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q011",
@@ -471,7 +489,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q017",
@@ -499,7 +520,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q018",
@@ -527,7 +551,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q019",
@@ -555,7 +582,10 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q020",
@@ -583,7 +613,10 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q021",
@@ -1369,7 +1402,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q048",
@@ -1397,7 +1433,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q049",
@@ -1425,7 +1464,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q050",
@@ -1453,7 +1495,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q051",
@@ -1481,7 +1526,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q052",
@@ -1509,7 +1557,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q053",
@@ -1537,7 +1588,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q054",
@@ -1565,7 +1619,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q055",
@@ -1733,7 +1790,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q061",
@@ -1761,7 +1821,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q062",
@@ -1845,7 +1908,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q065",
@@ -1873,7 +1939,10 @@
       "section": "Reasoning",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q066",
@@ -1901,7 +1970,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q067",
@@ -1929,7 +2001,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q068",
@@ -1957,7 +2032,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "table_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q069",
@@ -1985,7 +2063,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q070",
@@ -2013,7 +2094,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q071",
@@ -2041,7 +2125,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q072",
@@ -2069,7 +2156,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q073",
@@ -2097,7 +2187,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q074",
@@ -2125,7 +2218,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q075",
@@ -2153,7 +2249,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q076",
@@ -2181,7 +2280,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q077",
@@ -2209,7 +2311,10 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q078",
@@ -2237,7 +2342,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q079",
@@ -2265,7 +2373,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q080",
@@ -2293,7 +2404,10 @@
       "section": "Reasoning",
       "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q081",
@@ -2321,7 +2435,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q082",
@@ -2349,7 +2466,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q083",
@@ -2377,7 +2497,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q084",
@@ -2405,7 +2528,10 @@
       "section": "Reasoning",
       "topic": "Direction_Sense",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q085",
@@ -2433,7 +2559,10 @@
       "section": "Reasoning",
       "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q086",
@@ -2461,7 +2590,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q087",
@@ -2489,7 +2621,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q088",
@@ -2517,7 +2652,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q089",
@@ -2545,7 +2683,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q090",
@@ -2573,7 +2714,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q091",
@@ -2601,7 +2745,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q092",
@@ -2629,7 +2776,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q093",
@@ -2713,7 +2863,10 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q096",
@@ -2741,7 +2894,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 5
+      "difficulty": 5,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q097",
@@ -2769,7 +2925,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q098",
@@ -2797,7 +2956,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q099",
@@ -2825,7 +2987,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_b3589395::q100",
@@ -2853,7 +3018,10 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }
