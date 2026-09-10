@@ -1781,9 +1781,10 @@
       "difficulty": 3,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Among the given options, both statements (a) and (c) are correct with reference to the context of the given question. While statement (b) is incoherent based on the information provided in this context. Refer to the last lines of the first paragraph, “David R. Malpass, President of the World Bank, representing the interest of global capital, has voiced his opposition. He was shooting from the shoulders of the poor countries when he said the proposal “...would hinder poor countries’ ability to attract investment”. The initiative which has been long overdue is being forced on the rich countries by the impact of the pandemic.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Among the given options, both statements (a) and (c) are correct with reference to the context of the given question. While statement (b) is incoherent based on the information provided in this context. Refer to the last lines of the first paragraph, “David R. Malpass, President of the World Bank, representing the interest of global capital, has voiced his opposition. He was shooting from the shoulders of the poor countries when he said the proposal “...would hinder poor countries’ ability to attract investment”. The initiative which has been long overdue is being forced on the rich countries by the impact of the pandemic.”",
+      "answer": "d"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_712f26db::q072",
