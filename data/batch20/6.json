@@ -1689,7 +1689,10 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q059",
@@ -1717,7 +1720,10 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q060",
