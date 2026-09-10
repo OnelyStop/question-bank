@@ -42,7 +42,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (b) Both (I) and (III) Explanation: The word \"heard\" is the past tense of \"hear\", which means to perceive sound or receive information. Sentence Analysis: 1. (I) Correct → \"I heard a strange noise coming from the attic last night, but when I checked, there was nothing there.\" o Correct usage of \"heard\" as the past tense of \"hear\", meaning to perceive a sound. 2. (II) Incorrect → \"A heard of elephants marched slowly across the grasslands, their trunks swaying in unison.\" o Error: \"Heard\" is incorrect here. The correct word should be \"herd\" (a group of animals). o Correction: \"A herd of elephants marched slowly across the grasslands.\" 3. (III) Correct → \"She heard the news about her promotion and immediately called her family to share the excitement.\" o Correct usage of \"heard\" meaning to receive or learn information. Final Answer: ✔ (b) Both (I) and (III)"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q002",
@@ -70,7 +74,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error is in part (C). \"Threw\" is the past tense of \"throw,\" but the sentence requires the base form of the verb (\"throw\") to maintain proper grammar in this context. Correct Sentence: \"The public are requested not to throw paper in the park.\" Grammar Rule: When using \"requested to\" or similar phrases, the verb following \"to\" should be in its base form (infinitive without 'to')."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q003",
@@ -98,7 +106,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error is in part (A). \"Too\" is incorrect here. The correct form is \"to,\" which indicates intention or purpose. Correct Sentence: \"They planned to expedite work and start repairs quickly, ensuring everything was completed.\" Grammar Rule: \"Too\" is used for \"also\" or to indicate excess, while \"to\" is used as a preposition or part of an infinitive verb."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q004",
@@ -126,7 +138,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error is in part (C). \"Illegal held\" should be \"illegally held\" to maintain the correct grammatical structure. \"Illegally\" is the adverb form needed to modify the verb \"held.\" Correct Sentence: \"They urged communities to relinquish looted and illegally held arms for peace.\" Grammar Rule: Use an adverb (\"illegally\") to modify a verb (\"held\"), not an adjective (\"illegal\")."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q005",
@@ -154,7 +170,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "The error is in part (A). \"These\" is incorrect as it is used for plural nouns. The correct word is \"This\" as \"piece of work\" is singular. Correct Sentence: \"This piece of work is a reminder of what made us fall in love with art.\" Grammar Rule: \"These\" is used with plural nouns, whereas \"This\" is used with singular nouns."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q006",
@@ -182,7 +202,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"Global warming is one of the biggest __________(A) facing the world today.\" Options and Analysis: 1. solutions (समाधान - answers to a problem) (Incorrect) o The sentence suggests that global warming is a challenge the world is facing, not a solution to something. 2. Problems (समस्याएँ - difficulties or challenges) (Correct choice) o \"Problems\" fits well because global warming is described as a challenge that the world is facing. 3. Benefits (लाभ - positive effects or advantages) (Incorrect) o Global warming is a negative issue, not a benefit, so this option does not fit. 4. Ideas (विचार - thoughts or concepts) (Incorrect) o The sentence is about a real-world challenge, not just an idea or concept. 5. Reveals (प्रकट करता है - to show or uncover something) (Incorrect) o \"Reveals\" is a verb, while the blank requires a noun. Correct Answer: (b) Problems"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q007",
@@ -210,7 +234,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"It happens because of the increase in greenhouse gases like carbon dioxide in the atmosphere. These gases trap heat and make the Earth's temperature __________(B).\" Options and Analysis: 1. Lower (कम - to decrease in value or amount) (Incorrect) o Global warming raises temperatures, it does not lower them. 2. Colder (ठंडा - having a low temperature) (Incorrect) o The passage explains that greenhouse gases trap heat, so the Earth's temperature increases, not decreases. 3. Weaker (कमज़ोर - less strong or powerful) (Incorrect) o Temperature is not described as something that can be \"weaker.\" The sentence refers to an increase or decrease in temperature, not its strength. 4. Safer (सुरवित - free from danger or risk) (Incorrect) o The passage talks about global warming, which is dangerous, not making the planet safer. 5. Higher (अवधक - greater in value or amount) (Correct choice) o Greenhouse gases trap heat, which causes the Earth's temperature to increase, making \"higher\" the best choice. Correct Answer: (e) Higher"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q008",
@@ -238,7 +266,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"Cutting down trees reduces the Earth's ability to __________(C) carbon dioxide.\" Options and Analysis: 1. Create (बनाना - to bring something into existence) (Incorrect) o Trees do not create carbon dioxide; they help in processing and removing it from the air. 2. Increase (बढाना - to make something larger in quantity or size) (Incorrect) o The sentence suggests that cutting down trees reduces something, which means the missing word should refer to a decrease in an ability rather than an increase. 3. Absorb (अिश़ोवित करना - to take in a substance, like a sponge or filter) (Correct choice) o Trees help absorb carbon dioxide from the air, which reduces pollution. Since deforestation decreases this ability, \"absorb\" is the correct word. 4. Destroy (नष्ट करना - to completely ruin something) (Incorrect) o Trees do not destroy carbon dioxide; instead, they process it through photosynthesis. 5. Release (छ़ोड़ना - to let something go into the air or environment) (Incorrect) o Trees do not release carbon dioxide; they help remove it. The sentence is talking about a reduced ability to remove CO₂, making \"release\" incorrect. Correct Answer: (c) Absorb"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q009",
@@ -266,7 +298,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"Governments should also create strict __________(D) to control pollution and protect the environment.\" Options and Analysis: 1. Rules (वनयम - regulations or guidelines that must be followed) (Correct choice) o Since the sentence talks about controlling pollution and protecting the environment, governments need to establish strict rules or laws to regulate pollution. \"Rules\" fits perfectly in this context. 2. Difficulties (कवठनाइयाँ - challenges or obstacles) (Incorrect) o Governments do not create difficulties to control pollution; they create policies or rules to solve problems. 3. Celebrations (उत्सि - events for joy or festivity) (Incorrect) o \"Celebrations\" do not relate to controlling pollution or protecting the environment. 4. Accidents (दुर्घटनाएँ - unexpected harmful events) (Incorrect) o \"Accidents\" do not fit because the sentence talks about intentional actions taken by governments, not unplanned events. 5. Rewards (पुरस्कार - benefits or prizes for achievements) (Incorrect) o While rewards can encourage good behavior, this sentence focuses on strict measures for pollution control, making \"rules\" the better fit. Correct Answer: (a) Rules"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q010",
@@ -294,7 +330,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"If everyone takes small actions, it can make a big __________(E) in protecting our planet.\" Options and Analysis: 1. Mistake (गलती - an error or wrong action) (Incorrect) o The sentence is about positive actions that help the planet, so \"mistake\" (which is negative) does not fit. 2. Struggle (संर्िघ - a difficult effort or challenge) (Incorrect) o The sentence talks about taking small actions that have a positive impact, not about struggling to make a change. 3. Danger (खतरा - a harmful or risky situation) (Incorrect) o The sentence does not mention creating danger, but rather making an impact on the planet. 4. Difference (अंतर / प्रभाि - a noticeable positive impact or change) (Correct choice) o \"Make a difference\" is a common phrase meaning to have a meaningful impact. Since the sentence is about taking actions to protect the planet, this fits perfectly. 5. Punishment (सजा - a penalty for wrongdoing) (Incorrect) o The sentence does not talk about punishing anyone; it is about making a positive change. Correct Answer: (b) Difference"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q011",
@@ -322,7 +362,11 @@
       "difficulty": 3,
       "question_pattern": "cloze_passage_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given sentence: \"We must all work together to __________(F) global warming and save the Earth for future generations.\" Options and Analysis: 1. Support (समर्घन करना - to help or encourage something) (Incorrect) o The sentence is about preventing global warming, not supporting it. \"Support\" would have the opposite meaning. 2. Welcome (स्वागत करना - to accept or receive something happily) (Incorrect) o Global warming is a negative phenomenon, so it does not make sense to \"welcome\" it. 3. Produce (उत्पन्न करना - to create or generate something) (Incorrect) o The goal is to reduce global warming, not to create more of it. 4. Stop (ऱोकना - to put an end to something) (Correct choice) o The sentence suggests that we must take action to prevent global warming, making \"stop\" the most appropriate choice. 5. Increase (बढाना - to make something larger or greater) (Incorrect) o The sentence is about reducing global warming, not increasing it. Correct Answer: (d) Stop"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q012",
@@ -350,7 +394,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (c) decorated Explanation: The phrase \"call for\" in the sentence is incorrect. • The sentence is describing how the hall was arranged with colorful lights and flowers, which means it was \"decorated\", not \"call for\". • \"Decorated\" means adorned or embellished with items for beautification, which correctly fits the sentence. Word Meanings in English & Hindi: 1. Call for (मांग करना / बुलाना) (Incorrect) o Meaning (English): To demand or require something. o Meaning (Hindi): किसी चीज़ िी आवश्यिता होना या बुलाना। o Why Incorrect? \"Call for\" does not mean to adorn or beautify a place. 2. Rebuked (फटकारना / डांटना) (Incorrect) o Meaning (English): To scold or criticize someone. o Meaning (Hindi): डाांटना या आलोचना िरना। o Why Incorrect? The sentence is about decorating a hall, not criticizing anyone. 3. Reimbursed (प्रवतपूवतघ करना / भुगतान करना) (Incorrect) o Meaning (English): To pay back or refund money. o Meaning (Hindi): किसी िो हुए खचच िी भरपाई िरना। o Why Incorrect? The sentence has nothing to do with payment or refunding money. 4. Decorated (सजाया गया / अलंकृत वकया गया) (Correct Choice) o Meaning (English): To beautify a place with ornaments, lights, or flowers. o Meaning (Hindi): किसी स्थान िो सजाने या अलांिृत िरने िी किया। o Why Correct? \"The hall was beautifully decorated with colorful lights and flowers\" is the correct way to express the idea. 5. Assisted (सहायता की / मदद की) (Incorrect) o Meaning (English): To help or support someone. o Meaning (Hindi): सहायता िरना या समथचन देना। o Why Incorrect? The sentence is about decorating a hall, not providing help. Corrected Sentence: ✔ \"The hall was beautifully decorated with colorful lights and flowers for the wedding ceremony.\" Final Answer: ✔ (c) decorated"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q013",
@@ -378,7 +426,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (d) grow Explanation: The phrase \"add up healthy and strong\" is incorrect in this context. • The sentence is explaining what plants need to develop properly. • The correct verb should indicate increasing in size and strength, which is best expressed by \"grow.\" Word Meanings in English & Hindi: 1. Add up (ज़ोड़ना / संकवलत करना) (Incorrect) o Meaning (English): To calculate the total or make logical sense. o Meaning (Hindi): िुल जोड़ना या ताकिचि रूप से समझ में आना। o Why Incorrect? \"Add up\" does not mean to become healthy and strong. 2. Drop (वगरना / छ़ोड़ना) (Incorrect) o Meaning (English): To fall or decrease. o Meaning (Hindi): नीचे किरना या िम होना। o Why Incorrect? Plants do not \"drop healthy and strong,\" they \"grow\" healthy and strong. 3. Break (टूटना / विराम लेना) (Incorrect) o Meaning (English): To separate into pieces or to take a pause. o Meaning (Hindi): किसी चीज़ िो टुिड़ोां में बाांटना या कवराम लेना। o Why Incorrect? \"Break\" does not fit the meaning of developing healthily. 4. Advice (सलाह / परामशघ) (Incorrect) o Meaning (English): Guidance or recommendation. o Meaning (Hindi): सुझाव या परामर्च। o Why Incorrect? \"Advice\" is a noun, and the sentence needs a verb. 5. Grow (बढना / विकवसत ह़ोना) (Correct Choice) o Meaning (English): To develop, increase in size or improve health. o Meaning (Hindi): कविकसत होना, बढ़ना या मजबूत होना। o Why Correct? \"Plants grow healthy and strong\" correctly conveys the development of plants. Corrected Sentence: ✔ \"Plants need sunlight and water to grow healthy and strong.\" Final Answer: ✔ (d) grow"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q014",
@@ -406,7 +458,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (a) misuse Explanation: The phrase \"get by of company funds\" is incorrect and does not make sense in this context. • The sentence suggests that something wrong was done with company funds, leading to an investigation. • The correct word should indicate wrongful use of company funds, which is best expressed by \"misuse.\" Word Meanings in English & Hindi: 1. Get by (वकसी तरह प्रबंधन करना / गुजारा करना) (Incorrect) o Meaning (English): To survive or manage with limited resources. o Meaning (Hindi): सीकमत सांसाधनोां िे साथ जीकवत रहना या प्रबांधन िरना। o Why Incorrect? \"Get by\" does not mean mismanagement or wrongdoing related to company funds. 2. Misuse (दुरुपय़ोग / ग़लत इस्तेमाल) (Correct Choice) o Meaning (English): Wrong or dishonest use of something. o Meaning (Hindi): किसी चीज़ िा अनुकचत या बेईमानी से किया िया उपयोि। o Why Correct? \"The misuse of company funds led to a thorough investigation\" correctly conveys the idea of funds being improperly handled. 3. Hurry (जल्दी करना / हड़बड़ी) (Incorrect) o Meaning (English): To rush or act quickly. o Meaning (Hindi): जल्दी िरना या हड़बड़ी में िायच िरना। o Why Incorrect? The sentence is about financial mismanagement, not speed or urgency. 4. Habit (आदत / व्यिहार) (Incorrect) o Meaning (English): A regular pattern of behavior. o Meaning (Hindi): िोई कनयकमत आदत या व्यवहार। o Why Incorrect? \"Habit of company funds\" does not make any sense. 5. Forward (आगे बढना / अग्रेवित करना) (Incorrect) o Meaning (English): To send or move ahead. o Meaning (Hindi): आिे भेजना या किसी चीज़ िो आिे बढ़ाना। o Why Incorrect? The sentence is about financial wrongdoing, not forwarding something. Corrected Sentence: ✔ \"The misuse of company funds led to a thorough investigation by the auditors.\" Final Answer: ✔ (a) misuse"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q015",
@@ -434,7 +490,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (b) They damage different parts of crops, reduce yield, and affect market stability. Explanation: The passage states that insects and pests attack different parts of crops (leaves, stems, roots, and fruits), reducing crop yield and affecting market stability. The damage makes produce unsuitable for consumption or sale and, if left unchecked, leads to a decline in agricultural production, impacting food supply chains and economic stability. Analysis of Options: 1. (a) They mainly attack the roots of plants, leading to water scarcity in soil. Incorrect o The passage mentions that pests attack leaves, stems, roots, and fruits but does not state that they specifically cause water scarcity in the soil. 2. (b) They damage different parts of crops, reduce yield, and affect market stability. Correct Choice o The passage highlights that pests attack various parts of the crop, leading to financial losses for farmers and market instability due to reduced agricultural production. 3. (c) They destroy crops only at the initial stages of growth, making farming difficult. Incorrect o The passage states that pests attack crops at different stages of growth, not just at the initial stage. 4. (d) They play a key role in controlling weeds and enhancing biodiversity in farms. Incorrect o The passage does not mention that pests help in controlling weeds or enhancing biodiversity. Instead, it describes them as a threat to crops. 5. (e) They mostly affect vegetable crops, causing minor financial losses to farmers. Incorrect o The passage states that pests affect various crops, including wheat, rice, maize, and vegetables, and that the financial losses are significant, not minor. Final Answer: ✔ (b) They damage different parts of crops, reduce yield, and affect market stability."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q016",
@@ -462,7 +522,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (c) Excessive use of pesticides can harm both the environment and beneficial insects. Explanation: The passage states that while chemical pesticides are effective, excessive use can lead to environmental pollution, soil degradation, and harm beneficial insects like bees and butterflies. This confirms that option (c) is correct. Analysis of Options: 1. (a) Farmers mainly rely on chemical pesticides as biological pest control is ineffective. Incorrect o The passage mentions that biological pest control has been successful, especially with the introduction of parasitic wasps. o It also states that chemical pesticides are commonly used, but they have harmful effects, making biological control a more sustainable alternative. 2. (b) The fall armyworm is known for feeding on wheat and barley crops, causing severe losses. Incorrect o The passage specifically states that the fall armyworm destroys maize fields, not wheat and barley crops. 3. (c) Excessive use of pesticides can harm both the environment and beneficial insects. Correct Choice o The passage states: o \"While pesticides are effective, excessive use can lead to environmental pollution, soil degradation, and harm to beneficial insects like bees and butterflies.\" o This confirms that excessive pesticide use has negative environmental consequences. 4. (d) Wasps introduced for pest control feed directly on plant leaves, reducing pest numbers. Incorrect o The passage states that the wasps are parasitic and lay their eggs inside harmful insects like caterpillars and aphids, not on plant leaves. 5. (e) The introduction of natural predators has led to an increase in pest populations. Incorrect o The passage states that introducing natural predators like parasitic wasps has been effective in reducing pest populations, not increasing them. Final Answer: ✔ (c) Excessive use of pesticides can harm both the environment and beneficial insects."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q017",
@@ -490,7 +554,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (c) Decrease Explanation: In the passage, \"decline\" refers to a reduction in agricultural production due to pest infestation. The closest meaning to \"decline\" in this context is \"decrease,\" which means to reduce in quantity, quality, or importance. Word Meanings in English & Hindi: 1. Decline (वगरािट / कमी) [Noun/Verb] o Meaning (English): A reduction or decrease in amount, quality, or importance. o Meaning (Hindi): किसी चीज़ िी मात्रा, िुणवत्ता, या महत्व में किरावट या िमी। o Example from passage: o \"If left unchecked, this infestation can lead to a significant decline in agricultural production.\" o Here, \"decline\" means a reduction in production, so \"decrease\" is the best synonym. 2. (a) Increase (िृद्धि / बढ़ोतरी) [Noun/Verb] (Incorrect) o Meaning (English): To make something larger in amount or number. o Meaning (Hindi): किसी चीज़ िी मात्रा या सांख्या िो बढ़ाना। o Why Incorrect? \"Increase\" is the opposite of \"decline,\" which means a reduction. 3. (b) Refuse (मना करना / अस्वीकार करना) [Verb] (Incorrect) o Meaning (English): To say no or reject something. o Meaning (Hindi): किसी चीज़ िो अस्वीिार िरना या मना िरना। o Why Incorrect? \"Refuse\" means to deny or reject, which does not match the meaning of \"decline\" in the passage. 4. (c) Decrease (कमी / वगरािट) [Noun/Verb] (Correct Choice) o Meaning (English): To reduce in size, amount, or intensity. o Meaning (Hindi): किसी चीज़ िी मात्रा, स्तर, या प्रभाव में िमी आना। o Why Correct? \"Decline\" in the passage refers to a drop in agricultural production, which matches the meaning of \"decrease.\" 5. (d) Produce (उत्पन्न करना / फसल) [Verb/Noun] (Incorrect) o Meaning (English): To create, generate, or manufacture something. o Meaning (Hindi): किसी चीज़ िो उत्पन्न िरना या बनाना। o Why Incorrect? \"Produce\" refers to creating or yielding something, which is the opposite of \"decline\" (reduction). 6. (e) Reject (अस्वीकार करना / ठुकराना) [Verb] (Incorrect) o Meaning (English): To dismiss or refuse to accept something. o Meaning (Hindi): किसी चीज़ िो अस्वीिार िरना या ठुिराना। o Why Incorrect? \"Reject\" means to refuse something, while \"decline\" in the passage refers to a reduction in quantity, making it an incorrect match. Final Answer: ✔ (c) Decrease (कमी / वगरािट)"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q018",
@@ -518,7 +586,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (b) Present Explanation: In the passage, \"pose\" is used in the context of a threat posed by insects and pests to farming. Here, \"pose\" means to present or create a problem, danger, or challenge.\" • The closest meaning to \"pose\" in this context is \"present,\" as it means to bring forth or introduce something (like a risk or threat). Word Meanings in English & Hindi: 1. Pose (खतरा उत्पन्न करना / समस्या पैदा करना) [Verb] o Meaning (English): To present or cause a problem, threat, or difficulty. o Meaning (Hindi): किसी समस्या, खतरे, या िकठनाई िो उत्पन्न िरना। o Example from passage: o \"One of the biggest challenges in farming is the constant threat posed by insects and pests.\" o Here, \"pose\" means to \"create or present a threat,\" so \"present\" is the best synonym. 2. (a) Prevent (ऱोकना / बचाि करना) [Verb] (Incorrect) o Meaning (English): To stop something from happening. o Meaning (Hindi): किसी चीज़ िो होने से रोिना। o Why Incorrect? \"Pose\" means to create a problem, while \"prevent\" means to stop a problem, which is opposite in meaning. 3. (b) Present (प्रस्तुत करना / उत्पन्न करना) [Verb] (Correct Choice) o Meaning (English): To bring forth, introduce, or cause something to exist. o Meaning (Hindi): किसी चीज़ िो सामने लाना या उत्पन्न िरना। o Why Correct? \"Pose a threat\" means to present a threat, making \"present\" the closest synonym. 4. (c) Avoid (बचाि करना / टालना) [Verb] (Incorrect) o Meaning (English): To stay away from or prevent something from happening. o Meaning (Hindi): किसी चीज़ से बचना या उसे टालना। o Why Incorrect? \"Pose\" means to cause a threat, while \"avoid\" means to escape from a threat, which is opposite in meaning. 5. (d) Reduce (कम करना / र्टाना) [Verb] (Incorrect) o Meaning (English): To make something smaller or less in amount. o Meaning (Hindi): किसी चीज़ िो िम िरना। o Why Incorrect? \"Pose\" means to introduce a problem, whereas \"reduce\" means to decrease a problem, making it the opposite. 6. (e) Eliminate (समाप्त करना / नष्ट करना) [Verb] (Incorrect) o Meaning (English): To completely remove or destroy something. o Meaning (Hindi): किसी चीज़ िो पूरी तरह से समाप्त िरना। o Why Incorrect? \"Pose\" means to cause a problem, while \"eliminate\" means to remove a problem, making it the opposite. Final Answer: ✔ (b) Present (प्रस्तुत करना / उत्पन्न करना)"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q019",
@@ -546,7 +618,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (a) Sustain Explanation: The sentence implies that farmers grow crops to support or maintain the food supply for both local and global markets. The word \"sustain\" means to support, maintain, or provide for something over time, which best fits the context. Analysis of Options: 1. (a) Sustain (बनाए रखना / समर्घन देना) (Correct Choice) o Meaning (English): To support, maintain, or provide for something continuously. o Meaning (Hindi): बनाए रखना, समथचन देना, या किसी चीज़ िो चलाए रखना। o Why Correct? Farmers grow crops to sustain (support) local and global food supplies, making \"sustain\" the best choice. 2. (b) Consume (खपत करना / उपय़ोग करना) (Incorrect) o Meaning (English): To use up or eat something. o Meaning (Hindi): किसी चीज़ िा उपयोि िरना या खाना। o Why Incorrect? Farmers produce crops; they do not grow them to consume global markets. 3. (c) Restrict (सीवमत करना / ऱोक लगाना) (Incorrect) o Meaning (English): To limit or control something. o Meaning (Hindi): किसी चीज़ िो सीकमत या कनयांकत्रत िरना। o Why Incorrect? Farmers do not grow crops to restrict communities; they grow them to provide food. 4. (d) Eliminate (समाप्त करना / हटाना) (Incorrect) o Meaning (English): To remove or destroy completely. o Meaning (Hindi): पूरी तरह से हटाना या नष्ट िरना। o Why Incorrect? Farmers grow crops to provide food, not to eliminate anything. 5. (e) Exhaust (र्का देना / समाप्त करना) (Incorrect) o Meaning (English): To use up completely or drain. o Meaning (Hindi): पूरी तरह से उपयोि िरना या समाप्त िर देना। o Why Incorrect? Farmers grow crops to sustain food supply, not to exhaust it. Final Answer: ✔ (a) Sustain (बनाए रखना / समर्घन देना)"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q020",
@@ -574,7 +650,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (b) The brown planthopper damages rice crops by feeding on plant sap and spreading diseases. Explanation: The passage states that the brown planthopper damages rice crops by sucking the plant's sap and transmitting deadly plant diseases. This makes option (b) the correct answer. Analysis of Options: 1. (a) Pests primarily attack mature crops and have little impact on seedlings or young plants. Incorrect o The passage states that pests attack crops at different stages of growth, including seedlings, young plants, and mature crops. o Some pests destroy entire fields within weeks. 2. (b) The brown planthopper damages rice crops by feeding on plant sap and spreading diseases. Correct Choice o The passage specifically mentions that the brown planthopper sucks the sap from rice plants and transmits deadly plant diseases. 3. (c) Farmers have completely eliminated pest-related losses through advanced chemical pesticides. Incorrect o The passage states that pesticides help control pests, but excessive use causes environmental harm and does not completely eliminate pests. o Biological pest control is also being used as a sustainable alternative. 4. (d) The fall armyworm only affects maize crops in tropical regions and not in temperate areas. Incorrect o The passage states that the fall armyworm destroys entire fields of maize but does not mention that it is limited to tropical regions. o In reality, the fall armyworm can spread to temperate areas as well. 5. (e) Pests generally help in pollination and contribute positively to agricultural production. Incorrect o While some insects (like bees) help in pollination, the passage describes pests as a threat to agriculture, causing financial losses and reducing crop yield. Final Answer: ✔ (b) The brown planthopper damages rice crops by feeding on plant sap and spreading diseases."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q021",
@@ -602,7 +682,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (a) By reducing crop production, they lead to shortages and fluctuations in market prices. Explanation: The passage states that pests cause immense destruction to crops, reducing crop yield and making the produce unsuitable for sale. This decline in agricultural production disrupts food supply chains and affects market stability, leading to shortages and fluctuations in food prices. Analysis of Options: 1. (a) By reducing crop production, they lead to shortages and fluctuations in market prices. Correct Choice o The passage explains that pests destroy crops, leading to lower production, which affects food availability and market stability. o This shortage can cause food prices to fluctuate, making it harder for consumers and farmers. 2. (b) They make crops grow faster, causing oversupply and lowering food prices. Incorrect o The passage states that pests destroy crops, not that they make them grow faster. o Pests cause losses, not oversupply. 3. (c) They improve soil nutrients, leading to an increase in the quality of food products. Incorrect o The passage does not mention pests improving soil nutrients or increasing food quality. o Instead, pests damage crops, making them unsuitable for consumption or sale. 4. (d) They mainly affect small-scale farmers, so their impact on global markets is minimal. Incorrect o While small-scale farmers are affected, the passage states that pests impact global food supply chains by reducing production. o The effects are not minimal—they affect both local and global markets. 5. (e) They only affect non-essential crops, which does not impact food security. Incorrect o The passage states that pests attack essential crops like wheat, rice, and maize, which are staple foods for millions of people. o This directly affects food security and market stability. Final Answer: ✔ (a) By reducing crop production, they lead to shortages and fluctuations in market prices."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q022",
@@ -630,7 +714,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (c) It relies on natural predators to reduce pest populations without harming the environment. Explanation: The passage highlights biological pest control as a sustainable alternative to chemical pesticides. It mentions introducing natural predators, such as parasitic wasps, to control pest populations. This method is effective because it reduces pests without causing environmental pollution or harming beneficial insects like bees and butterflies. Analysis of Options: 1. (a) It uses genetically modified crops to resist pest attacks naturally. Incorrect o The passage does not mention genetically modified (GM) crops. o Biological pest control focuses on natural predators, not genetic modifications. 2. (b) It involves selective breeding of plants that can withstand insect damage. Incorrect o The passage discusses natural predators (like wasps) as a pest control method, not selective breeding of plants. 3. (c) It relies on natural predators to reduce pest populations without harming the environment. Correct Choice o The passage specifically mentions introducing parasitic wasps, which lay eggs inside harmful insects, ultimately killing them. o This method controls pests without the negative effects of chemical pesticides, making it sustainable. 4. (d) It encourages farmers to manually remove insects instead of using any artificial methods. Incorrect o The passage does not mention manual removal of pests as the primary method of biological control. o Instead, it focuses on using natural predators to keep pest populations in check. 5. (e) It promotes the use of organic fertilizers to prevent pest infestations in fields. Incorrect o Organic fertilizers help improve soil health, but they do not directly prevent pest infestations. o Biological pest control focuses on natural predators, not fertilizers. Final Answer: ✔ (c) It relies on natural predators to reduce pest populations without harming the environment."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q023",
@@ -658,7 +746,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (a) The fall armyworm can completely destroy maize fields within weeks. Explanation: • Statement (a) is correct because the passage states: • \"Some pests, like the fall armyworm, can destroy entire fields of maize within weeks, leaving farmers helpless.\" • Statement (b) is incorrect because it falsely claims that \"the brown planthopper is known for preventing plant diseases.\" o The passage states the opposite: \"The brown planthopper damages rice crops by sucking the plant's sap and transmitting deadly plant diseases.\" • Statement (c) is incorrect because the passage states that excessive pesticide use harms beneficial insects like bees and butterflies, meaning they are not immune to pesticides. Final Answer: ✔ (a) The fall armyworm can completely destroy maize fields within weeks."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q024",
@@ -686,7 +778,11 @@
       "difficulty": 4,
       "question_pattern": "reading_comprehension_set",
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (d) They harm the environment, degrade soil quality, and affect beneficial insects. Explanation: The passage states that while chemical pesticides are effective, excessive use leads to environmental pollution, soil degradation, and harm to beneficial insects like bees and butterflies. This makes option (d) the correct answer. Analysis of Options: 1. (a) They fail to control pests effectively and lead to economic losses for farmers. Incorrect o The passage states that chemical pesticides are effective in controlling pests, but their excessive use causes harmful environmental effects. o They do not completely fail to control pests. 2. (b) They lead to excessive crop growth, making harvesting difficult for farmers. Incorrect o The passage does not mention that pesticides increase crop growth or create harvesting difficulties. o Pesticides are meant to control pests, not boost crop growth. 3. (c) They make crops inedible and unfit for human consumption due to toxicity. Incorrect o The passage does not state that all crops treated with pesticides become inedible. o While excessive pesticide use can raise concerns about food safety, this is not the main drawback mentioned in the passage. 4. (d) They harm the environment, degrade soil quality, and affect beneficial insects. Correct Choice o The passage explicitly states that excessive pesticide use causes environmental pollution, soil degradation, and harm to beneficial insects like bees and butterflies. o This is the main drawback mentioned in the passage. 5. (e) They attract more insects to the fields, increasing infestation rates. Incorrect o The passage does not state that pesticides attract more insects. o Pesticides are meant to eliminate pests, not increase infestations. Final Answer: ✔ (d) They harm the environment, degrade soil quality, and affect beneficial insects."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q025",
@@ -714,7 +810,11 @@
       "difficulty": 2,
       "question_pattern": "match_the_columns",
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Correct Answer: ✔ (b) C-D Explanation: We need to form grammatically and contextually correct sentences by matching phrases from Column I with phrases from Column II. Matching Analysis: 1. (A) The travelers admired the breathtaking scenic o This phrase needs a noun after \"scenic\" (e.g., scenic views, scenic beauty). o (E) the students on scientific discoveries does not complete the sentence logically. o No correct match found for A. 2. (B) The concert hall resonated with the soulful o Needs a noun to complete the phrase (e.g., music, melody, sounds). o (D) dedication, won the championship does not fit. o No correct match found for B. 3. (C) The determined athlete, due to his unwavering o (D) dedication, won the championship correctly completes the sentence. o Final sentence: o \"The determined athlete, due to his unwavering dedication, won the championship.\" Final Answer: ✔ (b) C-D"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q026",
@@ -742,7 +842,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here are the meanings of the highlighted words in both English and Hindi: 1. Listener (A) o English: A person who listens or pays attention to what is being said. o Hindi: सुनने वाला व्यक्ति, श्रोता 2. Polite (B) o English: Showing good manners, being respectful and considerate in behavior. o Hindi: कवनम्र, कर्ष्ट 3. Interrupting (C) o English: The act of stopping someone from speaking or completing their sentence. o Hindi: बीच में टोिना, बाधा डालना Corrected Sentence with Rearrangement (BAC): \"Being polite (B) includes being a good listener (A) and not interrupting (C) people.\" This correction makes the sentence grammatically and contextually correct."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q027",
@@ -770,7 +874,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here are the meanings of the highlighted words in both English and Hindi: 1. Considerate (A) o English: Thoughtful and kind; showing concern for others' feelings and needs. o Hindi: कवचारर्ील, दूसरोां िी भावनाओां िा ध्यान रखने वाला 2. Head (B) o English: The upper part of the body containing the brain, eyes, ears, nose, and mouth. It can also mean a leader or person in charge. o Hindi: कसर, प्रमुख 3. Umbrella (C) o English: A device used for protection against rain or sun, consisting of a circular canopy attached to a central pole. o Hindi: छाता Corrected Sentence with Rearrangement (ACB): \"The kind (considerate) man held his umbrella (C) over the elderly woman’s head (B).\" This correction ensures proper grammar and logical meaning."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q028",
@@ -798,7 +906,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here are the meanings of the highlighted words in both English and Hindi: 1. Spreading (A) o English: The act of extending, distributing, or dispersing something over a larger area. o Hindi: फैलाना, प्रसार 2. Benignant (B) o English: Kind, gentle, and beneficial; showing goodness and compassion. o Hindi: दयालु, िृपालु, र्ुभिारी 3. Volunteered (C) o English: Offered to do something willingly without being asked or paid. o Hindi: स्वेच्छा से सेवा देना, स्वयांसेवी िायच िरना Corrected Sentence with Rearrangement (BCA): \"The benignant (B) teacher volunteered (C) her time, spreading (A) kindness to everyone she met.\" This correction ensures proper grammar and logical meaning."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q029",
@@ -826,7 +938,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here are the meanings of the highlighted words in both English and Hindi: 1. Personality (A) o English: The combination of characteristics, qualities, and behaviors that make a person unique. o Hindi: व्यक्तित्व, स्वभाव 2. Teachers (B) o English: People who educate and instruct students, usually in a school or academic setting. o Hindi: कर्क्षि, अध्यापि 3. Agreeable (C) o English: Pleasant, likable, and easy to get along with. o Hindi: सहमत होने वाला, कमलनसार, सुिम Corrected Sentence with Rearrangement (CBA): \"The agreeable (C) child was liked by all his teachers (B) due to his easygoing personality (A).\" This correction ensures proper grammar and logical meaning."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q030",
@@ -854,7 +970,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Here are the meanings of the highlighted words in both English and Hindi: 1. Experiences (A) o English: Events or situations that a person goes through and learns from. o Hindi: अनुभव, घटनाएँ 2. Receptive (B) o English: Willing or able to accept new ideas, suggestions, or experiences. o Hindi: ग्रहणर्ील, स्वीिार िरने िो तैयार 3. Prepare (C) o English: To make someone or something ready for a future event or situation. o Hindi: तैयार िरना, पूवच तैयारी िरना Corrected Sentence with Rearrangement (BAC): \"Children are more receptive (B) to new experiences (A) if their parents prepare (C) them ahead of time.\" This correction ensures proper grammar and logical meaning."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q031",
@@ -882,7 +1002,11 @@
       "difficulty": 4,
       "question_pattern": "table_di_set",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required ratio = 20+34: 42+20 = 54:62 = 27:31"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q032",
@@ -910,7 +1034,10 @@
       "difficulty": 4,
       "question_pattern": "table_di_set",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q033",
@@ -938,7 +1065,10 @@
       "difficulty": 4,
       "question_pattern": "table_di_set",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q034",
@@ -966,7 +1096,11 @@
       "difficulty": 4,
       "question_pattern": "table_di_set",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Loan provided by B and D to male = 75% of 76 = 57"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q035",
@@ -994,7 +1128,11 @@
       "difficulty": 4,
       "question_pattern": "table_di_set",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required difference = 20+34+84+42+12-(45+56+21+20+13)=192-155=37"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q036",
@@ -1022,7 +1160,10 @@
       "difficulty": 5,
       "question_pattern": "visual_chart_graph_di",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q037",
@@ -1050,7 +1191,11 @@
       "difficulty": 5,
       "question_pattern": "visual_chart_graph_di",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 144+120 - (72+108) = 84"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q038",
@@ -1078,7 +1223,10 @@
       "difficulty": 5,
       "question_pattern": "visual_chart_graph_di",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q039",
@@ -1106,7 +1254,11 @@
       "difficulty": 5,
       "question_pattern": "visual_chart_graph_di",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 50×108=Rs.5400"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q040",
@@ -1134,7 +1286,10 @@
       "difficulty": 5,
       "question_pattern": "visual_chart_graph_di",
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q041",
@@ -1162,7 +1317,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Required answer = 75km/hr"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q042",
@@ -1190,7 +1349,10 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q043",
@@ -1218,7 +1380,10 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q044",
@@ -1246,7 +1411,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees going in firm X on Monday be x employees going to firm Y on Tuesday = (3+1)x = 4x ATQ, x+4x + 14 = 49 7 = x Required answer = 7"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q045",
@@ -1274,7 +1443,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees going in firm X on Monday be x employees going to firm Y on Tuesday = (3+1)x = 4x ATQ, x+4x + 14 = 49 7 = x employees going to firm X on Wednesday = 99 – (12+7+28) = 52"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q046",
@@ -1302,7 +1475,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Employees going in firm X on Monday be x employees going to firm Y on Tuesday = (3+1)x = 4x ATQ, x+4x + 14 = 49 7 = x"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q047",
@@ -1330,7 +1507,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q051",
@@ -1358,7 +1538,11 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "42×30 + 50×32 = 100 × ? 1260 + 1600 = 100 × ? 2860 =100 × ? 28.60 = ?"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q053",
@@ -1386,7 +1570,10 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q054",
@@ -1414,7 +1601,10 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q055",
@@ -1442,7 +1632,10 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q056",
@@ -1470,7 +1663,11 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "90-9=?2 81=?2 9=?"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q057",
@@ -1498,7 +1695,10 @@
       "difficulty": 2,
       "question_pattern": "shared_directions_set",
       "section": "Quantitative",
-      "topic": "Simplification"
+      "topic": "Simplification",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q058",
@@ -1526,7 +1726,11 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the cost price of the shirt and the trouser be 5a and 9a respectively Given, 9a = 450 a = 50"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q059",
@@ -1554,7 +1758,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q060",
@@ -1582,7 +1789,11 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Let the length of the rectangle and the side of the square be 5a and 3a cm respectively Given, 5a×15=300 5a = 20 a = 4 Sde of the square = 3a = 3(4) = 12 cm Required perimeter = 4 (12) = 48 cm"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q061",
@@ -1610,7 +1821,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q062",
@@ -1638,7 +1852,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q063",
@@ -1666,7 +1883,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q064",
@@ -1694,7 +1914,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q065",
@@ -1722,7 +1945,10 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.95
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q066",
@@ -1750,7 +1976,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Monitor-ku"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q067",
@@ -1778,7 +2008,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "‘Skills- ds’ is correct"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q068",
@@ -1806,7 +2040,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Improve books – xy vl"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q069",
@@ -1834,7 +2072,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Learing – op"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q070",
@@ -1862,7 +2104,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Code for ‘Little enhance’- gh yt"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q071",
@@ -1890,7 +2136,11 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Three pairs"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q072",
@@ -1918,7 +2168,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. follows: Juice has only relation with water and with other elements its relation is restricted II follows: Some liquid are already water and the possibility of all liquid being water will be true."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q073",
@@ -1946,7 +2200,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "I. doesn’t follow: No direct relation between the given elements so definite relation doesn’t follow. II. Follows: The part of bird which is green is also rule."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q074",
@@ -1974,7 +2232,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Syllogism"
+      "topic": "Syllogism",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Follows: I. No direct relation between the given elements so possibility is true II. doesn’t follow: No direct relation between the given elements so definite relation doesn’t follow."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q075",
@@ -2002,7 +2264,11 @@
       "difficulty": 2,
       "question_pattern": "standalone_mcq",
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "1st, 3rd, 5th, and 6th letters - D, P, O and M No meaningful word is formed"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q076",
@@ -2030,7 +2296,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given words - BORN TURN TIME HAND EARN After applying operation - ORN URN IME AND ARN One meaningful word"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q077",
@@ -2058,7 +2328,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given words - BORN TURN TIME HAND EARN After applying operation - BORN EARN HAND TIME TURN"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q078",
@@ -2086,7 +2360,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given words - BORN TURN TIME HAND EARN After applying the operation – BOSN TUSN TINE HAOD EASN Three words more than vowels"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q079",
@@ -2114,7 +2392,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Given words - BORN TURN TIME HAND EARN After applying operation – BONR TUNR TIEM HADN EANR No meaningful word formed"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q080",
@@ -2142,7 +2424,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "First point is in north east of second point except in option (c)"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q081",
@@ -2170,7 +2456,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Total distance from point M to point R = 7+5+8+9+6 = 35km"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q082",
@@ -2198,7 +2488,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "From Pythagoras theorem, the shortest distance will be √89Km."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q083",
@@ -2226,7 +2520,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Niece"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q084",
@@ -2254,7 +2552,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Grandmother"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q085",
@@ -2282,7 +2584,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Except H, all are female members"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q086",
@@ -2310,7 +2616,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: One floor gap between A and B, and both of them live in same named flat. G lives east of A but G lives above B. Inference: Here, we have two possible cases: Clues: Number of floors above G and below C are same. C lives immediately below F in same named flat. Inference: Case 2 will cancel here. Clues: P lives north of R. E lives above F. Inference: Now, the final arrangement is: E - Floor 3, flat Q"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q087",
@@ -2338,7 +2648,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: One floor gap between A and B, and both of them live in same named flat. G lives east of A but G lives above B. Inference: Here, we have two possible cases: Clues: Number of floors above G and below C are same. C lives immediately below F in same named flat. Inference: Case 2 will cancel here. Clues: P lives north of R. E lives above F. Inference: Now, the final arrangement is: R and C live on the same floor"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q088",
@@ -2366,7 +2680,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: One floor gap between A and B, and both of them live in same named flat. G lives east of A but G lives above B. Inference: Here, we have two possible cases: Clues: Number of floors above G and below C are same. C lives immediately below F in same named flat. Inference: Case 2 will cancel here. Clues: P lives north of R. E lives above F. Inference: Now, the final arrangement is: All statements are correct"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q089",
@@ -2394,7 +2712,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: One floor gap between A and B, and both of them live in same named flat. G lives east of A but G lives above B. Inference: Here, we have two possible cases: Clues: Number of floors above G and below C are same. C lives immediately below F in same named flat. Inference: Case 2 will cancel here. Clues: P lives north of R. E lives above F. Inference: Now, the final arrangement is: Except F, all live in flat P"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q090",
@@ -2422,7 +2744,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Floor_Puzzle"
+      "topic": "Floor_Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: One floor gap between A and B, and both of them live in same named flat. G lives east of A but G lives above B. Inference: Here, we have two possible cases: Clues: Number of floors above G and below C are same. C lives immediately below F in same named flat. Inference: Case 2 will cancel here. Clues: P lives north of R. E lives above F. Inference: Now, the final arrangement is: R – Flat P floor 1"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q091",
@@ -2450,7 +2776,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: Event N is held three days before K. Event K is held before Saturday. Inference: Here, we have two possible cases: Clues: One event is held between N and O. The number of events held before O is same as the number of events held between O and M. Inference: Case 1 will cancel here. Clue: Event L is held before P which is not the last event. Inference: After placing J, the final arrangement is: J – Sunday"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q092",
@@ -2478,7 +2808,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: Event N is held three days before K. Event K is held before Saturday. Inference: Here, we have two possible cases: Clues: One event is held between N and O. The number of events held before O is same as the number of events held between O and M. Inference: Case 1 will cancel here. Clue: Event L is held before P which is not the last event. Inference: After placing J, the final arrangement is: L - Tuesday"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q093",
@@ -2506,7 +2840,11 @@
       "difficulty": 3,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: Event N is held three days before K. Event K is held before Saturday. Inference: Here, we have two possible cases: Clues: One event is held between N and O. The number of events held before O is same as the number of events held between O and M. Inference: Case 1 will cancel here. Clue: Event L is held before P which is not the last event. Inference: After placing J, the final arrangement is: Number of events held after L and before M are same."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q094",
@@ -2534,7 +2872,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: Event N is held three days before K. Event K is held before Saturday. Inference: Here, we have two possible cases: Clues: One event is held between N and O. The number of events held before O is same as the number of events held between O and M. Inference: Case 1 will cancel here. Clue: Event L is held before P which is not the last event. Inference: After placing J, the final arrangement is: Two events"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q095",
@@ -2562,7 +2904,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: Event N is held three days before K. Event K is held before Saturday. Inference: Here, we have two possible cases: Clues: One event is held between N and O. The number of events held before O is same as the number of events held between O and M. Inference: Case 1 will cancel here. Clue: Event L is held before P which is not the last event. Inference: After placing J, the final arrangement is: Except ‘L-M’, both events in each pair, held adjacent to each other."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q096",
@@ -2590,7 +2936,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: P sits third to the left of Q. The one who faces Q sits second to the left of B. Inference: Here we have two possible cases: Clues: One person sits between B and E. R faces C who sits just left of E. Inference: Case 1 will cancel here. Clue: S does not face B and A. Inference: After placing D and T, the final arrangement is: Except T, all sit at the ends of the rows."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q097",
@@ -2618,7 +2968,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: P sits third to the left of Q. The one who faces Q sits second to the left of B. Inference: Here we have two possible cases: Clues: One person sits between B and E. R faces C who sits just left of E. Inference: Case 1 will cancel here. Clue: S does not face B and A. Inference: After placing D and T, the final arrangement is: Second to the left"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q098",
@@ -2646,7 +3000,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: P sits third to the left of Q. The one who faces Q sits second to the left of B. Inference: Here we have two possible cases: Clues: One person sits between B and E. R faces C who sits just left of E. Inference: Case 1 will cancel here. Clue: S does not face B and A. Inference: After placing D and T, the final arrangement is: Two persons"
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q099",
@@ -2674,7 +3032,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: P sits third to the left of Q. The one who faces Q sits second to the left of B. Inference: Here we have two possible cases: Clues: One person sits between B and E. R faces C who sits just left of E. Inference: Case 1 will cancel here. Clue: S does not face B and A. Inference: After placing D and T, the final arrangement is: Statement (d) is correct."
     },
     {
       "q_id": "sbi_clerk_2024_prelims_5959fae2::q100",
@@ -2702,7 +3064,11 @@
       "difficulty": 4,
       "question_pattern": "shared_directions_set",
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "same_pdf",
+      "answer_confidence": 0.97,
+      "explanation": "Final arrangement: Clues: P sits third to the left of Q. The one who faces Q sits second to the left of B. Inference: Here we have two possible cases: Clues: One person sits between B and E. R faces C who sits just left of E. Inference: Case 1 will cancel here. Clue: S does not face B and A. Inference: After placing D and T, the final arrangement is: S sits opposite to D"
     }
   ]
 }

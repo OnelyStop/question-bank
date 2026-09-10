@@ -631,7 +631,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q023",
