@@ -37,7 +37,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q072",
@@ -64,7 +67,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q073",
@@ -120,7 +126,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q075",
@@ -147,7 +156,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q076",
@@ -175,7 +187,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q077",
@@ -203,7 +218,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q078",
@@ -231,7 +249,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q079",
@@ -259,7 +280,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q080",
@@ -287,7 +311,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q081",
@@ -315,7 +342,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q082",
@@ -343,7 +373,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q083",
@@ -371,7 +404,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q084",
@@ -399,7 +435,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q085",
@@ -427,7 +466,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q086",
@@ -455,7 +497,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q087",
@@ -483,7 +528,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q088",
@@ -511,7 +559,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q089",
@@ -539,7 +590,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q090",
@@ -567,7 +621,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q091",
@@ -595,7 +652,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q092",
@@ -623,7 +683,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q093",
@@ -651,7 +714,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q094",
@@ -707,7 +773,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q097",
@@ -735,7 +804,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q098",
@@ -763,7 +835,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q099",
@@ -791,7 +866,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2020_prelims_340cc53d::q100",
@@ -819,7 +897,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }
