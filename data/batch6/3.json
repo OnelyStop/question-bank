@@ -77,9 +77,10 @@
       "difficulty": 3,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "The correct choice is option (e) . Refer to the first paragraph which mentions, “The country, which has seen a rapid proliferation of city bars and nightclubs in recent years, is fast shedding its inhibitions about alcohol as a lifestyle choice. This situation has led to fears of an undocumented rise in alcohol abuse not only among poorer classes but also in sections of society that were previously considered dry.”"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "The correct choice is option (e) . Refer to the first paragraph which mentions, “The country, which has seen a rapid proliferation of city bars and nightclubs in recent years, is fast shedding its inhibitions about alcohol as a lifestyle choice. This situation has led to fears of an undocumented rise in alcohol abuse not only among poorer classes but also in sections of society that were previously considered dry.”",
+      "answer": "d"
     },
     {
       "q_id": "ibps_po_2022_prelims_f125e774::q003",
