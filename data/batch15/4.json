@@ -560,9 +560,10 @@
       "difficulty": 2,
       "section": "Reasoning",
       "topic": "Puzzle",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "From the given statements, A is not placed in A2 zone. So, here we have two possible cases i.e., case 1 and case 2. H is placed in the same zone as A. B is not placed in A1 zone. B is placed with G in the same zone. G is not placed in A3 zone. H is not placed in A3 zone. So, case 2 gets eliminated here. Only F is placed with D in the same zone. E is not placed in the zone in which H is placed. So, the final arrangement is-"
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "From the given statements, A is not placed in A2 zone. So, here we have two possible cases i.e., case 1 and case 2. H is placed in the same zone as A. B is not placed in A1 zone. B is placed with G in the same zone. G is not placed in A3 zone. H is not placed in A3 zone. So, case 2 gets eliminated here. Only F is placed with D in the same zone. E is not placed in the zone in which H is placed. So, the final arrangement is-",
+      "answer": "a"
     },
     {
       "q_id": "sbi_clerk_2022_prelims_1544a614::q020",
