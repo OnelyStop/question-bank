@@ -2586,7 +2586,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q096",
@@ -2614,7 +2617,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q097",
@@ -2642,7 +2648,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q098",
@@ -2670,7 +2679,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q099",
@@ -2698,7 +2710,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q100",
@@ -2726,7 +2741,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q101",
@@ -2754,7 +2772,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q102",
@@ -2782,7 +2803,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q103",
@@ -3090,7 +3114,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q114",
@@ -3118,7 +3145,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q115",
@@ -3146,7 +3176,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }

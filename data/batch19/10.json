@@ -604,7 +604,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_5ed0c217::q022",
