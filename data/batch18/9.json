@@ -294,7 +294,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q011",
@@ -322,7 +325,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q012",
@@ -350,7 +356,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q013",
@@ -378,7 +387,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Coding_Decoding"
+      "topic": "Coding_Decoding",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q014",
@@ -518,7 +530,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q019",
@@ -2032,7 +2047,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q076",
@@ -2060,7 +2078,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q077",
@@ -2150,7 +2171,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q080",
