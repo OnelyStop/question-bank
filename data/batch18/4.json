@@ -1614,7 +1614,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q053",
@@ -1770,7 +1773,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q058",
@@ -1830,7 +1836,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q060",
@@ -1890,7 +1899,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q062",
@@ -1918,7 +1930,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q063",
@@ -2009,7 +2024,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q066",
@@ -2037,7 +2055,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q067",
@@ -2544,9 +2565,10 @@
       "difficulty": 5,
       "section": "English",
       "topic": "Reading_Comprehension",
-      "answer_source": "same_pdf",
-      "answer_confidence": 0.2,
-      "explanation": "Both the options (b) and (c) are correct. Refer to paragraph 2 where it is given that if a business is not innovative, companies risk losing work to competitors. Furthermore the text is also quoted as, \"Lack of innovation also has indirect results such as losing staff and decreasing engagement.\" Thus innovation cannot be an afterthought but rather a crucial element that is included in part of your strategy. Hence option (e) is the correct choice."
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "Both the options (b) and (c) are correct. Refer to paragraph 2 where it is given that if a business is not innovative, companies risk losing work to competitors. Furthermore the text is also quoted as, \"Lack of innovation also has indirect results such as losing staff and decreasing engagement.\" Thus innovation cannot be an afterthought but rather a crucial element that is included in part of your strategy. Hence option (e) is the correct choice.",
+      "answer": "d"
     },
     {
       "q_id": "sbi_po_2018_mains_8b024b5b::q083",
