@@ -435,7 +435,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q016",
@@ -463,7 +466,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q017",
@@ -491,7 +497,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q018",
@@ -662,7 +671,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q024",
@@ -690,7 +702,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q025",
@@ -718,7 +733,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q026",
@@ -802,7 +820,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q029",
@@ -1306,7 +1327,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q047",
@@ -1334,7 +1358,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q048",
@@ -1362,7 +1389,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Banking_Awareness"
+      "topic": "Banking_Awareness",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q049",
@@ -1390,7 +1420,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q050",
@@ -1418,7 +1451,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q051",
@@ -1446,7 +1482,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q052",
@@ -1474,7 +1513,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q053",
@@ -1502,7 +1544,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q054",
@@ -1530,7 +1575,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q055",
@@ -1558,7 +1606,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q056",
@@ -1586,7 +1637,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q057",
@@ -1614,7 +1668,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q058",
@@ -1642,7 +1699,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q059",
@@ -1670,7 +1730,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q060",
@@ -1698,7 +1761,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q061",
@@ -1726,7 +1792,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q062",
@@ -1754,7 +1823,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q063",
@@ -1782,7 +1854,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Order_Ranking"
+      "topic": "Order_Ranking",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q064",
@@ -1810,7 +1885,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Computer",
-      "topic": "Computer_Basics"
+      "topic": "Computer_Basics",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q065",
@@ -1838,7 +1916,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q066",
@@ -1866,7 +1947,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q067",
@@ -1894,7 +1978,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q068",
@@ -1922,7 +2009,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q069",
@@ -1950,7 +2040,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q070",
@@ -1978,7 +2071,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q071",
@@ -2062,7 +2158,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q074",
@@ -2090,7 +2189,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q075",
@@ -2118,7 +2220,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q076",
@@ -2146,7 +2251,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Miscellaneous_GA"
+      "topic": "Miscellaneous_GA",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q077",
@@ -2174,7 +2282,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q078",
@@ -2202,7 +2313,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q079",
@@ -2230,7 +2344,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q080",
@@ -2258,7 +2375,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q081",
@@ -2286,7 +2406,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Miscellaneous_GA"
+      "topic": "Miscellaneous_GA",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q082",
@@ -2314,7 +2437,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q083",
@@ -2342,7 +2468,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q084",
@@ -2370,7 +2499,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Computer",
-      "topic": "Computer_Basics"
+      "topic": "Computer_Basics",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q085",
@@ -2398,7 +2530,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q086",
@@ -2519,7 +2654,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q090",
@@ -2547,7 +2685,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q092",
@@ -2575,7 +2716,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q093",
@@ -2603,7 +2747,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q094",
@@ -2631,7 +2778,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q096",
@@ -3682,7 +3832,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q133",
@@ -3710,7 +3863,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q134",
@@ -3906,7 +4062,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q141",
@@ -4270,7 +4429,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q154",
@@ -4298,7 +4460,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q155",
@@ -4326,7 +4491,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }
