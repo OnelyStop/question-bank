@@ -362,7 +362,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q012",
@@ -390,7 +393,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q013",
@@ -418,7 +424,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q014",
@@ -446,7 +455,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q015",
@@ -474,7 +486,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q016",
@@ -657,7 +672,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q022",
@@ -685,7 +703,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q023",
@@ -713,7 +734,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q024",
@@ -741,7 +765,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q025",
@@ -769,7 +796,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q026",
@@ -797,7 +827,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q027",
@@ -825,7 +858,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q028",
@@ -946,7 +982,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q032",
@@ -974,7 +1013,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q033",
@@ -1142,7 +1184,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q053",
@@ -1170,7 +1215,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q054",
@@ -1198,7 +1246,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q055",
@@ -1226,7 +1277,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q056",
@@ -1254,7 +1308,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q057",
@@ -1282,7 +1339,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q058",
@@ -1310,7 +1370,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q059",
@@ -1338,7 +1401,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q060",
@@ -1366,7 +1432,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q061",
@@ -1782,7 +1851,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q075",
@@ -1810,7 +1882,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q076",
@@ -1838,7 +1913,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q077",
@@ -1894,7 +1972,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q079",
@@ -1922,7 +2003,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q080",
@@ -2370,7 +2454,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_clerk_2024_prelims_05e2787a::q096",
