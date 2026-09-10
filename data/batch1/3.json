@@ -2876,7 +2876,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_clerk_2025_prelims_3e06dc26::q092",
