@@ -491,7 +491,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "legacy_sets:ce4d92f",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q018",
@@ -519,7 +522,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q019",
@@ -575,7 +581,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "b",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q021",
@@ -603,7 +612,10 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "e",
+      "answer_source": "exact_corpus_duplicate",
+      "answer_confidence": 0.9
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q022",
@@ -1191,7 +1203,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q048",
@@ -1219,7 +1234,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q049",
@@ -1247,7 +1265,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q050",
@@ -1275,7 +1296,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q051",
@@ -1303,7 +1327,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q052",
@@ -1331,7 +1358,10 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q053",

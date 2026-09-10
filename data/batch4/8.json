@@ -943,7 +943,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q077",
