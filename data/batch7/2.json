@@ -223,7 +223,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q008",
@@ -251,7 +254,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q009",
@@ -279,7 +285,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q010",
@@ -307,7 +316,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q011",
@@ -366,7 +378,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q013",
@@ -394,7 +409,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q014",
@@ -422,7 +440,10 @@
       "question_pattern": "data_sufficiency",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q015",
@@ -543,7 +564,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q019",
@@ -571,7 +595,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q020",
@@ -599,7 +626,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q021",
@@ -627,7 +657,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q022",
@@ -872,7 +905,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q030",
@@ -1055,7 +1091,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q036",
@@ -1083,7 +1122,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q037",
@@ -1297,7 +1339,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q044",
@@ -1325,7 +1370,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q045",
@@ -1353,7 +1401,10 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q046",
@@ -2156,7 +2207,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q072",
@@ -2184,7 +2238,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "GA",
-      "topic": "Current_Affairs"
+      "topic": "Current_Affairs",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q073",
@@ -2925,7 +2982,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q099",
@@ -2953,7 +3013,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q100",
@@ -2981,7 +3044,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q101",
@@ -3009,7 +3075,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q102",
@@ -3254,7 +3323,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q110",
@@ -3282,7 +3354,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q111",
@@ -3338,7 +3413,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q113",
@@ -3366,7 +3444,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q114",
@@ -3394,7 +3475,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q115",
@@ -3422,7 +3506,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q116",
@@ -3450,7 +3537,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q117",
@@ -3478,7 +3568,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Error_Spotting"
+      "topic": "Error_Spotting",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q118",
@@ -3537,7 +3630,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q120",
@@ -3565,7 +3661,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 5,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q121",
@@ -3593,7 +3692,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q122",
@@ -3621,7 +3723,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q123",
@@ -3649,7 +3754,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q124",
@@ -3677,7 +3785,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q125",
@@ -3705,7 +3816,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q126",
@@ -3733,7 +3847,10 @@
       "question_pattern": "table_di_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Data_Interpretation"
+      "topic": "Data_Interpretation",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q127",
@@ -3879,7 +3996,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2024_mains_a28ce3a4::q132",
