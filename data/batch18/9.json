@@ -1476,7 +1476,10 @@
       "question_pattern": "quantity_comparison",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Quadratic_Equation"
+      "topic": "Quadratic_Equation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2021_mains_4a32c76f::q054",

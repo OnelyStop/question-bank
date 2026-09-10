@@ -913,7 +913,10 @@
       "section": "Quantitative",
       "topic": "Approximation",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 1,
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q033",
@@ -1501,7 +1504,10 @@
       "section": "Quantitative",
       "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q056",
@@ -1529,7 +1535,10 @@
       "section": "Quantitative",
       "topic": "Approximation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q058",
@@ -1613,7 +1622,10 @@
       "section": "Quantitative",
       "topic": "Approximation",
       "question_pattern": "caselet_di_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q064",
