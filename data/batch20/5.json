@@ -825,7 +825,10 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 4,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2023_prelims_4b1e2ca9::q028",

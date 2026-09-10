@@ -553,7 +553,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q020",
@@ -581,7 +584,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q021",
@@ -609,7 +615,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q022",
@@ -637,7 +646,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q023",
@@ -665,7 +677,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q024",
@@ -693,7 +708,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q025",
@@ -721,7 +739,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q026",
@@ -749,7 +770,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 4,
       "section": "English",
-      "topic": "Cloze_Test"
+      "topic": "Cloze_Test",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2024_prelims_ff8452fa::q027",
