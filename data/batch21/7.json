@@ -709,7 +709,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Quadratic_Equation"
+      "topic": "Quadratic_Equation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2025_mains_cba8c243::q026",
@@ -737,7 +740,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Quadratic_Equation"
+      "topic": "Quadratic_Equation",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2025_mains_cba8c243::q027",
@@ -765,7 +771,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Quadratic_Equation"
+      "topic": "Quadratic_Equation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2025_mains_cba8c243::q028",

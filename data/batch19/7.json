@@ -1587,7 +1587,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Approximation"
+      "topic": "Approximation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_fb819c24::q066",

@@ -1773,7 +1773,10 @@
       "question_pattern": "match_the_columns",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Quadratic_Equation"
+      "topic": "Quadratic_Equation",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2020_prelims_71d3da53::q065",
@@ -1801,7 +1804,10 @@
       "question_pattern": "quadratic_comparison",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Inequality"
+      "topic": "Inequality",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2020_prelims_71d3da53::q066",
