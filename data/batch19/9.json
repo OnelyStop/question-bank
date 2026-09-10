@@ -109,7 +109,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q004",
@@ -137,7 +140,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q005",
@@ -165,7 +171,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q006",
@@ -193,7 +202,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q007",
@@ -221,7 +233,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q008",
@@ -249,7 +264,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q009",
@@ -401,7 +419,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q014",
@@ -429,7 +450,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q015",
@@ -457,7 +481,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 2,
       "section": "English",
-      "topic": "Vocabulary"
+      "topic": "Vocabulary",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q016",
@@ -485,7 +512,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q017",
@@ -513,7 +543,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q018",
@@ -541,7 +574,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q019",
@@ -569,7 +605,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q020",
@@ -597,7 +636,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q021",
@@ -625,7 +667,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q022",
@@ -653,7 +698,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q023",
@@ -681,7 +729,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q024",
@@ -709,7 +760,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q025",
@@ -737,7 +791,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Para_Jumble"
+      "topic": "Para_Jumble",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q026",
@@ -1060,7 +1117,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q037",
@@ -1088,7 +1148,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q038",
@@ -1116,7 +1179,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q039",
@@ -1144,7 +1210,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q040",
@@ -1172,7 +1241,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q041",
@@ -1200,7 +1272,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q042",
@@ -1228,7 +1303,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q044",
@@ -1256,7 +1334,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q045",
@@ -1284,7 +1365,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q052",
@@ -1424,7 +1508,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q062",
@@ -1452,7 +1539,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q063",
@@ -1480,7 +1570,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q064",
@@ -1508,7 +1601,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q065",
@@ -1536,7 +1632,10 @@
       "question_pattern": "reading_comprehension_set",
       "difficulty": 3,
       "section": "English",
-      "topic": "Reading_Comprehension"
+      "topic": "Reading_Comprehension",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q069",
@@ -1564,7 +1663,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q070",
@@ -1592,7 +1694,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q071",
@@ -1620,7 +1725,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q072",
@@ -1648,7 +1756,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q073",
@@ -1676,7 +1787,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 1,
       "section": "Quantitative",
-      "topic": "Number_Series"
+      "topic": "Number_Series",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q074",
@@ -1704,7 +1818,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q075",
@@ -1732,7 +1849,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q076",
@@ -1760,7 +1880,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q077",
@@ -1788,7 +1911,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Puzzle"
+      "topic": "Puzzle",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q078",
@@ -1816,7 +1942,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q079",
@@ -1844,7 +1973,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q080",
@@ -1872,7 +2004,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Miscellaneous_Reasoning"
+      "topic": "Miscellaneous_Reasoning",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q081",
@@ -1993,7 +2128,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 2,
       "section": "Reasoning",
-      "topic": "Alphanumeric"
+      "topic": "Alphanumeric",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q085",
@@ -2021,7 +2159,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q086",
@@ -2049,7 +2190,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q087",
@@ -2077,7 +2221,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q088",
@@ -2105,7 +2252,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q089",
@@ -2133,7 +2283,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q090",
@@ -2161,7 +2314,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q091",
@@ -2189,7 +2345,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q092",
@@ -2217,7 +2376,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q093",
@@ -2245,7 +2407,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Blood_Relation"
+      "topic": "Blood_Relation",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q094",
@@ -2273,7 +2438,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q095",
@@ -2301,7 +2469,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 3,
       "section": "Reasoning",
-      "topic": "Direction_Sense"
+      "topic": "Direction_Sense",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q096",
@@ -2329,7 +2500,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q097",
@@ -2357,7 +2531,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q098",
@@ -2385,7 +2562,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q099",
@@ -2413,7 +2593,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_00b907bd::q100",
@@ -2441,7 +2624,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Reasoning",
-      "topic": "Seating_Arrangement"
+      "topic": "Seating_Arrangement",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     }
   ]
 }
