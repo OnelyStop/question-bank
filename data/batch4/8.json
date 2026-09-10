@@ -35,7 +35,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q047",
@@ -91,7 +94,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "English",
-      "topic": "Sentence_Improvement"
+      "topic": "Sentence_Improvement",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q049",
@@ -267,7 +273,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "b",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q055",
@@ -915,7 +924,10 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 4,
       "section": "Quantitative",
-      "topic": "Fill_in_the_Blanks"
+      "topic": "Fill_in_the_Blanks",
+      "answer": "d",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q076",
@@ -1006,7 +1018,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Miscellaneous_Quant"
+      "topic": "Miscellaneous_Quant",
+      "answer": "e",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q079",
@@ -1034,7 +1049,10 @@
       "question_pattern": "standalone_mcq",
       "difficulty": 3,
       "section": "Quantitative",
-      "topic": "Arithmetic"
+      "topic": "Arithmetic",
+      "answer": "c",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "ibps_po_2018_mains_92c89501::q080",

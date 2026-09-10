@@ -412,9 +412,10 @@
       "difficulty": 3,
       "section": "English",
       "topic": "Vocabulary",
-      "answer_source": "solutions_pdf:Formatted-IBPS-PO-Prelims-2021-Memory-Based-Paper-Based-on-4th-December-2021-Solutions-1.pdf",
-      "answer_confidence": 0.2,
-      "explanation": "All of the given words are similar in meaning to the highlighted word. Hence, option (e) is the right answer choice. The word ‘shallow’ means not exhibiting, requiring, or capable of serious thought. (a) superficial- lacking depth of character or understanding. (b) frivolous- not having any serious purpose or value. (c) trivial- of little value or importance."
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5,
+      "explanation": "All of the given words are similar in meaning to the highlighted word. Hence, option (e) is the right answer choice. The word ‘shallow’ means not exhibiting, requiring, or capable of serious thought. (a) superficial- lacking depth of character or understanding. (b) frivolous- not having any serious purpose or value. (c) trivial- of little value or importance.",
+      "answer": "a"
     },
     {
       "q_id": "ibps_po_2021_prelims_f5ec5a2d::q014",
