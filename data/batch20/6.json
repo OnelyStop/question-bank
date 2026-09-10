@@ -1653,7 +1653,10 @@
       "section": "Reasoning",
       "topic": "Inequality",
       "question_pattern": "quadratic_comparison",
-      "difficulty": 2
+      "difficulty": 2,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q066",
@@ -2107,7 +2110,10 @@
       "section": "Reasoning",
       "topic": "Inequality",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 3,
+      "answer": "a",
+      "answer_source": "internal_model_reasoned",
+      "answer_confidence": 0.5
     },
     {
       "q_id": "sbi_po_2022_prelims_e7e5a9f8::q082",
