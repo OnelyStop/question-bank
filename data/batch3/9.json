@@ -218,7 +218,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "GA",
       "topic": "Current_Affairs"
     },
@@ -279,7 +279,7 @@
       "question_pattern": "caselet_di_set",
       "difficulty": 5,
       "section": "Reasoning",
-      "topic": "Arithmetic",
+      "topic": "Miscellaneous_Reasoning",
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -308,7 +308,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "answer": "c",
@@ -339,7 +339,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Reasoning",
       "topic": "Direction_Sense",
       "answer": "d",
@@ -370,7 +370,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Reasoning",
       "topic": "Direction_Sense"
     },
@@ -398,7 +398,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Reasoning",
       "topic": "Direction_Sense",
       "answer": "a",
@@ -428,7 +428,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Reasoning",
       "topic": "Direction_Sense"
     },
@@ -455,7 +455,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Reasoning",
       "topic": "Direction_Sense"
     },
@@ -545,7 +545,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "answer": "d",
@@ -728,7 +728,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "answer": "d",
@@ -1246,7 +1246,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "answer": "b",
@@ -1277,7 +1277,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Quantitative",
       "topic": "Arithmetic"
     },
@@ -1307,7 +1307,7 @@
       "question_pattern": "shared_directions_set",
       "difficulty": 5,
       "section": "Quantitative",
-      "topic": "Input_Output"
+      "topic": "Miscellaneous_Quant"
     },
     {
       "q_id": "ibps_po_2017_mains_0a7c0e02::q044",
@@ -1333,7 +1333,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant"
     },
@@ -1361,7 +1361,7 @@
       "has_image": false,
       "image_refs": [],
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant"
     }

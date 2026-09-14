@@ -45,7 +45,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -76,7 +76,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q003",
@@ -104,7 +104,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -135,7 +135,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -165,7 +165,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q006",
@@ -192,7 +192,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q007",
@@ -220,7 +220,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -251,7 +251,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q009",
@@ -279,7 +279,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -310,7 +310,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -341,7 +341,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -372,7 +372,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -403,7 +403,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -434,7 +434,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -465,7 +465,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -496,7 +496,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -527,7 +527,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -558,7 +558,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -589,7 +589,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -620,7 +620,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -651,7 +651,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -682,7 +682,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "exact_corpus_duplicate",
       "answer_confidence": 0.9
@@ -713,7 +713,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q024",
@@ -741,7 +741,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q025",
@@ -769,7 +769,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q026",
@@ -797,7 +797,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q027",
@@ -825,7 +825,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -856,7 +856,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -887,7 +887,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -918,7 +918,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -949,7 +949,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -980,7 +980,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1011,7 +1011,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1042,7 +1042,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1073,7 +1073,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1104,7 +1104,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q037",
@@ -1132,7 +1132,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q038",
@@ -1160,7 +1160,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q039",
@@ -1188,7 +1188,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q040",
@@ -1216,7 +1216,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q041",
@@ -1244,7 +1244,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q042",
@@ -1272,7 +1272,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1303,7 +1303,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1334,7 +1334,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1365,7 +1365,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1396,7 +1396,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1427,7 +1427,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1458,7 +1458,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1489,7 +1489,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1520,7 +1520,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "caselet_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1691,7 +1691,7 @@
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1722,7 +1722,7 @@
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1753,7 +1753,7 @@
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1784,7 +1784,7 @@
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1815,7 +1815,7 @@
       "section": "Quantitative",
       "topic": "Miscellaneous_Quant",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1846,7 +1846,7 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1877,7 +1877,7 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1908,7 +1908,7 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1939,7 +1939,7 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1970,7 +1970,7 @@
       "section": "Reasoning",
       "topic": "Floor_Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2001,7 +2001,7 @@
       "section": "Reasoning",
       "topic": "Inequality",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2032,7 +2032,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2063,7 +2063,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2094,7 +2094,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2125,7 +2125,7 @@
       "section": "Reasoning",
       "topic": "Alphanumeric",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q078",
@@ -2151,9 +2151,9 @@
       "has_image": false,
       "image_refs": [],
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks",
+      "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2184,7 +2184,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2215,7 +2215,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2246,7 +2246,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2277,7 +2277,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q083",
@@ -2305,7 +2305,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "standalone_mcq",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "q_id": "sbi_po_2022_prelims_eec909f1::q084",
@@ -2333,7 +2333,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2364,7 +2364,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2395,7 +2395,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2426,7 +2426,7 @@
       "section": "Reasoning",
       "topic": "Alphanumeric",
       "question_pattern": "standalone_mcq",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2767,7 +2767,7 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2798,7 +2798,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2829,7 +2829,7 @@
       "section": "Reasoning",
       "topic": "Syllogism",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5

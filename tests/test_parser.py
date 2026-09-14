@@ -11,6 +11,8 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
+import fitz
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from harness import check, line, step  # noqa: E402
 
@@ -277,6 +279,22 @@ def test_complete_question_is_never_a_picture():
            "direction_id": None, "on_image": True}]
     parser.resolve_image_bodied(qs)
     check("stem and options present", qs[0]["has_image"], False)
+
+
+def test_vector_chart_region_is_an_image_region():
+    drawings = [
+        {"items": [("l", fitz.Point(10, 10), fitz.Point(10, 90))],
+         "rect": fitz.Rect(10, 10, 10, 90)},
+        {"items": [
+            ("l", fitz.Point(20, 120), fitz.Point(20, 220)),
+            ("l", fitz.Point(20, 220), fitz.Point(180, 220)),
+            ("re", fitz.Rect(35, 170, 50, 220)),
+            ("re", fitz.Rect(70, 140, 85, 220)),
+        ], "rect": fitz.Rect(20, 120, 180, 220)},
+    ]
+    check("fraction-like line ignored, chart kept",
+          parser.vector_image_regions(drawings),
+          [(20.0, 120.0, 180.0, 220.0)])
 
 
 # --- inline ad credit lines ---------------------------------------------------

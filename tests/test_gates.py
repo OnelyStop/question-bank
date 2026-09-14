@@ -93,6 +93,13 @@ def test_raised_ordinal():
                  defects(question(stem="Who was born on 28th June?")))
 
 
+def test_glyph_substitution():
+    check_in("replacement glyph caught", "glyph_substitution",
+             defects(question(stem="Find the radius \ufffdr\ufffd cm.")))
+    check_in("private-use glyph caught", "glyph_substitution",
+             defects(question(stem="Find the value of \ue001.")))
+
+
 def test_translation_tail():
     # A bilingual paper prints the question twice; removing the Hindi strands
     # its ASCII "?" after the English one. 11 of 4,778 merged questions had it.
@@ -190,6 +197,33 @@ def test_stringified_null():
 def test_placeholder_stem():
     check_in("stem that is only its number", "placeholder_stem",
              defects(question(stem="Question 66.")))
+
+
+def test_bleed_in_stem():
+    check_in("option run in stem caught", "option_run_bleed",
+             defects(question(stem="Find the error. (a) Foo (b) Bar (c) Baz")))
+    check_in("direction in stem caught", "direction_bleed",
+             defects(question(stem="Find x. Directions (76-80): Study the graph.")))
+
+
+def test_math_stem_length_floor():
+    check_in("near-empty math stem caught", "math stem too short",
+             defects(question(stem="I. II.", topic="Quadratic_Equation")))
+    check_not_in("ordinary short prose topic not caught", "math stem too short",
+                 defects(question(stem="I. II.", topic="Syllogism")))
+
+
+def test_image_reference_gates():
+    check_in("question image needs refs", "has_image is true",
+             defects(question(has_image=True, image_refs=[])))
+    check_in("direction image needs refs", "direction_has_image is true",
+             defects(question(direction_has_image=True, direction_image_refs=[])))
+    check_in("chart mention needs image flag", "chart text but no image flag",
+             defects(question(direction_text="The line graph shows profit over years.")))
+    check_not_in("flagged chart with refs is fine", "chart text but no image flag",
+                 defects(question(direction_text="The line graph shows profit over years.",
+                                  direction_has_image=True,
+                                  direction_image_refs=["chart.png"])))
 
 
 def test_boilerplate():
