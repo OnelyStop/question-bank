@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -24,6 +25,15 @@ REQUIRED = ("q_id", "paper_id", "q_num", "stem", "options", "direction_id",
             "direction_text", "direction_has_image", "direction_image_refs",
             "bank", "role", "exam_type", "year", "memory_based",
             "has_image", "image_refs")
+
+TOPIC_TAXONOMY = REPO / "pipeline" / "2-classify" / "topic_taxonomy.json"
+CHART_TEXT_RE = re.compile(r"\b(?:line\s+graph|bar\s+graph|pie\s+chart)\b", re.I)
+MATH_SHORT_TOPICS = {
+    "Simplification",
+    "Approximation",
+    "Quadratic_Equation",
+    "Number_Series",
+}
 
 
 def schema_fields() -> set[str]:
@@ -39,6 +49,15 @@ def schema_fields() -> set[str]:
     """
     schema = json.loads((REPO / "schema" / "schema.json").read_text(encoding="utf-8"))
     return set(schema["properties"])
+
+
+def topic_to_section() -> dict[str, str]:
+    taxonomy = json.loads(TOPIC_TAXONOMY.read_text(encoding="utf-8"))
+    return {
+        topic: section
+        for section, topics in (taxonomy.get("sections") or {}).items()
+        for topic in topics
+    }
 
 RULES = [
     # (name, field-selector, pattern) -- pattern hit == defect
@@ -76,6 +95,15 @@ RULES = [
      )),
 ]
 
+EXTRACTION_BACKLOG_RULES = [
+    # Replacement/private-use glyphs mean a PDF glyph could not be decoded.
+    ("glyph_substitution", "any", re.compile("[\uFFFD\uE000-\uF8FF]")),
+    ("option_run_bleed", "stem",
+     re.compile(r"(?s)\(a\).*\(b\).*\(c\)")),
+    ("direction_bleed", "stem",
+     re.compile(r"(?i)Directions?\s*[\(\d]|Q\s*\d+\s*\.|Question\s+\d+")),
+]
+
 
 # A field carrying the WORD "null" rather than the value. JSON writes null and
 # Python writes None, so text like this is never something the parser emits --
@@ -111,7 +139,40 @@ def texts(q: dict, selector: str):
         yield "direction", q.get("direction_text") or ""
 
 
-def check_paper(path: Path, paper: dict, declared: set[str] | None = None) -> list[str]:
+def extraction_backlog(q: dict) -> list[str]:
+    observations: list[str] = []
+    stem = q.get("stem") or ""
+    if q.get("topic") in MATH_SHORT_TOPICS and len(stem.strip()) < 12:
+        observations.append(f"q{q.get('q_num')}: math stem too short for "
+                            f"{q.get('topic')}: {stem[:60]!r}")
+    if q.get("has_image") and not q.get("image_refs"):
+        observations.append(f"q{q.get('q_num')}: has_image is true but image_refs is empty")
+    if q.get("direction_has_image") and not q.get("direction_image_refs"):
+        observations.append(f"q{q.get('q_num')}: direction_has_image is true but "
+                            "direction_image_refs is empty")
+    chart_text = " ".join(str(q.get(k) or "") for k in ("stem", "direction_text"))
+    if (
+        CHART_TEXT_RE.search(chart_text)
+        and not q.get("has_image")
+        and not q.get("direction_has_image")
+    ):
+        observations.append(f"q{q.get('q_num')}: chart text but no image flag: "
+                            f"{chart_text[:60]!r}")
+    for name, selector, pat in EXTRACTION_BACKLOG_RULES:
+        for where, text in texts(q, selector):
+            if pat.search(text):
+                observations.append(f"q{q.get('q_num')}: {name} in {where}: "
+                                    f"{text[:60]!r}")
+    return observations
+
+
+def check_paper(
+    path: Path,
+    paper: dict,
+    declared: set[str] | None = None,
+    *,
+    strict_extraction: bool = False,
+) -> list[str]:
     errs: list[str] = []
     qs = paper.get("questions") or []
     nums = [q.get("q_num") for q in qs]
@@ -155,6 +216,8 @@ def check_paper(path: Path, paper: dict, declared: set[str] | None = None) -> li
         stem = q.get("stem") or ""
         if stem.count("{") != stem.count("}"):
             errs.append(f"q{q.get('q_num')}: unbalanced braces in stem")
+        if strict_extraction:
+            errs.extend(extraction_backlog(q))
         stringified = stringified_nulls(q)
         if stringified:
             errs.append(f"q{q.get('q_num')}: field(s) hold the WORD not the value "
@@ -172,6 +235,10 @@ def main(argv: list[str] | None = None) -> int:
     declared = schema_fields()
     papers = 0
     questions = 0
+    missing_sections = 0
+    topic_section_mismatches = 0
+    topic_home = topic_to_section()
+    extraction_backlog_counts: Counter[str] = Counter()
     failures: list[str] = []
 
     for root in roots:
@@ -187,6 +254,16 @@ def main(argv: list[str] | None = None) -> int:
                 continue
             papers += 1
             questions += len(paper["questions"])
+            for q in paper["questions"]:
+                if not q.get("section"):
+                    missing_sections += 1
+                topic = q.get("topic")
+                section = q.get("section")
+                if topic and section and topic_home.get(topic) and topic_home[topic] != section:
+                    topic_section_mismatches += 1
+                for item in extraction_backlog(q):
+                    key = item.split(": ", 1)[1].split(" in ", 1)[0].split(":", 1)[0]
+                    extraction_backlog_counts[key] += 1
             for err in check_paper(path, paper, declared):
                 failures.append(f"{path.relative_to(REPO) if path.is_relative_to(REPO) else path}: {err}")
 
@@ -205,6 +282,13 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"  OK — {questions} questions in {papers} papers, no known defect "
           f"patterns, no field outside schema.json's {len(declared)}")
+    print(f"  section_null={missing_sections}, "
+          f"topic_section_mismatch={topic_section_mismatches}")
+    if extraction_backlog_counts:
+        summary = ", ".join(
+            f"{name}={count}" for name, count in extraction_backlog_counts.most_common()
+        )
+        print(f"  extraction_backlog: {summary}")
     return 0
 
 

@@ -36,6 +36,15 @@ TOPIC_BUMP: dict[str, int] = {
     "Error_Spotting": 0,
 }
 
+ROLE_BUMP: dict[str, int] = {
+    "PO": 1,
+    "SO": 1,
+    "Grade_B": 1,
+    "Clerk": 0,
+    "Assistant": 0,
+    "RRB": 0,
+}
+
 
 def infer_difficulty(
     question: dict[str, Any],
@@ -44,6 +53,7 @@ def infer_difficulty(
     pattern = question.get("question_pattern") or "standalone_mcq"
     topic = question.get("topic") or ""
     exam_type = (paper or {}).get("exam_type") or question.get("exam_type")
+    role = (paper or {}).get("role") or question.get("role")
 
     score = PATTERN_BASE.get(pattern, 3)
     score += TOPIC_BUMP.get(topic, 0)
@@ -52,6 +62,8 @@ def infer_difficulty(
         score += 1
     elif exam_type and str(exam_type).lower() == "prelims":
         score -= 0
+    if role:
+        score += ROLE_BUMP.get(str(role), 0)
 
     # Long shared directions tend to be heavier
     dt = question.get("direction_text") or ""

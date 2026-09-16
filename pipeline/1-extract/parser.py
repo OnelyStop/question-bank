@@ -133,6 +133,7 @@ ORDINAL_RE = re.compile(r"(?i)st|nd|rd|th")
 # arrive from equation-set papers, so fold them before anything reads the text
 # -- to_latex works in \d, and a bold 1 left it silently declining to convert.
 MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
+CHART_TEXT_RE = re.compile(r"\b(?:line\s+graph|bar\s+graph|pie\s+chart)\b", re.I)
 
 
 def normalise(text: str) -> str:
@@ -622,6 +623,7 @@ def image_regions(pdf: Path) -> dict[int, bool]:
         for page in doc:
             blocks = page.get_text("dict").get("blocks") or []
             images = [b["bbox"] for b in blocks if b.get("type") == 1]
+            images.extend(vector_image_regions(page.get_drawings()))
             if not images:
                 continue
             gutter = find_gutter(blocks, page.rect.width)
@@ -647,6 +649,47 @@ def image_regions(pdf: Path) -> dict[int, bool]:
     finally:
         doc.close()
     return found
+
+
+def vector_image_regions(drawings: list[dict]) -> list[tuple[float, float, float, float]]:
+    """Bounding boxes for vector-drawn charts/figures.
+
+    PyMuPDF reports embedded bitmaps as text blocks with type == 1, but many DI
+    charts are PDF drawing commands: axes, plot lines, bars or pie wedges. A
+    lone fraction bar is also a drawing command, so require a cluster with a
+    real figure-sized bounding box before treating it like an image region.
+    """
+    regions: list[tuple[float, float, float, float]] = []
+    for drawing in drawings:
+        rect = drawing.get("rect")
+        items = drawing.get("items") or []
+        if rect is not None:
+            x0, y0, x1, y1 = float(rect.x0), float(rect.y0), float(rect.x1), float(rect.y1)
+        else:
+            xs: list[float] = []
+            ys: list[float] = []
+            for item in items:
+                kind = item[0]
+                if kind == "l":
+                    for p in item[1:3]:
+                        xs.append(float(p.x))
+                        ys.append(float(p.y))
+                elif kind == "re":
+                    r = item[1]
+                    xs.extend([float(r.x0), float(r.x1)])
+                    ys.extend([float(r.y0), float(r.y1)])
+                elif kind == "c":
+                    for p in item[1:]:
+                        xs.append(float(p.x))
+                        ys.append(float(p.y))
+            if not xs or not ys:
+                continue
+            x0, y0, x1, y1 = min(xs), min(ys), max(xs), max(ys)
+        width = x1 - x0
+        height = y1 - y0
+        if len(items) >= 4 and width >= 36 and height >= 24:
+            regions.append((x0, y0, x1, y1))
+    return regions
 
 
 def read_text(pdf: Path) -> str:
@@ -1059,15 +1102,15 @@ def full_question(q: dict, paper_id: str, meta: dict) -> dict:
         "options": q["options"],
         "direction_id": q.get("direction_id"),
         "direction_text": q.get("direction_text"),
-        "direction_has_image": False,
-        "direction_image_refs": [],
+        "direction_has_image": bool(q.get("direction_has_image")),
+        "direction_image_refs": q.get("direction_image_refs") or [],
         "bank": meta.get("bank"),
         "role": meta.get("role"),
         "exam_type": meta.get("exam_type"),
         "year": meta.get("year"),
         "memory_based": meta.get("memory_based", False),
         "has_image": bool(q.get("has_image")),
-        "image_refs": [],
+        "image_refs": q.get("image_refs") or [],
     }
 
 
@@ -1299,6 +1342,7 @@ def parse(pdf: Path) -> dict:
             # once they are all built -- see resolve_image_bodied.
             "on_image": bool(has_image_at.get(num)),
             "direction_text": d_text,
+            "direction_has_image": bool(d_text and CHART_TEXT_RE.search(d_text)),
             "direction_id": direction_ids.setdefault(
                 d_text, f"d{len(direction_ids) + 1:03d}") if d_text else None,
         })

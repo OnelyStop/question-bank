@@ -44,7 +44,13 @@ from label_sections import (  # noqa: E402
     infer_section,
     propagate_direction_sections,
 )
-from label_topics import TOPIC_RULES, FALLBACK_BY_SECTION, infer_labels, load_taxonomy  # noqa: E402
+from label_topics import (  # noqa: E402
+    TOPIC_RULES,
+    FALLBACK_BY_SECTION,
+    infer_labels,
+    infer_topic,
+    load_taxonomy,
+)
 from patterns import PRIMARY_SKILLS, SECONDARY_SKILLS  # noqa: E402
 from strip_bilingual import strip_question_fields  # noqa: E402
 
@@ -115,11 +121,68 @@ def scrub_audit_fields(question: dict[str, Any]) -> None:
         question.pop(key, None)
 
 
+def topic_to_section_map(taxonomy: dict[str, Any]) -> dict[str, str]:
+    return {
+        topic: section
+        for section, topics in (taxonomy.get("sections") or {}).items()
+        for topic in topics
+    }
+
+
+def repair_topic_for_section(
+    q: dict[str, Any],
+    *,
+    allowed_topics: set[str],
+    topic_to_section: dict[str, str],
+    stats: dict[str, Any],
+) -> None:
+    """Ensure final section/topic pairs agree with the taxonomy.
+
+    Section propagation can change a question's section after an earlier
+    cross-section topic match. If the topic no longer belongs to the final
+    section, drop it and try a section-constrained topic before falling back
+    to the section's Miscellaneous bucket.
+    """
+    section = q.get("section")
+    topic = q.get("topic")
+    if not section:
+        return
+    if topic and topic_to_section.get(topic) == section:
+        return
+
+    if topic:
+        q.pop("topic", None)
+        stats["topic_sources"]["repaired_section_topic_conflict"] += 1
+
+    inferred, _confidence, source, rule_section = infer_topic(
+        section,
+        q.get("direction_text"),
+        q.get("stem"),
+        q.get("options"),
+    )
+    if (
+        inferred
+        and inferred in allowed_topics
+        and topic_to_section.get(inferred) == section
+        and source != "rules_cross_section"
+        and (rule_section is None or rule_section == section)
+    ):
+        q["topic"] = inferred
+        stats["topic_sources"][f"repair_{source}"] += 1
+        return
+
+    fallback = FALLBACK_BY_SECTION.get(section)
+    if fallback and fallback in allowed_topics:
+        q["topic"] = fallback
+        stats["topic_sources"]["repair_section_fallback"] += 1
+
+
 def classify_paper(
     paper: dict[str, Any],
     *,
     force: bool,
     allowed_topics: set[str],
+    topic_to_section: dict[str, str],
     pattern_enum: set[str],
     pattern_topic_hints: dict[str, tuple[str, str]],
 ) -> dict[str, Any]:
@@ -222,6 +285,14 @@ def classify_paper(
             0, stats["topic_sources"]["unlabelled"] - n_topic
         )
 
+    for q in paper.get("questions") or []:
+        repair_topic_for_section(
+            q,
+            allowed_topics=allowed_topics,
+            topic_to_section=topic_to_section,
+            stats=stats,
+        )
+
     # A later section fill can leave an otherwise empty question without a
     # topic. The taxonomy explicitly provides a Miscellaneous_* bucket for
     # this case, so never ship a known section with a blank topic.
@@ -246,11 +317,21 @@ def classify_paper(
         # Topic hint from pattern if still missing (canonical naming_conventions map)
         if not q.get("topic") and pattern in pattern_topic_hints:
             sec_hint, topic_hint = pattern_topic_hints[pattern]
-            if topic_hint in allowed_topics:
+            if (
+                topic_hint in allowed_topics
+                and (not q.get("section") or q.get("section") == sec_hint)
+            ):
                 q["topic"] = topic_hint
                 if not q.get("section"):
                     q["section"] = sec_hint
                 stats["topic_sources"]["pattern_hint"] += 1
+
+        repair_topic_for_section(
+            q,
+            allowed_topics=allowed_topics,
+            topic_to_section=topic_to_section,
+            stats=stats,
+        )
 
         q["difficulty"] = infer_difficulty(q, paper)
 
@@ -288,7 +369,8 @@ def run(
     dry_run: bool,
 ) -> dict[str, Any]:
     taxonomy = load_taxonomy(taxonomy_path)
-    allowed_topics = {t for topics in (taxonomy.get("sections") or {}).values() for t in topics}
+    topic_to_section = topic_to_section_map(taxonomy)
+    allowed_topics = set(topic_to_section)
     pattern_enum = load_pattern_enum(schema_path)
     pattern_topic_hints = load_pattern_topic_hints(naming_path)
     assert_classifier_vocab(
@@ -332,6 +414,7 @@ def run(
             paper,
             force=force,
             allowed_topics=allowed_topics,
+            topic_to_section=topic_to_section,
             pattern_enum=pattern_enum,
             pattern_topic_hints=pattern_topic_hints,
         )

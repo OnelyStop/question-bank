@@ -192,7 +192,7 @@
       "section": "Reasoning",
       "topic": "Alphanumeric",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q007",
@@ -220,7 +220,7 @@
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q008",
@@ -248,7 +248,7 @@
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q009",
@@ -695,7 +695,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -726,7 +726,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -755,9 +755,9 @@
       "has_image": false,
       "image_refs": [],
       "section": "English",
-      "topic": "Arithmetic",
+      "topic": "Miscellaneous_English",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -881,7 +881,7 @@
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q030",
@@ -909,7 +909,7 @@
       "section": "Reasoning",
       "topic": "Miscellaneous_Reasoning",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q031",
@@ -1220,7 +1220,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q042",
@@ -1248,7 +1248,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q043",
@@ -1338,7 +1338,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "match_the_columns",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q046",
@@ -1366,7 +1366,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q047",
@@ -1394,7 +1394,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q048",
@@ -1422,7 +1422,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q049",
@@ -1450,7 +1450,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q050",
@@ -1618,7 +1618,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1789,7 +1789,7 @@
       "section": "Quantitative",
       "topic": "Quadratic_Equation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q062",
@@ -1817,7 +1817,7 @@
       "section": "Quantitative",
       "topic": "Quadratic_Equation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q063",
@@ -1845,7 +1845,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1876,7 +1876,7 @@
       "section": "English",
       "topic": "Sentence_Improvement",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2031,7 +2031,7 @@
       "section": "Reasoning",
       "topic": "Inequality",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q070",
@@ -2059,7 +2059,7 @@
       "section": "Quantitative",
       "topic": "Arithmetic",
       "question_pattern": "standalone_mcq",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q121",
@@ -2087,7 +2087,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2118,7 +2118,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q123",
@@ -2177,7 +2177,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q125",
@@ -2205,7 +2205,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2236,7 +2236,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2267,7 +2267,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_mains_a38a0353::q128",
@@ -2295,7 +2295,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2326,7 +2326,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2357,7 +2357,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2388,7 +2388,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2419,7 +2419,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2450,7 +2450,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2481,7 +2481,7 @@
       "section": "English",
       "topic": "Fill_in_the_Blanks",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2512,7 +2512,7 @@
       "section": "English",
       "topic": "Fill_in_the_Blanks",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2543,7 +2543,7 @@
       "section": "English",
       "topic": "Fill_in_the_Blanks",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2962,7 +2962,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2993,7 +2993,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3024,7 +3024,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3055,7 +3055,7 @@
       "section": "English",
       "topic": "Error_Spotting",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3086,7 +3086,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3117,7 +3117,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5

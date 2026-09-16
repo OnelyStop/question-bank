@@ -13,6 +13,8 @@ from harness import check, step  # noqa: E402
 topics = step("2-classify", "label_topics")
 sections = step("2-classify", "label_sections")
 cleanup = step("2-classify", "remove_mojibake")
+runner = step("2-classify", "run_classify")
+difficulty = step("2-classify", "difficulty")
 
 
 def label(stem: str):
@@ -242,3 +244,66 @@ def test_sparse_question_types_receive_taxonomy_labels():
         label("Which statement can be assumed from the above sentence?"),
         ("Reasoning", "Miscellaneous_Reasoning"),
     )
+
+
+def test_section_propagation_repairs_incompatible_topic():
+    taxonomy = topics.load_taxonomy(Path(topics.__file__).with_name("topic_taxonomy.json"))
+    topic_to_section = runner.topic_to_section_map(taxonomy)
+    allowed_topics = set(topic_to_section)
+    pattern_enum = runner.load_pattern_enum(Path(runner.__file__).parents[2] / "schema" / "schema.json")
+    pattern_hints = runner.load_pattern_topic_hints(
+        Path(runner.__file__).with_name("naming_conventions.json")
+    )
+    paper = {
+        "paper_id": "demo",
+        "questions": [
+            {
+                "q_num": 1,
+                "section": "Reasoning",
+                "topic": "Puzzle",
+                "direction_id": "d1",
+                "direction_text": "Eight persons sit in a row facing north.",
+                "stem": "Who sits second to the left of A?",
+                "options": {},
+            },
+            {
+                "q_num": 2,
+                "section": "Reasoning",
+                "topic": "Fill_in_the_Blanks",
+                "direction_id": "d1",
+                "direction_text": "Eight persons sit in a row facing north.",
+                "stem": "____ sits third to the left of R.",
+                "options": {},
+            },
+            {
+                "q_num": 3,
+                "section": "Reasoning",
+                "topic": "Puzzle",
+                "direction_id": "d1",
+                "direction_text": "Eight persons sit in a row facing north.",
+                "stem": "How many persons sit between B and C?",
+                "options": {},
+            },
+        ],
+    }
+    runner.classify_paper(
+        paper,
+        force=False,
+        allowed_topics=allowed_topics,
+        topic_to_section=topic_to_section,
+        pattern_enum=pattern_enum,
+        pattern_topic_hints=pattern_hints,
+    )
+    check("blank-looking puzzle topic repaired", paper["questions"][1]["topic"], "Seating_Arrangement")
+
+
+def test_difficulty_has_role_axis():
+    q = {
+        "question_pattern": "standalone_mcq",
+        "topic": "Data_Interpretation",
+        "direction_text": "",
+    }
+    clerk = {"role": "Clerk", "exam_type": "Mains"}
+    po = {"role": "PO", "exam_type": "Mains"}
+    check("clerk mains score", difficulty.infer_difficulty(q, clerk), 4)
+    check("po mains score", difficulty.infer_difficulty(q, po), 5)

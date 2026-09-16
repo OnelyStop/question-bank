@@ -37,7 +37,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -68,7 +68,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q003",
@@ -96,7 +96,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -127,7 +127,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -157,7 +157,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q006",
@@ -184,7 +184,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q007",
@@ -212,7 +212,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -243,7 +243,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -274,7 +274,7 @@
       "section": "English",
       "topic": "Vocabulary",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -305,7 +305,7 @@
       "section": "English",
       "topic": "Reading_Comprehension",
       "question_pattern": "reading_comprehension_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -336,7 +336,7 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -367,7 +367,7 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -398,7 +398,7 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -429,7 +429,7 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -460,7 +460,7 @@
       "section": "English",
       "topic": "Cloze_Test",
       "question_pattern": "cloze_passage_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -491,7 +491,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -522,7 +522,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -553,7 +553,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -584,7 +584,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -615,7 +615,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -646,7 +646,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -677,7 +677,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -708,7 +708,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -739,7 +739,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -770,7 +770,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -801,7 +801,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -832,7 +832,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -863,7 +863,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -894,7 +894,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -925,7 +925,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -956,7 +956,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "quantity_comparison",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -987,7 +987,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "quantity_comparison",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1018,7 +1018,7 @@
       "section": "English",
       "topic": "Para_Jumble",
       "question_pattern": "quantity_comparison",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1273,7 +1273,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q043",
@@ -1301,7 +1301,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q044",
@@ -1329,7 +1329,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1360,7 +1360,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1391,7 +1391,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1422,7 +1422,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1453,7 +1453,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1484,7 +1484,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1515,7 +1515,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1546,7 +1546,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1577,7 +1577,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1608,7 +1608,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1639,7 +1639,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1670,7 +1670,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1701,7 +1701,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q057",
@@ -1729,7 +1729,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q058",
@@ -1757,7 +1757,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1788,7 +1788,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q060",
@@ -1816,7 +1816,7 @@
       "section": "Quantitative",
       "topic": "Data_Interpretation",
       "question_pattern": "table_di_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q061",
@@ -1844,7 +1844,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1875,7 +1875,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1906,7 +1906,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1937,7 +1937,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1968,7 +1968,7 @@
       "section": "Quantitative",
       "topic": "Number_Series",
       "question_pattern": "shared_directions_set",
-      "difficulty": 2,
+      "difficulty": 3,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -1999,7 +1999,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2030,7 +2030,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2061,7 +2061,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2092,7 +2092,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2123,7 +2123,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2154,7 +2154,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2185,7 +2185,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2216,7 +2216,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2247,7 +2247,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2278,7 +2278,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2309,7 +2309,7 @@
       "section": "Reasoning",
       "topic": "Coding_Decoding",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3
+      "difficulty": 4
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q077",
@@ -2337,7 +2337,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2368,7 +2368,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2399,7 +2399,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2430,7 +2430,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2461,7 +2461,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2492,7 +2492,7 @@
       "section": "Reasoning",
       "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2523,7 +2523,7 @@
       "section": "Reasoning",
       "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2554,7 +2554,7 @@
       "section": "Reasoning",
       "topic": "Blood_Relation",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 4,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2585,7 +2585,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2616,7 +2616,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "a",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2647,7 +2647,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2676,9 +2676,9 @@
       "has_image": false,
       "image_refs": [],
       "section": "Reasoning",
-      "topic": "Fill_in_the_Blanks",
+      "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 3,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2709,7 +2709,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2740,7 +2740,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2771,7 +2771,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q092",
@@ -2799,7 +2799,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q093",
@@ -2827,7 +2827,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q094",
@@ -2855,7 +2855,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4
+      "difficulty": 5
     },
     {
       "q_id": "sbi_po_2023_prelims_b7ec4c87::q095",
@@ -2883,7 +2883,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "c",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2914,7 +2914,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2945,7 +2945,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -2976,7 +2976,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "e",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3007,7 +3007,7 @@
       "section": "Reasoning",
       "topic": "Seating_Arrangement",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "b",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
@@ -3038,7 +3038,7 @@
       "section": "Reasoning",
       "topic": "Puzzle",
       "question_pattern": "shared_directions_set",
-      "difficulty": 4,
+      "difficulty": 5,
       "answer": "d",
       "answer_source": "internal_model_reasoned",
       "answer_confidence": 0.5
